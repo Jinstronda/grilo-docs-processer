@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__desktop-commander__list_directory",
+      "Bash(conda run:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "mcp__sequentialThinking__sequentialthinking"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

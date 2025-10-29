@@ -1,0 +1,10 @@
+# Debug and output files
+debug_*.json
+*_output.json
+test_output.json
+docai_output.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
