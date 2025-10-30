@@ -1,33 +1,61 @@
-# Environment
-.env
-*.env.local
-
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
 venv/
-env/
 ENV/
-
-# Google credentials
-.google_docai_credentials.json
-
-# Debug and output files
-debug_*.json
-*_output.json
-
-# Data files (large)
-*.pdf
+env/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+
+# Environment variables (CRITICAL - contains API keys!)
+.env
+.env.*
+*.env
+
+# Google credentials (CRITICAL - contains OAuth tokens!)
+.google_docai_credentials.json
+*_credentials.json
+*.json.credentials
+
+# Database (ignore local DBs - too large for git)
+data/*.db
+*.db
+
+# Temporary files
+*.tmp
+*_trimmed.pdf
+debug_*.json
+debug_*.py
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Output files (optional - comment out if you want to track)
+# samples/*.json
+# samples/*.csv

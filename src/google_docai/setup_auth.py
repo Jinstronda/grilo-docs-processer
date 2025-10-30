@@ -25,7 +25,7 @@ def setup_user_credentials():
     client_secret = os.getenv("DOCAI_OAUTH_CLIENT_SECRET")
 
     if not client_id or not client_secret:
-        print("✗ Error: DOCAI_OAUTH_CLIENT_ID and DOCAI_OAUTH_CLIENT_SECRET not found in .env")
+        print("[ERROR] DOCAI_OAUTH_CLIENT_ID and DOCAI_OAUTH_CLIENT_SECRET not found in .env")
         return
 
     # Create OAuth client configuration
@@ -55,7 +55,7 @@ def setup_user_credentials():
     with open(creds_path, 'w') as f:
         f.write(credentials.to_json())
 
-    print(f"\n✓ Credentials saved to: {creds_path}")
+    print(f"\n[OK] Credentials saved to: {creds_path}")
     print("\nYou can now run test_single.py")
 
 if __name__ == "__main__":

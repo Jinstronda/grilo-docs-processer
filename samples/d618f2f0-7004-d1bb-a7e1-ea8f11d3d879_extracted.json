@@ -1,0 +1,3587 @@
+{
+  "contract_id": "d618f2f0-7004-d1bb-a7e1-ea8f11d3d879",
+  "tables": [
+    {
+      "table_id": "4",
+      "page": 1,
+      "rows": [
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": "Doentes",
+          "col_3": "Equivalentes",
+          "col_4": null,
+          "col_5": null,
+          "col_6": null
+        },
+        {
+          "row_name": "1. Consultas Externas:",
+          "col_1": "ICM",
+          "col_2": "N.°",
+          "col_3": "%",
+          "col_4": "Preço Unitário (Euros)",
+          "col_5": "Quantidade",
+          "col_6": "Valor (Euros)"
+        },
+        {
+          "row_name": "N° de 1ªs consultas médicas (s/majoração)",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 45.4,
+          "col_5": 36107,
+          "col_6": 1639257.8
+        },
+        {
+          "row_name": "N° de 1ªs consultas referenciadas (CTH)",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 49.94,
+          "col_5": 7683,
+          "col_6": 383689.02
+        },
+        {
+          "row_name": "Nº de 1ªs consultas (Telemedicina)",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 49.94,
+          "col_5": 195,
+          "col_6": 9738.3
+        },
+        {
+          "row_name": "N° de 1ºs consultas na comunidade (Saúde mental)",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 49.94,
+          "col_5": 25,
+          "col_6": 1248.5
+        },
+        {
+          "row_name": "N° de consultas subsequentes médicas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 45.4,
+          "col_5": 110203,
+          "col_6": 5003216.2
+        },
+        {
+          "row_name": "N° de consultas subsequentes (Telemedicina)",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 49.94,
+          "col_5": 105,
+          "col_6": 5243.7
+        },
+        {
+          "row_name": "N° de consultas subsequentes na comunidade",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 49.94,
+          "col_5": 225,
+          "col_6": 11236.5
+        },
+        {
+          "row_name": "Valor Total das Consultas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": 7053630.02
+        },
+        {
+          "row_name": "2. Internamento:",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null
+        },
+        {
+          "row_name": "Doentes Saídos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null
+        },
+        {
+          "row_name": "GDH Médicos",
+          "col_1": 0.8992,
+          "col_2": 8553,
+          "col_3": 94.45,
+          "col_4": 2184.53,
+          "col_5": 9056,
+          "col_6": 16800909.15
+        },
+        {
+          "row_name": "GDH Cirúrgicos",
+          "col_1": 0.8275,
+          "col_2": 2285,
+          "col_3": 99.87,
+          "col_4": 2184.53,
+          "col_5": 2288,
+          "col_6": 4130591.24
+        },
+        {
+          "row_name": "GDH Cirúrgicos Urgentes",
+          "col_1": 0.8275,
+          "col_2": 861,
+          "col_3": 99.87,
+          "col_4": 2075.31,
+          "col_5": 862,
+          "col_6": 1478611.68
+        },
+        {
+          "row_name": "Dias de Internamento de Doentes Crónicos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null
+        },
+        {
+          "row_name": "Doentes Medicina Fisica e Reabilitação",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 0.0,
+          "col_5": 0,
+          "col_6": 0.0
+        },
+        {
+          "row_name": "Doentes de Psiquiatria Crónicos no Hospital",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 73.7,
+          "col_5": 700,
+          "col_6": 51590.0
+        },
+        {
+          "row_name": "Doentes de Reabilitação Psicossocial",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 0.0,
+          "col_5": 0,
+          "col_6": 0.0
+        },
+        {
+          "row_name": "Doentes Crónicos Ventilados",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 0.0,
+          "col_5": 0,
+          "col_6": 0.0
+        },
+        {
+          "row_name": "Doentes Crónicos de Hansen Doentes Crónicos da Pneumologia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": "0,00 € 0,00 €",
+          "col_5": 0,
+          "col_6": "0,00 € 0,00 €"
+        },
+        {
+          "row_name": "Valor Total do Internamento",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": 22461702.07
+        },
+        {
+          "row_name": "3. Episódios de GDH de Am bulatório:",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null
+        },
+        {
+          "row_name": "GDH Cirúrgicos",
+          "col_1": 0.3481,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 2184.53,
+          "col_5": 1393,
+          "col_6": 1059285.81
+        },
+        {
+          "row_name": "GDH Médicos",
+          "col_1": 0.1992,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 2184.53,
+          "col_5": 1590,
+          "col_6": 691901.82
+        },
+        {
+          "row_name": "Valor Total dos GDH de Ambulatório",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": 1751187.63
+        },
+        {
+          "row_name": "4. Urgências:",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null
+        },
+        {
+          "row_name": "Atendimentos (SU- Polivalente)",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 0.0,
+          "col_5": 0,
+          "col_6": 0.0
+        },
+        {
+          "row_name": "Atendimentos (SU-Médico-Cirúrgica)",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 56.16,
+          "col_5": 67000,
+          "col_6": 3762720.0
+        },
+        {
+          "row_name": "Atendimentos (SU- Básica)",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 0.0,
+          "col_5": 0,
+          "col_6": 0.0
+        },
+        {
+          "row_name": "Valor Total dos Atendimentos Urgentes",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": 3762720.0
+        },
+        {
+          "row_name": "5. Sessões em Hospital de Dia:",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null
+        },
+        {
+          "row_name": "Base",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 20.98,
+          "col_5": 8958,
+          "col_6": 187938.84
+        },
+        {
+          "row_name": "Hermatologia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 305.75,
+          "col_5": 148,
+          "col_6": 45251.0
+        },
+        {
+          "row_name": "Imuno-Hemoterapia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 305.75,
+          "col_5": 535,
+          "col_6": 163576.25
+        },
+        {
+          "row_name": "Psiquiatria",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 31.76,
+          "col_5": 5079,
+          "col_6": 161309.04
+        },
+        {
+          "row_name": "Psiquiatria - Unidades Socio-Ocupacionais",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 31.76,
+          "col_5": 0,
+          "col_6": 0.0
+        },
+        {
+          "row_name": "Valor Total do Hospital de Dia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": 558075.13
+        }
+      ]
+    },
+    {
+      "table_id": "276",
+      "page": 2,
+      "rows": [
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": "Doentes Equivalentes",
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "ICM",
+          "col_1": "N.°",
+          "col_2": "Preço Unitário (Euros) %",
+          "col_3": "Quantidade",
+          "col_4": "Valor (Euros)"
+        },
+        {
+          "row_name": "6. Programas de Gestão da Doença Crónica",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "VIH/Sida (doentes em TARC)",
+          "col_1": null,
+          "col_2": 9547.44,
+          "col_3": 95,
+          "col_4": 907006.8
+        },
+        {
+          "row_name": "Hipertensão Arterial Pulmonar doentes em",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Pré-tratamento/seguimento 1º ano",
+          "col_1": null,
+          "col_2": 8758.56,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Seguimento após 1º ano CF≤ I",
+          "col_1": null,
+          "col_2": 23495.4,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Seguimento após 1º ano CF M",
+          "col_1": null,
+          "col_2": 169336.92,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Esclerose múltipla doentes em terapêutica",
+          "col_1": null,
+          "col_2": 12895.68,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "VHC-novos doentes",
+          "col_1": null,
+          "col_2": 9442.0,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Tratamento de doentes c/ patologia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Cancro da mama (1º ano)",
+          "col_1": null,
+          "col_2": 9107.52,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Cancro do colon e reto (1º ano)",
+          "col_1": null,
+          "col_2": 13639.2,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Cancro do colo do útero (1º ano)",
+          "col_1": null,
+          "col_2": 13409.76,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "7. Saúde Sexual e Reprodutiva",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "IVG até 10 semanas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Medicamentosa (n.° I.V.G.)",
+          "col_1": null,
+          "col_2": 294.9,
+          "col_3": 110,
+          "col_4": 32439.0
+        },
+        {
+          "row_name": "Cirúrgica (n.° I.V.G.)",
+          "col_1": null,
+          "col_2": 383.97,
+          "col_3": 5,
+          "col_4": 1919.85
+        },
+        {
+          "row_name": "Diagnóstico Pré-Natal",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Protocolo I",
+          "col_1": null,
+          "col_2": 39.29,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Protocolo II",
+          "col_1": null,
+          "col_2": 67.3,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "8. Sessões de Radioterapia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Tratamentos simples",
+          "col_1": null,
+          "col_2": 108.89,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Tratamentos complexos",
+          "col_1": null,
+          "col_2": 261.37,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "9. Serviços Domiciliários",
+          "col_1": null,
+          "col_2": 34.48,
+          "col_3": 7534,
+          "col_4": 259772.32
+        },
+        {
+          "row_name": "10. Lar (IPO)",
+          "col_1": null,
+          "col_2": 65.57,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "11. Outros:",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Próteses",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Implante coclear",
+          "col_1": null,
+          "col_2": 20715.08,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Banda gástrica",
+          "col_1": null,
+          "col_2": 1476.51,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Desfibrilhador cardíaco",
+          "col_1": null,
+          "col_2": 17135.4,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Prótese da anca",
+          "col_1": null,
+          "col_2": 1246.04,
+          "col_3": 80,
+          "col_4": 99683.2
+        },
+        {
+          "row_name": "Neuro estimulador intracraniano",
+          "col_1": null,
+          "col_2": 18856.18,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Neuro estimulador medular",
+          "col_1": null,
+          "col_2": 19883.69,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Neuro estimulador periférico",
+          "col_1": null,
+          "col_2": 1359.53,
+          "col_3": 0,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Medicamentos de cedència hospitalar em",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 478800.0
+        },
+        {
+          "row_name": "تجابيطهمógio",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Internos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 541338.2
+        },
+        {
+          "row_name": "Valor da Produção Contratada",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 37908274.22
+        },
+        {
+          "row_name": "Incentivos institucionais",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 199517233.0
+        },
+        {
+          "row_name": "Convergência",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 0.0
+        },
+        {
+          "row_name": "Valor Total do Contrato",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": 39903446.55
+        }
+      ]
+    },
+    {
+      "table_id": "493",
+      "page": 3,
+      "rows": [
+        {
+          "row_name": "Objetivos Nacionais",
+          "col_1": "Periodo Análise",
+          "col_2": ": Dezembro"
+        },
+        {
+          "row_name": "Acesso",
+          "col_1": "Pesos Relativos (%)",
+          "col_2": "Meta"
+        },
+        {
+          "row_name": null,
+          "col_1": 60.0,
+          "col_2": null
+        },
+        {
+          "row_name": "Percentagem das primeiras consultas no total de consultas médicas (%) Percentagem de utentes referenciados para consulta externa atendidos em tempo adequado (%) Peso das consultas externas comregisto de alta no total de consultas externas (%) Percentagem de doentes crurgicos tratados em tempo adequado (%)",
+          "col_1": "15,00 3.00 3.00 3.00",
+          "col_2": "30,3 95.5 5,0"
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "Permlagem de doentes sinalizados para a RNCCI, em tempo adequado, no total de doentes saldos (%) Desempenho Assistencial",
+          "col_1": 300300,
+          "col_2": "96.5 4,00"
+        },
+        {
+          "row_name": "Demora média (dias)",
+          "col_1": 25.0,
+          "col_2": null
+        },
+        {
+          "row_name": "Percentagem de reinternamentos em 30 dias (%)",
+          "col_1": 400,
+          "col_2": 7.8
+        },
+        {
+          "row_name": "Percentagem de doentes saidos com duração de internamento acıma do Imar maximo (%) Percentagem de partos por cesariana (%)",
+          "col_1": 400400,
+          "col_2": 90135
+        },
+        {
+          "row_name": "Percentagem de cirurgias realizadas em ambulatório no total de cirurgias programadas (GDH) - para procedimentos ambulatorizáveis (%)",
+          "col_1": 400300,
+          "col_2": "33,96 44.0"
+        },
+        {
+          "row_name": "Percentagem de consumo de embalagens de madicamentos genericos, no total de embalagens de medicamentos (%) Taxa de registo de utilização da Lista de Verificação de Atividade Cirúrgica Indicador referente à cirurgia segura (%) Desempenho Económico/Financeiro",
+          "col_1": "3,00 3,00",
+          "col_2": "35.00 >=95.0"
+        },
+        {
+          "row_name": "Percentagem dos custos comhoras extraordinarias, suplementos e FSE (seleccionados), no total de custos com pessoal (%) (E) EBITDA Acréscimo de Divida Vencida (€)",
+          "col_1": "20,00 5.00 5.00",
+          "col_2": "18,5 -15.264 451,16"
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "Percentagem de proveitos operacionais extra contrato-programa, no total de proveitos (operacionais) (%) Objetivos Regionais",
+          "col_1": "5.00 5,00",
+          "col_2": "0,00 8.0"
+        }
+      ]
+    },
+    {
+      "table_id": "538",
+      "page": 3,
+      "rows": [
+        {
+          "row_name": null,
+          "col_1": "Pesos Relativos (%)",
+          "col_2": "Meta"
+        },
+        {
+          "row_name": "Percentagem de Partos Vaginais realizados com Analgesia Epidural (%) Percentagem de GDH Cirúrgicos Urgentes no Total de GDH Cirúrgicos (%) Percentagem de Episodios de Internamento com Complicações (%)",
+          "col_1": "40,00 8.00 8,00",
+          "col_2": "7,0 31.0"
+        },
+        {
+          "row_name": "TIME da Lista de Espera Cirúrgica (meses)",
+          "col_1": 8.0,
+          "col_2": 13
+        },
+        {
+          "row_name": "Percentagem de Custos com Produtos Farmacéuticos no Total dos Custos Operacionais (%)",
+          "col_1": 800800,
+          "col_2": 35165
+        }
+      ]
+    },
+    {
+      "table_id": "582",
+      "page": 6,
+      "rows": [
+        {
+          "row_name": "Obrigações",
+          "col_1": "Ano"
+        },
+        {
+          "row_name": "Avaliação de desempenho",
+          "col_1": null
+        },
+        {
+          "row_name": "Carta de direitos e deveres dos utentes",
+          "col_1": null
+        },
+        {
+          "row_name": "Inquéritos de satisfação aos utentes e profissionais",
+          "col_1": null
+        },
+        {
+          "row_name": "Políticas de melhoria",
+          "col_1": null
+        },
+        {
+          "row_name": "Programa de monitorização e avaliação de resultados",
+          "col_1": null
+        },
+        {
+          "row_name": "Sistema de acreditação/certificação total da instituição",
+          "col_1": null
+        },
+        {
+          "row_name": "Sistema de informação",
+          "col_1": null
+        },
+        {
+          "row_name": "Equipamentos e sistemas médicos",
+          "col_1": null
+        },
+        {
+          "row_name": "Contratualização Interna",
+          "col_1": null
+        }
+      ]
+    },
+    {
+      "table_id": "606",
+      "page": 7,
+      "rows": [
+        {
+          "row_name": "Áreas",
+          "col_1": "Obrigação",
+          "col_2": "Penalização (P)"
+        },
+        {
+          "row_name": "A. Programas de promoção do acesso (25%)",
+          "col_1": "A.1 SIGIC Cumprir as regras definidas no Manual de Gestão de Inscritos para Cirurgia (MGIC), de acordo com a metodologia da determinação e contestação das não conformidades publicada pela ACSS, I.P. (25%) (alínea a) do n^{\\circ}1 da Cláusula 6^{a} do Anexo)",
+          "col_2": "Não haverá lugar a penalização quando % NC\\le5\\% A penalização é aplicada pela seguinte fórmula, até ao limite de Valor Contrato x 1\\%\\times25\\% P= Valor NC simples +Valor NC grave + Valor NC materiais Valor NC simples =1/20\\times PBR\\times N^{0} NC simples Valor NC graves =3\\times1/20\\times PBR\\times N^{\\circ} NC graves Valor NC materiais =1/200\\times3\\times1/20\\times PBR\\times N^{\\circ} entradas x N° falhas \\times N^{0} NC materiais"
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "B. Reporte de informação (35%)",
+          "col_1": "B.1 Reporte mensal de informação assistencial através do SICA até ao dia 10 (15%) (alínea b) do n.^{\\circ}1 da Cláusula 6^{a} do Anexo) B.2 Reporte de informação financeira no SIEF mensalmente até ao dia 10 (20%) (alínea b) do n.^{\\circ}1 da Cláusula 6^{a} do Anexo)",
+          "col_2": "Reporte em data posterior ao dia 10 em cada mês de incumprimento P= valor contrato x 1%x 15% x (1/12) Reporte em data posterior ao dia 10 em cada mês de incumprimento P= valor contrato x 1%x 20% x (1/12)"
+        },
+        {
+          "row_name": "C. Faturação eletrónica",
+          "col_1": "C.1 Encerramento do processo de faturação da atividade assistencial em 90 dias (10%) (alínea c) do n.º 1 da Cláusula 6^{a} do Anexo)",
+          "col_2": "Faturação posterior a 90 dias P= valor contrato x 1%x 10%"
+        },
+        {
+          "row_name": "(20%)",
+          "col_1": "C.2 Encerramento do processo de faturação referente aos objetivos em 180 dias (10%) (alínea d) do n.^{\\circ}1 da Cláusula 6ª do Anexo) D.1 Disponibilização das notas de altas médicas dos doentes saídos no periodo (4%) (alínea e) do n^{\\circ}1 da Cláusula 6^{a} do Anexo)",
+          "col_2": "Faturação posterior a 180 dias P= valor contrato x 1%x 10% Disponibilização <75% P= valor contrato x 1%x 4%"
+        },
+        {
+          "row_name": "D. Plataforma de dados da Saúde",
+          "col_1": "D.2 Disponibilização das notas de altas de enfermagem dos doentes saídos no período (4%)",
+          "col_2": "Disponibilização <75% P= valor contrato x 1%x 4%"
+        },
+        {
+          "row_name": "(10%)",
+          "col_1": "(alínea e) do n.^{\\circ}1 da Cláusula 6^{a} do Anexo)",
+          "col_2": null
+        },
+        {
+          "row_name": "E. Cobrança de receita (10%)",
+          "col_1": "D.3 Disponibilização das notas das notas de transferências dos doentes saídos das UCI (2%) (alínea e) do n.^{\\circ}1 da Cláusula 6^{a} do Anexo) E.1. Cobrança efetiva da receita (10%) (alínea f) do n^{\\circ}1 da Cláusula 6^{a} do Anexo)",
+          "col_2": "Disponibilização <75% p= valor contrato x 1%x 2% Cobrança < 90% valor contrato x 1%x 10% P="
+        }
+      ]
+    },
+    {
+      "table_id": "642",
+      "page": 8,
+      "rows": [
+        {
+          "row_name": "711-Vendas",
+          "col_1": "Valor Estimado 2012 2.310,00 €",
+          "col_2": "Valor Contratualizado 2013",
+          "col_3": "% Var 2013/ 2012"
+        },
+        {
+          "row_name": "- 712-Prestações de serviços 7121Internamento",
+          "col_1": "40.121.363,82 € 19.954.752,94 €",
+          "col_2": "42.177.645,64 € 23.054.689,52 €",
+          "col_3": "5,1% 15,5%"
+        },
+        {
+          "row_name": "7122-Consulta",
+          "col_1": 7705497.51,
+          "col_2": 7305763.87,
+          "col_3": -5.2
+        },
+        {
+          "row_name": "7123 -Urgência/SAP",
+          "col_1": 4449527.95,
+          "col_2": 4032720.0,
+          "col_3": -9.4
+        },
+        {
+          "row_name": "7124-Quartos particulares",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "7125-Hospital de dia 7126-Meios comp. de diagnóstico e terapêutica 71261-De diagnóstico",
+          "col_1": "1.966.538,17 € 308.673,90 € 308.673,90 €",
+          "col_2": "1.465.081,93 € 300.000,00 € 300.000,00 €",
+          "col_3": "-25,5% -2,8% -2,8%"
+        },
+        {
+          "row_name": "71262-De terapêutica",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "7127-Taxas moderadoras",
+          "col_1": 1061365.41,
+          "col_2": 1000000.0,
+          "col_3": -5.8
+        },
+        {
+          "row_name": "7128-Outras Prestações de Serviços de Saúde",
+          "col_1": 2842546.54,
+          "col_2": 2482879.9,
+          "col_3": -12.7
+        },
+        {
+          "row_name": "71281-Serviço domiciliário",
+          "col_1": 260566.55,
+          "col_2": 263804.32,
+          "col_3": 1.2
+        },
+        {
+          "row_name": "71282-GDH de Ambulatório",
+          "col_1": 1987435.11,
+          "col_2": 1766332.08,
+          "col_3": -11.1
+        },
+        {
+          "row_name": "71283-Programas verticais",
+          "col_1": 594544.88,
+          "col_2": 452743.5,
+          "col_3": -23.9
+        },
+        {
+          "row_name": "71284-Plano de convergência",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "71285-Valor Capitacional (valor a facturar pelas ULS)",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "71289-Outras prestações serviços de saúde",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "7129-Outras prestações de serviços",
+          "col_1": 1832461.4,
+          "col_2": 2536510.42,
+          "col_3": 38.4
+        },
+        {
+          "row_name": "Sub-Total",
+          "col_1": 40123673.82,
+          "col_2": 42177645.64,
+          "col_3": 5.12
+        },
+        {
+          "row_name": "% S/ Total Geral",
+          "col_1": 95.49,
+          "col_2": 96.54,
+          "col_3": null
+        },
+        {
+          "row_name": "72-impostos e taxas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "% S/ Total Geral",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "73-Proveitos suplementares",
+          "col_1": 202458.53,
+          "col_2": 202458.53,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "% S/ Total Geral",
+          "col_1": 0.48,
+          "col_2": 0.46,
+          "col_3": null
+        },
+        {
+          "row_name": "74-Transf. e subsidios correntes obtidos",
+          "col_1": 121621.24,
+          "col_2": 121621.24,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "741-Transferências-Tesouro",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "742-Transferências correntes obtidas",
+          "col_1": 114912.86,
+          "col_2": 114912.86,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "7421-Da ACSS",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "7422-Do PIDDA C",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "7423-Do FSE",
+          "col_1": 63376.29,
+          "col_2": 63376.29,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "7429-Outras Transferências Correntes Obtidas",
+          "col_1": 51536.57,
+          "col_2": 51536.57,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "743-Sub. correntes obtidos-Outros entes públicos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "749-Sub. correntes obtidos-De outras entidades",
+          "col_1": 6708.38,
+          "col_2": 6708.38,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "Sub-Total",
+          "col_1": 121621.24,
+          "col_2": 121621.24,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "% S/ Total Geral",
+          "col_1": 0.29,
+          "col_2": 0.28,
+          "col_3": null
+        },
+        {
+          "row_name": "75-Trabalhos para a própria entidade",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "% S/ Total Geral",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "76-Outros proveitos e ganhos operacionais",
+          "col_1": 953609.24,
+          "col_2": 719231.64,
+          "col_3": -24.6
+        },
+        {
+          "row_name": "762-Reembolsos",
+          "col_1": 838961.6,
+          "col_2": 604584.0,
+          "col_3": -27.9
+        },
+        {
+          "row_name": "763-Produtos de fabricação interna",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "768-Outros não espec. alheios valor acrescentado",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "769-Outros",
+          "col_1": 114647.64,
+          "col_2": 114647.64,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "Sub-Total",
+          "col_1": 953609.24,
+          "col_2": 719231.64,
+          "col_3": -24.58
+        },
+        {
+          "row_name": "%S/ Total Geral",
+          "col_1": 2.27,
+          "col_2": 1.65,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "811",
+      "page": 8,
+      "rows": [
+        {
+          "row_name": "78-Proveitos e ganhos financeiros",
+          "col_1": null,
+          "col_2": 200000.0,
+          "col_3": 50000.0,
+          "col_4": -75.0
+        },
+        {
+          "row_name": null,
+          "col_1": "%S/ Total Geral",
+          "col_2": 0.48,
+          "col_3": 0.11,
+          "col_4": null
+        },
+        {
+          "row_name": "79-Proveitos e ganhos extraordinários",
+          "col_1": null,
+          "col_2": 418682.12,
+          "col_3": 418682.12,
+          "col_4": 0.0
+        },
+        {
+          "row_name": null,
+          "col_1": "% S/ Total Geral",
+          "col_2": 1.0,
+          "col_3": 0.96,
+          "col_4": null
+        },
+        {
+          "row_name": null,
+          "col_1": "TOTAL GERAL",
+          "col_2": 42020044.95,
+          "col_3": 43689639.17,
+          "col_4": 3.97
+        }
+      ]
+    },
+    {
+      "table_id": "844",
+      "page": 9,
+      "rows": [
+        {
+          "row_name": null,
+          "col_1": "Valor Estimado 2012",
+          "col_2": "Valor Contratualizado 2013",
+          "col_3": "% Var 2013/ 2012"
+        },
+        {
+          "row_name": "612-Mercadorias",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "616-Matérias de consumo",
+          "col_1": 11989261.43,
+          "col_2": 12589261.43,
+          "col_3": 5.0
+        },
+        {
+          "row_name": "6161-Produtos Farmacêuticos",
+          "col_1": 9486444.78,
+          "col_2": 10086444.78,
+          "col_3": 6.3
+        },
+        {
+          "row_name": "61611-Medicamentos",
+          "col_1": 7796102.39,
+          "col_2": 8396102.39,
+          "col_3": 7.7
+        },
+        {
+          "row_name": "61612/9-Reagentes/Outros produtos farmacêuticos",
+          "col_1": 1690342.39,
+          "col_2": 1690342.39,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "6162-Material consumo clínico",
+          "col_1": 2116448.38,
+          "col_2": 2116448.38,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "6163-Produtos alimentares",
+          "col_1": 1435.49,
+          "col_2": 1435.49,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "6164-Material consumo hoteleiro",
+          "col_1": 151379.9,
+          "col_2": 151379.9,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "6165-Material consumo administrativo",
+          "col_1": 95718.09,
+          "col_2": 95718.09,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "6166-Material manutenção e conservação",
+          "col_1": 137834.79,
+          "col_2": 137834.79,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "6169-Outro material de consumo",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Sub-Total",
+          "col_1": 11989261.43,
+          "col_2": 12589261.43,
+          "col_3": 5.0
+        },
+        {
+          "row_name": "%S/Total Geral",
+          "col_1": 20.83,
+          "col_2": 21.05,
+          "col_3": null
+        },
+        {
+          "row_name": "6211-Assistência ambulatória",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6212-Meios complementares diagnóstico",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62121-Patologia clínica",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62122-Anatomia patológica",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62123-Imagiologia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62124-Cardiologia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62125-Bectroencefalografia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62126-Medicina nuclear",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62127-Gastrenterologia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62128-Pneumologia/Imunoalergologia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62129-Outros",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6213-Meios complementares terapêutica",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62131-Hemodiálise",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62132-Medicina fisica e reabilitação",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62133-Litotricia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62139-Outros",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6214-Prescrição medicam. e cuid. farmac.",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6215-Internamentos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6216-Transporte de doentes",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6217-Aparelhos complementares de terapêutica",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6218-Trabalhos executados no exterior",
+          "col_1": 3677180.15,
+          "col_2": 3677180.15,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "62181-Em entidades do M. Saúde",
+          "col_1": 1979342.83,
+          "col_2": 1979342.83,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "621811-Assistência ambulatória",
+          "col_1": 1023.0,
+          "col_2": 1023.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "621812-Meios complementares de diagnóstico",
+          "col_1": 1214485.16,
+          "col_2": 1214485.16,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "621813-Meios complementares de terapêutica",
+          "col_1": 763834.67,
+          "col_2": 763834.67,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "621814-Prescrição medicam. e cuid. farmac.",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "621815-Internamentos e transporte de doentes",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "621819-Outros trabalhos executados no exterior",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62189-Em outras entidades",
+          "col_1": 1697837.32,
+          "col_2": 1697837.32,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "621891-Assistência ambulatória",
+          "col_1": 120.0,
+          "col_2": 120.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "621892-Meios complementares diagnóstico",
+          "col_1": 991608.98,
+          "col_2": 99160898.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "621893-Meios complementares terapêutica",
+          "col_1": 100000.0,
+          "col_2": 100000.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "621894-Prescrição medicam. e cuid. farmac.",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "621895-Internamentos e transporte de doentes",
+          "col_1": 606108.34,
+          "col_2": 606108.34,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "621896-Aparelhos complementares de terapêutica",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "621897-Assistência no estrangeiro",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "621898-Termalismo social",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "621899-Outros trabalhos executados no exterior",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6219-Outros subcontratos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Sub-Total",
+          "col_1": 3677180.15,
+          "col_2": 3677180.15,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "% S/ Total Geral",
+          "col_1": 6.39,
+          "col_2": 6.15,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "1069",
+      "page": 10,
+      "rows": [
+        {
+          "row_name": "Centro Hospitalar Cova da Beira, EPE",
+          "col_1": null,
+          "col_2": "Periodo Análise: Dezembro 2013",
+          "col_3": null
+        },
+        {
+          "row_name": "6221-Fornecimentos e serviços I",
+          "col_1": "Valor Estimado 2012 2.394.501,50 €",
+          "col_2": "Valor Contratualizado 2013 2.394.501,50 €",
+          "col_3": "% Var 2013/ 2012 0,0%"
+        },
+        {
+          "row_name": "6222-Fornecimentos e serviços II",
+          "col_1": 783555.14,
+          "col_2": 783555.14,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "6223-Fornecimentos e serviços III",
+          "col_1": 3947424.17,
+          "col_2": 3947424.17,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "6229-Outros fornecimentos e serviços",
+          "col_1": 100000.0,
+          "col_2": 100000.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "Sub-Total",
+          "col_1": 7225480.81,
+          "col_2": 7225480.81,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "%S/ Total Geral",
+          "col_1": 12.55,
+          "col_2": 12.08,
+          "col_3": null
+        },
+        {
+          "row_name": "63-Transf. correntes conced. e prest. sociais",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "%S/ Total Geral",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "641-Remunerações dos orgãos directivos",
+          "col_1": 272075.0,
+          "col_2": 272075.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "642-Remunerações de pessoal",
+          "col_1": 27388810.32,
+          "col_2": 28060400.49,
+          "col_3": 2.5
+        },
+        {
+          "row_name": "6421-Remunerações base do pessoal",
+          "col_1": 18647159.0,
+          "col_2": 19324369.4,
+          "col_3": 3.6
+        },
+        {
+          "row_name": "64211-RCTFP por tempo indeterminado",
+          "col_1": 9233426.0,
+          "col_2": 9233426.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "64212-Pessoal c/ contrato a termo resolutivo",
+          "col_1": 839780.0,
+          "col_2": 839780.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "64213-Pessoal em regime Contrato Individual",
+          "col_1": 8517592.0,
+          "col_2": 9194802.4,
+          "col_3": 8.0
+        },
+        {
+          "row_name": "64214-Pessoal em qualquer outra situação",
+          "col_1": 56361.0,
+          "col_2": 5636100.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "6422-Suplementos de remunerações",
+          "col_1": 6874528.0,
+          "col_2": 5336889.55,
+          "col_3": -22.4
+        },
+        {
+          "row_name": "64221-Trabalho extraordinário",
+          "col_1": 3266808.0,
+          "col_2": 2511387.55,
+          "col_3": -23.1
+        },
+        {
+          "row_name": "642211-Horas extraordinárias",
+          "col_1": 2431073.0,
+          "col_2": 1869945.89,
+          "col_3": -23.1
+        },
+        {
+          "row_name": "642212-Prevenções",
+          "col_1": 835735.0,
+          "col_2": 641441.66,
+          "col_3": -23.2
+        },
+        {
+          "row_name": "64222-Trabalho em regime de turnos 642221-Noites e suplementos",
+          "col_1": "1.775.224,00 € 1.775.224,00 €",
+          "col_2": "983.612,00 € 983.612,00 €",
+          "col_3": "-44,6% -44,6%"
+        },
+        {
+          "row_name": "642222-Subsídio de turno",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "64223-Abono para falhas",
+          "col_1": 1285.0,
+          "col_2": 1285.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "64224-Subsídio de refeição",
+          "col_1": 117372400.0,
+          "col_2": 1183118.0,
+          "col_3": 0.8
+        },
+        {
+          "row_name": "64225-Ajudas de custo",
+          "col_1": 27183.0,
+          "col_2": 27183.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "64226/7-Vestuário e Art. Pess/Alim. e Alojam.",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "642281-PECLEC/SIGIC",
+          "col_1": 25904.0,
+          "col_2": 25904.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "642282/9-Outros Suplementos",
+          "col_1": 604400.0,
+          "col_2": 604400.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "6423-Prestações sociais directas",
+          "col_1": 45916.0,
+          "col_2": 45916.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "6424-Subsídios de férias e de Natal 6425 Prémios de desempenho",
+          "col_1": 1821207.32,
+          "col_2": 3353225.54,
+          "col_3": 84.1
+        },
+        {
+          "row_name": "643-Pensões",
+          "col_1": 41215.0,
+          "col_2": 41215.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "645-Encargos sobre remunerações 646-Seguros de acid. trab. e doenças profissionais",
+          "col_1": "5.045.037,79 € 152.740,43 €",
+          "col_2": "6.243.582,13 € 152.740,43 €",
+          "col_3": "23,8% 0,0%"
+        },
+        {
+          "row_name": "647-Encargos sociais voluntários",
+          "col_1": 90374.44,
+          "col_2": 90374.44,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "648-Outros custos com pessoal",
+          "col_1": 123098.33,
+          "col_2": 123098.33,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "649-Estágios Profissionais",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Sub-Total %S/ Total Geral",
+          "col_1": "33.113.351,31 € 57,54%",
+          "col_2": "34.983.485,82 € 58,5%",
+          "col_3": 5.65
+        },
+        {
+          "row_name": "65-Outros custos e perdas operacionais",
+          "col_1": 10000.0,
+          "col_2": 10000.0,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "% S/ Total Geral",
+          "col_1": 0.02,
+          "col_2": 0.02,
+          "col_3": null
+        },
+        {
+          "row_name": "66-Amortizações do exercício",
+          "col_1": 1117032.41,
+          "col_2": 931000.0,
+          "col_3": -16.65
+        },
+        {
+          "row_name": "% S/ Total Geral",
+          "col_1": 1.94,
+          "col_2": 1.56,
+          "col_3": null
+        },
+        {
+          "row_name": "67-Provisões do exercício",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "% S/ Total Geral",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "68-Custos e perdas financeiras",
+          "col_1": 288483.64,
+          "col_2": 288483.64,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "% S/ Total Geral",
+          "col_1": 0.5,
+          "col_2": 0.48,
+          "col_3": null
+        },
+        {
+          "row_name": "69-Custos e perdas extraordinários",
+          "col_1": 130000.0,
+          "col_2": 100000.0,
+          "col_3": -23.08
+        },
+        {
+          "row_name": "%S/ Total Geral",
+          "col_1": 0.23,
+          "col_2": 0.17,
+          "col_3": null
+        },
+        {
+          "row_name": "TOTAL GERAL",
+          "col_1": 57550789.75,
+          "col_2": 59804891.85,
+          "col_3": 3.92
+        }
+      ]
+    },
+    {
+      "table_id": "1266",
+      "page": 11,
+      "rows": [
+        {
+          "row_name": "Método Directo",
+          "col_1": "Valor Estimado 2012",
+          "col_2": "Valor Contratualizado % Var 2013/2012 2013"
+        }
+      ]
+    },
+    {
+      "table_id": "1270",
+      "page": 11,
+      "rows": [
+        {
+          "row_name": "Fluxos de Actividades Operacionais",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Recebimentos (+):",
+          "col_1": 53961606.41,
+          "col_2": 42606306.25,
+          "col_3": -21.04
+        },
+        {
+          "row_name": "Contrato-programa (produção)",
+          "col_1": 52061606.41,
+          "col_2": 40356207.9,
+          "col_3": -22.48
+        },
+        {
+          "row_name": "Dívidas de Terceiros (outras entidades)",
+          "col_1": 1900000.0,
+          "col_2": 2250098.35,
+          "col_3": 18.43
+        },
+        {
+          "row_name": "Contrato-Programa (convergência)",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Incentivos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Subsidios à Exploração",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Taxas Moderadoras (R)",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Outros (inclui outros operacionais e extraordinários)",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "1307",
+      "page": 11,
+      "rows": [
+        {
+          "row_name": "Pagamentos (-):",
+          "col_1": -53651125.62,
+          "col_2": -41885134.29,
+          "col_3": -21.93
+        },
+        {
+          "row_name": "Fornecedores e outros c/c",
+          "col_1": -21974073.09,
+          "col_2": -7406154.88,
+          "col_3": -66.3
+        },
+        {
+          "row_name": "Custos com Pessoal",
+          "col_1": -26459975.33,
+          "col_2": -28496788.82,
+          "col_3": 7.7
+        },
+        {
+          "row_name": "Transf. Correntes conced. e Prest. Sociais",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Outros (inclui outros operac. e extraord.)",
+          "col_1": -5217077.2,
+          "col_2": -5982190.59,
+          "col_3": 14.67
+        },
+        {
+          "row_name": "Fluxos de Actividades Operacionais",
+          "col_1": 310480.79,
+          "col_2": 721171.96,
+          "col_3": 132.28
+        }
+      ]
+    },
+    {
+      "table_id": "1332",
+      "page": 11,
+      "rows": [
+        {
+          "row_name": "Fluxos de Actividades de Investimento",
+          "col_1": null
+        },
+        {
+          "row_name": "Recebimentos provenientes de (+):",
+          "col_1": 680000.0
+        },
+        {
+          "row_name": "Investimentos Financeiros",
+          "col_1": null
+        },
+        {
+          "row_name": "Imobilizações Corpóreas",
+          "col_1": null
+        },
+        {
+          "row_name": "Imobilizações Incorpóreas",
+          "col_1": null
+        },
+        {
+          "row_name": "Subsídios ao Investimento",
+          "col_1": 680000.0
+        },
+        {
+          "row_name": "Juros e Proveitos Similares",
+          "col_1": null
+        },
+        {
+          "row_name": "Dividendos",
+          "col_1": null
+        },
+        {
+          "row_name": "Outros",
+          "col_1": null
+        }
+      ]
+    },
+    {
+      "table_id": "1351",
+      "page": 11,
+      "rows": [
+        {
+          "row_name": "Pagamentos respeitantes a (-):",
+          "col_1": -208963.28,
+          "col_2": -1112688.32,
+          "col_3": 432.48
+        },
+        {
+          "row_name": "Investimentos Financeiros",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Imobilizações Corpóreas",
+          "col_1": -208963.28,
+          "col_2": -1112688.32,
+          "col_3": 432.48
+        },
+        {
+          "row_name": "Imobilizações Incorpóreas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Fluxos de Actividades de Investimento",
+          "col_1": -208963.28,
+          "col_2": -432688.32,
+          "col_3": 107.06
+        }
+      ]
+    },
+    {
+      "table_id": "1372",
+      "page": 11,
+      "rows": [
+        {
+          "row_name": "Fluxos de Actividades de Financiamento"
+        },
+        {
+          "row_name": "Recebimentos provenientes de (+):"
+        },
+        {
+          "row_name": "Empréstimos Obtidos"
+        },
+        {
+          "row_name": "Aumentos de Capital e P. Suplementares"
+        },
+        {
+          "row_name": "Subsidios e Doações"
+        },
+        {
+          "row_name": "Vendas de Acções Próprias"
+        },
+        {
+          "row_name": "Cobertura de Prejuízos"
+        }
+      ]
+    },
+    {
+      "table_id": "1380",
+      "page": 11,
+      "rows": [
+        {
+          "row_name": "Pagamentos respeitantes a (-):",
+          "col_1": -288483.64,
+          "col_2": -288483.64,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "Empréstimos Obtidos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Amortizações de Contratos de Leasing",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Juros e Custos Similares",
+          "col_1": -288483.64,
+          "col_2": -288483.64,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "Dividendos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Reduções de Capital e P. Suplementares",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Aquisição de Acções Próprias",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Fluxos de Actividades de Financiamento",
+          "col_1": -288483.64,
+          "col_2": -288483.64,
+          "col_3": 0.0
+        }
+      ]
+    },
+    {
+      "table_id": "1413",
+      "page": 11,
+      "rows": [
+        {
+          "row_name": "Variação de Caixa e seus equivalentes",
+          "col_1": -186966.13,
+          "col_2": -0.0,
+          "col_3": -100.0
+        },
+        {
+          "row_name": "Caixa no início do período",
+          "col_1": 363617.5,
+          "col_2": 176651.37,
+          "col_3": -51.42
+        },
+        {
+          "row_name": "Caixa no fim do periodo",
+          "col_1": 176651.37,
+          "col_2": 176651.37,
+          "col_3": 0.0
+        }
+      ]
+    },
+    {
+      "table_id": "1435",
+      "page": 12,
+      "rows": [
+        {
+          "row_name": "Imobilizado",
+          "col_1": "AL- Activo Liquido 2012",
+          "col_2": "AB-Activo 2013",
+          "col_3": "Bruto AP-Amortizações AL-Activo Liquido ou Provisões 2013 2013"
+        }
+      ]
+    },
+    {
+      "table_id": "1440",
+      "page": 12,
+      "rows": [
+        {
+          "row_name": "Bens de dominio público"
+        },
+        {
+          "row_name": "451-Terrenos e recursos naturais"
+        },
+        {
+          "row_name": "452-Edificios"
+        },
+        {
+          "row_name": "453-Outras construções e infra-estruturas"
+        },
+        {
+          "row_name": "455-Bens do património hist., artist, e cultural"
+        },
+        {
+          "row_name": "459-Outros bens de domínio público"
+        },
+        {
+          "row_name": "445-Imobilizações em Curso de Bens de Dominio Público"
+        },
+        {
+          "row_name": "446-Adiantamento por Conta de Bens do Dominio Público"
+        },
+        {
+          "row_name": "Bens de dominio público"
+        }
+      ]
+    },
+    {
+      "table_id": "1450",
+      "page": 12,
+      "rows": [
+        {
+          "row_name": "Imobilizados Incorpóreos"
+        },
+        {
+          "row_name": "431-Despesas de Instalação"
+        },
+        {
+          "row_name": "432 Despesas de Investigação e Desenvolvimento"
+        },
+        {
+          "row_name": "443-Imobilizações em Curso de Imobilizações Incorpóreas"
+        },
+        {
+          "row_name": "449-Adiantamentos por Conta de Imobilizações Incorpóreas"
+        },
+        {
+          "row_name": "Imobilizados Incorpóreos"
+        }
+      ]
+    },
+    {
+      "table_id": "1457",
+      "page": 12,
+      "rows": [
+        {
+          "row_name": "Imobilizações Corpóreas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "421-Terrenos e Recursos Naturais",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "422-Edificios e Outras Construções",
+          "col_1": "32.789.280,03",
+          "col_2": "38.405.474,17",
+          "col_3": "5.240.385,19",
+          "col_4": "33.165.088,98"
+        },
+        {
+          "row_name": "423-Equipamento Básico",
+          "col_1": "1.531.149,50",
+          "col_2": "26.952.328,40",
+          "col_3": "24.402.882,92",
+          "col_4": "2.549.445,48"
+        },
+        {
+          "row_name": "424- Equipamento de Transporte",
+          "col_1": "82.870,72",
+          "col_2": "410.387,65",
+          "col_3": "311.640,58",
+          "col_4": "98.747,07"
+        },
+        {
+          "row_name": "425-Ferramentas e Utensilios",
+          "col_1": "2.190,34",
+          "col_2": "30.351,85",
+          "col_3": "28.891,24",
+          "col_4": "1.460,61"
+        },
+        {
+          "row_name": "426-Equipamento administrativo e Informático",
+          "col_1": "145.569,48",
+          "col_2": "8.513.303,33",
+          "col_3": "7.677.985,40",
+          "col_4": "835.317,93"
+        },
+        {
+          "row_name": "427-Taras e Vasilhame",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "429-Outras Imobilizações Corpóreas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "442- Imobilizações em Curso de Imobilizações Corpóreas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "448-Adiantamentos por Conta de Imobilizações Corpóreas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Imobilizações Corpóreas",
+          "col_1": "34.551.060,07",
+          "col_2": "74.311.845,40",
+          "col_3": "37.661.785,33",
+          "col_4": "36.650.060,07"
+        }
+      ]
+    },
+    {
+      "table_id": "1518",
+      "page": 12,
+      "rows": [
+        {
+          "row_name": "Investimentos Financeiros"
+        },
+        {
+          "row_name": "411-Partes de Capital"
+        },
+        {
+          "row_name": "412- Obrigações e Titulos de Participação"
+        },
+        {
+          "row_name": "414-Investimentos em Imóveis"
+        },
+        {
+          "row_name": "415-Outras Aplicações Financeiras"
+        },
+        {
+          "row_name": "441-Imobilizações em Curso de Investimentos Financeiros"
+        },
+        {
+          "row_name": "447- Adiantamentos por Conta de Investimentos Financeiros"
+        },
+        {
+          "row_name": "Investimentos Financeiros"
+        }
+      ]
+    },
+    {
+      "table_id": "1528",
+      "page": 12,
+      "rows": [
+        {
+          "row_name": "Existências",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "36- Matérias-primas, Subsidiárias e de Consumo",
+          "col_1": "1.345.219,21",
+          "col_2": "1.445.219,21",
+          "col_3": "100.000,00",
+          "col_4": "1.345.219,21"
+        },
+        {
+          "row_name": "34-Sub-produtos, Desperdicios, Residuos e Refugo",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "33 Produtos Acabados e Intermédios",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "32- Mercadorias",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "37- Adiantamento por Conta de Compras",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Existências",
+          "col_1": "1.345.219,21",
+          "col_2": "1.445.219,21",
+          "col_3": "100.000,00",
+          "col_4": "1.345.219,21"
+        }
+      ]
+    },
+    {
+      "table_id": "1569",
+      "page": 13,
+      "rows": [
+        {
+          "row_name": null,
+          "col_1": "AL-Activo Liquido 2012",
+          "col_2": 2013,
+          "col_3": "ou Provisões 2013",
+          "col_4": 2013
+        },
+        {
+          "row_name": "Dívidas de Terceiros Médio e Longo Prazo",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Dividas de Terceiros - Curto prazo",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "28-Empréstimos Concedidos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "211 Clientes c/c",
+          "col_1": "1.114.928,82",
+          "col_2": "1.114.928,82",
+          "col_3": null,
+          "col_4": "1.114.928,82"
+        },
+        {
+          "row_name": "213 Utentes c/c",
+          "col_1": "7.322,42",
+          "col_2": "7.322,42",
+          "col_3": null,
+          "col_4": "7.322,42"
+        },
+        {
+          "row_name": "215 Instituições do MS",
+          "col_1": "4.739.690,95",
+          "col_2": "4.739.690,95",
+          "col_3": null,
+          "col_4": "4.739.690,95"
+        },
+        {
+          "row_name": "218 Clientes e Utentes de Cobrança Duvidosa",
+          "col_1": "9.547,51",
+          "col_2": "3.090.229,07",
+          "col_3": "3.080.681,56",
+          "col_4": "9.547,51"
+        },
+        {
+          "row_name": "251 Devedores pela Execução do Orçamento",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "229-Adiantamentos a Fornecedores",
+          "col_1": "4.000,00",
+          "col_2": "4.000,00",
+          "col_3": null,
+          "col_4": "4.000,00"
+        },
+        {
+          "row_name": "2619-Adiantamentos a Fornecedores de Imobilizado",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "24-Estado e Outros Entes Públicos",
+          "col_1": "461.121,16",
+          "col_2": "461.121,16",
+          "col_3": null,
+          "col_4": "461.121,16"
+        },
+        {
+          "row_name": "263/3/4+267+268-Outros devedores",
+          "col_1": 10751605,
+          "col_2": "107.516,05",
+          "col_3": null,
+          "col_4": "107.516,05"
+        },
+        {
+          "row_name": "Dividas de Terceiros - Curto prazo",
+          "col_1": "6.444.126,91",
+          "col_2": "9.524.808,47",
+          "col_3": "3.080.681,56",
+          "col_4": "6.444.126,91"
+        }
+      ]
+    },
+    {
+      "table_id": "1643",
+      "page": 13,
+      "rows": [
+        {
+          "row_name": "Títulos Negociáveis"
+        },
+        {
+          "row_name": "151-Acções"
+        },
+        {
+          "row_name": "152-Obrigações e Titulos de Participação"
+        },
+        {
+          "row_name": "153-Titulos da Divida Pública"
+        },
+        {
+          "row_name": "159-Outros Titulos"
+        },
+        {
+          "row_name": "18-Outras Aplicações de Tesouraria"
+        },
+        {
+          "row_name": "Titulos Negociáveis"
+        }
+      ]
+    },
+    {
+      "table_id": "1651",
+      "page": 13,
+      "rows": [
+        {
+          "row_name": "Depósitos em Inst. Financ. e Caixa",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "13- Contas no Tesouro",
+          "col_1": "69.426,57",
+          "col_2": "69.426,57",
+          "col_3": 6942657
+        },
+        {
+          "row_name": "12- Depósitos em Instituições Financeiras",
+          "col_1": "100.179,78",
+          "col_2": "100.179,78",
+          "col_3": "100.179,78"
+        },
+        {
+          "row_name": "11-Caixa",
+          "col_1": "7.045,02",
+          "col_2": "7.045,02",
+          "col_3": "7.045,02"
+        },
+        {
+          "row_name": "Depósitos em Inst. Financ. e Caixa",
+          "col_1": "176.651,37",
+          "col_2": "176.651,37",
+          "col_3": "176.651,37"
+        }
+      ]
+    },
+    {
+      "table_id": "1672",
+      "page": 13,
+      "rows": [
+        {
+          "row_name": "Acréscimos e Diferimentos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "271-Acréscimos de Proveitos",
+          "col_1": "1.248.945,01",
+          "col_2": "1.248.945,01",
+          "col_3": "1.248.945,01"
+        },
+        {
+          "row_name": "272-Custos Diferidos",
+          "col_1": 4157000,
+          "col_2": "41.570,00",
+          "col_3": "41.570,00"
+        },
+        {
+          "row_name": "Acréscimos e Diferimentos",
+          "col_1": "1.290.515,01",
+          "col_2": "1.290.515,01",
+          "col_3": "1.290.515,01"
+        }
+      ]
+    },
+    {
+      "table_id": "1689",
+      "page": 13,
+      "rows": [
+        {
+          "row_name": "Total de Amortizações",
+          "col_1": null,
+          "col_2": "37.661.785,33"
+        },
+        {
+          "row_name": "Total de Provisões",
+          "col_1": null,
+          "col_2": "3.180.681,56"
+        },
+        {
+          "row_name": "43.807.572,57 TOTAL do ACTIVO",
+          "col_1": null,
+          "col_2": "45.906.572,57 40.842.466,89 86.749.039,46"
+        }
+      ]
+    },
+    {
+      "table_id": "1705",
+      "page": 14,
+      "rows": [
+        {
+          "row_name": "Fundos Próprios",
+          "col_1": "Fundos Próprios e Passivo 2012",
+          "col_2": "Fundos Próprios e Passivo 2013"
+        },
+        {
+          "row_name": "51 Património",
+          "col_1": "24.920.930,00",
+          "col_2": "24.920.930,00"
+        },
+        {
+          "row_name": "56- Reservas de Reavaliação",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "Sub-total",
+          "col_1": "24.920.930,00",
+          "col_2": "24.920.930,00"
+        },
+        {
+          "row_name": "Reservas",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "571 Reservas Legais",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "572 Reservas Estatutárias",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "574-Reservas Livres",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "575-Subsídios",
+          "col_1": "226.201,69",
+          "col_2": "226.201,69"
+        },
+        {
+          "row_name": "576 - Doações",
+          "col_1": "1.829.929,49",
+          "col_2": 182992949
+        },
+        {
+          "row_name": "577 Reservas Decorrentes da Transferência de Activos",
+          "col_1": "34.496.569,39",
+          "col_2": "34.496.569,39"
+        },
+        {
+          "row_name": "Sub-total",
+          "col_1": "36.552.700,57",
+          "col_2": "36.552.700,57"
+        },
+        {
+          "row_name": "Resultados Transitados",
+          "col_1": "-63.228.246,64",
+          "col_2": "-78.758.991,44"
+        },
+        {
+          "row_name": "Resultado Líquido do Exercício",
+          "col_1": "-15.530.744,80",
+          "col_2": "-16.115.252,68"
+        },
+        {
+          "row_name": "Fundo Patrimonial",
+          "col_1": "-17.285.360,87",
+          "col_2": "-33.400.613,55"
+        }
+      ]
+    },
+    {
+      "table_id": "1753",
+      "page": 14,
+      "rows": [
+        {
+          "row_name": "Passivo"
+        },
+        {
+          "row_name": "Provisões"
+        },
+        {
+          "row_name": "291 Provisões para Cobranças Duvidosas"
+        },
+        {
+          "row_name": "292-Provisões para Riscos"
+        },
+        {
+          "row_name": "Provisões"
+        }
+      ]
+    },
+    {
+      "table_id": "1760",
+      "page": 14,
+      "rows": [
+        {
+          "row_name": "Terceiros",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "213-Utentes c/c",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "219-Adiantamentos de Clientes, Utentes e Instit. MS",
+          "col_1": "8.376.284,42",
+          "col_2": "8.376.284,42"
+        },
+        {
+          "row_name": "221 Fornecedores c/c",
+          "col_1": "18.429.302,57",
+          "col_2": "34.726.243,57"
+        },
+        {
+          "row_name": "228-Fornecedores - Facturas recep. e conf.",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "23- Empréstimos obtidos",
+          "col_1": "13.399.115,27",
+          "col_2": "13.399.115,27"
+        },
+        {
+          "row_name": "252 Credores pela Execução do Orçamento",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "2611 Fornecedores de imobilizado c/c",
+          "col_1": "312.688,32",
+          "col_2": "2.230.000,00"
+        },
+        {
+          "row_name": "24- Estado e Outros Entes Públicos",
+          "col_1": "1.308.593,71",
+          "col_2": "1.308.593,71"
+        },
+        {
+          "row_name": "261/3/4 Outros Credores",
+          "col_1": 649235284,
+          "col_2": "6.492.352,84"
+        },
+        {
+          "row_name": "Terceiros",
+          "col_1": "48.318.337,13",
+          "col_2": "66.532.589,81"
+        }
+      ]
+    },
+    {
+      "table_id": "1794",
+      "page": 14,
+      "rows": [
+        {
+          "row_name": "Acréscimos e Diferimentos",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "273-Acréscimos de Custos",
+          "col_1": "6.060.573,21",
+          "col_2": "6.060.573,21"
+        },
+        {
+          "row_name": "274 Proveitos Diferidos",
+          "col_1": "6.714.023,10",
+          "col_2": "6.714.023,10"
+        },
+        {
+          "row_name": "Acréscimos e Diferimentos",
+          "col_1": "12.774.596,31",
+          "col_2": "12.774.596,31"
+        }
+      ]
+    },
+    {
+      "table_id": "1817",
+      "page": 15,
+      "rows": [
+        {
+          "row_name": "Indicador A.1",
+          "col_1": "Percentagem",
+          "col_2": null,
+          "col_3": "de 1ªs consultas médicas no total de consultas médicas",
+          "col_4": null
+        },
+        {
+          "row_name": "Tipo de Inclicador",
+          "col_1": "Objectivo contrato-programa 2013",
+          "col_2": null,
+          "col_3": "Entidade Gestora",
+          "col_4": "Hospital. Centro Hospitalar. Unidade Local de Saúde"
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        }
+      ]
+    },
+    {
+      "table_id": "1833",
+      "page": 15,
+      "rows": [
+        {
+          "row_name": "Tipo de falsa",
+          "col_1": "Periodo aplicável Acesso",
+          "col_2": null,
+          "col_3": "Ano 2013"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Aferir o acesso a Consulta Externa (1ªs consultas) de especialidade.",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que exprime a percentagem de 12s consultas médicas, no total de consultas médicas\", ccomdas no periodo em análise.",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Cláusula CP Frequência de monitorização",
+          "col_1": "(Apendice 11) Cláusula do Anexo (Apéndice II) Contrato-programa 2013 ULS: Cláusula 4ª do Anexo Contrato-programa 2013 - Hospitais/ Centros Hospitalares Unidade de medida Fonte dos dados/ Base da monitorização Mens al",
+          "col_2": null,
+          "col_3": "% (uma casa décimal) Si da Instituição"
+        },
+        {
+          "row_name": "mo-nitorização Responsável pela",
+          "col_1": "Fórmula Instituição / ARS",
+          "col_2": null,
+          "col_3": "100 (N° de 1s consultas méclicas/Total de consultas médicas) X"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Valor de Referência (Meta) Dia 20 do mês n+1",
+          "col_2": null,
+          "col_3": "Definido no contrato-programa 2013 ULS: Cláusula 4ª do Anexo (Apendice II) restabelecido em negociação com as ARS) Hospitals/Centros Hospitalares: Cláusula (Apéndice 111."
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "Valor de base ARS",
+          "col_2": null,
+          "col_3": "valor histórico da Instituição (opcional)"
+        }
+      ]
+    },
+    {
+      "table_id": "1876",
+      "page": 16,
+      "rows": [
+        {
+          "row_name": "Indicador A.2",
+          "col_1": null,
+          "col_2": "Percentagem de utentes referenciados para consulta externa (CTH) atendidos em tempo adequado"
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Ocjectivo Contrato-programa 2013",
+          "col_2": "Entidade Gestora Hospital Centro Hospitalar. Unicade Local de Saude"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Acesso",
+          "col_2": "Período aplicável Ατο 2013"
+        }
+      ]
+    },
+    {
+      "table_id": "1920",
+      "page": 16,
+      "rows": [
+        {
+          "row_name": "Variaveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "1 CC (CTTMRC 1 CC (CTI",
+          "col_1": "ro período. dentro do tempo máximo de resposta garantido, ro perícdo. Valor acumulaco de CE, corr registo no S CH, realizadas Valor acurnulaco de CE, com registo no SI CTH, realizadas",
+          "col_2": "ADW-CTI ADW-CTI",
+          "col_3": "ns consultas externas nts consultas extemas"
+        }
+      ]
+    },
+    {
+      "table_id": "1929",
+      "page": 17,
+      "rows": [
+        {
+          "row_name": "Indicador A.3",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": "Peso das consultas externas médicas com registo de alta no total de consultas externas"
+        },
+        {
+          "row_name": "Tipc de indicador",
+          "col_1": "Objectivo contrato-programa 2013",
+          "col_2": null,
+          "col_3": "Entidade Gestora",
+          "col_4": "Hospital. Centre Hospitalar. Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipu ue falis",
+          "col_1": "Aussu",
+          "col_2": null,
+          "col_3": "Periodu aplicável",
+          "col_4": "Aນ 2013"
+        }
+      ]
+    },
+    {
+      "table_id": "1972",
+      "page": 17,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definiçãc",
+          "col_2": "Fonte Informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "de ๑onsultas extemas médicas com registo de alta",
+          "col_1": "as quais existe registo de alta clínica Consultas externas realizadas por profissionais médicos, para",
+          "col_2": "Sl da Instituição",
+          "col_3": "rº de consultas com registo de alta dínica"
+        },
+        {
+          "row_name": "Total consultas extemas médicas",
+          "col_1": "médcos, presenciais ou sem a presença do doente e Total de consultas extemas realzadas por profissionais",
+          "col_2": "Si da instruição",
+          "col_3": "no total de consultas"
+        }
+      ]
+    },
+    {
+      "table_id": "2027",
+      "page": 18,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "LIC <=TMRG",
+          "col_1": "atribuído, no fim do periodo. Valor da LIC considerando apenas os doentes que se encontram a aguardar cirurgia dentro do TMRG que lhes foi",
+          "col_2": "SI SIGIC",
+          "col_3": "no inscritos"
+        },
+        {
+          "row_name": null,
+          "col_1": "Valor da LIC considerando todos doentes que se encontram a",
+          "col_2": null,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "2046",
+      "page": 19,
+      "rows": [
+        {
+          "row_name": "Indicador A.5",
+          "col_1": null,
+          "col_2": "(especialidades",
+          "col_3": "seleccionadas)",
+          "col_4": null
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2013",
+          "col_2": "Entidade Gestora",
+          "col_3": null,
+          "col_4": "Hospital. Centro Hospitalar. Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Acesso",
+          "col_2": "Período aplicável",
+          "col_3": null,
+          "col_4": "Απο 2013"
+        }
+      ]
+    },
+    {
+      "table_id": "2093",
+      "page": 19,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "° de doentes sinalizados atempadamente",
+          "col_1": "referenciação para a RNCCI, por parte da EGA, com registo Nº de doentes com registo no SI GESTCARE para eventual efectuado até ao prazo limite estabelecido.",
+          "col_2": "SI GESTCARE",
+          "col_3": "no de doentes"
+        },
+        {
+          "row_name": "de doentes tratados",
+          "col_1": "os que transitaram para o periodo seguinte Doentes que deixaram de permanecer internados num estabelecimento de saúde num determinado período e ainda",
+          "col_2": "Si da Instituição",
+          "col_3": "n° de doentes"
+        }
+      ]
+    },
+    {
+      "table_id": "2157",
+      "page": 21,
+      "rows": [
+        {
+          "row_name": "Indicador B.2",
+          "col_1": null,
+          "col_2": "Percentagem de reinternamentos em 30 dias",
+          "col_3": null
+        },
+        {
+          "row_name": "Tipo de indicador",
+          "col_1": "Objectivo contrato-programa 2013",
+          "col_2": "Entidade Gestora",
+          "col_3": "Hospital. Centro Hospitalar. Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Qualidade de Serviço",
+          "col_2": "Período aplicável",
+          "col_3": "Απο 2013"
+        }
+      ]
+    },
+    {
+      "table_id": "2170",
+      "page": 21,
+      "rows": [
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Monitorização de altas.",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Descrição do indicador",
+          "col_1": "Indicador que exprime, em valor percentual, o nº de episódios",
+          "col_2": null,
+          "col_3": "de intemamento ocorridos nos 30 dias posteriores à alta no total de episodios intemnamento."
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "(Apendice I Cláusula do Anexo (Apéndice 11) Contrato-programa 2013-ULS: Cláusula 4ª do Anexo Contrato-programa 2013 - Hospitais / Centros Hospitalares:",
+          "col_2": "Unidade de medida",
+          "col_3": "% (uma casa décinnali"
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Mensal",
+          "col_2": "Fonte dos dados! Base da monitorização",
+          "col_3": "Base dados nacional de GDH"
+        },
+        {
+          "row_name": "monitorização Responsávell pela Prazo Entrega Reporting",
+          "col_1": "Instituição/ARS Dia 20 do mês n+1",
+          "col_2": "Fórmula Valor de Referência (Meta)",
+          "col_3": "análise) X 100 doente/ Total de episódios de internamento, no periodlo em (Total de reinternamentos ocorridos até 30 dias após a alta do Definido no contrato-programa 2013 ULS: Cláusula 4ª do Anexo (Apendice lli (estabelecido em negociação com as ARS) Hospitais/ Centros Hospitalares: Cláusula (Apendice II)."
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS/ACSS",
+          "col_2": "Valor de base",
+          "col_3": "valor histórico dla instituição (opcional)"
+        }
+      ]
+    },
+    {
+      "table_id": "2215",
+      "page": 21,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação / SI",
+          "col_3": "Unidacle de medida"
+        },
+        {
+          "row_name": "Nº reinternamentos nos em 30 dias",
+          "col_1": "no periodo em análise) Total de reinternamentos nos 30 dias posteriores à alta do doente independentemente da data de interna mento ocorrer",
+          "col_2": "ACSS: Base dados GDH",
+          "col_3": "N° de episódios"
+        },
+        {
+          "row_name": "internamento Total die episódios de",
+          "col_1": "Total de intemannentos com alta no período em análise",
+          "col_2": "ACSS: Base dados GDH",
+          "col_3": "Nº de episódios"
+        }
+      ]
+    },
+    {
+      "table_id": "2228",
+      "page": 22,
+      "rows": [
+        {
+          "row_name": "Indicador B.3",
+          "col_1": null,
+          "col_2": null,
+          "col_3": "Percentagem de doentes saídos (DS) corn duração de internamento acima do limiar máximo"
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2013",
+          "col_2": "Entidade Gestora",
+          "col_3": "Hospital. Centro Hospitallar. Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Qualidade de Serviço",
+          "col_2": "Período aplicável",
+          "col_3": "Απο 2013"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "2286",
+      "page": 22,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação / Si",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "At > L max) Episódios de internamento",
+          "col_1": "episódio. superior ao limite máximo estabelecido para o GDH do Episódios de intermamento com periodo de intermarnento",
+          "col_2": "ACSS: Base dados GDH",
+          "col_3": "nº de episódios"
+        },
+        {
+          "row_name": "internamento Total de episódios de",
+          "col_1": "análise Total de épisódios de internamento com alta no período em",
+          "col_2": "ACSS: Base dados GDH",
+          "col_3": "nº de episódios"
+        }
+      ]
+    },
+    {
+      "table_id": "2302",
+      "page": 23,
+      "rows": [
+        {
+          "row_name": "Indicador B.4",
+          "col_1": null,
+          "col_2": "Percentagem de Partos por Cesariana",
+          "col_3": null
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2013",
+          "col_2": "Entidade Gestora",
+          "col_3": "Hospital. Centro Hospitalar. Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Qualidade de Serviço",
+          "col_2": "Periodo aplicável",
+          "col_3": "Ало 2013"
+        }
+      ]
+    },
+    {
+      "table_id": "2317",
+      "page": 23,
+      "rows": [
+        {
+          "row_name": "Descrição do indicador:",
+          "col_1": "Indicador que expressa a percentagem de Partos por Cesanana",
+          "col_2": ", no total de Partos ocomdos no periodo em análise",
+          "col_3": null
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "(Apendice II) Cláusula 8 do Anexo (Apéndice II) Contrato-programa 2013 - ULS: Cláusula 4ª do Anexo Contrato-programa 2013 Hospitais / Centros Hospitalares:",
+          "col_2": "Unidade de medlida",
+          "col_3": "% Iduas casas décinnais)"
+        },
+        {
+          "row_name": "Frequência de monitorização monitorização Responsável pela",
+          "col_1": "Mensal Instituição / ARS",
+          "col_2": "Fonte dos dados/ Base da monitorização Fórmula",
+          "col_3": "Si da Instituição Nº Cesarianas N Total de Partos) X 100"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 20 do mês n+1",
+          "col_2": "Valor de Referência (Meta)",
+          "col_3": "Definido no contrato-programa 2013 ULS: Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS) Hospitais / Centros Hospitalares: Cláusula (Apendice II)."
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS",
+          "col_2": "Valor de base",
+          "col_3": "valor histónco da Instituição (opcional)"
+        }
+      ]
+    },
+    {
+      "table_id": "2339",
+      "page": 23,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/51",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Cesarianas",
+          "col_1": "Nº de Partos realizados por Cesanana, no periodo em análise",
+          "col_2": "51 da in stituição",
+          "col_3": "no cesarianas"
+        },
+        {
+          "row_name": "Partos",
+          "col_1": "No total de Partos, no periodo enn análise",
+          "col_2": "51 da Instituição",
+          "col_3": "n partos"
+        }
+      ]
+    },
+    {
+      "table_id": "2353",
+      "page": 24,
+      "rows": [
+        {
+          "row_name": "Indicador B.5 Tipo de Indicador",
+          "col_1": "Percentagem da cirurgias realizadas em ambulatório Objectivo contrato-programa 2013",
+          "col_2": null,
+          "col_3": "no total de cirurgias Entidade Gestora",
+          "col_4": "Hospital, Centro Hospitalar. Unidade Local de Saúde programadas (GDH) - para procedimentos ambulatorizáveis"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Qualidade de serviço",
+          "col_2": null,
+          "col_3": "Periodo aplicável",
+          "col_4": "Ano 2013"
+        }
+      ]
+    },
+    {
+      "table_id": "2364",
+      "page": 24,
+      "rows": [
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Incentivar a actividade cirúrgica de ambulatório.",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Descrição do Indicador:",
+          "col_1": "identificados pela CNDCA como mais frequenternente realizados em ambulatório, ocomidos no período em análise. Indicador que expressa a percentagem de episódios de ambulatóno no total de episódios de ambulatório e internamento programados, para procedimentos cirúrgicos",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "(Apendice II) Cláusula do Anexo (Apéndice II) Contrato Programa 2013-ULS: Cláusula 4ª do Anexo Contrato programa 2013-Hospitais Centros Hospitalares",
+          "col_2": "Unidade de medida",
+          "col_3": null,
+          "col_4": "% tuma casa décimal)"
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Mensal",
+          "col_2": "Fonte dos dados/ Base da monitorização",
+          "col_3": null,
+          "col_4": "Base de Dados Nacional de GDH"
+        },
+        {
+          "row_name": "monitorização Responsável pela Prazo Entrega Reporting",
+          "col_1": "Instituição / ARS Dia 20 do mês n+1",
+          "col_2": "Fórmula Valor de Referência (Meta)",
+          "col_3": null,
+          "col_4": "Definido no Contrato-programa 2013 ULS: Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS) Hospitais Centros Hospitalares: Cláusula (Apendice II). ambulatorizáveis) X 100 procedimentos ambulatorizáveis Total de episódios cirúrgicos de intemamento e de ambulatório, com procedimentos (Total de episódios cirúrgicos de ambulatório, com"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS",
+          "col_2": "Valor de base",
+          "col_3": null,
+          "col_4": "valor histórico da instituição (opcional)"
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": "constam base de dados"
+        }
+      ]
+    },
+    {
+      "table_id": "2406",
+      "page": 24,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "ambulatório Episódios de cirurgia de",
+          "col_1": "programada cirúrgico com preço de ambulatório, com admissão procedimentos eligíveis, agrupados em qualquer GDH Total de episódios de ambulatório com qualquer um dos",
+          "col_2": "Base de Dados Nacional de GDH",
+          "col_3": "nº de episódios cir de ambulatório"
+        },
+        {
+          "row_name": "Episódios de cirurgias programadas",
+          "col_1": "Total de episódios de ambulatório e internamento com qualquer GDH cirúrgico com preço de ambulatóno, com qualquer um dos procedimentos eligiveis, agrupados em",
+          "col_2": "Base de Dados Nacional de GDH",
+          "col_3": "nº de episódios cir, de ambulatório e intemamento"
+        }
+      ]
+    },
+    {
+      "table_id": "2460",
+      "page": 25,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação Sl",
+          "col_3": "Uniclade de medida"
+        },
+        {
+          "row_name": "facturadas medicamentos genéricos N.º de embalagens de",
+          "col_1": "N° de embalagens de medicamentos genéricos faturadas",
+          "col_2": "SIARS",
+          "col_3": "n° de embalagens"
+        },
+        {
+          "row_name": "medicamentos facturadas N.° total de embalagens de",
+          "col_1": "N. total de embalagens de medicamentos faturadas",
+          "col_2": "SIARS",
+          "col_3": "n° de embalagens"
+        }
+      ]
+    },
+    {
+      "table_id": "2474",
+      "page": 26,
+      "rows": [
+        {
+          "row_name": "Indicador B.7",
+          "col_1": null,
+          "col_2": "Cirurgia segura",
+          "col_3": "\""
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2013",
+          "col_2": "Entidade Gestora",
+          "col_3": "Hospital, Centro Hospital-ar. Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de fal ha",
+          "col_1": "Qualidade de serviço",
+          "col_2": "Periodo aplicável",
+          "col_3": "Ало 2013"
+        }
+      ]
+    },
+    {
+      "table_id": "2517",
+      "page": 26,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Segurança Cirúrgica\" Cirurgias com registo de \"Lista die Verificação de",
+          "col_1": "Saúde Cirurgias cuja \"Lista de Verificação de Segurança Cirúrgica, tentha sido registada no 31 da instituição ou PDS (Plataforma de Dados da",
+          "col_2": "2013) Si da Instituição ídurante o 1º inmestre de",
+          "col_3": "n° die cirurgias"
+        },
+        {
+          "row_name": "Segurança Cirúrgica\" GDH cirurgicos com registo de \"Lista de Verificação de",
+          "col_1": "episódio tenha sido registada para todas as crurgias realizadas naquele GDH Cirúrgicos cua \"Lista de Verificação de Segurança Cirúrgica",
+          "col_2": "Trimestre 2013) BD nacional de GDH (a partir do 2°",
+          "col_3": "nº de episódios classificados em GDH cirúrgicos"
+        },
+        {
+          "row_name": "Cirurgias GDH Cirúrgicos",
+          "col_1": "sem presença die anestes sta diagnóstico, realizados) por cirurgião(ões) em sala operatória, na mesma sessão, sob anestesia geral, locorregional ou local, com ou Um ou mais atos operatónos com o mesnno objetivo terapêutico e ou N° de epidódios de GDH Cirúrgicos",
+          "col_2": "20131 Sl da Instituição idurante o 1º trimestre de Trimestre 2013) BD nacional de GDH (a partir do 2º",
+          "col_3": "n° die cirurgias nª de episódios classificados em GDH arúrgicos"
+        }
+      ]
+    },
+    {
+      "table_id": "2534",
+      "page": 27,
+      "rows": [
+        {
+          "row_name": "Indicador C.1",
+          "col_1": null,
+          "col_2": "Percentagem dos Custos com Horas Extraordinarias, Suplementos e FSE (seleccionados), no Total de Custos com"
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2013-2015",
+          "col_2": "Hospital, Centro Hospitalar Unidade Local de Saúde Entidade Gestora"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Eficiência",
+          "col_2": "Perioclo aplicável Ano 2013"
+        }
+      ]
+    },
+    {
+      "table_id": "2545",
+      "page": 27,
+      "rows": [
+        {
+          "row_name": "Objectivo",
+          "col_1": "Monitorizar o desempenho Económico - Financeiro.",
+          "col_2": null
+        },
+        {
+          "row_name": "Descrição do Indicadior",
+          "col_1": "Indicador que expressa a proporção de custos \"extraordinános no total dos custos com pessoal.",
+          "col_2": null
+        },
+        {
+          "row_name": "Cláusula CP Frequência de monitorização monitorização Responsável pela Prazo Entrega Reporting",
+          "col_1": "Hospitais / Centros Hospitalares: Mensal do Anexo (Apêndice II) (Apendice 11) Instituição / ARS Dia 20 do més n+1 Cláusula Contrato-programa 2013-ULS: Cláusula 4ª do Anexo Contrato-programa 2013 Unidade de medida Fonte dos dados/ Base da monitorização   Fórmula Valor de Refferéncia (Meta)",
+          "col_2": "(uma casa decimal) SIEF #622364)/ Σ#04 (2)#642211 + #642212+#642221+#642281+#64228:2/9+#62229+ Definido no contrato-programa 2013 ULS: Cláusula 4ª do Anexo (Apendice II) restabelecido em negociação com as ARS) Hospitais/Centros Hospitalares: Cláusula (Apendice 11)."
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "Valor de base ARS",
+          "col_2": "valor histórico dia Instituição"
+        }
+      ]
+    },
+    {
+      "table_id": "2565",
+      "page": 27,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Horas Extraordinárias",
+          "col_1": "(Σ(#642211 (Horas Ext).",
+          "col_2": "SIEF",
+          "col_3": "€ (euros)"
+        },
+        {
+          "row_name": "Suplementos",
+          "col_1": "#02229 #642281 SIGIC+#642282/Boutros supl. (Σ (#642212 prevenções #6-42221 noites e suplementos + +",
+          "col_2": "SIEF SIEF",
+          "col_3": "€ (euros) € jeuros)"
+        },
+        {
+          "row_name": "FSE (selecionado)",
+          "col_1": "ΣΙ # 822364",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Custos com pessoal",
+          "col_1": "#64",
+          "col_2": "SIEF",
+          "col_3": "€ (euros)"
+        }
+      ]
+    },
+    {
+      "table_id": "2596",
+      "page": 28,
+      "rows": [
+        {
+          "row_name": "Objectivo",
+          "col_1": "Monitorizar o desempenho Económico - Financeiro",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Descrição do indicador",
+          "col_1": "Indicador que expressa resultados da instituição antes de juros, impostos, depreciação e amortização",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Cláusula CP Frequência de monitorização monitorização Responsável pela Prazo Entrega Reporting",
+          "col_1": "do Anexo (Apêndice II) (Apendice II) Cláusula Contrato Programa 2013-ULS: Cláusula 4ª do Anexo Contrato programa 2013-Hospitais/ Centros Hospitalares: Mensal Instituição / ARS Dia 20 do més n+1",
+          "col_2": "Unidade die medida Fonte dos dados/ Base da monitorização Fórmula Valor de Referência (Meta)",
+          "col_3": "€ (euros) SIEF # 7 POICMS 171 2 76) - #6 POCMS (81 a 65) Definido no Contrato-programa 2013 ULS: Cláusula 4ª do Anexo (Apendice 11) (estabelecido em negociação com as ARS) Hospitais Centros Hospitalares: Cláusula (A.pendice II),"
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS",
+          "col_2": "Valor de base",
+          "col_3": "valor histórico da instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "2659",
+      "page": 29,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Acréscimo de Diviida Vencida",
+          "col_1": "que ultrapassou o prazo de pagamento. Variação, entre o periodo n e o periodo n-1, do valor da dívida",
+          "col_2": "SIEF",
+          "col_3": "(euros)"
+        }
+      ]
+    },
+    {
+      "table_id": "2678",
+      "page": 30,
+      "rows": [
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Eficiência",
+          "col_2": "Periodo aplicável",
+          "col_3": "Аль 2013"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Monitorizar o desempenho Económico - Financeiro",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que expressa a proporção Proveitos Operacionais não decorrentes dio contrato-programma",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "(Apendice II) Cláusula 6ª do Anexo (Apéndice II Contrato-programa 2013-ULS: Cláusula 4ª do Anexo Contrato-programa 2013-Hospitais / Centros Hospitalares:",
+          "col_2": "Unidade de medida",
+          "col_3": "tuma casa decimal)"
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Mensal",
+          "col_2": "Fonte dos dados/ Base da monitorização",
+          "col_3": "SIEF"
+        },
+        {
+          "row_name": "monitorização Responsável pela",
+          "col_1": "Instituição / ARS",
+          "col_2": "Fónnula",
+          "col_3": "71 a 76) 100 (#7 POCMS (71 3 76) - Estimativa proveitos CP1/27 POCMS"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 20 do mês n+1",
+          "col_2": "Valor de Referência (Meta)",
+          "col_3": "Definido no contrato-programa 2013 ULS: Cláusula 4ª do Anexo (Apendice II) lestabelecido em negociação com as ARS) Hospitais Centros Hospitalares: Cláusula 8ª (Apendice II)."
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS",
+          "col_2": "Valor de base",
+          "col_3": "valor histónco dia Instituição (opcional)"
+        }
+      ]
+    }
+  ]
+}

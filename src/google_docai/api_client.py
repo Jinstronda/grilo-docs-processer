@@ -10,13 +10,14 @@ from google.auth.transport.requests import Request
 # Document AI endpoint (Layout Parser)
 ENDPOINT_URL = "https://eu-documentai.googleapis.com/v1/projects/988857320354/locations/eu/processors/92b16a912417ec56:process"
 
-def call_layout_parser(pdf_path, credentials, verbose=True):
+def call_layout_parser(pdf_path_or_gcs_uri, credentials, verbose=True, use_gcs=False):
     """Call Document AI Layout Parser API
 
     Args:
-        pdf_path: Path to PDF file
+        pdf_path_or_gcs_uri: Path to local PDF file or GCS URI (gs://bucket/path)
         credentials: Google service account credentials
         verbose: Print progress
+        use_gcs: If True, treat input as GCS URI instead of local file
 
     Returns:
         dict: API response JSON
@@ -25,31 +26,44 @@ def call_layout_parser(pdf_path, credentials, verbose=True):
         if verbose:
             print(f"Calling Document AI Layout Parser...")
 
-        # Read PDF and encode to base64
-        with open(pdf_path, 'rb') as f:
-            pdf_content = f.read()
-
-        if verbose:
-            print(f"  PDF size: {len(pdf_content) / 1024:.2f} KB")
-
-        pdf_base64 = base64.b64encode(pdf_content).decode('utf-8')
-
         # Get access token
         credentials.refresh(Request())
         access_token = credentials.token
 
-        # Prepare request
+        # Prepare request headers
         headers = {
             'Authorization': f'Bearer {access_token}',
             'Content-Type': 'application/json'
         }
 
-        body = {
-            'rawDocument': {
-                'content': pdf_base64,
-                'mimeType': 'application/pdf'
+        # Prepare request body based on source
+        if use_gcs:
+            # Direct GCS URI - no download needed!
+            if verbose:
+                print(f"  Using GCS URI: {pdf_path_or_gcs_uri[:60]}...")
+            
+            body = {
+                'gcsDocument': {
+                    'gcsUri': pdf_path_or_gcs_uri,
+                    'mimeType': 'application/pdf'
+                }
             }
-        }
+        else:
+            # Local file - read and encode to base64
+            with open(pdf_path_or_gcs_uri, 'rb') as f:
+                pdf_content = f.read()
+
+            if verbose:
+                print(f"  PDF size: {len(pdf_content) / 1024:.2f} KB")
+
+            pdf_base64 = base64.b64encode(pdf_content).decode('utf-8')
+            
+            body = {
+                'rawDocument': {
+                    'content': pdf_base64,
+                    'mimeType': 'application/pdf'
+                }
+            }
 
         if verbose:
             print(f"  Sending request to Document AI...")
@@ -69,7 +83,7 @@ def call_layout_parser(pdf_path, credentials, verbose=True):
 
                 if response.status_code == 200:
                     if verbose:
-                        print(f"  ✓ API call successful")
+                        print(f"  [OK] API call successful")
 
                     result = response.json()
 
@@ -107,7 +121,7 @@ def call_layout_parser(pdf_path, credentials, verbose=True):
         raise Exception("Failed after all retries")
 
     except Exception as e:
-        print(f"  ✗ API error: {e}")
+        print(f"  [ERROR] API error: {e}")
         import traceback
         traceback.print_exc()
         return None

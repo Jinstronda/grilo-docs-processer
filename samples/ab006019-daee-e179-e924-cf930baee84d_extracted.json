@@ -1,0 +1,2965 @@
+{
+  "contract_id": "ab006019-daee-e179-e924-cf930baee84d",
+  "tables": [
+    {
+      "table_id": "7",
+      "page": 1,
+      "rows": [
+        {
+          "row_name": "612-Mercadorias",
+          "col_1": "Valor Estimado 2013",
+          "col_2": "Valor Contratualizado 2014",
+          "col_3": null,
+          "col_4": "% Var 2014/2013"
+        },
+        {
+          "row_name": "616-Matérias de consumo",
+          "col_1": 18012297.56,
+          "col_2": 15530338.82,
+          "col_3": null,
+          "col_4": -13.8
+        },
+        {
+          "row_name": "6161-Produtos Farmacêuticos",
+          "col_1": 12935950.61,
+          "col_2": 11345798.69,
+          "col_3": null,
+          "col_4": -12.3
+        },
+        {
+          "row_name": "61611-Medicamentos",
+          "col_1": 11307096.6,
+          "col_2": 9760946.78,
+          "col_3": null,
+          "col_4": -13.7
+        },
+        {
+          "row_name": "61612/9-Reagentes/Outros produtos farmacêuticos",
+          "col_1": 1628854.01,
+          "col_2": 1584851.91,
+          "col_3": null,
+          "col_4": -2.7
+        },
+        {
+          "row_name": "6162-Material consumo clínico",
+          "col_1": 4506870.42,
+          "col_2": 3676379.74,
+          "col_3": null,
+          "col_4": -18.4
+        },
+        {
+          "row_name": "6163-Produtos alimentares",
+          "col_1": 45217.04,
+          "col_2": -3155.41,
+          "col_3": null,
+          "col_4": -107.0
+        },
+        {
+          "row_name": "6164-Material consumo hoteleiro",
+          "col_1": 143836.87,
+          "col_2": 141070.16,
+          "col_3": null,
+          "col_4": -1.9
+        },
+        {
+          "row_name": "6165-Material consumo administrativo",
+          "col_1": 115305.58,
+          "col_2": 115139.98,
+          "col_3": null,
+          "col_4": -0.1
+        },
+        {
+          "row_name": "6166-Material manutenção e conservação",
+          "col_1": 265117.04,
+          "col_2": 255105.66,
+          "col_3": null,
+          "col_4": -3.8
+        },
+        {
+          "row_name": "6169-Outro matenal de consumo",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        }
+      ]
+    },
+    {
+      "table_id": "63",
+      "page": 1,
+      "rows": [
+        {
+          "row_name": "6211-Assistència ambulatória",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6212-Meios complementares diagnóstico",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62121-Patologia clínica",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62122-Anatomia patológica",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62123-Imagiologia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62124-Cardiologia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62125-Electroencefalografia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62126-Medicina nuclear",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62127-Gastrenterologia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62128-Pneumologia/Imunoalergologia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62129-Outros",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6213-Meios complementares terapêutica",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62131-Hemodiálise",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62132-Medicina física e reabilitação",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62133-Litotricia",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62139-Outros",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6214-Prescrição medicam. e cuid farmac.",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6215-Internamentos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6216-Transporte de doentes",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6217-Aparelhos complementares de terapèutica",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "6218-Trabalhos executados no exterior",
+          "col_1": 3921051.95,
+          "col_2": 2431768.92,
+          "col_3": -38.0
+        },
+        {
+          "row_name": "62181-Em entidades do M. Saúde",
+          "col_1": 2319600.35,
+          "col_2": 1394756.04,
+          "col_3": -39.9
+        },
+        {
+          "row_name": "621811-Assistência ambulatória",
+          "col_1": 1550.0,
+          "col_2": 1517.01,
+          "col_3": -2.1
+        },
+        {
+          "row_name": "621812-Meios complementares de diagnóstico",
+          "col_1": 579250.9,
+          "col_2": 295705.2,
+          "col_3": -49.0
+        },
+        {
+          "row_name": "621813-Meios complementares de terapêutica",
+          "col_1": 1128113.4,
+          "col_2": 699229.64,
+          "col_3": -38.0
+        },
+        {
+          "row_name": "621814-Prescrição medicam. e cuid. farmac",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "621815-Intermamentos e transporte de doentes",
+          "col_1": 610686.05,
+          "col_2": 398304.19,
+          "col_3": -34.8
+        },
+        {
+          "row_name": "621819-Outros trabalhos executados no exterior",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "62189-Em outras entidades",
+          "col_1": 1601451.6,
+          "col_2": 1037012.88,
+          "col_3": -35.2
+        },
+        {
+          "row_name": "621891-Assistência ambulatória",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "621892-Meios complementares diagnóstico",
+          "col_1": 694457.76,
+          "col_2": 493922.19,
+          "col_3": -28.9
+        },
+        {
+          "row_name": "621893-Meios complementares terapêutica",
+          "col_1": 29460.0,
+          "col_2": 29371.47,
+          "col_3": -0.3
+        },
+        {
+          "row_name": "621894-Prescrição medicam. e cuid. farmac 621895-Intemamentos e transporte de doentes",
+          "col_1": 850261.49,
+          "col_2": 489291.68,
+          "col_3": -42.5
+        },
+        {
+          "row_name": "621896-Aparelhos complementares de terapêutica",
+          "col_1": 27272.35,
+          "col_2": 24427.54,
+          "col_3": -10.4
+        },
+        {
+          "row_name": "621897-Assistêricia no estrangeiro",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "621898-Termalismo social",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "621899-Outros trabalhos executados no exterior",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "213",
+      "page": 2,
+      "rows": [
+        {
+          "row_name": "6221-Fornecimentos e serviços I",
+          "col_1": 1575027.56,
+          "col_2": 1474483.17,
+          "col_3": -6.4
+        },
+        {
+          "row_name": "6222-Fornecimentos e serviçOS II",
+          "col_1": 1142645.1,
+          "col_2": 1042284.4,
+          "col_3": -8.8
+        },
+        {
+          "row_name": "6223-Fornecimentos e serviçOS III",
+          "col_1": 5596079.01,
+          "col_2": 4159690.83,
+          "col_3": -25.7
+        },
+        {
+          "row_name": "6229-Outros fornecimentos e serviços",
+          "col_1": 621.72,
+          "col_2": 621.72,
+          "col_3": 0.0
+        }
+      ]
+    },
+    {
+      "table_id": "231",
+      "page": 2,
+      "rows": [
+        {
+          "row_name": "641-Remunerações dos orgãos directivos",
+          "col_1": 285858.03,
+          "col_2": 279074.8,
+          "col_3": -2.4
+        },
+        {
+          "row_name": "642-Remunerações de pessoal",
+          "col_1": 36029555.79,
+          "col_2": 32921687.1,
+          "col_3": -8.6
+        },
+        {
+          "row_name": "6421-Remunerações base do pessoal",
+          "col_1": 25980292.11,
+          "col_2": 23940366.52,
+          "col_3": -7.9
+        },
+        {
+          "row_name": "64211-RCTFP por tempo indeterminado",
+          "col_1": 14077444.14,
+          "col_2": 12766599.43,
+          "col_3": -9.3
+        },
+        {
+          "row_name": "64212-Pessoal c/ contrato a termo resolutivo",
+          "col_1": 2236612.43,
+          "col_2": 2083675.55,
+          "col_3": -6.8
+        },
+        {
+          "row_name": "64213-Pessoal em regime Contrato Individual",
+          "col_1": 9661152.44,
+          "col_2": 9085008.44,
+          "col_3": -6.0
+        },
+        {
+          "row_name": "64214-Pessoal em qualquer outra situação",
+          "col_1": 5083.1,
+          "col_2": 5083.1,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "6422-Suplementos de remunerações",
+          "col_1": 5781135.04,
+          "col_2": 5020967.32,
+          "col_3": -13.1
+        },
+        {
+          "row_name": "64221-Trabalho extraordinário",
+          "col_1": 2294272.33,
+          "col_2": 1693758.84,
+          "col_3": -26.2
+        },
+        {
+          "row_name": "642211-Horas extraordinárias",
+          "col_1": 2019851.87,
+          "col_2": 1551512.63,
+          "col_3": -23.2
+        },
+        {
+          "row_name": "642212-Prevenções",
+          "col_1": 274420.46,
+          "col_2": 142246.21,
+          "col_3": -48.2
+        },
+        {
+          "row_name": "64222-Trabalho em regime de turnos",
+          "col_1": 1303111.09,
+          "col_2": 1226079.95,
+          "col_3": -5.9
+        },
+        {
+          "row_name": "642221-Noites e suplementos",
+          "col_1": 1303111.09,
+          "col_2": 1226079.95,
+          "col_3": -5.9
+        },
+        {
+          "row_name": "642222-Subsídio de tumo",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "64223-Abono para falhas",
+          "col_1": 2220.1,
+          "col_2": 2220.1,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "64224-Subsídio de refeição",
+          "col_1": 1539248.66,
+          "col_2": 1457520.86,
+          "col_3": -5.3
+        },
+        {
+          "row_name": "64225-Ajudas de custo",
+          "col_1": 4362.74,
+          "col_2": 4362.74,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "64226/7-Vestuário e Art. Pess/Alim. e Alojam.",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "642281-PECLEC/SIGIC",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "642282/9-Outros Suplementos",
+          "col_1": 637920.12,
+          "col_2": 637024.83,
+          "col_3": -0.1
+        },
+        {
+          "row_name": "6423-Prestações sociais directas",
+          "col_1": 68761.18,
+          "col_2": 68567.38,
+          "col_3": -0.3
+        },
+        {
+          "row_name": "6424-Subsídios de férias e de Natal",
+          "col_1": 4199367.46,
+          "col_2": 3891785.88,
+          "col_3": -7.3
+        },
+        {
+          "row_name": "6425 - Prémios de desempenho",
+          "col_1": null,
+          "col_2": 0.0,
+          "col_3": null
+        },
+        {
+          "row_name": "643-Pensões",
+          "col_1": 130478.64,
+          "col_2": 127938.54,
+          "col_3": -1.9
+        },
+        {
+          "row_name": "645-Encargos sobre remunerações",
+          "col_1": 7673621.93,
+          "col_2": 7065612.74,
+          "col_3": -7.9
+        },
+        {
+          "row_name": "646-Seguros de acid. trab. e doenças profissionais",
+          "col_1": 61039.55,
+          "col_2": 61039.55,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "647-Encargos sociais voluntários",
+          "col_1": 73879.6,
+          "col_2": 73879.6,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "648-Outros custos com pessoal",
+          "col_1": 325104.42,
+          "col_2": 325104.42,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "649-Estágios Profissionais",
+          "col_1": 1407.34,
+          "col_2": 1407.34,
+          "col_3": 0.0
+        }
+      ]
+    },
+    {
+      "table_id": "348",
+      "page": 2,
+      "rows": [
+        {
+          "row_name": "65-Outros custos e perdas operacionais",
+          "col_1": 135065.7,
+          "col_2": 135065.7,
+          "col_3": 0.0
+        },
+        {
+          "row_name": "66-Amortizações do exercicio",
+          "col_1": 978309832.0,
+          "col_2": 2635821.9,
+          "col_3": "-11,5% *"
+        },
+        {
+          "row_name": "67-Provisões do exercício",
+          "col_1": 157845.94,
+          "col_2": 3500000.0,
+          "col_3": -77.8
+        },
+        {
+          "row_name": "68-Custos e perdas financeiras",
+          "col_1": 283192.14,
+          "col_2": 18520.79,
+          "col_3": -935.0
+        },
+        {
+          "row_name": "69-Custos e perdas extraordinários",
+          "col_1": 65935004.0,
+          "col_2": "156 567,09 € 6475.907,436",
+          "col_3": -76.3
+        }
+      ]
+    },
+    {
+      "table_id": "373",
+      "page": 3,
+      "rows": [
+        {
+          "row_name": "Contrato-programa (produção)",
+          "col_1": 53405943.19,
+          "col_2": 52549834.61,
+          "col_3": -1.6
+        },
+        {
+          "row_name": "Dívidas de Terceiros (outras entidades)",
+          "col_1": 16126334.0,
+          "col_2": 11362409.64,
+          "col_3": -29.54
+        },
+        {
+          "row_name": "Contrato-Programa (convergência)",
+          "col_1": 11556905.77,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Incentivos",
+          "col_1": 5662608.64,
+          "col_2": 2864877.42,
+          "col_3": -49.41
+        },
+        {
+          "row_name": "Subsídios à Exploração",
+          "col_1": 347163.93,
+          "col_2": 71638.98,
+          "col_3": -79.36
+        },
+        {
+          "row_name": "Taxas Moderadoras (R)",
+          "col_1": 1822119.57,
+          "col_2": 2419349.12,
+          "col_3": 32.78
+        },
+        {
+          "row_name": "Outros (inclui outros operacionais e extraordinários)",
+          "col_1": 13916321.82,
+          "col_2": 2297897.48,
+          "col_3": -83.49
+        }
+      ]
+    },
+    {
+      "table_id": "402",
+      "page": 3,
+      "rows": [
+        {
+          "row_name": "Fornecedores e outros c/c",
+          "col_1": "-30.513 114,14 € -29.565 638,76 €",
+          "col_2": -3.11
+        },
+        {
+          "row_name": "Custos com Pessoal",
+          "col_1": "-40.626.788,99 € -45 347.258,88 €",
+          "col_2": -10.41
+        },
+        {
+          "row_name": "Transf. Correntes conced. e Prest. Sociais",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "Outros (inclui outros operac. e extraord)",
+          "col_1": "-26.396.190,99 € -373 920,61 €",
+          "col_2": -98.58
+        }
+      ]
+    },
+    {
+      "table_id": "415",
+      "page": 3,
+      "rows": [
+        {
+          "row_name": "Investimentos Financeiros",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Imobilizações Corpóreas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Imobilizações Incorpóreas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Subsídios ao Investimento",
+          "col_1": 16734.17,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Juros e Proveitos Similares",
+          "col_1": 15054.06,
+          "col_2": 15000.0,
+          "col_3": -0.36
+        },
+        {
+          "row_name": "Dividendos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Outros",
+          "col_1": 0.0,
+          "col_2": 0.0,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "449",
+      "page": 3,
+      "rows": [
+        {
+          "row_name": "Investimentos Financeiros",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "Imobilizações Corpóreas",
+          "col_1": -853857.38,
+          "col_2": "-1 119 280,92 € 31,09%"
+        },
+        {
+          "row_name": "Imobilizações Incorporeas",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "Flixo",
+          "col_1": null,
+          "col_2": null
+        }
+      ]
+    },
+    {
+      "table_id": "468",
+      "page": 3,
+      "rows": [
+        {
+          "row_name": "Pagamento",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Empréstimos Obtidos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Amortizações de Contratos de Leasing",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Juros e Custos Similares",
+          "col_1": -49429.8,
+          "col_2": -18520.79,
+          "col_3": -62.53
+        },
+        {
+          "row_name": "Dividendos",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Reduções de Capital e P. Suplementares",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Aquisição de Acções Próprias",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "497",
+      "page": 3,
+      "rows": [
+        {
+          "row_name": "Caixa no inicio do periodo",
+          "col_1": 2153734.72,
+          "col_2": 1863918.68,
+          "col_3": -13.46
+        },
+        {
+          "row_name": "Caixa no fim do periodo",
+          "col_1": 1863918.68,
+          "col_2": 1740775.86,
+          "col_3": -6.61
+        }
+      ]
+    },
+    {
+      "table_id": "517",
+      "page": 4,
+      "rows": [
+        {
+          "row_name": "451 Terrenos e recursos naturais"
+        },
+        {
+          "row_name": "452- Edifícios"
+        },
+        {
+          "row_name": "453-Outras construções e infra-estruturas"
+        },
+        {
+          "row_name": "455- Bens do património hist., artist. e cultural"
+        },
+        {
+          "row_name": "459-Outros bens de domínio público"
+        },
+        {
+          "row_name": "445- Imobilizações em Curso de Bens de Dominio Público"
+        },
+        {
+          "row_name": "446- Adiantamento por Conta de Bens do Domínio Público"
+        }
+      ]
+    },
+    {
+      "table_id": "525",
+      "page": 4,
+      "rows": [
+        {
+          "row_name": "431- Despesas de Instalação",
+          "col_1": 0.0,
+          "col_2": "119.853,00",
+          "col_3": "119.853,00",
+          "col_4": 0.0
+        },
+        {
+          "row_name": "432- Despesas de Investigação e Desenvolvimento",
+          "col_1": 0.0,
+          "col_2": "265.963,27",
+          "col_3": "265.963,27",
+          "col_4": 0.0
+        },
+        {
+          "row_name": "443- Imobilizações em Curso de Imobilizações Incorpóreas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "449-Adiantamentos por Conta de Imobilizações Incorpóreas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        }
+      ]
+    },
+    {
+      "table_id": "546",
+      "page": 4,
+      "rows": [
+        {
+          "row_name": "Terrenos e Recursos Naturais 421",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "422- Edifícios e Outras Construções",
+          "col_1": "5.969 978,30",
+          "col_2": "17.205 798,51",
+          "col_3": 12218230.53,
+          "col_4": "4.987 567,98"
+        },
+        {
+          "row_name": "Equipamento Básico 423",
+          "col_1": "5.846.830,43",
+          "col_2": "24.756.484,13",
+          "col_3": 19685136.1,
+          "col_4": "5.071.348,03"
+        },
+        {
+          "row_name": "424-Equipamento de Transporte",
+          "col_1": 2309.32,
+          "col_2": "166.162,22",
+          "col_3": "164.442,88",
+          "col_4": "1.719,34"
+        },
+        {
+          "row_name": "425 Ferramentas e Utensílios",
+          "col_1": "3.269,14",
+          "col_2": "40.340,56",
+          "col_3": "39.372,02",
+          "col_4": 968.54
+        },
+        {
+          "row_name": "Equipamento administrativo e Informático 426-",
+          "col_1": "605.800,03",
+          "col_2": "9 786.663,09",
+          "col_3": "9.677.707,88",
+          "col_4": 108955.21
+        },
+        {
+          "row_name": "427 Taras e Vasilhame",
+          "col_1": null,
+          "col_2": 14158.96,
+          "col_3": "14.158,96",
+          "col_4": 0.0
+        },
+        {
+          "row_name": "429-Outras Imobilizações Corpóreas",
+          "col_1": "210.341,62",
+          "col_2": 770384.21,
+          "col_3": 648604.24,
+          "col_4": "121.779,97"
+        },
+        {
+          "row_name": "442- Imobilizações em Curso de Imobilizações Corpóreas",
+          "col_1": 59351.98,
+          "col_2": "59.351,98",
+          "col_3": null,
+          "col_4": 59351.98
+        },
+        {
+          "row_name": "448 Adiantamentos por Conta de Imobilizações Corporeas Corpor",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": "10.351.691,05"
+        }
+      ]
+    },
+    {
+      "table_id": "602",
+      "page": 4,
+      "rows": [
+        {
+          "row_name": "411- Partes de Capital"
+        },
+        {
+          "row_name": "412-Obrigações e Títulos de Participação"
+        },
+        {
+          "row_name": "414 Investimentos em Imóveis"
+        },
+        {
+          "row_name": "415- Outras Aplicações Financeiras"
+        },
+        {
+          "row_name": "441- Imobilizações em Curso de Investimentos"
+        },
+        {
+          "row_name": "Financeiros"
+        },
+        {
+          "row_name": "447- Adiantamentos por Conta de Investimentos"
+        },
+        {
+          "row_name": "FinanceiroS"
+        }
+      ]
+    },
+    {
+      "table_id": "611",
+      "page": 4,
+      "rows": [
+        {
+          "row_name": "36- Matérias-primas, Subsidiárias e de Consumo",
+          "col_1": "971.855,20",
+          "col_2": 850000.0,
+          "col_3": 850000.0
+        },
+        {
+          "row_name": "34- Sub-produtos, Desperdícios, Residuos e Refugo",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "625",
+      "page": 5,
+      "rows": [
+        {
+          "row_name": "Empréstimos Concedidos 28-",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "211 Clientes c/c",
+          "col_1": "1.001 304,71",
+          "col_2": "1 600.000,00",
+          "col_3": null,
+          "col_4": 1600000.0
+        },
+        {
+          "row_name": "213 Utentes c/c",
+          "col_1": "12.904,04",
+          "col_2": "20.000,00",
+          "col_3": null,
+          "col_4": 20000.0
+        },
+        {
+          "row_name": "215- Instituições do MS",
+          "col_1": "16.995 922,73",
+          "col_2": "10.000 000,00",
+          "col_3": null,
+          "col_4": "10 000.000,00"
+        },
+        {
+          "row_name": "218- Clientes e Utentes de Cobrança Duvidosa",
+          "col_1": "327.437,98",
+          "col_2": "350.085,92",
+          "col_3": 300000.0,
+          "col_4": "50.085,92"
+        },
+        {
+          "row_name": "251- Devedores pela Execução do Orçamento",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "229 Adiantamentos a Fomecedores",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "2619- Adiantamentos a Fornecedores de Imobilizado",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "24- Estado e Outros Entes Públicos",
+          "col_1": "210.466,18",
+          "col_2": "505.000,00",
+          "col_3": null,
+          "col_4": "505.000,00"
+        },
+        {
+          "row_name": "263/3/4+267+268 - Outros devedores",
+          "col_1": "2.935.875,47",
+          "col_2": "3.000 000,00",
+          "col_3": null,
+          "col_4": "3 000.000,00"
+        }
+      ]
+    },
+    {
+      "table_id": "676",
+      "page": 5,
+      "rows": [
+        {
+          "row_name": "151 - Acções",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "152- Obrigações e Títulos de Participação",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "153 Títulos da Dívida Pública",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "159-Outros Títulos",
+          "col_1": 35775.86,
+          "col_2": "35.775,86",
+          "col_3": "35.775,86"
+        },
+        {
+          "row_name": "18-Outras Aplicações de Tesouraria",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "697",
+      "page": 5,
+      "rows": [
+        {
+          "row_name": "13- Contas no Tesouro",
+          "col_1": "1.671 712,17",
+          "col_2": "1 500.000,00",
+          "col_3": 1500000.0
+        },
+        {
+          "row_name": "12- Depósitos em Instituições Financeiras",
+          "col_1": 152460.78,
+          "col_2": "200.000,00",
+          "col_3": 200000.0
+        },
+        {
+          "row_name": "11 - Caixa",
+          "col_1": 3969.87,
+          "col_2": 5000.0,
+          "col_3": 5000.0
+        }
+      ]
+    },
+    {
+      "table_id": "711",
+      "page": 5,
+      "rows": [
+        {
+          "row_name": "271 Acréscimos de Proveitos",
+          "col_1": "156 171.171,95",
+          "col_2": "57.297.548,48",
+          "col_3": 5729754848
+        },
+        {
+          "row_name": "272 Custos Diferidos",
+          "col_1": null,
+          "col_2": 0.0,
+          "col_3": 0.0
+        }
+      ]
+    },
+    {
+      "table_id": "728",
+      "page": 6,
+      "rows": [
+        {
+          "row_name": "51 Património",
+          "col_1": null,
+          "col_2": "40.788.621,72",
+          "col_3": "51.988.621,72"
+        },
+        {
+          "row_name": "56- Reservas de Reavaliação",
+          "col_1": null,
+          "col_2": "1.026 749,46",
+          "col_3": "1.026.749,46"
+        },
+        {
+          "row_name": null,
+          "col_1": "Sub-total",
+          "col_2": "41.815.371,18",
+          "col_3": "53.015.371,18"
+        },
+        {
+          "row_name": "Reservas",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "571 Reservas Legais",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "572- Reservas Estatutárias",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "574-Reservas Livres",
+          "col_1": null,
+          "col_2": 7922848.1,
+          "col_3": "7.922.848,10"
+        },
+        {
+          "row_name": "575 Subsídios",
+          "col_1": null,
+          "col_2": "620.950,88",
+          "col_3": 620950.88
+        },
+        {
+          "row_name": "576 - Doações",
+          "col_1": null,
+          "col_2": "1.253.519,39",
+          "col_3": "1.253 519,39"
+        },
+        {
+          "row_name": "Reservas Decorrentes da Transferência de Activos 577-",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": null,
+          "col_1": "Sub-total",
+          "col_2": "9.797.318,37",
+          "col_3": "9.797.318,37"
+        }
+      ]
+    },
+    {
+      "table_id": "781",
+      "page": 6,
+      "rows": [
+        {
+          "row_name": "213 Utentes c/c",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "219-Adiantamentos de Clientes, Utentes e Instit MS",
+          "col_1": "173.111.769,04",
+          "col_2": 57297548.48
+        },
+        {
+          "row_name": "221 Fornecedores c/c",
+          "col_1": "38.841 668,59",
+          "col_2": 54109658.32
+        },
+        {
+          "row_name": "228-Fornecedores - Facturas recep. e conf.",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "23- Empréstimos obtidos",
+          "col_1": "11.122 050,58",
+          "col_2": null
+        },
+        {
+          "row_name": "252- Credores pela Execução do Orçamento",
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "2611-Fomecedores de imobilizado c/c",
+          "col_1": "1 529.648,79",
+          "col_2": "700.000,00"
+        },
+        {
+          "row_name": "24 Estado e Outros Entes Públicos",
+          "col_1": "1.114 377,31",
+          "col_2": "1.100.000,00"
+        },
+        {
+          "row_name": "261/3/4 Outros Credores",
+          "col_1": "7.714 252,52",
+          "col_2": 750000000
+        }
+      ]
+    },
+    {
+      "table_id": "825",
+      "page": 8,
+      "rows": [
+        {
+          "row_name": "Indicador A.1",
+          "col_1": null,
+          "col_2": "Percentagem de 1ªs consultas médicas no total de consultas médicas",
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2014",
+          "col_2": "Entidade Gestora",
+          "col_3": null,
+          "col_4": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Acesso",
+          "col_2": "Período aplicável",
+          "col_3": null,
+          "col_4": "Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Aferir o acesso a Consulta Externa (1's consultas) de especialidade.",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que exprime a percentagem de 1ªs consultas médicas\", no total de consultas médicas\", ocorridas no periodo em análise",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Ciáusula CP",
+          "col_1": "Acordo Modificativo 2014 - Hospitais/ Centros Hospitalares Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2014 - ULS Cláusula 4ª do Anexo (Apendice II)",
+          "col_2": "Unidade de medida",
+          "col_3": null,
+          "col_4": "% (uma casa décimal)"
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Mensal",
+          "col_2": "Fonte dos dados/ Base da monitorização",
+          "col_3": null,
+          "col_4": "Sl da Instituição"
+        },
+        {
+          "row_name": "Responsável pela monitorização",
+          "col_1": "Instituição / ARS",
+          "col_2": "Fórmula",
+          "col_3": "(",
+          "col_4": "N° de 1ªs consultas médicas /Total de consultas médicas) X 100"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 20 do més n+1",
+          "col_2": "Vaior de Referência (Meta)",
+          "col_3": null,
+          "col_4": "Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares Cláusula 5ª (Apendice II), ULS Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS",
+          "col_2": "Valor de base",
+          "col_3": null,
+          "col_4": "valor histórico da Instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "Valor acumulado * Consideram-se também consultas de telemedicina, quer para Não são consideradas as consultas de Medicina do Trabalho",
+          "col_2": "1ºs consultas quer para total de consultas.",
+          "col_3": null,
+          "col_4": null
+        }
+      ]
+    },
+    {
+      "table_id": "882",
+      "page": 8,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "1ªs consuitas médicas",
+          "col_1": "N° de 1ªs consultas realizadas por profissionais médicos, presenciais e consulas de telemedicina",
+          "col_2": "Sl da Instituição",
+          "col_3": "nº 1ªs consultas"
+        },
+        {
+          "row_name": "Total consultas médicas",
+          "col_1": "Total de consultas (incluindo 1ªs) realizadas por profissionais médicos presenciais ou sem a presença do doente e consultas de telemedicina",
+          "col_2": "Sl da Instituição",
+          "col_3": "nº total de consultas"
+        }
+      ]
+    },
+    {
+      "table_id": "897",
+      "page": 9,
+      "rows": [
+        {
+          "row_name": "Indicador A.2",
+          "col_1": "Percentagem de utentes referenciados para consulta externa (CTH) atendidos em tempo adequado",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo Contrato-programa 2014",
+          "col_2": "Entidade Gestora",
+          "col_3": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Acesso",
+          "col_2": "Período aplicável",
+          "col_3": "Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Promover as boas práticas da referenciação para acesso a 1ª",
+          "col_2": "CE.",
+          "col_3": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que exprime em valor percentual a proporção de utentes referenciados (CTH) para 1ª Consulta Resposta Garantido (TMRG), no total de 1ªs CE prestadas (CTH), no período em análise",
+          "col_2": null,
+          "col_3": "Externa, com CE prestada dentro do Tempo Máximo de"
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014-Hospitais/ Centros Hospitalares Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2014-ULS Cláusula 4ª do Aneхо (Apendice II)",
+          "col_2": "Unidade de medida",
+          "col_3": "% (uma casa décimal)"
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Mensal",
+          "col_2": "Fonte dos dados/ Base da monitorização",
+          "col_3": "ADW-CTH"
+        },
+        {
+          "row_name": "Responsável pela monitorização",
+          "col_1": "Instituição / ARS",
+          "col_2": "Fórmula",
+          "col_3": "(N° de 1ªs CE (CTH) dentro do TMRG / N° de 1ªs CE (CTH)) X 100"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 20 do mês n+1",
+          "col_2": "Valor de Referência (Meta)",
+          "col_3": "Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares. Cláusula 5ª (Apendice II), ULS Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS",
+          "col_2": "Valor de base",
+          "col_3": "valor histórico da Instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "CE - Consulta Externa (só são consideradas CE registadas no СТН), variavel com fonte de integraçao ADW-CTH TMRG - estipulado na Portaria nº 1529/2008, de 26 de Dezembro Não são consideradas no total de CE as consultas de especialidade",
+          "col_2": "de medicina do trabalho",
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "943",
+      "page": 9,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ Si",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "1ªs CE (CTH) TMRG",
+          "col_1": "Valor acumulado de CE, com registo no SI CTH, realizadas dentro do tempo máximo de resposta garantido, no período",
+          "col_2": "ADW-CTH",
+          "col_3": "n° 1's consultas externas"
+        },
+        {
+          "row_name": "1's CE (CTH)",
+          "col_1": "Valor acumulado de CE, com registo no SI CTH, realizadas no período",
+          "col_2": "ADW-CTH",
+          "col_3": "n° 1's consultas externas"
+        }
+      ]
+    },
+    {
+      "table_id": "961",
+      "page": 10,
+      "rows": [
+        {
+          "row_name": "Indicador A.3",
+          "col_1": "Peso das consultas externas médicas com registo de alta no total de consultas externas"
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2014 Entidade Gestora Hospital, Centro Hospitalar, Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Acesso Periodo aplicável Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Incentivar a referenciação de doentes dos cuidados hospitalares para os cuidados de saúde primários."
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que exprime em valor percentual a proporção de consultas externas médicas com registo de alta clinica no total de consultas externas"
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014 - Hospitais/ Centros Hospitalares Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2014 - ULS Cláusula 4ª do Anexo (Apendice II) Unidade de medida % (uma casa décimal)"
+        },
+        {
+          "row_name": "Frequência de monitorização Responsável pela monitorização",
+          "col_1": "Fonte dos dados/ Base da monitorização Mensal Si da Instituição (N° de consultas externas médicas com registo de alta / Total consultas externas médicas) X 100 Instituição / ARS Fórmula"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares Cláusula 5ª (Apendice il), ULS Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS) Dia 20 do més n+1 Valor de Referência (Meta)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS Valor de base valor histórico da Instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "Valor acumulado * Consideram-se consultas presenciais e de telemedicina, quer Não são consideradas as consultas de Medicina do Trabalho para consultas com registo de alta quer para total de consultas"
+        }
+      ]
+    },
+    {
+      "table_id": "982",
+      "page": 10,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ Sl",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "N° de consultas externas médicas com registo de alta",
+          "col_1": "Consultas externas realizadas por profissionais médicos, para as quais existe registo de alta clínica",
+          "col_2": "Sl da Instituição",
+          "col_3": "n° de consultas com registo de alta clinica"
+        },
+        {
+          "row_name": "Total consultas externas médicas",
+          "col_1": "Total de consultas externas realizadas por profissionais médicos, presenciais ou sem a presença do doente e consultas de telemedicina",
+          "col_2": "Si da Instituição",
+          "col_3": "n° total de consultas"
+        }
+      ]
+    },
+    {
+      "table_id": "996",
+      "page": 11,
+      "rows": [
+        {
+          "row_name": "Indicador A.4",
+          "col_1": "Percentagem de incritos em Lic com tempo de espera inferior ou igual ao TMRG",
+          "col_2": null
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2014 Entidade Gestora",
+          "col_2": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Acesso Período aplicável",
+          "col_2": "Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Garantir o acesso atempado ao tratamento cirúrgico (intervenção cirurgica)",
+          "col_2": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que exprime em valor percentual a proporção de nº de doentes inscritos para cirurgia e que se encontram a aguardar pela intervenção, dentro dos tempos máximos de resposta garantıda, no total de doentes inscritos, no fim do período em análise",
+          "col_2": null
+        },
+        {
+          "row_name": "Cláusula CP Frequência de monitorização",
+          "col_1": "Acordo Modificativo 2014 Hospitais/ Centros Hospitalares Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2014 ULS Cláusula 4ª do Anexo (Apendice II) Unidade de medida Fonte dos dados/ Base da monitorização Mensal",
+          "col_2": "% (uma casa décimal) SIGIC"
+        },
+        {
+          "row_name": "Responsável pela monitorização Prazo Entrega Reporting",
+          "col_1": "Instituição / ARS Fórmula Dia 20 do mês n+1 Valor de Referência (Meta)",
+          "col_2": "(N° Insc LIC com tempo de espera <= TMRG / N° Insc LIC) X 100 Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares Cláusula 5ª (Apendice II), ULS Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "Valor de base ARS",
+          "col_2": "valor histórico da Instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "LIC - N° de Inscritos em Cirurgia Avaliação do valor médio anual",
+          "col_2": null
+        }
+      ]
+    },
+    {
+      "table_id": "1026",
+      "page": 11,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "LIC <=TMRG",
+          "col_1": "Valor da LIC considerando apenas os doentes que se encontram a aguardar cirurgia dentro do TMRG que lhes for atribuído, no fim do período",
+          "col_2": "SI SIGIC",
+          "col_3": "nº inscritos"
+        },
+        {
+          "row_name": "LIC",
+          "col_1": "Valor da LIC considerando todos doentes que se encontram a aguardar cirurgia, no fim do período.",
+          "col_2": "SI SIGIC",
+          "col_3": "nº inscritos"
+        }
+      ]
+    },
+    {
+      "table_id": "1041",
+      "page": 12,
+      "rows": [
+        {
+          "row_name": "Indicador A.5",
+          "col_1": "para a RNCCI, em tempo adequado, no total de doentes tratados fespecialidades seleccionadas) Permilagem de doentes sinalizados"
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2014 Entidade Gestora Hospital, Centro Hospitalar, Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Acesso Período aplicável Απο 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Promover as boas práticas de referenciação, incentivando a sinalização atempada de doentes, para posterior referenciação para a RNCCI."
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que exprime a proporção de doentes sinalizados atempadamente\", para referenciaçao para a RNCCI no total de doentes tratados das especialidades (serviços) identificadas"
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014 Hospitars/ Centros Hospitalares. Cláusula 5ª do Anexo (Apéndice II) Acordo Modificativo 2014 ULS Cláusula 4º do Anexo (Apendice II) %% (duas casas décimais) Unidade de medida"
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Fonte dos dados/ Base da monitorização Mensal SI GESTCARE"
+        },
+        {
+          "row_name": "Responsávei pela monitorização Prazo Entrega Reporting",
+          "col_1": "(N° de doentes sinalizados atempadamente das especialidades selecionadas / Total de doentes tratados das especialidades selecionadas)*1000 Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares. Cláusula 5ª (Apendice II), ULS Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS) Instituição / ARS Fórmula Dia 20 do měs n+1 Valor de Referência (Meta)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS Valor de base valor histórico da Instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "Sinalização atempada, sempre que esta ocorre antes do prazo limite estabelecido (estabelecido ao que vier a ser negociado por cada ARS). Em termos de boas práticas a UMCCI aponta para que os doentes sejam sinalizados até 4 dias após o internamento no serviço que faz a sinalização. Sinalização, corresponde ao registo no SI GESTCARE da existência de um doente susceptível de referenciação para a RNCCI Tempo de sinalização corresponde ao nº de dias entre a data de internamento do episodio ou a data de intemamento do Serviço que identifica a necessidade e o registo da sinalização no SI GEST CARE Exemplo: Data de internamento 20/01/2013 Data de sinalização 29/01/2013"
+        },
+        {
+          "row_name": null,
+          "col_1": "Tempo entre a data de intermamento do episódio e a data de sinalização = 29-20-9 9 dias é o tempo de sinalização."
+        }
+      ]
+    },
+    {
+      "table_id": "1065",
+      "page": 12,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ Si",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "N° de doentes sinalizados alempadamente",
+          "col_1": "N° de doentes com registo no SI GESTCARE para eventual referenciação para a RNCCI, por parte da EGA, com registo efectuado até ao prazo limite estabelecido",
+          "col_2": "SI GESTCARE",
+          "col_3": "nº de doentes"
+        },
+        {
+          "row_name": "N° de doentes tratados",
+          "col_1": "Doentes que deixaram de permanecer internados num estabelecimento de saúde num determinado período e ainda os que transitaram para o período seguinte",
+          "col_2": "SI da Instituição",
+          "col_3": "n° de doentes"
+        }
+      ]
+    },
+    {
+      "table_id": "1082",
+      "page": 13,
+      "rows": [
+        {
+          "row_name": "Indicador B.1",
+          "col_1": null,
+          "col_2": null,
+          "col_3": "Demora Média",
+          "col_4": null
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2014",
+          "col_2": null,
+          "col_3": "Entidade Gestora",
+          "col_4": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Desempenho Assistencial",
+          "col_2": null,
+          "col_3": "Periodo aplicável",
+          "col_4": "Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Incentivar a eficiência",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que exprime o número médio de dias de internamento por doente saído de um estabelecimento de saúde num periodo. Fonte INE",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014 - Hospitais/ Centros Hospitalares Cláusula 5ª do Anexo (Apéndice II) Acordo Modificativo 2014 - ULS Cláusula 4ª do Anexo (Apendice II)",
+          "col_2": null,
+          "col_3": "Unidade de medida",
+          "col_4": "dias (duas casas décimais)"
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Mensal",
+          "col_2": null,
+          "col_3": "Fonte dos dados/ Base da monitorização",
+          "col_4": "Sl da Instituição"
+        },
+        {
+          "row_name": "Responsável pela monitorização",
+          "col_1": "Instituição / ARS",
+          "col_2": null,
+          "col_3": "Fórmula",
+          "col_4": "Nº de dias de internamento do período em análise / N° de doentes saídos desse periodo"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 20 do mês n+1",
+          "col_2": null,
+          "col_3": "Valor de Referência (Meta)",
+          "col_4": "Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares Cláusula 5ª (Apendice II), ULS: Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS",
+          "col_2": null,
+          "col_3": "Valor de base",
+          "col_4": "valor histórico da Instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        }
+      ]
+    },
+    {
+      "table_id": "1138",
+      "page": 13,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ Sl",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Dias de internamento",
+          "col_1": "Total de dias de internamento de todos os doentes com excepção dos dias de alta (não são considerados os dias de berçário, de quartos particulares e SO<24h.,)",
+          "col_2": "Sl da Instituição",
+          "col_3": "nº dias"
+        },
+        {
+          "row_name": "Doentes saidos",
+          "col_1": "Total de doentes saídos do hospital no período em análise",
+          "col_2": "Sl da Instituição",
+          "col_3": "nº doentes saídos"
+        }
+      ]
+    },
+    {
+      "table_id": "1155",
+      "page": 14,
+      "rows": [
+        {
+          "row_name": "Indicador B.2",
+          "col_1": "Percentagem de reinternamentos em 30 dias"
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2014 Entidade Gestora Hospital, Centro Hospitalar, Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Qualidade de Serviço Periodo aplicável Ало 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Monitorização de altas."
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que exprime, em valor percentual, o nº de episódios considerados apenas os reinternamentos cujo 1º internamento posteriores a alta no total de episódios internamento do periodo São de internamento ocorridos nos 30 dias ocorreu no periodo em análise"
+        },
+        {
+          "row_name": "Cláusula CP Frequência de monitorização",
+          "col_1": "Acordo Modificativo 2014-Hospitais/ Centros Hospitalares Cláusula 5ª do Anexo (Apéndice 11) Acorda Modificativo 2014 ULS Cláusula 4ª do Anexo (Apendice II) Unidade de medida % (una casa décimal) Fonte dos dados/ Base da monitorização Mensal Base dados nacional de GDH"
+        },
+        {
+          "row_name": "Responsável pela monitorização",
+          "col_1": "(Total de reinternamentos ocorridos até 30 dias após a alta do doente / Total de episódios de internemento, no período em análise) X 100 Instituição / ARS Fórmula"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Definido no Acordo Modificativo 2014 Hospitars / Centros Hospitalares. Cláusula 5ª (Apendice II). ULS Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS) Dia 20 do més n+1 Valor de Referência (Meta)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS/ACSS Valor de base valor histórico da Instituição (opcional)"
+        },
+        {
+          "row_name": null,
+          "col_1": "este indicator е потестов река ACSS e calculado a paror dos episodios coumcados e agrupados em Gun, enviados pelos nospitais e que constam na base de 2006 nacional de GDH da ACSS (UOFC). São considerados os valores acumulados São retiredos os episódios com menos de 24 horas considerados inválidos para facturação (episódios com menos de 24 horas, sem preço da ambulatório e com destino após alta diferente de morto ou alta contra parecer médico) São excluidos do segundo episódio os seguintes GDH. 249 Disfunção, reacção ou complicação de dispositivo ou procedimento ortopédico"
+        },
+        {
+          "row_name": null,
+          "col_1": null
+        },
+        {
+          "row_name": null,
+          "col_1": "317 Intermamento para diálise renal"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "409 Radioterapia"
+        },
+        {
+          "row_name": null,
+          "col_1": "410 Quimioterapia"
+        },
+        {
+          "row_name": null,
+          "col_1": "465 Continuação de cuidados, com história de doença maligna como diagnóstico adicional"
+        },
+        {
+          "row_name": null,
+          "col_1": "466 Continuação de cuidados, sem história de doença maligna como diagnóstico adicional 635 Continuação de cuidados com recém-nascidos para aumento de peso"
+        },
+        {
+          "row_name": null,
+          "col_1": "636 Continuação de cuidados no lactente para aumento de peso, idade >28 dias e <1 ano 754 Cuidados terciários, idade suparior ou igual a 1 ano"
+        },
+        {
+          "row_name": null,
+          "col_1": "876 Quimioterepia com leucemia aguda como diagnóstico adicional ou com uso de alta dose de agente quimioterápico"
+        }
+      ]
+    },
+    {
+      "table_id": "1192",
+      "page": 14,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte informação / SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Nº reintermamentos nos em 30 dias",
+          "col_1": "Total de reinternamentos nos 30 dias posteriores à alta do doente São considerados apenas os reinternamentos cujo 19 internamento também ocorreu no periodo em análise",
+          "col_2": "ACSS Base dados GDH",
+          "col_3": "Nº de episódios"
+        },
+        {
+          "row_name": "Total de episódios de internamento",
+          "col_1": "Total de internamentos com alta no periodo em análise",
+          "col_2": "ACSS Base dados GDH",
+          "col_3": "Nº de episódios"
+        }
+      ]
+    },
+    {
+      "table_id": "1258",
+      "page": 15,
+      "rows": [
+        {
+          "row_name": "Variávels",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação / Sl",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Episódios de internamento (At > L max)",
+          "col_1": "Episódios da internamento com período de internamento superior ao limite máximo estabelecido para o GDH do episódio.",
+          "col_2": "ACSS Base dados GDH",
+          "col_3": "nº de episódios"
+        },
+        {
+          "row_name": "Total de episódios de Internamento",
+          "col_1": "Total de épisódios de internamento com aita no periodo em análise",
+          "col_2": "ACSS. Base dados GDH",
+          "col_3": "nº de episódios"
+        }
+      ]
+    },
+    {
+      "table_id": "1307",
+      "page": 16,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ Si",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Total de episódios utentes com idade >= a 65 anos, com diagnóstico principal 820, com cirurgia nas primeiras 48 horas após admissão",
+          "col_1": "Total de episódios utentes com idade superior ou igual a 65 anos. com diagnóstico principal 820, com cirurgia nas primeiras 48 horas após admissão no periodo em analise",
+          "col_2": "Base de Dados de GDH",
+          "col_3": "nº de episódios"
+        },
+        {
+          "row_name": "Total de episódios utentes com idade >=a~65 anos, com diagnóstico principal 820, com cirurgia realizada",
+          "col_1": "Total de episódios utentes com idade superior ou igual a 65 anos, com diagnóstico principal 820 com cirurgia realizada no periodo em analise",
+          "col_2": "Base de Dados de GDH",
+          "col_3": "nº de eposódios"
+        }
+      ]
+    },
+    {
+      "table_id": "1328",
+      "page": 17,
+      "rows": [
+        {
+          "row_name": "Indicador B.5",
+          "col_1": "Percentagem da cirurgias realizadas em ambulatorio no total de cirurgias programadas (GDH) para procedimentos ambulatorizaveis"
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2014 Entidade Gestora Hospital, Centro Hospitalar, Unidade Local de Saude"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Qualidade de serviço Periodo aplicável Ало 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Incentivar a actividade cirúrgica de ambulatório."
+        },
+        {
+          "row_name": "Descrição do Indicador:",
+          "col_1": "Indicador que expressa a percentagem de episódios de ambulatório identificados pela CNDCA como mais frequentemente realizados no total de episódios de ambulatório e internamento programados para procedimentos cirúrgicos em ambulatório, ocorridos no periodo em análise"
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014 Hospitais/ Centros Hospitalares. Cláusula 5ªº do Anexo (Apêndice II) Acordo Modificativo 2014 - ULS Cláusula 4ª do AnΘΧΟ (Apendice II) Unidade de medida % (uma casa décimai)"
+        },
+        {
+          "row_name": "Frequência de monitorização Responsável pela monitorização",
+          "col_1": "Fonte dos dados/ Base da monitorização Mensal Base de Dados Nacional de GDH (Total de episódios cirúrgicos de ambulatório com procedimentos ambulatorizáveis / Total de episódios cirúrgicos de internamento e de ambulatório, com procedimentos ambulatorizáveis) X 100 Instituição / ARS Fórmula"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares Cláusula 5ª (Apendice II). ULS. Clausula 4\" do Anexo (Apendice II) (estabelecido em negociação com as ARS) Dia 20 do měs n+1 Valor de Referência (Meta)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS Valor de base valor historico da Instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "Este indicador é fornecido pela ACSS e calculado a partir dos episódios codificados e agrupados em GDH, enviados pelos hospitais e que constam na base de dados nacional de GDH da ACSS (DPS). São considerados os valores acumulados São retirados os episódios com menos de 24 horas considerados inválidos para facturação (episódios com menos de 24 horas, sem preço de ambulatório e com destino após alta diferente de morto ou alta contra parecer médico)."
+        },
+        {
+          "row_name": null,
+          "col_1": "São considerados os episódios com os procedimentos cirúrgicos presentes na tabela de procedimentos elegíveis em anexo"
+        }
+      ]
+    },
+    {
+      "table_id": "1354",
+      "page": 17,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Episódios de cirurgia de ambulatório",
+          "col_1": "Total de episódios de ambulatorno com qualquer um dos procedimentos eligíveis, agrupados em qualquer GDH cirúrgico com preço de ambulatório, com admissão programada Total de episódios de ambulatório e internamento com qualquer um dos procedimentos eligíveis, agrupados em qualquer GDH cirúrgico com preço de ambulatório, com admissão programada",
+          "col_2": "Base de Dados Nacional de GDH",
+          "col_3": "nº de episódios cir de ambulatório"
+        },
+        {
+          "row_name": "Episódios de cirurgias programadas",
+          "col_1": null,
+          "col_2": "Base de Dados Nacional de GDH",
+          "col_3": "nº de episódios cir de ambulatório e internamento"
+        }
+      ]
+    },
+    {
+      "table_id": "1368",
+      "page": 18,
+      "rows": [
+        {
+          "row_name": "Indicador B.6",
+          "col_1": "Percentagem de consumo de embalagens de medicamentos genéricos, no total embalagens de medicamentos"
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2014 Entidade Gestora Hospital, Centro Hospitalar, Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Desempenho Assistencial Período aplicávei Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Monitorizar o consumo, induzido pela instituição, de embalagens de medicamentos genéricos distribuídos em farmácia de oficína."
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "indicador que exprime a percentagem de embalagens de medicamentos genéricos facturados no total de embalagens facturadas (em ambulatório)."
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014 Hospitais/ Centros Hospitalares Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2014 - ULS Cláusuia 4ª do Anexo (Apendice II) Unidade de medida % (duas casas décimais)"
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Fonte dos dados/ Base da monitorização Mensal SIARS"
+        },
+        {
+          "row_name": "Responsável peia monitorização",
+          "col_1": "N° de embalagens de medicamentos genéricos facturadas / N° total de embalagens de medicamentos facturadas Instituição / ARS Fórmuja"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares. Cláusula 5ª (Apendice II). ULS Cláusula 4ª do Anexo (Apendice il) (estabelecido em negociação com as ARS) Valor de Referência (Meta) Dia 20 do mês n+1"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "Valor de base ARS valor histórico da Instituição (opcional)"
+        }
+      ]
+    },
+    {
+      "table_id": "1394",
+      "page": 18,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ Sl",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "N.º de embalagens de medicamentos genéricos facturadas",
+          "col_1": "N° de embalagens de medicamentos genéricos faturadas",
+          "col_2": "SIARS",
+          "col_3": "n° de embalagens"
+        },
+        {
+          "row_name": "N.° total de embalagens de medicamentos facturadas",
+          "col_1": "N° total de embalagens de medicamentos faturadas",
+          "col_2": "SIARS",
+          "col_3": "nº de embalagens"
+        }
+      ]
+    },
+    {
+      "table_id": "1409",
+      "page": 19,
+      "rows": [
+        {
+          "row_name": "Indicador B.7 Tipo de Indicador",
+          "col_1": "Taxa de registo de Objectivo contrato-programa 2014",
+          "col_2": null,
+          "col_3": "utilização da \"Lista de Verificação de Segurança Cirúrgica Cirurgia segura Hospital, Centro Hospitalar, Unidade Local de Saúde Entidade Gestora"
+        },
+        {
+          "row_name": "Tipo de faiha",
+          "col_1": "Qualidade de serviço",
+          "col_2": "Periodo aplicável",
+          "col_3": "Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Garantir a utilização da \"Lista de Verificação de Segurança Cirúrgica",
+          "col_2": "\".",
+          "col_3": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que expressa a percentagem de intervenções crurgicas com registo de \"Lista de Verificação de Segurança Cirúrgica\", no total de intervenções cirúrgicas",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014-Hospitais/ Centros Hospitalares Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2014 - ULS Cláusula 4º do Anexo (Apendice II)",
+          "col_2": "Unidade de medida",
+          "col_3": "% (uma casa décimal)"
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Mensal",
+          "col_2": "Fonte dos dados/ Base da monitorização",
+          "col_3": "SI SIGIC"
+        },
+        {
+          "row_name": "Responsável pela monitorização",
+          "col_1": "Instituição / ARS",
+          "col_2": "Fórmula",
+          "col_3": "(N° de cirurgias com registo de \"Lista de Verificação de Segurança Cirúrgica\" / Total de Cirurgias) X 100"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 20 do mês n+1",
+          "col_2": "Vaior de Referência (Meta)",
+          "col_3": "Delinido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares Cláusula 5º (Apendice il), ULS Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS",
+          "col_2": "Valor de base",
+          "col_3": "valor histórico da Instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "Considera-se registo de \"Lista de Verificação de Segurança Cirurgica\", o preenchimento, de todos os",
+          "col_2": null,
+          "col_3": "campos da lista de verificação de segurança cirúrgica"
+        }
+      ]
+    },
+    {
+      "table_id": "1451",
+      "page": 19,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte informação/ Sl",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Cirurgias com registo de \"Lista de Verificação de Segurança Cirúrgica\"",
+          "col_1": "Cirurgias cuja Lista de venicação de Segurança Cirurgica, tenha sido registada no Si da instituição ou PDS (Plataforma de Dados da Saude)",
+          "col_2": "SI SIGIC",
+          "col_3": "nº de cirurgias"
+        },
+        {
+          "row_name": "Cirurgias",
+          "col_1": "Um ou mais atos operatórios com o mesmo objetivo terapéutico e ou diagnóstico, realizado(s) por cirurgião(ões) em sala operatóna, na mesma sessão, sob anestesia gerai, locorregional ou local, com cu sem presença de anestesista",
+          "col_2": "SI SIGIC",
+          "col_3": "nº de cirurgias"
+        }
+      ]
+    },
+    {
+      "table_id": "1464",
+      "page": 20,
+      "rows": [
+        {
+          "row_name": "Indicador C.1",
+          "col_1": "Percentagem dos Custos com Horas Extraordinarias, Suplementos e FSE (seleccionados), no Total de Custos com Pessoal",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2013-2015",
+          "col_2": "Entidade Gestora",
+          "col_3": null,
+          "col_4": "Hospital, Centro Hospitalar. Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Eficiência",
+          "col_2": "Período aplicável",
+          "col_3": null,
+          "col_4": "Απο 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Monitorizar o desempenho Económico - Financeiro.",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Descrição do indicador",
+          "col_1": "Indicador que expressa a proporção de custos \"extraordinários\" no total dos custos com pessoal.",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014- Hospitais/ Centros Hospitalares Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2014 ULS Clausula 4ª do Anexo (Apendice II)",
+          "col_2": "Unidade de medida",
+          "col_3": null,
+          "col_4": "% (uma casa decimal)"
+        },
+        {
+          "row_name": "Frequência de monitorização Responsável pela monitorização",
+          "col_1": "Mensal Instituição / ARS",
+          "col_2": "Fonte dos dados/ Base da monitorização Fórmuia",
+          "col_3": null,
+          "col_4": "SIEF (Σ(#642211 +#642212+#642221 +#642281 + # #62229+ #622364) / Σ #64 642282/9 +"
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 20 do mês n+1",
+          "col_2": "Vaior de Referência (Meta)",
+          "col_3": null,
+          "col_4": "Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares Cláusula 5ª (Apendice II). ULS Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS",
+          "col_2": "Valor de base",
+          "col_3": null,
+          "col_4": "valor histórico da Instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        }
+      ]
+    },
+    {
+      "table_id": "1524",
+      "page": 20,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte informação/ Si",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Horas Extraordinárias",
+          "col_1": "(Σ(#642211 (Horas Ext.)",
+          "col_2": "SIEF",
+          "col_3": "€ (euros)"
+        },
+        {
+          "row_name": "Suplementos",
+          "col_1": "(Σ (#642212 prevenções + #642221 noites e suplementos + # 642281 SIGIC + #642282/9outros supl)",
+          "col_2": "SIEF",
+          "col_3": "€ (euros)"
+        },
+        {
+          "row_name": "FSE (selecionado)",
+          "col_1": "Σ(#622364 + #62229)",
+          "col_2": "SIEF",
+          "col_3": "€ (euros)"
+        },
+        {
+          "row_name": "Custos com pessoal",
+          "col_1": "# 64",
+          "col_2": "SIEF",
+          "col_3": "€ (euros)"
+        }
+      ]
+    },
+    {
+      "table_id": "1549",
+      "page": 21,
+      "rows": [
+        {
+          "row_name": "Indicador C.2",
+          "col_1": null,
+          "col_2": "EBITDA",
+          "col_3": null
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2013-2015",
+          "col_2": "Entidade Gestora",
+          "col_3": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Eficiência",
+          "col_2": "Periodo aplicável",
+          "col_3": "Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Monitorizar o desempenho Económico - Financeiro",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que expressa resultados da instituição antes de juros,",
+          "col_2": "impostos, depreciação e amortização",
+          "col_3": null
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014 Hospitais/ Centros Hospitalares Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2014 - ULS Cláusula 4ª do Anexo (Apendice II)",
+          "col_2": "Unidade de medida",
+          "col_3": "€ (euros)"
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Mensal",
+          "col_2": "Fonte dos dados/ Base da monitorização",
+          "col_3": "SIEF"
+        },
+        {
+          "row_name": "Responsável pela monitorização",
+          "col_1": "Instituição / ARS",
+          "col_2": "Fórmula",
+          "col_3": "Σ #7 POCMS (71 a 76) - Σ # 6 POCMS (61 a 65)"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 20 do mês n+1",
+          "col_2": "Valor de Referência (Meta)",
+          "col_3": "Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares: Cláusula 5ª (Apendice II), ULS Cláusula 4ª do Anexo (Apendice li) (estabelecido em negociação com as ARS)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS",
+          "col_2": "Valor de base",
+          "col_3": "valor histórico da Instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "1594",
+      "page": 21,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ Sl",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "EBITDA",
+          "col_1": "Σ #7 POCMS (71 a 76) - Σ #6 POCMS (61 a 65)",
+          "col_2": "SIEF",
+          "col_3": "€ (euros)"
+        }
+      ]
+    },
+    {
+      "table_id": "1606",
+      "page": 22,
+      "rows": [
+        {
+          "row_name": "Indicador C. 3",
+          "col_1": null,
+          "col_2": "Acréscimo de Dívida Vencida",
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2013-2015",
+          "col_2": "Entidade Gestora",
+          "col_3": null,
+          "col_4": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Eficiência",
+          "col_2": "Período aplicável",
+          "col_3": null,
+          "col_4": "Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Monitorizar o desempenho Económico - Financeiro",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que expressa a variação da divida vencida\" (fornecedores",
+          "col_2": "externos) da Instituição.",
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014 - Hospitais/ Centros Hospitalares Cláusula 5ª do Anexo (Apéndice li) Acordo Modificativo 2014 - ULS: Cláusula 4ª do Anexo (Apendice il)",
+          "col_2": "Unidade de medida",
+          "col_3": null,
+          "col_4": "€ (euros)"
+        },
+        {
+          "row_name": "Frequência de monitorização Responsável pela monitorização",
+          "col_1": "Mensal Instituição / ARS",
+          "col_2": "Fonte dos dados/ Base da monitorização Fórmula",
+          "col_3": null,
+          "col_4": "SIEF Divida vencida (fornecedores externos) a 31 dez. 2014 - Dívida vencida (fornecedores externos) a 31 dez 2013"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 21 do mês n+1",
+          "col_2": "Valor de Referência (Meta)",
+          "col_3": null,
+          "col_4": "Definido no Acordo Modificativo 2014 Hospitals / Centros Hospitalares Cláusula 5ª (Apendice II), ULS Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS",
+          "col_2": "Valor de base",
+          "col_3": null,
+          "col_4": "valor histórico da Instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "*divida vencida (fornecedores externos) - valor a apurar pelo SIEF mensalmente, para cada uma das instituições A variação da dívida será calculada em cada mês, tendo como referência o valor observado em 31 Dezembro 2012",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        }
+      ]
+    },
+    {
+      "table_id": "1657",
+      "page": 22,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Acréscimo de Divida Vencida",
+          "col_1": "Variação, entre o periodo n e o periodo n-1, do valor da dívida que ultrapassou o prazo de pagamento",
+          "col_2": "SIEF",
+          "col_3": "€ (euros)"
+        }
+      ]
+    },
+    {
+      "table_id": "1666",
+      "page": 23,
+      "rows": [
+        {
+          "row_name": "Indicador C.4",
+          "col_1": "Percentagem de proveitos operacionais extra contrato-programa",
+          "col_2": ", no total de proveitos operacionais"
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo contrato-programa 2013-2015 Entidade Gestora",
+          "col_2": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Eficiência Período aplicávei",
+          "col_2": "Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Monitorizar o desempenho Económico - Financeiro",
+          "col_2": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que expressa a proporção Proveitos Operacionais não decorrentes do contrato-programa",
+          "col_2": null
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014 - Hospitais/ Centros Hospitalares Cláusula 5ª do Anexo (Apéndice II) Acardo Modificativo 2014 - ULS Cláusula 4ª do Anexo (Apendice II) Unidade de medida",
+          "col_2": "% (uma casa decimal)"
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Fonte dos dados/ Base da monitorização Mensal",
+          "col_2": "SIEF"
+        },
+        {
+          "row_name": "Responsável pela monitorização",
+          "col_1": "Instituição / ARS Fórmula",
+          "col_2": "(Σ# 7 POCMS (71 a 76) - ∑ Estimativa proveitos CP) / Σ# 7 POCMS ( 71 a 76)*100"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 20 do mês n+1 Vaior de Referência (Meta)",
+          "col_2": "Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares Cláusula 5ª (Apendice II). ULS. Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "Valor de base ARS",
+          "col_2": "valor histórico da instituição (opcional)"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "Nota os proveitos operacionais CP estimados, só se apuram para as instituições EPE No caso das instituiçõe SPA é considerada a mensualização do valor do orçamento financeiro No caso das ULS, o valor da estimativa de proveitos considera 95% do valor do contrato",
+          "col_2": null
+        }
+      ]
+    },
+    {
+      "table_id": "1706",
+      "page": 23,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": null,
+          "col_1": "Σ #7 POCMS (71 a 76) totais - Σ Etimativa proveitos CP",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Proveitos Operacionais extra CP",
+          "col_1": "Proveitos Operacionais totais - Proveitos Operacionais do Contrato-programa (estimados)",
+          "col_2": "SIEF",
+          "col_3": "€ (euros)"
+        },
+        {
+          "row_name": "Proveitos Operacionais",
+          "col_1": "Σ # 7 POCMS (71 a 76)",
+          "col_2": "SIEF",
+          "col_3": "€ (euros)"
+        }
+      ]
+    },
+    {
+      "table_id": "1728",
+      "page": 24,
+      "rows": [
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Acesso",
+          "col_2": "Período aplicável",
+          "col_3": null,
+          "col_4": "Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Medir o tempo médio de espera para cirurgias, no hospital em 2014",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que calcula o tempo",
+          "col_2": "médio de espera para cirurgia no",
+          "col_3": "hospital",
+          "col_4": "em 2014"
+        },
+        {
+          "row_name": "Cláusula CP Frequência de monitorização",
+          "col_1": "Acordo Modificativo 2014 - Hospitais / Centros Hospitalares. Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2014 - ULS: Cláusula 4ª do Anexo (Apêndice II) MENSAL",
+          "col_2": "Unidade de medida Fonte dos dados/ Base da monitorização",
+          "col_3": null,
+          "col_4": "no meses (uma casa decimal) SIGIC"
+        },
+        {
+          "row_name": "Responsável pela monitorização",
+          "col_1": "Instituição / ARS",
+          "col_2": "Fórmula",
+          "col_3": null,
+          "col_4": "TME para cirurgia no hospital em 2014"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 10 do mês n+1",
+          "col_2": "Valor de Referência",
+          "col_3": null,
+          "col_4": "Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares: Cláusula 5ª (Apêndice II) ULS Cláusula 4ª do Anexo (Apênice II) (estabelecido em negociação com as ARS)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS/ACSS",
+          "col_2": "Valor de base",
+          "col_3": null,
+          "col_4": "Valor histórico da instituição"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "Valor acumulado",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null
+        }
+      ]
+    },
+    {
+      "table_id": "1769",
+      "page": 24,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação / Sl",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "TME para cirurgia no hospital em 2014",
+          "col_1": "Tempo médio de espera no hospital para a realização de cirurgias, independentemente da especialidade",
+          "col_2": "SIGIC valor em 31/12/2014",
+          "col_3": "n° meses"
+        }
+      ]
+    },
+    {
+      "table_id": "1786",
+      "page": 25,
+      "rows": [
+        {
+          "row_name": "Tipo de indicador",
+          "col_1": "Objectivo Regional CP 2014",
+          "col_2": "Entidade Gestora",
+          "col_3": "Hospital, Unidade Local de Saúde"
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "1799",
+      "page": 25,
+      "rows": [
+        {
+          "row_name": "Tipo de faiha",
+          "col_1": "Acesso Período aplicável",
+          "col_2": "Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Reduzir a percentagem de doentes muito prioritários atendidos acima do tempo máximo de",
+          "col_2": "espera"
+        },
+        {
+          "row_name": "Descrição do indicador",
+          "col_1": "Indicador que calcula a percentagem de doentes muito prioritários atendidos acima",
+          "col_2": "do tempo máximo de espera"
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014 - Hospitais / Centros Hospitalares: Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2014 - ULS: Cláusula 4ª do Anexo (Apêndice II) Unidade de medida",
+          "col_2": "% (uma casa decimal)"
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Fonte dos dados/ Base da monitorização MENSAL",
+          "col_2": "CTH"
+        },
+        {
+          "row_name": "Responsável pela monitorização",
+          "col_1": "Instituição / ARS Fórmula",
+          "col_2": "(Doentes muito prioritários atendidos acima do tempo máximo de espera / Total de doentes muito prioritários atendidos) x 100"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 10 do mês n+1 Valor de Referência",
+          "col_2": "Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares: Cláusula 5ª (Apéndice II) ULS: Cláusula 4ª do Anexo (Apênice II) (estabelecido em negociação com as ARS)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS/ACSS Valor de base",
+          "col_2": "Valor histórico da instituição"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "Valor acumulado",
+          "col_2": null
+        }
+      ]
+    },
+    {
+      "table_id": "1829",
+      "page": 25,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação / SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Doentes muito prioritários atendidos acima do tempo máximo de espera",
+          "col_1": "Número de doentes muito prioritários que foram atendidos na instituição em 2014 depois de ultrapassado o tempo máximo de espera definido pelo CTH",
+          "col_2": "CTH",
+          "col_3": "nº de doentes"
+        },
+        {
+          "row_name": "Total de doentes muito prioritários atendidos",
+          "col_1": "Número total de doentes muito prioritários que foram atendidos na instituição em 2014",
+          "col_2": "CTH",
+          "col_3": "nº de doentes"
+        }
+      ]
+    },
+    {
+      "table_id": "1878",
+      "page": 26,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ Sl",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "GDH Cirúrgicos Urgentes GDH Cirúrgicos",
+          "col_1": "Total de intervenções cirúrgicas urgentes aferidas por GDH em 2014 Total de intervenções cirurgicas internamento, aferidas por GDH, em 2014",
+          "col_2": "Base de dados GDH's Base de dados GDH's",
+          "col_3": "N° de intervenções cirúrgicas urgentes (GDH) Nº de intervenções cirúrgicas (GDH)"
+        }
+      ]
+    },
+    {
+      "table_id": "1889",
+      "page": 27,
+      "rows": [
+        {
+          "row_name": "Indicador",
+          "col_1": "Percentagem de partos vaginais realizados com analgesia epidural",
+          "col_2": null
+        },
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo CP 2014 Entidade Gestora",
+          "col_2": "Hospital, Unidade Local de Saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Desempenho Assistencial Período aplicável",
+          "col_2": "Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Incentivar a Qualidade Clínica",
+          "col_2": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que expressa a percentagem de Partos Vaginais realizados com analgesia epidural (procedimentos 03.90 e 03.91) no total de Partos Vaginais.",
+          "col_2": null
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014 - Hospitals / Centros Hospitalares Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2014 - ULS: Cláusula 4ª do Anexo (Apêndice Unidade de medida",
+          "col_2": "% (uma casa decimal)"
+        },
+        {
+          "row_name": "Frequência de monitorização",
+          "col_1": "Fonte dos dados/ Base da monitorização Mensal",
+          "col_2": "Base de Dados Nacional de GDH"
+        },
+        {
+          "row_name": "Responsável pela monitorização",
+          "col_1": "Instituição / ARS Fórmula",
+          "col_2": "(N° Partos Vaginais com epidural / Nº Partos Vaginais) x 100"
+        },
+        {
+          "row_name": "Prazo Entrega Reporting",
+          "col_1": "Dia 10 do mês n+1 Valor de Referência",
+          "col_2": "Definido no Acordo Modificativo 2014 Hospitais / Centros Hospitalares: Cláusula 5ª (Apêndice II) ULS. Cláusula 4ª do Anexo (Apênice II) (estabelecido em negociação com as ARS)"
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS / ACSS Valor de base",
+          "col_2": "Valor histórico da instituição"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": "Partos Vaginais (GDH 372,373, 374, 375 e 652) com códigos de procedimento 03.90 e 03 91",
+          "col_2": null
+        }
+      ]
+    },
+    {
+      "table_id": "1924",
+      "page": 27,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação / Sl",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Partos Vaginais com analgesia epidural",
+          "col_1": "Total de Partos Vaginais (GDH 372, 373, 374, 375 e 652) com códigos de procedimento 03.90 e 03.91, em 2014",
+          "col_2": "Base de Dados Nacional de GDH",
+          "col_3": "nº episódios"
+        },
+        {
+          "row_name": "Partos Vaginais",
+          "col_1": "Total de Partos Vaginals (GDH 372, 373, 374, 375 e 652), em 2014",
+          "col_2": "Base de Dados Nacional de GDH",
+          "col_3": "nº episódios"
+        }
+      ]
+    },
+    {
+      "table_id": "1975",
+      "page": 28,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ SI",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Episódios de internamento com complicações",
+          "col_1": "Episódios de intemarmento com complicações (acidentes e reacções anormais em actos médicos ou cirúrgicos) - códigos da CID-9-MC - causas externas (E870.0 a 876.9 e E878.0 a 879 9) (2014)",
+          "col_2": "Base de Dados Nacional de GDH",
+          "col_3": "nº. episódios"
+        },
+        {
+          "row_name": "Episódios de internamento",
+          "col_1": "Total dos episódios de internamento (2014)",
+          "col_2": "Base de Dados Nacional de GDH",
+          "col_3": "nº episódios"
+        }
+      ]
+    },
+    {
+      "table_id": "1993",
+      "page": 29,
+      "rows": [
+        {
+          "row_name": "Tipo de Indicador",
+          "col_1": "Objectivo Regional do CP 2014",
+          "col_2": "Entidade Gestora",
+          "col_3": "Hospital, Unidade Local de saúde"
+        },
+        {
+          "row_name": "Tipo de falha",
+          "col_1": "Desempenho Económico-financeiro",
+          "col_2": "Periodo aplicável",
+          "col_3": "Ano 2014"
+        },
+        {
+          "row_name": "Objectivo",
+          "col_1": "Acompanhar o desempenho económico-financeiro",
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Descrição do Indicador",
+          "col_1": "Indicador que calcula a faturação dos medicamentos prescritos pela instituição e cedidos em farmácias Centro",
+          "col_2": null,
+          "col_3": "de oficina na área de abrangência da ARS do"
+        },
+        {
+          "row_name": "Cláusula CP",
+          "col_1": "Acordo Modificativo 2014 - Hospitais / Centros Hospitalares Cláusula 5ª do Anexo (Apéndice II) Acordo Modificativo 2014 - ULS: Cláusula 4ª do Anexo (Apêndice II)",
+          "col_2": "Unidade de medida",
+          "col_3": "€ (duas casas decimais)"
+        },
+        {
+          "row_name": "Frequência de monitorização Responsável pela monitorização Prazo Entrega Reporting",
+          "col_1": "Mensal Instituição / ARS Dia 10 do mês n+1",
+          "col_2": "Fonte dos dados/ Base da monitorização Fórmula Valor de Referência",
+          "col_3": "SIARS (Total da faturação validada em 2014 pelo Centro de Conferência de Faturas, de medicamentos cedidos em farmácias de oficina da área de abrangência da ARS do Centro e prescritas pela instituição) Acordo Modificativo 2013 Hospitais: Cláusula 5ª do Anexo I (Apendice II) Acordo Modificativo ULS: Cláusula 4ª do Anexo I (Apendice II)"
+        },
+        {
+          "row_name": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        },
+        {
+          "row_name": "Orgão fiscalizador",
+          "col_1": "ARS/ACSS",
+          "col_2": "Valor de base",
+          "col_3": "Valor histórico da instituição"
+        },
+        {
+          "row_name": "Observações",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null
+        }
+      ]
+    },
+    {
+      "table_id": "2030",
+      "page": 29,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ Sl",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Total de faturação validada",
+          "col_1": "Faturação validada em 2014 pelo Centro de Conferência de Faturas, de medicamentos cedidos em farmácias de oficina da área de abrangência da ARS do Centro e prescritas pela instituição",
+          "col_2": "SIARS",
+          "col_3": "€"
+        }
+      ]
+    },
+    {
+      "table_id": "2083",
+      "page": 30,
+      "rows": [
+        {
+          "row_name": "Variáveis",
+          "col_1": "Definição",
+          "col_2": "Fonte Informação/ Si",
+          "col_3": "Unidade de medida"
+        },
+        {
+          "row_name": "Custos ajustados com pessoal em 2014",
+          "col_1": "Somatório das contas 64, 62229 e 622364 do POCMS em 2014",
+          "col_2": "SICA",
+          "col_3": "€"
+        },
+        {
+          "row_name": "Custos ajustados com pessoal em 2013",
+          "col_1": "Somatórios das contas 64, 62229 e 622364 do POCMS em 2013",
+          "col_2": "SICA",
+          "col_3": "€"
+        }
+      ]
+    }
+  ]
+}

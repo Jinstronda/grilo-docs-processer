@@ -61,23 +61,26 @@ def download_pdf(url, verbose=True):
         temp.write(r.content)
         temp.flush()
         if verbose:
-            print(f"  ✓ Downloaded\n")
+            print(f"  [OK] Downloaded\n")
         return temp.name
     except Exception as e:
-        print(f"  ✗ Download error: {e}\n")
+        print(f"  [ERROR] Download error: {e}\n")
         return None
 
-def extract_tables_from_pdf(pdf_path, credentials, verbose=True, save_intermediate=False):
+def extract_tables_from_pdf(pdf_path_or_gcs_uri, credentials, verbose=True, save_intermediate=False, use_gcs=False, return_raw=False):
     """Extract tables from PDF using Document AI pipeline
 
     Args:
-        pdf_path: Path to PDF file
+        pdf_path_or_gcs_uri: Path to local PDF file or GCS URI (gs://...)
         credentials: Google credentials
         verbose: Print progress
         save_intermediate: Save intermediate JSON files
+        use_gcs: If True, treat input as GCS URI (much faster!)
+        return_raw: If True, return tuple (tables, raw_api_response)
 
     Returns:
         list: Array of extracted tables in final format
+        OR tuple: (tables, raw_api_response) if return_raw=True
     """
     try:
         # Step 1: Call Document AI API
@@ -86,10 +89,10 @@ def extract_tables_from_pdf(pdf_path, credentials, verbose=True, save_intermedia
             print("STEP 1: Calling Document AI Layout Parser")
             print("="*80 + "\n")
 
-        api_response = call_layout_parser(pdf_path, credentials, verbose)
+        api_response = call_layout_parser(pdf_path_or_gcs_uri, credentials, verbose, use_gcs=use_gcs)
 
         if not api_response:
-            print("✗ API call failed")
+            print("[ERROR] API call failed")
             return []
 
         if save_intermediate:
@@ -108,10 +111,10 @@ def extract_tables_from_pdf(pdf_path, credentials, verbose=True, save_intermedia
         num_tables = count_tables(filtered_response)
 
         if verbose:
-            print(f"  ✓ Found {num_tables} table(s)\n")
+            print(f"  [OK] Found {num_tables} table(s)\n")
 
         if num_tables == 0:
-            print("✗ No tables detected in document")
+            print("[ERROR] No tables detected in document")
             return []
 
         if save_intermediate:
@@ -129,15 +132,18 @@ def extract_tables_from_pdf(pdf_path, credentials, verbose=True, save_intermedia
         final_tables = transform_all_tables(filtered_response)
 
         if verbose:
-            print(f"  ✓ Transformed {len(final_tables)} table(s)")
+            print(f"  [OK] Transformed {len(final_tables)} table(s)")
             for i, table in enumerate(final_tables):
                 print(f"    Table {i+1}: {len(table['rows'])} rows, page {table['page']}")
             print()
 
-        return final_tables
+        if return_raw:
+            return final_tables, api_response
+        else:
+            return final_tables
 
     except Exception as e:
-        print(f"\n✗ Extraction error: {e}")
+        print(f"\n[ERROR] Extraction error: {e}")
         import traceback
         traceback.print_exc()
         return []
@@ -151,9 +157,9 @@ def main():
     # Load credentials
     try:
         creds = create_creds()
-        print("✓ Google credentials loaded\n")
+        print("[OK] Google credentials loaded\n")
     except Exception as e:
-        print(f"✗ Failed to load credentials: {e}")
+        print(f"[ERROR] Failed to load credentials: {e}")
         return
 
     # Load CSV
@@ -200,7 +206,7 @@ def main():
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
 
-    print(f"✓ Saved to: {output_path}")
+    print(f"[OK] Saved to: {output_path}")
 
     # Cleanup
     Path(pdf_path).unlink(missing_ok=True)
