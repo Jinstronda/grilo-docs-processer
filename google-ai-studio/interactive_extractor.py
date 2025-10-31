@@ -83,28 +83,29 @@ async def extract_json_from_page(page):
     try:
         print("[INFO] Extracting JSON from AI response...")
         
-        # Use JavaScript to find all code blocks and extract JSON
+        # Use JavaScript to find all code blocks (same method that works in testing)
         result = await page.evaluate('''() => {
             const codeElements = document.querySelectorAll('code');
-            const jsonBlocks = [];
+            const results = [];
             
             codeElements.forEach((code) => {
                 const text = code.textContent || code.innerText;
-                // Look for code blocks that contain "extracted_tables"
-                if (text && text.includes('extracted_tables')) {
-                    jsonBlocks.push(text.trim());
+                if (text && text.trim().length > 10) {
+                    results.push(text.trim());
                 }
             });
             
-            return jsonBlocks;
+            return results;
         }''')
         
         if not result or len(result) == 0:
-            print("[WARNING] No code blocks with 'extracted_tables' found")
+            print("[WARNING] No code blocks found in response")
             return None
         
-        # Try to parse each JSON block
-        for json_text in result:
+        print(f"[INFO] Found {len(result)} code block(s) in response")
+        
+        # Try to parse each code block
+        for i, json_text in enumerate(result):
             try:
                 # Remove any markdown code fences
                 cleaned = json_text.strip()
@@ -115,22 +116,32 @@ async def extract_json_from_page(page):
                 # Remove "JSON EXTRACTED SUCCESSFULLY" marker if present
                 cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').strip()
                 
-                # Parse JSON
+                # Try to parse as JSON
                 data = json.loads(cleaned)
                 
+                # Check if this is our extraction result
                 if 'extracted_tables' in data:
                     num_tables = len(data.get('extracted_tables', []))
-                    print(f"[OK] Successfully extracted {num_tables} tables from response!")
+                    print(f"[OK] Successfully extracted {num_tables} tables from code block {i+1}!")
                     return data
+                else:
+                    print(f"[DEBUG] Code block {i+1} is JSON but not extraction result")
                     
             except json.JSONDecodeError as e:
-                print(f"[DEBUG] JSON parse error: {e}")
+                print(f"[DEBUG] Code block {i+1} is not valid JSON: {e}")
                 continue
             except Exception as e:
-                print(f"[DEBUG] Unexpected error parsing block: {e}")
+                print(f"[DEBUG] Unexpected error with block {i+1}: {e}")
                 continue
         
-        print("[WARNING] Found code blocks but couldn't parse valid JSON")
+        print("[WARNING] Found code blocks but none contain 'extracted_tables'")
+        
+        # Debug: show what we found
+        print("[DEBUG] Code block previews:")
+        for i, text in enumerate(result[:3]):  # Show first 3
+            preview = text[:100] + '...' if len(text) > 100 else text
+            print(f"  Block {i+1}: {preview}")
+        
         return None
         
     except Exception as e:
