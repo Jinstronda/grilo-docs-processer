@@ -533,18 +533,25 @@ async def main():
             )
         else:
             print("[OK] Already logged in via cookies!")
-            # Small pause to confirm
+        
+        # Automatically click on Gemini 2.5 Pro
+        await page.wait_for_load_state('networkidle')
+        await page.wait_for_timeout(2000)
+        
+        print("[INFO] Clicking on 'Gemini 2.5 Pro' to start chat...")
+        try:
+            # Use the selector we discovered with Chrome DevTools
+            gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
+            await gemini_button.click()
+            print("[OK] Clicked 'Gemini 2.5 Pro' - opening chat...")
+            await page.wait_for_load_state('networkidle')
+            await page.wait_for_timeout(2000)
+        except Exception as e:
+            print(f"[WARNING] Could not auto-click Gemini 2.5 Pro: {e}")
             await wait_for_user_action(
                 page,
-                "Confirm you're logged in and on the AI Studio page, then press Enter"
+                "Please manually click on 'Gemini 2.5 Pro' card to start a chat, then press Enter"
             )
-        
-        # Wait for user to click on Gemini 2.5 Pro
-        await page.wait_for_load_state('networkidle')
-        await wait_for_user_action(
-            page,
-            "Please click on 'Gemini 2.5 Pro' card to start a chat, then press Enter"
-        )
         
         # Process each PDF
         results = []
@@ -573,10 +580,22 @@ async def main():
                 print("[INFO] Starting new chat...")
                 await page.goto(AI_STUDIO_HOME)
                 await page.wait_for_load_state('networkidle')
-                await wait_for_user_action(
-                    page,
-                    "Please click on 'Gemini 2.5 Pro' again to start a new chat, then press Enter"
-                )
+                await page.wait_for_timeout(2000)
+                
+                # Auto-click Gemini 2.5 Pro for next chat
+                print("[INFO] Clicking on 'Gemini 2.5 Pro' for next PDF...")
+                try:
+                    gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
+                    await gemini_button.click()
+                    print("[OK] Clicked 'Gemini 2.5 Pro' - opening new chat...")
+                    await page.wait_for_load_state('networkidle')
+                    await page.wait_for_timeout(2000)
+                except Exception as e:
+                    print(f"[WARNING] Could not auto-click Gemini 2.5 Pro: {e}")
+                    await wait_for_user_action(
+                        page,
+                        "Please click on 'Gemini 2.5 Pro' to start a new chat, then press Enter"
+                    )
         
         # Close browser
         await browser.close()
