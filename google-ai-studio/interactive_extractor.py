@@ -40,6 +40,7 @@ Rules:
 - Handle merged cells appropriately
 - Keep values as strings to preserve precision
 - Return ONLY valid JSON, no markdown or code fences
+- After the JSON, on a new line, write exactly: JSON EXTRACTED SUCCESSFULLY
 """
 
 async def download_pdf(pdf_url, output_path):
@@ -77,49 +78,64 @@ async def wait_for_user_action(page, message, timeout=300):
     await page.wait_for_timeout(1000)
 
 async def extract_json_from_page(page):
-    """Try to extract JSON from the page content"""
+    """Extract JSON from code blocks in the AI response"""
     try:
-        # Get all text content
-        content = await page.content()
+        print("[INFO] Extracting JSON from AI response...")
         
-        # Try to find JSON in code blocks or pre tags
-        json_elements = await page.query_selector_all('pre, code')
+        # Use JavaScript to find all code blocks and extract JSON
+        result = await page.evaluate('''() => {
+            const codeElements = document.querySelectorAll('code');
+            const jsonBlocks = [];
+            
+            codeElements.forEach((code) => {
+                const text = code.textContent || code.innerText;
+                // Look for code blocks that contain "extracted_tables"
+                if (text && text.includes('extracted_tables')) {
+                    jsonBlocks.push(text.trim());
+                }
+            });
+            
+            return jsonBlocks;
+        }''')
         
-        for element in json_elements:
-            text = await element.text_content()
-            if 'extracted_tables' in text:
-                # Try to parse
-                try:
-                    # Clean up markdown code fences if present
-                    cleaned = text.strip()
-                    if cleaned.startswith('```'):
-                        lines = cleaned.split('\n')
-                        cleaned = '\n'.join(lines[1:-1]) if len(lines) > 2 else cleaned
-                    
-                    data = json.loads(cleaned)
-                    if 'extracted_tables' in data:
-                        return data
-                except:
-                    continue
+        if not result or len(result) == 0:
+            print("[WARNING] No code blocks with 'extracted_tables' found")
+            return None
         
-        # If not found in structured elements, try the whole page
-        page_text = await page.evaluate('() => document.body.innerText')
-        
-        import re
-        json_pattern = r'\{[^{}]*"extracted_tables"[^{}]*\[[^\]]*\][^{}]*\}'
-        matches = re.finditer(json_pattern, page_text, re.DOTALL)
-        
-        for match in matches:
+        # Try to parse each JSON block
+        for json_text in result:
             try:
-                data = json.loads(match.group(0))
-                return data
-            except:
+                # Remove any markdown code fences
+                cleaned = json_text.strip()
+                if cleaned.startswith('```'):
+                    lines = cleaned.split('\n')
+                    cleaned = '\n'.join(lines[1:-1]) if len(lines) > 2 else cleaned
+                
+                # Remove "JSON EXTRACTED SUCCESSFULLY" marker if present
+                cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').strip()
+                
+                # Parse JSON
+                data = json.loads(cleaned)
+                
+                if 'extracted_tables' in data:
+                    num_tables = len(data.get('extracted_tables', []))
+                    print(f"[OK] Successfully extracted {num_tables} tables from response!")
+                    return data
+                    
+            except json.JSONDecodeError as e:
+                print(f"[DEBUG] JSON parse error: {e}")
+                continue
+            except Exception as e:
+                print(f"[DEBUG] Unexpected error parsing block: {e}")
                 continue
         
+        print("[WARNING] Found code blocks but couldn't parse valid JSON")
         return None
         
     except Exception as e:
-        print(f"[ERROR] Failed to extract JSON: {e}")
+        print(f"[ERROR] Failed to extract JSON from page: {e}")
+        import traceback
+        traceback.print_exc()
         return None
 
 async def process_single_pdf(page, pdf_path, contract_info):
@@ -156,88 +172,54 @@ async def process_single_pdf(page, pdf_path, contract_info):
         
         uploaded = False
         
-        # Step 1: Click the plus button at the bottom
-        print("[INFO] Step 1: Looking for plus (+) button at bottom...")
-        plus_button_selectors = [
-            'button[aria-label*="add" i]',
-            'button[aria-label*="plus" i]',
-            'button:has-text("+")',
-            '[role="button"]:has-text("+")',
-            'button mat-icon:has-text("add")',
-            'button:has([data-icon="add"])',
-            'button.add-button',
-            # Try finding by position (bottom of page)
-            'button[aria-label]:last-of-type',
-        ]
+        # Step 1: Click the "Insert assets" button at the bottom (the plus button)
+        print("[INFO] Step 1: Clicking 'Insert assets' button...")
+        try:
+            # Use the correct selector found via Chrome DevTools inspection
+            insert_button = page.get_by_role('button', name='Insert assets such as images')
+            await insert_button.click()
+            print("[OK] Clicked 'Insert assets' button")
+            await page.wait_for_timeout(1000)
+            plus_clicked = True
+        except Exception as e:
+            print(f"[ERROR] Could not click Insert assets button: {e}")
+            plus_clicked = False
         
-        plus_clicked = False
-        for selector in plus_button_selectors:
-            try:
-                elements = await page.query_selector_all(selector)
-                for element in elements:
-                    try:
-                        is_visible = await element.is_visible()
-                        if is_visible:
-                            # Check if it's near the bottom of the page
-                            box = await element.bounding_box()
-                            if box:
-                                await element.click()
-                                print(f"[OK] Clicked plus (+) button")
-                                await page.wait_for_timeout(1000)
-                                plus_clicked = True
-                                break
-                    except:
-                        continue
-                
-                if plus_clicked:
-                    break
-            except:
-                continue
-        
-        if not plus_clicked:
-            print("[WARNING] Could not find plus button, trying direct upload...")
-        
-        # Step 2: Click "Upload file" from the menu
+        # Step 2 & 3: Click "Upload File" and handle file chooser
         if plus_clicked:
-            print("[INFO] Step 2: Looking for 'Upload file' option...")
-            upload_option_selectors = [
-                'text="Upload file"',
-                ':text("Upload file")',
-                'button:has-text("Upload file")',
-                '[role="menuitem"]:has-text("Upload")',
-                '[role="option"]:has-text("Upload")',
-                'div:has-text("Upload file")',
-                '[aria-label*="upload file" i]',
-            ]
-            
-            for selector in upload_option_selectors:
-                try:
-                    element = await page.wait_for_selector(selector, timeout=3000)
-                    if element:
-                        is_visible = await element.is_visible()
-                        if is_visible:
-                            await element.click()
-                            print(f"[OK] Clicked 'Upload file' option")
-                            await page.wait_for_timeout(1000)
-                            break
-                except:
-                    continue
-        
-        # Step 3: Now find and use the file input
-        print("[INFO] Step 3: Uploading file...")
-        await page.wait_for_timeout(500)
-        
-        file_inputs = await page.query_selector_all('input[type="file"]')
-        for file_input in file_inputs:
+            print("[INFO] Step 2: Clicking 'Upload File' and uploading...")
             try:
-                await file_input.set_input_files(str(pdf_path))
+                # Set up file chooser handler BEFORE clicking
+                async with page.expect_file_chooser() as fc_info:
+                    # Click "Upload File" which will trigger the file chooser
+                    upload_menuitem = page.get_by_role('menuitem', name='Upload File')
+                    await upload_menuitem.click()
+                    print("[OK] Clicked 'Upload File' menu option")
+                
+                # Handle the file chooser that just appeared
+                file_chooser = await fc_info.value
+                await file_chooser.set_files(str(pdf_path))
                 print("[OK] PDF uploaded successfully!")
-                await page.wait_for_timeout(5000)  # Wait longer for upload to process
+                await page.wait_for_timeout(5000)  # Wait for upload to process
                 uploaded = True
-                break
+                
             except Exception as e:
-                print(f"[DEBUG] File input failed: {e}")
-                continue
+                print(f"[ERROR] Upload process failed: {e}")
+                
+                # Fallback: try direct file input
+                try:
+                    file_inputs = await page.query_selector_all('input[type="file"]')
+                    for file_input in file_inputs:
+                        try:
+                            await file_input.set_input_files(str(pdf_path))
+                            print("[OK] PDF uploaded via fallback method!")
+                            await page.wait_for_timeout(5000)
+                            uploaded = True
+                            break
+                        except:
+                            continue
+                except Exception as e2:
+                    print(f"[DEBUG] Fallback also failed: {e2}")
         
         if not uploaded:
             print("[ERROR] Could not upload file automatically")
@@ -293,11 +275,27 @@ async def process_single_pdf(page, pdf_path, contract_info):
         await page.screenshot(path=str(OUTPUT_DIR / 'step3_prompt_entered.png'))
         print("[OK] Screenshot saved: step3_prompt_entered.png")
         
-        # Wait for user to send
-        await wait_for_user_action(
-            page,
-            "Please review the prompt and click Send/Submit button"
-        )
+        # Click the Run button or press Ctrl+Enter automatically
+        print("[INFO] Submitting prompt (trying Run button and Ctrl+Enter)...")
+        try:
+            # First try: Click the Run button
+            run_button = page.get_by_role('button', name='Run')
+            await run_button.click()
+            print("[OK] Clicked 'Run' button - waiting for AI response...")
+            await page.wait_for_timeout(2000)
+        except Exception as e:
+            print(f"[INFO] Run button click failed, trying Ctrl+Enter: {e}")
+            # Second try: Press Ctrl+Enter
+            try:
+                await page.keyboard.press('Control+Enter')
+                print("[OK] Pressed Ctrl+Enter to submit - waiting for AI response...")
+                await page.wait_for_timeout(2000)
+            except Exception as e2:
+                print(f"[WARNING] Ctrl+Enter also failed: {e2}")
+                await wait_for_user_action(
+                    page,
+                    "Please click the 'Run' button or press Ctrl+Enter to submit"
+                )
     else:
         print("[WARNING] Could not find input field automatically")
         await wait_for_user_action(
@@ -305,12 +303,30 @@ async def process_single_pdf(page, pdf_path, contract_info):
             "Please manually enter the extraction prompt and submit it"
         )
     
-    # Wait for AI response
-    print("[INFO] Waiting for AI response...")
-    await wait_for_user_action(
-        page,
-        "Wait for the AI to generate the response, then press Enter"
-    )
+    # Wait for AI response - automatically detect completion
+    print("[INFO] Waiting for AI response (will auto-detect when complete)...")
+    print("[INFO] This may take several minutes for large PDFs (up to 10-15 minutes)...")
+    
+    try:
+        # Wait for "Response ready" indicator - increased timeout for large PDFs
+        print("[INFO] Watching for 'Response ready' signal...")
+        await page.wait_for_selector('text="Response ready"', timeout=900000)  # 15 min max
+        print("[OK] Response ready signal detected!")
+        await page.wait_for_timeout(2000)  # Give it a moment to finish rendering
+    except Exception as e:
+        # Fallback: look for the success marker we added to the prompt
+        try:
+            print(f"[WARNING] 'Response ready' not found: {e}")
+            print("[INFO] Watching for 'JSON EXTRACTED SUCCESSFULLY' signal...")
+            await page.wait_for_selector('text="JSON EXTRACTED SUCCESSFULLY"', timeout=900000)  # 15 min max
+            print("[OK] Extraction complete signal detected!")
+            await page.wait_for_timeout(2000)
+        except:
+            print(f"[WARNING] Auto-detection failed, falling back to manual confirmation...")
+            await wait_for_user_action(
+                page,
+                "Wait for the AI to generate the response, then press Enter"
+            )
     
     # Take screenshot of response
     await page.screenshot(path=str(OUTPUT_DIR / 'step4_response.png'))
