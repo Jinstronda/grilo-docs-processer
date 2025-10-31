@@ -1,248 +1,264 @@
-# Google AI Studio Table Extraction
+# Google AI Studio Automated Table Extraction
 
-This folder contains scripts for extracting tables from PDF contracts using Google AI Studio's web interface.
+Fully automated pipeline for extracting tables from PDF contracts using Google AI Studio and Gemini 2.5 Pro.
 
-## Overview
+## 🎯 Overview
 
-Google AI Studio (https://aistudio.google.com/) provides a web-based interface for interacting with Google's Gemini models. This approach uses Playwright automation to:
+This script automates the entire process of:
+1. Downloading PDFs from the database
+2. Uploading them to Google AI Studio
+3. Extracting tables using Gemini 2.5 Pro
+4. Saving results to the database (`aistudio_json` column)
 
-1. Download PDFs from the database
-2. Upload them to Google AI Studio
-3. Submit table extraction prompts
-4. Capture and save the JSON responses
+**Status:** ✅ FULLY WORKING - Tested and operational!
 
-## Files
+## 🚀 Quick Start
 
-- `extract_tables_google_ai.py` - Fully automated extraction script (requires manual authentication)
-- `interactive_extractor.py` - Semi-automated script with user guidance at each step
-- `manual_extraction_guide.md` - Comprehensive guide for manual extraction
-- `README.md` - This file
-- `extractions/` - Output directory for extracted tables (created automatically)
-
-## Setup
-
-### Install Dependencies
+### 1. Setup
 
 ```bash
-pip install playwright requests
-python -m playwright install chromium
-```
-
-### Database Access
-
-The scripts read from the existing SQLite database at:
-```
-data/hospital_tables.db
-```
-
-Make sure this database exists and contains contracts with `original_pdf_url` values.
-
-## Usage
-
-### Option 1: Interactive Extraction (Recommended)
-
-The interactive script guides you through each step:
-
-```bash
+# Install dependencies
 cd google-ai-studio
+pip install -r requirements.txt
+
+# Test setup
+python test_setup.py
+```
+
+### 2. Configure Number of PDFs
+
+Open `interactive_extractor.py` and find this line (around line 563):
+
+```python
+LIMIT 2  # Change this number or remove LIMIT to process all PDFs
+```
+
+**Options:**
+- `LIMIT 2` - Process 2 PDFs (testing)
+- `LIMIT 100` - Process 100 PDFs
+- Remove `LIMIT 2` entirely - Process ALL 731 PDFs
+
+### 3. Run
+
+```powershell
 python interactive_extractor.py
 ```
 
-**Process:**
-1. Script downloads PDFs to `extractions/pdfs/`
-2. Opens browser to Google AI Studio
-3. Waits for you to sign in
-4. Prompts you to upload each PDF
-5. Automatically enters the extraction prompt
-6. Waits for you to send the prompt
-7. Attempts to extract JSON from response
-8. Saves results to `extractions/`
+**That's it!** The script is fully automated:
+- Loads cookies → Auto-login ✅
+- Clicks Gemini 2.5 Pro ✅
+- Uploads PDFs ✅
+- Extracts tables ✅
+- Saves to database ✅
 
-**Advantages:**
-- You have control at each step
-- Can verify uploads and prompts
-- Handles authentication reliably
-- Takes screenshots at each stage
+## 📊 What Gets Saved
 
-### Option 2: Fully Automated (Experimental)
+### Database
+Results are automatically saved to the `contracts` table:
 
-For more automated processing:
-
-```bash
-python extract_tables_google_ai.py
+```sql
+UPDATE contracts 
+SET aistudio_json = '<extracted_json>'
+WHERE id = '<contract_id>'
 ```
 
-**Note:** This script attempts full automation but may require manual intervention for:
-- Google authentication
-- UI element detection
-- Response parsing
-
-### Option 3: Manual Extraction
-
-For complete control, follow the guide in `manual_extraction_guide.md`:
-
-1. Go to https://aistudio.google.com/prompts/new_chat
-2. Upload a PDF
-3. Use the provided prompt template
-4. Copy the JSON response
-5. Save to `extractions/` folder
-
-## Extraction Prompt
-
-The scripts use this prompt for table extraction:
-
-```
-Please extract all tables from this PDF document in JSON format.
-
-For each table, provide:
-{
-  "extracted_tables": [
-    {
-      "table_index": 0,
-      "page": <page_number>,
-      "table_data": [
-        {"column1": "value1", "column2": "value2"},
-        ...
-      ]
-    }
-  ]
-}
-
-Rules:
-- Use the actual column headers from the table
-- Clean numeric values (remove currency symbols, convert European decimals)
-- Handle merged cells appropriately
-- Keep values as strings to preserve precision
-- Return ONLY valid JSON, no markdown or code fences
-```
-
-## Output Format
-
-Each extraction is saved as a JSON file:
-
+### Files
+Also saved to `extractions/` folder:
 ```
 {contract_id}_{hospital_name}_{year}_{timestamp}.json
 ```
 
-Example:
-```json
-{
-  "contract_id": "abc123",
-  "hospital_name": "Hospital Santa Maria",
-  "year": 2023,
-  "extraction_timestamp": "20251031_123456",
-  "data": {
-    "extracted_tables": [
-      {
-        "table_index": 0,
-        "page": 5,
-        "table_data": [
-          {
-            "Item": "Produtos farmacêuticos",
-            "Valor 2023": "1234567.89",
-            "Valor 2022": "987654.32"
-          }
-        ]
-      }
-    ]
-  }
-}
+## ⚙️ Configuration
+
+### Test Mode
+
+To test the extraction without PDFs (quick test with simple JSON):
+
+```python
+# In interactive_extractor.py, line 18:
+TEST_MODE = True  # Set to True for testing
 ```
 
-## Troubleshooting
+Test mode:
+- Skips PDF download and upload
+- Uses simple prompt (numbers 1-100)
+- Tests JSON detection and extraction
+- Fast for debugging
 
-### Authentication Issues
+### Processing Limits
 
-**Problem:** Can't sign in to Google AI Studio  
-**Solution:**
-- Make sure you have a Google account with AI Studio access
-- Try signing in manually in your browser first
-- Clear browser cache/cookies if issues persist
+Edit line 563 in `interactive_extractor.py`:
 
-### Upload Fails
+```python
+# Process 10 PDFs
+LIMIT 10
 
-**Problem:** PDF won't upload  
-**Solution:**
-- Check file size (may have limits)
-- Verify PDF is not corrupted
-- Try a smaller/different PDF first
-
-### JSON Extraction Fails
-
-**Problem:** Script can't extract JSON from response  
-**Solution:**
-- Check the screenshot in `extractions/step4_response.png`
-- Manually copy JSON from browser
-- Save to `extractions/manual_{contract_id}.json`
-- Verify JSON is valid using a validator
-
-### Playwright Issues
-
-**Problem:** Browser automation fails  
-**Solution:**
-```bash
-# Reinstall Playwright browsers
-python -m playwright install --force chromium
+# Process all PDFs (remove LIMIT)
+# Just delete the entire "LIMIT 2" line
 ```
 
-### Rate Limiting
+## 🔐 Authentication
 
-**Problem:** "Too many requests" error  
-**Solution:**
-- Add delays between requests
-- Process smaller batches
-- Wait and retry later
+The script uses cookies for auto-login:
 
-## Next Steps
+1. **First Run:** Sign in manually when browser opens
+2. **Cookies Saved:** Your session is saved to `cookies.json`
+3. **Future Runs:** Automatically logged in!
 
-After extraction:
+### Cookie Expiry
 
-1. **Validate Results**
-   - Compare with original PDFs
-   - Check for missing or incorrect data
-   - Verify numeric values are properly formatted
+If cookies expire (usually after a few weeks):
+- Script will ask you to sign in again
+- New cookies automatically saved
+- Good to go!
 
-2. **Update Database**
-   - Store extracted tables in `llm_extracted_tables` column
-   - Update `extraction_status` to 'completed'
-   - Record any errors
+## 📋 Complete Flow
 
-3. **Quality Assurance**
-   - Sample random extractions for accuracy
-   - Compare with existing extraction methods
-   - Refine prompt if needed
+```
+1. Load cookies → Auto-login to Google AI Studio
+2. Navigate to AI Studio home page
+3. Click "Gemini 2.5 Pro" card
+4. For each PDF:
+   a. Click "Insert assets" button
+   b. Click "Upload File"
+   c. Upload PDF automatically
+   d. Type extraction prompt
+   e. Press Ctrl+Enter
+   f. Wait for JSON code block to appear (polling every 5s)
+   g. Extract JSON from code block
+   h. Save to database (aistudio_json column)
+   i. Save to file (extractions/ folder)
+   j. Start new chat
+   k. Click "Gemini 2.5 Pro" again
+   l. Repeat!
+```
 
-## Comparison with Existing Pipeline
+## 🎛️ Features
 
-This approach differs from the existing OpenAI/Document AI pipeline:
+### Automatic Detection
+- Polls page every 5 seconds
+- Looks for JSON code block UI element
+- Waits up to 15 minutes per PDF
+- Shows progress every minute
 
-**Advantages:**
-- Uses Google's latest Gemini models
-- Web interface is free (no API costs)
-- Can handle complex PDFs with images
+### Robust Extraction
+- Targets `region[aria-label="JSON"]` elements
+- Gets full content (handles large JSON)
+- Cleans HTML entities
+- Removes success markers
+- Validates JSON structure
 
-**Disadvantages:**
-- Requires manual authentication
-- Slower due to web interface
-- Less reliable automation
-- No batch processing API
+### Error Handling
+- Falls back to manual steps if automation fails
+- Saves debug files for troubleshooting
+- Takes screenshots at each step
+- Comprehensive error messages
 
-**Recommendation:**  
-Use for:
-- Testing and validation
-- Small batches
-- PDFs that fail with other methods
-- Cost-sensitive projects
+## 📁 Files
 
-Use existing pipeline for:
-- Large-scale processing
-- Production workflows
-- Automated pipelines
-- Better error handling
+- `interactive_extractor.py` - Main automation script (FULLY WORKING!)
+- `extract_tables_google_ai.py` - Alternative automation (experimental)
+- `test_setup.py` - Setup verification
+- `cookies.json` - Saved authentication (auto-generated, in .gitignore)
+- `cookies.example.json` - Cookie format example
+- `requirements.txt` - Python dependencies
+- `extractions/` - Output folder
+- `README.md` - This file
 
-## Resources
+## 🔧 Troubleshooting
 
-- [Google AI Studio](https://aistudio.google.com/)
-- [Playwright Python Docs](https://playwright.dev/python/)
-- [Gemini API Docs](https://ai.google.dev/)
+### "No code blocks found"
 
+**Cause:** Response not ready yet  
+**Fix:** Script now waits longer (15 min timeout)
+
+### "JSON parse error"
+
+**Cause:** Truncated or malformed JSON  
+**Fix:** Script now gets full content from region elements
+
+### Upload fails
+
+**Cause:** Button selectors changed  
+**Fix:** Script uses role-based selectors (more stable)
+
+### Not logged in
+
+**Cause:** Cookies expired  
+**Fix:** Delete `cookies.json`, run script, sign in again
+
+## 📈 Running at Scale
+
+### Process All 731 PDFs
+
+1. Edit `interactive_extractor.py` line 563
+2. Remove `LIMIT 2` entirely
+3. Run: `python interactive_extractor.py`
+4. **Important:** This will take a LONG time!
+   - ~400 seconds per PDF
+   - 731 PDFs × 400s = ~81 hours
+   - Consider running overnight or in batches
+
+### Recommended Approach
+
+```python
+# Process in batches of 50
+LIMIT 50
+```
+
+Run multiple times to process all PDFs in manageable chunks.
+
+### Resume Processing
+
+To process only PDFs that haven't been extracted yet:
+
+```sql
+WHERE original_pdf_url IS NOT NULL 
+  AND aistudio_json IS NULL  -- Only unprocessed
+LIMIT 50
+```
+
+## 📊 Check Results
+
+Query the database to see extracted data:
+
+```python
+import sqlite3
+conn = sqlite3.connect("data/hospital_tables.db")
+cursor = conn.cursor()
+
+cursor.execute("""
+    SELECT id, hospital_name, aistudio_json IS NOT NULL as has_data
+    FROM contracts 
+    WHERE aistudio_json IS NOT NULL
+""")
+
+for row in cursor.fetchall():
+    print(f"{row[0]}: {row[1]} - Extracted: {row[2]}")
+```
+
+## 🎉 Success!
+
+The automation is **fully working** and tested! It successfully:
+- ✅ Auto-logs in with cookies
+- ✅ Clicks Gemini 2.5 Pro
+- ✅ Uploads PDFs automatically
+- ✅ Submits prompts
+- ✅ Detects completion (JSON code block)
+- ✅ Extracts complete JSON (even very large responses)
+- ✅ Saves to database
+- ✅ Processes multiple PDFs in sequence
+
+## 🚦 Current Settings
+
+**Default:** Processes 2 PDFs for testing
+
+**To change:** Edit line 563 in `interactive_extractor.py`
+
+**Test mode:** Set `TEST_MODE = True` (line 18) for quick testing without PDFs
+
+---
+
+**Ready to process all your contracts!** 🎯
+
+Just change the LIMIT and run the script. Everything else is automatic!

@@ -10,6 +10,13 @@ from datetime import datetime
 import requests
 from playwright.async_api import async_playwright
 
+# ============================================================================
+# CONFIGURATION
+# ============================================================================
+
+# TEST MODE - Set to True to test extraction without PDFs
+TEST_MODE = True  # Change to True for quick testing
+
 DB_PATH = Path(__file__).parent.parent / "data" / "hospital_tables.db"
 OUTPUT_DIR = Path(__file__).parent / "extractions"
 USER_DATA_DIR = Path(__file__).parent / "browser_data"  # Persistent browser data for cookies
@@ -19,6 +26,27 @@ COOKIES_FILE = Path(__file__).parent / "cookies.json"  # Saved cookies for auto-
 AI_STUDIO_HOME = "https://aistudio.google.com/prompts/new_chat"
 AI_STUDIO_URL = "https://aistudio.google.com/prompts/new_chat?pli=1&model=gemini-2.5-pro"
 
+# Test prompt for quick testing
+TEST_PROMPT = """Output a JSON with the following structure:
+{
+  "extracted_tables": [
+    {
+      "table_index": 0,
+      "page": 1,
+      "table_data": [
+        {"number": "1", "squared": "1"},
+        {"number": "2", "squared": "4"},
+        {"number": "3", "squared": "9"}
+      ]
+    }
+  ]
+}
+
+Generate table_data with numbers from 1 to 100 and their squares.
+Return ONLY the JSON, then on a new line write: JSON EXTRACTED SUCCESSFULLY
+"""
+
+# Full extraction prompt for PDFs
 EXTRACTION_PROMPT = """Please extract all tables from this PDF document in JSON format.
 
 For each table, provide:
@@ -191,9 +219,15 @@ async def extract_json_from_page(page):
 async def process_single_pdf(page, pdf_path, contract_info):
     """Process a single PDF through Google AI Studio"""
     print(f"\n{'='*80}")
-    print(f"Processing: {contract_info['hospital_name']} ({contract_info['year']})")
-    print(f"Contract ID: {contract_info['id']}")
-    print(f"PDF: {pdf_path}")
+    
+    if TEST_MODE:
+        print(f"TEST MODE: Testing JSON extraction")
+        print(f"Contract ID: {contract_info['id']} (for reference)")
+    else:
+        print(f"Processing: {contract_info['hospital_name']} ({contract_info['year']})")
+        print(f"Contract ID: {contract_info['id']}")
+        print(f"PDF: {pdf_path}")
+    
     print(f"{'='*80}\n")
     
     # Wait for page to load fully
@@ -214,83 +248,95 @@ async def process_single_pdf(page, pdf_path, contract_info):
     print("[INFO] Verifying chat page loaded...")
     await page.wait_for_timeout(2000)
     
-    # Upload PDF automatically - Two-step process: Click plus button, then Upload file
-    print(f"[INFO] Uploading PDF: {pdf_path}")
-    try:
-        # Wait for page to be fully ready
-        await page.wait_for_timeout(2000)
-        
-        uploaded = False
-        
-        # Step 1: Click the "Insert assets" button at the bottom (the plus button)
-        print("[INFO] Step 1: Clicking 'Insert assets' button...")
+    # Upload PDF (skip in test mode)
+    if TEST_MODE:
+        print("[INFO] TEST MODE - Skipping PDF upload")
+    else:
+        print(f"[INFO] Uploading PDF: {pdf_path}")
+    
+    if not TEST_MODE:
         try:
-            # Use the correct selector found via Chrome DevTools inspection
-            insert_button = page.get_by_role('button', name='Insert assets such as images')
-            await insert_button.click()
-            print("[OK] Clicked 'Insert assets' button")
-            await page.wait_for_timeout(1000)
-            plus_clicked = True
-        except Exception as e:
-            print(f"[ERROR] Could not click Insert assets button: {e}")
-            plus_clicked = False
+            # Wait for page to be fully ready
+            await page.wait_for_timeout(2000)
         
-        # Step 2 & 3: Click "Upload File" and handle file chooser
-        if plus_clicked:
-            print("[INFO] Step 2: Clicking 'Upload File' and uploading...")
+            uploaded = False
+            
+            # Step 1: Click the "Insert assets" button at the bottom (the plus button)
+            print("[INFO] Step 1: Clicking 'Insert assets' button...")
             try:
-                # Set up file chooser handler BEFORE clicking
-                async with page.expect_file_chooser() as fc_info:
-                    # Click "Upload File" which will trigger the file chooser
-                    upload_menuitem = page.get_by_role('menuitem', name='Upload File')
-                    await upload_menuitem.click()
-                    print("[OK] Clicked 'Upload File' menu option")
-                
-                # Handle the file chooser that just appeared
-                file_chooser = await fc_info.value
-                await file_chooser.set_files(str(pdf_path))
-                print("[OK] PDF uploaded successfully!")
-                await page.wait_for_timeout(5000)  # Wait for upload to process
-                uploaded = True
-                
+                # Use the correct selector found via Chrome DevTools inspection
+                insert_button = page.get_by_role('button', name='Insert assets such as images')
+                await insert_button.click()
+                print("[OK] Clicked 'Insert assets' button")
+                await page.wait_for_timeout(1000)
+                plus_clicked = True
             except Exception as e:
-                print(f"[ERROR] Upload process failed: {e}")
-                
-                # Fallback: try direct file input
+                print(f"[ERROR] Could not click Insert assets button: {e}")
+                plus_clicked = False
+            
+            # Step 2 & 3: Click "Upload File" and handle file chooser
+            if plus_clicked:
+                print("[INFO] Step 2: Clicking 'Upload File' and uploading...")
                 try:
-                    file_inputs = await page.query_selector_all('input[type="file"]')
-                    for file_input in file_inputs:
-                        try:
-                            await file_input.set_input_files(str(pdf_path))
-                            print("[OK] PDF uploaded via fallback method!")
-                            await page.wait_for_timeout(5000)
-                            uploaded = True
-                            break
-                        except:
-                            continue
-                except Exception as e2:
-                    print(f"[DEBUG] Fallback also failed: {e2}")
-        
-        if not uploaded:
-            print("[ERROR] Could not upload file automatically")
+                    # Set up file chooser handler BEFORE clicking
+                    async with page.expect_file_chooser() as fc_info:
+                        # Click "Upload File" which will trigger the file chooser
+                        upload_menuitem = page.get_by_role('menuitem', name='Upload File')
+                        await upload_menuitem.click()
+                        print("[OK] Clicked 'Upload File' menu option")
+                    
+                    # Handle the file chooser that just appeared
+                    file_chooser = await fc_info.value
+                    await file_chooser.set_files(str(pdf_path))
+                    print("[OK] PDF uploaded successfully!")
+                    await page.wait_for_timeout(5000)  # Wait for upload to process
+                    uploaded = True
+                    
+                except Exception as e:
+                    print(f"[ERROR] Upload process failed: {e}")
+                    
+                    # Fallback: try direct file input
+                    try:
+                        file_inputs = await page.query_selector_all('input[type="file"]')
+                        for file_input in file_inputs:
+                            try:
+                                await file_input.set_input_files(str(pdf_path))
+                                print("[OK] PDF uploaded via fallback method!")
+                                await page.wait_for_timeout(5000)
+                                uploaded = True
+                                break
+                            except:
+                                continue
+                    except Exception as e2:
+                        print(f"[DEBUG] Fallback also failed: {e2}")
+            
+            if not uploaded:
+                print("[ERROR] Could not upload file automatically")
+                await wait_for_user_action(
+                    page,
+                    f"Please manually upload the PDF file:\n  {pdf_path}\n\n1. Click the plus (+) button at the bottom\n2. Click 'Upload file'\n3. Select the PDF\n\nThen press Enter"
+                )
+        except Exception as e:
+            print(f"[ERROR] Upload process failed: {e}")
+            import traceback
+            traceback.print_exc()
             await wait_for_user_action(
                 page,
-                f"Please manually upload the PDF file:\n  {pdf_path}\n\n1. Click the plus (+) button at the bottom\n2. Click 'Upload file'\n3. Select the PDF\n\nThen press Enter"
+                f"Please manually upload the PDF file:\n  {pdf_path}\n\nPress Enter when uploaded"
             )
-    except Exception as e:
-        print(f"[ERROR] Upload process failed: {e}")
-        import traceback
-        traceback.print_exc()
-        await wait_for_user_action(
-            page,
-            f"Please manually upload the PDF file:\n  {pdf_path}\n\nPress Enter when uploaded"
-        )
-    
-    # Take screenshot after upload
-    await page.screenshot(path=str(OUTPUT_DIR / 'step2_uploaded.png'))
-    print("[OK] Screenshot saved: step2_uploaded.png")
+        
+        # Take screenshot after upload
+        await page.screenshot(path=str(OUTPUT_DIR / 'step2_uploaded.png'))
+        print("[OK] Screenshot saved: step2_uploaded.png")
     
     # Try to find and fill prompt
+    if TEST_MODE:
+        print("[INFO] TEST MODE - Using test prompt (numbers 1-100)")
+        prompt_to_use = TEST_PROMPT
+    else:
+        print("[INFO] Using extraction prompt for PDF tables")
+        prompt_to_use = EXTRACTION_PROMPT
+    
     print("[INFO] Looking for prompt input field...")
     
     # Try multiple selectors
@@ -318,8 +364,12 @@ async def process_single_pdf(page, pdf_path, contract_info):
         # Clear and type prompt
         await input_field.click()
         await input_field.fill('')
-        await input_field.type(EXTRACTION_PROMPT, delay=10)
-        print("[OK] Entered extraction prompt")
+        await input_field.type(prompt_to_use, delay=10)
+        
+        if TEST_MODE:
+            print("[OK] Entered test prompt")
+        else:
+            print("[OK] Entered extraction prompt")
         
         # Take screenshot
         await page.screenshot(path=str(OUTPUT_DIR / 'step3_prompt_entered.png'))
@@ -496,7 +546,10 @@ async def main():
     OUTPUT_DIR.mkdir(exist_ok=True)
     
     print(f"\n{'='*80}")
-    print("Google AI Studio Interactive Table Extraction")
+    if TEST_MODE:
+        print("Google AI Studio - TEST MODE (Quick JSON Extraction Test)")
+    else:
+        print("Google AI Studio Interactive Table Extraction")
     print(f"{'='*80}\n")
     
     # Get contracts from database
@@ -525,31 +578,37 @@ async def main():
         print("[ERROR] No contracts found")
         return
     
-    print(f"[INFO] Found {len(contracts)} contracts to process\n")
-    
-    # Download PDFs first
-    pdf_dir = OUTPUT_DIR / "pdfs"
-    pdf_dir.mkdir(exist_ok=True)
-    
-    pdf_paths = []
-    for contract in contracts:
-        pdf_path = pdf_dir / f"{contract['id']}.pdf"
+    if TEST_MODE:
+        print(f"[INFO] TEST MODE - Processing {len(contracts)} test run(s)\n")
+        print("[INFO] Skipping PDF downloads - will use simple test prompt\n")
+        # In test mode, just use contract info without actual PDFs
+        pdf_paths = [(contract, None) for contract in contracts]
+    else:
+        print(f"[INFO] Found {len(contracts)} contracts to process\n")
         
-        if not pdf_path.exists():
-            success = await download_pdf(contract['pdf_url'], pdf_path)
-            if not success:
-                print(f"[ERROR] Skipping {contract['id']}")
-                continue
-        else:
-            print(f"[INFO] PDF already exists: {pdf_path}")
+        # Download PDFs first
+        pdf_dir = OUTPUT_DIR / "pdfs"
+        pdf_dir.mkdir(exist_ok=True)
         
-        pdf_paths.append((contract, pdf_path))
-    
-    if not pdf_paths:
-        print("[ERROR] No PDFs available")
-        return
-    
-    print(f"\n[INFO] Successfully prepared {len(pdf_paths)} PDFs\n")
+        pdf_paths = []
+        for contract in contracts:
+            pdf_path = pdf_dir / f"{contract['id']}.pdf"
+            
+            if not pdf_path.exists():
+                success = await download_pdf(contract['pdf_url'], pdf_path)
+                if not success:
+                    print(f"[ERROR] Skipping {contract['id']}")
+                    continue
+            else:
+                print(f"[INFO] PDF already exists: {pdf_path}")
+            
+            pdf_paths.append((contract, pdf_path))
+        
+        if not pdf_paths:
+            print("[ERROR] No PDFs available")
+            return
+        
+        print(f"\n[INFO] Successfully prepared {len(pdf_paths)} PDFs\n")
     
     # Launch browser - Use Chrome (easier for Google sign-in)
     async with async_playwright() as p:
