@@ -319,23 +319,47 @@ async def process_single_pdf(page, pdf_path, contract_info):
     print("[INFO] Waiting for AI response (will auto-detect when complete)...")
     print("[INFO] This may take several minutes for large PDFs (up to 10-15 minutes)...")
     
-    # Poll the page content to detect completion
+    # Poll the page to detect when JSON code block appears
     max_wait_time = 900  # 15 minutes in seconds
     poll_interval = 5  # Check every 5 seconds
     elapsed = 0
     response_detected = False
     
+    print("[INFO] Watching for JSON code block to appear (checking every 5 seconds)...")
+    
     while elapsed < max_wait_time:
         try:
-            # Check page text content for completion signals
-            page_text = await page.evaluate('() => document.body.innerText')
+            # Look for the expandable JSON code block that always appears in responses
+            json_block_exists = await page.evaluate('''() => {
+                // Look for button with "JSON" text and an expanded code region
+                const buttons = Array.from(document.querySelectorAll('button'));
+                const jsonButton = buttons.find(btn => {
+                    const text = btn.textContent || '';
+                    return text.includes('JSON') && btn.getAttribute('aria-expanded') !== 'false';
+                });
+                
+                if (jsonButton) {
+                    // Check if there's a code element nearby with actual content
+                    const codeElements = document.querySelectorAll('code');
+                    for (const code of codeElements) {
+                        const text = code.textContent || '';
+                        if (text.trim().length > 10 && text.includes('{')) {
+                            return true;
+                        }
+                    }
+                }
+                
+                // Also check for "Response ready" indicator
+                const pageText = document.body.innerText || '';
+                if (pageText.includes('Response ready')) {
+                    return true;
+                }
+                
+                return false;
+            }''')
             
-            # Look for either signal
-            if 'Response ready' in page_text or 'JSON EXTRACTED SUCCESSFULLY' in page_text:
-                if 'Response ready' in page_text:
-                    print("[OK] 'Response ready' signal detected!")
-                else:
-                    print("[OK] 'JSON EXTRACTED SUCCESSFULLY' signal detected!")
+            if json_block_exists:
+                print("[OK] JSON code block detected - response is ready!")
                 response_detected = True
                 await page.wait_for_timeout(2000)  # Give it a moment to finish rendering
                 break
