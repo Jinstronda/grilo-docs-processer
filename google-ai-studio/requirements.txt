@@ -1,0 +1,14 @@
+# Google AI Studio Table Extraction Requirements
+
+# Web automation
+playwright>=1.40.0
+
+# HTTP requests for PDF downloads
+requests>=2.31.0
+
+# Database
+# sqlite3 is built-in to Python
+
+# JSON handling
+# json is built-in to Python
+
