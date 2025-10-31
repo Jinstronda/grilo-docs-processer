@@ -83,17 +83,44 @@ async def extract_json_from_page(page):
     try:
         print("[INFO] Extracting JSON from AI response...")
         
-        # Use JavaScript to find all code blocks (same method that works in testing)
+        # Use JavaScript to find JSON code blocks more reliably
+        # Get the full innerHTML/textContent of the code region
         result = await page.evaluate('''() => {
-            const codeElements = document.querySelectorAll('code');
             const results = [];
             
-            codeElements.forEach((code) => {
-                const text = code.textContent || code.innerText;
-                if (text && text.trim().length > 10) {
-                    results.push(text.trim());
+            // Find all regions labeled "JSON"
+            const regions = document.querySelectorAll('region[aria-label="JSON"], [role="region"]');
+            
+            for (const region of regions) {
+                const code = region.querySelector('code');
+                if (code) {
+                    // Try multiple ways to get the full text
+                    let text = code.textContent || code.innerText || code.innerHTML;
+                    
+                    // Clean up HTML entities if innerHTML was used
+                    if (text.includes('&quot;')) {
+                        text = text.replace(/&quot;/g, '"')
+                                   .replace(/&lt;/g, '<')
+                                   .replace(/&gt;/g, '>')
+                                   .replace(/&amp;/g, '&');
+                    }
+                    
+                    if (text && text.trim().length > 50) {
+                        results.push(text.trim());
+                    }
                 }
-            });
+            }
+            
+            // Fallback: try all code elements
+            if (results.length === 0) {
+                const allCodes = document.querySelectorAll('code');
+                for (const code of allCodes) {
+                    let text = code.textContent || code.innerText;
+                    if (text && text.includes('extracted_tables') && text.trim().length > 50) {
+                        results.push(text.trim());
+                    }
+                }
+            }
             
             return results;
         }''')
@@ -113,8 +140,20 @@ async def extract_json_from_page(page):
                     lines = cleaned.split('\n')
                     cleaned = '\n'.join(lines[1:-1]) if len(lines) > 2 else cleaned
                 
-                # Remove "JSON EXTRACTED SUCCESSFULLY" marker if present
+                # Remove "JSON EXTRACTED SUCCESSFULLY" marker(s) if present
                 cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').strip()
+                
+                # Sometimes there are multiple markers, remove all
+                while 'JSON EXTRACTED SUCCESSFULLY' in cleaned:
+                    cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').strip()
+                
+                # Remove any trailing text after the closing brace
+                # Find the last } which should be the end of our JSON
+                last_brace = cleaned.rfind('}')
+                if last_brace != -1:
+                    cleaned = cleaned[:last_brace + 1]
+                
+                print(f"[DEBUG] Attempting to parse JSON ({len(cleaned)} characters)...")
                 
                 # Try to parse as JSON
                 data = json.loads(cleaned)
@@ -122,26 +161,25 @@ async def extract_json_from_page(page):
                 # Check if this is our extraction result
                 if 'extracted_tables' in data:
                     num_tables = len(data.get('extracted_tables', []))
-                    print(f"[OK] Successfully extracted {num_tables} tables from code block {i+1}!")
+                    total_rows = sum(len(t.get('table_data', [])) for t in data.get('extracted_tables', []))
+                    print(f"[OK] Successfully extracted {num_tables} tables ({total_rows} total rows) from code block {i+1}!")
                     return data
                 else:
                     print(f"[DEBUG] Code block {i+1} is JSON but not extraction result")
                     
             except json.JSONDecodeError as e:
-                print(f"[DEBUG] Code block {i+1} is not valid JSON: {e}")
+                print(f"[DEBUG] Code block {i+1} JSON parse error: {e}")
+                # Save the problematic JSON for debugging
+                debug_file = OUTPUT_DIR / f"debug_json_block_{i+1}.txt"
+                with open(debug_file, 'w', encoding='utf-8') as f:
+                    f.write(json_text[:5000])  # Save first 5000 chars
+                print(f"[DEBUG] Saved problematic JSON to: {debug_file}")
                 continue
             except Exception as e:
                 print(f"[DEBUG] Unexpected error with block {i+1}: {e}")
                 continue
         
-        print("[WARNING] Found code blocks but none contain 'extracted_tables'")
-        
-        # Debug: show what we found
-        print("[DEBUG] Code block previews:")
-        for i, text in enumerate(result[:3]):  # Show first 3
-            preview = text[:100] + '...' if len(text) > 100 else text
-            print(f"  Block {i+1}: {preview}")
-        
+        print("[WARNING] Found code blocks but couldn't parse any as valid extraction JSON")
         return None
         
     except Exception as e:
