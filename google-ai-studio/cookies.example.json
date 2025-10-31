@@ -1,0 +1,23 @@
+[
+  {
+    "name": "SID",
+    "value": "YOUR_SESSION_ID_HERE",
+    "domain": ".google.com",
+    "path": "/",
+    "expires": 1796387033.825379,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "__Secure-1PSID",
+    "value": "YOUR_SECURE_SESSION_ID_HERE",
+    "domain": ".google.com",
+    "path": "/",
+    "expires": 1796387033.825405,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]
+

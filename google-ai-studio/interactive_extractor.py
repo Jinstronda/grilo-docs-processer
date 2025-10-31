@@ -13,6 +13,7 @@ from playwright.async_api import async_playwright
 DB_PATH = Path(__file__).parent.parent / "data" / "hospital_tables.db"
 OUTPUT_DIR = Path(__file__).parent / "extractions"
 USER_DATA_DIR = Path(__file__).parent / "browser_data"  # Persistent browser data for cookies
+COOKIES_FILE = Path(__file__).parent / "cookies.json"  # Saved cookies for auto-login
 
 # Google AI Studio URLs
 AI_STUDIO_HOME = "https://aistudio.google.com/prompts/new_chat"
@@ -307,26 +308,44 @@ async def process_single_pdf(page, pdf_path, contract_info):
     print("[INFO] Waiting for AI response (will auto-detect when complete)...")
     print("[INFO] This may take several minutes for large PDFs (up to 10-15 minutes)...")
     
-    try:
-        # Wait for "Response ready" indicator - increased timeout for large PDFs
-        print("[INFO] Watching for 'Response ready' signal...")
-        await page.wait_for_selector('text="Response ready"', timeout=900000)  # 15 min max
-        print("[OK] Response ready signal detected!")
-        await page.wait_for_timeout(2000)  # Give it a moment to finish rendering
-    except Exception as e:
-        # Fallback: look for the success marker we added to the prompt
+    # Poll the page content to detect completion
+    max_wait_time = 900  # 15 minutes in seconds
+    poll_interval = 5  # Check every 5 seconds
+    elapsed = 0
+    response_detected = False
+    
+    while elapsed < max_wait_time:
         try:
-            print(f"[WARNING] 'Response ready' not found: {e}")
-            print("[INFO] Watching for 'JSON EXTRACTED SUCCESSFULLY' signal...")
-            await page.wait_for_selector('text="JSON EXTRACTED SUCCESSFULLY"', timeout=900000)  # 15 min max
-            print("[OK] Extraction complete signal detected!")
-            await page.wait_for_timeout(2000)
-        except:
-            print(f"[WARNING] Auto-detection failed, falling back to manual confirmation...")
-            await wait_for_user_action(
-                page,
-                "Wait for the AI to generate the response, then press Enter"
-            )
+            # Check page text content for completion signals
+            page_text = await page.evaluate('() => document.body.innerText')
+            
+            # Look for either signal
+            if 'Response ready' in page_text or 'JSON EXTRACTED SUCCESSFULLY' in page_text:
+                if 'Response ready' in page_text:
+                    print("[OK] 'Response ready' signal detected!")
+                else:
+                    print("[OK] 'JSON EXTRACTED SUCCESSFULLY' signal detected!")
+                response_detected = True
+                await page.wait_for_timeout(2000)  # Give it a moment to finish rendering
+                break
+                
+        except Exception as e:
+            print(f"[DEBUG] Page check error (will retry): {e}")
+        
+        # Wait before next check
+        await page.wait_for_timeout(poll_interval * 1000)
+        elapsed += poll_interval
+        
+        # Show progress every minute
+        if elapsed % 60 == 0:
+            print(f"[INFO] Still waiting... ({elapsed // 60} minutes elapsed)")
+    
+    if not response_detected:
+        print(f"[WARNING] Timeout after {max_wait_time // 60} minutes - falling back to manual confirmation...")
+        await wait_for_user_action(
+            page,
+            "Wait for the AI to generate the response, then press Enter"
+        )
     
     # Take screenshot of response
     await page.screenshot(path=str(OUTPUT_DIR / 'step4_response.png'))
@@ -483,15 +502,42 @@ async def main():
         # Set window size - smaller and more compact
         await page.set_viewport_size({'width': 1100, 'height': 700})
         
+        # Load cookies for auto-login
+        if COOKIES_FILE.exists():
+            print("[INFO] Loading saved cookies for auto-login...")
+            try:
+                with open(COOKIES_FILE, 'r') as f:
+                    cookies = json.load(f)
+                await context.add_cookies(cookies)
+                print("[OK] Cookies loaded - you should be automatically logged in!")
+            except Exception as e:
+                print(f"[WARNING] Could not load cookies: {e}")
+                print("[INFO] You'll need to sign in manually")
+        else:
+            print("[INFO] No saved cookies found - you'll need to sign in")
+        
         # Navigate to Google AI Studio home (same as your normal Chrome)
         print("[INFO] Navigating to Google AI Studio...")
         await page.goto(AI_STUDIO_HOME)
         
-        # Wait for user to sign in if needed
-        await wait_for_user_action(
-            page,
-            "Please sign in to Google AI Studio if prompted, then press Enter"
-        )
+        # Check if we're logged in or need to sign in
+        await page.wait_for_load_state('networkidle')
+        await page.wait_for_timeout(2000)
+        
+        current_url = page.url
+        if 'accounts.google.com' in current_url:
+            print("[WARNING] Not logged in - cookies may have expired")
+            await wait_for_user_action(
+                page,
+                "Please sign in to Google AI Studio, then press Enter"
+            )
+        else:
+            print("[OK] Already logged in via cookies!")
+            # Small pause to confirm
+            await wait_for_user_action(
+                page,
+                "Confirm you're logged in and on the AI Studio page, then press Enter"
+            )
         
         # Wait for user to click on Gemini 2.5 Pro
         await page.wait_for_load_state('networkidle')

@@ -42,6 +42,11 @@ env/
 *_credentials.json
 *.json.credentials
 
+# Google AI Studio cookies and browser data (CRITICAL - contains session data!)
+google-ai-studio/cookies.json
+google-ai-studio/browser_data/
+.playwright-mcp/
+
 # Database (ignore local DBs - too large for git)
 data/*.db
 *.db
