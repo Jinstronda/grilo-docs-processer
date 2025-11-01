@@ -452,20 +452,42 @@ async def process_single_pdf(page, pdf_path, contract_info):
             
             if json_block_exists:
                 print("[OK] JSON code block detected - waiting for streaming to complete...")
-                # Wait longer for JSON to finish streaming
-                await page.wait_for_timeout(15000)  # 15 seconds for large JSON to finish
                 
-                # Double-check it's stable by waiting for "Response ready"
-                try:
-                    page_text = await page.evaluate('() => document.body.innerText')
-                    if 'Response ready' in page_text:
-                        print("[OK] Response ready - extraction complete!")
+                # Wait for JSON to stop growing (streaming complete)
+                print("[INFO] Monitoring JSON size to detect when streaming stops...")
+                last_size = 0
+                stable_count = 0
+                max_stability_checks = 10  # 10 checks × 3 seconds = 30 seconds max
+                
+                for check in range(max_stability_checks):
+                    await page.wait_for_timeout(3000)  # Check every 3 seconds
+                    
+                    current_size = await page.evaluate('''() => {
+                        const codes = document.querySelectorAll('code');
+                        let maxSize = 0;
+                        codes.forEach(code => {
+                            const text = code.textContent || code.innerText || '';
+                            if (text.includes('extracted_tables')) {
+                                maxSize = Math.max(maxSize, text.length);
+                            }
+                        });
+                        return maxSize;
+                    }''')
+                    
+                    if current_size == last_size and current_size > 1000:
+                        stable_count += 1
+                        if stable_count >= 2:  # Stable for 2 checks (6 seconds)
+                            print(f"[OK] JSON stable at {current_size} characters - streaming complete!")
+                            break
                     else:
-                        print("[INFO] Waiting additional time for streaming to finish...")
-                        await page.wait_for_timeout(10000)  # Additional 10 seconds
-                except:
-                    pass
+                        stable_count = 0
+                    
+                    last_size = current_size
+                    if check % 3 == 0:  # Every 9 seconds
+                        print(f"[INFO] JSON size: {current_size} chars (checking for stability...)")
                 
+                # Final wait to be absolutely sure
+                await page.wait_for_timeout(5000)
                 response_detected = True
                 break
                 
@@ -677,29 +699,62 @@ async def worker_process_pdfs(context, worker_id, total_processed):
             
             print(f"\n[Worker {worker_id}] Processing {current_num}/{BATCH_SIZE}: {contract['hospital_name']}")
             
-            try:
-                # Download PDF
-                pdf_dir = OUTPUT_DIR / "pdfs"
-                pdf_dir.mkdir(exist_ok=True)
-                pdf_path = pdf_dir / f"{contract['id']}.pdf"
-                
-                if not pdf_path.exists():
+            # Download PDF
+            pdf_dir = OUTPUT_DIR / "pdfs"
+            pdf_dir.mkdir(exist_ok=True)
+            pdf_path = pdf_dir / f"{contract['id']}.pdf"
+            
+            if not pdf_path.exists():
+                success = await download_pdf(contract['pdf_url'], pdf_path)
+                if not success:
+                    print(f"[Worker {worker_id}] Download failed - retrying in 10 seconds...")
+                    await page.wait_for_timeout(10000)
                     success = await download_pdf(contract['pdf_url'], pdf_path)
                     if not success:
                         await save_result(contract, None, OUTPUT_DIR, success=False, worker_id=worker_id)
+                        print(f"[Worker {worker_id}] ✗ Download failed after retry - skipping")
                         continue
+            
+            # Process the PDF with retry logic
+            max_retries = 2
+            result = None
+            
+            for attempt in range(max_retries):
+                try:
+                    if attempt > 0:
+                        print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1}")
+                        # Start fresh chat for retry
+                        await page.goto(AI_STUDIO_HOME, timeout=60000)
+                        await page.wait_for_load_state('networkidle', timeout=60000)
+                        await page.wait_for_timeout(2000)
+                        gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
+                        await gemini_button.click()
+                        await page.wait_for_load_state('networkidle', timeout=60000)
+                        await page.wait_for_timeout(2000)
+                    
+                    result = await process_single_pdf(page, str(pdf_path), contract)
+                    
+                    if result and result['success']:
+                        break  # Success - exit retry loop
+                    elif attempt < max_retries - 1:
+                        print(f"[Worker {worker_id}] Extraction failed - will retry...")
+                        await page.wait_for_timeout(5000)
                 
-                # Process the PDF
-                result = await process_single_pdf(page, str(pdf_path), contract)
-                
-                if result and result['success']:
-                    output_path = await save_result(contract, result['data'], OUTPUT_DIR, success=True, worker_id=worker_id)
-                    worker_results.append((contract['id'], True, output_path))
-                    print(f"[Worker {worker_id}] ✓ Success")
-                else:
-                    await save_result(contract, None, OUTPUT_DIR, success=False, worker_id=worker_id)
-                    worker_results.append((contract['id'], False, None))
-                    print(f"[Worker {worker_id}] ✗ Failed")
+                except Exception as e:
+                    print(f"[Worker {worker_id}] Error on attempt {attempt + 1}: {e}")
+                    if attempt < max_retries - 1:
+                        print(f"[Worker {worker_id}] Retrying in 5 seconds...")
+                        await page.wait_for_timeout(5000)
+            
+            # Save final result after retries
+            if result and result['success']:
+                output_path = await save_result(contract, result['data'], OUTPUT_DIR, success=True, worker_id=worker_id)
+                worker_results.append((contract['id'], True, output_path))
+                print(f"[Worker {worker_id}] ✓ Success")
+            else:
+                await save_result(contract, None, OUTPUT_DIR, success=False, worker_id=worker_id)
+                worker_results.append((contract['id'], False, None))
+                print(f"[Worker {worker_id}] ✗ Failed after {max_retries} attempts")
                 
                 # Start new chat for next PDF
                 if total_processed[0] < BATCH_SIZE:
