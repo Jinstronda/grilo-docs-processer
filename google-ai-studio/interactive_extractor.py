@@ -981,13 +981,29 @@ async def main():
                 with open(COOKIES_FILE, 'r') as f:
                     cookies = json.load(f)
                 
-                # Fix sameSite values - Playwright needs Strict/Lax/None, not "unspecified"
+                # Fix sameSite values - Playwright needs Strict/Lax/None
                 for cookie in cookies:
-                    if cookie.get('sameSite') == 'unspecified':
+                    same_site = cookie.get('sameSite', 'Lax')
+                    
+                    # Convert various formats to Playwright-compatible values
+                    if same_site == 'unspecified':
                         cookie['sameSite'] = 'Lax'
+                    elif same_site == 'no_restriction':
+                        cookie['sameSite'] = 'None'
+                    elif same_site in ['strict', 'Strict']:
+                        cookie['sameSite'] = 'Strict'
+                    elif same_site in ['lax', 'Lax']:
+                        cookie['sameSite'] = 'Lax'
+                    
                     # Convert expiration to expires
                     if 'expirationDate' in cookie:
                         cookie['expires'] = cookie.pop('expirationDate')
+                    
+                    # Remove fields Playwright doesn't need
+                    cookie.pop('id', None)
+                    cookie.pop('hostOnly', None)
+                    cookie.pop('session', None)
+                    cookie.pop('storeId', None)
                 
                 await context.add_cookies(cookies)
                 print("[OK] Cookies loaded!")
