@@ -843,22 +843,25 @@ async def worker_process_pdfs(context, worker_id, assigned_pdfs):
             
             # Start new chat for next PDF (if more PDFs assigned)
             if pdf_index < len(assigned_pdfs):
-                print(f"[Worker {worker_id}] Starting new chat for next assigned PDF...")
+                print(f"[Worker {worker_id}] Starting new chat (clicking Chat link)...")
                 
                 for chat_attempt in range(4):  # Up to 4 retries for new chat
                     try:
                         if chat_attempt > 0:
                             print(f"[Worker {worker_id}] New chat retry {chat_attempt}/3...")
                         
-                        await page.goto(AI_STUDIO_HOME, timeout=60000)
+                        # Click "Chat" link in sidebar (stays logged in!)
+                        chat_link = page.get_by_role('link', name='Chat')
+                        await chat_link.click(timeout=10000)
                         await page.wait_for_load_state('networkidle', timeout=60000)
                         await page.wait_for_timeout(2000)
                         
+                        # Click Gemini 2.5 Pro
                         gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
                         await gemini_button.click(timeout=10000)
                         await page.wait_for_load_state('networkidle', timeout=60000)
                         await page.wait_for_timeout(2000)
-                        print(f"[Worker {worker_id}] ✓ New chat ready")
+                        print(f"[Worker {worker_id}] ✓ New chat ready (stayed logged in)")
                         break
                     except Exception as e:
                         print(f"[Worker {worker_id}] New chat attempt {chat_attempt + 1}/4 failed: {e}")
