@@ -120,14 +120,19 @@ async def extract_json_from_page(page):
         result = await page.evaluate('''() => {
             const results = [];
             
+            console.log('[EXTRACT] Starting JSON extraction...');
+            
             // Find all regions labeled "JSON"
             const regions = document.querySelectorAll('region[aria-label="JSON"], [role="region"]');
+            console.log('[EXTRACT] Found', regions.length, 'regions');
             
             for (const region of regions) {
                 const code = region.querySelector('code');
                 if (code) {
                     // Try multiple ways to get the full text
                     let text = code.textContent || code.innerText || code.innerHTML;
+                    
+                    console.log('[EXTRACT] Found code in region, length:', text ? text.length : 0);
                     
                     // Clean up HTML entities if innerHTML was used
                     if (text.includes('&quot;')) {
@@ -145,15 +150,20 @@ async def extract_json_from_page(page):
             
             // Fallback: try all code elements
             if (results.length === 0) {
+                console.log('[EXTRACT] No regions found, trying all code elements...');
                 const allCodes = document.querySelectorAll('code');
+                console.log('[EXTRACT] Found', allCodes.length, 'total code elements');
+                
                 for (const code of allCodes) {
                     let text = code.textContent || code.innerText;
                     if (text && text.includes('extracted_tables') && text.trim().length > 50) {
+                        console.log('[EXTRACT] Found extracted_tables in code, length:', text.length);
                         results.push(text.trim());
                     }
                 }
             }
             
+            console.log('[EXTRACT] Returning', results.length, 'code blocks');
             return results;
         }''')
         
@@ -486,7 +496,7 @@ async def process_single_pdf(page, pdf_path, contract_info):
                         stable_count = 0
                     
                     last_size = current_size
-                    if check % 3 == 0:  # Every 9 seconds
+                    if check % 3 == 0:  # Every 9 seconds   
                         print(f"[INFO] JSON size: {current_size} chars (checking for stability...)")
                 
                 # Final wait to be absolutely sure
@@ -672,15 +682,28 @@ async def worker_process_pdfs(context, worker_id, total_processed):
     except:
         pass
     
-    # Click Gemini 2.5 Pro
-    try:
-        gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
-        await gemini_button.click()
-        await page.wait_for_load_state('networkidle')
-        await page.wait_for_timeout(2000)
-        print(f"[Worker {worker_id}] Ready on Gemini 2.5 Pro chat")
-    except Exception as e:
-        print(f"[Worker {worker_id}] Could not click Gemini 2.5 Pro: {e}")
+    # Click Gemini 2.5 Pro with retries
+    print(f"[Worker {worker_id}] Attempting to click Gemini 2.5 Pro...")
+    gemini_clicked = False
+    
+    for attempt in range(4):  # Up to 4 retries
+        try:
+            if attempt > 0:
+                print(f"[Worker {worker_id}] Retry {attempt}/3 for Gemini button...")
+                await page.wait_for_timeout(3000)
+            
+            gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
+            await gemini_button.click(timeout=10000)
+            await page.wait_for_load_state('networkidle', timeout=60000)
+            await page.wait_for_timeout(2000)
+            print(f"[Worker {worker_id}] ✓ Ready on Gemini 2.5 Pro chat")
+            gemini_clicked = True
+            break
+        except Exception as e:
+            print(f"[Worker {worker_id}] Attempt {attempt + 1}/4 failed: {e}")
+    
+    if not gemini_clicked:
+        print(f"[Worker {worker_id}] ✗ Failed to click Gemini 2.5 Pro after 4 attempts - closing worker")
         await page.close()
         return []
     
@@ -732,15 +755,25 @@ async def worker_process_pdfs(context, worker_id, total_processed):
             for attempt in range(max_retries):
                 try:
                     if attempt > 0:
-                        print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1}")
-                        # Start fresh chat for retry
-                        await page.goto(AI_STUDIO_HOME, timeout=60000)
-                        await page.wait_for_load_state('networkidle', timeout=60000)
-                        await page.wait_for_timeout(2000)
-                        gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
-                        await gemini_button.click()
-                        await page.wait_for_load_state('networkidle', timeout=60000)
-                        await page.wait_for_timeout(2000)
+                        print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1} - Starting fresh chat...")
+                        
+                        # Start fresh chat for retry with retries
+                        for chat_attempt in range(4):
+                            try:
+                                await page.goto(AI_STUDIO_HOME, timeout=60000)
+                                await page.wait_for_load_state('networkidle', timeout=60000)
+                                await page.wait_for_timeout(2000)
+                                
+                                gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
+                                await gemini_button.click(timeout=10000)
+                                await page.wait_for_load_state('networkidle', timeout=60000)
+                                await page.wait_for_timeout(2000)
+                                print(f"[Worker {worker_id}] ✓ Retry chat ready")
+                                break
+                            except Exception as e:
+                                print(f"[Worker {worker_id}] Chat setup attempt {chat_attempt + 1}/4: {e}")
+                                if chat_attempt >= 3:
+                                    raise  # Give up after 4 attempts
                     
                     # Add worker_id to contract for worker-specific screenshots
                     contract['worker_id'] = worker_id
@@ -771,18 +804,28 @@ async def worker_process_pdfs(context, worker_id, total_processed):
             
             # Start new chat for next PDF
             if total_processed[0] < BATCH_SIZE:
-                try:
-                    await page.goto(AI_STUDIO_HOME, timeout=60000)
-                    await page.wait_for_load_state('networkidle', timeout=60000)
-                    await page.wait_for_timeout(1000)
-                    
-                    gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
-                    await gemini_button.click()
-                    await page.wait_for_load_state('networkidle', timeout=60000)
-                    await page.wait_for_timeout(2000)
-                except Exception as e:
-                    print(f"[Worker {worker_id}] Could not start new chat: {e}")
-                    break
+                print(f"[Worker {worker_id}] Starting new chat for next PDF...")
+                
+                for chat_attempt in range(4):  # Up to 4 retries for new chat
+                    try:
+                        if chat_attempt > 0:
+                            print(f"[Worker {worker_id}] New chat retry {chat_attempt}/3...")
+                        
+                        await page.goto(AI_STUDIO_HOME, timeout=60000)
+                        await page.wait_for_load_state('networkidle', timeout=60000)
+                        await page.wait_for_timeout(2000)
+                        
+                        gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
+                        await gemini_button.click(timeout=10000)
+                        await page.wait_for_load_state('networkidle', timeout=60000)
+                        await page.wait_for_timeout(2000)
+                        print(f"[Worker {worker_id}] ✓ New chat ready")
+                        break
+                    except Exception as e:
+                        print(f"[Worker {worker_id}] New chat attempt {chat_attempt + 1}/4 failed: {e}")
+                        if chat_attempt >= 3:
+                            print(f"[Worker {worker_id}] ✗ Cannot create new chat after 4 attempts - stopping worker")
+                            return worker_results
     
     except Exception as e:
         print(f"[Worker {worker_id}] Worker crashed: {e}")
