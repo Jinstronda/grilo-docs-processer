@@ -801,26 +801,31 @@ async def worker_process_pdfs(context, worker_id, assigned_pdfs):
         return []
     
     # Dismiss popups (auto-save, media creation, cookies, etc.)
+    # Wait a bit for popups to appear
+    await page.wait_for_timeout(2000)
+    
     try:
-        popup_selectors = [
-            'button:has-text("Got it")',           # Auto-save popup
-            'button:has-text("OK, got it")',       # Cookie banner
-            'button:has-text("Acknowledge")',      # Media creation popup
-            'button:has-text("Dismiss")',          # Generic dismiss
+        # Use Playwright's get_by_role for more reliable matching
+        popup_buttons = [
+            ('Got it', 'Auto-save popup'),
+            ('OK, got it', 'OK popup'),
+            ('Acknowledge', 'Media creation popup'),
+            ('Dismiss', 'Generic dismiss'),
+            ('Ok, entendi', 'Cookie popup (Portuguese)'),
         ]
         
-        for selector in popup_selectors:
+        for button_text, description in popup_buttons:
             try:
-                buttons = await page.query_selector_all(selector)
-                for button in buttons:
-                    if await button.is_visible():
-                        await button.click()
-                        print(f"[Worker {worker_id}] Dismissed popup")
-                        await page.wait_for_timeout(500)
+                # Try to find and click the button
+                button = page.get_by_role('button', name=button_text)
+                if await button.is_visible(timeout=1000):
+                    await button.click()
+                    print(f"[Worker {worker_id}] ✓ Dismissed {description}")
+                    await page.wait_for_timeout(500)
             except:
-                pass
-    except:
-        pass
+                pass  # Button not found or not visible, that's OK
+    except Exception as e:
+        print(f"[Worker {worker_id}] Note: Some popups may not have been dismissed: {e}")
     
     # Click Gemini 2.5 Pro with retries
     print(f"[Worker {worker_id}] Attempting to click Gemini 2.5 Pro...")
