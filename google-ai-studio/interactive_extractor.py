@@ -115,18 +115,7 @@ async def extract_json_from_page(page):
     try:
         print("[INFO] Extracting JSON from AI response...")
         
-        # SIMPLE APPROACH: Just get the entire body text and extract JSON from it
-        body_text = await page.evaluate('() => document.body.innerText')
-        
-        print(f"[DEBUG] Body text length: {len(body_text)} characters")
-        
-        # Check if body text is too small (only contains our prompt, not AI response)
-        if len(body_text) < 5000:
-            print("[WARNING] Body text too small - AI response not loaded into DOM yet")
-            print("[WARNING] This is normal during streaming - retry will wait longer")
-            return None
-        
-        # Method 1: Extract from Model's response section ONLY (not User's prompt!)
+        # Try to extract from Model's response section FIRST (most reliable)
         result = await page.evaluate('''() => {
             const results = [];
             
@@ -162,43 +151,56 @@ async def extract_json_from_page(page):
         
         if result and len(result) > 0:
             print(f"[INFO] Found JSON in Model's response section")
-            # Use extracted JSON from Model section
             json_text = result[0]
-            
-            # VALIDATION CHECKS - Ensure we have complete, correct data
-            print("[INFO] Running validation checks...")
-            
-            # Check 1: Contains completion marker
-            has_marker = 'JSON EXTRACTED SUCCESSFULLY' in json_text or 'EXTRACTION DONE' in json_text
-            print(f"  ✓ Completion marker present: {has_marker}")
-            
-            # Check 2: Not the prompt template
-            is_template = '<page_number>' in json_text or '"column1"' in json_text or '"value1"' in json_text
-            if is_template:
-                print("  ✗ ERROR: This is the prompt template, not AI response!")
-                return None
-            print(f"  ✓ Not template: True")
-            
-            # Check 3: Has real data (actual hospital names, amounts, etc.)
-            # Template has simple examples like "value1", real data has complex text
-            has_real_data = any(indicator in json_text for indicator in ['€', 'Consultas', 'Hospital', 'GDH', 'Internamento', 'Urgência'])
-            print(f"  ✓ Has real data indicators: {has_real_data}")
-            
-            # Check 4: Minimum size (real extractions are usually 5k+ chars)
-            min_size = len(json_text) > 1000
-            print(f"  ✓ Size check ({len(json_text)} chars): {min_size}")
-            
-            # If critical checks fail, reject
-            if is_template or not min_size:
-                print("[ERROR] Validation failed - not accepting this extraction")
-                return None
-            
-            print("[OK] All validation checks passed!")
-            
         else:
-            print("[WARNING] No JSON found in Model's response section")
-            print("[WARNING] AI may not have responded yet")
+            # FALLBACK: Try clicking the Copy button
+            print("[INFO] Trying Copy button fallback...")
+            try:
+                # Find and click the copy button in the last Model section
+                copy_clicked = await page.evaluate('''() => {
+                    const modelSections = document.querySelectorAll('[data-turn-role="Model"]');
+                    if (modelSections.length === 0) return false;
+                    
+                    const lastModel = modelSections[modelSections.length - 1];
+                    const copyBtn = lastModel.querySelector('button[aria-label*="Copy"], button:has(> *[class*="content_copy"])');
+                    
+                    if (copyBtn) {
+                        copyBtn.click();
+                        return true;
+                    }
+                    return false;
+                }''')
+                
+                if copy_clicked:
+                    await page.wait_for_timeout(500)
+                    # Get from clipboard
+                    clipboard_text = await page.evaluate('() => navigator.clipboard.readText()')
+                    if clipboard_text and 'extracted_tables' in clipboard_text:
+                        print("[OK] Got JSON from clipboard via Copy button!")
+                        json_text = clipboard_text
+                    else:
+                        print("[WARNING] Copy button clicked but no valid JSON in clipboard")
+                        return None
+                else:
+                    print("[WARNING] No Copy button found")
+                    return None
+            except Exception as e:
+                print(f"[WARNING] Copy button fallback failed: {e}")
+                return None
+        
+        # VALIDATION: Check if it's a valid table structure (not just length!)
+        print("[INFO] Validating table structure...")
+        
+        # Check 1: Not the prompt template
+        is_template = '<page_number>' in json_text or '"column1"' in json_text or '"value1"' in json_text
+        if is_template:
+            print("  ✗ ERROR: This is the prompt template, not AI response!")
             return None
+        print(f"  ✓ Not template: True")
+        
+        # Check 2: Has real data indicators
+        has_real_data = any(indicator in json_text for indicator in ['€', 'Consultas', 'Hospital', 'GDH', 'Internamento', 'Urgência', 'Centro', 'Unidade', 'EPE'])
+        print(f"  ✓ Has real data indicators: {has_real_data}")
         
         # Clean and parse the JSON
         try:
@@ -208,12 +210,8 @@ async def extract_json_from_page(page):
                 lines = cleaned.split('\n')
                 cleaned = '\n'.join(lines[1:-1]) if len(lines) > 2 else cleaned
             
-            # Remove "JSON EXTRACTED SUCCESSFULLY" marker(s) if present
-            cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').strip()
-            
-            # Sometimes there are multiple markers, remove all
-            while 'JSON EXTRACTED SUCCESSFULLY' in cleaned:
-                cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').strip()
+            # Remove markers
+            cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').replace('EXTRACTION DONE', '').strip()
             
             # Remove any trailing text after the closing brace
             last_brace = cleaned.rfind('}')
@@ -225,15 +223,45 @@ async def extract_json_from_page(page):
             # Parse as JSON
             data = json.loads(cleaned)
             
-            # Check if this is our extraction result
-            if 'extracted_tables' in data:
-                num_tables = len(data.get('extracted_tables', []))
-                total_rows = sum(len(t.get('table_data', [])) for t in data.get('extracted_tables', []))
-                print(f"[OK] Successfully extracted {num_tables} tables ({total_rows} total rows)!")
-                return data
-            else:
-                print(f"[WARNING] Parsed JSON but no 'extracted_tables' key found")
+            # CRITICAL VALIDATION: Check if this is a VALID TABLE STRUCTURE
+            if 'extracted_tables' not in data:
+                print(f"[ERROR] No 'extracted_tables' key found")
                 return None
+            
+            tables = data.get('extracted_tables', [])
+            if not isinstance(tables, list):
+                print(f"[ERROR] 'extracted_tables' is not a list")
+                return None
+            
+            if len(tables) == 0:
+                print(f"[WARNING] Empty tables array - AI found no tables")
+                return data  # Valid response, just no tables found
+            
+            # Validate table structure
+            valid_tables = 0
+            total_rows = 0
+            for i, table in enumerate(tables):
+                if not isinstance(table, dict):
+                    print(f"[WARNING] Table {i} is not a dict")
+                    continue
+                
+                table_data = table.get('table_data', [])
+                if not isinstance(table_data, list):
+                    print(f"[WARNING] Table {i} has invalid table_data")
+                    continue
+                
+                if len(table_data) > 0:
+                    valid_tables += 1
+                    total_rows += len(table_data)
+            
+            print(f"  ✓ Valid table structure: {valid_tables} tables, {total_rows} rows")
+            
+            if valid_tables == 0:
+                print(f"[WARNING] No valid tables with data found")
+                return data  # Still return it, might be legitimate "no tables" response
+            
+            print(f"[OK] Successfully extracted {valid_tables} tables ({total_rows} total rows)!")
+            return data
                 
         except json.JSONDecodeError as e:
             print(f"[ERROR] JSON parse error: {e}")
