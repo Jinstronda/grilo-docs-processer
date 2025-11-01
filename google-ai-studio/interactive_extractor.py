@@ -558,11 +558,12 @@ def get_next_unprocessed_contract():
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         
+        # Get contracts that are NULL (never processed) OR failed (retry)
         cursor.execute("""
             SELECT id, hospital_name, year, original_pdf_url
             FROM contracts 
             WHERE original_pdf_url IS NOT NULL 
-              AND aistudio_extraction_status IS NULL
+              AND (aistudio_extraction_status IS NULL OR aistudio_extraction_status = 'failed')
             LIMIT 1
         """)
         
@@ -861,7 +862,7 @@ async def main():
     cursor.execute("""
         SELECT COUNT(*) FROM contracts 
         WHERE original_pdf_url IS NOT NULL 
-          AND aistudio_extraction_status IS NULL
+          AND (aistudio_extraction_status IS NULL OR aistudio_extraction_status = 'failed')
     """)
     
     unprocessed_count = cursor.fetchone()[0]
