@@ -19,7 +19,7 @@ TEST_MODE = False  # Change to True for quick testing
 
 # PARALLEL PROCESSING
 NUM_WORKERS = 4  # Number of parallel Chrome tabs (workers)
-BATCH_SIZE = 50  # Total PDFs to process in this batch
+BATCH_SIZE = 100  # Total PDFs to process in this batch
 
 DB_PATH = Path(__file__).parent.parent / "data" / "hospital_tables.db"
 OUTPUT_DIR = Path(__file__).parent / "extractions"
@@ -631,54 +631,7 @@ async def process_single_pdf(page, pdf_path, contract_info):
             
             return {'data': None, 'success': False, 'retry_same_page': False}
 
-def get_next_unprocessed_contract():
-    """Get the next contract that hasn't been processed yet (thread-safe)"""
-    try:
-        conn = sqlite3.connect(DB_PATH)
-        cursor = conn.cursor()
-        
-        # Get contracts that are NULL (never processed) OR failed (retry)
-        cursor.execute("""
-            SELECT id, hospital_name, year, original_pdf_url
-            FROM contracts 
-            WHERE original_pdf_url IS NOT NULL 
-              AND (aistudio_extraction_status IS NULL OR aistudio_extraction_status = 'failed')
-            LIMIT 1
-        """)
-        
-        row = cursor.fetchone()
-        conn.close()
-        
-        if row:
-            return {
-                'id': row[0],
-                'hospital_name': row[1],
-                'year': row[2],
-                'pdf_url': row[3]
-            }
-        return None
-    except Exception as e:
-        print(f"[ERROR] Database error getting next contract: {e}")
-        return None
-
-def mark_contract_processing(contract_id, worker_id):
-    """Mark a contract as being processed to prevent duplicate work"""
-    try:
-        conn = sqlite3.connect(DB_PATH)
-        cursor = conn.cursor()
-        
-        cursor.execute("""
-            UPDATE contracts 
-            SET aistudio_extraction_status = ?
-            WHERE id = ?
-        """, (f'processing_worker_{worker_id}', contract_id))
-        
-        conn.commit()
-        conn.close()
-        return True
-    except Exception as e:
-        print(f"[ERROR] Could not mark contract as processing: {e}")
-        return False
+# Removed - using math formula distribution instead
 
 async def save_result(contract_info, extracted_data, output_dir, success=True, worker_id=0):
     """Save extraction result to file and database with status"""
@@ -729,12 +682,12 @@ async def save_result(contract_info, extracted_data, output_dir, success=True, w
     
     return output_path
 
-async def worker_process_pdfs(context, worker_id, total_processed):
-    """Worker function - processes PDFs until batch is complete"""
+async def worker_process_pdfs(context, worker_id, assigned_pdfs):
+    """Worker function - processes assigned PDFs using round-robin distribution"""
     try:
         page = await context.new_page()
         
-        print(f"[Worker {worker_id}] Starting...")
+        print(f"[Worker {worker_id}] Starting with {len(assigned_pdfs)} assigned PDFs...")
         
         # Give this page a slight delay to avoid race conditions
         await page.wait_for_timeout(worker_id * 1000)  # Stagger workers
@@ -790,27 +743,9 @@ async def worker_process_pdfs(context, worker_id, total_processed):
     worker_results = []
     
     try:
-        while True:
-            # Check if batch is complete
-            if total_processed[0] >= BATCH_SIZE:
-                print(f"[Worker {worker_id}] Batch complete ({BATCH_SIZE} PDFs processed)")
-                break
-            
-            # Get next unprocessed contract
-            contract = get_next_unprocessed_contract()
-            if not contract:
-                print(f"[Worker {worker_id}] No more contracts to process")
-                break
-            
-            # Mark as processing
-            if not mark_contract_processing(contract['id'], worker_id):
-                print(f"[Worker {worker_id}] Could not lock contract, trying next...")
-                continue
-            
-            total_processed[0] += 1
-            current_num = total_processed[0]
-            
-            print(f"\n[Worker {worker_id}] Processing {current_num}/{BATCH_SIZE}: {contract['hospital_name']}")
+        # Process each assigned PDF using round-robin distribution
+        for pdf_index, contract in enumerate(assigned_pdfs, 1):
+            print(f"\n[Worker {worker_id}] Processing PDF {pdf_index}/{len(assigned_pdfs)}: {contract['hospital_name']}")
             
             # Download PDF
             pdf_dir = OUTPUT_DIR / "pdfs"
@@ -901,9 +836,9 @@ async def worker_process_pdfs(context, worker_id, total_processed):
                 worker_results.append((contract['id'], False, None))
                 print(f"[Worker {worker_id}] ✗ Failed after {max_retries} attempts")
             
-            # Start new chat for next PDF
-            if total_processed[0] < BATCH_SIZE:
-                print(f"[Worker {worker_id}] Starting new chat for next PDF...")
+            # Start new chat for next PDF (if more PDFs assigned)
+            if pdf_index < len(assigned_pdfs):
+                print(f"[Worker {worker_id}] Starting new chat for next assigned PDF...")
                 
                 for chat_attempt in range(4):  # Up to 4 retries for new chat
                     try:
@@ -951,26 +886,51 @@ async def main():
         print(f"Batch Size: {BATCH_SIZE}")
     print(f"{'='*80}\n")
     
-    # Count unprocessed contracts
+    # Get ALL unprocessed contracts for this batch
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     
     cursor.execute("""
-        SELECT COUNT(*) FROM contracts 
+        SELECT id, hospital_name, year, original_pdf_url
+        FROM contracts 
         WHERE original_pdf_url IS NOT NULL 
           AND (aistudio_extraction_status IS NULL OR aistudio_extraction_status = 'failed')
-    """)
+        ORDER BY id
+        LIMIT ?
+    """, (BATCH_SIZE,))
     
-    unprocessed_count = cursor.fetchone()[0]
+    all_contracts = [
+        {
+            'id': row[0],
+            'hospital_name': row[1],
+            'year': row[2],
+            'pdf_url': row[3]
+        }
+        for row in cursor.fetchall()
+    ]
     conn.close()
     
-    print(f"[INFO] Unprocessed contracts: {unprocessed_count}")
-    print(f"[INFO] Will process: {min(BATCH_SIZE, unprocessed_count)} PDFs")
-    print(f"[INFO] Using {NUM_WORKERS} parallel workers\n")
-    
-    if unprocessed_count == 0:
+    if not all_contracts:
         print("[INFO] No unprocessed contracts found!")
         return
+    
+    print(f"[INFO] Retrieved {len(all_contracts)} contracts for processing")
+    print(f"[INFO] Using {NUM_WORKERS} parallel workers with round-robin distribution\n")
+    
+    # Distribute PDFs using round-robin (math formula)
+    # Worker 1: PDFs 0, 4, 8, 12... (indices 0, 4, 8...)
+    # Worker 2: PDFs 1, 5, 9, 13... (indices 1, 5, 9...)
+    # Worker 3: PDFs 2, 6, 10, 14... (indices 2, 6, 10...)
+    # Worker 4: PDFs 3, 7, 11, 15... (indices 3, 7, 11...)
+    worker_assignments = [
+        all_contracts[i::NUM_WORKERS]  # Pythonic round-robin slicing!
+        for i in range(NUM_WORKERS)
+    ]
+    
+    print("[INFO] Worker assignments:")
+    for i, pdfs in enumerate(worker_assignments, 1):
+        print(f"  Worker {i}: {len(pdfs)} PDFs")
+    print()
     
     # Launch browser - Use Chrome (easier for Google sign-in)
     async with async_playwright() as p:
@@ -1033,14 +993,11 @@ async def main():
                 print(f"[WARNING] Could not load cookies: {e}")
                 print("[INFO] You may need to sign in manually")
         
-        # Shared counter for total processed (thread-safe list)
-        total_processed = [0]
-        
-        # Start all workers in parallel
-        print(f"[INFO] Starting {NUM_WORKERS} workers...\n")
+        # Start all workers in parallel with their assigned PDFs
+        print(f"[INFO] Starting {NUM_WORKERS} workers with round-robin distribution...\n")
         
         worker_tasks = [
-            worker_process_pdfs(context, worker_id + 1, total_processed)
+            worker_process_pdfs(context, worker_id + 1, worker_assignments[worker_id])
             for worker_id in range(NUM_WORKERS)
         ]
         
