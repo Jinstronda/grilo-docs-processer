@@ -373,12 +373,12 @@ async def process_single_pdf(page, pdf_path, contract_info, worker_id=0):
                         # Click "Upload File" which will trigger the file chooser
                         upload_menuitem = page.get_by_role('menuitem', name='Upload File')
                         await upload_menuitem.click()
-                        print("[OK] Clicked 'Upload File' menu option")
+                        print(f"[Worker {worker_id}] [OK] Clicked 'Upload File' menu option")
                     
                     # Handle the file chooser that just appeared
                     file_chooser = await fc_info.value
                     await file_chooser.set_files(str(pdf_path))
-                    print("[OK] PDF uploaded successfully!")
+                    print(f"[Worker {worker_id}] [OK] PDF uploaded successfully!")
                     await page.wait_for_timeout(3000)  # Wait for upload to process
                     
                     # Dismiss "Start creating with media" popup that appears after upload
@@ -432,13 +432,13 @@ async def process_single_pdf(page, pdf_path, contract_info, worker_id=0):
     
     # Try to find and fill prompt
     if TEST_MODE:
-        print("[INFO] TEST MODE - Using test prompt (numbers 1-100)")
+        print(f"[Worker {worker_id}] [INFO] TEST MODE - Using test prompt (numbers 1-100)")
         prompt_to_use = TEST_PROMPT
     else:
-        print("[INFO] Using extraction prompt for PDF tables")
+        print(f"[Worker {worker_id}] [INFO] Using extraction prompt for PDF tables")
         prompt_to_use = EXTRACTION_PROMPT
     
-    print("[INFO] Looking for prompt input field...")
+    print(f"[Worker {worker_id}] [INFO] Looking for prompt input field...")
     
     # Try multiple selectors
     input_field = None
@@ -548,10 +548,10 @@ async def process_single_pdf(page, pdf_path, contract_info, worker_id=0):
             }''')
             
             if json_block_exists:
-                print("[OK] JSON code block detected - waiting for streaming to complete...")
+                print(f"[Worker {worker_id}] [OK] JSON code block detected - waiting for streaming to complete...")
                 
                 # Wait for JSON to stop growing (streaming complete)
-                print("[INFO] Monitoring JSON size to detect when streaming stops...")
+                print(f"[Worker {worker_id}] [INFO] Monitoring JSON size to detect when streaming stops...")
                 last_size = 0
                 stable_count = 0
                 max_stability_checks = 10  # 10 checks × 3 seconds = 30 seconds max
@@ -575,21 +575,21 @@ async def process_single_pdf(page, pdf_path, contract_info, worker_id=0):
                     if current_size == 0:
                         # Size 0 means AI hasn't generated JSON yet - don't count this check
                         if check % 3 == 0:
-                            print(f"[INFO] JSON size: 0 chars - AI still generating, waiting...")
+                            print(f"[Worker {worker_id}] [INFO] JSON size: 0 chars - AI still generating, waiting...")
                         stable_count = 0
                         # Don't increment check counter - keep waiting
                         continue
                     elif current_size == last_size and current_size > 1000:
                         stable_count += 1
                         if stable_count >= 2:  # Stable for 2 checks (6 seconds)
-                            print(f"[OK] JSON stable at {current_size} characters - streaming complete!")
+                            print(f"[Worker {worker_id}] [OK] JSON stable at {current_size} characters - streaming complete!")
                             break
                     else:
                         stable_count = 0
                     
                     last_size = current_size
                     if check % 3 == 0:  # Every 9 seconds
-                        print(f"[INFO] JSON size: {current_size} chars (checking for stability...)")
+                        print(f"[Worker {worker_id}] [INFO] JSON size: {current_size} chars (checking for stability...)")
                 
                 # Check if we actually got content after the loop
                 if last_size > 0:
@@ -600,8 +600,8 @@ async def process_single_pdf(page, pdf_path, contract_info, worker_id=0):
                 else:
                     # Loop ended but still size 0 - means AI hasn't responded in 30 seconds
                     # Don't try extraction, just continue main waiting loop
-                    print("[WARNING] Streaming check complete but JSON size still 0")
-                    print("[WARNING] AI may not have responded yet - will check again in next poll")
+                    print(f"[Worker {worker_id}] [WARNING] Streaming check complete but JSON size still 0")
+                    print(f"[Worker {worker_id}] [WARNING] AI may not have responded yet - will check again in next poll")
                     # Fall through to next iteration of main wait loop
                 
         except Exception as e:
