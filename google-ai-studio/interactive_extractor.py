@@ -18,7 +18,7 @@ from playwright.async_api import async_playwright
 TEST_MODE = False  # Change to True for quick testing
 
 # PARALLEL PROCESSING
-NUM_WORKERS = 5  # Number of parallel Chrome tabs (workers)
+NUM_WORKERS = 4  # Number of parallel Chrome tabs (workers)
 BATCH_SIZE = 50  # Total PDFs to process in this batch
 
 DB_PATH = Path(__file__).parent.parent / "data" / "hospital_tables.db"
@@ -599,14 +599,18 @@ async def save_result(contract_info, extracted_data, output_dir, success=True, w
 
 async def worker_process_pdfs(context, worker_id, total_processed):
     """Worker function - processes PDFs until batch is complete"""
-    page = await context.new_page()
-    
-    print(f"[Worker {worker_id}] Starting...")
-    
-    # Navigate and dismiss popups
-    await page.goto(AI_STUDIO_HOME)
-    await page.wait_for_load_state('networkidle')
-    await page.wait_for_timeout(2000)
+    try:
+        page = await context.new_page()
+        
+        print(f"[Worker {worker_id}] Starting...")
+        
+        # Navigate and dismiss popups
+        await page.goto(AI_STUDIO_HOME, timeout=60000)
+        await page.wait_for_load_state('networkidle', timeout=60000)
+        await page.wait_for_timeout(2000)
+    except Exception as e:
+        print(f"[Worker {worker_id}] Failed to start: {e}")
+        return []
     
     # Dismiss popups
     try:
@@ -637,67 +641,83 @@ async def worker_process_pdfs(context, worker_id, total_processed):
     
     worker_results = []
     
-    while True:
-        # Check if batch is complete
-        if total_processed[0] >= BATCH_SIZE:
-            print(f"[Worker {worker_id}] Batch complete ({BATCH_SIZE} PDFs processed)")
-            break
-        
-        # Get next unprocessed contract
-        contract = get_next_unprocessed_contract()
-        if not contract:
-            print(f"[Worker {worker_id}] No more contracts to process")
-            break
-        
-        # Mark as processing
-        if not mark_contract_processing(contract['id'], worker_id):
-            print(f"[Worker {worker_id}] Could not lock contract, trying next...")
-            continue
-        
-        total_processed[0] += 1
-        current_num = total_processed[0]
-        
-        print(f"\n[Worker {worker_id}] Processing {current_num}/{BATCH_SIZE}: {contract['hospital_name']}")
-        
-        # Download PDF
-        pdf_dir = OUTPUT_DIR / "pdfs"
-        pdf_dir.mkdir(exist_ok=True)
-        pdf_path = pdf_dir / f"{contract['id']}.pdf"
-        
-        if not pdf_path.exists():
-            success = await download_pdf(contract['pdf_url'], pdf_path)
-            if not success:
-                await save_result(contract, None, OUTPUT_DIR, success=False, worker_id=worker_id)
+    try:
+        while True:
+            # Check if batch is complete
+            if total_processed[0] >= BATCH_SIZE:
+                print(f"[Worker {worker_id}] Batch complete ({BATCH_SIZE} PDFs processed)")
+                break
+            
+            # Get next unprocessed contract
+            contract = get_next_unprocessed_contract()
+            if not contract:
+                print(f"[Worker {worker_id}] No more contracts to process")
+                break
+            
+            # Mark as processing
+            if not mark_contract_processing(contract['id'], worker_id):
+                print(f"[Worker {worker_id}] Could not lock contract, trying next...")
                 continue
-        
-        # Process the PDF
-        result = await process_single_pdf(page, str(pdf_path), contract)
-        
-        if result and result['success']:
-            output_path = await save_result(contract, result['data'], OUTPUT_DIR, success=True, worker_id=worker_id)
-            worker_results.append((contract['id'], True, output_path))
-            print(f"[Worker {worker_id}] ✓ Success")
-        else:
-            await save_result(contract, None, OUTPUT_DIR, success=False, worker_id=worker_id)
-            worker_results.append((contract['id'], False, None))
-            print(f"[Worker {worker_id}] ✗ Failed")
-        
-        # Start new chat for next PDF
-        if total_processed[0] < BATCH_SIZE:
-            await page.goto(AI_STUDIO_HOME)
-            await page.wait_for_load_state('networkidle')
-            await page.wait_for_timeout(1000)
+            
+            total_processed[0] += 1
+            current_num = total_processed[0]
+            
+            print(f"\n[Worker {worker_id}] Processing {current_num}/{BATCH_SIZE}: {contract['hospital_name']}")
             
             try:
-                gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
-                await gemini_button.click()
-                await page.wait_for_load_state('networkidle')
-                await page.wait_for_timeout(2000)
-            except:
-                print(f"[Worker {worker_id}] Could not start new chat")
+                # Download PDF
+                pdf_dir = OUTPUT_DIR / "pdfs"
+                pdf_dir.mkdir(exist_ok=True)
+                pdf_path = pdf_dir / f"{contract['id']}.pdf"
+                
+                if not pdf_path.exists():
+                    success = await download_pdf(contract['pdf_url'], pdf_path)
+                    if not success:
+                        await save_result(contract, None, OUTPUT_DIR, success=False, worker_id=worker_id)
+                        continue
+                
+                # Process the PDF
+                result = await process_single_pdf(page, str(pdf_path), contract)
+                
+                if result and result['success']:
+                    output_path = await save_result(contract, result['data'], OUTPUT_DIR, success=True, worker_id=worker_id)
+                    worker_results.append((contract['id'], True, output_path))
+                    print(f"[Worker {worker_id}] ✓ Success")
+                else:
+                    await save_result(contract, None, OUTPUT_DIR, success=False, worker_id=worker_id)
+                    worker_results.append((contract['id'], False, None))
+                    print(f"[Worker {worker_id}] ✗ Failed")
+                
+                # Start new chat for next PDF
+                if total_processed[0] < BATCH_SIZE:
+                    await page.goto(AI_STUDIO_HOME, timeout=60000)
+                    await page.wait_for_load_state('networkidle', timeout=60000)
+                    await page.wait_for_timeout(1000)
+                    
+                    try:
+                        gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
+                        await gemini_button.click()
+                        await page.wait_for_load_state('networkidle', timeout=60000)
+                        await page.wait_for_timeout(2000)
+                    except Exception as e:
+                        print(f"[Worker {worker_id}] Could not start new chat: {e}")
+                        break
+            
+            except Exception as e:
+                print(f"[Worker {worker_id}] Error processing PDF: {e}")
+                await save_result(contract, None, OUTPUT_DIR, success=False, worker_id=worker_id)
+                continue
     
-    await page.close()
-    print(f"[Worker {worker_id}] Finished - processed {len(worker_results)} PDFs")
+    except Exception as e:
+        print(f"[Worker {worker_id}] Worker crashed: {e}")
+    
+    finally:
+        try:
+            await page.close()
+        except:
+            pass
+        print(f"[Worker {worker_id}] Finished - processed {len(worker_results)} PDFs")
+    
     return worker_results
 
 async def main():
@@ -780,13 +800,18 @@ async def main():
             for worker_id in range(NUM_WORKERS)
         ]
         
-        # Wait for all workers to complete
-        all_results = await asyncio.gather(*worker_tasks)
+        # Wait for all workers to complete (don't propagate exceptions)
+        all_results = await asyncio.gather(*worker_tasks, return_exceptions=True)
         
         # Flatten results from all workers
         results = []
         for worker_results in all_results:
-            results.extend(worker_results)
+            if isinstance(worker_results, list):
+                results.extend(worker_results)
+            elif isinstance(worker_results, Exception):
+                print(f"[ERROR] Worker failed with exception: {worker_results}")
+            else:
+                print(f"[WARNING] Unexpected worker result: {worker_results}")
         
         # Close browser
         await browser.close()
