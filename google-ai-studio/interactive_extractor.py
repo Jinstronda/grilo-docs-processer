@@ -604,27 +604,32 @@ async def process_single_pdf(page, pdf_path, contract_info):
         print("[OK] Successfully extracted JSON automatically!")
         return {'data': extracted_data, 'success': True}
     else:
-        print("[ERROR] EXTRACTION FAILED - But JSON should be on page!")
-        print("[ERROR] Check debug output above to see what was found")
-        
-        # Save page content for manual extraction
-        content = await page.content()
-        manual_file = OUTPUT_DIR / f"manual_extract_{contract_info['id']}.html"
-        with open(manual_file, 'w', encoding='utf-8') as f:
-            f.write(content)
-        print(f"[ERROR] Page content saved to: {manual_file}")
-        
-        # Save debug info too
-        debug_file = OUTPUT_DIR / f"debug_extract_{contract_info['id']}.txt"
-        with open(debug_file, 'w', encoding='utf-8') as f:
-            import json as json_mod
-            f.write(json_mod.dumps(debug_info, indent=2))
-        print(f"[ERROR] Debug info saved to: {debug_file}")
-        
-        # Mark as failed in database
-        print("[ERROR] Marking extraction as failed - THIS SHOULD NOT HAPPEN!")
-        
-        return {'data': None, 'success': False}
+        # Check if JSON is in body text but not in code blocks yet
+        if debug_info['bodyTextIncludes']['extracted_tables']:
+            print("[WARNING] JSON is in body text but not in code blocks - may still be rendering")
+            print("[INFO] This should be retried on the SAME page, not a new chat")
+            
+            # Return a special status indicating we should retry WITHOUT starting new chat
+            return {'data': None, 'success': False, 'retry_same_page': True}
+        else:
+            print("[ERROR] EXTRACTION FAILED - JSON not even in body text!")
+            print("[ERROR] Check debug output above to see what was found")
+            
+            # Save page content for manual extraction
+            content = await page.content()
+            manual_file = OUTPUT_DIR / f"manual_extract_{contract_info['id']}.html"
+            with open(manual_file, 'w', encoding='utf-8') as f:
+                f.write(content)
+            print(f"[ERROR] Page content saved to: {manual_file}")
+            
+            # Save debug info too
+            debug_file = OUTPUT_DIR / f"debug_extract_{contract_info['id']}.txt"
+            with open(debug_file, 'w', encoding='utf-8') as f:
+                import json as json_mod
+                f.write(json_mod.dumps(debug_info, indent=2))
+            print(f"[ERROR] Debug info saved to: {debug_file}")
+            
+            return {'data': None, 'success': False, 'retry_same_page': False}
 
 def get_next_unprocessed_contract():
     """Get the next contract that hasn't been processed yet (thread-safe)"""
@@ -830,39 +835,56 @@ async def worker_process_pdfs(context, worker_id, total_processed):
             for attempt in range(max_retries):
                 try:
                     if attempt > 0:
-                        print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1} - Waiting 10 seconds before retry...")
-                        await page.wait_for_timeout(10000)  # 10 second delay between retries
-                        
-                        print(f"[Worker {worker_id}] Starting fresh chat for retry...")
-                        
-                        # Start fresh chat for retry with retries
-                        for chat_attempt in range(4):
-                            try:
-                                await page.goto(AI_STUDIO_HOME, timeout=60000)
-                                await page.wait_for_load_state('networkidle', timeout=60000)
-                                await page.wait_for_timeout(2000)
-                                
-                                gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
-                                await gemini_button.click(timeout=10000)
-                                await page.wait_for_load_state('networkidle', timeout=60000)
-                                await page.wait_for_timeout(2000)
-                                print(f"[Worker {worker_id}] ✓ Retry chat ready")
-                                break
-                            except Exception as e:
-                                print(f"[Worker {worker_id}] Chat setup attempt {chat_attempt + 1}/4: {e}")
-                                if chat_attempt >= 3:
-                                    raise  # Give up after 4 attempts
+                        # Check if we should retry on same page or start fresh
+                        if result and result.get('retry_same_page'):
+                            print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1} - JSON in body but not code blocks")
+                            print(f"[Worker {worker_id}] Waiting 15 seconds for code blocks to render...")
+                            await page.wait_for_timeout(15000)  # Wait for code blocks to appear
+                            print(f"[Worker {worker_id}] Retrying extraction on SAME page...")
+                        else:
+                            print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1} - Starting fresh chat...")
+                            await page.wait_for_timeout(10000)  # 10 second delay
+                            
+                            # Start fresh chat for retry
+                            for chat_attempt in range(4):
+                                try:
+                                    await page.goto(AI_STUDIO_HOME, timeout=60000)
+                                    await page.wait_for_load_state('networkidle', timeout=60000)
+                                    await page.wait_for_timeout(2000)
+                                    
+                                    gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
+                                    await gemini_button.click(timeout=10000)
+                                    await page.wait_for_load_state('networkidle', timeout=60000)
+                                    await page.wait_for_timeout(2000)
+                                    print(f"[Worker {worker_id}] ✓ Retry chat ready")
+                                    break
+                                except Exception as e:
+                                    print(f"[Worker {worker_id}] Chat setup attempt {chat_attempt + 1}/4: {e}")
+                                    if chat_attempt >= 3:
+                                        raise
                     
                     # Add worker_id to contract for worker-specific screenshots
                     contract['worker_id'] = worker_id
                     
-                    result = await process_single_pdf(page, str(pdf_path), contract)
+                    # Process or re-extract (depending on retry type)
+                    if attempt == 0 or not result or not result.get('retry_same_page'):
+                        # First attempt or fresh chat - full process
+                        result = await process_single_pdf(page, str(pdf_path), contract)
+                    else:
+                        # Same page retry - just re-extract from existing response
+                        print(f"[Worker {worker_id}] Re-extracting from existing response...")
+                        extracted_data = await extract_json_from_page(page)
+                        if extracted_data:
+                            result = {'data': extracted_data, 'success': True}
+                        else:
+                            result = {'data': None, 'success': False, 'retry_same_page': False}
                     
                     if result and result['success']:
                         print(f"[Worker {worker_id}] ✓ Extraction successful on attempt {attempt + 1}")
                         break  # Success - exit retry loop
                     elif attempt < max_retries - 1:
-                        print(f"[Worker {worker_id}] Extraction failed on attempt {attempt + 1} - will retry in 10 seconds...")
+                        retry_type = "same page" if result.get('retry_same_page') else "fresh chat"
+                        print(f"[Worker {worker_id}] Extraction failed on attempt {attempt + 1} - will retry ({retry_type})...")
                 
                 except Exception as e:
                     print(f"[Worker {worker_id}] Error on attempt {attempt + 1}/{max_retries}: {e}")
