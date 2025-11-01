@@ -312,37 +312,37 @@ async def process_single_pdf(page, pdf_path, contract_info):
                 print(f"[ERROR] Could not click Insert assets button: {e}")
                 plus_clicked = False
             
-        # Step 2 & 3: Click "Upload File" and handle file chooser
-        if plus_clicked:
-            print("[INFO] Step 2: Clicking 'Upload File' and uploading...")
-            try:
-                # Set up file chooser handler BEFORE clicking
-                async with page.expect_file_chooser() as fc_info:
-                    # Click "Upload File" which will trigger the file chooser
-                    upload_menuitem = page.get_by_role('menuitem', name='Upload File')
-                    await upload_menuitem.click()
-                    print("[OK] Clicked 'Upload File' menu option")
-                
-                # Handle the file chooser that just appeared
-                file_chooser = await fc_info.value
-                await file_chooser.set_files(str(pdf_path))
-                print("[OK] PDF uploaded successfully!")
-                await page.wait_for_timeout(3000)  # Wait for upload to process
-                
-                # Dismiss "Start creating with media" popup that appears after upload
+            # Step 2 & 3: Click "Upload File" and handle file chooser
+            if plus_clicked:
+                print("[INFO] Step 2: Clicking 'Upload File' and uploading...")
                 try:
-                    acknowledge_btn = await page.query_selector('button:has-text("Acknowledge")')
-                    if acknowledge_btn and await acknowledge_btn.is_visible():
-                        await acknowledge_btn.click()
-                        print("[OK] Dismissed media creation popup")
-                        await page.wait_for_timeout(500)
-                except:
-                    pass
-                
-                uploaded = True
-                
-            except Exception as e:
-                print(f"[ERROR] Upload process failed: {e}")
+                    # Set up file chooser handler BEFORE clicking
+                    async with page.expect_file_chooser() as fc_info:
+                        # Click "Upload File" which will trigger the file chooser
+                        upload_menuitem = page.get_by_role('menuitem', name='Upload File')
+                        await upload_menuitem.click()
+                        print("[OK] Clicked 'Upload File' menu option")
+                    
+                    # Handle the file chooser that just appeared
+                    file_chooser = await fc_info.value
+                    await file_chooser.set_files(str(pdf_path))
+                    print("[OK] PDF uploaded successfully!")
+                    await page.wait_for_timeout(3000)  # Wait for upload to process
+                    
+                    # Dismiss "Start creating with media" popup that appears after upload
+                    try:
+                        acknowledge_btn = await page.query_selector('button:has-text("Acknowledge")')
+                        if acknowledge_btn and await acknowledge_btn.is_visible():
+                            await acknowledge_btn.click()
+                            print("[OK] Dismissed media creation popup")
+                            await page.wait_for_timeout(500)
+                    except:
+                        pass
+                    
+                    uploaded = True
+                    
+                except Exception as e:
+                    print(f"[ERROR] Upload process failed: {e}")
                     
                     # Fallback: try direct file input
                     try:
