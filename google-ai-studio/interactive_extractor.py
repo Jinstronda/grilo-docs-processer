@@ -612,11 +612,11 @@ async def process_single_pdf(page, pdf_path, contract_info, worker_id=0):
         elapsed += poll_interval
         
         # Show progress every minute
-        if elapsed % 60 == 0:
-            print(f"[INFO] Still waiting... ({elapsed // 60} minutes elapsed)")
+        if elapsed % 60 == 0 and elapsed > 0:
+            print(f"[Worker {worker_id}] [INFO] Still waiting... ({elapsed // 60} minutes elapsed)")
     
     if not response_detected:
-        print(f"[WARNING] Timeout after {max_wait_time // 60} minutes - falling back to manual confirmation...")
+        print(f"[Worker {worker_id}] [WARNING] Timeout after {max_wait_time // 60} minutes - falling back to manual confirmation...")
         await wait_for_user_action(
             page,
             "Wait for the AI to generate the response, then press Enter"
