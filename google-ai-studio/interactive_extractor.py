@@ -115,6 +115,25 @@ async def extract_json_from_page(page):
     try:
         print("[INFO] Extracting JSON from AI response...")
         
+        # FIRST: Check if AI has responded at all
+        has_response = await page.evaluate('''() => {
+            const modelSections = document.querySelectorAll('[data-turn-role="Model"]');
+            if (modelSections.length === 0) return false;
+            
+            const lastModel = modelSections[modelSections.length - 1];
+            const text = lastModel.innerText || lastModel.textContent || '';
+            
+            // Check if there's actual content (not just empty/loading state)
+            return text.length > 100;
+        }''')
+        
+        if not has_response:
+            print("[WARNING] AI hasn't responded yet - Model section is empty or too small")
+            print("[WARNING] This means the message wasn't sent or AI is still thinking")
+            return None
+        
+        print("[INFO] AI response detected - extracting JSON...")
+        
         # Try to extract from Model's response section FIRST (most reliable)
         result = await page.evaluate('''() => {
             const results = [];
@@ -154,7 +173,7 @@ async def extract_json_from_page(page):
             json_text = result[0]
         else:
             # FALLBACK: Try clicking the Copy button
-            print("[INFO] Trying Copy button fallback...")
+            print("[INFO] DOM extraction failed - trying Copy button fallback...")
             try:
                 # Find and click the copy button in the last Model section
                 copy_clicked = await page.evaluate('''() => {
@@ -162,7 +181,7 @@ async def extract_json_from_page(page):
                     if (modelSections.length === 0) return false;
                     
                     const lastModel = modelSections[modelSections.length - 1];
-                    const copyBtn = lastModel.querySelector('button[aria-label*="Copy"], button:has(> *[class*="content_copy"])');
+                    const copyBtn = lastModel.querySelector('button:has(> *[class*="content_copy"])');
                     
                     if (copyBtn) {
                         copyBtn.click();
@@ -188,20 +207,6 @@ async def extract_json_from_page(page):
                 print(f"[WARNING] Copy button fallback failed: {e}")
                 return None
         
-        # VALIDATION: Check if it's a valid table structure (not just length!)
-        print("[INFO] Validating table structure...")
-        
-        # Check 1: Not the prompt template
-        is_template = '<page_number>' in json_text or '"column1"' in json_text or '"value1"' in json_text
-        if is_template:
-            print("  ✗ ERROR: This is the prompt template, not AI response!")
-            return None
-        print(f"  ✓ Not template: True")
-        
-        # Check 2: Has real data indicators
-        has_real_data = any(indicator in json_text for indicator in ['€', 'Consultas', 'Hospital', 'GDH', 'Internamento', 'Urgência', 'Centro', 'Unidade', 'EPE'])
-        print(f"  ✓ Has real data indicators: {has_real_data}")
-        
         # Clean and parse the JSON
         try:
             # Remove any markdown code fences
@@ -210,8 +215,12 @@ async def extract_json_from_page(page):
                 lines = cleaned.split('\n')
                 cleaned = '\n'.join(lines[1:-1]) if len(lines) > 2 else cleaned
             
-            # Remove markers
-            cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').replace('EXTRACTION DONE', '').strip()
+            # Remove "JSON EXTRACTED SUCCESSFULLY" marker(s) if present
+            cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').strip()
+            
+            # Sometimes there are multiple markers, remove all
+            while 'JSON EXTRACTED SUCCESSFULLY' in cleaned:
+                cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').strip()
             
             # Remove any trailing text after the closing brace
             last_brace = cleaned.rfind('}')
@@ -223,44 +232,58 @@ async def extract_json_from_page(page):
             # Parse as JSON
             data = json.loads(cleaned)
             
-            # CRITICAL VALIDATION: Check if this is a VALID TABLE STRUCTURE
-            if 'extracted_tables' not in data:
-                print(f"[ERROR] No 'extracted_tables' key found")
-                return None
+            # VALIDATE TABLE STRUCTURE (not length!)
+            print("[INFO] Validating table structure...")
             
+            # Check 1: Has extracted_tables key
+            if 'extracted_tables' not in data:
+                print("  ✗ No 'extracted_tables' key found")
+                return None
+            print("  ✓ Has 'extracted_tables' key")
+            
+            # Check 2: extracted_tables is a list
             tables = data.get('extracted_tables', [])
             if not isinstance(tables, list):
-                print(f"[ERROR] 'extracted_tables' is not a list")
+                print("  ✗ 'extracted_tables' is not a list")
                 return None
+            print(f"  ✓ 'extracted_tables' is a list ({len(tables)} tables)")
             
-            if len(tables) == 0:
-                print(f"[WARNING] Empty tables array - AI found no tables")
-                return data  # Valid response, just no tables found
+            # Check 3: Not the prompt template
+            json_str = json.dumps(data)
+            is_template = '<page_number>' in json_str or '"column1"' in json_str or '"value1"' in json_str
+            if is_template:
+                print("  ✗ This is the prompt template, not AI response!")
+                return None
+            print("  ✓ Not a template")
             
-            # Validate table structure
+            # Check 4: Validate each table has correct structure
             valid_tables = 0
             total_rows = 0
             for i, table in enumerate(tables):
                 if not isinstance(table, dict):
-                    print(f"[WARNING] Table {i} is not a dict")
+                    print(f"  ⚠ Table {i} is not a dict - skipping")
+                    continue
+                
+                # Each table should have table_data
+                if 'table_data' not in table:
+                    print(f"  ⚠ Table {i} missing 'table_data' - skipping")
                     continue
                 
                 table_data = table.get('table_data', [])
                 if not isinstance(table_data, list):
-                    print(f"[WARNING] Table {i} has invalid table_data")
+                    print(f"  ⚠ Table {i} 'table_data' is not a list - skipping")
                     continue
                 
-                if len(table_data) > 0:
-                    valid_tables += 1
-                    total_rows += len(table_data)
+                valid_tables += 1
+                total_rows += len(table_data)
             
-            print(f"  ✓ Valid table structure: {valid_tables} tables, {total_rows} rows")
+            print(f"  ✓ Valid structure: {valid_tables} valid tables, {total_rows} total rows")
             
-            if valid_tables == 0:
-                print(f"[WARNING] No valid tables with data found")
-                return data  # Still return it, might be legitimate "no tables" response
+            # Even if no data rows, it's valid if structure is correct
+            if len(tables) == 0:
+                print("  ℹ No tables found (may be legitimate - no tables in PDF)")
             
-            print(f"[OK] Successfully extracted {valid_tables} tables ({total_rows} total rows)!")
+            print(f"[OK] Structure validation passed! Extracted {valid_tables} tables ({total_rows} total rows)")
             return data
                 
         except json.JSONDecodeError as e:
@@ -547,7 +570,11 @@ async def process_single_pdf(page, pdf_path, contract_info):
                         return maxSize;
                     }''')
                     
-                    if current_size == last_size and current_size > 1000:
+                    # Don't accept 0 size as "stable"
+                    if current_size == 0:
+                        print(f"[INFO] JSON size: {current_size} chars - AI still generating response...")
+                        stable_count = 0
+                    elif current_size == last_size and current_size > 1000:
                         stable_count += 1
                         if stable_count >= 2:  # Stable for 2 checks (6 seconds)
                             print(f"[OK] JSON stable at {current_size} characters - streaming complete!")
@@ -556,13 +583,18 @@ async def process_single_pdf(page, pdf_path, contract_info):
                         stable_count = 0
                     
                     last_size = current_size
-                    if check % 3 == 0:  # Every 9 seconds   
+                    if check % 3 == 0 and current_size > 0:  # Every 9 seconds (only if has content)
                         print(f"[INFO] JSON size: {current_size} chars (checking for stability...)")
                 
-                # Final wait to be absolutely sure
-                await page.wait_for_timeout(5000)
-                response_detected = True
-                break
+                # Check if we actually got content
+                if last_size > 0:
+                    # Final wait to be absolutely sure
+                    await page.wait_for_timeout(5000)
+                    response_detected = True
+                    break
+                else:
+                    print("[WARNING] JSON size is 0 - AI hasn't responded yet, continuing to wait...")
+                    # Don't break, keep waiting
                 
         except Exception as e:
             print(f"[DEBUG] Page check error (will retry): {e}")
@@ -838,13 +870,19 @@ async def worker_process_pdfs(context, worker_id, assigned_pdfs):
                     if attempt > 0:
                         # ALWAYS retry on same page first (up to 3 times)
                         if attempt < 3:
-                            print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1} - Waiting on SAME page (attempt {attempt}/3)")
-                            print(f"[Worker {worker_id}] Waiting 20 seconds for AI response to complete...")
-                            await page.wait_for_timeout(20000)  # Wait longer for AI
-                            print(f"[Worker {worker_id}] Retrying extraction on SAME page...")
+                            print(f"\n[Worker {worker_id}] ========================================")
+                            print(f"[Worker {worker_id}] RETRY {attempt}/3 ON SAME PAGE")
+                            print(f"[Worker {worker_id}] Problem: AI response may not be fully loaded")
+                            print(f"[Worker {worker_id}] Solution: Wait 30 seconds for AI to finish")
+                            print(f"[Worker {worker_id}] ========================================")
+                            await page.wait_for_timeout(30000)  # Wait 30 seconds for AI to finish
+                            print(f"[Worker {worker_id}] Re-extracting from same page now...")
                         else:
                             # Only start fresh chat on 4th attempt (last resort)
-                            print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1} - Last attempt, starting fresh chat...")
+                            print(f"\n[Worker {worker_id}] ========================================")
+                            print(f"[Worker {worker_id}] RETRY {attempt}/3 WITH FRESH CHAT")
+                            print(f"[Worker {worker_id}] All same-page retries failed - starting new chat")
+                            print(f"[Worker {worker_id}] ========================================")
                             await page.wait_for_timeout(10000)  # 10 second delay
                             
                             # Start fresh chat for retry
