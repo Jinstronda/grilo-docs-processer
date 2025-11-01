@@ -15,7 +15,11 @@ from playwright.async_api import async_playwright
 # ============================================================================
 
 # TEST MODE - Set to True to test extraction without PDFs
-TEST_MODE = True  # Change to True for quick testing
+TEST_MODE = False  # Change to True for quick testing
+
+# PARALLEL PROCESSING
+NUM_WORKERS = 5  # Number of parallel Chrome tabs (workers)
+BATCH_SIZE = 50  # Total PDFs to process in this batch
 
 DB_PATH = Path(__file__).parent.parent / "data" / "hospital_tables.db"
 OUTPUT_DIR = Path(__file__).parent / "extractions"
@@ -480,7 +484,7 @@ async def process_single_pdf(page, pdf_path, contract_info):
     
     if extracted_data:
         print("[OK] Successfully extracted JSON automatically!")
-        return extracted_data
+        return {'data': extracted_data, 'success': True}
     else:
         print("[WARNING] Could not extract JSON automatically")
         
@@ -491,19 +495,63 @@ async def process_single_pdf(page, pdf_path, contract_info):
             f.write(content)
         print(f"[INFO] Page content saved to: {manual_file}")
         
-        # Ask user to copy JSON
-        print("\n" + "="*80)
-        print("Please copy the JSON response from the browser and paste it into:")
-        json_file = OUTPUT_DIR / f"manual_{contract_info['id']}.json"
-        print(f"  {json_file}")
-        print("="*80 + "\n")
+        # Mark as failed in database
+        print("[INFO] Marking extraction as failed in database...")
         
+        return {'data': None, 'success': False}
+
+def get_next_unprocessed_contract():
+    """Get the next contract that hasn't been processed yet (thread-safe)"""
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            SELECT id, hospital_name, year, original_pdf_url
+            FROM contracts 
+            WHERE original_pdf_url IS NOT NULL 
+              AND aistudio_extraction_status IS NULL
+            LIMIT 1
+        """)
+        
+        row = cursor.fetchone()
+        conn.close()
+        
+        if row:
+            return {
+                'id': row[0],
+                'hospital_name': row[1],
+                'year': row[2],
+                'pdf_url': row[3]
+            }
+        return None
+    except Exception as e:
+        print(f"[ERROR] Database error getting next contract: {e}")
         return None
 
-async def save_result(contract_info, extracted_data, output_dir):
-    """Save extraction result to file and database"""
+def mark_contract_processing(contract_id, worker_id):
+    """Mark a contract as being processed to prevent duplicate work"""
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            UPDATE contracts 
+            SET aistudio_extraction_status = ?
+            WHERE id = ?
+        """, (f'processing_worker_{worker_id}', contract_id))
+        
+        conn.commit()
+        conn.close()
+        return True
+    except Exception as e:
+        print(f"[ERROR] Could not mark contract as processing: {e}")
+        return False
+
+async def save_result(contract_info, extracted_data, output_dir, success=True, worker_id=0):
+    """Save extraction result to file and database with status"""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"{contract_info['id']}_{contract_info['hospital_name'].replace(' ', '_')}_{contract_info['year']}_{timestamp}.json"
+    filename = f"{contract_info['id']}_{contract_info['hospital_name'].replace(' ', '_')}_{contract_info['year']}_w{worker_id}_{timestamp}.json"
     output_path = output_dir / filename
     
     result = {
@@ -512,6 +560,7 @@ async def save_result(contract_info, extracted_data, output_dir):
         'year': contract_info['year'],
         'pdf_url': contract_info['pdf_url'],
         'extraction_timestamp': timestamp,
+        'extraction_status': 'success' if success else 'failed',
         'data': extracted_data
     }
     
@@ -521,94 +570,169 @@ async def save_result(contract_info, extracted_data, output_dir):
     
     print(f"[OK] Saved result to file: {output_path}")
     
-    # Save to database
+    # Save to database with status
     try:
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         
+        status = 'success' if success else 'failed'
+        
         cursor.execute("""
             UPDATE contracts 
-            SET aistudio_json = ?
+            SET aistudio_json = ?,
+                aistudio_extraction_status = ?
             WHERE id = ?
-        """, (json.dumps(extracted_data, ensure_ascii=False), contract_info['id']))
+        """, (
+            json.dumps(extracted_data, ensure_ascii=False) if extracted_data else None,
+            status,
+            contract_info['id']
+        ))
         
         conn.commit()
         conn.close()
         
-        print(f"[OK] Saved result to database (aistudio_json column)")
+        print(f"[OK] Saved to database - Status: {status}")
     except Exception as e:
         print(f"[WARNING] Could not save to database: {e}")
     
     return output_path
 
+async def worker_process_pdfs(context, worker_id, total_processed):
+    """Worker function - processes PDFs until batch is complete"""
+    page = await context.new_page()
+    
+    print(f"[Worker {worker_id}] Starting...")
+    
+    # Navigate and dismiss popups
+    await page.goto(AI_STUDIO_HOME)
+    await page.wait_for_load_state('networkidle')
+    await page.wait_for_timeout(2000)
+    
+    # Dismiss popups
+    try:
+        popup_selectors = ['button:has-text("OK, got it")', 'button:has-text("Dismiss")']
+        for selector in popup_selectors:
+            try:
+                buttons = await page.query_selector_all(selector)
+                for button in buttons:
+                    if await button.is_visible():
+                        await button.click()
+                        await page.wait_for_timeout(500)
+            except:
+                pass
+    except:
+        pass
+    
+    # Click Gemini 2.5 Pro
+    try:
+        gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
+        await gemini_button.click()
+        await page.wait_for_load_state('networkidle')
+        await page.wait_for_timeout(2000)
+        print(f"[Worker {worker_id}] Ready on Gemini 2.5 Pro chat")
+    except Exception as e:
+        print(f"[Worker {worker_id}] Could not click Gemini 2.5 Pro: {e}")
+        await page.close()
+        return []
+    
+    worker_results = []
+    
+    while True:
+        # Check if batch is complete
+        if total_processed[0] >= BATCH_SIZE:
+            print(f"[Worker {worker_id}] Batch complete ({BATCH_SIZE} PDFs processed)")
+            break
+        
+        # Get next unprocessed contract
+        contract = get_next_unprocessed_contract()
+        if not contract:
+            print(f"[Worker {worker_id}] No more contracts to process")
+            break
+        
+        # Mark as processing
+        if not mark_contract_processing(contract['id'], worker_id):
+            print(f"[Worker {worker_id}] Could not lock contract, trying next...")
+            continue
+        
+        total_processed[0] += 1
+        current_num = total_processed[0]
+        
+        print(f"\n[Worker {worker_id}] Processing {current_num}/{BATCH_SIZE}: {contract['hospital_name']}")
+        
+        # Download PDF
+        pdf_dir = OUTPUT_DIR / "pdfs"
+        pdf_dir.mkdir(exist_ok=True)
+        pdf_path = pdf_dir / f"{contract['id']}.pdf"
+        
+        if not pdf_path.exists():
+            success = await download_pdf(contract['pdf_url'], pdf_path)
+            if not success:
+                await save_result(contract, None, OUTPUT_DIR, success=False, worker_id=worker_id)
+                continue
+        
+        # Process the PDF
+        result = await process_single_pdf(page, str(pdf_path), contract)
+        
+        if result and result['success']:
+            output_path = await save_result(contract, result['data'], OUTPUT_DIR, success=True, worker_id=worker_id)
+            worker_results.append((contract['id'], True, output_path))
+            print(f"[Worker {worker_id}] ✓ Success")
+        else:
+            await save_result(contract, None, OUTPUT_DIR, success=False, worker_id=worker_id)
+            worker_results.append((contract['id'], False, None))
+            print(f"[Worker {worker_id}] ✗ Failed")
+        
+        # Start new chat for next PDF
+        if total_processed[0] < BATCH_SIZE:
+            await page.goto(AI_STUDIO_HOME)
+            await page.wait_for_load_state('networkidle')
+            await page.wait_for_timeout(1000)
+            
+            try:
+                gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
+                await gemini_button.click()
+                await page.wait_for_load_state('networkidle')
+                await page.wait_for_timeout(2000)
+            except:
+                print(f"[Worker {worker_id}] Could not start new chat")
+    
+    await page.close()
+    print(f"[Worker {worker_id}] Finished - processed {len(worker_results)} PDFs")
+    return worker_results
+
 async def main():
-    """Main interactive extraction process"""
+    """Main parallel extraction process"""
     OUTPUT_DIR.mkdir(exist_ok=True)
     
     print(f"\n{'='*80}")
     if TEST_MODE:
-        print("Google AI Studio - TEST MODE (Quick JSON Extraction Test)")
+        print("Google AI Studio - TEST MODE")
     else:
-        print("Google AI Studio Interactive Table Extraction")
+        print("Google AI Studio Parallel Table Extraction")
+        print(f"Workers: {NUM_WORKERS}")
+        print(f"Batch Size: {BATCH_SIZE}")
     print(f"{'='*80}\n")
     
-    # Get contracts from database
+    # Count unprocessed contracts
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     
     cursor.execute("""
-        SELECT id, hospital_name, year, original_pdf_url
-        FROM contracts 
-        WHERE original_pdf_url IS NOT NULL
-        LIMIT 2
+        SELECT COUNT(*) FROM contracts 
+        WHERE original_pdf_url IS NOT NULL 
+          AND aistudio_extraction_status IS NULL
     """)
     
-    contracts = [
-        {
-            'id': row[0],
-            'hospital_name': row[1],
-            'year': row[2],
-            'pdf_url': row[3]
-        }
-        for row in cursor.fetchall()
-    ]
+    unprocessed_count = cursor.fetchone()[0]
     conn.close()
     
-    if not contracts:
-        print("[ERROR] No contracts found")
-        return
+    print(f"[INFO] Unprocessed contracts: {unprocessed_count}")
+    print(f"[INFO] Will process: {min(BATCH_SIZE, unprocessed_count)} PDFs")
+    print(f"[INFO] Using {NUM_WORKERS} parallel workers\n")
     
-    if TEST_MODE:
-        print(f"[INFO] TEST MODE - Processing {len(contracts)} test run(s)\n")
-        print("[INFO] Skipping PDF downloads - will use simple test prompt\n")
-        # In test mode, just use contract info without actual PDFs
-        pdf_paths = [(contract, None) for contract in contracts]
-    else:
-        print(f"[INFO] Found {len(contracts)} contracts to process\n")
-        
-        # Download PDFs first
-        pdf_dir = OUTPUT_DIR / "pdfs"
-        pdf_dir.mkdir(exist_ok=True)
-        
-        pdf_paths = []
-        for contract in contracts:
-            pdf_path = pdf_dir / f"{contract['id']}.pdf"
-            
-            if not pdf_path.exists():
-                success = await download_pdf(contract['pdf_url'], pdf_path)
-                if not success:
-                    print(f"[ERROR] Skipping {contract['id']}")
-                    continue
-            else:
-                print(f"[INFO] PDF already exists: {pdf_path}")
-            
-            pdf_paths.append((contract, pdf_path))
-        
-        if not pdf_paths:
-            print("[ERROR] No PDFs available")
-            return
-        
-        print(f"\n[INFO] Successfully prepared {len(pdf_paths)} PDFs\n")
+    if unprocessed_count == 0:
+        print("[INFO] No unprocessed contracts found!")
+        return
     
     # Launch browser - Use Chrome (easier for Google sign-in)
     async with async_playwright() as p:
@@ -641,93 +765,28 @@ async def main():
                 with open(COOKIES_FILE, 'r') as f:
                     cookies = json.load(f)
                 await context.add_cookies(cookies)
-                print("[OK] Cookies loaded - you should be automatically logged in!")
+                print("[OK] Cookies loaded!")
             except Exception as e:
                 print(f"[WARNING] Could not load cookies: {e}")
-                print("[INFO] You'll need to sign in manually")
-        else:
-            print("[INFO] No saved cookies found - you'll need to sign in")
         
-        # Navigate to Google AI Studio home (same as your normal Chrome)
-        print("[INFO] Navigating to Google AI Studio...")
-        await page.goto(AI_STUDIO_HOME)
+        # Shared counter for total processed (thread-safe list)
+        total_processed = [0]
         
-        # Check if we're logged in or need to sign in
-        await page.wait_for_load_state('networkidle')
-        await page.wait_for_timeout(2000)
+        # Start all workers in parallel
+        print(f"[INFO] Starting {NUM_WORKERS} workers...\n")
         
-        current_url = page.url
-        if 'accounts.google.com' in current_url:
-            print("[WARNING] Not logged in - cookies may have expired")
-            await wait_for_user_action(
-                page,
-                "Please sign in to Google AI Studio, then press Enter"
-            )
-        else:
-            print("[OK] Already logged in via cookies!")
+        worker_tasks = [
+            worker_process_pdfs(context, worker_id + 1, total_processed)
+            for worker_id in range(NUM_WORKERS)
+        ]
         
-        # Automatically click on Gemini 2.5 Pro
-        await page.wait_for_load_state('networkidle')
-        await page.wait_for_timeout(2000)
+        # Wait for all workers to complete
+        all_results = await asyncio.gather(*worker_tasks)
         
-        print("[INFO] Clicking on 'Gemini 2.5 Pro' to start chat...")
-        try:
-            # Use the selector we discovered with Chrome DevTools
-            gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
-            await gemini_button.click()
-            print("[OK] Clicked 'Gemini 2.5 Pro' - opening chat...")
-            await page.wait_for_load_state('networkidle')
-            await page.wait_for_timeout(2000)
-        except Exception as e:
-            print(f"[WARNING] Could not auto-click Gemini 2.5 Pro: {e}")
-            await wait_for_user_action(
-                page,
-                "Please manually click on 'Gemini 2.5 Pro' card to start a chat, then press Enter"
-            )
-        
-        # Process each PDF
+        # Flatten results from all workers
         results = []
-        for i, (contract, pdf_path) in enumerate(pdf_paths, 1):
-            print(f"\n{'#'*80}")
-            print(f"PDF {i}/{len(pdf_paths)}")
-            print(f"{'#'*80}\n")
-            
-            extracted_data = await process_single_pdf(page, pdf_path, contract)
-            
-            if extracted_data:
-                output_path = await save_result(contract, extracted_data, OUTPUT_DIR)
-                results.append((contract['id'], True, output_path))
-            else:
-                results.append((contract['id'], False, None))
-            
-            # Ask if user wants to continue
-            if i < len(pdf_paths):
-                print("\n" + "="*80)
-                choice = input("Continue to next PDF? (y/n): ").strip().lower()
-                if choice != 'y':
-                    print("[INFO] Stopping as requested")
-                    break
-                
-                # Start new chat for next PDF
-                print("[INFO] Starting new chat...")
-                await page.goto(AI_STUDIO_HOME)
-                await page.wait_for_load_state('networkidle')
-                await page.wait_for_timeout(2000)
-                
-                # Auto-click Gemini 2.5 Pro for next chat
-                print("[INFO] Clicking on 'Gemini 2.5 Pro' for next PDF...")
-                try:
-                    gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
-                    await gemini_button.click()
-                    print("[OK] Clicked 'Gemini 2.5 Pro' - opening new chat...")
-                    await page.wait_for_load_state('networkidle')
-                    await page.wait_for_timeout(2000)
-                except Exception as e:
-                    print(f"[WARNING] Could not auto-click Gemini 2.5 Pro: {e}")
-                    await wait_for_user_action(
-                        page,
-                        "Please click on 'Gemini 2.5 Pro' to start a new chat, then press Enter"
-                    )
+        for worker_results in all_results:
+            results.extend(worker_results)
         
         # Close browser
         await browser.close()
