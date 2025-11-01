@@ -1,0 +1,2579 @@
+{
+  "contract_id": "077b281d-572e-37b4-7524-71d5cd5af7ef",
+  "hospital_name": "Centro Hospitalar Universitário Cova da Beira, E.P.E.",
+  "year": 2023,
+  "pdf_url": "https://www.acss.min-saude.pt/wp-content/uploads/2016/10/CHUCB_Adenda2023_Homologada.pdf",
+  "extraction_timestamp": "20251101_025449",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 1,
+        "table_data": [
+          {
+            "Partes": "O DIRETOR EXECUTIVO DA DIREÇÃO EXECUTIVA DO SERVIÇO NACIONAL DE SAÚDE, I. P.",
+            "Representante": "Prof. Doutor Fernando Manuel Ferreira Araújo",
+            "Designação": "DE-SNS, I.P."
+          },
+          {
+            "Partes": "A ADMINISTRAÇÃO CENTRAL DO SISTEMA DE SAÚDE, I.P.",
+            "Representante": "Dr. Victor Emanuel Marnoto Herdeiro",
+            "Designação": "ACSS"
+          },
+          {
+            "Partes": "A ADMINISTRAÇÃO REGIONAL DE SAÚDE DO CENTRO, I.P.",
+            "Representante": "Drª Rosa Maria dos Reis Marques Furtado Oliveira",
+            "Designação": "ARS"
+          },
+          {
+            "Partes": "O CENTRO HOSPITALAR E UNIVERSITÁRIO DA COVA DA BEIRA, Ε.Ρ.Ε.",
+            "Representante": "Dr. João José Casteleiro Alves",
+            "Designação": "Hospital"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 2,
+        "table_data": [
+          {
+            "Outorgante": "PRIMEIRO OUTORGANTE",
+            "Nome": "FERNANDO MANUEL FERREIRA ARAÚJO",
+            "Entidade": "Direção Executiva do Serviço Nacional de Saúde, I.P.",
+            "Data": "2023.07.12"
+          },
+          {
+            "Outorgante": "SEGUNDO OUTORGANTE",
+            "Nome": "Vitor Herdeiro",
+            "Entidade": "Administração Central do Sistema de Saúde, I.P.",
+            "Data": "2023.08.04"
+          },
+          {
+            "Outorgante": "TERCEIRO OUTORGANTE",
+            "Nome": "Rosa Reis Marques",
+            "Entidade": "Administração Regional de Saúde do Centro, I.P.",
+            "Data": "2023.07.13"
+          },
+          {
+            "Outorgante": "QUARTO OUTORGANTE",
+            "Nome": "JOÃO JOSÉ CASTELEIRO ALVES",
+            "Entidade": "Centro Hospitalar e Universitário da Cova da Beira, E.P.E.",
+            "Data": "2023.07.12"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 3,
+        "table_data": [
+          {
+            "Descrição": "N° de 1ªs consultas médicas (s/ majoração)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "35.597",
+            "Valor (€)": "1815447.00"
+          },
+          {
+            "Descrição": "N° de 1ªs consultas referenciadas (CTH)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "56.00",
+            "Quantidade": "11.709",
+            "Valor (€)": "655704.00"
+          },
+          {
+            "Descrição": "N° de 1ªs consultas (Telemedicina)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "56.00",
+            "Quantidade": "6.043",
+            "Valor (€)": "338408.00"
+          },
+          {
+            "Descrição": "Nº de 1ªs consultas na comunidade (Saúde mental)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "61.00",
+            "Quantidade": "133",
+            "Valor (€)": "8113.00"
+          },
+          {
+            "Descrição": "N° de 1ªs consultas descentralizadas",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "61.00",
+            "Quantidade": "0",
+            "Valor (€)": "0.00"
+          },
+          {
+            "Descrição": "N° de 1ªs consultas Cuidados Paliativos",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "61.00",
+            "Quantidade": "174",
+            "Valor (€)": "10614.00"
+          },
+          {
+            "Descrição": "N° de 1ªs consultas CRe",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "61.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "N° de 1ªs consultas CRI",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "61.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "N° de consultas subsequentes médicas (s/majoração)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "81.339",
+            "Valor (€)": "4148289.00"
+          },
+          {
+            "Descrição": "N° de consultas subsequentes (Telemedicina)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "56.00",
+            "Quantidade": "15.635",
+            "Valor (€)": "875560.00"
+          },
+          {
+            "Descrição": "N° de consultas subsequentes na comunidade (Saúde mental)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "61.00",
+            "Quantidade": "280",
+            "Valor (€)": "17080.00"
+          },
+          {
+            "Descrição": "N° de consultas subsequentes descentralizadas",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "61.00",
+            "Quantidade": "2.654",
+            "Valor (€)": "161894.00"
+          },
+          {
+            "Descrição": "N° de consultas subsequentes Cuidados Paliativos",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "61.00",
+            "Quantidade": "310",
+            "Valor (€)": "18910.00"
+          },
+          {
+            "Descrição": "N° de consultas subsequentes CRe",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "56.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "N° de consultas subsequentes CRI",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "56.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Valor Total das Consultas",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "8050019.00"
+          },
+          {
+            "Descrição": "GDH Médicos",
+            "ICM": "0.7874",
+            "N.°": "6.624",
+            "%": "94.01",
+            "Preço Unitário (€)": "3276.00",
+            "Quantidade": "7.046",
+            "Valor (€)": "17086756.38"
+          },
+          {
+            "Descrição": "GDH Médicos Cuidados Paliativos",
+            "ICM": "0.7874",
+            "N.°": "271",
+            "%": "94.01",
+            "Preço Unitário (€)": "3440.00",
+            "Quantidade": "288",
+            "Valor (€)": "734045.78"
+          },
+          {
+            "Descrição": "GDH Médicos CRe",
+            "ICM": "0.7874",
+            "N.°": null,
+            "%": "94.01",
+            "Preço Unitário (€)": "3440.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "GDH Médicos CRI",
+            "ICM": "0.7874",
+            "N.°": null,
+            "%": "94.01",
+            "Preço Unitário (€)": "3440.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "GDH Cirúrgicos",
+            "ICM": "0.7874",
+            "N.°": "1.690",
+            "%": "94.01",
+            "Preço Unitário (€)": "3276.00",
+            "Quantidade": "1.798",
+            "Valor (€)": "4359392.86"
+          },
+          {
+            "Descrição": "GDH Cirúrgicos CRe",
+            "ICM": "0.7874",
+            "N.°": null,
+            "%": "94.01",
+            "Preço Unitário (€)": "3440.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "GDH Cirúrgicos CRI",
+            "ICM": "0.7874",
+            "N.°": null,
+            "%": "94.01",
+            "Preço Unitário (€)": "3440.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "GDH Cirúrgicos Urgentes",
+            "ICM": "0.7874",
+            "N.°": "867",
+            "%": "94.01",
+            "Preço Unitário (€)": "3112.00",
+            "Quantidade": "922",
+            "Valor (€)": "2124487.09"
+          },
+          {
+            "Descrição": "GDH Cirúrgicos Urgentes CRe",
+            "ICM": "0.7874",
+            "N.°": null,
+            "%": "94.01",
+            "Preço Unitário (€)": "3268.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "GDH Cirúrgicos Urgentes CRI",
+            "ICM": "0.7874",
+            "N.°": null,
+            "%": "94.01",
+            "Preço Unitário (€)": "3268.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doentes Medicina Física e Reabilitação",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "224.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doentes de Psiquiatria Crónicos no Hospital",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "65.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doentes de Psiquiatria no Exterior (Ordens Religiosas)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "68.00",
+            "Quantidade": "10.220",
+            "Valor (€)": "694960.00"
+          },
+          {
+            "Descrição": "Doentes de Psiquiatria no Exterior (Outras Instituições)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "68.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doentes Crónicos Ventilados",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "266.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doentes de Reabilitação Psicossocial",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "65.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doentes Crónicos de Hansen",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "78.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Valor Total do Internamento",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "24999642.11"
+          },
+          {
+            "Descrição": "GDH Cirúrgicos",
+            "ICM": "0.6911",
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "3276.00",
+            "Quantidade": "5.326",
+            "Valor (€)": "12058296.21"
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "page": 4,
+        "table_data": [
+          {
+            "Descrição": "GDH Cirúrgicos CRe",
+            "ICM": "0.6911",
+            "Preço Unitário (€)": "3440.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "GDH Cirúrgicos CRI",
+            "ICM": "0.6911",
+            "Preço Unitário (€)": "3440.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "GDH Médicos",
+            "ICM": "0.1982",
+            "Preço Unitário (€)": "3276.00",
+            "Quantidade": "3.592",
+            "Valor (€)": "2332297.09"
+          },
+          {
+            "Descrição": "GDH Médicos CRe",
+            "ICM": "0.1982",
+            "Preço Unitário (€)": "3440.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "GDH Médicos CRI",
+            "ICM": "0.1982",
+            "Preço Unitário (€)": "3440.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Valor Total dos GDH de Ambulatório",
+            "ICM": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "14390593.30"
+          },
+          {
+            "Descrição": "Atendimentos (SU - Polivalente)",
+            "ICM": null,
+            "Preço Unitário (€)": "18.530M€/170.000",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Atendimentos (SU - Médico-Cirúrgica)",
+            "ICM": null,
+            "Preço Unitário (€)": "5.450M€/100.000",
+            "Quantidade": "60.977",
+            "Valor (€)": "3323246.50"
+          },
+          {
+            "Descrição": "Atendimentos (SU - Básica)",
+            "ICM": null,
+            "Preço Unitário (€)": "1.529M€/35.000",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Atendimentos (SU - Polivalente) (CRI)",
+            "ICM": null,
+            "Preço Unitário (€)": "20.383M€/170.000",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Atendimentos (SU - Médico-Cirúrgicas) (CRI)",
+            "ICM": null,
+            "Preço Unitário (€)": "5.995M€/100.000",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Atendimentos (SU-Básica) (CRI)",
+            "ICM": null,
+            "Preço Unitário (€)": "1.682M€/35.000",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Programa ECMO",
+            "ICM": null,
+            "Preço Unitário (€)": "22470.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Valor Total dos Atendimentos Urgentes",
+            "ICM": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "3323246.50"
+          },
+          {
+            "Descrição": "Base",
+            "ICM": null,
+            "Preço Unitário (€)": "23.00",
+            "Quantidade": "12.973",
+            "Valor (€)": "298379.00"
+          },
+          {
+            "Descrição": "Hematologia",
+            "ICM": null,
+            "Preço Unitário (€)": "337.00",
+            "Quantidade": "124",
+            "Valor (€)": "41788.00"
+          },
+          {
+            "Descrição": "Imuno-Hemoterapia",
+            "ICM": null,
+            "Preço Unitário (€)": "337.00",
+            "Quantidade": "314",
+            "Valor (€)": "105818.00"
+          },
+          {
+            "Descrição": "Psiquiatria",
+            "ICM": null,
+            "Preço Unitário (€)": "35.00",
+            "Quantidade": "4.196",
+            "Valor (€)": "146860.00"
+          },
+          {
+            "Descrição": "Psiquiatria - Unidades Socio-Ocupacionais",
+            "ICM": null,
+            "Preço Unitário (€)": "33.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Valor Total do Hospital de Dia",
+            "ICM": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "592845.00"
+          },
+          {
+            "Descrição": "VIH/Sida (doentes em TARC equivalente./ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "6237.00",
+            "Quantidade": "194",
+            "Valor (€)": "1209978.00"
+          },
+          {
+            "Descrição": "Hepatite C (doentes tratados)",
+            "ICM": null,
+            "Preço Unitário (€)": "7199.00",
+            "Quantidade": "16",
+            "Valor (€)": "115184.00"
+          },
+          {
+            "Descrição": "Hipertensão Arterial Pulmonar - doentes em terapêutica",
+            "ICM": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Pré-tratamento/seguimento 1º ano",
+            "ICM": null,
+            "Preço Unitário (€)": "8744.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Seguimento após 1º ano CF≤ III",
+            "ICM": null,
+            "Preço Unitário (€)": "23457.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Seguimento após 1º ano CF IV",
+            "ICM": null,
+            "Preço Unitário (€)": "169066.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Esclerose múltipla - doentes em terapêutica modificadora",
+            "ICM": null,
+            "Preço Unitário (€)": "12875.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Tratamento de doentes c/ patologia oncológica - Doentes equivalente/ano",
+            "ICM": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro da mama (1º ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "10731.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro da mama (2º ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "4307.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro do cólon e reto (1º ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "12342.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro do cólon e reto (2º ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "5455.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro do colo do útero (1° ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "13129.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro do colo do útero (2º ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "3878.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro da Próstata (1º ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "6895.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro da Próstata (2º ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "1884.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro do Pulmão (1º ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "18456.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro do Pulmão (2º ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "4802.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Mieloma (1º ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "27168.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Mieloma (2º ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "11670.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Rastreio do Cancro do Colo do Útero",
+            "ICM": null,
+            "Preço Unitário (€)": "74.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Rastreio do Cancro do Cólon e Reto",
+            "ICM": null,
+            "Preço Unitário (€)": "413.00",
+            "Quantidade": "100",
+            "Valor (€)": "41300.00"
+          },
+          {
+            "Descrição": "Elementos de Telemonitorização",
+            "ICM": null,
+            "Preço Unitário (€)": "1415.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "N° de doentes em tratamento (doente tratado/ano)",
+            "ICM": null,
+            "Preço Unitário (€)": "2242.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "page": 5,
+        "table_data": [
+          {
+            "Descrição": "Elementos de Telemonitorização",
+            "Preço Unitário (€)": "3703.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Nº de doentes em tratamento (doente tratado/ano)",
+            "Preço Unitário (€)": "1465.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Elementos de Telemonitorização",
+            "Preço Unitário (€)": "1770.00",
+            "Quantidade": "30",
+            "Valor (€)": "53100.00"
+          },
+          {
+            "Descrição": "N° de doentes em tratamento (doente tratado/ano)",
+            "Preço Unitário (€)": "1465.00",
+            "Quantidade": "30",
+            "Valor (€)": "43950.00"
+          },
+          {
+            "Descrição": "Tipo 1 - PSCI - Débito Normal - 1°Ano",
+            "Preço Unitário (€)": "1516.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Tipo 2-2B - PSCI Adesiva - 1ºAno",
+            "Preço Unitário (€)": "3908.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Tipo 3 - 3B - PSCI de suspensão preditiva com CGM 1°Ano",
+            "Preço Unitário (€)": "7410.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Tipo 1 - PSCI - Débito Normal - (2ªAno e seguintes)",
+            "Preço Unitário (€)": "1088.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Tipo 2-2B - PSCI Adesiva - (2ªAno e seguintes)",
+            "Preço Unitário (€)": "2782.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Tipo 3-3BPSCI de suspensão preditiva com CGM (2ªAno e seguintes)",
+            "Preço Unitário (€)": "4441.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "PAF1 Doentes em tratamento (equivalente/ano)",
+            "Preço Unitário (€)": "92265.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Gaucher",
+            "Preço Unitário (€)": "264447.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Fabry",
+            "Preço Unitário (€)": "176534.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Hurler",
+            "Preço Unitário (€)": "245983.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Hunter",
+            "Preço Unitário (€)": "496514.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Maroteaux-Lamy",
+            "Preço Unitário (€)": "610624.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Niemann-Pick",
+            "Preço Unitário (€)": "57263.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Pompe",
+            "Preço Unitário (€)": "303720.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Gaucher (CRe)",
+            "Preço Unitário (€)": "262263.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Fabry (CRe)",
+            "Preço Unitário (€)": "174540.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Hurler (CRe)",
+            "Preço Unitário (€)": "242929.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Hunter (CRe)",
+            "Preço Unitário (€)": "493459.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Maroteaux-Lamy (CRe)",
+            "Preço Unitário (€)": "607596.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Niemann-Pick (CRe)",
+            "Preço Unitário (€)": "55578.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Pompe (CRe)",
+            "Preço Unitário (€)": "302067.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Gaucher CTP",
+            "Preço Unitário (€)": "2216.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Fabry CTP",
+            "Preço Unitário (€)": "2026.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Hurler CTP",
+            "Preço Unitário (€)": "3087.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Hunter CTP",
+            "Preço Unitário (€)": "3087.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Maroteaux-Lamy CTP",
+            "Preço Unitário (€)": "3087.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Niemann-Pick CTP",
+            "Preço Unitário (€)": "1718.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Pompe CTP",
+            "Preço Unitário (€)": "1685.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Psicoses Esquizofrénicas (doente equivalente/ano)",
+            "Preço Unitário (€)": "1659.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Psicoses Afetivas (doente equivalente/ano)",
+            "Preço Unitário (€)": "1130.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Psicoses não Orgânicas (doente equivalente/ano)",
+            "Preço Unitário (€)": "873.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Pré-avaliação + Cirurgia Bariátrica Banda Gástrica",
+            "Preço Unitário (€)": "3512.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cirurgia Bariátrica - Banda Gástrica - 1º Ano Follow Up",
+            "Preço Unitário (€)": "586.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "page": 6,
+        "table_data": [
+          {
+            "Descrição": "Cirurgia Bariátrica - Banda Gástrica - 2º Ano Follow Up",
+            "Preço Unitário (€)": "586.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cirurgia Bariátrica - Banda Gástrica - 3º Ano Follow Up",
+            "Preço Unitário (€)": "1171.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Pré-avaliação + Cirurgia Bariátrica Bypass Gástrico",
+            "Preço Unitário (€)": "4467.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cirurgia Bariátrica - Bypass Gástrico - 1º Ano Follow Up",
+            "Preço Unitário (€)": "745.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cirurgia Bariátrica - Bypass Gástrico - 2º Ano Follow Up",
+            "Preço Unitário (€)": "745.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cirurgia Bariátrica - Bypass Gástrico - 3º Ano Follow Up",
+            "Preço Unitário (€)": "1489.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "PTCO - Outras Técnicas Modelo 1",
+            "Preço Unitário (€)": "3512.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "PTCO - Outras Técnicas Modelo 1 - 1º ano de follow-up",
+            "Preço Unitário (€)": "586.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "PTCO - Outras Técnicas Modelo 1 - 2º ano de follow-up",
+            "Preço Unitário (€)": "586.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "PTCO - Outras Técnicas Modelo 1 - 3º ano de follow-up",
+            "Preço Unitário (€)": "1171.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "PTCO - Outras Técnicas Modelo 2",
+            "Preço Unitário (€)": "4467.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "PTCO - Outras Técnicas Modelo 2 - 1º ano de follow-up",
+            "Preço Unitário (€)": "745.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "PTCO - Outras Técnicas Modelo 2 - 2º ano de follow-up",
+            "Preço Unitário (€)": "745.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "PTCO - Outras Técnicas Modelo 2 - 3º ano de follow-up",
+            "Preço Unitário (€)": "1489.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Consultas de Apoio à Fertilidade",
+            "Preço Unitário (€)": "764.00",
+            "Quantidade": "130",
+            "Valor (€)": "99320.00"
+          },
+          {
+            "Descrição": "Induções da Ovulação (IO)",
+            "Preço Unitário (€)": "146.00",
+            "Quantidade": "100",
+            "Valor (€)": "14600.00"
+          },
+          {
+            "Descrição": "Inseminações Intra-Uterinas (IIU)",
+            "Preço Unitário (€)": "366.00",
+            "Quantidade": "8",
+            "Valor (€)": "2928.00"
+          },
+          {
+            "Descrição": "Fertilizações In Vitro (FIV)",
+            "Preço Unitário (€)": "2902.00",
+            "Quantidade": "30",
+            "Valor (€)": "87060.00"
+          },
+          {
+            "Descrição": "Injecções Intra-Citoplasmáticas de Espermatozoides (ICSI)",
+            "Preço Unitário (€)": "3723.00",
+            "Quantidade": "35",
+            "Valor (€)": "130305.00"
+          },
+          {
+            "Descrição": "Injeções Intra-Citoplasmáticas de Espermatozoides recolhidos cirurgicamente (ICSI c/ recolha cirúrgica)",
+            "Preço Unitário (€)": "4046.00",
+            "Quantidade": "5",
+            "Valor (€)": "20230.00"
+          },
+          {
+            "Descrição": "Injeções Intra-Citoplasmáticas de Espermatozoides recolhidos cirurgicamente com Teste Genético pré implantação (ICSI c/ PGT)",
+            "Preço Unitário (€)": "4961.00",
+            "Quantidade": "0",
+            "Valor (€)": "0.00"
+          },
+          {
+            "Descrição": "Preservação do Potencial Reprodutivo por motivo de doença grave",
+            "Preço Unitário (€)": "1357.00",
+            "Quantidade": "1",
+            "Valor (€)": "1357.00"
+          },
+          {
+            "Descrição": "Gâmetas Masculinos (packs)",
+            "Preço Unitário (€)": "1534.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Gâmetas Femininos (packs)",
+            "Preço Unitário (€)": "3085.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Medicamentosa (n.° I.V.G.)",
+            "Preço Unitário (€)": "309.00",
+            "Quantidade": "188",
+            "Valor (€)": "58092.00"
+          },
+          {
+            "Descrição": "Cirúrgica (n.º I.V.G.)",
+            "Preço Unitário (€)": "402.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Protocolo I",
+            "Preço Unitário (€)": "42.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Protocolo II",
+            "Preço Unitário (€)": "108.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Tratamentos simples",
+            "Preço Unitário (€)": "114.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Tratamentos complexos",
+            "Preço Unitário (€)": "275.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Implante coclear unilateral",
+            "Preço Unitário (€)": "20476.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Implante coclear bilateral",
+            "Preço Unitário (€)": "35490.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Consultas Domiciliárias",
+            "Preço Unitário (€)": "42.00",
+            "Quantidade": "1.995",
+            "Valor (€)": "83790.00"
+          },
+          {
+            "Descrição": "Hospitalização Domiciliária",
+            "Preço Unitário (€)": "3276.00",
+            "Quantidade": "112",
+            "Valor (€)": "271601.01"
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "page": 7,
+        "table_data": [
+          {
+            "Descrição": "Diária de Internamento",
+            "Valor": null
+          },
+          {
+            "Descrição": "Ambulatório",
+            "Valor": null
+          },
+          {
+            "Descrição": "14. Lar (IPO)",
+            "Valor": "66.00"
+          },
+          {
+            "Descrição": "Medicamentos de cedência hospitalar em ambulatório (Patologias abrangidas pelo CP)",
+            "Valor": "1400000.00"
+          },
+          {
+            "Descrição": "Sistema de Atribuição de Produtos de Apoio (SAPA)",
+            "Valor": "60000.00"
+          },
+          {
+            "Descrição": "Programa de Incentivo à Integração de Cuidados",
+            "Valor": null
+          },
+          {
+            "Descrição": "Internos",
+            "Valor": "1087215.00"
+          },
+          {
+            "Descrição": "Valor da Produção Contratada",
+            "Valor": "56136355.92"
+          },
+          {
+            "Descrição": "Incentivos institucionais",
+            "Valor": "3980666.79"
+          },
+          {
+            "Descrição": "Custos de Contexto",
+            "Valor": "19496313.00"
+          },
+          {
+            "Descrição": "Valor Total do Contrato",
+            "Valor": "79613335.71"
+          },
+          {
+            "Descrição": "Programa Incentivo Financeiro à Qualificação dos Blocos de Parto",
+            "Valor": "219535.77"
+          }
+        ]
+      },
+      {
+        "table_index": 7,
+        "page": 8,
+        "table_data": [
+          {
+            "Descrição": "60-Transferências e subsídios concedidos",
+            "Valor Estimado 2022": null,
+            "Valor Contratualizado 2023": null,
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61 Custo das mercadorias vendidas e das matérias consumidas",
+            "Valor Estimado 2022": "18781237.12",
+            "Valor Contratualizado 2023": "19492456.79",
+            "% Var 2023 / 2022": "3.8",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.1 Mercadorias",
+            "Valor Estimado 2022": null,
+            "Valor Contratualizado 2023": null,
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.2- Matérias-primas, subsidiárias e de consumo",
+            "Valor Estimado 2022": "18781237.12",
+            "Valor Contratualizado 2023": "19492456.79",
+            "% Var 2023 / 2022": "3.8",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.2.4 - Matérias de consumo específico dos serviços de saúde",
+            "Valor Estimado 2022": "18780799.70",
+            "Valor Contratualizado 2023": "19492019.37",
+            "% Var 2023 / 2022": "3.8",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.2.4.1 Produtos farmacêuticos",
+            "Valor Estimado 2022": "13803138.36",
+            "Valor Contratualizado 2023": "14288111.81",
+            "% Var 2023 / 2022": "3.5",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.2.4.1.1- Medicamentos",
+            "Valor Estimado 2022": "9699586.16",
+            "Valor Contratualizado 2023": "10184559.61",
+            "% Var 2023 / 2022": "5.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.2.4.1.2 - Reagentes e produtos de diagnóstico rápido",
+            "Valor Estimado 2022": "3757952.20",
+            "Valor Contratualizado 2023": "3757952.20",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.2.4.1.9- Outros produtos farmacêuticos",
+            "Valor Estimado 2022": "345600.00",
+            "Valor Contratualizado 2023": "345600.00",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.2.4.2 Material de consumo clínico",
+            "Valor Estimado 2022": "4325283.32",
+            "Valor Contratualizado 2023": "4551529.54",
+            "% Var 2023 / 2022": "5.2",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.2.4.3 Material de consumo hoteleiro",
+            "Valor Estimado 2022": "432839.30",
+            "Valor Contratualizado 2023": "432839.30",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.2.4.4- Material de consumo administrativo",
+            "Valor Estimado 2022": "78407.86",
+            "Valor Contratualizado 2023": "78407.86",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.2.4.5 - Material de Manutenção e Conservação",
+            "Valor Estimado 2022": "141130.86",
+            "Valor Contratualizado 2023": "141130.86",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.2.4.9 - Outro material de consumo",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.2.6 - Alimentação - géneros para confecionar",
+            "Valor Estimado 2022": "437.42",
+            "Valor Contratualizado 2023": "437.42",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "61.3- Ativos biológicos",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2022": "18781237.12",
+            "Valor Contratualizado 2023": "19492456.79",
+            "% Var 2023 / 2022": "3.8",
+            "% S/ Total Geral": "21.5"
+          },
+          {
+            "Descrição": "62.1 Subcontratos e concessões de serviços",
+            "Valor Estimado 2022": "4067506.76",
+            "Valor Contratualizado 2023": "3653173.79",
+            "% Var 2023 / 2022": "-10.2",
+            "% S/ Total Geral": "21.1"
+          },
+          {
+            "Descrição": "62.1.1 - Serviços de saúde",
+            "Valor Estimado 2022": "4067506.76",
+            "Valor Contratualizado 2023": "3653173.79",
+            "% Var 2023 / 2022": "-10.2",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.1 - Meios complementares de diagnóstico",
+            "Valor Estimado 2022": "2879382.32",
+            "Valor Contratualizado 2023": "2465077.39",
+            "% Var 2023 / 2022": "-14.4",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.1.1 Patologia clínica",
+            "Valor Estimado 2022": "164168.20",
+            "Valor Contratualizado 2023": "164168.20",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.1.2 Anatomia patológica",
+            "Valor Estimado 2022": "171470.12",
+            "Valor Contratualizado 2023": "171470.12",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.1.3 Imagiologia",
+            "Valor Estimado 2022": "1560962.88",
+            "Valor Contratualizado 2023": "1482914.74",
+            "% Var 2023 / 2022": "-5.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.1.4- Cardiologia",
+            "Valor Estimado 2022": "672513.58",
+            "Valor Contratualizado 2023": "336256.79",
+            "% Var 2023 / 2022": "-50.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.1.5 - Eletroencefalografia",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.1.6- Medicina nuclear",
+            "Valor Estimado 2022": "187163.80",
+            "Valor Contratualizado 2023": "187163.80",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.1.7 Gastroenterologia",
+            "Valor Estimado 2022": "52908.24",
+            "Valor Contratualizado 2023": "52908.24",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.1.8 - Pneumologia / Imunoalergologia",
+            "Valor Estimado 2022": "5466.40",
+            "Valor Contratualizado 2023": "5466.40",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.1.9- Outros Meios de Diagnóstico",
+            "Valor Estimado 2022": "64729.10",
+            "Valor Contratualizado 2023": "64729.10",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.2 - Meios complementares de terapêutica",
+            "Valor Estimado 2022": "428178.78",
+            "Valor Contratualizado 2023": "428150.74",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.2.1- Hemodiálise",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.2.2 - Medicina física e de reabilitação",
+            "Valor Estimado 2022": "280.40",
+            "Valor Contratualizado 2023": "252.36",
+            "% Var 2023 / 2022": "-10.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.2.3- Litotrícia",
+            "Valor Estimado 2022": "16897.08",
+            "Valor Contratualizado 2023": "16897.08",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.2.9 - Outros Meios Comp. de terapêutica",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.4 - Produtos Fornecidos por Farmácias Hospitalares",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.5 Internamentos",
+            "Valor Estimado 2022": "759945.66",
+            "Valor Contratualizado 2023": "759945.66",
+            "% Var 2023 / 2022": "0.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.9- Outros subcontratos",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.9.1 Assistência ambulatória",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.9.2- Aparelhos complementares de terapêutica",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.1.9.3 - Assistência no estrangeiro",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.2 Infraestruturas de transportes e parques de estacionamento",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.3 - Serviços de transporte",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Descrição": "62.1.4 - Serviços de alojamento e de restauração",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null,
+            "% S/ Total Geral": null
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "page": 9,
+        "table_data": [
+          {
+            "Descrição": "62.1.5 Espaços de desporto, cultura e lazer",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00"
+          },
+          {
+            "Descrição": "62.1.6 - Serviços de fornecimento de água",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00"
+          },
+          {
+            "Descrição": "62.1.7 - Serviços de recolha e tratamento de resíduos sólidos e urbanos",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00"
+          },
+          {
+            "Descrição": "62.1.8 - Tecnologias de informação e comunicação",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00"
+          },
+          {
+            "Descrição": "62.1.9- Outros subcontratos ou concessões",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00"
+          },
+          {
+            "Descrição": "62.2 - Serviços especializados",
+            "Valor Estimado 2022": "6307080.68",
+            "Valor Contratualizado 2023": "7242536.50"
+          },
+          {
+            "Descrição": "62.3- Materiais de consumo",
+            "Valor Estimado 2022": "99749.98",
+            "Valor Contratualizado 2023": "99749.98"
+          },
+          {
+            "Descrição": "62.4 - Energia e fluidos",
+            "Valor Estimado 2022": "5448496.84",
+            "Valor Contratualizado 2023": "5448496.84"
+          },
+          {
+            "Descrição": "62.5 - Deslocações, estadas e transportes",
+            "Valor Estimado 2022": "464003.50",
+            "Valor Contratualizado 2023": "443685.10"
+          },
+          {
+            "Descrição": "62.5.5 - Transporte de doentes",
+            "Valor Estimado 2022": "444850.40",
+            "Valor Contratualizado 2023": "424532.00"
+          },
+          {
+            "Descrição": "62.6 - Serviços diversos",
+            "Valor Estimado 2022": "790021.98",
+            "Valor Contratualizado 2023": "785744.78"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2022": "17176859.74",
+            "Valor Contratualizado 2023": "17673386.99"
+          },
+          {
+            "Descrição": "63- Gastos com o pessoal",
+            "Valor Estimado 2022": "49946633.74",
+            "Valor Contratualizado 2023": "53649910.30"
+          },
+          {
+            "Descrição": "63.1 - Remunerações dos orgãos sociais e de gestão",
+            "Valor Estimado 2022": "324965.86",
+            "Valor Contratualizado 2023": "331806.02"
+          },
+          {
+            "Descrição": "63.2 - Remunerações do pessoal",
+            "Valor Estimado 2022": "40065331.44",
+            "Valor Contratualizado 2023": "40113229.31"
+          },
+          {
+            "Descrição": "63.2.1.1 - Remuneração base",
+            "Valor Estimado 2022": "24117806.94",
+            "Valor Contratualizado 2023": "26359368.02"
+          },
+          {
+            "Descrição": "63.2.1.1.1 Pessoal em regime de nomeação definitiva e contrato de trabalho em funções públicas por tempo indeterminado",
+            "Valor Estimado 2022": "8214338.60",
+            "Valor Contratualizado 2023": "9559252.11"
+          },
+          {
+            "Descrição": "63.2.1.1.2 - Pessoal em regime de nomeação transitória e contrato de trabalho em funções públicas a termo resolutivo",
+            "Valor Estimado 2022": "1857907.62",
+            "Valor Contratualizado 2023": "2162098.28"
+          },
+          {
+            "Descrição": "63.2.1.1.3 - Pessoal em regime de contrato individual de trabalho a termo resolutivo incerto",
+            "Valor Estimado 2022": "535460.16",
+            "Valor Contratualizado 2023": "623129.74"
+          },
+          {
+            "Descrição": "63.2.1.1.4 - Pessoal em regime de contrato individual de trabalho a termo resolutivo certo",
+            "Valor Estimado 2022": "313360.82",
+            "Valor Contratualizado 2023": "364666.62"
+          },
+          {
+            "Descrição": "63.2.1.1.5 - Pessoal em regime de contrato individual de trabalho sem termo",
+            "Valor Estimado 2022": "13025434.66",
+            "Valor Contratualizado 2023": "13450868.82"
+          },
+          {
+            "Descrição": "63.2.1.1.6 - Pessoal em cedência de interesse público e em comissão de serviço",
+            "Valor Estimado 2022": "21039.44",
+            "Valor Contratualizado 2023": "24484.18"
+          },
+          {
+            "Descrição": "63.2.1.1.7 - Pessoal em comissão de Serviço Dirigentes",
+            "Valor Estimado 2022": "37103.28",
+            "Valor Contratualizado 2023": "43178.11"
+          },
+          {
+            "Descrição": "63.2.1.1.9 - Pessoal em qualquer outra situação",
+            "Valor Estimado 2022": "113162.36",
+            "Valor Contratualizado 2023": "131690.16"
+          },
+          {
+            "Descrição": "63.2.1.2 Subsídio de férias",
+            "Valor Estimado 2022": "2525495.48",
+            "Valor Contratualizado 2023": "2509786.98"
+          },
+          {
+            "Descrição": "63.2.1.3 Subsídio de Natal",
+            "Valor Estimado 2022": "1989491.80",
+            "Valor Contratualizado 2023": "1977117.22"
+          },
+          {
+            "Descrição": "63.2.1.5 - Subsídio de refeição",
+            "Valor Estimado 2022": "1422521.14",
+            "Valor Contratualizado 2023": "1163840.04"
+          },
+          {
+            "Descrição": "63.2.2 Abonos variáveis ou eventuais",
+            "Valor Estimado 2022": "10006236.68",
+            "Valor Contratualizado 2023": "8100024.92"
+          },
+          {
+            "Descrição": "63.2.2.03 - Ajudas de custo",
+            "Valor Estimado 2022": "18623.94",
+            "Valor Contratualizado 2023": "15237.23"
+          },
+          {
+            "Descrição": "63.2.2.04 - Trabalho extraordinário",
+            "Valor Estimado 2022": "4838723.92",
+            "Valor Contratualizado 2023": "3872208.49"
+          },
+          {
+            "Descrição": "63.2.2.04.1- Horas Extraordinárias",
+            "Valor Estimado 2022": "4071197.30",
+            "Valor Contratualizado 2023": "3244254.23"
+          },
+          {
+            "Descrição": "63.2.2.04.2 - Prevenções",
+            "Valor Estimado 2022": "767526.62",
+            "Valor Contratualizado 2023": "627954.26"
+          },
+          {
+            "Descrição": "63.2.2.06 - Abono para falhas",
+            "Valor Estimado 2022": "1035.36",
+            "Valor Contratualizado 2023": "847.08"
+          },
+          {
+            "Descrição": "63.2.2.07 - Subsídio de prevenção, trabalho noturno e de turno",
+            "Valor Estimado 2022": "2424217.76",
+            "Valor Contratualizado 2023": "1983381.21"
+          },
+          {
+            "Descrição": "63.2.2.07.1 - Noites e Suplementos",
+            "Valor Estimado 2022": "2424217.76",
+            "Valor Contratualizado 2023": "1983381.21"
+          },
+          {
+            "Descrição": "63.2.2.99.1- SIGIC",
+            "Valor Estimado 2022": "2549455.78",
+            "Valor Contratualizado 2023": "2085845.08"
+          },
+          {
+            "Descrição": "63.2.2.99.9 - Outros",
+            "Valor Estimado 2022": "151354.80",
+            "Valor Contratualizado 2023": "123831.39"
+          },
+          {
+            "Descrição": "63.4- Indeminizações",
+            "Valor Estimado 2022": "15938.16",
+            "Valor Contratualizado 2023": "13039.85"
+          },
+          {
+            "Descrição": "63.5- Encargos sobre remunerações",
+            "Valor Estimado 2022": "8785773.66",
+            "Valor Contratualizado 2023": "12535243.47"
+          },
+          {
+            "Descrição": "63.6- Acidentes no trabalho e doenças profissionais",
+            "Valor Estimado 2022": "215528.48",
+            "Valor Contratualizado 2023": "215528.48"
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "page": 10,
+        "table_data": [
+          {
+            "Descrição": "63.7- Gastos de ação social",
+            "Valor Estimado 2022": "15968.66",
+            "Valor Contratualizado 2023": "13018.32",
+            "% Var 2023 / 2022": "-18.5"
+          },
+          {
+            "Descrição": "63.7.2 - Encargos sociais voluntários",
+            "Valor Estimado 2022": "-354.56",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": "-100.0"
+          },
+          {
+            "Descrição": "63.8 - Outros gastos com o pessoal",
+            "Valor Estimado 2022": "391664.04",
+            "Valor Contratualizado 2023": "320487.63",
+            "% Var 2023 / 2022": "-18.2"
+          },
+          {
+            "Descrição": "63.8.9 Outros",
+            "Valor Estimado 2022": "391720.86",
+            "Valor Contratualizado 2023": "320487.63",
+            "% Var 2023 / 2022": "-18.2"
+          },
+          {
+            "Descrição": "63.9- Outros encargos sociais",
+            "Valor Estimado 2022": "131463.44",
+            "Valor Contratualizado 2023": "107557.22",
+            "% Var 2023 / 2022": "-18.2"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2022": "49946633.74",
+            "Valor Contratualizado 2023": "53649910.30",
+            "% Var 2023 / 2022": "7.4"
+          },
+          {
+            "Descrição": "64- Gastos de depreciação e de amortização",
+            "Valor Estimado 2022": "1548514.98",
+            "Valor Contratualizado 2023": "1310870.86",
+            "% Var 2023 / 2022": "-15.3"
+          },
+          {
+            "Descrição": "65 - Perdas por imparidade",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null
+          },
+          {
+            "Descrição": "66 - Perdas por reduções de justo valor",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null
+          },
+          {
+            "Descrição": "67 - Provisões do período",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null
+          },
+          {
+            "Descrição": "68-Outros gastos e perdas",
+            "Valor Estimado 2022": "87202.08",
+            "Valor Contratualizado 2023": "87202.08",
+            "% Var 2023 / 2022": "0.0"
+          },
+          {
+            "Descrição": "69- Gastos e perdas por juros e outros encargos",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": null
+          },
+          {
+            "Descrição": "TOTAL GERAL",
+            "Valor Estimado 2022": "87540447.66",
+            "Valor Contratualizado 2023": "92213827.02",
+            "% Var 2023 / 2022": "5.3"
+          }
+        ]
+      },
+      {
+        "table_index": 10,
+        "page": 11,
+        "table_data": [
+          {
+            "Descrição": "70- Impostos, contribuições e taxas",
+            "Valor Estimado 2022": "505496.80",
+            "Valor Contratualizado 2023": "126374.21",
+            "% Var 2023 / 2022": "-75.0"
+          },
+          {
+            "Descrição": "70.4 - Taxas, multas e outras penalidades",
+            "Valor Estimado 2022": "505496.80",
+            "Valor Contratualizado 2023": "126374.21",
+            "% Var 2023 / 2022": "-75.0"
+          },
+          {
+            "Descrição": "70.4.1.08 - Taxas moderadoras",
+            "Valor Estimado 2022": "505496.80",
+            "Valor Contratualizado 2023": "126374.21",
+            "% Var 2023 / 2022": "-75.0"
+          },
+          {
+            "Descrição": "70.4.1.08.1 - Consultas",
+            "Valor Estimado 2022": "160789.50",
+            "Valor Contratualizado 2023": "40197.38",
+            "% Var 2023 / 2022": "-75.0"
+          },
+          {
+            "Descrição": "70.4.1.08.2 - Urgência/SAP",
+            "Valor Estimado 2022": "134281.80",
+            "Valor Contratualizado 2023": "33570.45",
+            "% Var 2023 / 2022": "-75.0"
+          },
+          {
+            "Descrição": "70.4.1.08.3 - Meios complementares diagnóst. e terapêutica",
+            "Valor Estimado 2022": "210425.50",
+            "Valor Contratualizado 2023": "52606.38",
+            "% Var 2023 / 2022": "-75.0"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2022": "505496.80",
+            "Valor Contratualizado 2023": "126374.21",
+            "% Var 2023 / 2022": "-75.0"
+          },
+          {
+            "Descrição": "72 - Prestações de serviços e concessões",
+            "Valor Estimado 2022": "49009479.80",
+            "Valor Contratualizado 2023": "61070930.67",
+            "% Var 2023 / 2022": "24.6"
+          },
+          {
+            "Descrição": "72.01 - Serviços específicos do setor da saúde",
+            "Valor Estimado 2022": "48975584.84",
+            "Valor Contratualizado 2023": "61037035.71",
+            "% Var 2023 / 2022": "24.6"
+          },
+          {
+            "Descrição": "72.01.1-SNS - Serviço Nac. Saúde (Contrato Programa EPE)",
+            "Valor Estimado 2022": "48055571.84",
+            "Valor Contratualizado 2023": "60117022.71",
+            "% Var 2023 / 2022": "25.1"
+          },
+          {
+            "Descrição": "72.01.1.1- Internamento",
+            "Valor Estimado 2022": "21022472.56",
+            "Valor Contratualizado 2023": "24999642.10",
+            "% Var 2023 / 2022": "18.9"
+          },
+          {
+            "Descrição": "72.01.1.1.1 - GDH Médicos",
+            "Valor Estimado 2022": "15764657.20",
+            "Valor Contratualizado 2023": "17820802.15",
+            "% Var 2023 / 2022": "13.0"
+          },
+          {
+            "Descrição": "72.01.1.1.2- GDH Cirúrgicos",
+            "Valor Estimado 2022": "3299753.66",
+            "Valor Contratualizado 2023": "4359392.86",
+            "% Var 2023 / 2022": "32.1"
+          },
+          {
+            "Descrição": "72.01.1.1.3- GDH Cirúrgicos Urgentes",
+            "Valor Estimado 2022": "1547629.70",
+            "Valor Contratualizado 2023": "2124487.09",
+            "% Var 2023 / 2022": "37.3"
+          },
+          {
+            "Descrição": "72.01.1.1.4 - Dias Internamento Doentes Crónicos",
+            "Valor Estimado 2022": "410432.00",
+            "Valor Contratualizado 2023": "694960.00",
+            "% Var 2023 / 2022": "69.3"
+          },
+          {
+            "Descrição": "72.01.1.2 - Consulta",
+            "Valor Estimado 2022": "6602680.00",
+            "Valor Contratualizado 2023": "8050019.00",
+            "% Var 2023 / 2022": "21.9"
+          },
+          {
+            "Descrição": "72.01.1.2.1 - Primeiras Consultas",
+            "Valor Estimado 2022": "2161192.00",
+            "Valor Contratualizado 2023": "2828286.00",
+            "% Var 2023 / 2022": "30.9"
+          },
+          {
+            "Descrição": "72.01.1.2.2 - Consultas Subsequentes",
+            "Valor Estimado 2022": "4441488.00",
+            "Valor Contratualizado 2023": "5221733.00",
+            "% Var 2023 / 2022": "17.6"
+          },
+          {
+            "Descrição": "72.01.1.3 - Urgência",
+            "Valor Estimado 2022": "2838300.00",
+            "Valor Contratualizado 2023": "3323246.50",
+            "% Var 2023 / 2022": "17.1"
+          },
+          {
+            "Descrição": "72.01.1.3.2 - Atendimentos (SU-Médico Cirúrgica)",
+            "Valor Estimado 2022": "2838300.00",
+            "Valor Contratualizado 2023": "3323246.50",
+            "% Var 2023 / 2022": "17.1"
+          },
+          {
+            "Descrição": "72.01.1.4-GDH Ambulatório",
+            "Valor Estimado 2022": "10033046.76",
+            "Valor Contratualizado 2023": "14390593.30",
+            "% Var 2023 / 2022": "43.4"
+          },
+          {
+            "Descrição": "72.01.1.4.1-GDH Cirúrgicos",
+            "Valor Estimado 2022": "8428261.76",
+            "Valor Contratualizado 2023": "12058296.21",
+            "% Var 2023 / 2022": "43.1"
+          },
+          {
+            "Descrição": "72.01.1.4.2 - GDH Médicos",
+            "Valor Estimado 2022": "1604785.00",
+            "Valor Contratualizado 2023": "2332297.09",
+            "% Var 2023 / 2022": "45.3"
+          },
+          {
+            "Descrição": "72.01.1.5 - Hospital de dia",
+            "Valor Estimado 2022": "509472.00",
+            "Valor Contratualizado 2023": "592845.00",
+            "% Var 2023 / 2022": "16.4"
+          },
+          {
+            "Descrição": "72.01.1.6 - Outras Prestações Serviços Saúde",
+            "Valor Estimado 2022": "7049600.52",
+            "Valor Contratualizado 2023": "8760676.81",
+            "% Var 2023 / 2022": "24.3"
+          },
+          {
+            "Descrição": "72.01.1.6.1 - Serviço Domiciliário",
+            "Valor Estimado 2022": "73568.00",
+            "Valor Contratualizado 2023": "355391.01",
+            "% Var 2023 / 2022": "383.1"
+          },
+          {
+            "Descrição": "72.01.1.6.2 - Programas de gestão da doença crónica",
+            "Valor Estimado 2022": "1232555.26",
+            "Valor Contratualizado 2023": "1463512.00",
+            "% Var 2023 / 2022": "18.7"
+          },
+          {
+            "Descrição": "72.01.1.6.2.1 - VIH/Sida",
+            "Valor Estimado 2022": "1141780.82",
+            "Valor Contratualizado 2023": "1209978.00",
+            "% Var 2023 / 2022": "6.0"
+          }
+        ]
+      },
+      {
+        "table_index": 11,
+        "page": 12,
+        "table_data": [
+          {
+            "Descrição": "72.01.1.6.2.4 - Cancro",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "41300.00"
+          },
+          {
+            "Descrição": "72.01.1.6.2.4.3 - Cancro do Cólon e Reto",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "41300.00"
+          },
+          {
+            "Descrição": "72.01.1.6.2.5 - Telemonitorização",
+            "Valor Estimado 2022": "90774.44",
+            "Valor Contratualizado 2023": "97050.00"
+          },
+          {
+            "Descrição": "72.01.1.6.2.5.3 - Telemonitorização ICC",
+            "Valor Estimado 2022": "90774.44",
+            "Valor Contratualizado 2023": "97050.00"
+          },
+          {
+            "Descrição": "72.01.1.6.2.9 - Outros Programas de Gestão da Doença Crónica",
+            "Valor Estimado 2022": "0.00",
+            "Valor Contratualizado 2023": "115184.00"
+          },
+          {
+            "Descrição": "72.01.1.6.3 - Saúde Sexual e Reprodutiva",
+            "Valor Estimado 2022": "276249.20",
+            "Valor Contratualizado 2023": "413892.00"
+          },
+          {
+            "Descrição": "72.01.1.6.3.1 - IVG até às 10 semanas",
+            "Valor Estimado 2022": "75391.20",
+            "Valor Contratualizado 2023": "58092.00"
+          },
+          {
+            "Descrição": "72.01.1.6.3.2 - PMA - Diagnóstico e Tratamento da Infertilidade",
+            "Valor Estimado 2022": "200858.00",
+            "Valor Contratualizado 2023": "355800.00"
+          },
+          {
+            "Descrição": "72.01.1.6.7 - Medicamentos de Cedência em Ambulatório",
+            "Valor Estimado 2022": "1091078.04",
+            "Valor Contratualizado 2023": "1400000.00"
+          },
+          {
+            "Descrição": "72.01.1.6.8 - Internos",
+            "Valor Estimado 2022": "1045404.00",
+            "Valor Contratualizado 2023": "1087215.00"
+          },
+          {
+            "Descrição": "72.01.1.6.9 - Outras prestações de serviços",
+            "Valor Estimado 2022": "110693.32",
+            "Valor Contratualizado 2023": "60000.00"
+          },
+          {
+            "Descrição": "72.01.2 - Prestações de Saúde de Financiamento Vertical (ACSS)",
+            "Valor Estimado 2022": "222688.68",
+            "Valor Contratualizado 2023": "222688.68"
+          },
+          {
+            "Descrição": "72.01.3 - Outras entidades responsáveis",
+            "Valor Estimado 2022": "697324.32",
+            "Valor Contratualizado 2023": "697324.32"
+          },
+          {
+            "Descrição": "72.01.3.1 Internamento",
+            "Valor Estimado 2022": "48662.10",
+            "Valor Contratualizado 2023": "48662.10"
+          },
+          {
+            "Descrição": "72.01.3.2 Consulta",
+            "Valor Estimado 2022": "16128.20",
+            "Valor Contratualizado 2023": "16128.20"
+          },
+          {
+            "Descrição": "72.01.3.3 - Urgência/SAP",
+            "Valor Estimado 2022": "114020.06",
+            "Valor Contratualizado 2023": "114020.06"
+          },
+          {
+            "Descrição": "72.01.3.3.1 - Urgência",
+            "Valor Estimado 2022": "114020.06",
+            "Valor Contratualizado 2023": "114020.06"
+          },
+          {
+            "Descrição": "72.01.3.6 - Meio Complementares de Diagnóstico e Terapêutica",
+            "Valor Estimado 2022": "500035.54",
+            "Valor Contratualizado 2023": "500035.54"
+          },
+          {
+            "Descrição": "72.01.3.6.1 - Meios de Diagnóstico",
+            "Valor Estimado 2022": "500035.54",
+            "Valor Contratualizado 2023": "500035.54"
+          },
+          {
+            "Descrição": "72.01.3.6.1.1- Patologia clínica",
+            "Valor Estimado 2022": "449115.08",
+            "Valor Contratualizado 2023": "449115.08"
+          },
+          {
+            "Descrição": "72.01.3.6.1.2 - Anatomia patológica",
+            "Valor Estimado 2022": "153.18",
+            "Valor Contratualizado 2023": "153.18"
+          },
+          {
+            "Descrição": "72.01.3.6.1.3 - Imagiologia",
+            "Valor Estimado 2022": "50767.28",
+            "Valor Contratualizado 2023": "50767.28"
+          },
+          {
+            "Descrição": "72.01.3.8GDH Ambulatório",
+            "Valor Estimado 2022": "17148.42",
+            "Valor Contratualizado 2023": "17148.42"
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "page": 13,
+        "table_data": [
+          {
+            "Descrição": "72.01.3.8.1-GDH Cirúrgicos",
+            "Valor Estimado 2022": "17148.42",
+            "Valor Contratualizado 2023": "17148.42",
+            "% Var 2023 / 2022": "0.0"
+          },
+          {
+            "Descrição": "72.01.3.9 - Outras prestações de serviços",
+            "Valor Estimado 2022": "1330.00",
+            "Valor Contratualizado 2023": "1330.00",
+            "% Var 2023 / 2022": "0.0"
+          },
+          {
+            "Descrição": "72.01.3.9.9 - Outras",
+            "Valor Estimado 2022": "1330.00",
+            "Valor Contratualizado 2023": "1330.00",
+            "% Var 2023 / 2022": "0.0"
+          },
+          {
+            "Descrição": "72.07 - Estudos, pareceres, projetos e consultadoria",
+            "Valor Estimado 2022": "33894.96",
+            "Valor Contratualizado 2023": "33894.96",
+            "% Var 2023 / 2022": "0.0"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2022": "49009479.80",
+            "Valor Contratualizado 2023": "61070930.67",
+            "% Var 2023 / 2022": "24.6"
+          },
+          {
+            "Descrição": "75-Transferências e subsídios correntes obtidos",
+            "Valor Estimado 2022": "17373097.38",
+            "Valor Contratualizado 2023": "19628028.29",
+            "% Var 2023 / 2022": "13.0"
+          },
+          {
+            "Descrição": "78 - Outros rendimentos e ganhos",
+            "Valor Estimado 2022": "1271554.84",
+            "Valor Contratualizado 2023": "1470568.10",
+            "% Var 2023 / 2022": "15.7"
+          },
+          {
+            "Descrição": "78.1 - Rendimentos suplementares",
+            "Valor Estimado 2022": "846762.52",
+            "Valor Contratualizado 2023": "846762.52",
+            "% Var 2023 / 2022": "0.0"
+          },
+          {
+            "Descrição": "TOTAL GERAL",
+            "Valor Estimado 2022": "68159628.82",
+            "Valor Contratualizado 2023": "82295901.27",
+            "% Var 2023 / 2022": "20.7"
+          }
+        ]
+      },
+      {
+        "table_index": 13,
+        "page": 14,
+        "table_data": [
+          {
+            "Fluxo": "Recebimento de Clientes",
+            "Valor Estimado 2022": "64898191.90",
+            "Valor Contratualizado 2023": "81473474.11",
+            "% Var 2023 / 2022": "25.54"
+          },
+          {
+            "Fluxo": "Recebimento de Utentes",
+            "Valor Estimado 2022": "515767.40",
+            "Valor Contratualizado 2023": "126374.20",
+            "% Var 2023 / 2022": null
+          },
+          {
+            "Fluxo": "Pagamento a Fornecedores",
+            "Valor Estimado 2022": "-16839488.03",
+            "Valor Contratualizado 2023": "-23470855.27",
+            "% Var 2023 / 2022": "39.38"
+          },
+          {
+            "Fluxo": "Pagamentos ao Pessoal",
+            "Valor Estimado 2022": "-49946633.74",
+            "Valor Contratualizado 2023": "-53649910.30",
+            "% Var 2023 / 2022": "7.41"
+          },
+          {
+            "Fluxo": "Caixa gerada pelas operações",
+            "Valor Estimado 2022": "-1372162.47",
+            "Valor Contratualizado 2023": "4479082.74",
+            "% Var 2023 / 2022": "-426.43"
+          },
+          {
+            "Fluxo": "Outros recebimentos/pagamentos",
+            "Valor Estimado 2022": "236314.04",
+            "Valor Contratualizado 2023": "236314.04",
+            "% Var 2023 / 2022": "0.00"
+          },
+          {
+            "Fluxo": "Fluxos de caixa das atividades operacionais",
+            "Valor Estimado 2022": "-1135848.43",
+            "Valor Contratualizado 2023": "4715396.78",
+            "% Var 2023 / 2022": "-515.14"
+          },
+          {
+            "Fluxo": "Pagamentos Respeitantes a (-):",
+            "Valor Estimado 2022": "-486038.98",
+            "Valor Contratualizado 2023": "-12572231.60",
+            "% Var 2023 / 2022": "2486.67"
+          },
+          {
+            "Fluxo": "Activos Fixos Tangíveis",
+            "Valor Estimado 2022": "-192457.90",
+            "Valor Contratualizado 2023": "-12572231.60",
+            "% Var 2023 / 2022": "6432.46"
+          },
+          {
+            "Fluxo": "Activos Intangíveis",
+            "Valor Estimado 2022": "-293581.08",
+            "Valor Contratualizado 2023": null,
+            "% Var 2023 / 2022": "0.00"
+          },
+          {
+            "Fluxo": "Recebimentos Provenientes de (+):",
+            "Valor Estimado 2022": "667.00",
+            "Valor Contratualizado 2023": "7656834.81",
+            "% Var 2023 / 2022": "1147851.25"
+          },
+          {
+            "Fluxo": "Activos Fixos Tangíveis",
+            "Valor Estimado 2022": "667.00",
+            "Valor Contratualizado 2023": "7656834.81",
+            "% Var 2023 / 2022": "1147851.25"
+          },
+          {
+            "Fluxo": "Fluxos de caixa das atividades de investimento",
+            "Valor Estimado 2022": "-485371.98",
+            "Valor Contratualizado 2023": "-4915396.79",
+            "% Var 2023 / 2022": "912.71"
+          },
+          {
+            "Fluxo": "Recebimentos Provenientes de (+):",
+            "Valor Estimado 2022": "279479.13",
+            "Valor Contratualizado 2023": null,
+            "% Var 2023 / 2022": null
+          },
+          {
+            "Fluxo": "Outras operações de financiamento",
+            "Valor Estimado 2022": "279479.13",
+            "Valor Contratualizado 2023": null,
+            "% Var 2023 / 2022": null
+          },
+          {
+            "Fluxo": "Pagamentos Respeitantes a (-):",
+            "Valor Estimado 2022": "-1590.36",
+            "Valor Contratualizado 2023": null,
+            "% Var 2023 / 2022": null
+          },
+          {
+            "Fluxo": "Juros e gastos similares",
+            "Valor Estimado 2022": "-1590.36",
+            "Valor Contratualizado 2023": null,
+            "% Var 2023 / 2022": null
+          },
+          {
+            "Fluxo": "Fluxos de caixa das atividades de financiamento",
+            "Valor Estimado 2022": "277888.77",
+            "Valor Contratualizado 2023": null,
+            "% Var 2023 / 2022": null
+          },
+          {
+            "Fluxo": "Variação de caixa e seus equivalentes",
+            "Valor Estimado 2022": "-1343331.64",
+            "Valor Contratualizado 2023": "-200000.01",
+            "% Var 2023 / 2022": "-85.11"
+          },
+          {
+            "Fluxo": "Caixa e seus equivalentes no ínicio do período",
+            "Valor Estimado 2022": "2343331.64",
+            "Valor Contratualizado 2023": "1000000.00",
+            "% Var 2023 / 2022": "-57.33"
+          },
+          {
+            "Fluxo": "Caixa e seus equivalentes no fim do período",
+            "Valor Estimado 2022": "1000000.00",
+            "Valor Contratualizado 2023": "800000.00",
+            "% Var 2023 / 2022": "-20.00"
+          },
+          {
+            "Fluxo": "Caixa e seus equivalentes no ínicio do período",
+            "Valor Estimado 2022": "2343331.64",
+            "Valor Contratualizado 2023": "1000000.00",
+            "% Var 2023 / 2022": "-57.33"
+          },
+          {
+            "Fluxo": "Equivalentes a caixa no ínicio do período",
+            "Valor Estimado 2022": "2343331.64",
+            "Valor Contratualizado 2023": "1000000.00",
+            "% Var 2023 / 2022": "-57.33"
+          }
+        ]
+      },
+      {
+        "table_index": 14,
+        "page": 15,
+        "table_data": [
+          {
+            "Descrição": "Da execução orçamental",
+            "Valor Estimado 2022": "2298463.10",
+            "Valor Contratualizado 2023": "1000000.00",
+            "% Var 2023 / 2022": "-56.49"
+          },
+          {
+            "Descrição": "Das operações de tesouraria",
+            "Valor Estimado 2022": "44868.54",
+            "Valor Contratualizado 2023": "0.00",
+            "% Var 2023 / 2022": "-100.00"
+          },
+          {
+            "Descrição": "Caixa e seus equivalentes no fim do período",
+            "Valor Estimado 2022": "1000000.00",
+            "Valor Contratualizado 2023": "800000.00",
+            "% Var 2023 / 2022": "-20.00"
+          },
+          {
+            "Descrição": "Equivalentes a caixa no fim do período",
+            "Valor Estimado 2022": "1000000.00",
+            "Valor Contratualizado 2023": "800000.00",
+            "% Var 2023 / 2022": "-20.00"
+          },
+          {
+            "Descrição": "Da execução orçamental",
+            "Valor Estimado 2022": "1000000.00",
+            "Valor Contratualizado 2023": "800000.00",
+            "% Var 2023 / 2022": "-20.00"
+          }
+        ]
+      },
+      {
+        "table_index": 15,
+        "page": 16,
+        "table_data": [
+          {
+            "Descrição": "Ativos Fixos Tangíveis",
+            "AL - Activo Liquido 2022": "41290909.51",
+            "AL - Activo Liquido 2023": "52293039.16"
+          },
+          {
+            "Descrição": "Propriedades de Investimento",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Ativos Intangíveis",
+            "AL - Activo Liquido 2022": "550512.17",
+            "AL - Activo Liquido 2023": "547804.09"
+          },
+          {
+            "Descrição": "Ativos Biológicos",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Investimentos Financeiros",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Devedores por empréstimos bonificados e subsídios reembolsáveis",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Acionistas/sócios/associados",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Diferimentos",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Outros Ativos Financeiros",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Ativos por Impostos Diferidos",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Sub-Total Ativo não corrente",
+            "AL - Activo Liquido 2022": "41841421.68",
+            "AL - Activo Liquido 2023": "52840843.25"
+          },
+          {
+            "Descrição": "Inventários",
+            "AL - Activo Liquido 2022": "2739796.65",
+            "AL - Activo Liquido 2023": "3025304.85"
+          },
+          {
+            "Descrição": "Ativos Biológicos",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Devedores por transferências e subsídios não reembolsáveis",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Devedores por empréstimos bonificados e subsídios reembolsáveis",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Clientes, Contribuintes e Utentes",
+            "AL - Activo Liquido 2022": "4810376.88",
+            "AL - Activo Liquido 2023": "4475776.61"
+          },
+          {
+            "Descrição": "Estado e Outros Entes Públicos",
+            "AL - Activo Liquido 2022": "345395.56",
+            "AL - Activo Liquido 2023": "345395.56"
+          },
+          {
+            "Descrição": "Acionistas/sócios/associados",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Outras contas a receber",
+            "AL - Activo Liquido 2022": "18299069.56",
+            "AL - Activo Liquido 2023": "18299069.56"
+          },
+          {
+            "Descrição": "Diferimentos",
+            "AL - Activo Liquido 2022": "35924.93",
+            "AL - Activo Liquido 2023": "35924.93"
+          },
+          {
+            "Descrição": "Ativos Financeiros Detidos para Negociação",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Outros Ativos Financeiros",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Ativos não correntes detidos para venda",
+            "AL - Activo Liquido 2022": "0.00",
+            "AL - Activo Liquido 2023": "0.00"
+          },
+          {
+            "Descrição": "Caixa e depósitos",
+            "AL - Activo Liquido 2022": "1000000.00",
+            "AL - Activo Liquido 2023": "800000.00"
+          },
+          {
+            "Descrição": "Sub-Total Ativo corrente",
+            "AL - Activo Liquido 2022": "27230563.58",
+            "AL - Activo Liquido 2023": "26981471.51"
+          },
+          {
+            "Descrição": "Total do Ativo",
+            "AL - Activo Liquido 2022": "69071985.26",
+            "AL - Activo Liquido 2023": "79822314.76"
+          }
+        ]
+      },
+      {
+        "table_index": 16,
+        "page": 17,
+        "table_data": [
+          {
+            "Descrição": "Património/Capital",
+            "Património Líquido e Passivo 2022": "56300000.00",
+            "Património Líquido e Passivo 2023": "56300000.00"
+          },
+          {
+            "Descrição": "Ações (quotas) próprias",
+            "Património Líquido e Passivo 2022": "0.00",
+            "Património Líquido e Passivo 2023": "0.00"
+          },
+          {
+            "Descrição": "Outros instrumentos de capital próprio",
+            "Património Líquido e Passivo 2022": "0.00",
+            "Património Líquido e Passivo 2023": "0.00"
+          },
+          {
+            "Descrição": "Prémios de emissão",
+            "Património Líquido e Passivo 2022": "0.00",
+            "Património Líquido e Passivo 2023": "0.00"
+          },
+          {
+            "Descrição": "Reservas",
+            "Património Líquido e Passivo 2022": "0.00",
+            "Património Líquido e Passivo 2023": "0.00"
+          },
+          {
+            "Descrição": "Resultados transitados",
+            "Património Líquido e Passivo 2022": "-114581709.54",
+            "Património Líquido e Passivo 2023": "-133962528.40"
+          },
+          {
+            "Descrição": "Ajustamentos em ativos financeiros",
+            "Património Líquido e Passivo 2022": "0.00",
+            "Património Líquido e Passivo 2023": "0.00"
+          },
+          {
+            "Descrição": "Excedentes de revalorização",
+            "Património Líquido e Passivo 2022": "0.00",
+            "Património Líquido e Passivo 2023": "0.00"
+          },
+          {
+            "Descrição": "Outras variações no património líquido",
+            "Património Líquido e Passivo 2022": "58499336.29",
+            "Património Líquido e Passivo 2023": "66088079.66"
+          },
+          {
+            "Descrição": "Resultado líquido do período",
+            "Património Líquido e Passivo 2022": "-19380818.84",
+            "Património Líquido e Passivo 2023": "-9917925.75"
+          },
+          {
+            "Descrição": "Dividendos antecipados",
+            "Património Líquido e Passivo 2022": "0.00",
+            "Património Líquido e Passivo 2023": "0.00"
+          },
+          {
+            "Descrição": "Interesses que não controlam",
+            "Património Líquido e Passivo 2022": "0.00",
+            "Património Líquido e Passivo 2023": "0.00"
+          },
+          {
+            "Descrição": "Total do Património Líquido",
+            "Património Líquido e Passivo 2022": "-19163192.09",
+            "Património Líquido e Passivo 2023": "-21492374.49"
+          },
+          {
+            "Descrição": "Fornecedores",
+            "Património Líquido e Passivo 2022": "22804481.42",
+            "Património Líquido e Passivo 2023": "36140224.40"
+          },
+          {
+            "Descrição": "Adiantamento de clientes, contribuintes e utentes",
+            "Património Líquido e Passivo 2022": "33921489.75",
+            "Património Líquido e Passivo 2023": "33921489.75"
+          },
+          {
+            "Descrição": "Estado e outros entes públicos",
+            "Património Líquido e Passivo 2022": "2468803.53",
+            "Património Líquido e Passivo 2023": "2468803.53"
+          },
+          {
+            "Descrição": "Acionistas/sócios/associados",
+            "Património Líquido e Passivo 2022": "0.00",
+            "Património Líquido e Passivo 2023": "0.00"
+          },
+          {
+            "Descrição": "Financiamentos Obtidos",
+            "Património Líquido e Passivo 2022": "0.00",
+            "Património Líquido e Passivo 2023": "0.00"
+          },
+          {
+            "Descrição": "Fornecedores de Investimento",
+            "Património Líquido e Passivo 2022": "256231.08",
+            "Património Líquido e Passivo 2023": "0.00"
+          },
+          {
+            "Descrição": "Outras contas a pagar",
+            "Património Líquido e Passivo 2022": "28784171.57",
+            "Património Líquido e Passivo 2023": "28784171.57"
+          },
+          {
+            "Descrição": "Total do Passivo",
+            "Património Líquido e Passivo 2022": "88235177.35",
+            "Património Líquido e Passivo 2023": "101314689.25"
+          },
+          {
+            "Descrição": "Total do Património Líquido e Passivo",
+            "Património Líquido e Passivo 2022": "69071985.26",
+            "Património Líquido e Passivo 2023": "79822314.76"
+          }
+        ]
+      }
+    ]
+  }
+}

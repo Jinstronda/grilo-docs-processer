@@ -1,0 +1,2084 @@
+{
+  "contract_id": "07c609d5-4bae-eb11-07b3-232cba98b1fe",
+  "hospital_name": "Hospital Distrital Figueira da Foz, EPE",
+  "year": 2015,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/Adenda-PIC-2015-HDFF.pdf",
+  "extraction_timestamp": "20251101_024946",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 3,
+        "table_data": [
+          {
+            "Área/Patologia": "Cirurgia da mama em patologia neoplásica (a)",
+            "Produção Acrescida Contratada (nº episódios)": null,
+            "Preço médio*": "1827.45",
+            "Valor contratado": null
+          },
+          {
+            "Área/Patologia": "Cirurgia da próstata em patologia neoplásica (b)",
+            "Produção Acrescida Contratada (nº episódios)": null,
+            "Preço médio*": "1955.25",
+            "Valor contratado": null
+          },
+          {
+            "Área/Patologia": "Cirurgia da hérnia discal (c)",
+            "Produção Acrescida Contratada (nº episódios)": null,
+            "Preço médio*": "2500.76",
+            "Valor contratado": null
+          },
+          {
+            "Área/Patologia": "Cirurgia da Artroplastia da Anca (d)",
+            "Produção Acrescida Contratada (nº episódios)": "60",
+            "Preço médio*": "5094.65",
+            "Valor contratado": "305679.00"
+          },
+          {
+            "Área/Patologia": "Cirurgia da Catarata (e)",
+            "Produção Acrescida Contratada (nº episódios)": null,
+            "Preço médio*": "708.84",
+            "Valor contratado": null
+          },
+          {
+            "Área/Patologia": "TOTAL",
+            "Produção Acrescida Contratada (nº episódios)": "60",
+            "Preço médio*": null,
+            "Valor contratado": "305679.00"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 4,
+        "table_data": [
+          {
+            "Serviços/Unidades Funcionais": "Serviço de Ortopedia",
+            "Nº episódios cirúrgicos (internamento e ambulatório)": "800",
+            "Média do Peso Relativo dos episódios cirúrgicos": "1.34",
+            "Nº 1ª consultas": "3.200",
+            "Nº consultas subsequentes": "5.100"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 5,
+        "table_data": [
+          {
+            "Serviços/Unidades Funcionais": "Serviço Ortopedia",
+            "Área/Patologia": "Cirurgia da Artroplastia da Anca (d)",
+            "Produção Acrescida Contratada (nº episódios)": "60",
+            "Preço médio": "5094.65",
+            "Valor contratado": "305679.00"
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "page": 6,
+        "table_data": [
+          {
+            "SNC": "611-Mercadorias",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "612-Matérias-primas, subsidiárias e de consumo",
+            "Valor Estimado 2014": "4573783.19",
+            "Valor Contratualizado 2015": "4432467.92",
+            "% Var 2015 / 2014": "-3.09%"
+          },
+          {
+            "SNC": "6121-Matérias de consumo",
+            "Valor Estimado 2014": "4573783.19",
+            "Valor Contratualizado 2015": "4432467.92",
+            "% Var 2015 / 2014": "-3.09%"
+          },
+          {
+            "SNC": "61211-Produtos Farmacêuticos",
+            "Valor Estimado 2014": "2739508.88",
+            "Valor Contratualizado 2015": "2562508.88",
+            "% Var 2015 / 2014": "-6.46%"
+          },
+          {
+            "SNC": "612111-Medicamentos",
+            "Valor Estimado 2014": "2307999.97",
+            "Valor Contratualizado 2015": "2130999.97",
+            "% Var 2015 / 2014": "-7.67%"
+          },
+          {
+            "SNC": "612112-Reagentes e produtos de diagnóstico rápido",
+            "Valor Estimado 2014": "426358.22",
+            "Valor Contratualizado 2015": "426358.22",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "612118-Outros produtos Farmacêuticos",
+            "Valor Estimado 2014": "5150.69",
+            "Valor Contratualizado 2015": "5150.69",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "61212-Material consumo clínico",
+            "Valor Estimado 2014": "1350080.80",
+            "Valor Contratualizado 2015": "1385765.53",
+            "% Var 2015 / 2014": "2.64%"
+          },
+          {
+            "SNC": "61213-Produtos alimentares",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "61214-Material consumo hoteleiro",
+            "Valor Estimado 2014": "61083.33",
+            "Valor Contratualizado 2015": "61083.33",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "61215-Material consumo administrativo",
+            "Valor Estimado 2014": "31147.15",
+            "Valor Contratualizado 2015": "31147.15",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "61216-Material manutenção e conservação",
+            "Valor Estimado 2014": "391963.03",
+            "Valor Contratualizado 2015": "391963.03",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "61217-Outro material de consumo",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "613-Ativos biológicos (compras)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Sub-Total 61",
+            "Valor Estimado 2014": "4573783.19",
+            "Valor Contratualizado 2015": "4432467.92",
+            "% Var 2015 / 2014": "-3.09%"
+          },
+          {
+            "SNC": "% S.Total Geral 61",
+            "Valor Estimado 2014": "17.73%",
+            "Valor Contratualizado 2015": "17.07%",
+            "% Var 2015 / 2014": "-3.72%"
+          },
+          {
+            "SNC": "621-Subcontratos",
+            "Valor Estimado 2014": "855761.14",
+            "Valor Contratualizado 2015": "780493.14",
+            "% Var 2015 / 2014": "-8.80%"
+          },
+          {
+            "SNC": "6211-Assistência ambulatória",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6212-Meios complementares diagnóstico",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62121-Patologia clínica",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62122-Anatomia patológica",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62123-Imagiologia",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62124-Cardiologia",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62125-Electroencefalografia",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62126-Medicina nuclear",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62127-Gastrenterologia",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62128-Pneumologia/Imunoalergologia",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62129-Outros",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6213-Meios complementares terapêutica",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62131-Hemodiálise",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62132-Medicina física e reabilitação",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62133-Litotricia",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62138-Outros",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6214-Produtos vendidos por farmácias",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6215-Internamentos",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6216-Transporte de doentes",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6217-Aparelhos complementares de terapêutica",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6218-Trabalhos executados no exterior",
+            "Valor Estimado 2014": "855761.14",
+            "Valor Contratualizado 2015": "780493.14",
+            "% Var 2015 / 2014": "-8.80%"
+          },
+          {
+            "SNC": "62181-Em entidades do M. Saúde",
+            "Valor Estimado 2014": "441400.43",
+            "Valor Contratualizado 2015": "366132.43",
+            "% Var 2015 / 2014": "-17.05%"
+          },
+          {
+            "SNC": "621811-Assistência ambulatória",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "621812-Meios complementares de diagnóstico",
+            "Valor Estimado 2014": "116937.86",
+            "Valor Contratualizado 2015": "41669.86",
+            "% Var 2015 / 2014": "-64.37%"
+          },
+          {
+            "SNC": "621813-Meios complementares de terapêutica",
+            "Valor Estimado 2014": "324462.57",
+            "Valor Contratualizado 2015": "324462.57",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "621814-Produtos vendidos por farmácias",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "621815-Internamentos e transporte de doentes",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "621819-Outros trabalhos executados no exterior",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "62189-Em outras entidades",
+            "Valor Estimado 2014": "414360.71",
+            "Valor Contratualizado 2015": "414360.71",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "621891-Assistência ambulatória",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "621892-Meios complementares diagnóstico",
+            "Valor Estimado 2014": "248923.47",
+            "Valor Contratualizado 2015": "248923.47",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "621893-Meios complementares terapêutica",
+            "Valor Estimado 2014": "13671.29",
+            "Valor Contratualizado 2015": "13671.29",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "621894-Produtos vendidos por farmácias",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "621895-Internamentos e transporte de doentes",
+            "Valor Estimado 2014": "126604.95",
+            "Valor Contratualizado 2015": "126604.95",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "621896-Aparelhos complementares de terapêutica",
+            "Valor Estimado 2014": "25161.00",
+            "Valor Contratualizado 2015": "25161.00",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "621897-Assistência no estrangeiro",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "621898-Termalismo social",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "621899-Outros trabalhos executados no exterior",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6219-Outros subcontratos",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "622-Serviços Especializados",
+            "Valor Estimado 2014": "2305643.96",
+            "Valor Contratualizado 2015": "2070077.12",
+            "% Var 2015 / 2014": "-10.22%"
+          },
+          {
+            "SNC": "6221-Trabalhos especializados",
+            "Valor Estimado 2014": "1743121.57",
+            "Valor Contratualizado 2015": "1507554.73",
+            "% Var 2015 / 2014": "-13.51%"
+          },
+          {
+            "SNC": "6222-Publicidade e propaganda",
+            "Valor Estimado 2014": "1907.57",
+            "Valor Contratualizado 2015": "1907.57",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6223-Vigilância e segurança",
+            "Valor Estimado 2014": "175106.31",
+            "Valor Contratualizado 2015": "175106.31",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6224-Honorários",
+            "Valor Estimado 2014": "116065.71",
+            "Valor Contratualizado 2015": "116065.71",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6225-Comissões",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6226-Conservação e reparação",
+            "Valor Estimado 2014": "267015.65",
+            "Valor Contratualizado 2015": "267015.65",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6227-Serviços Bancários",
+            "Valor Estimado 2014": "2427.15",
+            "Valor Contratualizado 2015": "2427.15",
+            "% Var 2015 / 2014": "0.00%"
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "page": 7,
+        "table_data": [
+          {
+            "SNC": "6228-Outros",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "623-Materiais",
+            "Valor Estimado 2014": "7797.96",
+            "Valor Contratualizado 2015": "7797.96",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6231-Ferramentas e utensílios de desgaste rápido",
+            "Valor Estimado 2014": "6782.01",
+            "Valor Contratualizado 2015": "6782.01",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6232-Livros de documentação técnica",
+            "Valor Estimado 2014": "779.55",
+            "Valor Contratualizado 2015": "779.55",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6233-Material de escritório",
+            "Valor Estimado 2014": "236.40",
+            "Valor Contratualizado 2015": "236.40",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6234-Artigos de oferta",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6238-Outros",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "624-Energia e Fluídos",
+            "Valor Estimado 2014": "492851.19",
+            "Valor Contratualizado 2015": "492851.19",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6241-Eletricidade",
+            "Valor Estimado 2014": "261236.40",
+            "Valor Contratualizado 2015": "261236.40",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6242-Combustíveis",
+            "Valor Estimado 2014": "13277.86",
+            "Valor Contratualizado 2015": "13277.86",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6243-Água",
+            "Valor Estimado 2014": "218336.93",
+            "Valor Contratualizado 2015": "218336.93",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6248-Outros",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "625-Deslocações, estadas e transportes",
+            "Valor Estimado 2014": "1805.04",
+            "Valor Contratualizado 2015": "1805.04",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6251-Deslocações e estadas",
+            "Valor Estimado 2014": "1629.39",
+            "Valor Contratualizado 2015": "1629.39",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6252-Transporte de pessoal",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6253-Transportes de mercadorias",
+            "Valor Estimado 2014": "175.65",
+            "Valor Contratualizado 2015": "175.65",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6258-Outros",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "626-Serviços Diversos",
+            "Valor Estimado 2014": "467640.90",
+            "Valor Contratualizado 2015": "467640.90",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6261-Rendas e alugueres",
+            "Valor Estimado 2014": "22188.33",
+            "Valor Contratualizado 2015": "22188.33",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6262-Comunicação",
+            "Valor Estimado 2014": "46376.93",
+            "Valor Contratualizado 2015": "46376.93",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6263-Seguros",
+            "Valor Estimado 2014": "18756.43",
+            "Valor Contratualizado 2015": "18756.43",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6264-Royalties",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6265-Contencioso e notariado",
+            "Valor Estimado 2014": "7780.97",
+            "Valor Contratualizado 2015": "7780.97",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6266-Despesas de representação",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6267-Limpeza, higiene e conforto",
+            "Valor Estimado 2014": "358672.51",
+            "Valor Contratualizado 2015": "358672.51",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6268-Outros Serviços",
+            "Valor Estimado 2014": "13865.73",
+            "Valor Contratualizado 2015": "13865.73",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "Sub-Total 62",
+            "Valor Estimado 2014": "4131500.19",
+            "Valor Contratualizado 2015": "3820665.35",
+            "% Var 2015 / 2014": "-7.52%"
+          },
+          {
+            "SNC": "% S.Total Geral 62",
+            "Valor Estimado 2014": "16.02%",
+            "Valor Contratualizado 2015": "14.71%",
+            "% Var 2015 / 2014": "-8.18%"
+          },
+          {
+            "SNC": "631-Remunerações dos orgãos directivos",
+            "Valor Estimado 2014": "249262.09",
+            "Valor Contratualizado 2015": "253723.01",
+            "% Var 2015 / 2014": "1.79%"
+          },
+          {
+            "SNC": "632-Remunerações de pessoal",
+            "Valor Estimado 2014": "12443175.09",
+            "Valor Contratualizado 2015": "13101081.89",
+            "% Var 2015 / 2014": "5.29%"
+          },
+          {
+            "SNC": "6321-Remunerações base do pessoal",
+            "Valor Estimado 2014": "8933600.44",
+            "Valor Contratualizado 2015": "9535611.45",
+            "% Var 2015 / 2014": "6.74%"
+          },
+          {
+            "SNC": "63211-RCTFP por tempo indeterminado",
+            "Valor Estimado 2014": "5574493.64",
+            "Valor Contratualizado 2015": "5425451.19",
+            "% Var 2015 / 2014": "-2.67%"
+          },
+          {
+            "SNC": "63212-Pessoal c/ contrato a termo resolutivo",
+            "Valor Estimado 2014": "759544.04",
+            "Valor Contratualizado 2015": "771987.88",
+            "% Var 2015 / 2014": "1.64%"
+          },
+          {
+            "SNC": "63213-Pessoal em regime Contrato Individual",
+            "Valor Estimado 2014": "2599562.76",
+            "Valor Contratualizado 2015": "3338172.38",
+            "% Var 2015 / 2014": "28.41%"
+          },
+          {
+            "SNC": "63214-Pessoal em qualquer outra situação",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6322-Subsídio de Férias",
+            "Valor Estimado 2014": "741539.41",
+            "Valor Contratualizado 2015": "744487.31",
+            "% Var 2015 / 2014": "0.40%"
+          },
+          {
+            "SNC": "6323-Subsídio de Natal",
+            "Valor Estimado 2014": "731824.19",
+            "Valor Contratualizado 2015": "734772.08",
+            "% Var 2015 / 2014": "0.40%"
+          },
+          {
+            "SNC": "6324-Suplementos de remunerações",
+            "Valor Estimado 2014": "2004245.91",
+            "Valor Contratualizado 2015": "2054245.91",
+            "% Var 2015 / 2014": "2.49%"
+          },
+          {
+            "SNC": "63241-Trabalho Extraordinário",
+            "Valor Estimado 2014": "771594.37",
+            "Valor Contratualizado 2015": "771594.37",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "632411-Horas extraordinárias",
+            "Valor Estimado 2014": "729944.40",
+            "Valor Contratualizado 2015": "729944.40",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "632412-Prevenções",
+            "Valor Estimado 2014": "41649.97",
+            "Valor Contratualizado 2015": "41649.97",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "63242-Trabalho Em regime de turnos",
+            "Valor Estimado 2014": "397090.88",
+            "Valor Contratualizado 2015": "397090.88",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "632421-Noites e suplementos",
+            "Valor Estimado 2014": "396431.11",
+            "Valor Contratualizado 2015": "396431.11",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "632422-Subsídio de turno",
+            "Valor Estimado 2014": "659.77",
+            "Valor Contratualizado 2015": "659.77",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "63243-Abono para falhas",
+            "Valor Estimado 2014": "931.66",
+            "Valor Contratualizado 2015": "931.66",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "63244-Subsídio de refeição",
+            "Valor Estimado 2014": "493667.51",
+            "Valor Contratualizado 2015": "493667.51",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "63245-Ajudas de custo",
+            "Valor Estimado 2014": "8963.42",
+            "Valor Contratualizado 2015": "8963.42",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "63246-Vestuário e Art. Pessoais",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "63247-Alim. e Alojamento",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "63248-Outros Suplementos",
+            "Valor Estimado 2014": "331998.07",
+            "Valor Contratualizado 2015": "381998.07",
+            "% Var 2015 / 2014": "15.06%"
+          },
+          {
+            "SNC": "6325-Prestações sociais directas",
+            "Valor Estimado 2014": "31965.14",
+            "Valor Contratualizado 2015": "31965.14",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "6326-Prémios de desempenho",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "6328-Outras remunerações",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "633-Benefícios Pós Emprego",
+            "Valor Estimado 2014": "93638.59",
+            "Valor Contratualizado 2015": "16811.55",
+            "% Var 2015 / 2014": "-82.05%"
+          },
+          {
+            "SNC": "634-Indemnizações",
+            "Valor Estimado 2014": "0.00",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "635-Encargos sobre remunerações",
+            "Valor Estimado 2014": "3047178.71",
+            "Valor Contratualizado 2015": "3075758.17",
+            "% Var 2015 / 2014": "0.94%"
+          },
+          {
+            "SNC": "6351-Encargos s/ remunerações - Doença",
+            "Valor Estimado 2014": "106119.84",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": "-100.00%"
+          },
+          {
+            "SNC": "6352-Encargos s/ remunerações - CGA",
+            "Valor Estimado 2014": "1891729.01",
+            "Valor Contratualizado 2015": "1879685.64",
+            "% Var 2015 / 2014": "-0.64%"
+          },
+          {
+            "SNC": "6353-Segurança Social",
+            "Valor Estimado 2014": "1049329.86",
+            "Valor Contratualizado 2015": "1196072.53",
+            "% Var 2015 / 2014": "13.98%"
+          },
+          {
+            "SNC": "6358-Outros Encargos sobre remunerações",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "636-Seguros de acid. trab. e doenças profissionais",
+            "Valor Estimado 2014": "47516.44",
+            "Valor Contratualizado 2015": "49727.81",
+            "% Var 2015 / 2014": "4.65%"
+          },
+          {
+            "SNC": "637-Gastos de Ação Social",
+            "Valor Estimado 2014": "6772.48",
+            "Valor Contratualizado 2015": "6772.48",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "638-Outros gastos com pessoal",
+            "Valor Estimado 2014": "70873.65",
+            "Valor Contratualizado 2015": "70873.65",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "Sub-Total 63",
+            "Valor Estimado 2014": "15958417.05",
+            "Valor Contratualizado 2015": "16574748.56",
+            "% Var 2015 / 2014": "3.86%"
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "page": 8,
+        "table_data": [
+          {
+            "SNC": "% S.Total Geral 63",
+            "Valor Estimado 2014": "61.86%",
+            "Valor Contratualizado 2015": "63.82%",
+            "% Var 2015 / 2014": "3.17%"
+          },
+          {
+            "SNC": "Sub-Total 64",
+            "Valor Estimado 2014": "733450.99",
+            "Valor Contratualizado 2015": "780700.50",
+            "% Var 2015 / 2014": "6.44%"
+          },
+          {
+            "SNC": "% S.Total Geral 64",
+            "Valor Estimado 2014": "2.84%",
+            "Valor Contratualizado 2015": "3.01%",
+            "% Var 2015 / 2014": "5.73%"
+          },
+          {
+            "SNC": "Sub-Total 65",
+            "Valor Estimado 2014": "150000.00",
+            "Valor Contratualizado 2015": "150000.00",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "% S.Total Geral 65",
+            "Valor Estimado 2014": "0.58%",
+            "Valor Contratualizado 2015": "0.58%",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "Sub-Total 66",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "% S.Total Geral 66",
+            "Valor Estimado 2014": "0.00%",
+            "Valor Contratualizado 2015": "0.00%",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Sub-Total 67",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "% S.Total Geral 67",
+            "Valor Estimado 2014": "0.00%",
+            "Valor Contratualizado 2015": "0.00%",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Sub-Total 68",
+            "Valor Estimado 2014": "148751.98",
+            "Valor Contratualizado 2015": "148751.98",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "% S.Total Geral 68",
+            "Valor Estimado 2014": "0.58%",
+            "Valor Contratualizado 2015": "0.57%",
+            "% Var 2015 / 2014": "-1.72%"
+          },
+          {
+            "SNC": "Sub-Total 69",
+            "Valor Estimado 2014": "100502.13",
+            "Valor Contratualizado 2015": "62502.13",
+            "% Var 2015 / 2014": "-37.81%"
+          },
+          {
+            "SNC": "% S.Total Geral 69",
+            "Valor Estimado 2014": "0.39%",
+            "Valor Contratualizado 2015": "0.24%",
+            "% Var 2015 / 2014": "-38.46%"
+          },
+          {
+            "SNC": "Total de Gastos e Perdas",
+            "Valor Estimado 2014": "25796405.53",
+            "Valor Contratualizado 2015": "25969836.44",
+            "% Var 2015 / 2014": "0.67%"
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "page": 9,
+        "table_data": [
+          {
+            "SNC": "Sub-Total 71",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "% S.Total Geral 71",
+            "Valor Estimado 2014": "0.00%",
+            "Valor Contratualizado 2015": "0.00%",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "721-SNS-Serviço nacional de Saúde (contrato-programa)",
+            "Valor Estimado 2014": "22315670.59",
+            "Valor Contratualizado 2015": "22967319.99",
+            "% Var 2015 / 2014": "2.92%"
+          },
+          {
+            "SNC": "7211-Internamento SNS CP",
+            "Valor Estimado 2014": "11466807.62",
+            "Valor Contratualizado 2015": "10513859.08",
+            "% Var 2015 / 2014": "-8.31%"
+          },
+          {
+            "SNC": "7212-Consulta SNS CP",
+            "Valor Estimado 2014": "3334464.40",
+            "Valor Contratualizado 2015": "3403319.52",
+            "% Var 2015 / 2014": "2.06%"
+          },
+          {
+            "SNC": "7213-Urgência /SAP SNS CP",
+            "Valor Estimado 2014": "3504365.64",
+            "Valor Contratualizado 2015": "3423285.00",
+            "% Var 2015 / 2014": "-2.31%"
+          },
+          {
+            "SNC": "7214-Quartos particulares SNS CP",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "7215-Hospital de dia SNS CP",
+            "Valor Estimado 2014": "204181.60",
+            "Valor Contratualizado 2015": "211144.80",
+            "% Var 2015 / 2014": "3.41%"
+          },
+          {
+            "SNC": "7216-Meios complementares de diagnóstico e terapêutica SNS CP",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "72161-De diagnóstico SNS CP",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "72162-De terapêutica SNS CP",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "7217-Taxas Moderadoras SNS CP",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "7218-Outras prestações de serviços de saúde SNS CP",
+            "Valor Estimado 2014": "3805851.33",
+            "Valor Contratualizado 2015": "5415711.59",
+            "% Var 2015 / 2014": "42.30%"
+          },
+          {
+            "SNC": "72181-Serviço domiciliário SNS CP",
+            "Valor Estimado 2014": "23170.00",
+            "Valor Contratualizado 2015": "29790.00",
+            "% Var 2015 / 2014": "28.57%"
+          },
+          {
+            "SNC": "72182-GDH- ambulatório SNS CP",
+            "Valor Estimado 2014": "2849682.40",
+            "Valor Contratualizado 2015": "4426593.40",
+            "% Var 2015 / 2014": "55.34%"
+          },
+          {
+            "SNC": "72183-Programas Verticais SNS CP",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "72184-Plano de convergência SNS CP",
+            "Valor Estimado 2014": "932998.93",
+            "Valor Contratualizado 2015": "959328.19",
+            "% Var 2015 / 2014": "2.82%"
+          },
+          {
+            "SNC": "72185-Valor capitacional (ULS) SNS CP",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "72186-Outras prestações de serviços de saúde SNS CP",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "7219-Outras prestações de serviços SNS CP",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "722-Outras entidades responsáveis",
+            "Valor Estimado 2014": "1563360.28",
+            "Valor Contratualizado 2015": "1768137.48",
+            "% Var 2015 / 2014": "13.10%"
+          },
+          {
+            "SNC": "7221-Internamento Outras Ent Resp",
+            "Valor Estimado 2014": "273628.39",
+            "Valor Contratualizado 2015": "471147.19",
+            "% Var 2015 / 2014": "72.19%"
+          },
+          {
+            "SNC": "7222-Consulta Outras Ent Resp",
+            "Valor Estimado 2014": "18771.86",
+            "Valor Contratualizado 2015": "25039.06",
+            "% Var 2015 / 2014": "33.39%"
+          },
+          {
+            "SNC": "7223-Urgência /SAP Outras Ent Resp",
+            "Valor Estimado 2014": "239130.72",
+            "Valor Contratualizado 2015": "239130.72",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "7224-Quartos particulares Outras Ent Resp",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "7225-Hospital de dia Outras Ent Resp",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "7226-Meios complementares de diagnóstico e terapêutica Outras Ent Resp",
+            "Valor Estimado 2014": "87234.07",
+            "Valor Contratualizado 2015": "87234.07",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "72261-De diagnóstico Outras Ent Resp",
+            "Valor Estimado 2014": "75112.61",
+            "Valor Contratualizado 2015": "75112.61",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "72262-De terapêutica Outras Ent Resp",
+            "Valor Estimado 2014": "12121.46",
+            "Valor Contratualizado 2015": "12121.46",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "7227-Taxas moderadoras Outras Ent Resp",
+            "Valor Estimado 2014": "930546.21",
+            "Valor Contratualizado 2015": "931537.41",
+            "% Var 2015 / 2014": "0.11%"
+          },
+          {
+            "SNC": "7228-Outras prestações de serviços de saúde Outras Ent Resp",
+            "Valor Estimado 2014": "13843.59",
+            "Valor Contratualizado 2015": "13843.59",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "7229-Outras prestações de serviços Outras Ent Resp",
+            "Valor Estimado 2014": "205.44",
+            "Valor Contratualizado 2015": "205.44",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "Sub-Total 72",
+            "Valor Estimado 2014": "23879030.87",
+            "Valor Contratualizado 2015": "24735457.47",
+            "% Var 2015 / 2014": "3.59%"
+          },
+          {
+            "SNC": "% S.Total Geral 72",
+            "Valor Estimado 2014": "95.30%",
+            "Valor Contratualizado 2015": "95.86%",
+            "% Var 2015 / 2014": "0.59%"
+          },
+          {
+            "SNC": "Sub-Total 73",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "% S.Total Geral 73",
+            "Valor Estimado 2014": "0.00%",
+            "Valor Contratualizado 2015": "0.00%",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Sub-Total 74",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "% S.Total Geral 74",
+            "Valor Estimado 2014": "0.00%",
+            "Valor Contratualizado 2015": "0.00%",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "751-Subsídios do Estado e outros entes públicos",
+            "Valor Estimado 2014": "0.00",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "752-Subsídio de outras entidades",
+            "Valor Estimado 2014": "65053.21",
+            "Valor Contratualizado 2015": "65053.21",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "Sub-Total 75",
+            "Valor Estimado 2014": "65053.21",
+            "Valor Contratualizado 2015": "65053.21",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "% S.Total Geral 75",
+            "Valor Estimado 2014": "0.26%",
+            "Valor Contratualizado 2015": "0.25%",
+            "% Var 2015 / 2014": "-3.85%"
+          },
+          {
+            "SNC": "Sub-Total 76",
+            "Valor Estimado 2014": "758.37",
+            "Valor Contratualizado 2015": "758.37",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "% S.Total Geral 76",
+            "Valor Estimado 2014": "0.00%",
+            "Valor Contratualizado 2015": "0.00%",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Sub-Total 77",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "% S.Total Geral 77",
+            "Valor Estimado 2014": "0.00%",
+            "Valor Contratualizado 2015": "0.00%",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "781-Rendimentos Suplementares",
+            "Valor Estimado 2014": "40797.05",
+            "Valor Contratualizado 2015": "40797.05",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "782-Descontos de Pronto Pagamento Obtidos",
+            "Valor Estimado 2014": "16144.68",
+            "Valor Contratualizado 2015": "16144.68",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "783-Recuperação de dívidas a receber",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "784-Ganhos em Inventários",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "785-Rendimen. ganhos em subsidiárias, assoc. e empreendi. conj",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "786-Rendimentos e ganhos nos restantes investimentos financeiros",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "787-Rendimentos e ganhos em investimentos não financeiros",
+            "Valor Estimado 2014": "66825.17",
+            "Valor Contratualizado 2015": "66825.17",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "788-Outros",
+            "Valor Estimado 2014": "988612.87",
+            "Valor Contratualizado 2015": "877915.88",
+            "% Var 2015 / 2014": "-11.20%"
+          },
+          {
+            "SNC": "789-Outros rendimentos de participações de capital",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Sub-Total 78",
+            "Valor Estimado 2014": "1112379.77",
+            "Valor Contratualizado 2015": "1001682.78",
+            "% Var 2015 / 2014": "-9.95%"
+          },
+          {
+            "SNC": "% S.Total Geral 78",
+            "Valor Estimado 2014": "4.44%",
+            "Valor Contratualizado 2015": "3.88%",
+            "% Var 2015 / 2014": "-12.61%"
+          },
+          {
+            "SNC": "Sub-Total 79",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "% S.Total Geral 79",
+            "Valor Estimado 2014": "0.00%",
+            "Valor Contratualizado 2015": "0.00%",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Total de Rendimentos e Ganhos",
+            "Valor Estimado 2014": "25057222.22",
+            "Valor Contratualizado 2015": "25802951.83",
+            "% Var 2015 / 2014": "2.98%"
+          }
+        ]
+      },
+      {
+        "table_index": 7,
+        "page": 10,
+        "table_data": [
+          {
+            "SNC": "Fluxo de caixa das atividades operacionais - método directo",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Recebimentos de clientes (AO)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Clientes externos",
+            "Valor Estimado 2014": "300482.68",
+            "Valor Contratualizado 2015": "310761.99",
+            "% Var 2015 / 2014": "3.42%"
+          },
+          {
+            "SNC": "Clientes setor público",
+            "Valor Estimado 2014": "23070452.84",
+            "Valor Contratualizado 2015": "22926260.00",
+            "% Var 2015 / 2014": "-0.63%"
+          },
+          {
+            "SNC": "Contribuintes",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Utentes",
+            "Valor Estimado 2014": "930546.21",
+            "Valor Contratualizado 2015": "930546.21",
+            "% Var 2015 / 2014": "0.00%"
+          },
+          {
+            "SNC": "Imposto sobre o rendimento e contribuições sociais (Recebimentos)",
+            "Valor Estimado 2014": "0.00",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Transferências e subsídios (Recebimentos)",
+            "Valor Estimado 2014": "0.00",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Pagamentos a fornecedores (AO)",
+            "Valor Estimado 2014": "8116190.86",
+            "Valor Contratualizado 2015": "7753142.66",
+            "% Var 2015 / 2014": "-4.47%"
+          },
+          {
+            "SNC": "Fornecedores - externos",
+            "Valor Estimado 2014": "7506055.89",
+            "Valor Contratualizado 2015": "5984793.66",
+            "% Var 2015 / 2014": "-20.27%"
+          },
+          {
+            "SNC": "Fornecedores setor público",
+            "Valor Estimado 2014": "610134.97",
+            "Valor Contratualizado 2015": "1768349.00",
+            "% Var 2015 / 2014": "189.83%"
+          },
+          {
+            "SNC": "Pagamentos ao pessoal",
+            "Valor Estimado 2014": "15864305.05",
+            "Valor Contratualizado 2015": "16038230.03",
+            "% Var 2015 / 2014": "1.10%"
+          },
+          {
+            "SNC": "Outros recebimentos/pagamentos",
+            "Valor Estimado 2014": "-38250.53",
+            "Valor Contratualizado 2015": "-197379.49",
+            "% Var 2015 / 2014": "416.02%"
+          },
+          {
+            "SNC": "Transferências e subsídios (Pagamentos)",
+            "Valor Estimado 2014": "3072.52",
+            "Valor Contratualizado 2015": "3075.00",
+            "% Var 2015 / 2014": "0.08%"
+          },
+          {
+            "SNC": "Juros a receber",
+            "Valor Estimado 2014": "0.00",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Juros a pagar",
+            "Valor Estimado 2014": "0.00",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Imposto sobre o rendimento e contribuições sociais (Pagamentos)",
+            "Valor Estimado 2014": "-257615.31",
+            "Valor Contratualizado 2015": "-337995.69",
+            "% Var 2015 / 2014": "31.20%"
+          },
+          {
+            "SNC": "Outros recebimentos",
+            "Valor Estimado 2014": "216292.26",
+            "Valor Contratualizado 2015": "137541.20",
+            "% Var 2015 / 2014": "-36.41%"
+          },
+          {
+            "SNC": "Outros pagamentos",
+            "Valor Estimado 2014": "0.00",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Fluxo de caixa (AO)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Fluxos de caixa das atividades operacionais",
+            "Valor Estimado 2014": "282735.28",
+            "Valor Contratualizado 2015": "178816.02",
+            "% Var 2015 / 2014": "-36.75%"
+          },
+          {
+            "SNC": "Fluxos de caixa das atividades de investimento",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Pagamentos (Al)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Ativos fixos tangíveis (Pagamentos)",
+            "Valor Estimado 2014": "240073.31",
+            "Valor Contratualizado 2015": "280367.55",
+            "% Var 2015 / 2014": "16.78%"
+          },
+          {
+            "SNC": "Bens de domínio público (Pagamentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Ativos intangíveis (Pagamentos)",
+            "Valor Estimado 2014": "2524.33",
+            "Valor Contratualizado 2015": "4327.42",
+            "% Var 2015 / 2014": "71.43%"
+          },
+          {
+            "SNC": "Investimentos financeiros (Pagamentos)",
+            "Valor Estimado 2014": "3543.73",
+            "Valor Contratualizado 2015": "4990.06",
+            "% Var 2015 / 2014": "40.81%"
+          },
+          {
+            "SNC": "Outros ativos (Pagamentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Recebimentos (AI)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Ativos fixos tangíveis (Recebimentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Bens de domínio público (Recebimentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Ativos intangíveis (Recebimentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Investimentos financeiros (Recebimentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Outros ativos (Recebimentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Subsídios ao investimento",
+            "Valor Estimado 2014": "74990.95",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": "-100.00%"
+          },
+          {
+            "SNC": "Obrigações e outros títulos (Recebimentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Juros e rendimentos similares",
+            "Valor Estimado 2014": "17417.77",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": "-100.00%"
+          },
+          {
+            "SNC": "Dividendos (AI) (Recebimentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Fluxo de caixa (Al)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Fluxos de caixa das atividades de investimento",
+            "Valor Estimado 2014": "-153732.65",
+            "Valor Contratualizado 2015": "-289685.03",
+            "% Var 2015 / 2014": "88.43%"
+          },
+          {
+            "SNC": "Fluxos de caixa das atividades de financiamento",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Recebimentos (AF)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Financiamentos obtidos (Recebimentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Realizações de fundos",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Cobertura de prejuízos",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Doações",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Outras operações de financiamento (Recebimentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Pagamentos (AF)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Financiamentos obtidos (Pagamentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Obrigações e outros títulos (Pagamentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Juros e gastos similares",
+            "Valor Estimado 2014": "39598.10",
+            "Valor Contratualizado 2015": "1698.91",
+            "% Var 2015 / 2014": "-95.71%"
+          },
+          {
+            "SNC": "Dividendos (AF) (Pagamentos)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Redução de fundos",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Outras operações de financiamento (Pagamentos)",
+            "Valor Estimado 2014": "105643.27",
+            "Valor Contratualizado 2015": "15449.52",
+            "% Var 2015 / 2014": "-85.38%"
+          },
+          {
+            "SNC": "Fluxo de caixa (AF)",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Fluxos de caixa das atividades de financiamento",
+            "Valor Estimado 2014": "-145241.37",
+            "Valor Contratualizado 2015": "-17148.43",
+            "% Var 2015 / 2014": "-88.19%"
+          },
+          {
+            "SNC": "Variação de caixa e seus equivalentes",
+            "Valor Estimado 2014": "-16238.73",
+            "Valor Contratualizado 2015": "-128017.44",
+            "% Var 2015 / 2014": "688.35%"
+          },
+          {
+            "SNC": "Efeito das diferenças de câmbio",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Caixa e equivalentes no início do período",
+            "Valor Estimado 2014": "426657.51",
+            "Valor Contratualizado 2015": "410418.78",
+            "% Var 2015 / 2014": "-3.81%"
+          },
+          {
+            "SNC": "Caixa e equivalentes no fim do período",
+            "Valor Estimado 2014": "410418.78",
+            "Valor Contratualizado 2015": "282401.35",
+            "% Var 2015 / 2014": "-31.19%"
+          },
+          {
+            "SNC": "Caixa e equivalentes",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Numerário",
+            "Valor Estimado 2014": "10000.00",
+            "Valor Contratualizado 2015": "5000.00",
+            "% Var 2015 / 2014": "-50.00%"
+          },
+          {
+            "SNC": "Conta no Tesouro",
+            "Valor Estimado 2014": "394368.78",
+            "Valor Contratualizado 2015": "277401.35",
+            "% Var 2015 / 2014": "-29.66%"
+          },
+          {
+            "SNC": "Depósitos à ordem",
+            "Valor Estimado 2014": "6050.00",
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": "-100.00%"
+          },
+          {
+            "SNC": "Outros depósitos bancários",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Outros activos financeiros",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          },
+          {
+            "SNC": "Totais de Caixa e equivalentes",
+            "Valor Estimado 2014": null,
+            "Valor Contratualizado 2015": null,
+            "% Var 2015 / 2014": null
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "page": 11,
+        "table_data": [
+          {
+            "SNC": "Capital Próprio SNC (título)",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Capital",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": "27050000.00",
+            "Fundos Próprios e Passivo (2016)": "27050000.00"
+          },
+          {
+            "SNC": "Outros fundos patrimoniais",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Reservas legais",
+            "Fundos Próprios e Passivo (2014)": "1085657.24",
+            "Fundos Próprios e Passivo (2015)": "1085657.24",
+            "Fundos Próprios e Passivo (2016)": "1085657.24"
+          },
+          {
+            "SNC": "Reservas decorrentes da transferência de ativos",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Outras reservas",
+            "Fundos Próprios e Passivo (2014)": "253978.07",
+            "Fundos Próprios e Passivo (2015)": "253978.07",
+            "Fundos Próprios e Passivo (2016)": "253978.07"
+          },
+          {
+            "SNC": "Resultados transitados",
+            "Fundos Próprios e Passivo (2014)": "-27660104.10",
+            "Fundos Próprios e Passivo (2015)": "-28395287.41",
+            "Fundos Próprios e Passivo (2016)": "-28638570.37"
+          },
+          {
+            "SNC": "Ajustamentos em ativos financeiros",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Excedentes de revalorização",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Outras variações nos fundos patrimoniais",
+            "Fundos Próprios e Passivo (2014)": "2165864.80",
+            "Fundos Próprios e Passivo (2015)": "2232246.98",
+            "Fundos Próprios e Passivo (2016)": "3497246.98"
+          },
+          {
+            "SNC": "Resultado líquido do período",
+            "Fundos Próprios e Passivo (2014)": "-735183.31",
+            "Fundos Próprios e Passivo (2015)": "-162884.61",
+            "Fundos Próprios e Passivo (2016)": "-243282.96"
+          },
+          {
+            "SNC": "Total do Capital Próprio",
+            "Fundos Próprios e Passivo (2014)": "2160212.70",
+            "Fundos Próprios e Passivo (2015)": "2063710.27",
+            "Fundos Próprios e Passivo (2016)": "3005028.96"
+          },
+          {
+            "SNC": "Passivo (título)",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Passivo Não Corrente SNC (título)",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Provisões",
+            "Fundos Próprios e Passivo (2014)": "46246.00",
+            "Fundos Próprios e Passivo (2015)": "46246.00",
+            "Fundos Próprios e Passivo (2016)": "46246.00"
+          },
+          {
+            "SNC": "Financiamentos obtidos (Passivo Não Corrente)",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Responsabilidades por benefícios pós-emprego",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Passivos por impostos diferidos",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Outras contas a pagar (Passivo Não Corrente)",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Passivo Corrente SNC (título)",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Fornecedores",
+            "Fundos Próprios e Passivo (2014)": "5973498.38",
+            "Fundos Próprios e Passivo (2015)": "5579017.66",
+            "Fundos Próprios e Passivo (2016)": "5079017.66"
+          },
+          {
+            "SNC": "Adiantamentos de clientes",
+            "Fundos Próprios e Passivo (2014)": "7568515.25",
+            "Fundos Próprios e Passivo (2015)": "7116513.27",
+            "Fundos Próprios e Passivo (2016)": "7116513.27"
+          },
+          {
+            "SNC": "Estado e outros entes públicos (Passivo Corrente)",
+            "Fundos Próprios e Passivo (2014)": "900359.52",
+            "Fundos Próprios e Passivo (2015)": "913734.52",
+            "Fundos Próprios e Passivo (2016)": "913734.52"
+          },
+          {
+            "SNC": "Tutela /acionistas /sócios (Passivo Corrente)",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Financiamentos obtidos (Passivo Corrente)",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Outras contas a pagar (Passivo Corrente)",
+            "Fundos Próprios e Passivo (2014)": "2485412.14",
+            "Fundos Próprios e Passivo (2015)": "4686223.53",
+            "Fundos Próprios e Passivo (2016)": "4391670.29"
+          },
+          {
+            "SNC": "Diferimentos (Passivo Corrente)",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Passivos financeiros detidos para negociação",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Outros passivos financeiros",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Passivos não correntes detidos para venda",
+            "Fundos Próprios e Passivo (2014)": null,
+            "Fundos Próprios e Passivo (2015)": null,
+            "Fundos Próprios e Passivo (2016)": null
+          },
+          {
+            "SNC": "Total do Passivo",
+            "Fundos Próprios e Passivo (2014)": "16974031.29",
+            "Fundos Próprios e Passivo (2015)": "18341734.98",
+            "Fundos Próprios e Passivo (2016)": "17547181.74"
+          },
+          {
+            "SNC": "Total do Capital Próprio e do Passivo",
+            "Fundos Próprios e Passivo (2014)": "19134243.99",
+            "Fundos Próprios e Passivo (2015)": "20405445.25",
+            "Fundos Próprios e Passivo (2016)": "20552210.70"
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "page": 12,
+        "table_data": [
+          {
+            "SNC": "Ativo Não Corrente",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Ativos fixos tangíveis",
+            "AL - Activo Liquido (2014)": "9119326.45",
+            "AL - Activo Líquido (2015)": "8796368.86",
+            "AL - Activo Líquido (2016)": "9283494.58"
+          },
+          {
+            "SNC": "Bens de domínio público",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Propriedades de investimento",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Goodwill",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Ativos intangíveis",
+            "AL - Activo Liquido (2014)": "16831.65",
+            "AL - Activo Líquido (2015)": "8891.25",
+            "AL - Activo Líquido (2016)": "12891.25"
+          },
+          {
+            "SNC": "Ativos biológicos (Ativo Não Corrente)",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Participações financeiras - método da equivalência patrimonial",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Participações financeiras - outros métodos",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Tutela/acionistas /sócios (Ativo Não Corrente)",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Outros ativos financeiros (Ativo Não Corrente)",
+            "AL - Activo Liquido (2014)": "3543.73",
+            "AL - Activo Líquido (2015)": "4990.00",
+            "AL - Activo Líquido (2016)": "6436.27"
+          },
+          {
+            "SNC": "Ativos por impostos diferidos",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Ativo Corrente",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Inventários",
+            "AL - Activo Liquido (2014)": "392087.97",
+            "AL - Activo Líquido (2015)": "392087.97",
+            "AL - Activo Líquido (2016)": "392087.97"
+          },
+          {
+            "SNC": "Ativos biológicos (Ativo Corrente)",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Clientes",
+            "AL - Activo Liquido (2014)": "5756798.68",
+            "AL - Activo Líquido (2015)": "6969002.53",
+            "AL - Activo Líquido (2016)": "6736945.08"
+          },
+          {
+            "SNC": "Adiantamentos a fornecedores",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Estado e outros entes públicos",
+            "AL - Activo Liquido (2014)": "345857.51",
+            "AL - Activo Líquido (2015)": "222857.51",
+            "AL - Activo Líquido (2016)": "222857.51"
+          },
+          {
+            "SNC": "Tutela /acionistas /sócios (Ativo Corrente)",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Outras contas a receber",
+            "AL - Activo Liquido (2014)": "3324915.49",
+            "AL - Activo Líquido (2015)": "3723291.24",
+            "AL - Activo Líquido (2016)": "3723291.24"
+          },
+          {
+            "SNC": "Diferimentos",
+            "AL - Activo Liquido (2014)": "5554.54",
+            "AL - Activo Líquido (2015)": "5554.54",
+            "AL - Activo Líquido (2016)": "5554.54"
+          },
+          {
+            "SNC": "Ativos financeiros detidos para negociação",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Outros ativos financeiros (Ativo Corrente)",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Ativos não correntes detidos para venda",
+            "AL - Activo Liquido (2014)": null,
+            "AL - Activo Líquido (2015)": null,
+            "AL - Activo Líquido (2016)": null
+          },
+          {
+            "SNC": "Caixa e depósitos bancários",
+            "AL - Activo Liquido (2014)": "169327.97",
+            "AL - Activo Líquido (2015)": "282401.35",
+            "AL - Activo Líquido (2016)": "168652.27"
+          },
+          {
+            "SNC": "Total do Ativo",
+            "AL - Activo Liquido (2014)": "19134243.99",
+            "AL - Activo Líquido (2015)": "20405445.25",
+            "AL - Activo Líquido (2016)": "20552210.71"
+          }
+        ]
+      }
+    ]
+  }
+}

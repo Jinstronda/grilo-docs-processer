@@ -18,7 +18,7 @@ from playwright.async_api import async_playwright
 TEST_MODE = False  # Change to True for quick testing
 
 # PARALLEL PROCESSING
-NUM_WORKERS = 4  # Number of parallel Chrome tabs (workers)
+NUM_WORKERS = 8  # Number of parallel Chrome tabs (workers)
 BATCH_SIZE = 100  # Total PDFs to process in this batch
 
 DB_PATH = Path(__file__).parent.parent / "data" / "hospital_tables.db"
