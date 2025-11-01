@@ -755,26 +755,21 @@ async def worker_process_pdfs(context, worker_id, total_processed):
                 await save_result(contract, None, OUTPUT_DIR, success=False, worker_id=worker_id)
                 worker_results.append((contract['id'], False, None))
                 print(f"[Worker {worker_id}] ✗ Failed after {max_retries} attempts")
-                
-                # Start new chat for next PDF
-                if total_processed[0] < BATCH_SIZE:
+            
+            # Start new chat for next PDF
+            if total_processed[0] < BATCH_SIZE:
+                try:
                     await page.goto(AI_STUDIO_HOME, timeout=60000)
                     await page.wait_for_load_state('networkidle', timeout=60000)
                     await page.wait_for_timeout(1000)
                     
-                    try:
-                        gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
-                        await gemini_button.click()
-                        await page.wait_for_load_state('networkidle', timeout=60000)
-                        await page.wait_for_timeout(2000)
-                    except Exception as e:
-                        print(f"[Worker {worker_id}] Could not start new chat: {e}")
-                        break
-            
-            except Exception as e:
-                print(f"[Worker {worker_id}] Error processing PDF: {e}")
-                await save_result(contract, None, OUTPUT_DIR, success=False, worker_id=worker_id)
-                continue
+                    gemini_button = page.get_by_role('button', name='Gemini 2.5 Pro Our most powerful reasoning model')
+                    await gemini_button.click()
+                    await page.wait_for_load_state('networkidle', timeout=60000)
+                    await page.wait_for_timeout(2000)
+                except Exception as e:
+                    print(f"[Worker {worker_id}] Could not start new chat: {e}")
+                    break
     
     except Exception as e:
         print(f"[Worker {worker_id}] Worker crashed: {e}")
