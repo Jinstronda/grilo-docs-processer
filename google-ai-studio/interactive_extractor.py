@@ -184,6 +184,12 @@ async def extract_json_from_page(page):
             
             json_text = body_text[start_pos:end_pos]
             print(f"[INFO] Extracted JSON from body text ({len(json_text)} characters)")
+            
+            # CRITICAL CHECK: Make sure this isn't the prompt template!
+            if '<page_number>' in json_text or '"column1"' in json_text:
+                print("[ERROR] Extracted the PROMPT template, not the AI response!")
+                print("[ERROR] AI hasn't responded yet - body text too small")
+                return None
         
         # Clean and parse the JSON
         try:
@@ -775,14 +781,15 @@ async def worker_process_pdfs(context, worker_id, assigned_pdfs):
             for attempt in range(max_retries):
                 try:
                     if attempt > 0:
-                        # Check if we should retry on same page or start fresh
-                        if result and result.get('retry_same_page'):
-                            print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1} - JSON in body but not code blocks")
-                            print(f"[Worker {worker_id}] Waiting 15 seconds for code blocks to render...")
-                            await page.wait_for_timeout(15000)  # Wait for code blocks to appear
+                        # ALWAYS retry on same page first (up to 3 times)
+                        if attempt < 3:
+                            print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1} - Waiting on SAME page (attempt {attempt}/3)")
+                            print(f"[Worker {worker_id}] Waiting 20 seconds for AI response to complete...")
+                            await page.wait_for_timeout(20000)  # Wait longer for AI
                             print(f"[Worker {worker_id}] Retrying extraction on SAME page...")
                         else:
-                            print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1} - Starting fresh chat...")
+                            # Only start fresh chat on 4th attempt (last resort)
+                            print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1} - Last attempt, starting fresh chat...")
                             await page.wait_for_timeout(10000)  # 10 second delay
                             
                             # Start fresh chat for retry
