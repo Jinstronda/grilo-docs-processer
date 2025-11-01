@@ -788,7 +788,9 @@ async def worker_process_pdfs(context, worker_id, assigned_pdfs):
                             # Start fresh chat for retry
                             for chat_attempt in range(4):
                                 try:
-                                    await page.goto(AI_STUDIO_HOME, timeout=60000)
+                                    # Click "Chat" link instead of goto (stays logged in)
+                                    chat_link = page.get_by_role('link', name='Chat')
+                                    await chat_link.click(timeout=10000)
                                     await page.wait_for_load_state('networkidle', timeout=60000)
                                     await page.wait_for_timeout(2000)
                                     
@@ -796,7 +798,7 @@ async def worker_process_pdfs(context, worker_id, assigned_pdfs):
                                     await gemini_button.click(timeout=10000)
                                     await page.wait_for_load_state('networkidle', timeout=60000)
                                     await page.wait_for_timeout(2000)
-                                    print(f"[Worker {worker_id}] ✓ Retry chat ready")
+                                    print(f"[Worker {worker_id}] ✓ Retry chat ready (stayed logged in)")
                                     break
                                 except Exception as e:
                                     print(f"[Worker {worker_id}] Chat setup attempt {chat_attempt + 1}/4: {e}")
