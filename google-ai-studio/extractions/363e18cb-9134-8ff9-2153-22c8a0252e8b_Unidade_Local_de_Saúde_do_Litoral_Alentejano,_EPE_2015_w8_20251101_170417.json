@@ -1,0 +1,1902 @@
+{
+  "contract_id": "363e18cb-9134-8ff9-2153-22c8a0252e8b",
+  "hospital_name": "Unidade Local de Saúde do Litoral Alentejano, EPE",
+  "year": 2015,
+  "pdf_url": "https://www.acss.min-saude.pt/wp-content/uploads/2016/10/Reversao-POCMS_ULSLA_2015.pdf",
+  "extraction_timestamp": "20251101_170417",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 3,
+        "table_data": [
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Taxa de utilização de consultas médicas - 3 anos",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "87.0"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Taxa de domicílios enfermagem por 1000 inscritos",
+            "Pesos Relativos (%)": "1.20",
+            "Meta": "205.0"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Proporção medicamentos prescritos que são genéricos",
+            "Pesos Relativos (%)": "1.80",
+            "Meta": "52.0"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Proporção inscritos >= 14 A com hábitos tabágicos",
+            "Pesos Relativos (%)": "1.20",
+            "Meta": "38.0"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Proporção consultas médicas presenciais com ICPC-2",
+            "Pesos Relativos (%)": "1.80",
+            "Meta": "93.0"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Taxa internamento DCV entre residentes < 65 A",
+            "Pesos Relativos (%)": "0.90",
+            "Meta": "3.00"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Indice de acompanhamento adequado em PF, nas MIF",
+            "Pesos Relativos (%)": "1.80",
+            "Meta": "0.500"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Proporção de RN de termo de baixo peso",
+            "Pesos Relativos (%)": "0.45",
+            "Meta": "1.89"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Proporção jovens 14A com consulta médica vigilância e PNV",
+            "Pesos Relativos (%)": "0.75",
+            "Meta": "65.0"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Incidência amputações major MInf. (DM) em residentes",
+            "Pesos Relativos (%)": "0.90",
+            "Meta": "0.71"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Proporção idosos sem ansiolíticos / sedativos / hipnóticos (p. conv.)",
+            "Pesos Relativos (%)": "1.20",
+            "Meta": "70.0"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Despesa medicamentos faturados por utilizador (PVP)",
+            "Pesos Relativos (%)": "4.80",
+            "Meta": "160.00"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Despesa MCDT prescritos por utilizador SNS (p. conv.)",
+            "Pesos Relativos (%)": "2.40",
+            "Meta": "48.00"
+          },
+          {
+            "Categoria": "Objectivos Nacionais",
+            "Indicador": "Indicador de medição da satisfação dos utentes*",
+            "Pesos Relativos (%)": "1.80",
+            "Meta": ""
+          },
+          {
+            "Categoria": "Objectivos Regionais",
+            "Indicador": "Proporção hipertensos com risco CV nos últimos 3 anos",
+            "Pesos Relativos (%)": "0.72",
+            "Meta": "34.0"
+          },
+          {
+            "Categoria": "Objectivos Regionais",
+            "Indicador": "Proporção de mulheres entre [25; 60[ anos, com colpocitologia nos últimos 3 anos",
+            "Pesos Relativos (%)": "2.19",
+            "Meta": "55.0"
+          },
+          {
+            "Categoria": "Objectivos Regionais",
+            "Indicador": "Proporção obesos > 14 anos, com consulta de vigilância de obesidade nos últimos 2 anos",
+            "Pesos Relativos (%)": "1.44",
+            "Meta": "62.0"
+          },
+          {
+            "Categoria": "Objectivos Regionais",
+            "Indicador": "Proporção novos DM2 em terap. c/ metform. monot.",
+            "Pesos Relativos (%)": "0.75",
+            "Meta": "73.0"
+          },
+          {
+            "Categoria": "Objectivos Locais",
+            "Indicador": "Proporção DM c/ cons. enf. vigil. DM último ano",
+            "Pesos Relativos (%)": "1.20",
+            "Meta": "75.0"
+          },
+          {
+            "Categoria": "Objectivos Locais",
+            "Indicador": "Proporção DM c/ microalbum. último ano",
+            "Pesos Relativos (%)": "1.20",
+            "Meta": "54.0"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 4,
+        "table_data": [
+          {
+            "Categoria": "Objetivos Nacionais - A. Acesso",
+            "Indicador": "A.1 Percentagem das primeiras consultas no total de consultas médicas (%)",
+            "Pesos Relativos (%)": "1.35",
+            "Meta": "31.4"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - A. Acesso",
+            "Indicador": "A.2 Percentagem de utentes referenciados para consulta externa atendidos em tempo adequado (%)",
+            "Pesos Relativos (%)": "1.35",
+            "Meta": "94.0"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - A. Acesso",
+            "Indicador": "A.3 Peso das consultas externas com registo de alta no total de consultas externas (%)",
+            "Pesos Relativos (%)": "1.35",
+            "Meta": "13.0"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - A. Acesso",
+            "Indicador": "A.4 Percentagem de inscritos em LIC (neoplasias malignas) com tempo de espera ≤ TMRG (%)",
+            "Pesos Relativos (%)": "1.35",
+            "Meta": "99.0"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - A. Acesso",
+            "Indicador": "A.5 Permilagem de doentes sinalizados para a RNCCI, em tempo adequado, no total de doentes tratados (%o)",
+            "Pesos Relativos (%)": "1.35",
+            "Meta": "70.00"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - B. Desempenho Assistencial",
+            "Indicador": "B.1 Demora média (dias)",
+            "Pesos Relativos (%)": "1.80",
+            "Meta": "7.30"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - B. Desempenho Assistencial",
+            "Indicador": "B.2 Percentagem de reinternamentos em 30 dias (%)",
+            "Pesos Relativos (%)": "1.80",
+            "Meta": "7.0"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - B. Desempenho Assistencial",
+            "Indicador": "B.3 Percentagem de doentes saídos com duração de internamento acima do limiar máximo (%)",
+            "Pesos Relativos (%)": "1.80",
+            "Meta": "0.80"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - B. Desempenho Assistencial",
+            "Indicador": "B.4 Percentagem de cirurgias da anca efetuadas nas primeiras 48 horas (%)",
+            "Pesos Relativos (%)": "1.80",
+            "Meta": "70.00"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - B. Desempenho Assistencial",
+            "Indicador": "B.5 Percentagem de cirurgias realizadas em ambulatório no total de cirurgias programadas (GDH) - para procedimentos ambulatorizáveis (%)",
+            "Pesos Relativos (%)": "1.35",
+            "Meta": "80.0"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - B. Desempenho Assistencial",
+            "Indicador": "B.6 Percentagem de consumo de embalagens de medicamentos genéricos, no total de embalagens de medicamentos (%)",
+            "Pesos Relativos (%)": "1.35",
+            "Meta": "50.00"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - B. Desempenho Assistencial",
+            "Indicador": "B.7 Taxa de registo de utilização da \"Lista de Verificação de Atividade Cirúrgica\" – Indicador referente à cirurgia segura (%)",
+            "Pesos Relativos (%)": "1.35",
+            "Meta": "97.0"
+          },
+          {
+            "Categoria": "Objetivos Regionais",
+            "Indicador": "Proporção de Diabéticos Mellitus com exame oftalmológico no último ano",
+            "Pesos Relativos (%)": "2.10",
+            "Meta": "20.00"
+          },
+          {
+            "Categoria": "Objetivos Regionais",
+            "Indicador": "Taxa de crescimento dos custos com medicamentos facturados em farmácia de oficina (%)",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "-13.30"
+          },
+          {
+            "Categoria": "Objetivos Regionais",
+            "Indicador": "% de casos com \"Estado do tumor após tratamento\" desconhecido",
+            "Pesos Relativos (%)": "0.90",
+            "Meta": "10.00"
+          },
+          {
+            "Categoria": "Objetivos Regionais",
+            "Indicador": "Incidência Infeção Hospitalar por Staphylococcus Aureus por 1000 Doentes Admitidos",
+            "Pesos Relativos (%)": "1.20",
+            "Meta": "5.97"
+          },
+          {
+            "Categoria": "Objetivos Regionais",
+            "Indicador": "% de embalagens de quinolonas facturadas no total de embalagens de antibióticos facturados (em ambulatório)",
+            "Pesos Relativos (%)": "1.20",
+            "Meta": "14.00"
+          },
+          {
+            "Categoria": "Objetivos Regionais",
+            "Indicador": "% consultas referenciadas pelos cuidados de saúde primários no total de consultas externas",
+            "Pesos Relativos (%)": "1.80",
+            "Meta": "13.20"
+          },
+          {
+            "Categoria": "Objetivos Regionais",
+            "Indicador": "Indice Global de Desempenho dos Cuidados de Saúde Primários",
+            "Pesos Relativos (%)": "1.80",
+            "Meta": "80.00"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - C. Desempenho Económico/Financeiro",
+            "Indicador": "C.1 Percentagem de Custos com Horas Extraordinárias, Suplementos e FSE (selecionados), no Total de Custos com Pessoal (€)",
+            "Pesos Relativos (%)": "10.00",
+            "Meta": "26.5"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - C. Desempenho Económico/Financeiro",
+            "Indicador": "C.2 Resultado antes juros, impostos, amortizações e depreciações (EBITDA) (€)",
+            "Pesos Relativos (%)": "10.00",
+            "Meta": "3406516.62"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - C. Desempenho Económico/Financeiro",
+            "Indicador": "C.3 Acréscimo de Dívida Vencida (fornecedores externos) (€)",
+            "Pesos Relativos (%)": "10.00",
+            "Meta": "0.00"
+          },
+          {
+            "Categoria": "Objetivos Nacionais - C. Desempenho Económico/Financeiro",
+            "Indicador": "C.4 Percentagem de proveitos operacionais extra contrato-programa, no total de proveitos operacionais (%)",
+            "Pesos Relativos (%)": "10.00",
+            "Meta": "6.6"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 5,
+        "table_data": [
+          {
+            "Conta": "71-Vendas e prestações de serviços",
+            "Valor Estimado 2014": "53820689.62",
+            "Valor Contratualizado 2015": "53387253.51",
+            "% Var 2015 / 2014": "-0.8"
+          },
+          {
+            "Conta": "711-Vendas",
+            "Valor Estimado 2014": "2716.63",
+            "Valor Contratualizado 2015": "200.00",
+            "% Var 2015 / 2014": "-92.6"
+          },
+          {
+            "Conta": "712-Prestações de serviços",
+            "Valor Estimado 2014": "53817972.99",
+            "Valor Contratualizado 2015": "53387053.51",
+            "% Var 2015 / 2014": "-0.8"
+          },
+          {
+            "Conta": "7121 Instituições SNS",
+            "Valor Estimado 2014": "50963368.73",
+            "Valor Contratualizado 2015": "50821540.67",
+            "% Var 2015 / 2014": "-0.3"
+          },
+          {
+            "Conta": "71218-Outras Prestações de Serviços de Saúde - SNS CP",
+            "Valor Estimado 2014": "50963368.73",
+            "Valor Contratualizado 2015": "50821540.67",
+            "% Var 2015 / 2014": "-0.3"
+          },
+          {
+            "Conta": "712185-Valor Capitacional (valor a facturar pelas ULS) - SNS CP",
+            "Valor Estimado 2014": "50963368.73",
+            "Valor Contratualizado 2015": "50007532.31",
+            "% Var 2015 / 2014": "-1.9"
+          },
+          {
+            "Conta": "712189-Outras prestações serviços de saúde - SNS CP",
+            "Valor Estimado 2014": "",
+            "Valor Contratualizado 2015": "814008.36",
+            "% Var 2015 / 2014": ""
+          },
+          {
+            "Conta": "7122 - Outras Entidades Responsáveis",
+            "Valor Estimado 2014": "2854604.26",
+            "Valor Contratualizado 2015": "2565512.84",
+            "% Var 2015 / 2014": "-10.1"
+          },
+          {
+            "Conta": "71221-Internamento",
+            "Valor Estimado 2014": "897123.74",
+            "Valor Contratualizado 2015": "800000.00",
+            "% Var 2015 / 2014": "-10.8"
+          },
+          {
+            "Conta": "71222-Consulta",
+            "Valor Estimado 2014": "10074.90",
+            "Valor Contratualizado 2015": "13560.00",
+            "% Var 2015 / 2014": "34.6"
+          },
+          {
+            "Conta": "71223-Urgência/SAP",
+            "Valor Estimado 2014": "181388.32",
+            "Valor Contratualizado 2015": "150000.00",
+            "% Var 2015 / 2014": "-17.3"
+          },
+          {
+            "Conta": "71224-Quartos particulares",
+            "Valor Estimado 2014": "",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": ""
+          },
+          {
+            "Conta": "71225-Hospital de dia",
+            "Valor Estimado 2014": "",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": ""
+          },
+          {
+            "Conta": "71226-Meios compl. de diagnóstico e terapêutica",
+            "Valor Estimado 2014": "54975.44",
+            "Valor Contratualizado 2015": "69184.88",
+            "% Var 2015 / 2014": "25.8"
+          },
+          {
+            "Conta": "712261-Meios complementares diagnóstico - Outras Ent Resp",
+            "Valor Estimado 2014": "54828.19",
+            "Valor Contratualizado 2015": "69184.88",
+            "% Var 2015 / 2014": "26.2"
+          },
+          {
+            "Conta": "712262-Meios complementares terapêutica - Outras Ent Resp",
+            "Valor Estimado 2014": "147.25",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": "-100.0"
+          },
+          {
+            "Conta": "71227-Taxas moderadoras - Outras Ent Resp",
+            "Valor Estimado 2014": "1462438.04",
+            "Valor Contratualizado 2015": "1422088.43",
+            "% Var 2015 / 2014": "-2.8"
+          },
+          {
+            "Conta": "71228-Outras Prestações de Serviços de Saúde",
+            "Valor Estimado 2014": "238379.91",
+            "Valor Contratualizado 2015": "110679.53",
+            "% Var 2015 / 2014": "-53.6"
+          },
+          {
+            "Conta": "712281-Serviço domiciliário",
+            "Valor Estimado 2014": "",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": ""
+          },
+          {
+            "Conta": "712282-GDH de Ambulatório - Outras Ent Resp",
+            "Valor Estimado 2014": "",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": ""
+          },
+          {
+            "Conta": "712289-Outras prestações serviços de saúde - Outras Ent Resp",
+            "Valor Estimado 2014": "238379.91",
+            "Valor Contratualizado 2015": "110679.53",
+            "% Var 2015 / 2014": "-53.6"
+          },
+          {
+            "Conta": "71229-Outras prestações de serviços - Outras Ent Resp",
+            "Valor Estimado 2014": "10223.91",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": "-100.0"
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2014": "53820689.62",
+            "Valor Contratualizado 2015": "53387253.51",
+            "% Var 2015 / 2014": "-0.8"
+          },
+          {
+            "Conta": "72-Impostos e taxas",
+            "Valor Estimado 2014": "708707.92",
+            "Valor Contratualizado 2015": "704683.90",
+            "% Var 2015 / 2014": "-0.6"
+          },
+          {
+            "Conta": "73-Proveitos suplementares",
+            "Valor Estimado 2014": "49886.41",
+            "Valor Contratualizado 2015": "56139.03",
+            "% Var 2015 / 2014": "12.5"
+          },
+          {
+            "Conta": "74-Transf. e subsídios correntes obtidos",
+            "Valor Estimado 2014": "69113.32",
+            "Valor Contratualizado 2015": "66000.00",
+            "% Var 2015 / 2014": "-4.5"
+          },
+          {
+            "Conta": "741-Transferências-Tesouro",
+            "Valor Estimado 2014": "",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": ""
+          },
+          {
+            "Conta": "742-Transferências correntes obtidas",
+            "Valor Estimado 2014": "4672.02",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": "-100.0"
+          },
+          {
+            "Conta": "7429-Outras Transferências Correntes Obtidas",
+            "Valor Estimado 2014": "4672.02",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": "-100.0"
+          },
+          {
+            "Conta": "743-Sub. correntes obtidos-Outros entes públicos",
+            "Valor Estimado 2014": "48383.40",
+            "Valor Contratualizado 2015": "50000.00",
+            "% Var 2015 / 2014": "3.3"
+          },
+          {
+            "Conta": "749-Sub. correntes obtidos-De outras entidades",
+            "Valor Estimado 2014": "16057.90",
+            "Valor Contratualizado 2015": "16000.00",
+            "% Var 2015 / 2014": "-0.4"
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2014": "69113.32",
+            "Valor Contratualizado 2015": "66000.00",
+            "% Var 2015 / 2014": "-4.5"
+          },
+          {
+            "Conta": "76-Outros proveitos e ganhos operacionais",
+            "Valor Estimado 2014": "461546.49",
+            "Valor Contratualizado 2015": "180000.00",
+            "% Var 2015 / 2014": "-61.0"
+          },
+          {
+            "Conta": "762-Reembolsos",
+            "Valor Estimado 2014": "230801.16",
+            "Valor Contratualizado 2015": "180000.00",
+            "% Var 2015 / 2014": "-22.0"
+          },
+          {
+            "Conta": "768-Outros não espec. alheios valor acrescentado",
+            "Valor Estimado 2014": "621.09",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": "-100.0"
+          },
+          {
+            "Conta": "769-Outros",
+            "Valor Estimado 2014": "230124.24",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015 / 2014": "-100.0"
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2014": "461546.49",
+            "Valor Contratualizado 2015": "180000.00",
+            "% Var 2015 / 2014": "-61.0"
+          },
+          {
+            "Conta": "78-Proveitos e ganhos financeiros",
+            "Valor Estimado 2014": "244333.74",
+            "Valor Contratualizado 2015": "85000.00",
+            "% Var 2015 / 2014": "-65.2"
+          },
+          {
+            "Conta": "79-Proveitos e ganhos extraordinários",
+            "Valor Estimado 2014": "0.00",
+            "Valor Contratualizado 2015": "442.92",
+            "% Var 2015 / 2014": ""
+          },
+          {
+            "Conta": "TOTAL GERAL",
+            "Valor Estimado 2014": "55354277.50",
+            "Valor Contratualizado 2015": "54479519.36",
+            "% Var 2015 / 2014": "-1.6"
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "page": 7,
+        "table_data": [
+          {
+            "Conta": "616-Matérias de consumo",
+            "Valor Estimado 2014": "8282569.90",
+            "Valor Contratualizado 2015": "8300000.00",
+            "% Var 2015/2014": "0.2"
+          },
+          {
+            "Conta": "6161-Produtos Farmacêuticos",
+            "Valor Estimado 2014": "5737201.11",
+            "Valor Contratualizado 2015": "5739000.00",
+            "% Var 2015/2014": "0.0"
+          },
+          {
+            "Conta": "61611-Medicamentos",
+            "Valor Estimado 2014": "4537201.11",
+            "Valor Contratualizado 2015": "4589000.00",
+            "% Var 2015/2014": "1.1"
+          },
+          {
+            "Conta": "61612/9-Reagentes/Outros produtos farmacêuticos",
+            "Valor Estimado 2014": "1200000.00",
+            "Valor Contratualizado 2015": "1150000.00",
+            "% Var 2015/2014": "-4.2"
+          },
+          {
+            "Conta": "6162-Material consumo clínico",
+            "Valor Estimado 2014": "2225853.17",
+            "Valor Contratualizado 2015": "2250000.00",
+            "% Var 2015/2014": "1.1"
+          },
+          {
+            "Conta": "6163-Produtos alimentares",
+            "Valor Estimado 2014": "7399.30",
+            "Valor Contratualizado 2015": "5000.00",
+            "% Var 2015/2014": "-32.4"
+          },
+          {
+            "Conta": "6164-Material consumo hoteleiro",
+            "Valor Estimado 2014": "65471.20",
+            "Valor Contratualizado 2015": "76000.00",
+            "% Var 2015/2014": "16.1"
+          },
+          {
+            "Conta": "6165-Material consumo administrativo",
+            "Valor Estimado 2014": "75000.00",
+            "Valor Contratualizado 2015": "80000.00",
+            "% Var 2015/2014": "6.7"
+          },
+          {
+            "Conta": "6166-Material manutenção e conservação",
+            "Valor Estimado 2014": "171645.12",
+            "Valor Contratualizado 2015": "150000.00",
+            "% Var 2015/2014": "-12.6"
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2014": "8282569.90",
+            "Valor Contratualizado 2015": "8300000.00",
+            "% Var 2015/2014": "0.2"
+          },
+          {
+            "Conta": "6211-Assistência ambulatória",
+            "Valor Estimado 2014": "767.25",
+            "Valor Contratualizado 2015": "900.00",
+            "% Var 2015/2014": "17.3"
+          },
+          {
+            "Conta": "6212-Meios complementares diagnóstico",
+            "Valor Estimado 2014": "1959267.77",
+            "Valor Contratualizado 2015": "1922600.00",
+            "% Var 2015/2014": "-1.9"
+          },
+          {
+            "Conta": "62121-Patologia clínica",
+            "Valor Estimado 2014": "1318693.91",
+            "Valor Contratualizado 2015": "1240000.00",
+            "% Var 2015/2014": "-6.0"
+          },
+          {
+            "Conta": "62122-Anatomia patológica",
+            "Valor Estimado 2014": "2449.08",
+            "Valor Contratualizado 2015": "5000.00",
+            "% Var 2015/2014": "104.2"
+          },
+          {
+            "Conta": "62123-Imagiologia",
+            "Valor Estimado 2014": "488019.53",
+            "Valor Contratualizado 2015": "485000.00",
+            "% Var 2015/2014": "-0.6"
+          },
+          {
+            "Conta": "62124-Cardiologia",
+            "Valor Estimado 2014": "114742.77",
+            "Valor Contratualizado 2015": "140000.00",
+            "% Var 2015/2014": "22.0"
+          },
+          {
+            "Conta": "62125-Electroencefalografia",
+            "Valor Estimado 2014": "4972.40",
+            "Valor Contratualizado 2015": "8000.00",
+            "% Var 2015/2014": "60.9"
+          },
+          {
+            "Conta": "62126-Medicina nuclear",
+            "Valor Estimado 2014": "10920.05",
+            "Valor Contratualizado 2015": "20000.00",
+            "% Var 2015/2014": "83.1"
+          },
+          {
+            "Conta": "62127-Gastrenterologia",
+            "Valor Estimado 2014": "16895.41",
+            "Valor Contratualizado 2015": "20000.00",
+            "% Var 2015/2014": "18.4"
+          },
+          {
+            "Conta": "62128-Pneumologia/Imunoalergologia",
+            "Valor Estimado 2014": "363.82",
+            "Valor Contratualizado 2015": "1000.00",
+            "% Var 2015/2014": "174.9"
+          },
+          {
+            "Conta": "62129-Outros",
+            "Valor Estimado 2014": "2210.80",
+            "Valor Contratualizado 2015": "3600.00",
+            "% Var 2015/2014": "62.8"
+          },
+          {
+            "Conta": "6213-Meios complementares terapêutica",
+            "Valor Estimado 2014": "462438.04",
+            "Valor Contratualizado 2015": "100000.00",
+            "% Var 2015/2014": "-78.4"
+          },
+          {
+            "Conta": "62131-Hemodiálise",
+            "Valor Estimado 2014": "462438.04",
+            "Valor Contratualizado 2015": "100000.00",
+            "% Var 2015/2014": "-78.4"
+          },
+          {
+            "Conta": "6216-Transporte de doentes",
+            "Valor Estimado 2014": "1069312.41",
+            "Valor Contratualizado 2015": "1052000.00",
+            "% Var 2015/2014": "-1.6"
+          },
+          {
+            "Conta": "6218-Trabalhos executados no exterior",
+            "Valor Estimado 2014": "5372521.22",
+            "Valor Contratualizado 2015": "5133700.00",
+            "% Var 2015/2014": "-4.4"
+          },
+          {
+            "Conta": "62181-Em entidades do M. Saúde",
+            "Valor Estimado 2014": "1122760.21",
+            "Valor Contratualizado 2015": "959200.00",
+            "% Var 2015/2014": "-14.6"
+          },
+          {
+            "Conta": "621811-Assistência ambulatória",
+            "Valor Estimado 2014": "7669.84",
+            "Valor Contratualizado 2015": "7500.00",
+            "% Var 2015/2014": "-2.2"
+          },
+          {
+            "Conta": "621812-Meios complementares de diagnóstico",
+            "Valor Estimado 2014": "409008.96",
+            "Valor Contratualizado 2015": "394150.00",
+            "% Var 2015/2014": "-3.6"
+          },
+          {
+            "Conta": "621813-Meios complementares de terapêutica",
+            "Valor Estimado 2014": "683113.96",
+            "Valor Contratualizado 2015": "511750.00",
+            "% Var 2015/2014": "-25.1"
+          },
+          {
+            "Conta": "621814-Prescrição medicam. e cuid. farmac.",
+            "Valor Estimado 2014": "15748.53",
+            "Valor Contratualizado 2015": "20000.00",
+            "% Var 2015/2014": "27.0"
+          },
+          {
+            "Conta": "621815-Internamentos e transporte de doentes",
+            "Valor Estimado 2014": "1500.24",
+            "Valor Contratualizado 2015": "11800.00",
+            "% Var 2015/2014": "686.5"
+          },
+          {
+            "Conta": "621819-Outros trabalhos executados no exterior",
+            "Valor Estimado 2014": "5718.68",
+            "Valor Contratualizado 2015": "14000.00",
+            "% Var 2015/2014": "144.8"
+          },
+          {
+            "Conta": "62189-Em outras entidades",
+            "Valor Estimado 2014": "4249761.01",
+            "Valor Contratualizado 2015": "4174500.00",
+            "% Var 2015/2014": "-1.8"
+          },
+          {
+            "Conta": "621891-Assistência ambulatória",
+            "Valor Estimado 2014": "2210.75",
+            "Valor Contratualizado 2015": "4000.00",
+            "% Var 2015/2014": "80.9"
+          },
+          {
+            "Conta": "621892-Meios complementares diagnóstico",
+            "Valor Estimado 2014": "118172.27",
+            "Valor Contratualizado 2015": "190000.00",
+            "% Var 2015/2014": "60.8"
+          },
+          {
+            "Conta": "621893-Meios complementares terapêutica",
+            "Valor Estimado 2014": "3141042.21",
+            "Valor Contratualizado 2015": "2950000.00",
+            "% Var 2015/2014": "-6.1"
+          },
+          {
+            "Conta": "621894-Prescrição medicam. e cuid. farmac.",
+            "Valor Estimado 2014": "11868.90",
+            "Valor Contratualizado 2015": "12000.00",
+            "% Var 2015/2014": "1.1"
+          },
+          {
+            "Conta": "621895-Internamentos e transporte de doentes",
+            "Valor Estimado 2014": "869717.76",
+            "Valor Contratualizado 2015": "858500.00",
+            "% Var 2015/2014": "-1.3"
+          },
+          {
+            "Conta": "621896-Aparelhos complementares de terapêutica",
+            "Valor Estimado 2014": "106749.12",
+            "Valor Contratualizado 2015": "160000.00",
+            "% Var 2015/2014": "49.9"
+          },
+          {
+            "Conta": "6219-Outros subcontratos",
+            "Valor Estimado 2014": "110.98",
+            "Valor Contratualizado 2015": "12000.00",
+            "% Var 2015/2014": "10712.8"
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2014": "8864417.67",
+            "Valor Contratualizado 2015": "8221200.00",
+            "% Var 2015/2014": "-7.3"
+          },
+          {
+            "Conta": "6221-Fornecimentos e serviços I",
+            "Valor Estimado 2014": "1469260.18",
+            "Valor Contratualizado 2015": "1530750.00",
+            "% Var 2015/2014": "4.2"
+          },
+          {
+            "Conta": "6222-Fornecimentos e serviços II",
+            "Valor Estimado 2014": "1169274.28",
+            "Valor Contratualizado 2015": "1170000.00",
+            "% Var 2015/2014": "0.1"
+          },
+          {
+            "Conta": "6223-Fornecimentos e serviços III",
+            "Valor Estimado 2014": "6528811.53",
+            "Valor Contratualizado 2015": "6800000.00",
+            "% Var 2015/2014": "4.2"
+          },
+          {
+            "Conta": "6229-Outros fornecimentos e serviços",
+            "Valor Estimado 2014": "36167.65",
+            "Valor Contratualizado 2015": "360000.00",
+            "% Var 2015/2014": "895.4"
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2014": "9203513.64",
+            "Valor Contratualizado 2015": "9860750.00",
+            "% Var 2015/2014": "7.1"
+          },
+          {
+            "Conta": "641-Remunerações dos orgãos directivos",
+            "Valor Estimado 2014": "247475.00",
+            "Valor Contratualizado 2015": "268657.82",
+            "% Var 2015/2014": "8.6"
+          },
+          {
+            "Conta": "642-Remunerações de pessoal",
+            "Valor Estimado 2014": "19474728.75",
+            "Valor Contratualizado 2015": "19646202.00",
+            "% Var 2015/2014": "0.9"
+          },
+          {
+            "Conta": "6421-Remunerações base do pessoal",
+            "Valor Estimado 2014": "12684066.72",
+            "Valor Contratualizado 2015": "12425125.00",
+            "% Var 2015/2014": "-2.0"
+          },
+          {
+            "Conta": "64211-RCTFP por tempo indeterminado",
+            "Valor Estimado 2014": "6425109.47",
+            "Valor Contratualizado 2015": "6825125.00",
+            "% Var 2015/2014": "6.2"
+          },
+          {
+            "Conta": "64212-Pessoal c/ contrato a termo resolutivo",
+            "Valor Estimado 2014": "656503.94",
+            "Valor Contratualizado 2015": "890000.00",
+            "% Var 2015/2014": "35.6"
+          },
+          {
+            "Conta": "64213-Pessoal em regime Contrato Individual",
+            "Valor Estimado 2014": "5150830.96",
+            "Valor Contratualizado 2015": "4150000.00",
+            "% Var 2015/2014": "-19.4"
+          },
+          {
+            "Conta": "64214-Pessoal em qualquer outra situação",
+            "Valor Estimado 2014": "451622.35",
+            "Valor Contratualizado 2015": "560000.00",
+            "% Var 2015/2014": "24.0"
+          },
+          {
+            "Conta": "6422-Suplementos de remunerações",
+            "Valor Estimado 2014": "4481336.89",
+            "Valor Contratualizado 2015": "4999077.00",
+            "% Var 2015/2014": "11.6"
+          },
+          {
+            "Conta": "64221-Trabalho extraordinário",
+            "Valor Estimado 2014": "2409754.16",
+            "Valor Contratualizado 2015": "2500000.00",
+            "% Var 2015/2014": "3.7"
+          },
+          {
+            "Conta": "642211-Horas extraordinárias",
+            "Valor Estimado 2014": "2107716.47",
+            "Valor Contratualizado 2015": "2200000.00",
+            "% Var 2015/2014": "4.4"
+          },
+          {
+            "Conta": "642212-Prevenções",
+            "Valor Estimado 2014": "302037.69",
+            "Valor Contratualizado 2015": "300000.00",
+            "% Var 2015/2014": "-0.7"
+          },
+          {
+            "Conta": "64222-Trabalho em regime de turnos",
+            "Valor Estimado 2014": "707911.59",
+            "Valor Contratualizado 2015": "859077.00",
+            "% Var 2015/2014": "21.4"
+          },
+          {
+            "Conta": "642221-Noites e suplementos",
+            "Valor Estimado 2014": "707911.59",
+            "Valor Contratualizado 2015": "859077.00",
+            "% Var 2015/2014": "21.4"
+          },
+          {
+            "Conta": "64223-Abono para falhas",
+            "Valor Estimado 2014": "1128.45",
+            "Valor Contratualizado 2015": "2000.00",
+            "% Var 2015/2014": "77.2"
+          },
+          {
+            "Conta": "64224-Subsídio de refeição",
+            "Valor Estimado 2014": "709725.40",
+            "Valor Contratualizado 2015": "900000.00",
+            "% Var 2015/2014": "26.8"
+          },
+          {
+            "Conta": "64225-Ajudas de custo",
+            "Valor Estimado 2014": "149117.85",
+            "Valor Contratualizado 2015": "175000.00",
+            "% Var 2015/2014": "17.4"
+          },
+          {
+            "Conta": "642281-PECLEC/SIGIC",
+            "Valor Estimado 2014": "38277.36",
+            "Valor Contratualizado 2015": "38000.00",
+            "% Var 2015/2014": "-0.7"
+          },
+          {
+            "Conta": "642282/9-Outros Suplementos",
+            "Valor Estimado 2014": "465422.08",
+            "Valor Contratualizado 2015": "525000.00",
+            "% Var 2015/2014": "12.8"
+          },
+          {
+            "Conta": "6423-Prestações sociais directas",
+            "Valor Estimado 2014": "19107.80",
+            "Valor Contratualizado 2015": "22000.00",
+            "% Var 2015/2014": "15.1"
+          },
+          {
+            "Conta": "6424-Subsídios de férias e de Natal",
+            "Valor Estimado 2014": "2290217.34",
+            "Valor Contratualizado 2015": "2200000.00",
+            "% Var 2015/2014": "-3.9"
+          },
+          {
+            "Conta": "643-Pensões",
+            "Valor Estimado 2014": "88264.18",
+            "Valor Contratualizado 2015": "60000.00",
+            "% Var 2015/2014": "-32.0"
+          },
+          {
+            "Conta": "645-Encargos sobre remunerações",
+            "Valor Estimado 2014": "4097664.25",
+            "Valor Contratualizado 2015": "4350750.00",
+            "% Var 2015/2014": "6.2"
+          },
+          {
+            "Conta": "646-Seguros de acid, trab. e doenças profissionais",
+            "Valor Estimado 2014": "33522.62",
+            "Valor Contratualizado 2015": "150000.00",
+            "% Var 2015/2014": "347.5"
+          },
+          {
+            "Conta": "647-Encargos sociais voluntários",
+            "Valor Estimado 2014": "41368.57",
+            "Valor Contratualizado 2015": "50000.00",
+            "% Var 2015/2014": "20.9"
+          },
+          {
+            "Conta": "648-Outros custos com pessoal",
+            "Valor Estimado 2014": "22559.72",
+            "Valor Contratualizado 2015": "45000.00",
+            "% Var 2015/2014": "99.5"
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2014": "24005583.09",
+            "Valor Contratualizado 2015": "24570609.82",
+            "% Var 2015/2014": "2.4"
+          },
+          {
+            "Conta": "65-Outros custos e perdas operacionais",
+            "Valor Estimado 2014": "124106.17",
+            "Valor Contratualizado 2015": "35000.00",
+            "% Var 2015/2014": "-71.8"
+          },
+          {
+            "Conta": "66-Amortizações do exercício",
+            "Valor Estimado 2014": "1250000.00",
+            "Valor Contratualizado 2015": "750000.00",
+            "% Var 2015/2014": "-40.0"
+          },
+          {
+            "Conta": "67-Provisões do exercício",
+            "Valor Estimado 2014": "150000.00",
+            "Valor Contratualizado 2015": "60000.00",
+            "% Var 2015/2014": "-60.0"
+          },
+          {
+            "Conta": "68-Custos e perdas financeiras",
+            "Valor Estimado 2014": "3000.00",
+            "Valor Contratualizado 2015": "11000.00",
+            "% Var 2015/2014": "266.7"
+          },
+          {
+            "Conta": "69-Custos e perdas extraordinários",
+            "Valor Estimado 2014": "1125893.83",
+            "Valor Contratualizado 2015": "1026146.54",
+            "% Var 2015/2014": "-8.9"
+          },
+          {
+            "Conta": "TOTAL GERAL",
+            "Valor Estimado 2014": "53009084.30",
+            "Valor Contratualizado 2015": "52834706.36",
+            "% Var 2015/2014": "-0.3"
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "page": 9,
+        "table_data": [
+          {
+            "Fluxo": "Fluxos de Actividades Operacionais - Recebimentos (+):",
+            "Valor Estimado 2014": "52656916.97",
+            "Valor Contratualizado 2015": "52814311.00",
+            "% Var 2015 / 2014": "0.30"
+          },
+          {
+            "Fluxo": "Contrato-programa (produção)",
+            "Valor Estimado 2014": "49606468.69",
+            "Valor Contratualizado 2015": "49654311.00",
+            "% Var 2015 / 2014": "0.10"
+          },
+          {
+            "Fluxo": "Dívidas de Terceiros (outras entidades)",
+            "Valor Estimado 2014": "1533125.56",
+            "Valor Contratualizado 2015": "1640000.00",
+            "% Var 2015 / 2014": "6.97"
+          },
+          {
+            "Fluxo": "Taxas Moderadoras (R)",
+            "Valor Estimado 2014": "1517322.72",
+            "Valor Contratualizado 2015": "1520000.00",
+            "% Var 2015 / 2014": "0.18"
+          },
+          {
+            "Fluxo": "Fluxos de Actividades Operacionais - Pagamentos (-):",
+            "Valor Estimado 2014": "-53670524.61",
+            "Valor Contratualizado 2015": "-46642601.49",
+            "% Var 2015 / 2014": "-13.09"
+          },
+          {
+            "Fluxo": "Fornecedores e outros c/c",
+            "Valor Estimado 2014": "-31045259.62",
+            "Valor Contratualizado 2015": "-22071991.67",
+            "% Var 2015 / 2014": "-28.90"
+          },
+          {
+            "Fluxo": "Custos com Pessoal",
+            "Valor Estimado 2014": "-22625264.99",
+            "Valor Contratualizado 2015": "-24570609.82",
+            "% Var 2015 / 2014": "8.60"
+          },
+          {
+            "Fluxo": "Fluxos de Actividades Operacionais",
+            "Valor Estimado 2014": "-1013607.64",
+            "Valor Contratualizado 2015": "6171709.51",
+            "% Var 2015 / 2014": "-708.89"
+          },
+          {
+            "Fluxo": "Fluxos de Actividades de Investimento - Pagamentos respeitantes a (-):",
+            "Valor Estimado 2014": "-359494.04",
+            "Valor Contratualizado 2015": "-1204100.00",
+            "% Var 2015 / 2014": "234.94"
+          },
+          {
+            "Fluxo": "Investimentos Financeiros",
+            "Valor Estimado 2014": "-3770.24",
+            "Valor Contratualizado 2015": "-4100.00",
+            "% Var 2015 / 2014": "8.75"
+          },
+          {
+            "Fluxo": "Imobilizações Corpóreas",
+            "Valor Estimado 2014": "-355723.80",
+            "Valor Contratualizado 2015": "-1200000.00",
+            "% Var 2015 / 2014": "237.34"
+          },
+          {
+            "Fluxo": "Fluxos de Actividades de Investimento",
+            "Valor Estimado 2014": "-359494.04",
+            "Valor Contratualizado 2015": "-1204100.00",
+            "% Var 2015 / 2014": "234.94"
+          },
+          {
+            "Fluxo": "Fluxos de Actividades de Financiamento - Recebimentos provenientes de (+):",
+            "Valor Estimado 2014": "",
+            "Valor Contratualizado 2015": "10900000.00",
+            "% Var 2015 / 2014": ""
+          },
+          {
+            "Fluxo": "Aumentos de Capital e P. Suplementares",
+            "Valor Estimado 2014": "",
+            "Valor Contratualizado 2015": "10900000.00",
+            "% Var 2015 / 2014": ""
+          },
+          {
+            "Fluxo": "Fluxos de Actividades de Financiamento - Pagamentos respeitantes a (-):",
+            "Valor Estimado 2014": "-45913.04",
+            "Valor Contratualizado 2015": "-4003125.00",
+            "% Var 2015 / 2014": "8618.93"
+          },
+          {
+            "Fluxo": "Empréstimos Obtidos",
+            "Valor Estimado 2014": "",
+            "Valor Contratualizado 2015": "-4000000.00",
+            "% Var 2015 / 2014": ""
+          },
+          {
+            "Fluxo": "Juros e Custos Similares",
+            "Valor Estimado 2014": "-45913.04",
+            "Valor Contratualizado 2015": "-3125.00",
+            "% Var 2015 / 2014": "-93.19"
+          },
+          {
+            "Fluxo": "Fluxos de Actividades de Financiamento",
+            "Valor Estimado 2014": "-45913.04",
+            "Valor Contratualizado 2015": "6896875.00",
+            "% Var 2015 / 2014": "-15121.60"
+          },
+          {
+            "Fluxo": "Variação de Caixa e seus equivalentes",
+            "Valor Estimado 2014": "-1419014.72",
+            "Valor Contratualizado 2015": "11864484.51",
+            "% Var 2015 / 2014": "-936.11"
+          },
+          {
+            "Fluxo": "Caixa no início do período",
+            "Valor Estimado 2014": "2219014.72",
+            "Valor Contratualizado 2015": "800000.00",
+            "% Var 2015 / 2014": "-63.95"
+          },
+          {
+            "Fluxo": "Caixa no fim do periodo",
+            "Valor Estimado 2014": "800000.00",
+            "Valor Contratualizado 2015": "12664484.51",
+            "% Var 2015 / 2014": "1483.06"
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "page": 10,
+        "table_data": [
+          {
+            "Descrição": "TOTAL",
+            "Valor Estimado 2014": "0.00",
+            "Valor Contratualizado 2015": "0.00",
+            "% Var 2015/2014": ""
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "page": 11,
+        "table_data": [
+          {
+            "Categoria": "Imobilizações Corpóreas",
+            "Conta": "421-Terrenos e Recursos Naturais",
+            "AL - Activo Liquido 2014": null,
+            "AB - Activo Bruto 2015": "1467280.41",
+            "AP - Amortizações ou Provisões 2015": "0.00",
+            "AL - Activo Liquido 2015": "1467280.41"
+          },
+          {
+            "Categoria": "Imobilizações Corpóreas",
+            "Conta": "422- Edifícios e Outras Construções",
+            "AL - Activo Liquido 2014": "3480782.24",
+            "AB - Activo Bruto 2015": "8299002.00",
+            "AP - Amortizações ou Provisões 2015": "262678.50",
+            "AL - Activo Liquido 2015": "8036323.50"
+          },
+          {
+            "Categoria": "Imobilizações Corpóreas",
+            "Conta": "423-Equipamento Básico",
+            "AL - Activo Liquido 2014": "1865426.87",
+            "AB - Activo Bruto 2015": "5403708.36",
+            "AP - Amortizações ou Provisões 2015": "2521834.04",
+            "AL - Activo Liquido 2015": "2881874.32"
+          },
+          {
+            "Categoria": "Imobilizações Corpóreas",
+            "Conta": "424-Equipamento de Transporte",
+            "AL - Activo Liquido 2014": "23284.08",
+            "AB - Activo Bruto 2015": "128134.50",
+            "AP - Amortizações ou Provisões 2015": "35816.31",
+            "AL - Activo Liquido 2015": "92318.19"
+          },
+          {
+            "Categoria": "Imobilizações Corpóreas",
+            "Conta": "425-Ferramentas e Utensílios",
+            "AL - Activo Liquido 2014": "2926.71",
+            "AB - Activo Bruto 2015": "4290.55",
+            "AP - Amortizações ou Provisões 2015": "1988.23",
+            "AL - Activo Liquido 2015": "2302.32"
+          },
+          {
+            "Categoria": "Imobilizações Corpóreas",
+            "Conta": "426- Equipamento administrativo e Informático",
+            "AL - Activo Liquido 2014": "916857.80",
+            "AB - Activo Bruto 2015": "2204581.30",
+            "AP - Amortizações ou Provisões 2015": "1438669.26",
+            "AL - Activo Liquido 2015": "765912.04"
+          },
+          {
+            "Categoria": "Total Imobilizações Corpóreas",
+            "Conta": "Imobilizações Corpóreas",
+            "AL - Activo Liquido 2014": "6289277.70",
+            "AB - Activo Bruto 2015": "17506997.12",
+            "AP - Amortizações ou Provisões 2015": "4260986.34",
+            "AL - Activo Liquido 2015": "13246010.78"
+          },
+          {
+            "Categoria": "Investimentos Financeiros",
+            "Conta": "415-Outras Aplicações Financeiras",
+            "AL - Activo Liquido 2014": "4527.01",
+            "AB - Activo Bruto 2015": "13854.54",
+            "AP - Amortizações ou Provisões 2015": "0.00",
+            "AL - Activo Liquido 2015": "13854.54"
+          },
+          {
+            "Categoria": "Total Investimentos Financeiros",
+            "Conta": "Investimentos Financeiros",
+            "AL - Activo Liquido 2014": "4527.01",
+            "AB - Activo Bruto 2015": "13854.54",
+            "AP - Amortizações ou Provisões 2015": "0.00",
+            "AL - Activo Liquido 2015": "13854.54"
+          },
+          {
+            "Categoria": "Existências",
+            "Conta": "36-Matérias-primas, Subsidiárias e de Consumo",
+            "AL - Activo Liquido 2014": "821960.33",
+            "AB - Activo Bruto 2015": "1099882.71",
+            "AP - Amortizações ou Provisões 2015": "0.00",
+            "AL - Activo Liquido 2015": "1099882.71"
+          },
+          {
+            "Categoria": "Total Existências",
+            "Conta": "Existências",
+            "AL - Activo Liquido 2014": "821960.33",
+            "AB - Activo Bruto 2015": "1099882.71",
+            "AP - Amortizações ou Provisões 2015": "0.00",
+            "AL - Activo Liquido 2015": "1099882.71"
+          },
+          {
+            "Categoria": "Dívidas de Terceiros - Curto prazo",
+            "Conta": "211 Clientes c/c",
+            "AL - Activo Liquido 2014": "424783.09",
+            "AB - Activo Bruto 2015": "438665.74",
+            "AP - Amortizações ou Provisões 2015": null,
+            "AL - Activo Liquido 2015": "438665.74"
+          },
+          {
+            "Categoria": "Dívidas de Terceiros - Curto prazo",
+            "Conta": "213 Utentes c/c",
+            "AL - Activo Liquido 2014": "47546.56",
+            "AB - Activo Bruto 2015": "28021.77",
+            "AP - Amortizações ou Provisões 2015": null,
+            "AL - Activo Liquido 2015": "28021.77"
+          },
+          {
+            "Categoria": "Dívidas de Terceiros - Curto prazo",
+            "Conta": "215 - Instituições do MS",
+            "AL - Activo Liquido 2014": null,
+            "AB - Activo Bruto 2015": "220000.00",
+            "AP - Amortizações ou Provisões 2015": null,
+            "AL - Activo Liquido 2015": "220000.00"
+          },
+          {
+            "Categoria": "Dívidas de Terceiros - Curto prazo",
+            "Conta": "218- Clientes e Utentes de Cobrança Duvidosa",
+            "AL - Activo Liquido 2014": "64690.47",
+            "AB - Activo Bruto 2015": "144407.21",
+            "AP - Amortizações ou Provisões 2015": "86211.48",
+            "AL - Activo Liquido 2015": "58195.73"
+          },
+          {
+            "Categoria": "Dívidas de Terceiros - Curto prazo",
+            "Conta": "229 - Adiantamentos a Fornecedores",
+            "AL - Activo Liquido 2014": "12.47",
+            "AB - Activo Bruto 2015": "325.65",
+            "AP - Amortizações ou Provisões 2015": null,
+            "AL - Activo Liquido 2015": "325.65"
+          },
+          {
+            "Categoria": "Dívidas de Terceiros - Curto prazo",
+            "Conta": "24- Estado e Outros Entes Públicos",
+            "AL - Activo Liquido 2014": "645332.80",
+            "AB - Activo Bruto 2015": "855212.00",
+            "AP - Amortizações ou Provisões 2015": null,
+            "AL - Activo Liquido 2015": "855212.00"
+          },
+          {
+            "Categoria": "Dívidas de Terceiros - Curto prazo",
+            "Conta": "263/3/4+267+268 - Outros devedores",
+            "AL - Activo Liquido 2014": "2814750.75",
+            "AB - Activo Bruto 2015": "2681447.05",
+            "AP - Amortizações ou Provisões 2015": null,
+            "AL - Activo Liquido 2015": "2681447.05"
+          },
+          {
+            "Categoria": "Total Dívidas de Terceiros - Curto prazo",
+            "Conta": "Dívidas de Terceiros - Curto prazo",
+            "AL - Activo Liquido 2014": "3997116.14",
+            "AB - Activo Bruto 2015": "4368079.42",
+            "AP - Amortizações ou Provisões 2015": "86211.48",
+            "AL - Activo Liquido 2015": "4281867.94"
+          },
+          {
+            "Categoria": "Depósitos em Inst. Financ. e Caixa",
+            "Conta": "13 - Contas no Tesouro",
+            "AL - Activo Liquido 2014": "790000.00",
+            "AB - Activo Bruto 2015": "12552232.88",
+            "AP - Amortizações ou Provisões 2015": null,
+            "AL - Activo Liquido 2015": "12552232.88"
+          },
+          {
+            "Categoria": "Depósitos em Inst. Financ. e Caixa",
+            "Conta": "12 - Depósitos em Instituições Financeiras",
+            "AL - Activo Liquido 2014": "10000.00",
+            "AB - Activo Bruto 2015": "109019.36",
+            "AP - Amortizações ou Provisões 2015": null,
+            "AL - Activo Liquido 2015": "109019.36"
+          },
+          {
+            "Categoria": "Depósitos em Inst. Financ. e Caixa",
+            "Conta": "11 - Caixa",
+            "AL - Activo Liquido 2014": "0.00",
+            "AB - Activo Bruto 2015": "3232.27",
+            "AP - Amortizações ou Provisões 2015": null,
+            "AL - Activo Liquido 2015": "3232.27"
+          },
+          {
+            "Categoria": "Total Depósitos em Inst. Financ. e Caixa",
+            "Conta": "Depósitos em Inst. Financ. e Caixa",
+            "AL - Activo Liquido 2014": "800000.00",
+            "AB - Activo Bruto 2015": "12664484.51",
+            "AP - Amortizações ou Provisões 2015": null,
+            "AL - Activo Liquido 2015": "12664484.51"
+          },
+          {
+            "Categoria": "Acréscimos e Diferimentos",
+            "Conta": "271-Acréscimos de Proveitos",
+            "AL - Activo Liquido 2014": "1035372.25",
+            "AB - Activo Bruto 2015": "594231.09",
+            "AP - Amortizações ou Provisões 2015": null,
+            "AL - Activo Liquido 2015": "594231.09"
+          },
+          {
+            "Categoria": "Total Acréscimos e Diferimentos",
+            "Conta": "Acréscimos e Diferimentos",
+            "AL - Activo Liquido 2014": "1035372.25",
+            "AB - Activo Bruto 2015": "594231.09",
+            "AP - Amortizações ou Provisões 2015": null,
+            "AL - Activo Liquido 2015": "594231.09"
+          },
+          {
+            "Categoria": "TOTAL do ACTIVO",
+            "Conta": "TOTAL do ACTIVO",
+            "AL - Activo Liquido 2014": "12948253.43",
+            "AB - Activo Bruto 2015": "36247529.39",
+            "AP - Amortizações ou Provisões 2015": "4347197.82",
+            "AL - Activo Liquido 2015": "31900331.57"
+          }
+        ]
+      },
+      {
+        "table_index": 7,
+        "page": 13,
+        "table_data": [
+          {
+            "Categoria": "Fundos Próprios",
+            "Conta": "51-Património",
+            "Fundos Próprios e Passivo 2014": "8500000.00",
+            "Fundos Próprios e Passivo 2015": "17900000.00"
+          },
+          {
+            "Categoria": "Fundos Próprios (Sub-total)",
+            "Conta": "Sub-total",
+            "Fundos Próprios e Passivo 2014": "8500000.00",
+            "Fundos Próprios e Passivo 2015": "17900000.00"
+          },
+          {
+            "Categoria": "Reservas",
+            "Conta": "571 - Reservas Legais",
+            "Fundos Próprios e Passivo 2014": "4286359.00",
+            "Fundos Próprios e Passivo 2015": "4937581.01"
+          },
+          {
+            "Categoria": "Reservas",
+            "Conta": "574 - Reservas Livres",
+            "Fundos Próprios e Passivo 2014": "4430.36",
+            "Fundos Próprios e Passivo 2015": "4430.36"
+          },
+          {
+            "Categoria": "Reservas",
+            "Conta": "575-Subsídios",
+            "Fundos Próprios e Passivo 2014": "410123.56",
+            "Fundos Próprios e Passivo 2015": "410123.56"
+          },
+          {
+            "Categoria": "Reservas",
+            "Conta": "576 - Doações",
+            "Fundos Próprios e Passivo 2014": "177327.27",
+            "Fundos Próprios e Passivo 2015": "177327.27"
+          },
+          {
+            "Categoria": "Reservas",
+            "Conta": "577- Reservas Decorrentes da Transferência de Activos",
+            "Fundos Próprios e Passivo 2014": "13832954.33",
+            "Fundos Próprios e Passivo 2015": "13832954.33"
+          },
+          {
+            "Categoria": "Reservas (Sub-total)",
+            "Conta": "Sub-total",
+            "Fundos Próprios e Passivo 2014": "18711194.52",
+            "Fundos Próprios e Passivo 2015": "19362416.53"
+          },
+          {
+            "Categoria": "Resultados",
+            "Conta": "Resultados Transitados",
+            "Fundos Próprios e Passivo 2014": "-29715161.03",
+            "Fundos Próprios e Passivo 2015": "-28893023.83"
+          },
+          {
+            "Categoria": "Resultados",
+            "Conta": "Resultado Líquido do Exercício",
+            "Fundos Próprios e Passivo 2014": "822137.20",
+            "Fundos Próprios e Passivo 2015": "1644813.00"
+          },
+          {
+            "Categoria": "Fundo Patrimonial",
+            "Conta": "Fundo Patrimonial",
+            "Fundos Próprios e Passivo 2014": "-1681829.31",
+            "Fundos Próprios e Passivo 2015": "10014205.70"
+          },
+          {
+            "Categoria": "Provisões",
+            "Conta": "291 - Provisões para Cobranças Duvidosas",
+            "Fundos Próprios e Passivo 2014": "0.00",
+            "Fundos Próprios e Passivo 2015": "0.00"
+          },
+          {
+            "Categoria": "Provisões",
+            "Conta": "292 - Provisões para Riscos",
+            "Fundos Próprios e Passivo 2014": "90000.00",
+            "Fundos Próprios e Passivo 2015": "1308213.70"
+          },
+          {
+            "Categoria": "Provisões (Total)",
+            "Conta": "Provisões",
+            "Fundos Próprios e Passivo 2014": "90000.00",
+            "Fundos Próprios e Passivo 2015": "1308213.70"
+          },
+          {
+            "Categoria": "Terceiros",
+            "Conta": "219-Adiantamentos de Clientes, Utentes e Instit. MS",
+            "Fundos Próprios e Passivo 2014": "4152840.48",
+            "Fundos Próprios e Passivo 2015": "7932145.10"
+          },
+          {
+            "Categoria": "Terceiros",
+            "Conta": "221 - Fornecedores c/c",
+            "Fundos Próprios e Passivo 2014": "560450.34",
+            "Fundos Próprios e Passivo 2015": "1524118.14"
+          },
+          {
+            "Categoria": "Terceiros",
+            "Conta": "228 Fornecedores - Facturas recep. e conf.",
+            "Fundos Próprios e Passivo 2014": "73318.86",
+            "Fundos Próprios e Passivo 2015": "950445.16"
+          },
+          {
+            "Categoria": "Terceiros",
+            "Conta": "2611 Fornecedores de imobilizado c/c",
+            "Fundos Próprios e Passivo 2014": "27280.59",
+            "Fundos Próprios e Passivo 2015": "103726.30"
+          },
+          {
+            "Categoria": "Terceiros",
+            "Conta": "24- Estado e Outros Entes Públicos",
+            "Fundos Próprios e Passivo 2014": "829671.55",
+            "Fundos Próprios e Passivo 2015": "828637.96"
+          },
+          {
+            "Categoria": "Terceiros",
+            "Conta": "261/3/4 - Outros Credores",
+            "Fundos Próprios e Passivo 2014": "1461898.88",
+            "Fundos Próprios e Passivo 2015": "714058.54"
+          },
+          {
+            "Categoria": "Terceiros (Total)",
+            "Conta": "Terceiros",
+            "Fundos Próprios e Passivo 2014": "7105460.70",
+            "Fundos Próprios e Passivo 2015": "12053131.20"
+          },
+          {
+            "Categoria": "Acréscimos e Diferimentos",
+            "Conta": "273-Acréscimos de Custos",
+            "Fundos Próprios e Passivo 2014": "7428329.57",
+            "Fundos Próprios e Passivo 2015": "8518488.50"
+          },
+          {
+            "Categoria": "Acréscimos e Diferimentos",
+            "Conta": "274-Proveitos Diferidos",
+            "Fundos Próprios e Passivo 2014": "6292.47",
+            "Fundos Próprios e Passivo 2015": "6292.47"
+          },
+          {
+            "Categoria": "Acréscimos e Diferimentos (Total)",
+            "Conta": "Acréscimos e Diferimentos",
+            "Fundos Próprios e Passivo 2014": "7434622.04",
+            "Fundos Próprios e Passivo 2015": "8524780.97"
+          },
+          {
+            "Categoria": "Passivo (Total)",
+            "Conta": "Passivo",
+            "Fundos Próprios e Passivo 2014": "14630082.74",
+            "Fundos Próprios e Passivo 2015": "21886125.87"
+          },
+          {
+            "Categoria": "Fundos Próprios e Passivo (Total)",
+            "Conta": "Fundos Próprios e Passivo",
+            "Fundos Próprios e Passivo 2014": "12948253.43",
+            "Fundos Próprios e Passivo 2015": "31900331.57"
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "page": 14,
+        "table_data": [
+          {
+            "Campo": "Indicador",
+            "Valor": "C.1"
+          },
+          {
+            "Campo": "Título",
+            "Valor": "Percentagem de Custos com Horas Extraordinárias, Suplementos e FSE (seleccionados), no Total de Custos com Pessoal"
+          },
+          {
+            "Campo": "Tipo de Indicador",
+            "Valor": "Objectivo contrato programa 2013-2015"
+          },
+          {
+            "Campo": "Tipo de falha",
+            "Valor": "Eficiência"
+          },
+          {
+            "Campo": "Entidade Gestora",
+            "Valor": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+          },
+          {
+            "Campo": "Período aplicável",
+            "Valor": "Ano 2015"
+          },
+          {
+            "Campo": "Objectivo",
+            "Valor": "Monitorizar o desempenho Económico-Financeiro."
+          },
+          {
+            "Campo": "Descrição do Indicador",
+            "Valor": "Indicador que expressa a proporção de custos \"extraordinários\" no total dos custos com pessoal."
+          },
+          {
+            "Campo": "Cláusula CP",
+            "Valor": "Acordo Modificativo 2015 - Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apêndice II) / Acordo Modificativo 2015 - ULS: Cláusula 4ª do Anexo (Apêndice II)"
+          },
+          {
+            "Campo": "Unidade de medida",
+            "Valor": "% (uma casa decimal)"
+          },
+          {
+            "Campo": "Frequência de monitorização",
+            "Valor": "Mensal"
+          },
+          {
+            "Campo": "Fonte dos dados/ Base da monitorização",
+            "Valor": "SIEF"
+          },
+          {
+            "Campo": "Responsável pela monitorização",
+            "Valor": "Instituição / ARS"
+          },
+          {
+            "Campo": "Fórmula",
+            "Valor": "(Σ #642211 + #642212 + #642221 + #642281 + #642282/9 + #62229 + #622364) / Σ #64"
+          },
+          {
+            "Campo": "Prazo Entrega Reporting",
+            "Valor": "Dia 20 do mês n+1"
+          },
+          {
+            "Campo": "Valor de Referência (Meta)",
+            "Valor": "Definida no Acordo Modificativo 2015"
+          },
+          {
+            "Campo": "Orgão fiscalizador",
+            "Valor": "ARS"
+          },
+          {
+            "Campo": "Valor de base",
+            "Valor": "valor histórico da instituição (opcional)"
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "page": 14,
+        "table_data": [
+          {
+            "Variáveis": "Horas Extraordinárias",
+            "Definição": "642211 (Horas Ext.)",
+            "Fonte Informação/ SI": "SEF",
+            "Unidade de medida": "€ (euros)"
+          },
+          {
+            "Variáveis": "Suplementos",
+            "Definição": "(Σ (#642212 prevenções + #642221 noites e suplementos + #642281 SIGIC + #642282/9 outros supl.))",
+            "Fonte Informação/ SI": "SEF",
+            "Unidade de medida": "€ (euros)"
+          },
+          {
+            "Variáveis": "FSE (selecionado)",
+            "Definição": "Σ (#622364 + #62229)",
+            "Fonte Informação/ SI": "SEF",
+            "Unidade de medida": "€ (euros)"
+          },
+          {
+            "Variáveis": "Custos com pessoal",
+            "Definição": "#64",
+            "Fonte Informação/ SI": "SEF",
+            "Unidade de medida": "€ (euros)"
+          }
+        ]
+      },
+      {
+        "table_index": 10,
+        "page": 15,
+        "table_data": [
+          {
+            "Campo": "Indicador",
+            "Valor": "C.2"
+          },
+          {
+            "Campo": "Título",
+            "Valor": "EBITDA"
+          },
+          {
+            "Campo": "Tipo de Indicador",
+            "Valor": "Objectivo contrato programa 2013-2015"
+          },
+          {
+            "Campo": "Entidade Gestora",
+            "Valor": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+          },
+          {
+            "Campo": "Tipo de falha",
+            "Valor": "Eficiência"
+          },
+          {
+            "Campo": "Período aplicável",
+            "Valor": "Ano 2015"
+          },
+          {
+            "Campo": "Objectivo",
+            "Valor": "Monitorizar o desempenho Económico - Financeiro"
+          },
+          {
+            "Campo": "Descrição do Indicador",
+            "Valor": "Indicador que expressa resultados da instituição antes de juros, impostos, depreciações e amortizações"
+          },
+          {
+            "Campo": "Cláusula CP",
+            "Valor": "Acordo Modificativo 2015 - Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2015 - ULS: Cláusula 4ª do Anexo (Apêndice II)"
+          },
+          {
+            "Campo": "Unidade de medida",
+            "Valor": "€ (euros)"
+          },
+          {
+            "Campo": "Frequência de monitorização",
+            "Valor": "Mensal"
+          },
+          {
+            "Campo": "Fonte dos dados/ Base da monitorização",
+            "Valor": "SIEF"
+          },
+          {
+            "Campo": "Responsável pela monitorização",
+            "Valor": "Instituição / ARS"
+          },
+          {
+            "Campo": "Fórmula",
+            "Valor": "Σ # 7 POCMS (71 a 76) - Σ # 6 POCMS (61 a 65)"
+          },
+          {
+            "Campo": "Prazo Entrega Reporting",
+            "Valor": "Dia 20 do mês n+1"
+          },
+          {
+            "Campo": "Valor de Referência (Meta)",
+            "Valor": "Definido no Acordo Modificativo 2015"
+          },
+          {
+            "Campo": "Orgão fiscalizador",
+            "Valor": "ARS"
+          },
+          {
+            "Campo": "Valor de base",
+            "Valor": "valor histórico da Instituição (opcional)"
+          }
+        ]
+      },
+      {
+        "table_index": 11,
+        "page": 15,
+        "table_data": [
+          {
+            "Variáveis": "EBITDA",
+            "Definição": "Σ # 7 POCMS (71 a 76) - Σ # 6 POCMS (61 a 65)",
+            "Fonte Informação/ SI": "SIEF",
+            "Unidade de medida": "€ (euros)"
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "page": 16,
+        "table_data": [
+          {
+            "Campo": "Indicador",
+            "Valor": "C.3"
+          },
+          {
+            "Campo": "Título",
+            "Valor": "Acréscimo de Dívida Vencida"
+          },
+          {
+            "Campo": "Tipo de Indicador",
+            "Valor": "Objectivo contrato-programa 2013-2015"
+          },
+          {
+            "Campo": "Entidade Gestora",
+            "Valor": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+          },
+          {
+            "Campo": "Tipo de falha",
+            "Valor": "Eficiência"
+          },
+          {
+            "Campo": "Período aplicável",
+            "Valor": "Ano 2015"
+          },
+          {
+            "Campo": "Objectivo",
+            "Valor": "Monitorizar o desempenho Económico-Financeiro"
+          },
+          {
+            "Campo": "Descrição do Indicador",
+            "Valor": "Indicador que expressa a variação da dívida vencida* [fornecedores externos] da Instituição."
+          },
+          {
+            "Campo": "Cláusula CP",
+            "Valor": "Acordo Modificativo 2015 - Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2015 - ULS: Cláusula 4ª do Anexo (Apêndice II)"
+          },
+          {
+            "Campo": "Unidade de medida",
+            "Valor": "€ (euros)"
+          },
+          {
+            "Campo": "Frequência de monitorização",
+            "Valor": "Mensal"
+          },
+          {
+            "Campo": "Fonte dos dados/ Base da monitorização",
+            "Valor": "SIEF"
+          },
+          {
+            "Campo": "Responsável pela monitorização",
+            "Valor": "Instituição/ARS"
+          },
+          {
+            "Campo": "Fórmula",
+            "Valor": "Dívida vencida (fornecedores externos) a 31 dez 2015 - Dívida vencida (fornecedores externos) a 31 dez 2014"
+          },
+          {
+            "Campo": "Prazo Entrega Reporting",
+            "Valor": "Dia 21 do mês n+1"
+          },
+          {
+            "Campo": "Valor de Referência (Meta)",
+            "Valor": "Definido no Acordo Modificativo 2015"
+          },
+          {
+            "Campo": "Orgão fiscalizador",
+            "Valor": "ARS"
+          },
+          {
+            "Campo": "Valor de base",
+            "Valor": "valor histórico da Instituição (opcional)"
+          }
+        ]
+      },
+      {
+        "table_index": 13,
+        "page": 16,
+        "table_data": [
+          {
+            "Variáveis": "Acréscimo de Dívida Vencida",
+            "Definição": "Variação, entre o período n e o período n-1, do valor da dívida que ultrapassou o prazo de pagamento.",
+            "Fonte Informação/ SI": "SIEF",
+            "Unidade de medida": "€ (euros)"
+          }
+        ]
+      },
+      {
+        "table_index": 14,
+        "page": 17,
+        "table_data": [
+          {
+            "Campo": "Título",
+            "Valor": "Percentagem de proveitos operacionais próprios (extra-contrato), no total de proveitos operacionais"
+          },
+          {
+            "Campo": "Tipo de Indicador",
+            "Valor": "Objectivo contrato-programa 2013-2015"
+          },
+          {
+            "Campo": "Entidade Gestora",
+            "Valor": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+          },
+          {
+            "Campo": "Tipo de falha",
+            "Valor": "Eficiência"
+          },
+          {
+            "Campo": "Período aplicável",
+            "Valor": "Ano 2015"
+          },
+          {
+            "Campo": "Objectivo",
+            "Valor": "Monitorizar o desempenho Económico - Financeiro"
+          },
+          {
+            "Campo": "Descrição do Indicador",
+            "Valor": "Indicador que expressa a proporção Proveitos Operacionais não decorrentes do contrato-programa."
+          },
+          {
+            "Campo": "Cláusula CP",
+            "Valor": "Acordo Modificativo 2015 - Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2015 - ULS: Cláusula 4ª do Anexo (Apêndice II)"
+          },
+          {
+            "Campo": "Unidade de medida",
+            "Valor": "% (uma casa decimal)"
+          },
+          {
+            "Campo": "Frequência de monitorização",
+            "Valor": "Mensal"
+          },
+          {
+            "Campo": "Fonte dos dados/ Base da monitorização",
+            "Valor": "SIEF"
+          },
+          {
+            "Campo": "Responsável pela monitorização",
+            "Valor": "Instituição / ARS"
+          },
+          {
+            "Campo": "Fórmula",
+            "Valor": "(Σ # 7 POCMS (71 a 76) - 7121 SNS Contrato-programa) / Σ # 7 POCMS (71 a 76) * 100"
+          },
+          {
+            "Campo": "Prazo Entrega Reporting",
+            "Valor": "Dia 20 do mês n+1"
+          },
+          {
+            "Campo": "Valor de Referência (Meta)",
+            "Valor": "Definido no Acordo Modificativo 2015"
+          },
+          {
+            "Campo": "Orgão fiscalizador",
+            "Valor": "ARS"
+          },
+          {
+            "Campo": "Valor de base",
+            "Valor": "valor histórico da Instituição (opcional)"
+          }
+        ]
+      },
+      {
+        "table_index": 15,
+        "page": 17,
+        "table_data": [
+          {
+            "Variáveis": "Proveitos operacionais - Proveitos Contrato-programa",
+            "Definição": "# 7 POCMS (71 a 76) - 7121 SNS Contrato-programa",
+            "Fonte Informação/ SI": "SIEF",
+            "Unidade de medida": "€ (euros)"
+          },
+          {
+            "Variáveis": "Total de proveitos operacionais",
+            "Definição": "Σ # 7 POCMS (71 a 76)",
+            "Fonte Informação/ SI": "SIEF",
+            "Unidade de medida": "€ (euros)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "contract_id": "291ef9d0-4e77-edc6-1c43-2b762d337a7c",
+  "hospital_name": "Centro Hospitalar do Médio Tejo, EPE",
+  "year": 2015,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/Adenda-ao-Acordo-Modificativo-2015-Saude-Mental-CHMT.pdf",
+  "extraction_timestamp": "20251101_161334",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 2,
+        "table_data": [
+          {
+            "Doentes Equivalentes ICM": "",
+            "Doentes Equivalentes N.°": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "44.89",
+            "Quantidade": "53621",
+            "Valor (€)": "2407046.69",
+            "header": "Nº de 1ªs consultas médicas (s/ majoração)"
+          },
+          {
+            "Doentes Equivalentes ICM": "",
+            "Doentes Equivalentes N.°": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "49.38",
+            "Quantidade": "21489",
+            "Valor (€)": "1061126.82",
+            "header": "N° de 1ªs consultas referenciadas (CTH)"
+          },
+          {
+            "Doentes Equivalentes ICM": "",
+            "Doentes Equivalentes N.°": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "49.38",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "N° de 1ªs consultas (Telemedicina)"
+          },
+          {
+            "Doentes Equivalentes ICM": "",
+            "Doentes Equivalentes N.°": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "49.38",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "Nº de 1ªs consultas na comunidade (Saúde mental)"
+          },
+          {
+            "Doentes Equivalentes ICM": "",
+            "Doentes Equivalentes N.°": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "43.58",
+            "Quantidade": "101609",
+            "Valor (€)": "4428120.22",
+            "header": "Nº de consultas subsequentes médicas (s/majoração)"
+          },
+          {
+            "Doentes Equivalentes ICM": "",
+            "Doentes Equivalentes N.°": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "47.94",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "Nº de consultas subsequentes (Telemedicina)"
+          },
+          {
+            "Doentes Equivalentes ICM": "",
+            "Doentes Equivalentes N.°": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "47.94",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "Nº de consultas subsequentes na comunidade (Saúde mental)"
+          },
+          {
+            "Doentes Equivalentes ICM": "",
+            "Doentes Equivalentes N.°": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "7896293.73",
+            "header": "Valor Total das Consultas"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 2,
+        "table_data": [
+          {
+            "Doentes Equivalentes ICM": "0.7663",
+            "Doentes Equivalentes N.°": "13.649",
+            "Doentes Equivalentes %": "92.98",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "14679",
+            "Valor (€)": "23899337.58",
+            "header": "GDH Médicos"
+          },
+          {
+            "Doentes Equivalentes ICM": "0.7663",
+            "Doentes Equivalentes N.°": "2.824",
+            "Doentes Equivalentes %": "92.98",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "3037",
+            "Valor (€)": "4944811.29",
+            "header": "GDH Cirúrgicos"
+          },
+          {
+            "Doentes Equivalentes ICM": "0.7663",
+            "Doentes Equivalentes N.°": "1.878",
+            "Doentes Equivalentes %": "92.98",
+            "Preço Unitário (€)": "2170.75",
+            "Quantidade": "2020",
+            "Valor (€)": "3123951.07",
+            "header": "GDH Cirúrgicos Urgentes"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 2,
+        "table_data": [
+          {
+            "Preço Unitário (€)": "205.10",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "Doentes Medicina Física e Reabilitação"
+          },
+          {
+            "Preço Unitário (€)": "38.89",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "Doentes de Psiquiatria Crónicos no Hospital"
+          },
+          {
+            "Preço Unitário (€)": "39.17",
+            "Quantidade": "540",
+            "Valor (€)": "21151.80",
+            "header": "Doentes de Psiquiatria no Exterior (Ordens Religiosas)"
+          },
+          {
+            "Preço Unitário (€)": "39.17",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "Doentes de Psiquiatria no Exterior (Outras Inst.) Instituições"
+          },
+          {
+            "Preço Unitário (€)": "244.01",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "Doentes Crónicos Ventilados"
+          },
+          {
+            "Preço Unitário (€)": "38.89",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "Doentes de Reabilitação Psicossocial"
+          },
+          {
+            "Preço Unitário (€)": "70.75",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "Doentes Crónicos de Hansen"
+          },
+          {
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "31989251.74",
+            "header": "Valor Total do Internamento"
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "page": 2,
+        "table_data": [
+          {
+            "ICM": "0.6310",
+            "Preço Unitário (€)": "2353.55",
+            "Quantidade": "4647",
+            "Valor (€)": "6901213.46",
+            "header": "GDH Cirúrgicos"
+          },
+          {
+            "ICM": "0.2245",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "4831",
+            "Valor (€)": "2478218.46",
+            "header": "GDH Médicos"
+          },
+          {
+            "ICM": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "9379431.92",
+            "header": "Valor Total dos GDH de Ambulatório"
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "page": 2,
+        "table_data": [
+          {
+            "Preço Unitário (€)": "107.59",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "Atendimentos (SU - Polivalente)"
+          },
+          {
+            "Preço Unitário (€)": "53.91",
+            "Quantidade": "71358",
+            "Valor (€)": "3846909.78",
+            "header": "Atendimentos (SU - Médico-Cirúrgica)"
+          },
+          {
+            "Preço Unitário (€)": "10.00",
+            "Quantidade": "55857",
+            "Valor (€)": "558570.00",
+            "header": "Atendimentos (SU - Básica)"
+          },
+          {
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "2000000.00",
+            "header": "Disponibilidade Serviço"
+          },
+          {
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "6405479.78",
+            "header": "Valor Total dos Atendimentos Urgentes"
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "page": 2,
+        "table_data": [
+          {
+            "Preço Unitário (€)": "20.14",
+            "Quantidade": "11217",
+            "Valor (€)": "225910.38",
+            "header": "Base"
+          },
+          {
+            "Preço Unitário (€)": "293.52",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "Hematologia"
+          },
+          {
+            "Preço Unitário (€)": "293.52",
+            "Quantidade": "629",
+            "Valor (€)": "184624.08",
+            "header": "Imuno-Hemoterapia"
+          },
+          {
+            "Preço Unitário (€)": "30.49",
+            "Quantidade": "3750",
+            "Valor (€)": "114337.50",
+            "header": "Psiquiatria"
+          },
+          {
+            "Preço Unitário (€)": "30.49",
+            "Quantidade": "",
+            "Valor (€)": "",
+            "header": "Psiquiatria - Unidades Socio-Ocupacionais"
+          },
+          {
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "524871.96",
+            "header": "Valor Total do Hospital de Dia"
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "page": 2,
+        "table_data": [
+          {
+            "Preço Unitário (€)": "9165.60",
+            "header": "VIH/Sida (doentes em TARC)"
+          },
+          {
+            "Preço Unitário (€)": "8408.28",
+            "header": "Hipertensão Arterial Pulmonar - doentes em terapêutica pré-tratamento/seguimento 1º ano"
+          }
+        ]
+      },
+      {
+        "table_index": 7,
+        "page": 3,
+        "table_data": [
+          {
+            "Valor (€)": "22555.56",
+            "header": "Seguimento após 1º ano CF≤ III"
+          },
+          {
+            "Valor (€)": "162563.40",
+            "header": "Seguimento após 1º ano CF IV"
+          },
+          {
+            "Valor (€)": "12379.80",
+            "header": "Esclerose múltipla - doentes em terapêutica modificadora"
+          },
+          {
+            "Valor (€)": "11148.96",
+            "header": "Tratamento de doentes c/ patologia oncológica - novos doentes - Cancro da mama (1º ano)"
+          },
+          {
+            "Valor (€)": "4821.84",
+            "header": "Cancro da mama (2º ano)"
+          },
+          {
+            "Valor (€)": "13236.72",
+            "header": "Cancro do colon e reto (1º ano)"
+          },
+          {
+            "Valor (€)": "4957.08",
+            "header": "Cancro do colon e reto (2º ano)"
+          },
+          {
+            "Valor (€)": "10630.80",
+            "header": "Cancro do colo do útero (1º ano)"
+          },
+          {
+            "Valor (€)": "2530.68",
+            "header": "Cancro do colo do útero (2º ano)"
+          },
+          {
+            "Valor (€)": "1125.30",
+            "header": "Telemonotorização DPOC - Elementos de Telemonitorização"
+          },
+          {
+            "Valor (€)": "2053.09",
+            "header": "Nº de doentes em tratamento (doente tratado/ano)"
+          },
+          {
+            "Valor (€)": "58358.74",
+            "header": "Programa Terapêutico PAF1 - PAF1 Doentes em tratamento (equivalente/ano)"
+          },
+          {
+            "Valor (€)": "190617.10",
+            "header": "Doenças Lisossomais de Sobre Carga (doentes em tratamento/equivalente ano) - Doença de Gaucher"
+          },
+          {
+            "Valor (€)": "158684.84",
+            "header": "Doença de Fabry"
+          },
+          {
+            "Valor (€)": "193797.41",
+            "header": "Doença de Hurler"
+          },
+          {
+            "Valor (€)": "313750.26",
+            "header": "Doença de Hunter"
+          },
+          {
+            "Valor (€)": "348668.83",
+            "header": "Doença de Maroteaux-Lamy"
+          },
+          {
+            "Valor (€)": "39652.21",
+            "header": "Doença de Niemann-Pick"
+          },
+          {
+            "Valor (€)": "244106.20",
+            "header": "Doença de Pompe"
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "page": 3,
+        "table_data": [
+          {
+            "Valor (€)": "88.32",
+            "header": "Consultas de Apoio à Fertilidade"
+          },
+          {
+            "Valor (€)": "132.48",
+            "header": "Induções da Ovulação (IO)"
+          },
+          {
+            "Valor (€)": "335.04",
+            "header": "Inseminações Intra-Uterinas (IIU)"
+          },
+          {
+            "Valor (€)": "2097.60",
+            "header": "Fertilizações In Vitro (FIV)"
+          },
+          {
+            "Valor (€)": "2307.84",
+            "header": "Injecções Intra-Citoplasmáticas de Espermatozoides (ICSI)"
+          },
+          {
+            "Valor (€)": "2936.64",
+            "header": "Injeções Intra-Citoplasmáticas de Espermatozoides recolhidos cirurgicamente (ICSI c/ recolha cirúrgica)"
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "page": 3,
+        "table_data": [
+          {
+            "Preço Unitário (€)": "283.10",
+            "Quantidade": "190",
+            "Valor (€)": "53789.00",
+            "header": "Medicamentosa (n.° I.V.G.)"
+          },
+          {
+            "Preço Unitário (€)": "368.61",
+            "Quantidade": "10",
+            "Valor (€)": "3686.10",
+            "header": "Cirúrgica (n.º I.V.G.)"
+          }
+        ]
+      },
+      {
+        "table_index": 10,
+        "page": 3,
+        "table_data": [
+          {
+            "Valor (€)": "37.72",
+            "header": "Protocolo I"
+          },
+          {
+            "Valor (€)": "64.61",
+            "header": "Protocolo II"
+          }
+        ]
+      },
+      {
+        "table_index": 11,
+        "page": 3,
+        "table_data": [
+          {
+            "Valor (€)": "104.53",
+            "header": "Tratamentos simples"
+          },
+          {
+            "Valor (€)": "250.92",
+            "header": "Tratamentos complexos"
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "page": 3,
+        "table_data": [
+          {
+            "Valor (€)": "33.10",
+            "header": "Serviços Domiciliários"
+          },
+          {
+            "Valor (€)": "62.95",
+            "header": "Lar (IPO)"
+          }
+        ]
+      },
+      {
+        "table_index": 13,
+        "page": 3,
+        "table_data": [
+          {
+            "Valor (€)": "1300000.00",
+            "header": "Medicamentos de cedência hospitalar em ambulatório"
+          },
+          {
+            "Valor (€)": "708117.84",
+            "header": "Internos"
+          }
+        ]
+      },
+      {
+        "table_index": 14,
+        "page": 3,
+        "table_data": [
+          {
+            "Valor (€)": "58260922.07",
+            "header": "Valor da Produção Contratada"
+          },
+          {
+            "Valor (€)": "3339997.23",
+            "header": "Incentivos institucionais"
+          },
+          {
+            "Valor (€)": "5199176.48",
+            "header": "Convergência"
+          },
+          {
+            "Valor (€)": "66800095.78",
+            "header": "Valor Total do Contrato"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2575 @@
+{
+  "contract_id": "1b0d62d5-96f1-2a8f-7d71-2c2e2b01af75",
+  "hospital_name": "Unidade Local de Saúde do Arco Ribeirinho, E.P.E.",
+  "year": 2025,
+  "pdf_url": "https://www.acss.min-saude.pt/wp-content/uploads/2016/10/ULS-ARCO-RIBEIRINHO_AM_2025.SEGS_.pdf.pdf",
+  "extraction_timestamp": "20251101_043416",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 7,
+        "table_data": [
+          {
+            "Descrição": "Fluxos de doentes",
+            "Valor": "-22898655.01"
+          },
+          {
+            "Descrição": "Programas Específicos",
+            "Valor": "10640080.50"
+          },
+          {
+            "Descrição": "Acordos de Cooperação",
+            "Valor": "0.00"
+          },
+          {
+            "Descrição": "Valor dos Incentivos Institucionais (10%)",
+            "Valor": "18304641.80"
+          },
+          {
+            "Descrição": "Valor Total do Financiamento",
+            "Valor": "183046418.00"
+          },
+          {
+            "Descrição": "Valor prémio de desempenho até 5% do valor Incentivos Institucionais em n+1",
+            "Valor": "915232.09"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 8,
+        "table_data": [
+          {
+            "Produção": "Cuidados Primários",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "1. Consultas",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Nº consultas médicas presenciais",
+            "Quantidade": "359719"
+          },
+          {
+            "Produção": "Nº consultas médicas não presenciais",
+            "Quantidade": "227471"
+          },
+          {
+            "Produção": "2. Serviços Domiciliários",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Nº visitas domiciliárias médicas",
+            "Quantidade": "2164"
+          },
+          {
+            "Produção": "Nº visitas domiciliárias de enfermagem",
+            "Quantidade": "16352"
+          },
+          {
+            "Produção": "3. Outras Consultas por Pessoal não Médico",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Nº consultas de enfermagem",
+            "Quantidade": "312859"
+          },
+          {
+            "Produção": "Nº consultas de outros profissionais",
+            "Quantidade": "21443"
+          },
+          {
+            "Produção": "Cuidados Hospitalares",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "1. Consultas Externas:",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Nº de 1ªs consultas médicas",
+            "Quantidade": "27612"
+          },
+          {
+            "Produção": "Nº de 1ªs consultas referenciadas (CTH e/ou RSE-SIGA)",
+            "Quantidade": "16209"
+          },
+          {
+            "Produção": "Nº de 1ªs consultas descentralizadas",
+            "Quantidade": "100"
+          },
+          {
+            "Produção": "Nº de consultas subsequentes médicas",
+            "Quantidade": "118033"
+          },
+          {
+            "Produção": "Nº de consultas subsequentes descentralizadas",
+            "Quantidade": "300"
+          },
+          {
+            "Produção": "2. Internamento:",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Doentes Saídos",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "GDH Médicos",
+            "Quantidade": "9550"
+          },
+          {
+            "Produção": "GDH Cirúrgicos",
+            "Quantidade": "1849"
+          },
+          {
+            "Produção": "GDH Cirúrgicos Urgentes",
+            "Quantidade": "1770"
+          },
+          {
+            "Produção": "3. Episódios de GDH de Ambulatório:",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "GDH Cirúrgicos",
+            "Quantidade": "3964"
+          },
+          {
+            "Produção": "GDH Médicos",
+            "Quantidade": "733"
+          },
+          {
+            "Produção": "4. Urgências:",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Atendimentos SU - Polivalente",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Atendimentos SU - Médico-Cirúrgica",
+            "Quantidade": "89347"
+          },
+          {
+            "Produção": "Atendimentos SU - Básica",
+            "Quantidade": "31709"
+          },
+          {
+            "Produção": "5. Sessões em Hospital de Dia:",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Base",
+            "Quantidade": "17558"
+          },
+          {
+            "Produção": "Hematologia / Imuno-hemoterapia",
+            "Quantidade": "965"
+          },
+          {
+            "Produção": "Psiquiatria e Unidades Socio-Ocupacionais",
+            "Quantidade": "3999"
+          },
+          {
+            "Produção": "6. Rastreios - N° de Rastreios",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Rastreios do Cancro da Mama",
+            "Quantidade": "28"
+          },
+          {
+            "Produção": "Rastreio do Cancro do Colo do Útero",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Rastreio do Cancro do Cólon e Reto",
+            "Quantidade": "200"
+          },
+          {
+            "Produção": "Rastreio da Retinopatia Visual",
+            "Quantidade": "280"
+          },
+          {
+            "Produção": "Rastreio Visual Infantil",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "7. Sessões de Radioncologia",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Tratamentos simples",
+            "Quantidade": "2372"
+          },
+          {
+            "Produção": "Tratamentos complexos",
+            "Quantidade": "19954"
+          },
+          {
+            "Produção": "8. Sessões de Quimioterapia",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Sessões de Quimioterapia",
+            "Quantidade": "5394"
+          },
+          {
+            "Produção": "9. Serviços Domiciliários",
+            "Quantidade": ""
+          },
+          {
+            "Produção": "Consultas Domiciliárias",
+            "Quantidade": "290"
+          },
+          {
+            "Produção": "Hospitalização domiciliária",
+            "Quantidade": "730"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 9,
+        "table_data": [
+          {
+            "Objetivos Nacionais": "A. Acesso",
+            "Pesos Relativos (%)": "30%",
+            "Meta": ""
+          },
+          {
+            "Objetivos Nacionais": "A.1. IDE Acesso",
+            "Pesos Relativos (%)": "6%",
+            "Meta": "70.00"
+          },
+          {
+            "Objetivos Nacionais": "A.2. Cobertura rastreio C. Mama (ID 44)",
+            "Pesos Relativos (%)": "3%",
+            "Meta": "50.00"
+          },
+          {
+            "Objetivos Nacionais": "A.3. Cobertura rastreio C. Colo do Útero (ID 45)",
+            "Pesos Relativos (%)": "3%",
+            "Meta": "50.00"
+          },
+          {
+            "Objetivos Nacionais": "A.4. Cobertura s rastreio C. Colon e Reto (ID 46)",
+            "Pesos Relativos (%)": "3%",
+            "Meta": "50.00"
+          },
+          {
+            "Objetivos Nacionais": "A.5. Proporção de utentes em lista de espera para consulta hospitalar dentro do TMRG referenciados CSP",
+            "Pesos Relativos (%)": "5%",
+            "Meta": "0.55"
+          },
+          {
+            "Objetivos Nacionais": "A.6. Percentagem de utentes em lista de inscritos para cirurgia (LIC) oncológica dentro dos TMRG",
+            "Pesos Relativos (%)": "5%",
+            "Meta": "95.00"
+          },
+          {
+            "Objetivos Nacionais": "A.7. Percentagem de utentes em lista de inscritos para cirurgia (LIC) não oncológica dentro dos TMRG",
+            "Pesos Relativos (%)": "5%",
+            "Meta": "80.00"
+          },
+          {
+            "Objetivos Nacionais": "B. Qualidade Assistencial",
+            "Pesos Relativos (%)": "30%",
+            "Meta": ""
+          },
+          {
+            "Objetivos Nacionais": "B.1. IDE Gestão da Saúde",
+            "Pesos Relativos (%)": "5%",
+            "Meta": "63.50"
+          },
+          {
+            "Objetivos Nacionais": "B.2. IDE Gestão da Doença",
+            "Pesos Relativos (%)": "5%",
+            "Meta": "72.50"
+          },
+          {
+            "Objetivos Nacionais": "B.3. Taxa de ocupação das ECCI",
+            "Pesos Relativos (%)": "5%",
+            "Meta": "45.00"
+          },
+          {
+            "Objetivos Nacionais": "B.4 Demora média ajustada",
+            "Pesos Relativos (%)": "5%",
+            "Meta": "0.95"
+          },
+          {
+            "Objetivos Nacionais": "B.5 Percentagem de doentes saídos em hospitalização domiciliária (GDH) no total de doentes saídos (GDH)",
+            "Pesos Relativos (%)": "4%",
+            "Meta": "6.00"
+          },
+          {
+            "Objetivos Nacionais": "B.6 Percentagem cirurgias em ambulatório, para procedimentos tendencialmente ambulatorizáveis",
+            "Pesos Relativos (%)": "3%",
+            "Meta": "17.56"
+          },
+          {
+            "Objetivos Nacionais": "B.7 Mortalidade ajustada",
+            "Pesos Relativos (%)": "3%",
+            "Meta": "1.00"
+          },
+          {
+            "Objetivos Nacionais": "C. Eficiência",
+            "Pesos Relativos (%)": "10%",
+            "Meta": ""
+          },
+          {
+            "Objetivos Nacionais": "C.1. Gastos operacionais por Inscritos",
+            "Pesos Relativos (%)": "6%",
+            "Meta": "955.30"
+          },
+          {
+            "Objetivos Nacionais": "C.2. IDE Qualificação da Prescrição em CSP",
+            "Pesos Relativos (%)": "4%",
+            "Meta": "64.60"
+          },
+          {
+            "Objetivos Nacionais": "D. Integração de Cuidados",
+            "Pesos Relativos (%)": "30%",
+            "Meta": ""
+          },
+          {
+            "Objetivos Nacionais": "D.1 IDE Integração de cuidados",
+            "Pesos Relativos (%)": "6%",
+            "Meta": "53.40"
+          },
+          {
+            "Objetivos Nacionais": "D.2 Taxa de internamento para amputação do membro inferior em pessoas com Diabetes (ajustada para uma população padrão) (ID 360)x100,000",
+            "Pesos Relativos (%)": "6%",
+            "Meta": "13.00"
+          },
+          {
+            "Objetivos Nacionais": "D.3 Proporção de utentes referenciados pelo SNS 24 para os CSP, com consulta médica na UF de inscrição no tempo definido no fluxograma de referenciação (ID 476**)",
+            "Pesos Relativos (%)": "6%",
+            "Meta": "50.00"
+          },
+          {
+            "Objetivos Nacionais": "D.4 Taxa de internamentos evitáveis na população adulta (ajustada para uma população padrão) (ID365)x100,000",
+            "Pesos Relativos (%)": "6%",
+            "Meta": "470.00"
+          },
+          {
+            "Objetivos Nacionais": "D.5 Índice de Desempenho na Qualidade Organizacional CSP (ID 503)",
+            "Pesos Relativos (%)": "6%",
+            "Meta": "57.00"
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "page": 9,
+        "table_data": [
+          {
+            "Áreas com financiamento especifico fora do âmbito do Contrato Programa": "Assistência Médica no Estrangeiro - assistência médica de grande especialização realizada no estrageiro, por falta de meios técnicos ou humanos, nos termos do Decreto-Lei n.º 177/92, 13 de agosto."
+          },
+          {
+            "Áreas com financiamento especifico fora do âmbito do Contrato Programa": "Convenções Internacionais - engloba os cuidados prestados a cidadãos provenientes da União Europeia, ao abrigo dos Regulamentos Comunitários, e a cidadãos abrangidos por Acordos Bilaterais celebrados com Países Terceiros."
+          },
+          {
+            "Áreas com financiamento especifico fora do âmbito do Contrato Programa": "Incentivos aos Transplantes - atribuídos nos termos da legislação específica."
+          },
+          {
+            "Áreas com financiamento especifico fora do âmbito do Contrato Programa": "Programa Vertical: medicamentos para o tratamento da atrofia muscular espinal."
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "page": 12,
+        "table_data": [
+          {
+            "Descrição": "60 - Transferências e subsídios concedidos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "61 - Custo das mercadorias vendidas e das matérias consumidas",
+            "Valor Estimado 2024": "27490678.00",
+            "Valor Contratualizado 2025": "28621811.00",
+            "% Var 2025/2024": "4.11%"
+          },
+          {
+            "Descrição": "61.1 Mercadorias",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "61.2 - Matérias-primas, subsidiárias e de consumo",
+            "Valor Estimado 2024": "27490678.00",
+            "Valor Contratualizado 2025": "28621811.00",
+            "% Var 2025/2024": "4.11%"
+          },
+          {
+            "Descrição": "61.2.4 - Matérias de consumo clínico",
+            "Valor Estimado 2024": "27487398.00",
+            "Valor Contratualizado 2025": "28618531.00",
+            "% Var 2025/2024": "4.12%"
+          },
+          {
+            "Descrição": "61.2.4.1 - Produtos farmacêuticos",
+            "Valor Estimado 2024": "21861417.00",
+            "Valor Contratualizado 2025": "22762636.00",
+            "% Var 2025/2024": "4.12%"
+          },
+          {
+            "Descrição": "61.2.4.1.1 - Medicamentos",
+            "Valor Estimado 2024": "19541050.00",
+            "Valor Contratualizado 2025": "20352267.00",
+            "% Var 2025/2024": "4.15%"
+          },
+          {
+            "Descrição": "61.2.4.1.2 - Reagentes e produtos de diagnóstico rápido",
+            "Valor Estimado 2024": "2068959.00",
+            "Valor Contratualizado 2025": "2155190.00",
+            "% Var 2025/2024": "4.17%"
+          },
+          {
+            "Descrição": "61.2.4.1.9 - Outros produtos farmacêuticos",
+            "Valor Estimado 2024": "251408.00",
+            "Valor Contratualizado 2025": "255179.00",
+            "% Var 2025/2024": "1.50%"
+          },
+          {
+            "Descrição": "61.2.4.2 - Material de consumo clínico",
+            "Valor Estimado 2024": "4846234.00",
+            "Valor Contratualizado 2025": "5061500.00",
+            "% Var 2025/2024": "4.44%"
+          },
+          {
+            "Descrição": "61.2.4.3 - Material de consumo hoteleiro",
+            "Valor Estimado 2024": "349927.00",
+            "Valor Contratualizado 2025": "355175.00",
+            "% Var 2025/2024": "1.50%"
+          },
+          {
+            "Descrição": "61.2.4.4 - Material de consumo administrativo",
+            "Valor Estimado 2024": "183030.00",
+            "Valor Contratualizado 2025": "188160.00",
+            "% Var 2025/2024": "2.80%"
+          },
+          {
+            "Descrição": "61.2.4.5 - Material de manutenção e conservação",
+            "Valor Estimado 2024": "237310.00",
+            "Valor Contratualizado 2025": "241580.00",
+            "% Var 2025/2024": "1.80%"
+          },
+          {
+            "Descrição": "61.2.4.9 - Outro material de consumo",
+            "Valor Estimado 2024": "9480.00",
+            "Valor Contratualizado 2025": "9480.00",
+            "% Var 2025/2024": "0.00%"
+          },
+          {
+            "Descrição": "61.2.6 - Alimentação - géneros para confecionar",
+            "Valor Estimado 2024": "3280.00",
+            "Valor Contratualizado 2025": "3280.00",
+            "% Var 2025/2024": "0.00%"
+          },
+          {
+            "Descrição": "61.3 - Ativos biológicos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2024": "27490678.00",
+            "Valor Contratualizado 2025": "28621811.00",
+            "% Var 2025/2024": "4.11%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "13.00%",
+            "Valor Contratualizado 2025": "13.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "62.1 Subcontratos e parcerias",
+            "Valor Estimado 2024": "65111822.00",
+            "Valor Contratualizado 2025": "67072264.00",
+            "% Var 2025/2024": "3.01%"
+          },
+          {
+            "Descrição": "62.1.1 - Serviços de saúde",
+            "Valor Estimado 2024": "64722042.00",
+            "Valor Contratualizado 2025": "66668449.00",
+            "% Var 2025/2024": "3.01%"
+          },
+          {
+            "Descrição": "62.1.1.1 - Meios complementares de diagnóstico",
+            "Valor Estimado 2024": "13340134.00",
+            "Valor Contratualizado 2025": "13766979.00",
+            "% Var 2025/2024": "3.20%"
+          },
+          {
+            "Descrição": "62.1.1.1.1 - Patologia clínica",
+            "Valor Estimado 2024": "6551700.00",
+            "Valor Contratualizado 2025": "6689975.00",
+            "% Var 2025/2024": "2.11%"
+          },
+          {
+            "Descrição": "62.1.1.1.2 - Anatomia patológica",
+            "Valor Estimado 2024": "301530.00",
+            "Valor Contratualizado 2025": "308050.00",
+            "% Var 2025/2024": "2.16%"
+          },
+          {
+            "Descrição": "62.1.1.1.3 Imagiologia",
+            "Valor Estimado 2024": "4498865.00",
+            "Valor Contratualizado 2025": "4709750.00",
+            "% Var 2025/2024": "4.69%"
+          },
+          {
+            "Descrição": "62.1.1.1.4 - Cardiologia",
+            "Valor Estimado 2024": "791589.00",
+            "Valor Contratualizado 2025": "908480.00",
+            "% Var 2025/2024": "14.77%"
+          },
+          {
+            "Descrição": "62.1.1.1.5 - Eletroencefalografia",
+            "Valor Estimado 2024": "63984.00",
+            "Valor Contratualizado 2025": "65584.00",
+            "% Var 2025/2024": "2.50%"
+          },
+          {
+            "Descrição": "62.1.1.1.6- Medicina nuclear",
+            "Valor Estimado 2024": "124820.00",
+            "Valor Contratualizado 2025": "127940.00",
+            "% Var 2025/2024": "2.50%"
+          },
+          {
+            "Descrição": "62.1.1.1.7 - Gastroenterologia",
+            "Valor Estimado 2024": "806110.00",
+            "Valor Contratualizado 2025": "750630.00",
+            "% Var 2025/2024": "-6.88%"
+          },
+          {
+            "Descrição": "62.1.1.1.8 - Pneumologia / Imunoalergologia",
+            "Valor Estimado 2024": "44650.00",
+            "Valor Contratualizado 2025": "45760.00",
+            "% Var 2025/2024": "2.49%"
+          },
+          {
+            "Descrição": "62.1.1.1.9 - Outros Meios de Diagnóstico",
+            "Valor Estimado 2024": "156886.00",
+            "Valor Contratualizado 2025": "160810.00",
+            "% Var 2025/2024": "2.50%"
+          },
+          {
+            "Descrição": "62.1.1.2 - Meios complementares de terapêutica",
+            "Valor Estimado 2024": "14700390.00",
+            "Valor Contratualizado 2025": "14834940.00",
+            "% Var 2025/2024": "0.92%"
+          },
+          {
+            "Descrição": "62.1.1.2.1 Hemodiálise",
+            "Valor Estimado 2024": "7463075.00",
+            "Valor Contratualizado 2025": "7627410.00",
+            "% Var 2025/2024": "2.20%"
+          },
+          {
+            "Descrição": "62.1.1.2.2 - Medicina física e de reabilitação",
+            "Valor Estimado 2024": "3064015.00",
+            "Valor Contratualizado 2025": "3158990.00",
+            "% Var 2025/2024": "3.10%"
+          },
+          {
+            "Descrição": "62.1.1.2.3- Litotrícia",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "62.1.1.2.9 - Outros Meios Comp. de terapêutica",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "62.1.1.4 - Produtos Fornecidos por Farmácias Hospitalares",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "62.1.1.5 Internamentos",
+            "Valor Estimado 2024": "1032030.00",
+            "Valor Contratualizado 2025": "1096420.00",
+            "% Var 2025/2024": "6.24%"
+          },
+          {
+            "Descrição": "62.1.1.9- Outros subcontratos",
+            "Valor Estimado 2024": "190408.00",
+            "Valor Contratualizado 2025": "151930.00",
+            "% Var 2025/2024": "-20.21%"
+          },
+          {
+            "Descrição": "62.1.1.9.1- Assistência ambulatória",
+            "Valor Estimado 2024": "45918.00",
+            "Valor Contratualizado 2025": "1930.00",
+            "% Var 2025/2024": "-95.80%"
+          },
+          {
+            "Descrição": "62.1.1.9.2 - Aparelhos complementares de terapêutica",
+            "Valor Estimado 2024": "144490.00",
+            "Valor Contratualizado 2025": "150000.00",
+            "% Var 2025/2024": "3.81%"
+          },
+          {
+            "Descrição": "62.1.1.9.3 - Assistência no estrangeiro",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "62.1.2 - Infraestruturas de transportes e parques de estacionamento",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "62.1.3 - Serviços de transporte",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "62.1.4 - Serviços de alojamento e de restauração",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "62.1.5 - Espaços de desporto, cultura e lazer",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "62.1.6 - Serviços de fornecimento de água",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "62.1.7 - Serviços de recolha e tratamento de resíduos sólidos e urbanos",
+            "Valor Estimado 2024": "389780.00",
+            "Valor Contratualizado 2025": "403815.00",
+            "% Var 2025/2024": "3.60%"
+          },
+          {
+            "Descrição": "62.1.8 - Tecnologias de informação e comunicação",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "62.1.9 - Outros subcontratos ou concessões",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "62.2 - Serviços especializados",
+            "Valor Estimado 2024": "11784050.00",
+            "Valor Contratualizado 2025": "12537051.00",
+            "% Var 2025/2024": "6.39%"
+          },
+          {
+            "Descrição": "62.3 - Materiais de consumo",
+            "Valor Estimado 2024": "44995.00",
+            "Valor Contratualizado 2025": "45000.00",
+            "% Var 2025/2024": "0.01%"
+          },
+          {
+            "Descrição": "62.4 - Energia e fluidos",
+            "Valor Estimado 2024": "1866360.00",
+            "Valor Contratualizado 2025": "1919645.00",
+            "% Var 2025/2024": "2.86%"
+          },
+          {
+            "Descrição": "62.5 - Deslocações, estadas e transportes",
+            "Valor Estimado 2024": "2727030.00",
+            "Valor Contratualizado 2025": "2317725.00",
+            "% Var 2025/2024": "-15.01%"
+          },
+          {
+            "Descrição": "62.5.5 - Transporte de doentes",
+            "Valor Estimado 2024": "2726530.00",
+            "Valor Contratualizado 2025": "2317725.00",
+            "% Var 2025/2024": "-14.99%"
+          },
+          {
+            "Descrição": "62.6 - Serviços diversos",
+            "Valor Estimado 2024": "2804984.00",
+            "Valor Contratualizado 2025": "2917910.00",
+            "% Var 2025/2024": "4.03%"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2024": "84339241.00",
+            "Valor Contratualizado 2025": "86809595.00",
+            "% Var 2025/2024": "2.93%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "39.00%",
+            "Valor Contratualizado 2025": "40.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "63 - Gastos com o pessoal",
+            "Valor Estimado 2024": "94655164.00",
+            "Valor Contratualizado 2025": "97876464.00",
+            "% Var 2025/2024": "3.40%"
+          },
+          {
+            "Descrição": "63.0 - Remunerações dos titulares de orgãos de soberania e membros de orgãos autárquicos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "63.1 - Remunerações dos orgãos sociais e de gestão",
+            "Valor Estimado 2024": "596630.00",
+            "Valor Contratualizado 2025": "620172.00",
+            "% Var 2025/2024": "3.95%"
+          },
+          {
+            "Descrição": "63.2 - Remunerações do pessoal",
+            "Valor Estimado 2024": "75797752.00",
+            "Valor Contratualizado 2025": "78621159.00",
+            "% Var 2025/2024": "3.72%"
+          },
+          {
+            "Descrição": "63.2.1.1 - Remuneração base",
+            "Valor Estimado 2024": "48032732.00",
+            "Valor Contratualizado 2025": "50080060.00",
+            "% Var 2025/2024": "4.26%"
+          },
+          {
+            "Descrição": "63.2.1.1.1- Pessoal em regime de nomeação definitiva e contrato de trabalho em funções públicas por tempo indeterminado",
+            "Valor Estimado 2024": "23001335.00",
+            "Valor Contratualizado 2025": "23787386.00",
+            "% Var 2025/2024": "3.42%"
+          },
+          {
+            "Descrição": "63.2.1.1.2 - Pessoal em regime de nomeação transitória e contrato de trabalho em funções públicas a termo resolutivo",
+            "Valor Estimado 2024": "4658950.00",
+            "Valor Contratualizado 2025": "4826670.00",
+            "% Var 2025/2024": "3.60%"
+          },
+          {
+            "Descrição": "63.2.1.1.3 - Pessoal em regime de contrato individual de trabalho a termo resolutivo incerto",
+            "Valor Estimado 2024": "620882.00",
+            "Valor Contratualizado 2025": "643233.00",
+            "% Var 2025/2024": "3.60%"
+          },
+          {
+            "Descrição": "63.2.1.1.4 - Pessoal em regime de contrato individual de trabalho a termo resolutivo certo",
+            "Valor Estimado 2024": "159395.00",
+            "Valor Contratualizado 2025": "165133.00",
+            "% Var 2025/2024": "3.60%"
+          },
+          {
+            "Descrição": "63.2.1.1.5 - Pessoal em regime de contrato individual de trabalho sem termo",
+            "Valor Estimado 2024": "18007912.00",
+            "Valor Contratualizado 2025": "19016350.00",
+            "% Var 2025/2024": "5.60%"
+          },
+          {
+            "Descrição": "63.2.1.1.6 - Pessoal em cedência de interesse público e em comissão de serviço",
+            "Valor Estimado 2024": "483140.00",
+            "Valor Contratualizado 2025": "500530.00",
+            "% Var 2025/2024": "3.60%"
+          },
+          {
+            "Descrição": "63.2.1.1.7 - Pessoal em comissão de Serviço - Dirigentes",
+            "Valor Estimado 2024": "660608.00",
+            "Valor Contratualizado 2025": "684390.00",
+            "% Var 2025/2024": "3.60%"
+          },
+          {
+            "Descrição": "63.2.1.1.8 - Pessoal em mobilidade especial",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "63.2.1.1.9 - Pessoal em qualquer outra situação",
+            "Valor Estimado 2024": "440510.00",
+            "Valor Contratualizado 2025": "456368.00",
+            "% Var 2025/2024": "3.60%"
+          },
+          {
+            "Descrição": "63.2.1.2 - Subsídio de férias",
+            "Valor Estimado 2024": "4689560.00",
+            "Valor Contratualizado 2025": "4781454.00",
+            "% Var 2025/2024": "1.96%"
+          },
+          {
+            "Descrição": "63.2.1.3 Subsídio de Natal",
+            "Valor Estimado 2024": "4480680.00",
+            "Valor Contratualizado 2025": "4619160.00",
+            "% Var 2025/2024": "3.09%"
+          },
+          {
+            "Descrição": "63.2.1.5 Subsídio de refeição",
+            "Valor Estimado 2024": "3137340.00",
+            "Valor Contratualizado 2025": "3258910.00",
+            "% Var 2025/2024": "3.87%"
+          },
+          {
+            "Descrição": "63.2.2 - Abonos variáveis ou eventuais",
+            "Valor Estimado 2024": "11646890.00",
+            "Valor Contratualizado 2025": "12281355.00",
+            "% Var 2025/2024": "5.45%"
+          },
+          {
+            "Descrição": "63.2.2.02 - Alimentação e alojamento",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "63.2.2.03 - Ajudas de custo",
+            "Valor Estimado 2024": "33450.00",
+            "Valor Contratualizado 2025": "34620.00",
+            "% Var 2025/2024": "3.50%"
+          },
+          {
+            "Descrição": "63.2.2.04 - Trabalho extraordinário",
+            "Valor Estimado 2024": "6086715.00",
+            "Valor Contratualizado 2025": "6404980.00",
+            "% Var 2025/2024": "5.23%"
+          },
+          {
+            "Descrição": "63.2.2.04.1 - Horas Extraordinárias",
+            "Valor Estimado 2024": "5004595.00",
+            "Valor Contratualizado 2025": "5229800.00",
+            "% Var 2025/2024": "4.50%"
+          },
+          {
+            "Descrição": "63.2.2.04.2 - Prevenções",
+            "Valor Estimado 2024": "1082120.00",
+            "Valor Contratualizado 2025": "1175180.00",
+            "% Var 2025/2024": "8.60%"
+          },
+          {
+            "Descrição": "63.2.2.05.1 - Prémios de desempenho",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "63.2.2.06 - Abono para falhas",
+            "Valor Estimado 2024": "1025.00",
+            "Valor Contratualizado 2025": "1070.00",
+            "% Var 2025/2024": "4.39%"
+          },
+          {
+            "Descrição": "63.2.2.07 - Subsídio de prevenção, trabalho noturno e de turno",
+            "Valor Estimado 2024": "3855020.00",
+            "Valor Contratualizado 2025": "4016930.00",
+            "% Var 2025/2024": "4.20%"
+          },
+          {
+            "Descrição": "63.2.2.07.1 - Noites e Suplementos",
+            "Valor Estimado 2024": "3855020.00",
+            "Valor Contratualizado 2025": "4016930.00",
+            "% Var 2025/2024": "4.20%"
+          },
+          {
+            "Descrição": "63.2.2.07.2 - Subsídio de turno",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "63.2.2.99.1 - SIGIC",
+            "Valor Estimado 2024": "1167430.00",
+            "Valor Contratualizado 2025": "1356080.00",
+            "% Var 2025/2024": "16.16%"
+          },
+          {
+            "Descrição": "63.2.2.99.9 - Outros",
+            "Valor Estimado 2024": "115005.00",
+            "Valor Contratualizado 2025": "119145.00",
+            "% Var 2025/2024": "3.60%"
+          },
+          {
+            "Descrição": "63.3 - Benefícios pós-emprego",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "63.3.9 Outros benefícios",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "63.4 - Indemnizações",
+            "Valor Estimado 2024": "12176.00",
+            "Valor Contratualizado 2025": "5000.00",
+            "% Var 2025/2024": "-58.94%"
+          },
+          {
+            "Descrição": "63.5 - Encargos sobre remunerações",
+            "Valor Estimado 2024": "17683475.00",
+            "Valor Contratualizado 2025": "18340383.00",
+            "% Var 2025/2024": "3.71%"
+          },
+          {
+            "Descrição": "63.5.1.2.2 - Segurança Social - Prestações Sociais Diretas",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "63.6 - Acidentes no trabalho e doenças profissionais",
+            "Valor Estimado 2024": "8011.00",
+            "Valor Contratualizado 2025": "2100.00",
+            "% Var 2025/2024": "-73.79%"
+          },
+          {
+            "Descrição": "63.7 - Gastos de ação social",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": "14000.00",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "63.7.2 - Encargos sociais voluntários",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "63.8 - Outros gastos com o pessoal",
+            "Valor Estimado 2024": "98790.00",
+            "Valor Contratualizado 2025": "90320.00",
+            "% Var 2025/2024": "-8.57%"
+          },
+          {
+            "Descrição": "63.8.9 Outros",
+            "Valor Estimado 2024": "98790.00",
+            "Valor Contratualizado 2025": "90320.00",
+            "% Var 2025/2024": "-8.57%"
+          },
+          {
+            "Descrição": "63.9 - Outros encargos sociais",
+            "Valor Estimado 2024": "458330.00",
+            "Valor Contratualizado 2025": "183330.00",
+            "% Var 2025/2024": "-60.00%"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2024": "94655164.00",
+            "Valor Contratualizado 2025": "97876464.00",
+            "% Var 2025/2024": "3.40%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "44.00%",
+            "Valor Contratualizado 2025": "45.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "64 - Gastos de depreciação e de amortização",
+            "Valor Estimado 2024": "5517175.00",
+            "Valor Contratualizado 2025": "5582380.00",
+            "% Var 2025/2024": "1.18%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "3.00%",
+            "Valor Contratualizado 2025": "3.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "65 - Perdas por imparidade",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "66 - Perdas por reduções de justo valor",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "67 - Provisões do período",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "68 - Outros gastos",
+            "Valor Estimado 2024": "2952996.00",
+            "Valor Contratualizado 2025": "138680.00",
+            "% Var 2025/2024": "-95.30%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "1.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "69 - Gastos por juros e outros encargos",
+            "Valor Estimado 2024": "52241.00",
+            "Valor Contratualizado 2025": "41250.00",
+            "% Var 2025/2024": "-21.04%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "TOTAL GERAL",
+            "Valor Estimado 2024": "215007495.00",
+            "Valor Contratualizado 2025": "219070180.00",
+            "% Var 2025/2024": "1.89%"
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "page": 15,
+        "table_data": [
+          {
+            "Descrição": "70 - Impostos, contribuições e taxas",
+            "Valor Estimado 2024": "528015.00",
+            "Valor Contratualizado 2025": "535935.00",
+            "% Var 2025/2024": "1.50%"
+          },
+          {
+            "Descrição": "70.1 - Impostos diretos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "70.2 - Impostos indiretos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "70.3 - Contribuições para sistemas de proteção social e subsistemas de saúde",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "70.4 - Taxas, multas e outras penalidades",
+            "Valor Estimado 2024": "528015.00",
+            "Valor Contratualizado 2025": "535935.00",
+            "% Var 2025/2024": "1.50%"
+          },
+          {
+            "Descrição": "70.4.1.08 - Taxas moderadoras",
+            "Valor Estimado 2024": "504400.00",
+            "Valor Contratualizado 2025": "511965.00",
+            "% Var 2025/2024": "1.50%"
+          },
+          {
+            "Descrição": "70.4.1.08.1 - Consultas",
+            "Valor Estimado 2024": "8050.00",
+            "Valor Contratualizado 2025": "8170.00",
+            "% Var 2025/2024": "1.49%"
+          },
+          {
+            "Descrição": "70.4.1.08.2 - Urgência/SAP",
+            "Valor Estimado 2024": "418980.00",
+            "Valor Contratualizado 2025": "425265.00",
+            "% Var 2025/2024": "1.50%"
+          },
+          {
+            "Descrição": "70.4.1.08.3 - Meios complementares diagnóstico e terapêutica",
+            "Valor Estimado 2024": "77370.00",
+            "Valor Contratualizado 2025": "78530.00",
+            "% Var 2025/2024": "1.50%"
+          },
+          {
+            "Descrição": "70.4.1.08.9 - Outros",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2024": "528015.00",
+            "Valor Contratualizado 2025": "535935.00",
+            "% Var 2025/2024": "1.50%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "71 - Vendas",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "71.1 - Mercadorias",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "71.2 - Produtos acabados e intermédios",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "71.3 - Subprodutos, desperdícios, resíduos e refugos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "71.4 - Ativos biológicos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "71.7 - Devoluções de vendas",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "71.8 Descontos e abatimentos em vendas",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72 - Prestações de serviços e concessões",
+            "Valor Estimado 2024": "181927553.00",
+            "Valor Contratualizado 2025": "184244280.00",
+            "% Var 2025/2024": "1.27%"
+          },
+          {
+            "Descrição": "72.01 - Serviços específicos do setor da saúde",
+            "Valor Estimado 2024": "181927553.00",
+            "Valor Contratualizado 2025": "184244280.00",
+            "% Var 2025/2024": "1.27%"
+          },
+          {
+            "Descrição": "72.01.1-SNS - SERVIÇO NACIONAL SAÚDE (Contrato Programa EPE)",
+            "Valor Estimado 2024": "181264166.00",
+            "Valor Contratualizado 2025": "183961650.00",
+            "% Var 2025/2024": "1.49%"
+          },
+          {
+            "Descrição": "72.01.1.1- Internamento",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.1.1 - GDH Médicos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.1.2-GDH Cirúrgicos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.1.3-GDH Cirúrgicos Urgentes",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.1.4 - Dias Internamento Doentes Crónicos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.2 Consulta",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.2.1 - Primeiras Consultas",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.2.2 - Consultas Subsequentes",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.3 - Urgência",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.3.1 - Atendimentos (SU-Polivalente)",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.3.2 - Atendimentos (SU-Médico Cirúrgica)",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.3.3 - ECMO (Centros de Oxigenação por Membrana Extracorporal)",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.3.4 - Atendimentos (SU-Básica)",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.4-GDH Ambulatório",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.4.1-GDH Cirúrgicos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.4.2 - GDH Médicos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.5- Hospital de dia",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6 - Outras prestações serviços saúde",
+            "Valor Estimado 2024": "181264166.00",
+            "Valor Contratualizado 2025": "183961650.00",
+            "% Var 2025/2024": "1.49%"
+          },
+          {
+            "Descrição": "72.01.1.6.1- Serviço Domiciliário",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2 - Programas de gestão da doença crónica",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.1 - VIH/Sida",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.2 - Esclerose Multipla",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.3 - Hipertensao Pulmonar",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.4 - Cancro",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.4.1 - Cancro da Mama",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.4.2 - Cancro do Colo do Útero",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.4.3 - Cancro do Cólon e Reto",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.4.9 - Outros",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.5 - Telemonitorização",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.5.1 - Telemonitorização DPOC",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.5.2 - Telemonitorização EAM",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.5.3 - Telemonitorização ICC",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.5.9 - Outros",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.6 - PSCI",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.7 - Doenças Lisossomais",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.8 - PAF1 - Paramiloidose",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.2.9 - Outros Programas de Gestão da Doença Crónica",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.3 - Saúde Sexual e Reprodutiva",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.3.1 - IVG até às 10 semanas",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.3.2 - PMA - Diagnóstico e Tratamento da Infertilidade",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.3.3 - Diagnóstico Pré-Natal",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.3.4 - Banco de Gâmetas",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.5 - Valor Capitacional (ULS)",
+            "Valor Estimado 2024": "162158656.00",
+            "Valor Contratualizado 2025": "163594864.00",
+            "% Var 2025/2024": "0.89%"
+          },
+          {
+            "Descrição": "72.01.1.6.6 Sessões de Radioterapia",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.7 - Medicamentos de Cedência em Ambulatório",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.1.6.8 - Internos",
+            "Valor Estimado 2024": "1507047.00",
+            "Valor Contratualizado 2025": "1146912.00",
+            "% Var 2025/2024": "-23.90%"
+          },
+          {
+            "Descrição": "72.01.1.6.9 - Outras prestações de serviços",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.2 - Prestações de Saúde de Financiamento Vertical (ACSS)",
+            "Valor Estimado 2024": "1105.00",
+            "Valor Contratualizado 2025": "11963.00",
+            "% Var 2025/2024": "982.62%"
+          },
+          {
+            "Descrição": "72.01.3 - Outras entidades responsáveis",
+            "Valor Estimado 2024": "662282.00",
+            "Valor Contratualizado 2025": "270667.00",
+            "% Var 2025/2024": "-59.13%"
+          },
+          {
+            "Descrição": "72.01.3.1 - Internamento",
+            "Valor Estimado 2024": "86297.00",
+            "Valor Contratualizado 2025": "86297.00",
+            "% Var 2025/2024": "0.00%"
+          },
+          {
+            "Descrição": "72.01.3.2 - Consulta",
+            "Valor Estimado 2024": "1205.00",
+            "Valor Contratualizado 2025": "1205.00",
+            "% Var 2025/2024": "0.00%"
+          },
+          {
+            "Descrição": "72.01.3.3 - Urgência/SAP",
+            "Valor Estimado 2024": "135190.00",
+            "Valor Contratualizado 2025": "135190.00",
+            "% Var 2025/2024": "0.00%"
+          },
+          {
+            "Descrição": "72.01.3.3.1 - Urgência",
+            "Valor Estimado 2024": "135190.00",
+            "Valor Contratualizado 2025": "135190.00",
+            "% Var 2025/2024": "0.00%"
+          },
+          {
+            "Descrição": "72.01.3.3.2 - Serviço de atendimento permanente",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.3.9 - Outros",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.4 - Quartos particulares",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.5 - Hospital de dia",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.6 - Meios Complementares de Diagnóstico e Terapêutica",
+            "Valor Estimado 2024": "47975.00",
+            "Valor Contratualizado 2025": "47975.00",
+            "% Var 2025/2024": "0.00%"
+          },
+          {
+            "Descrição": "72.01.3.6.1 - Meios de Diagnóstico",
+            "Valor Estimado 2024": "47975.00",
+            "Valor Contratualizado 2025": "47975.00",
+            "% Var 2025/2024": "0.00%"
+          },
+          {
+            "Descrição": "72.01.3.6.1.1 - Patologia clínica",
+            "Valor Estimado 2024": "4070.00",
+            "Valor Contratualizado 2025": "4070.00",
+            "% Var 2025/2024": "0.00%"
+          },
+          {
+            "Descrição": "72.01.3.6.1.2 - Anatomia patológica",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.6.1.3 - Imagiologia",
+            "Valor Estimado 2024": "28990.00",
+            "Valor Contratualizado 2025": "28990.00",
+            "% Var 2025/2024": "0.00%"
+          },
+          {
+            "Descrição": "72.01.3.6.1.4 - Cardiologia",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.6.1.5 - Medicina nuclear",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.6.1.6- Gastrenterologia",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.6.1.9 - Outros",
+            "Valor Estimado 2024": "14915.00",
+            "Valor Contratualizado 2025": "14915.00",
+            "% Var 2025/2024": "0.00%"
+          },
+          {
+            "Descrição": "72.01.3.6.2 - Meios de Terapêutica",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.6.2.1 - Hemodiálise",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.6.2.2 - Medicina física e de reabilitação",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.6.2.3 - Litotrícia",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.6.2.4 - Quimioterapia",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.6.2.5 - Radioterapia",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.6.2.9 - Outros",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.7 - Serviços domiciliários",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.8 - GDH AMBULATÓRIO",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.8.1 - GDH Cirúrgicos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.8.2 - GDH Médicos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.9 - Outras prestações de serviços",
+            "Valor Estimado 2024": "391615.00",
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": "-100.00%"
+          },
+          {
+            "Descrição": "72.01.3.9.1 - Análises sanitárias",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.9.2 - Convenções internacionais",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.9.3 - Unidades terapêuticas de sangue",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.01.3.9.9 - Outras",
+            "Valor Estimado 2024": "391615.00",
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": "-100.00%"
+          },
+          {
+            "Descrição": "72.05 - Concessões",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.06 - Vistorias e ensaios",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.07 - Estudos, pareceres, projetos e consultadoria",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.08 - Serviços sociais, recreativos, culturais e desporto",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.09 - Transporte de doentes",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.10 - Serviços laboratoriais",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.11 - Aluguer de equipamentos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.12 - Arrendamento",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.13 - Reparações",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.14 - Subsistemas de saúde facultativos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "72.99 - Outros serviços",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2024": "181927553.00",
+            "Valor Contratualizado 2025": "184244280.00",
+            "% Var 2025/2024": "1.27%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "98.00%",
+            "Valor Contratualizado 2025": "99.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "73 - Variações nos inventários da produção",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "74 - Trabalhos para a própria entidade",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "75 - Transferências e subsídios correntes obtidos",
+            "Valor Estimado 2024": "110852.00",
+            "Valor Contratualizado 2025": "112766.00",
+            "% Var 2025/2024": "1.73%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "76 - Reversões",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "77 - Ganhos por aumentos de justo valor",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "78 - Outros rendimentos",
+            "Valor Estimado 2024": "3335529.00",
+            "Valor Contratualizado 2025": "583373.00",
+            "% Var 2025/2024": "-82.51%"
+          },
+          {
+            "Descrição": "78.1 - Rendimentos suplementares",
+            "Valor Estimado 2024": "2917824.00",
+            "Valor Contratualizado 2025": "167928.00",
+            "% Var 2025/2024": "-94.24%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "2.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "79 - Juros, dividendos e outros rendimentos similares",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2024": "0.00%",
+            "Valor Contratualizado 2025": "0.00%",
+            "% Var 2025/2024": null
+          },
+          {
+            "Descrição": "TOTAL GERAL",
+            "Valor Estimado 2024": "185901949.00",
+            "Valor Contratualizado 2025": "185476354.00",
+            "% Var 2025/2024": "-0.23%"
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "page": 18,
+        "table_data": [
+          {
+            "Fluxos de Atividades Operacionais": "Recebimento de Clientes",
+            "Valor Estimado 2024": "181975296.00",
+            "Valor Contratualizado 2025": "189260252.00",
+            "% Var 2025 / 2024": "4.00%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Recebimento de Contribuintes",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Recebimento de Utentes",
+            "Valor Estimado 2024": "528015.00",
+            "Valor Contratualizado 2025": "535935.00",
+            "% Var 2025 / 2024": "1.50%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Pagamento a Fornecedores",
+            "Valor Estimado 2024": "-76076329.00",
+            "Valor Contratualizado 2025": "-78006135.00",
+            "% Var 2025 / 2024": "2.54%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Pagamentos ao Pessoal",
+            "Valor Estimado 2024": "-94043412.00",
+            "Valor Contratualizado 2025": "-97788243.00",
+            "% Var 2025 / 2024": "3.98%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Caixa gerada pelas operações",
+            "Valor Estimado 2024": "12383570.00",
+            "Valor Contratualizado 2025": "14001809.00",
+            "% Var 2025 / 2024": "13.07%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Outros recebimentos/pagamentos",
+            "Valor Estimado 2024": "-9840294.00",
+            "Valor Contratualizado 2025": "-10233905.00",
+            "% Var 2025 / 2024": "4.00%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Fluxos de caixa das atividades operacionais",
+            "Valor Estimado 2024": "2543276.00",
+            "Valor Contratualizado 2025": "3767904.00",
+            "% Var 2025 / 2024": "48.15%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Fluxos de Atividades de Investimento",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Pagamentos Respeitantes a (-):",
+            "Valor Estimado 2024": "-2092256.00",
+            "Valor Contratualizado 2025": "-3626150.00",
+            "% Var 2025 / 2024": "73.31%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Ativos Fixos Tangíveis",
+            "Valor Estimado 2024": "-2084746.00",
+            "Valor Contratualizado 2025": "-3620530.00",
+            "% Var 2025 / 2024": "73.67%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Ativos Intangíveis",
+            "Valor Estimado 2024": "-7510.00",
+            "Valor Contratualizado 2025": "-5620.00",
+            "% Var 2025 / 2024": "-25.17%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Propriedades de Investimento",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Investimentos Financeiros",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Outros Ativos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Recebimentos Provenientes de (+):",
+            "Valor Estimado 2024": "473.00",
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": "-100.00%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Ativos Fixos Tangíveis",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Ativos Intangíveis",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Propriedades de Investimento",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Investimentos Financeiros",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Outros Ativos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Subsídios ao Investimento",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Transferências de Capital",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Juros e Rendimentos Similares",
+            "Valor Estimado 2024": "473.00",
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": "-100.00%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Dividendos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Fluxos de caixa das atividades de investimento",
+            "Valor Estimado 2024": "-2091783.00",
+            "Valor Contratualizado 2025": "-3626150.00",
+            "% Var 2025 / 2024": "73.35%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Fluxos de Atividades de Financiamento",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Recebimentos Provenientes de (+):",
+            "Valor Estimado 2024": "4695.00",
+            "Valor Contratualizado 2025": "6230.00",
+            "% Var 2025 / 2024": "32.69%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Financiamentos Obtidos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Realizações de capital e de outros instrumentos de capital",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Cobertura de prejuízos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Doações",
+            "Valor Estimado 2024": "4695.00",
+            "Valor Contratualizado 2025": "6230.00",
+            "% Var 2025 / 2024": "32.69%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Outras operações de financiamento",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Pagamentos Respeitantes a (-):",
+            "Valor Estimado 2024": "-61073.00",
+            "Valor Contratualizado 2025": "-42630.00",
+            "% Var 2025 / 2024": "-30.20%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Financiamentos obtidos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Juros e gastos similares",
+            "Valor Estimado 2024": "-61073.00",
+            "Valor Contratualizado 2025": "-42630.00",
+            "% Var 2025 / 2024": "-30.20%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Dividendos",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Reduções de capital e de outros intrumentos de capital",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Outras operações de financiamento",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Fluxos de caixa das atividades de financiamento",
+            "Valor Estimado 2024": "-56378.00",
+            "Valor Contratualizado 2025": "-36400.00",
+            "% Var 2025 / 2024": "-35.44%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Variação de caixa e seus equivalentes",
+            "Valor Estimado 2024": "395115.00",
+            "Valor Contratualizado 2025": "105354.00",
+            "% Var 2025 / 2024": "-73.34%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Efeito das diferenças de câmbio",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Caixa e seus equivalentes no ínicio do período",
+            "Valor Estimado 2024": "2034851.00",
+            "Valor Contratualizado 2025": "2429966.00",
+            "% Var 2025 / 2024": "19.42%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Caixa e seus equivalentes no fim do período",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Conciliação entre caixa e seus equivalentes e saldo de gerência",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Caixa e seus equivalentes no ínicio do período",
+            "Valor Estimado 2024": "2034851.00",
+            "Valor Contratualizado 2025": "2429966.00",
+            "% Var 2025 / 2024": "19.42%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Equivalentes a caixa no ínicio do período",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Variações cambiais de caixa no ínicio do período",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Saldo da gerência anterior",
+            "Valor Estimado 2024": "2034851.00",
+            "Valor Contratualizado 2025": "2429966.00",
+            "% Var 2025 / 2024": "19.42%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Da execução orçamental",
+            "Valor Estimado 2024": "2034851.00",
+            "Valor Contratualizado 2025": "2429966.00",
+            "% Var 2025 / 2024": "19.42%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Das operações de tesouraria",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Caixa e seus equivalentes no fim do período",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Equivalentes a caixa no fim do período",
+            "Valor Estimado 2024": "2429966.00",
+            "Valor Contratualizado 2025": "2535320.00",
+            "% Var 2025 / 2024": "4.34%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Variações cambiais de caixa no fim do período",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Saldo para a gerência seguinte",
+            "Valor Estimado 2024": "-2429966.00",
+            "Valor Contratualizado 2025": "-2535320.00",
+            "% Var 2025 / 2024": "4.34%"
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Da execução orçamental",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          },
+          {
+            "Fluxos de Atividades Operacionais": "Das operações de tesouraria",
+            "Valor Estimado 2024": null,
+            "Valor Contratualizado 2025": null,
+            "% Var 2025 / 2024": null
+          }
+        ]
+      },
+      {
+        "table_index": 7,
+        "page": 20,
+        "table_data": [
+          {
+            "Descrição": "Ativo não corrente",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Ativos Fixos Tangíveis",
+            "AL - Ativo Liquido 2024": "25787001.00",
+            "AL - Ativo Liquido 2025": "24429915.00"
+          },
+          {
+            "Descrição": "Propriedades de Investimento",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Ativos Intangíveis",
+            "AL - Ativo Liquido 2024": "39339.00",
+            "AL - Ativo Liquido 2025": "28740.00"
+          },
+          {
+            "Descrição": "Ativos Biológicos",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Investimentos Financeiros",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Devedores por empréstimos bonificados e subsídios reembolsáveis",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Acionistas/sócios/associados",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Diferimentos",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Outros Ativos Financeiros",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Ativos por Impostos Diferidos",
+            "AL - Ativo Liquido 2024": "1632630.00",
+            "AL - Ativo Liquido 2025": "1430061.00"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "AL - Ativo Liquido 2024": "27458970.00",
+            "AL - Ativo Liquido 2025": "25888716.00"
+          },
+          {
+            "Descrição": "Ativo corrente",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Inventários",
+            "AL - Ativo Liquido 2024": "5232120.00",
+            "AL - Ativo Liquido 2025": "4925308.00"
+          },
+          {
+            "Descrição": "Ativos Biológicos",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Devedores por transferências e subsídios não reembolsáveis",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Devedores por empréstimos bonificados e subsídios reembolsáveis",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Clientes, Contribuintes e Utentes",
+            "AL - Ativo Liquido 2024": "8288674.00",
+            "AL - Ativo Liquido 2025": "7452210.00"
+          },
+          {
+            "Descrição": "Estado e Outros Entes Públicos",
+            "AL - Ativo Liquido 2024": "422819.00",
+            "AL - Ativo Liquido 2025": "386620.00"
+          },
+          {
+            "Descrição": "Acionistas/sócios/associados",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Outras contas a receber",
+            "AL - Ativo Liquido 2024": "7828408.00",
+            "AL - Ativo Liquido 2025": "7811268.00"
+          },
+          {
+            "Descrição": "Diferimentos",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Ativos Financeiros Detidos para Negociação",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Outros Ativos Financeiros",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Ativos não correntes detidos para venda",
+            "AL - Ativo Liquido 2024": "",
+            "AL - Ativo Liquido 2025": ""
+          },
+          {
+            "Descrição": "Caixa e depósitos",
+            "AL - Ativo Liquido 2024": "2429966.00",
+            "AL - Ativo Liquido 2025": "2535320.00"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "AL - Ativo Liquido 2024": "24201987.00",
+            "AL - Ativo Liquido 2025": "23110726.00"
+          },
+          {
+            "Descrição": "Total do Ativo",
+            "AL - Ativo Liquido 2024": "51660957.00",
+            "AL - Ativo Liquido 2025": "48999442.00"
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "page": 21,
+        "table_data": [
+          {
+            "Descrição": "Património Líquido",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Património/Capital",
+            "Património Líquido e Passivo 2024": "112733480.00",
+            "Património Líquido e Passivo 2025": "112733480.00"
+          },
+          {
+            "Descrição": "Ações (quotas) próprias",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Outros instrumentos de capital próprio",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Prémios de emissão",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Reservas",
+            "Património Líquido e Passivo 2024": "6141796.00",
+            "Património Líquido e Passivo 2025": "6141796.00"
+          },
+          {
+            "Descrição": "Resultados transitados",
+            "Património Líquido e Passivo 2024": "-166002090.00",
+            "Património Líquido e Passivo 2025": "-167667341.00"
+          },
+          {
+            "Descrição": "Ajustamentos em ativos financeiros",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Excedentes de revalorização",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": "2047349.00"
+          },
+          {
+            "Descrição": "Outras variações no património líquido",
+            "Património Líquido e Passivo 2024": "2026891.00",
+            "Património Líquido e Passivo 2025": "94136.00"
+          },
+          {
+            "Descrição": "Resultado líquido do período",
+            "Património Líquido e Passivo 2024": "-28340392.00",
+            "Património Líquido e Passivo 2025": "-33268821.00"
+          },
+          {
+            "Descrição": "Dividendos antecipados",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Interesses que não controlam",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Total do Património Líquido",
+            "Património Líquido e Passivo 2024": "-69570943.00",
+            "Património Líquido e Passivo 2025": "-79919401.00"
+          },
+          {
+            "Descrição": "Passivo",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Passivo não corrente",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Provisões",
+            "Património Líquido e Passivo 2024": "2716509.00",
+            "Património Líquido e Passivo 2025": "2716509.00"
+          },
+          {
+            "Descrição": "Financiamentos Obtidos",
+            "Património Líquido e Passivo 2024": "4022936.00",
+            "Património Líquido e Passivo 2025": "4022936.00"
+          },
+          {
+            "Descrição": "Fornecedores de Investimentos",
+            "Património Líquido e Passivo 2024": "1466662.00",
+            "Património Líquido e Passivo 2025": "940471.00"
+          },
+          {
+            "Descrição": "Responsabilidades por benefícios pós-emprego",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Diferimentos",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Passivos por impostos diferidos",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Outras contas a pagar",
+            "Património Líquido e Passivo 2024": "989773.00",
+            "Património Líquido e Passivo 2025": "989773.00"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Património Líquido e Passivo 2024": "9195880.00",
+            "Património Líquido e Passivo 2025": "8669689.00"
+          },
+          {
+            "Descrição": "Passivo corrente",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Credores por transferências e subsídios não reembolsáveis concedidos",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Fornecedores",
+            "Património Líquido e Passivo 2024": "31807654.00",
+            "Património Líquido e Passivo 2025": "38205510.00"
+          },
+          {
+            "Descrição": "Adiantamento de clientes, contribuintes e utentes",
+            "Património Líquido e Passivo 2024": "67186961.00",
+            "Património Líquido e Passivo 2025": "68503213.00"
+          },
+          {
+            "Descrição": "Estado e outros entes públicos",
+            "Património Líquido e Passivo 2024": "2437741.00",
+            "Património Líquido e Passivo 2025": "2624049.00"
+          },
+          {
+            "Descrição": "Acionistas/sócios/associados",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Financiamentos Obtidos",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Fornecedores de Investimento",
+            "Património Líquido e Passivo 2024": "502164.00",
+            "Património Líquido e Passivo 2025": "1158632.00"
+          },
+          {
+            "Descrição": "Outras contas a pagar",
+            "Património Líquido e Passivo 2024": "9968885.00",
+            "Património Líquido e Passivo 2025": "9757750.00"
+          },
+          {
+            "Descrição": "Diferimentos",
+            "Património Líquido e Passivo 2024": "132615.00",
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Passivos financeiros detidos para negociação",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Outros passivos financeiros",
+            "Património Líquido e Passivo 2024": null,
+            "Património Líquido e Passivo 2025": null
+          },
+          {
+            "Descrição": "Total do Passivo",
+            "Património Líquido e Passivo 2024": "121231900.00",
+            "Património Líquido e Passivo 2025": "128918843.00"
+          },
+          {
+            "Descrição": "Total do Património Líquido e Passivo",
+            "Património Líquido e Passivo 2024": "51660957.00",
+            "Património Líquido e Passivo 2025": "48999442.00"
+          }
+        ]
+      }
+    ]
+  }
+}

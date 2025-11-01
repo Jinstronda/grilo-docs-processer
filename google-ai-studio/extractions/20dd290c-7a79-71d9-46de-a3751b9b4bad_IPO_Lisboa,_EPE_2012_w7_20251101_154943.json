@@ -1,0 +1,513 @@
+{
+  "contract_id": "20dd290c-7a79-71d9-46de-a3751b9b4bad",
+  "hospital_name": "IPO Lisboa, EPE",
+  "year": 2012,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/Aditamento-ao-A.-Modificativo-2012-IPOL.pdf",
+  "extraction_timestamp": "20251101_154943",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 3,
+        "table_data": [
+          {
+            "Descrição": "1. Consultas Externas:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "Nº Primeiras Consultas Médicas",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "121.07",
+            "Quantidade": "38340.00",
+            "Valor (Euros)": "4641823.80"
+          },
+          {
+            "Descrição": "Nº Consultas Médicas Subsequentes",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "110.07",
+            "Quantidade": "162758.00",
+            "Valor (Euros)": "17914773.06"
+          },
+          {
+            "Descrição": "2. Internamento:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "Doentes Saídos",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "GDH Médicos",
+            "ICM": "1.3928",
+            "N.º": "5389.00",
+            "%": "87.63%",
+            "Preço Unitário (Euros)": "2116.37",
+            "Quantidade": "6150.00",
+            "Valor (Euros)": "15885048.25"
+          },
+          {
+            "Descrição": "GDH Cirúrgicos - Actividade Base",
+            "ICM": "2.0561",
+            "N.º": "3461.00",
+            "%": "98.76%",
+            "Preço Unitário (Euros)": "2116.37",
+            "Quantidade": "3504.00",
+            "Valor (Euros)": "15060431.98"
+          },
+          {
+            "Descrição": "GDH Cirúrgicos - Actividade Adicional",
+            "ICM": "2.0561",
+            "N.º": "1074.00",
+            "%": "98.76%",
+            "Preço Unitário (Euros)": "1404.04",
+            "Quantidade": "1087.00",
+            "Valor (Euros)": "3100473.30"
+          },
+          {
+            "Descrição": "GDH Cirúrgicos Urgentes",
+            "ICM": "2.0561",
+            "N.º": "0.00",
+            "%": "98.76%",
+            "Preço Unitário (Euros)": "2116.37",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Dias de Internamento de Doentes Crónicos",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "Doentes Medicina Física e Reabilitação",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "227.29",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Doentes de Psiquiatria Crónicos no Hospital",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "78.40",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Reabilitação Psicossocial (Psiquiatria)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "78.40",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Doentes Crónicos Ventilados",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "270.40",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Doentes Crónicos de Hansen",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "78.40",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Doentes Crónicos da Pneumologia",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "78.40",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Valor Total do Internamento",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "34045953.53"
+          },
+          {
+            "Descrição": "3. Episódios de GDH de Ambulatório:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "GDH Cirúrgicos - Actividade Base",
+            "ICM": "0.7807",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "2116.37",
+            "Quantidade": "2265.00",
+            "Valor (Euros)": "3742346.38"
+          },
+          {
+            "Descrição": "GDH Cirúrgicos - Actividade Adicional",
+            "ICM": "0.7807",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "1404.04",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "GDH Médicos",
+            "ICM": "0.1371",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "2116.37",
+            "Quantidade": "97209.00",
+            "Valor (Euros)": "28205611.97"
+          },
+          {
+            "Descrição": "Valor dos GDH de Ambulatório",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "31947958.35"
+          },
+          {
+            "Descrição": "4. Urgências:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "Atendimentos (SU - Polivalente)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "121.81",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Atendimentos (SU - Médico-Cirúrgica)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "61.04",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Atendimentos (SU - Básica)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "34.76",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "5. Sessões em Hospital de Dia:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "Hematologia",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "325.27",
+            "Quantidade": "14877.00",
+            "Valor (Euros)": "4839041.79"
+          },
+          {
+            "Descrição": "Imuno-Hemoterapia",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "325.27",
+            "Quantidade": "3026.00",
+            "Valor (Euros)": "984267.02"
+          },
+          {
+            "Descrição": "Psiquiatria",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "33.79",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Psiquiatria (Unidades Sócio-Ocupacionais)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "33.79",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Outros",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "22.32",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Valor Total do Hospital de Dia",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "5823308.81"
+          },
+          {
+            "Descrição": "6. IG até 10 semanas:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "Medicamentosa",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "N.º IG",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "313.72",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Cirúrgica",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "N.º IG",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "408.48",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "7. Planos de Saúde:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "VIH/Sida",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "Doentes em tratamentos ambulatório TARV",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "10156.80",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Diagnóstico Pré-Natal",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "Protocolo I",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "41.80",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Protocolo II",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "71.60",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Serviços Domiciliários:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "N.º de Visitas",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "36.68",
+            "Quantidade": "3165.00",
+            "Valor (Euros)": "116092.20"
+          },
+          {
+            "Descrição": "9. Lar (IPO):",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "Dias de Estadia",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "69.75",
+            "Quantidade": "15952.00",
+            "Valor (Euros)": "1112652.00"
+          },
+          {
+            "Descrição": "10. Outros:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Descrição": "Medicamentos de cedência hospitalar em ambulatório",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "1811056.54"
+          },
+          {
+            "Descrição": "Internos",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "263019.99"
+          },
+          {
+            "Descrição": "Valor da Produção Contratada",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "97676638.28"
+          },
+          {
+            "Descrição": "11. Incentivos institucionais",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "4069859.93"
+          },
+          {
+            "Descrição": "12. Convergência",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Descrição": "Valor Total do Contrato",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "101746498.20"
+          }
+        ]
+      }
+    ]
+  }
+}

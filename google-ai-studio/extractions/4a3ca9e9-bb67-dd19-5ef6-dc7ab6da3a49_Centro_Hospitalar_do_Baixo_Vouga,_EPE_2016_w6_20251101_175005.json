@@ -1,0 +1,3488 @@
+{
+  "contract_id": "4a3ca9e9-bb67-dd19-5ef6-dc7ab6da3a49",
+  "hospital_name": "Centro Hospitalar do Baixo Vouga, EPE",
+  "year": 2016,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/Acordo-Modificativo-do-CP-CHBV.pdf",
+  "extraction_timestamp": "20251101_175005",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 8,
+        "table_data": [
+          {
+            "Atividade": "1. Consultas Externas:",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "N° de 1ªs consultas médicas (s/ majoração)",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "42.27",
+            "Quantidade": "26595",
+            "Valor (€)": "1124170.65"
+          },
+          {
+            "Atividade": "N° de 1ªs consultas referenciadas (CTH)",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "46.50",
+            "Quantidade": "26595",
+            "Valor (€)": "1236667.50"
+          },
+          {
+            "Atividade": "N° de 1ªs consultas (Telemedicina)",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "46.50",
+            "Quantidade": "496",
+            "Valor (€)": "23064.00"
+          },
+          {
+            "Atividade": "Nº de 1ªs consultas na comunidade (Saúde mental)",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "46.50",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "N° de 1ªs consultas Cre",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "46.50",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "N° de consultas subsequentes médicas (s/majoração)",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "42.27",
+            "Quantidade": "142799",
+            "Valor (€)": "6036113.73"
+          },
+          {
+            "Atividade": "Nº de consultas subsequentes (Telemedicina)",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "46.50",
+            "Quantidade": "582",
+            "Valor (€)": "27063.00"
+          },
+          {
+            "Atividade": "N° de consultas subsequentes na comunidade (Saúde mental)",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "46.50",
+            "Quantidade": "113",
+            "Valor (€)": "5254.50"
+          },
+          {
+            "Atividade": "Nº de consultas subsequentes Cre",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "46.50",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Valor Total das Consultas",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "8452333.38"
+          },
+          {
+            "Atividade": "2. Internamento:",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Doentes Saídos",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "GDH Médicos",
+            "ICM": "0.7841",
+            "N.°": "11583",
+            "Doentes Equivalentes %": "97.23%",
+            "Preço Unitário (€)": "2216.45",
+            "Quantidade": "11913",
+            "Valor (€)": "20130309.35"
+          },
+          {
+            "Atividade": "GDH Médicos Cre",
+            "ICM": "0.7841",
+            "N.°": null,
+            "Doentes Equivalentes %": "97.23%",
+            "Preço Unitário (€)": "2327.27",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "GDH Cirúrgicos",
+            "ICM": "0.7841",
+            "N.°": "2348",
+            "Doentes Equivalentes %": "97.23%",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "2415",
+            "Valor (€)": "4206837.64"
+          },
+          {
+            "Atividade": "GDH Cirúrgicos Cre",
+            "ICM": "0.7841",
+            "N.°": null,
+            "Doentes Equivalentes %": "97.23%",
+            "Preço Unitário (€)": "2399.25",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "GDH Cirúrgicos Urgentes",
+            "ICM": "0.7841",
+            "N.°": "1810",
+            "Doentes Equivalentes %": "97.23%",
+            "Preço Unitário (€)": "2170.75",
+            "Quantidade": "1862",
+            "Valor (€)": "3080773.99"
+          },
+          {
+            "Atividade": "GDH Cirúrgicos Urgentes Cre",
+            "ICM": "0.7841",
+            "N.°": null,
+            "Doentes Equivalentes %": "97.23%",
+            "Preço Unitário (€)": "2279.29",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Dias de Internamento de Doentes Crónicos",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Doentes Medicina Física e Reabilitação",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "205.10",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Doentes de Psiquiatria Crónicos no Hospital",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "39.17",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Doentes de Psiquiatria no Exterior (Ordens Religiosas)",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "39.17",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Doentes de Psiquiatria no Exterior (Outras Inst.) Instituições",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "39.17",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Doentes Crónicos Ventilados",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "244.01",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Doentes de Reabilitação Psicossocial",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "39.17",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Doentes Crónicos de Hansen",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "70.75",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Valor Total do Internamento",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "27417920.98"
+          },
+          {
+            "Atividade": "3. Episódios de GDH de Ambulatório:",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "GDH Cirúrgicos",
+            "ICM": "0.6322",
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "4760",
+            "Valor (€)": "6876186.52"
+          },
+          {
+            "Atividade": "GDH Cirúrgicos Cre",
+            "ICM": "0.6322",
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "2399.25",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "GDH Médicos",
+            "ICM": "0.2097",
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "3500",
+            "Valor (€)": "1677075.75"
+          },
+          {
+            "Atividade": "GDH Médicos Cre",
+            "ICM": "0.2097",
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "2399.25",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Valor Total dos GDH de Ambulatório",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "8553262.27"
+          },
+          {
+            "Atividade": "4. Urgências:",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Atendimentos (SU - Polivalente)",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "17M€/170.000 ep.",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade": "Atendimentos (SU - Médico-Cirúrgica)",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "5M€/100.000 ep.",
+            "Quantidade": "113123",
+            "Valor (€)": "5656150.00"
+          },
+          {
+            "Atividade": "Atendimentos (SU - Básica)",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "1.4M€/35.000 ep.",
+            "Quantidade": "28413",
+            "Valor (€)": "1136520.00"
+          },
+          {
+            "Atividade": "Valor Total dos Atendimentos Urgentes",
+            "ICM": null,
+            "N.°": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "6792670.00"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 9,
+        "table_data": [
+          {
+            "Descrição": "5. Sessões em Hospital de Dia:",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Base",
+            "Preço Unitário (€)": "20.14",
+            "Quantidade": "7034",
+            "Valor (€)": "141664.76"
+          },
+          {
+            "Descrição": "Hematologia",
+            "Preço Unitário (€)": "293.52",
+            "Quantidade": "283",
+            "Valor (€)": "83066.16"
+          },
+          {
+            "Descrição": "Imuno-Hemoterapia",
+            "Preço Unitário (€)": "293.52",
+            "Quantidade": "902",
+            "Valor (€)": "264755.04"
+          },
+          {
+            "Descrição": "Psiquiatria",
+            "Preço Unitário (€)": "30.49",
+            "Quantidade": "3698",
+            "Valor (€)": "112752.02"
+          },
+          {
+            "Descrição": "Psiquiatria - Unidades Socio-Ocupacionais",
+            "Preço Unitário (€)": "30.49",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Valor Total do Hospital de Dia",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "602237.98"
+          },
+          {
+            "Descrição": "6. Programas de Gestão da Doença Crónica",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "VIH/Sida (doentes em TARC)",
+            "Preço Unitário (€)": "9165.60",
+            "Quantidade": "529",
+            "Valor (€)": "4848602.40"
+          },
+          {
+            "Descrição": "Hipertensão Arterial Pulmonar - doentes em terapêutica",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Pré-tratamento/seguimento 1º ano",
+            "Preço Unitário (€)": "8408.28",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Seguimento após 1º ano CF≤ III",
+            "Preço Unitário (€)": "22555.56",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Seguimento após 1º ano CF IV",
+            "Preço Unitário (€)": "162563.40",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Esclerose múltipla doentes em terapêutica modificadora",
+            "Preço Unitário (€)": "12379.80",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Tratamento de doentes c/ patologia oncológica - novos doentes",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro da mama (1º ano)",
+            "Preço Unitário (€)": "11148.96",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro da mama (2º ano)",
+            "Preço Unitário (€)": "4821.84",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro do colon e reto (1º ano)",
+            "Preço Unitário (€)": "13236.72",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro do colon e reto (2º ano)",
+            "Preço Unitário (€)": "4957.08",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro do colo do útero (1º ano)",
+            "Preço Unitário (€)": "10630.80",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Cancro do colo do útero (2º ano)",
+            "Preço Unitário (€)": "2530.68",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Telemonotorização DPOC",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "N° de doentes em tratamento (doente tratado/ano)",
+            "Preço Unitário (€)": "2053.09",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Telemonotorização EAM",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Elementos de Telemonitorização",
+            "Preço Unitário (€)": "3390.17",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "N° de doentes em tratamento (doente tratado/ano)",
+            "Preço Unitário (€)": "1341.96",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Telemonotorização ICC",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Elementos de Telemonitorização",
+            "Preço Unitário (€)": "1620.17",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Nº de doentes em tratamento (doente tratado/ano)",
+            "Preço Unitário (€)": "1341.96",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Programa Terapêutico PAF1",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "PAF1 Doentes em tratamento (equivalente/ano)",
+            "Preço Unitário (€)": "58358.74",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doenças Lisossomais de Sobre Carga (doentes em tratamento/equivalente ano)",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Gaucher",
+            "Preço Unitário (€)": "190617.10",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Fabry",
+            "Preço Unitário (€)": "158684.84",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Hurler",
+            "Preço Unitário (€)": "193797.41",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Hunter",
+            "Preço Unitário (€)": "313750.26",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Maroteaux-Lamy",
+            "Preço Unitário (€)": "348668.83",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Niemann-Pick",
+            "Preço Unitário (€)": "39652.21",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Doença de Pompe",
+            "Preço Unitário (€)": "244106.20",
+            "Quantidade": "1",
+            "Valor (€)": "244106.20"
+          },
+          {
+            "Descrição": "7. PMA - Diagnóstico e Tratamento da Infertilidade",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Consultas de Apoio à Fertilidade",
+            "Preço Unitário (€)": "88.32",
+            "Quantidade": "91",
+            "Valor (€)": "8037.12"
+          },
+          {
+            "Descrição": "Induções da Ovulação (IO)",
+            "Preço Unitário (€)": "132.48",
+            "Quantidade": "79",
+            "Valor (€)": "10465.92"
+          },
+          {
+            "Descrição": "Inseminações Intra-Uterinas (IIU)",
+            "Preço Unitário (€)": "335.04",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Fertilizações In Vitro (FIV)",
+            "Preço Unitário (€)": "2097.60",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Injecções Intra-Citoplasmáticas de Espermatozoides (ICSI)",
+            "Preço Unitário (€)": "2307.84",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Injeções Intra-Citoplasmáticas de Espermatozoides recolhidos cirurgicamente (ICSI c/ recolha cirúrgica)",
+            "Preço Unitário (€)": "2936.64",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "8. Saúde Sexual e Reprodutiva",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "IVG até 10 semanas",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Medicamentosa (n.º I.V.G.)",
+            "Preço Unitário (€)": "283.10",
+            "Quantidade": "197",
+            "Valor (€)": "55770.70"
+          },
+          {
+            "Descrição": "Cirúrgica (n.º I.V.G.)",
+            "Preço Unitário (€)": "368.61",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Diagnóstico Pré-Natal",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Protocolo I",
+            "Preço Unitário (€)": "37.72",
+            "Quantidade": "1464",
+            "Valor (€)": "55222.08"
+          },
+          {
+            "Descrição": "Protocolo II",
+            "Preço Unitário (€)": "64.61",
+            "Quantidade": "669",
+            "Valor (€)": "43224.09"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 10,
+        "table_data": [
+          {
+            "Descrição": "9. Sessões de Radioncologia",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Tratamentos simples",
+            "Preço Unitário (€)": "104.53",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Tratamentos complexos",
+            "Preço Unitário (€)": "250.92",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "10. Colocação de Implantes Cocleares",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Implante coclear unilateral",
+            "Preço Unitário (€)": "18750.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Implante coclear bilateral",
+            "Preço Unitário (€)": "32500.00",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "11. Serviços Domiciliários",
+            "Preço Unitário (€)": "37.99",
+            "Quantidade": "396",
+            "Valor (€)": "15044.04"
+          },
+          {
+            "Descrição": "12. Lar (IPO)",
+            "Preço Unitário (€)": "62.96",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "13. Outros:",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Medicamentos de cedência hospitalar em ambulatório",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "898191.61"
+          },
+          {
+            "Descrição": "Internos",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "828282.60"
+          },
+          {
+            "Descrição": "Valor da Produção Contratada",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "58825371.37"
+          },
+          {
+            "Descrição": "Incentivos institucionais",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "3096072.18"
+          },
+          {
+            "Descrição": "Convergência",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Descrição": "Valor Total do Contrato",
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "61921443.55"
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "page": 11,
+        "table_data": [
+          {
+            "Objetivos Nacionais": "A. Acesso",
+            "Pesos Relativos (%)": "15.00",
+            "Meta": null
+          },
+          {
+            "Objetivos Nacionais": "A.1 Percentagem das primeiras consultas médicas no total de consultas médicas (%)",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "30.0"
+          },
+          {
+            "Objetivos Nacionais": "A.2 Peso das consultas externas médicas com registo de alta no total de consultas externas médicas (%)",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "14.0"
+          },
+          {
+            "Objetivos Nacionais": "A.3.1 Percentagem de utentes referenciados dos cuidados de saúde primários para consulta externa atendidos em tempo adequado (%)",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "68.0"
+          },
+          {
+            "Objetivos Nacionais": "A.3.2 Percentagem de inscritos em LIC (neoplasias malignas) com tempo de espera ≤ TMRG (%)",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "92.0"
+          },
+          {
+            "Objetivos Nacionais": "A.3.3 Mediana de tempo de espera da LIC, em meses",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "3.3"
+          },
+          {
+            "Objetivos Nacionais": "A.3.4 Percentagem de episódios de urgência atendidos dentro do tempo de espera previsto no protocolo de triagem",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "65.0"
+          },
+          {
+            "Objetivos Nacionais": "A.3.5 Permilagem de doentes sinalizados para a RNCCI, em tempo adequado, no total de doentes tratados (‰)",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "20.00"
+          },
+          {
+            "Objetivos Nacionais": "B. Desempenho Assistencial",
+            "Pesos Relativos (%)": "25.00",
+            "Meta": null
+          },
+          {
+            "Objetivos Nacionais": "B.1 Percentagem de reinternamentos em 30 dias, na mesma Grande Categoria de Diagnóstico",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "3.70"
+          },
+          {
+            "Objetivos Nacionais": "B.2 Percentagem de doentes saídos com duração de internamento acima do limiar máximo (%)",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "1.25"
+          },
+          {
+            "Objetivos Nacionais": "B.3 Percentagem de cirurgias da anca efetuadas nas primeiras 48 horas (%)",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "68.00"
+          },
+          {
+            "Objetivos Nacionais": "B.4 Percentagem de cirurgias realizadas em ambulatório no total de cirurgias programadas (GDH) - para procedimentos ambulatorizáveis",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "82.0"
+          },
+          {
+            "Objetivos Nacionais": "B.5 Percentagem de cirurgias realizadas em ambulatório, para procedimentos tendencialmente ambulatorizáveis",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "5.0"
+          },
+          {
+            "Objetivos Nacionais": "B.6 Índice de Demora Média Ajustada",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "1.0000"
+          },
+          {
+            "Objetivos Nacionais": "B.7 Índice de Mortalidade Ajustada",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "1.0000"
+          },
+          {
+            "Objetivos Nacionais": "B.8 Índice de risco e segurança do doente",
+            "Pesos Relativos (%)": "6.00",
+            "Meta": "4"
+          },
+          {
+            "Objetivos Nacionais": "B.9 Percentagem de embalagens de medicamentos genéricos prescritos, no total de embalagens de medicamentos prescritos",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "55.0"
+          },
+          {
+            "Objetivos Nacionais": "C. Desempenho Económico/Financeiro",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": null
+          },
+          {
+            "Objetivos Nacionais": "C.1 Percentagem de Custos com Horas Extraordinárias, Suplementos e FSE (selecionados), no Total de Custos com Pessoal (€)",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "10.3"
+          },
+          {
+            "Objetivos Nacionais": "C.2 Resultado antes juros, impostos, amortizações e depreciações (EBITDA) (€)",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "-11310095.25"
+          },
+          {
+            "Objetivos Nacionais": "C.3 Acréscimo de Dívida Vencida (fornecedores externos) (€)",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "0.00"
+          },
+          {
+            "Objetivos Nacionais": "C.4 Percentagem de proveitos operacionais extra contrato-programa, no total de proveitos operacionais (%)",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "9.2"
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "page": 11,
+        "table_data": [
+          {
+            "Objetivos Regionais": "Percentagem de pedidos muito prioritários atendidos acima do tempo máximo de espera (%)",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "70.00"
+          },
+          {
+            "Objetivos Regionais": "Faturação de medicamentos cedidos em farmácia de oficina (€)",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "4514344.69"
+          },
+          {
+            "Objetivos Regionais": "Episódios cirúrgicos em espera há mais de 12 meses",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "280.00"
+          },
+          {
+            "Objetivos Regionais": "Nº de Pedidos em Espera para consulta acima de 150 dias",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "19122.00"
+          },
+          {
+            "Objetivos Regionais": "Percentagem de GDH programadas com alta para o domicilio até 72 horas s/ reg procedimentos realizados",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "5.00"
+          },
+          {
+            "Objetivos Regionais": "Tempo médio de codificação e agrupamento em GDH",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "40.00"
+          },
+          {
+            "Objetivos Regionais": "Percentagem de cirurgia urgente no total de cirurgias realizadas",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "17.00"
+          },
+          {
+            "Objetivos Regionais": "Percentagem de notícias de nascimento digital nos partos realizados",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "95.00"
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "page": 12,
+        "table_data": [
+          {
+            "Objetivo": "U.1 Variação percentual de episódios de urgência com prioridade verde/azul/branca",
+            "Pesos Relativos (%)": "25.00",
+            "Meta": "-3.70"
+          },
+          {
+            "Objetivo": "U.2 Variação percentual de episódios de urgência com internamento",
+            "Pesos Relativos (%)": "25.00",
+            "Meta": "-3.70"
+          },
+          {
+            "Objetivo": "U.3 Variação percentual de utilizadores frequentes (>4 episódios)",
+            "Pesos Relativos (%)": "25.00",
+            "Meta": "-3.70"
+          },
+          {
+            "Objetivo": "U.4 Rácio Consultas Externas/Atendimentos em Urgência",
+            "Pesos Relativos (%)": "25.00",
+            "Meta": "1.40"
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "page": 14,
+        "table_data": [
+          {
+            "Áreas": "Programas de promoção e adequação do acesso (55%)",
+            "Obrigação": "A.1 SIGIC - Cumprir as regras definidas no Manual de Gestão de Inscritos para Cirurgia (MGIC), de acordo com a metodologia da determinação e contestação das não conformidades publicada pela ACSS, I.P. (10%)",
+            "Penalidades (P)": "Não haverá lugar a penalidades quando % NC ≤ 5% A penalidade é aplicada pela seguinte fórmula, até ao limite de Valor Contrato x 1% x 10%: P= Valor NC simples +Valor NC grave + Valor NC materiais Valor NC simples = 1/20 x PBR x N° NC simples Valor NC graves = 3 x 1/20 x PBR x N° NC graves Valor NC materiais = 1/200 x 3 x 1/20 x PBR x N° entradas x N° falhas x N° NC materiais"
+          },
+          {
+            "Áreas": "Programas de promoção e adequação do acesso (55%)",
+            "Obrigação": "A.2 SIGIC - Redução do nº de inscritos em LIC de ortopedia, face a dezembro 2015, em pelo menos 10%. (5%)",
+            "Penalidades (P)": "Variação da LIC de Ortopedia > -10% P = valor contrato x 1% x5%"
+          },
+          {
+            "Áreas": "Programas de promoção e adequação do acesso (55%)",
+            "Obrigação": "A.3 SIGIC-Redução do nº de cancelamentos, face ao total de 2015, em pelo menos 10% (5%)",
+            "Penalidades (P)": "Variação do nº de cancelamentos > -10% P = valor contrato x 1% x 5%"
+          },
+          {
+            "Áreas": "Programas de promoção e adequação do acesso (55%)",
+            "Obrigação": "A.4 CTH-Gestão dinâmica da Lista de Inscritos de Oftalmologia (5%)",
+            "Penalidades (P)": "Variação, face a 2015, do nº de pedidos não concluídos > -10% (exceto nos casos em que as consultas realizadas dentro TMRG > = 85%) P = valor contrato x 1% x 5%"
+          },
+          {
+            "Áreas": "Programas de promoção e adequação do acesso (55%)",
+            "Obrigação": "A. 5 CTH - Redução nº casos cujo intervalo entre o pedido e agendamento é >5 dias em 20% (5%)",
+            "Penalidades (P)": "Variação, face a 2015, do nº de casos cujo intervalo entre o pedido e o agendamento é superior a 5 dias > - 20% P= valor contrato x 1% x 5%"
+          },
+          {
+            "Áreas": "Programas de promoção e adequação do acesso (55%)",
+            "Obrigação": "A.6 CTH - Peso das primeiras consultas de dermatologia realizadas por telemedicina no total de primeiras consultas de dermatologia igual ou superior a 50% (5%)* * No caso das instituições que não têm consulta de dermatologia os indicador A.7 assumem um peso de 10% (5%)",
+            "Penalidades (P)": "1ªs consultas dermatologia realizadas por telemedicina (CTH)/total de 1ªs consultas de dermatologia (CTH) < 50% P= valor contrato x 1% x 5%"
+          },
+          {
+            "Áreas": "Programas de promoção e adequação do acesso (55%)",
+            "Obrigação": "A.7 CTH - Redução nº pedidos Rec. em 25% (5%)",
+            "Penalidades (P)": "Variação, face a 2015, do nº de pedidos recusados > - 25% P= valor contrato x 1% x 5%"
+          },
+          {
+            "Áreas": "Programas de promoção e adequação do acesso (55%)",
+            "Obrigação": "A.8 Variação do recurso ao exterior para realização de MCDT (10%)",
+            "Penalidades (P)": "Variação, face a 2015, do nº de MCDT realizados no exterior > -25% P= valor contrato x 1% x 10%"
+          },
+          {
+            "Áreas": "Programas de promoção e adequação do acesso (55%)",
+            "Obrigação": "A.9 Variação dos encargos SNS com medicamentos biológicos acima da variação média nacional (5%)",
+            "Penalidades (P)": "Variação, face a 2015, dos encargos > Variação média nacional P= valor contrato x 1% 5%"
+          },
+          {
+            "Áreas": "B. Reporte e publicação de informação de gestão (16%)",
+            "Obrigação": "B.1 Reporte mensal Sica - % dados com incoerências inferior a 1% (4%)",
+            "Penalidades (P)": "Relatório qualidade de dados com apuramento incoerências superior a 1% P = valor contrato x 1% x 4%"
+          },
+          {
+            "Áreas": "B. Reporte e publicação de informação de gestão (16%)",
+            "Obrigação": "B.2 Reporte de informação financeira no SIEF mensalmente até ao dia 10 (4%)",
+            "Penalidades (P)": "Reporte em data posterior ao dia 10 em cada mês de incumprimento P = valor contrato x 1%x 4% x (1/12)"
+          },
+          {
+            "Áreas": "B. Reporte e publicação de informação de gestão (16%)",
+            "Obrigação": "B. 3 Publicação no Portal do SNS dos Instrumentos de gestão obrigatórios (4%)",
+            "Penalidades (P)": "Disponibilização < 90% P= valor contrato x 1% x 4%"
+          }
+        ]
+      },
+      {
+        "table_index": 7,
+        "page": 15,
+        "table_data": [
+          {
+            "Área": "B. Reporte e publicação de informação de gestão (16%)",
+            "Obrigação": "B. 4 ROR - Reporte de Informação para o Registo Oncológico Regional (4%)",
+            "Penalidades (P)": "Reporte em data posterior ao dia 10 em cada mês de incumprimento P = valor contrato x 1% x 4%"
+          },
+          {
+            "Área": "C. Registo, consulta, partilha de informação e desmaterialização de processos (24%)",
+            "Obrigação": "C.1 Disponibilização das notas de altas médicas dos doentes saídos no período (3%)",
+            "Penalidades (P)": "Disponibilização < 75% P= valor contrato x 1%x 3%"
+          },
+          {
+            "Área": "C. Registo, consulta, partilha de informação e desmaterialização de processos (24%)",
+            "Obrigação": "C.2 Disponibilização das notas de altas de enfermagem dos doentes saídos no período (3%)",
+            "Penalidades (P)": "Disponibilização <75% P = valor contrato x 1%x 3%"
+          },
+          {
+            "Área": "C. Registo, consulta, partilha de informação e desmaterialização de processos (24%)",
+            "Obrigação": "C.3 Disponibilização das notas de Transferências dos doentes saídos das UCI (3%)",
+            "Penalidades (P)": "Disponibilização <75% P = valor contrato x 1%x 3%"
+          },
+          {
+            "Área": "C. Registo, consulta, partilha de informação e desmaterialização de processos (24%)",
+            "Obrigação": "C.4 Percentagem de episódios de urgência com consulta à PDS (3%)",
+            "Penalidades (P)": "Consultas <75% P= valor contrato x 1%x 3%"
+          },
+          {
+            "Área": "C. Registo, consulta, partilha de informação e desmaterialização de processos (24%)",
+            "Obrigação": "C.5 % episódios com consulta à PDS (3%)",
+            "Penalidades (P)": "Consultas <75% P= valor contrato x 1%x 3%"
+          },
+          {
+            "Área": "C. Registo, consulta, partilha de informação e desmaterialização de processos (24%)",
+            "Obrigação": "C.6 % de embalagens prescritas em Receita Sem Papel (RSP) (4%)",
+            "Penalidades (P)": "RSE <85% P = valor contrato x 1%x 4%"
+          },
+          {
+            "Área": "C. Registo, consulta, partilha de informação e desmaterialização de processos (24%)",
+            "Obrigação": "C.7 % de notícias de nascimento (2%)",
+            "Penalidades (P)": "Noticias <75% P = valor contrato x 1%x 2%"
+          },
+          {
+            "Área": "C. Registo, consulta, partilha de informação e desmaterialização de processos (24%)",
+            "Obrigação": "C.8 Taxa de registo de utilização da “Lista de Verificação Segurança Cirúrgica” (3%)",
+            "Penalidades (P)": "Taxa de registo < 95% P = valor contrato x 1%x 3%"
+          },
+          {
+            "Área": "D. Cobrança de receita (5%)",
+            "Obrigação": "D.1. Cobrança efetiva receita (5%)",
+            "Penalidades (P)": "Cobrança < 90% P = valor contrato x 1% x 5%"
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "page": 16,
+        "table_data": [
+          {
+            "Conta": "612-Mercadorias",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "616-Matérias de consumo",
+            "Valor Estimado 2015": "19277975.22",
+            "Valor Contratualizado 2016": "19759757.68",
+            "% Var 2016 / 2015": "2.5%"
+          },
+          {
+            "Conta": "6161-Produtos Farmacêuticos",
+            "Valor Estimado 2015": "14292559.62",
+            "Valor Contratualizado 2016": "14875197.28",
+            "% Var 2016 / 2015": "4.1%"
+          },
+          {
+            "Conta": "61611-Medicamentos",
+            "Valor Estimado 2015": "12640594.22",
+            "Valor Contratualizado 2016": "13237922.78",
+            "% Var 2016 / 2015": "4.7%"
+          },
+          {
+            "Conta": "61612/9-Reagentes/Outros produtos farmacêuticos",
+            "Valor Estimado 2015": "1651965.40",
+            "Valor Contratualizado 2016": "1637274.50",
+            "% Var 2016 / 2015": "-0.9%"
+          },
+          {
+            "Conta": "6162-Material consumo clínico",
+            "Valor Estimado 2015": "4453410.84",
+            "Valor Contratualizado 2016": "4336638.32",
+            "% Var 2016 / 2015": "-2.6%"
+          },
+          {
+            "Conta": "6163-Produtos alimentares",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "6164-Material consumo hoteleiro",
+            "Valor Estimado 2015": "141474.70",
+            "Valor Contratualizado 2016": "151762.66",
+            "% Var 2016 / 2015": "7.3%"
+          },
+          {
+            "Conta": "6165-Material consumo administrativo",
+            "Valor Estimado 2015": "103140.32",
+            "Valor Contratualizado 2016": "101188.28",
+            "% Var 2016 / 2015": "-1.9%"
+          },
+          {
+            "Conta": "6166-Material manutenção e conservação",
+            "Valor Estimado 2015": "287389.74",
+            "Valor Contratualizado 2016": "294971.14",
+            "% Var 2016 / 2015": "2.6%"
+          },
+          {
+            "Conta": "6169-Outro material de consumo",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2015": "19277975.22",
+            "Valor Contratualizado 2016": "19759757.68",
+            "% Var 2016 / 2015": "2.5%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "24.2%",
+            "Valor Contratualizado 2016": "24.1%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "6211-Assistência ambulatória",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "6212-Meios complementares diagnóstico",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62121-Patologia clínica",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62122-Anatomia patológica",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62123-Imagiologia",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62124-Cardiologia",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62125-Electroencefalografia",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62126-Medicina nuclear",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62127-Gastrenterologia",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62128-Pneumologia/Imunoalergologia",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62129-Outros",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "6213-Meios complementares terapêutica",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62131-Hemodiálise",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62132-Medicina física e reabilitação",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62133-Litotricia",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62139-Outros",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "6214-Prescrição medicam. e cuid. farmac.",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "6215-Internamentos",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "6216-Transporte de doentes",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "6217-Aparelhos complementares de terapêutica",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "6218-Trabalhos executados no exterior",
+            "Valor Estimado 2015": "3342581.02",
+            "Valor Contratualizado 2016": "2775532.43",
+            "% Var 2016 / 2015": "-17.0%"
+          },
+          {
+            "Conta": "62181-Em entidades do M. Saúde",
+            "Valor Estimado 2015": "1861615.35",
+            "Valor Contratualizado 2016": "1371477.88",
+            "% Var 2016 / 2015": "-26.3%"
+          },
+          {
+            "Conta": "621811-Assistência ambulatória",
+            "Valor Estimado 2015": "7452.41",
+            "Valor Contratualizado 2016": "14842.82",
+            "% Var 2016 / 2015": "99.2%"
+          },
+          {
+            "Conta": "621812-Meios complementares de diagnóstico",
+            "Valor Estimado 2015": "403247.70",
+            "Valor Contratualizado 2016": "242217.50",
+            "% Var 2016 / 2015": "-39.9%"
+          },
+          {
+            "Conta": "621813-Meios complementares de terapêutica",
+            "Valor Estimado 2015": "940451.83",
+            "Valor Contratualizado 2016": "676497.56",
+            "% Var 2016 / 2015": "-28.1%"
+          },
+          {
+            "Conta": "621814-Prescrição medicam. e cuid. farmac.",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "621815-Internamentos e transporte de doentes",
+            "Valor Estimado 2015": "510463.41",
+            "Valor Contratualizado 2016": "437920.00",
+            "% Var 2016 / 2015": "-14.2%"
+          },
+          {
+            "Conta": "621819-Outros trabalhos executados no exterior",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "62189-Em outras entidades",
+            "Valor Estimado 2015": "1480965.67",
+            "Valor Contratualizado 2016": "1404054.55",
+            "% Var 2016 / 2015": "-5.2%"
+          },
+          {
+            "Conta": "621891-Assistência ambulatória",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "621892-Meios complementares diagnóstico",
+            "Valor Estimado 2015": "649108.22",
+            "Valor Contratualizado 2016": "585433.86",
+            "% Var 2016 / 2015": "-9.8%"
+          },
+          {
+            "Conta": "621893-Meios complementares terapêutica",
+            "Valor Estimado 2015": "68400.00",
+            "Valor Contratualizado 2016": "72346.37",
+            "% Var 2016 / 2015": "5.8%"
+          },
+          {
+            "Conta": "621894-Prescrição medicam. e cuid. farmac.",
+            "Valor Estimado 2015": "0.00",
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "621895-Internamentos e transporte de doentes",
+            "Valor Estimado 2015": "665450.01",
+            "Valor Contratualizado 2016": "608429.17",
+            "% Var 2016 / 2015": "-8.6%"
+          },
+          {
+            "Conta": "621896-Aparelhos complementares de terapêutica",
+            "Valor Estimado 2015": "98007.44",
+            "Valor Contratualizado 2016": "137845.15",
+            "% Var 2016 / 2015": "40.6%"
+          },
+          {
+            "Conta": "621897-Assistência no estrangeiro",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "621898-Termalismo social",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "page": 17,
+        "table_data": [
+          {
+            "Conta": "621899-Outros trabalhos executados no exterior",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "6219-Outros subcontratos",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2015": "3342581.02",
+            "Valor Contratualizado 2016": "2775532.43",
+            "% Var 2016 / 2015": "-17.0%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "4.2%",
+            "Valor Contratualizado 2016": "3.4%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "6221-Fornecimentos e serviços I",
+            "Valor Estimado 2015": "1566596.34",
+            "Valor Contratualizado 2016": "1693289.05",
+            "% Var 2016 / 2015": "8.1%"
+          },
+          {
+            "Conta": "6222-Fornecimentos e serviços II",
+            "Valor Estimado 2015": "1419773.60",
+            "Valor Contratualizado 2016": "1142478.71",
+            "% Var 2016 / 2015": "-19.5%"
+          },
+          {
+            "Conta": "6223-Fornecimentos e serviços III",
+            "Valor Estimado 2015": "5912839.67",
+            "Valor Contratualizado 2016": "5960503.88",
+            "% Var 2016 / 2015": "0.8%"
+          },
+          {
+            "Conta": "6229-Outros fornecimentos e serviços",
+            "Valor Estimado 2015": "4450.12",
+            "Valor Contratualizado 2016": "4904.64",
+            "% Var 2016 / 2015": "10.2%"
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2015": "8903659.73",
+            "Valor Contratualizado 2016": "8801176.28",
+            "% Var 2016 / 2015": "-1.2%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "11.2%",
+            "Valor Contratualizado 2016": "10.7%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "63-Transf. correntes conced. e prest. sociais",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "641-Remunerações dos orgãos directivos",
+            "Valor Estimado 2015": "283720.21",
+            "Valor Contratualizado 2016": "295792.89",
+            "% Var 2016 / 2015": "4.3%"
+          },
+          {
+            "Conta": "642-Remunerações de pessoal",
+            "Valor Estimado 2015": "36399094.60",
+            "Valor Contratualizado 2016": "38561023.83",
+            "% Var 2016 / 2015": "5.9%"
+          },
+          {
+            "Conta": "6421-Remunerações base do pessoal",
+            "Valor Estimado 2015": "26387474.99",
+            "Valor Contratualizado 2016": "28995923.97",
+            "% Var 2016 / 2015": "9.9%"
+          },
+          {
+            "Conta": "64211-RCTFP por tempo indeterminado",
+            "Valor Estimado 2015": "13003066.56",
+            "Valor Contratualizado 2016": "13476846.03",
+            "% Var 2016 / 2015": "3.6%"
+          },
+          {
+            "Conta": "64212-Pessoal c/ contrato a termo resolutivo",
+            "Valor Estimado 2015": "2298222.18",
+            "Valor Contratualizado 2016": "2639456.52",
+            "% Var 2016 / 2015": "14.8%"
+          },
+          {
+            "Conta": "64213-Pessoal em regime Contrato Individual",
+            "Valor Estimado 2015": "11073081.38",
+            "Valor Contratualizado 2016": "12879621.42",
+            "% Var 2016 / 2015": "16.3%"
+          },
+          {
+            "Conta": "64214-Pessoal em qualquer outra situação",
+            "Valor Estimado 2015": "13104.87",
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "6422-Suplementos de remunerações",
+            "Valor Estimado 2015": "5131167.91",
+            "Valor Contratualizado 2016": "4606408.95",
+            "% Var 2016 / 2015": "-10.2%"
+          },
+          {
+            "Conta": "64221-Trabalho extraordinário",
+            "Valor Estimado 2015": "1660563.69",
+            "Valor Contratualizado 2016": "1327312.31",
+            "% Var 2016 / 2015": "-20.1%"
+          },
+          {
+            "Conta": "642211-Horas extraordinárias",
+            "Valor Estimado 2015": "1459830.56",
+            "Valor Contratualizado 2016": "1124096.18",
+            "% Var 2016 / 2015": "-23.0%"
+          },
+          {
+            "Conta": "642212-Prevenções",
+            "Valor Estimado 2015": "200733.13",
+            "Valor Contratualizado 2016": "203216.13",
+            "% Var 2016 / 2015": "1.2%"
+          },
+          {
+            "Conta": "64222-Trabalho em regime de turnos",
+            "Valor Estimado 2015": "1314230.92",
+            "Valor Contratualizado 2016": "1295632.55",
+            "% Var 2016 / 2015": "-1.4%"
+          },
+          {
+            "Conta": "642221-Noites e suplementos",
+            "Valor Estimado 2015": "1314230.92",
+            "Valor Contratualizado 2016": "1295632.55",
+            "% Var 2016 / 2015": "-1.4%"
+          },
+          {
+            "Conta": "642222-Subsídio de turno",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "64223-Abono para falhas",
+            "Valor Estimado 2015": "37702.32",
+            "Valor Contratualizado 2016": "19674.12",
+            "% Var 2016 / 2015": "-47.8%"
+          },
+          {
+            "Conta": "64224-Subsídio de refeição",
+            "Valor Estimado 2015": "1508134.10",
+            "Valor Contratualizado 2016": "1716283.84",
+            "% Var 2016 / 2015": "13.8%"
+          },
+          {
+            "Conta": "64225-Ajudas de custo",
+            "Valor Estimado 2015": "5203.35",
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "64226/7-Vestuário e Art. Pess/Alim. e Alojam.",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "642281-PECLEC/SIGIC",
+            "Valor Estimado 2015": "229675.76",
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "642282/9-Outros Suplementos",
+            "Valor Estimado 2015": "375657.77",
+            "Valor Contratualizado 2016": "247506.13",
+            "% Var 2016 / 2015": "-34.1%"
+          },
+          {
+            "Conta": "6423-Prestações sociais directas",
+            "Valor Estimado 2015": "67158.19",
+            "Valor Contratualizado 2016": "63345.96",
+            "% Var 2016 / 2015": "-5.7%"
+          },
+          {
+            "Conta": "6424-Subsídios de férias e de Natal",
+            "Valor Estimado 2015": "4813293.51",
+            "Valor Contratualizado 2016": "4895344.95",
+            "% Var 2016 / 2015": "1.7%"
+          },
+          {
+            "Conta": "6425- Prémios de desempenho",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "643-Pensões",
+            "Valor Estimado 2015": "74768.62",
+            "Valor Contratualizado 2016": "31706.47",
+            "% Var 2016 / 2015": "-57.6%"
+          },
+          {
+            "Conta": "645-Encargos sobre remunerações",
+            "Valor Estimado 2015": "8334964.09",
+            "Valor Contratualizado 2016": "8980641.73",
+            "% Var 2016 / 2015": "7.7%"
+          },
+          {
+            "Conta": "646-Seguros de acid. trab. e doenças profissionais",
+            "Valor Estimado 2015": "261583.13",
+            "Valor Contratualizado 2016": "351642.25",
+            "% Var 2016 / 2015": "34.4%"
+          },
+          {
+            "Conta": "647-Encargos sociais voluntários",
+            "Valor Estimado 2015": "32543.82",
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "648-Outros custos com pessoal",
+            "Valor Estimado 2015": "343756.27",
+            "Valor Contratualizado 2016": "318076.24",
+            "% Var 2016 / 2015": "-7.5%"
+          },
+          {
+            "Conta": "649-Estágios Profissionais",
+            "Valor Estimado 2015": "39623.14",
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2015": "45770053.88",
+            "Valor Contratualizado 2016": "48538883.41",
+            "% Var 2016 / 2015": "6.0%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "57.5%",
+            "Valor Contratualizado 2016": "59.1%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "65-Outros custos e perdas operacionais",
+            "Valor Estimado 2015": "26799.85",
+            "Valor Contratualizado 2016": "25941.25",
+            "% Var 2016 / 2015": "-3.2%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "0.0%",
+            "Valor Contratualizado 2016": "0.0%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "66-Amortizações do exercício",
+            "Valor Estimado 2015": "2150243.69",
+            "Valor Contratualizado 2016": "2101415.88",
+            "% Var 2016 / 2015": "-2.3%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "2.7%",
+            "Valor Contratualizado 2016": "2.6%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "67-Provisões do exercício",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": "35000.00",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": "0.0%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "68-Custos e perdas financeiras",
+            "Valor Estimado 2015": "22527.26",
+            "Valor Contratualizado 2016": "25500.00",
+            "% Var 2016 / 2015": "13.2%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "0.0%",
+            "Valor Contratualizado 2016": "0.0%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "69-Custos e perdas extraordinários",
+            "Valor Estimado 2015": "51657.34",
+            "Valor Contratualizado 2016": "50000.00",
+            "% Var 2016 / 2015": "-3.2%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "0.1%",
+            "Valor Contratualizado 2016": "0.1%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "TOTAL GERAL",
+            "Valor Estimado 2015": "79545497.99",
+            "Valor Contratualizado 2016": "82113206.93",
+            "% Var 2016 / 2015": "3.2%"
+          }
+        ]
+      },
+      {
+        "table_index": 10,
+        "page": 18,
+        "table_data": [
+          {
+            "Conta": "71-Vendas e prestações de serviços",
+            "Valor Estimado 2015": "63153665.66",
+            "Valor Contratualizado 2016": "65756653.61",
+            "% Var 2016 / 2015": "4.1%"
+          },
+          {
+            "Conta": "711-Vendas",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712-Prestações de serviços",
+            "Valor Estimado 2015": "63153665.66",
+            "Valor Contratualizado 2016": "65756653.61",
+            "% Var 2016 / 2015": "4.1%"
+          },
+          {
+            "Conta": "7121-Instituições SNS",
+            "Valor Estimado 2015": "59479617.73",
+            "Valor Contratualizado 2016": "62271443.51",
+            "% Var 2016 / 2015": "4.7%"
+          },
+          {
+            "Conta": "71211-Internamento - SNS CP",
+            "Valor Estimado 2015": "28179295.55",
+            "Valor Contratualizado 2016": "27417920.98",
+            "% Var 2016 / 2015": "-2.7%"
+          },
+          {
+            "Conta": "712111-GDH Médicos",
+            "Valor Estimado 2015": "20251592.43",
+            "Valor Contratualizado 2016": "20130309.35",
+            "% Var 2016 / 2015": "-0.6%"
+          },
+          {
+            "Conta": "712112-GDH Cirúrgicos",
+            "Valor Estimado 2015": "5032796.82",
+            "Valor Contratualizado 2016": "4206837.64",
+            "% Var 2016 / 2015": "-16.4%"
+          },
+          {
+            "Conta": "712113-GDH Cirúrgicos Urgentes",
+            "Valor Estimado 2015": "2894906.30",
+            "Valor Contratualizado 2016": "3080773.99",
+            "% Var 2016 / 2015": "6.4%"
+          },
+          {
+            "Conta": "712114-Dias Internamento Doentes Crónicos",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "71212-Consulta - SNS CP",
+            "Valor Estimado 2015": "7939608.54",
+            "Valor Contratualizado 2016": "8452333.38",
+            "% Var 2016 / 2015": "6.5%"
+          },
+          {
+            "Conta": "712121-Primeiras Consultas",
+            "Valor Estimado 2015": "2645215.30",
+            "Valor Contratualizado 2016": "2383902.15",
+            "% Var 2016 / 2015": "-9.9%"
+          },
+          {
+            "Conta": "712122-Consultas Subsequentes",
+            "Valor Estimado 2015": "5294393.24",
+            "Valor Contratualizado 2016": "6068431.23",
+            "% Var 2016 / 2015": "14.6%"
+          },
+          {
+            "Conta": "71213-Urgência/SAP - SNS CP",
+            "Valor Estimado 2015": "7356932.78",
+            "Valor Contratualizado 2016": "6792670.00",
+            "% Var 2016 / 2015": "-7.7%"
+          },
+          {
+            "Conta": "712131-Atendimentos (SU-Polivalente)",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712132-Atendimentos (SU-Médica Cirúrgica)",
+            "Valor Estimado 2015": "6072256.78",
+            "Valor Contratualizado 2016": "5656150.00",
+            "% Var 2016 / 2015": "-6.9%"
+          },
+          {
+            "Conta": "712139-Atendimentos (SU-Básica)",
+            "Valor Estimado 2015": "1284676.00",
+            "Valor Contratualizado 2016": "1136520.00",
+            "% Var 2016 / 2015": "-11.5%"
+          },
+          {
+            "Conta": "71214-GDH Ambulatório",
+            "Valor Estimado 2015": "8652056.32",
+            "Valor Contratualizado 2016": "8553262.27",
+            "% Var 2016 / 2015": "-1.1%"
+          },
+          {
+            "Conta": "712141-GDH Cirúrgicos",
+            "Valor Estimado 2015": "7341062.25",
+            "Valor Contratualizado 2016": "6876186.52",
+            "% Var 2016 / 2015": "-6.3%"
+          },
+          {
+            "Conta": "712142-GDH Médicos",
+            "Valor Estimado 2015": "1310994.07",
+            "Valor Contratualizado 2016": "1677075.75",
+            "% Var 2016 / 2015": "27.9%"
+          },
+          {
+            "Conta": "71215-Hospital de dia - SNS CP",
+            "Valor Estimado 2015": "370511.62",
+            "Valor Contratualizado 2016": "602237.98",
+            "% Var 2016 / 2015": "62.5%"
+          },
+          {
+            "Conta": "71218-Outras Prestações de Serviços de Saúde - SNS CP",
+            "Valor Estimado 2015": "6981212.92",
+            "Valor Contratualizado 2016": "10103018.90",
+            "% Var 2016 / 2015": "44.7%"
+          },
+          {
+            "Conta": "712181-Serviço domiciliário - SNS CP",
+            "Valor Estimado 2015": "8275.00",
+            "Valor Contratualizado 2016": "15044.04",
+            "% Var 2016 / 2015": "81.8%"
+          },
+          {
+            "Conta": "712182-Programas de gestão da doença crónica",
+            "Valor Estimado 2015": "2751980.11",
+            "Valor Contratualizado 2016": "4848602.40",
+            "% Var 2016 / 2015": "76.2%"
+          },
+          {
+            "Conta": "712183-Saúde Sexual e Reprodutiva",
+            "Valor Estimado 2015": "87195.08",
+            "Valor Contratualizado 2016": "172719.91",
+            "% Var 2016 / 2015": "98.1%"
+          },
+          {
+            "Conta": "7121831-IVG até às 10 semanas",
+            "Valor Estimado 2015": "67660.90",
+            "Valor Contratualizado 2016": "55770.70",
+            "% Var 2016 / 2015": "-17.6%"
+          },
+          {
+            "Conta": "7121832-PMA Diagnóstico e Tratamento da Infertilidade",
+            "Valor Estimado 2015": "19534.18",
+            "Valor Contratualizado 2016": "18503.04",
+            "% Var 2016 / 2015": "-5.3%"
+          },
+          {
+            "Conta": "7121833-Diagnóstico Pré-Natal",
+            "Valor Estimado 2015": "0.00",
+            "Valor Contratualizado 2016": "98446.17",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712184-Plano de convergência - SNS CP",
+            "Valor Estimado 2015": "2263868.30",
+            "Valor Contratualizado 2016": "3096072.18",
+            "% Var 2016 / 2015": "36.8%"
+          },
+          {
+            "Conta": "712185-Valor Capitacional (valor a facturar pelas ULS) - SNS CP",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712186-Sessões de Radioterapia",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712187-Medicamentos de cedência em ambulatório",
+            "Valor Estimado 2015": "1053653.55",
+            "Valor Contratualizado 2016": "1142297.77",
+            "% Var 2016 / 2015": "8.4%"
+          },
+          {
+            "Conta": "712188-Internos",
+            "Valor Estimado 2015": "811680.88",
+            "Valor Contratualizado 2016": "828282.60",
+            "% Var 2016 / 2015": "2.0%"
+          },
+          {
+            "Conta": "712189-Outras prestações serviços de saúde - SNS CP",
+            "Valor Estimado 2015": "4560.00",
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "71219- Outras prestações de serviços - SNS CP",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": "350000.00",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "7122 - Outras Entidades Responsáveis",
+            "Valor Estimado 2015": "3674047.93",
+            "Valor Contratualizado 2016": "3485210.10",
+            "% Var 2016 / 2015": "-5.1%"
+          },
+          {
+            "Conta": "71221-Internamento",
+            "Valor Estimado 2015": "808334.03",
+            "Valor Contratualizado 2016": "910641.19",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "71222-Consulta",
+            "Valor Estimado 2015": "20120.75",
+            "Valor Contratualizado 2016": "22667.34",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "71223-Urgência/SAP",
+            "Valor Estimado 2015": "472562.78",
+            "Valor Contratualizado 2016": "532372.91",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "712231-Urgência",
+            "Valor Estimado 2015": "470907.15",
+            "Valor Contratualizado 2016": "530507.73",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "712232-Serviço de atendimento permanente",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712239-Outros",
+            "Valor Estimado 2015": "1655.63",
+            "Valor Contratualizado 2016": "1865.18",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "71223-Urgência/SAP",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "71224-Quartos particulares",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "71225-Hospital de dia",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          }
+        ]
+      },
+      {
+        "table_index": 11,
+        "page": 19,
+        "table_data": [
+          {
+            "Conta": "71226-Meios compl. de diagnóstico e terapêutica",
+            "Valor Estimado 2015": "210659.13",
+            "Valor Contratualizado 2016": "237321.31",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "712261-Meios complementares diagnóstico - Outras Ent Resp",
+            "Valor Estimado 2015": "204465.13",
+            "Valor Contratualizado 2016": "230343.36",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "7122611-Patologia Clínica",
+            "Valor Estimado 2015": "34954.05",
+            "Valor Contratualizado 2016": "39378.03",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "7122612-Anatomia patológica",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "7122613-Imagiologia",
+            "Valor Estimado 2015": "123364.98",
+            "Valor Contratualizado 2016": "138978.73",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "7122614-Cardiologia",
+            "Valor Estimado 2015": "283.90",
+            "Valor Contratualizado 2016": "319.83",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "7122616-Medicina nuclear",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "7122617-Gastrenterologia",
+            "Valor Estimado 2015": "48.40",
+            "Valor Contratualizado 2016": "54.53",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "7122619-Outros",
+            "Valor Estimado 2015": "45813.80",
+            "Valor Contratualizado 2016": "51612.24",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "712262-Meios complementares terapêutica - Outras Ent Resp",
+            "Valor Estimado 2015": "6194.00",
+            "Valor Contratualizado 2016": "6977.95",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "7122621-Hemodiálise",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "7122622-Medicina física e de reabilitação",
+            "Valor Estimado 2015": "3513.90",
+            "Valor Contratualizado 2016": "3958.64",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "7122623-Litotrícia",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "7122624-Quimioterapia",
+            "Valor Estimado 2015": "69.90",
+            "Valor Contratualizado 2016": "78.75",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "7122625-Radioterapia",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "7122629-Outros",
+            "Valor Estimado 2015": "2610.20",
+            "Valor Contratualizado 2016": "2940.56",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "71227 Taxas moderadoras",
+            "Valor Estimado 2015": "2093837.85",
+            "Valor Contratualizado 2016": "1705000.00",
+            "% Var 2016 / 2015": "-18.6%"
+          },
+          {
+            "Conta": "712271-Consultas",
+            "Valor Estimado 2015": "987540.62",
+            "Valor Contratualizado 2016": "804148.59",
+            "% Var 2016 / 2015": "-18.6%"
+          },
+          {
+            "Conta": "712272 - Urgência/SAP",
+            "Valor Estimado 2015": "1064817.63",
+            "Valor Contratualizado 2016": "867074.81",
+            "% Var 2016 / 2015": "-18.6%"
+          },
+          {
+            "Conta": "712273-Internamento",
+            "Valor Estimado 2015": "653.50",
+            "Valor Contratualizado 2016": "532.14",
+            "% Var 2016 / 2015": "-18.6%"
+          },
+          {
+            "Conta": "712276 - Meios complementares diagnóst. e terapêut.",
+            "Valor Estimado 2015": "35203.60",
+            "Valor Contratualizado 2016": "28666.09",
+            "% Var 2016 / 2015": "-18.6%"
+          },
+          {
+            "Conta": "712279-Outros",
+            "Valor Estimado 2015": "5622.50",
+            "Valor Contratualizado 2016": "4578.37",
+            "% Var 2016 / 2015": "-18.6%"
+          },
+          {
+            "Conta": "712261-Meios complementares diagnóstico - Outras Ent Resp",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712262-Meios complementares terapêutica - Outras Ent Resp",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "71227- Taxas moderadoras - Outras Ent Resp",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "71228-Outras Prestações de Serviços de Saúde",
+            "Valor Estimado 2015": "36677.60",
+            "Valor Contratualizado 2016": "41319.72",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "712281-Serviço domiciliário",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712282-GDH de Ambulatório - Outras Ent Resp",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "7122821-GDH Cirúrgicos",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "7122822-GDH Médicos",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712282-GDH de Ambulatório - Outras Ent Resp",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712289-Outras prestações serviços de saúde - Outras Ent Resp",
+            "Valor Estimado 2015": "36677.60",
+            "Valor Contratualizado 2016": "41319.72",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "71229 Outras prestações de serviços",
+            "Valor Estimado 2015": "31855.79",
+            "Valor Contratualizado 2016": "35887.63",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "712291-Convenções internacionais",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712294- Unidades terapêuticas de Sangue",
+            "Valor Estimado 2015": "31855.79",
+            "Valor Contratualizado 2016": "35887.63",
+            "% Var 2016 / 2015": "12.7%"
+          },
+          {
+            "Conta": "712295- Serviços prestados pela ACSS, IP",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712296- Análises sanitárias",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "712299-Outras",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "71229 Outras prestações de serviços - Outras Ent Resp",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2015": "63153665.66",
+            "Valor Contratualizado 2016": "65756653.61",
+            "% Var 2016 / 2015": "4.1%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "95.0%",
+            "Valor Contratualizado 2016": "95.0%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "72-Impostos e taxas",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "73-Proveitos suplementares",
+            "Valor Estimado 2015": "12365.00",
+            "Valor Contratualizado 2016": "10000.00",
+            "% Var 2016 / 2015": "-19.1%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "0.0%",
+            "Valor Contratualizado 2016": "0.0%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "74-Transf. e subsídios correntes obtidos",
+            "Valor Estimado 2015": "96359.95",
+            "Valor Contratualizado 2016": "146917.27",
+            "% Var 2016 / 2015": "52.5%"
+          },
+          {
+            "Conta": "741-Transferências-Tesouro",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "742-Transferências correntes obtidas",
+            "Valor Estimado 2015": "66732.68",
+            "Valor Contratualizado 2016": "90000.00",
+            "% Var 2016 / 2015": "34.9%"
+          },
+          {
+            "Conta": "7421-Da ACSS",
+            "Valor Estimado 2015": "66732.68",
+            "Valor Contratualizado 2016": "50000.00",
+            "% Var 2016 / 2015": "-25.1%"
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "page": 20,
+        "table_data": [
+          {
+            "Conta": "7422-Do PIDDAC",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "7423-Do FSE",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": "40000.00",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "7429-Outras Transferências Correntes Obtidas",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "743-Sub. correntes obtidos-Outros entes públicos",
+            "Valor Estimado 2015": "29627.27",
+            "Valor Contratualizado 2016": "56917.27",
+            "% Var 2016 / 2015": "92.1%"
+          },
+          {
+            "Conta": "749-Sub. correntes obtidos-De outras entidades",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2015": "96359.95",
+            "Valor Contratualizado 2016": "146917.27",
+            "% Var 2016 / 2015": "52.5%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "0.1%",
+            "Valor Contratualizado 2016": "0.2%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "75-Trabalhos para a própria entidade",
+            "Valor Estimado 2015": "30410.50",
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "0.0%",
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "76-Outros proveitos e ganhos operacionais",
+            "Valor Estimado 2015": "2359288.45",
+            "Valor Contratualizado 2016": "2677624.92",
+            "% Var 2016 / 2015": "13.5%"
+          },
+          {
+            "Conta": "7611-ACSS IP",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "762-Reembolsos",
+            "Valor Estimado 2015": "1884866.61",
+            "Valor Contratualizado 2016": "2330795.76",
+            "% Var 2016 / 2015": "23.7%"
+          },
+          {
+            "Conta": "763-Produtos de fabricação interna",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "768-Outros não espec. alheios valor acrescentado",
+            "Valor Estimado 2015": "413841.37",
+            "Valor Contratualizado 2016": "276814.56",
+            "% Var 2016 / 2015": "-33.1%"
+          },
+          {
+            "Conta": "769-Outros",
+            "Valor Estimado 2015": "60580.47",
+            "Valor Contratualizado 2016": "70014.60",
+            "% Var 2016 / 2015": "15.6%"
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2015": "2359288.45",
+            "Valor Contratualizado 2016": "2677624.92",
+            "% Var 2016 / 2015": "13.5%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "3.6%",
+            "Valor Contratualizado 2016": "3.9%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "78-Proveitos e ganhos financeiros",
+            "Valor Estimado 2015": "70260.20",
+            "Valor Contratualizado 2016": "15000.00",
+            "% Var 2016 / 2015": "-78.7%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "0.1%",
+            "Valor Contratualizado 2016": "0.0%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "79-Proveitos e ganhos extraordinários",
+            "Valor Estimado 2015": "728314.51",
+            "Valor Contratualizado 2016": "617414.16",
+            "% Var 2016 / 2015": "-15.2%"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2015": "1.1%",
+            "Valor Contratualizado 2016": "0.9%",
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Conta": "TOTAL GERAL",
+            "Valor Estimado 2015": "66450664.27",
+            "Valor Contratualizado 2016": "69223609.96",
+            "% Var 2016 / 2015": "4.2%"
+          }
+        ]
+      },
+      {
+        "table_index": 13,
+        "page": 21,
+        "table_data": [
+          {
+            "Método Directo": "Fluxos de Actividades Operacionais",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Recebimentos (+):",
+            "Valor Estimado 2015": "63106486.29",
+            "Valor Contratualizado 2016": "66180371.33",
+            "% Var 2016 / 2015": "4.87%"
+          },
+          {
+            "Método Directo": "Contrato-programa (produção)",
+            "Valor Estimado 2015": "55501304.07",
+            "Valor Contratualizado 2016": "59175371.33",
+            "% Var 2016 / 2015": "6.62%"
+          },
+          {
+            "Método Directo": "Dívidas de Terceiros (outras entidades)",
+            "Valor Estimado 2015": "278455.11",
+            "Valor Contratualizado 2016": "300000.00",
+            "% Var 2016 / 2015": "7.74%"
+          },
+          {
+            "Método Directo": "Contrato-Programa (convergência)",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Incentivos",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Subsídios à Exploração",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Taxas Moderadoras (R)",
+            "Valor Estimado 2015": "2093837.85",
+            "Valor Contratualizado 2016": "1705000.00",
+            "% Var 2016 / 2015": "-18.57%"
+          },
+          {
+            "Método Directo": "Outros (inclui outros operacionais e extraordinários)",
+            "Valor Estimado 2015": "5232889.26",
+            "Valor Contratualizado 2016": "5000000.00",
+            "% Var 2016 / 2015": "-4.45%"
+          },
+          {
+            "Método Directo": "Pagamentos (-):",
+            "Valor Estimado 2015": "-97122178.93",
+            "Valor Contratualizado 2016": "-64894881.98",
+            "% Var 2016 / 2015": "-33.18%"
+          },
+          {
+            "Método Directo": "Fornecedores e outros c/c",
+            "Valor Estimado 2015": "-51831245.45",
+            "Valor Contratualizado 2016": "-16355998.60",
+            "% Var 2016 / 2015": "-68.44%"
+          },
+          {
+            "Método Directo": "Custos com Pessoal",
+            "Valor Estimado 2015": "-45290933.48",
+            "Valor Contratualizado 2016": "-48538883.38",
+            "% Var 2016 / 2015": "7.17%"
+          },
+          {
+            "Método Directo": "Transf. Correntes conced. e Prest. Sociais",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Outros (inclui outros operac. e extraord.)",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Fluxos de Actividades Operacionais",
+            "Valor Estimado 2015": "-34015692.64",
+            "Valor Contratualizado 2016": "1285489.35",
+            "% Var 2016 / 2015": "-103.78%"
+          },
+          {
+            "Método Directo": "Fluxos de Actividades de Investimento",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Recebimentos provenientes de (+):",
+            "Valor Estimado 2015": "277755.70",
+            "Valor Contratualizado 2016": "288239.89",
+            "% Var 2016 / 2015": "3.77%"
+          },
+          {
+            "Método Directo": "Investimentos Financeiros",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Imobilizações Corpóreas",
+            "Valor Estimado 2015": "203825.47",
+            "Valor Contratualizado 2016": "273239.89",
+            "% Var 2016 / 2015": "34.06%"
+          },
+          {
+            "Método Directo": "Imobilizações Incorpóreas",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Subsídios ao Investimento",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Juros e Proveitos Similares",
+            "Valor Estimado 2015": "73930.23",
+            "Valor Contratualizado 2016": "15000.00",
+            "% Var 2016 / 2015": "-79.71%"
+          },
+          {
+            "Método Directo": "Dividendos",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Outros",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Pagamentos respeitantes a (-):",
+            "Valor Estimado 2015": "-1564461.62",
+            "Valor Contratualizado 2016": "-1551321.18",
+            "% Var 2016 / 2015": "-0.84%"
+          },
+          {
+            "Método Directo": "Investimentos Financeiros",
+            "Valor Estimado 2015": "-45357.12",
+            "Valor Contratualizado 2016": "-51321.18",
+            "% Var 2016 / 2015": "13.15%"
+          },
+          {
+            "Método Directo": "Imobilizações Corpóreas",
+            "Valor Estimado 2015": "-1519104.50",
+            "Valor Contratualizado 2016": "-1500000.00",
+            "% Var 2016 / 2015": "-1.26%"
+          },
+          {
+            "Método Directo": "Imobilizações Incorpóreas",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Fluxos de Actividades de Investimento",
+            "Valor Estimado 2015": "-1286705.92",
+            "Valor Contratualizado 2016": "-1263081.29",
+            "% Var 2016 / 2015": "-1.84%"
+          },
+          {
+            "Método Directo": "Fluxos de Actividades de Financiamento",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Recebimentos provenientes de (+):",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Empréstimos Obtidos",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Aumentos de Capital e P. Suplementares",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Subsídios e Doações",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Vendas de Acções Próprias",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Cobertura de Prejuízos",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Pagamentos respeitantes a (-):",
+            "Valor Estimado 2015": "-22714.58",
+            "Valor Contratualizado 2016": "-25500.00",
+            "% Var 2016 / 2015": "12.26%"
+          },
+          {
+            "Método Directo": "Empréstimos Obtidos",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Amortizações de Contratos de Leasing",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Juros e Custos Similares",
+            "Valor Estimado 2015": "-22714.58",
+            "Valor Contratualizado 2016": "-25500.00",
+            "% Var 2016 / 2015": "12.26%"
+          },
+          {
+            "Método Directo": "Dividendos",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Reduções de Capital e P. Suplementares",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Aquisição de Acções Próprias",
+            "Valor Estimado 2015": null,
+            "Valor Contratualizado 2016": null,
+            "% Var 2016 / 2015": null
+          },
+          {
+            "Método Directo": "Fluxos de Actividades de Financiamento",
+            "Valor Estimado 2015": "-22714.58",
+            "Valor Contratualizado 2016": "-25500.00",
+            "% Var 2016 / 2015": "12.26%"
+          },
+          {
+            "Método Directo": "Variação de Caixa e seus equivalentes",
+            "Valor Estimado 2015": "-35325113.14",
+            "Valor Contratualizado 2016": "-3091.94",
+            "% Var 2016 / 2015": "-99.99%"
+          },
+          {
+            "Método Directo": "Caixa no início do período",
+            "Valor Estimado 2015": "35340505.08",
+            "Valor Contratualizado 2016": "15391.94",
+            "% Var 2016 / 2015": "-99.96%"
+          },
+          {
+            "Método Directo": "Caixa no fim do período",
+            "Valor Estimado 2015": "15391.94",
+            "Valor Contratualizado 2016": "12300.00",
+            "% Var 2016 / 2015": "-20.09%"
+          }
+        ]
+      },
+      {
+        "table_index": 14,
+        "page": 22,
+        "table_data": [
+          {
+            "": "TOTAL",
+            "Valor Estimado 2015": "0.00",
+            "Valor Contratualizado 2016": "0.00",
+            "% Var 2016 / 2015": null
+          }
+        ]
+      },
+      {
+        "table_index": 15,
+        "page": 23,
+        "table_data": [
+          {
+            "Descrição": "Imobilizado",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Bens de domínio público",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "451 Terrenos e recursos naturais",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "452 Edifícios",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "453-Outras construções e infra-estruturas",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "455- Bens do património hist., artíst. e cultural",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "459- Outros bens de domínio público",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "445- Imobilizações em Curso de Bens de Domínio Público",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "446- Adiantamento por Conta de Bens do Domínio Público",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Bens de domínio público",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Imobilizados Incorpóreos",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "431 Despesas de Instalação",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "432- Despesas de Investigação e Desenvolvimento",
+            "AL - Activo Liquido 2015": "0.00",
+            "AB - Activo Bruto 2016": "385816.27",
+            "AP - Amortizações ou Provisões 2016": "385816.27",
+            "AL - Activo Liquido 2016": "0.00"
+          },
+          {
+            "Descrição": "443- Imobilizações em Curso de Imobilizações Incorpóreas",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "449- Adiantamentos por Conta de Imobilizações Incorpóreas",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Imobilizados Incorpóreos",
+            "AL - Activo Liquido 2015": "0.00",
+            "AB - Activo Bruto 2016": "385816.27",
+            "AP - Amortizações ou Provisões 2016": "385816.27",
+            "AL - Activo Liquido 2016": "0.00"
+          },
+          {
+            "Descrição": "Imobilizações Corpóreas",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "421 Terrenos e Recursos Naturais",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "422- Edifícios e Outras Construções",
+            "AL - Activo Liquido 2015": "5626370.82",
+            "AB - Activo Bruto 2016": "18418004.32",
+            "AP - Amortizações ou Provisões 2016": "12557111.19",
+            "AL - Activo Liquido 2016": "5860893.13"
+          },
+          {
+            "Descrição": "423 Equipamento Básico",
+            "AL - Activo Liquido 2015": "3532020.67",
+            "AB - Activo Bruto 2016": "25411147.62",
+            "AP - Amortizações ou Provisões 2016": "22559494.48",
+            "AL - Activo Liquido 2016": "2851653.14"
+          },
+          {
+            "Descrição": "424- Equipamento de Transporte",
+            "AL - Activo Liquido 2015": "3385.83",
+            "AB - Activo Bruto 2016": "168701.41",
+            "AP - Amortizações ou Provisões 2016": "166467.58",
+            "AL - Activo Liquido 2016": "2233.83"
+          },
+          {
+            "Descrição": "425 Ferramentas e Utensílios",
+            "AL - Activo Liquido 2015": "2868.75",
+            "AB - Activo Bruto 2016": "40225.15",
+            "AP - Amortizações ou Provisões 2016": "38290.96",
+            "AL - Activo Liquido 2016": "1934.19"
+          },
+          {
+            "Descrição": "426 Equipamento administrativo e Informático",
+            "AL - Activo Liquido 2015": "340886.31",
+            "AB - Activo Bruto 2016": "10458718.53",
+            "AP - Amortizações ou Provisões 2016": "9445840.20",
+            "AL - Activo Liquido 2016": "1012878.33"
+          },
+          {
+            "Descrição": "427 Taras e Vasilhame",
+            "AL - Activo Liquido 2015": "0.00",
+            "AB - Activo Bruto 2016": "12994.74",
+            "AP - Amortizações ou Provisões 2016": "12994.74",
+            "AL - Activo Liquido 2016": "0.00"
+          },
+          {
+            "Descrição": "429 Outras Imobilizações Corpóreas",
+            "AL - Activo Liquido 2015": "103144.59",
+            "AB - Activo Bruto 2016": "998054.19",
+            "AP - Amortizações ou Provisões 2016": "720915.78",
+            "AL - Activo Liquido 2016": "277138.41"
+          },
+          {
+            "Descrição": "442- Imobilizações em Curso de Imobilizações Corpóreas",
+            "AL - Activo Liquido 2015": "59351.98",
+            "AB - Activo Bruto 2016": "59351.98",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "59351.98"
+          },
+          {
+            "Descrição": "448- Adiantamentos por Conta de Imobilizações Corpóreas",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Imobilizações Corpóreas",
+            "AL - Activo Liquido 2015": "9668028.95",
+            "AB - Activo Bruto 2016": "55567197.94",
+            "AP - Amortizações ou Provisões 2016": "45501114.93",
+            "AL - Activo Liquido 2016": "10066083.01"
+          },
+          {
+            "Descrição": "Investimentos Financeiros",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "411 Partes de Capital",
+            "AL - Activo Liquido 2015": "35775.86",
+            "AB - Activo Bruto 2016": "35775.86",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "35775.86"
+          },
+          {
+            "Descrição": "412 Obrigações e Títulos de Participação",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "414 Investimentos em Imóveis",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "415 Outras Aplicações Financeiras",
+            "AL - Activo Liquido 2015": "48678.82",
+            "AB - Activo Bruto 2016": "100000.00",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "100000.00"
+          },
+          {
+            "Descrição": "441 Imobilizações em Curso de Investimentos Financeiros",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "447- Adiantamentos por Conta de Investimentos Financeiros",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Investimentos Financeiros",
+            "AL - Activo Liquido 2015": "84454.68",
+            "AB - Activo Bruto 2016": "135775.86",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "135775.86"
+          },
+          {
+            "Descrição": "Circulante",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Existências",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "36- Matérias-primas, Subsidiárias e de Consumo",
+            "AL - Activo Liquido 2015": "2379031.94",
+            "AB - Activo Bruto 2016": "1720944.67",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "1720944.67"
+          },
+          {
+            "Descrição": "34- Sub-produtos, Desperdícios, Resíduos e Refugo",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          }
+        ]
+      },
+      {
+        "table_index": 16,
+        "page": 24,
+        "table_data": [
+          {
+            "Descrição": "33 - Produtos Acabados e Intermédios",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "32 - Mercadorias",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "37 - Adiantamento por Conta de Compras",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Existências",
+            "AL - Activo Liquido 2015": "2379031.94",
+            "AB - Activo Bruto 2016": "1720944.67",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "1720944.67"
+          },
+          {
+            "Descrição": "Dívidas de Terceiros - Médio e Longo Prazo",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Dívidas de Terceiros - Curto prazo",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "28 - Empréstimos Concedidos",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "211 - Clientes c/c",
+            "AL - Activo Liquido 2015": "1023838.25",
+            "AB - Activo Bruto 2016": "1000000.00",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "1000000.00"
+          },
+          {
+            "Descrição": "213 - Utentes c/c",
+            "AL - Activo Liquido 2015": "15773.97",
+            "AB - Activo Bruto 2016": "15000.00",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "15000.00"
+          },
+          {
+            "Descrição": "215 - Instituições do MS",
+            "AL - Activo Liquido 2015": "15250235.29",
+            "AB - Activo Bruto 2016": "14000000.00",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "14000000.00"
+          },
+          {
+            "Descrição": "218 - Clientes e Utentes de Cobrança Duvidosa",
+            "AL - Activo Liquido 2015": "167473.87",
+            "AB - Activo Bruto 2016": "550000.00",
+            "AP - Amortizações ou Provisões 2016": "425000.00",
+            "AL - Activo Liquido 2016": "125000.00"
+          },
+          {
+            "Descrição": "251 - Devedores pela Execução do Orçamento",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "229 - Adiantamentos a Fornecedores",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "2619 - Adiantamentos a Fornecedores de Imobilizado",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "24 - Estado e Outros Entes Públicos",
+            "AL - Activo Liquido 2015": "350615.60",
+            "AB - Activo Bruto 2016": "420615.60",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "420615.60"
+          },
+          {
+            "Descrição": "263/3/4+267+268 - Outros devedores",
+            "AL - Activo Liquido 2015": "3010205.09",
+            "AB - Activo Bruto 2016": "3010205.09",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "3010205.09"
+          },
+          {
+            "Descrição": "Dívidas de Terceiros - Curto prazo",
+            "AL - Activo Liquido 2015": "19818142.07",
+            "AB - Activo Bruto 2016": "18995820.69",
+            "AP - Amortizações ou Provisões 2016": "425000.00",
+            "AL - Activo Liquido 2016": "18570820.69"
+          },
+          {
+            "Descrição": "Títulos Negociáveis",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "151 - Acções",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "152 - Obrigações e Títulos de Participação",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "153 - Títulos da Dívida Pública",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "159 - Outros Títulos",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "18 - Outras Aplicações de Tesouraria",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Títulos Negociáveis",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Depósitos em Inst. Financ. e Caixa",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "13 - Contas no Tesouro",
+            "AL - Activo Liquido 2015": "13100.44",
+            "AB - Activo Bruto 2016": "10000.00",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "10000.00"
+          },
+          {
+            "Descrição": "12 - Depósitos em Instituições Financeiras",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "11 - Caixa",
+            "AL - Activo Liquido 2015": "2291.50",
+            "AB - Activo Bruto 2016": "2300.00",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "2300.00"
+          },
+          {
+            "Descrição": "Depósitos em Inst. Financ. e Caixa",
+            "AL - Activo Liquido 2015": "15391.94",
+            "AB - Activo Bruto 2016": "12300.00",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "12300.00"
+          },
+          {
+            "Descrição": "Acréscimos e Diferimentos",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "271 - Acréscimos de Proveitos",
+            "AL - Activo Liquido 2015": "119299663.44",
+            "AB - Activo Bruto 2016": "67906712.10",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "67906712.10"
+          },
+          {
+            "Descrição": "272 - Custos Diferidos",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Acréscimos e Diferimentos",
+            "AL - Activo Liquido 2015": "119299663.44",
+            "AB - Activo Bruto 2016": "67906712.10",
+            "AP - Amortizações ou Provisões 2016": null,
+            "AL - Activo Liquido 2016": "67906712.10"
+          },
+          {
+            "Descrição": "Total de Amortizações",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": "45886931.20",
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "Total de Provisões",
+            "AL - Activo Liquido 2015": null,
+            "AB - Activo Bruto 2016": null,
+            "AP - Amortizações ou Provisões 2016": "425000.00",
+            "AL - Activo Liquido 2016": null
+          },
+          {
+            "Descrição": "TOTAL do ACTIVO",
+            "AL - Activo Liquido 2015": "151264713.02",
+            "AB - Activo Bruto 2016": "144724567.53",
+            "AP - Amortizações ou Provisões 2016": "46311931.20",
+            "AL - Activo Liquido 2016": "98412636.33"
+          }
+        ]
+      },
+      {
+        "table_index": 17,
+        "page": 25,
+        "table_data": [
+          {
+            "Descrição": "Fundos Próprios",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "51 - Património",
+            "Fundos Próprios e Passivo 2015": "97184651.00",
+            "Fundos Próprios e Passivo 2016": "97184651.00"
+          },
+          {
+            "Descrição": "56 - Reservas de Reavaliação",
+            "Fundos Próprios e Passivo 2015": "1026749.46",
+            "Fundos Próprios e Passivo 2016": "1026749.46"
+          },
+          {
+            "Descrição": "Sub-total",
+            "Fundos Próprios e Passivo 2015": "98211400.46",
+            "Fundos Próprios e Passivo 2016": "98211400.46"
+          },
+          {
+            "Descrição": "Reservas",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "571 - Reservas Legais",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "572 - Reservas Estatutárias",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "574 - Reservas Livres",
+            "Fundos Próprios e Passivo 2015": "7922848.10",
+            "Fundos Próprios e Passivo 2016": "7922848.10"
+          },
+          {
+            "Descrição": "575 - Subsídios",
+            "Fundos Próprios e Passivo 2015": "620950.88",
+            "Fundos Próprios e Passivo 2016": "620950.88"
+          },
+          {
+            "Descrição": "576 - Doações",
+            "Fundos Próprios e Passivo 2015": "1330632.79",
+            "Fundos Próprios e Passivo 2016": "1330632.79"
+          },
+          {
+            "Descrição": "577 - Reservas Decorrentes da Transferência de Activos",
+            "Fundos Próprios e Passivo 2015": "503970.72",
+            "Fundos Próprios e Passivo 2016": "503970.72"
+          },
+          {
+            "Descrição": "Sub-total",
+            "Fundos Próprios e Passivo 2015": "10378402.49",
+            "Fundos Próprios e Passivo 2016": "10378402.49"
+          },
+          {
+            "Descrição": "Resultados Transitados",
+            "Fundos Próprios e Passivo 2015": "-109573851.82",
+            "Fundos Próprios e Passivo 2016": "-122684685.55"
+          },
+          {
+            "Descrição": "Resultado Líquido do Exercício",
+            "Fundos Próprios e Passivo 2015": "-13110833.73",
+            "Fundos Próprios e Passivo 2016": "-12889596.97"
+          },
+          {
+            "Descrição": "Fundo Patrimonial",
+            "Fundos Próprios e Passivo 2015": "-14094882.60",
+            "Fundos Próprios e Passivo 2016": "-26984479.57"
+          },
+          {
+            "Descrição": "Passivo",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "Provisões",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "291 - Provisões para Cobranças Duvidosas",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "292 - Provisões para Riscos",
+            "Fundos Próprios e Passivo 2015": "526056.66",
+            "Fundos Próprios e Passivo 2016": "526056.66"
+          },
+          {
+            "Descrição": "Provisões",
+            "Fundos Próprios e Passivo 2015": "526056.66",
+            "Fundos Próprios e Passivo 2016": "526056.66"
+          },
+          {
+            "Descrição": "Dívidas a Terceiros - Médio e Longo Prazo",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "Terceiros",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "213 - Utentes c/c",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "219 - Adiantamentos de Clientes, Utentes e Instit. MS",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "221 - Fornecedores c/c",
+            "Fundos Próprios e Passivo 2015": "130822803.50",
+            "Fundos Próprios e Passivo 2016": "80175134.56"
+          },
+          {
+            "Descrição": "228 - Fornecedores - Facturas recep. e conf.",
+            "Fundos Próprios e Passivo 2015": "17328292.52",
+            "Fundos Próprios e Passivo 2016": "28638387.76"
+          },
+          {
+            "Descrição": "23 - Empréstimos obtidos",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "252 - Credores pela Execução do Orçamento",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "2611 - Fornecedores de imobilizado c/c",
+            "Fundos Próprios e Passivo 2015": "426931.02",
+            "Fundos Próprios e Passivo 2016": "400000.00"
+          },
+          {
+            "Descrição": "24 - Estado e Outros Entes Públicos",
+            "Fundos Próprios e Passivo 2015": "22651.13",
+            "Fundos Próprios e Passivo 2016": "25000.00"
+          },
+          {
+            "Descrição": "261/3/4 - Outros Credores",
+            "Fundos Próprios e Passivo 2015": "6509849.60",
+            "Fundos Próprios e Passivo 2016": "6500000.00"
+          },
+          {
+            "Descrição": "Terceiros",
+            "Fundos Próprios e Passivo 2015": "155110527.77",
+            "Fundos Próprios e Passivo 2016": "115738522.32"
+          },
+          {
+            "Descrição": "Acréscimos e Diferimentos",
+            "Fundos Próprios e Passivo 2015": null,
+            "Fundos Próprios e Passivo 2016": null
+          },
+          {
+            "Descrição": "273 - Acréscimos de Custos",
+            "Fundos Próprios e Passivo 2015": "6723060.11",
+            "Fundos Próprios e Passivo 2016": "6750000.00"
+          },
+          {
+            "Descrição": "274 - Proveitos Diferidos",
+            "Fundos Próprios e Passivo 2015": "2999951.08",
+            "Fundos Próprios e Passivo 2016": "2382536.92"
+          },
+          {
+            "Descrição": "Acréscimos e Diferimentos",
+            "Fundos Próprios e Passivo 2015": "9723011.19",
+            "Fundos Próprios e Passivo 2016": "9132536.92"
+          },
+          {
+            "Descrição": "Passivo",
+            "Fundos Próprios e Passivo 2015": "165359595.62",
+            "Fundos Próprios e Passivo 2016": "125397115.90"
+          },
+          {
+            "Descrição": "Fundos Próprios e Passivo",
+            "Fundos Próprios e Passivo 2015": "151264713.02",
+            "Fundos Próprios e Passivo 2016": "98412636.33"
+          }
+        ]
+      }
+    ]
+  }
+}

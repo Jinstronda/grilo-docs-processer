@@ -1,0 +1,87 @@
+{
+  "contract_id": "41ac5a6e-63d5-9386-3d50-650a361b849f",
+  "hospital_name": "Centro Hospitalar de Setúbal, EPE",
+  "year": 2015,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/Adenda-ao-Acordo-Modificativo-2015-PIC-CHS.pdf",
+  "extraction_timestamp": "20251101_172147",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 3,
+        "table_data": [
+          {
+            "Área/Patologia": "Cirurgia da mama em patologia neoplásica (a)",
+            "Produção Acrescida Contratada (nº episódios)": null,
+            "Preço médio*": "1827.45",
+            "Valor contratado": null
+          },
+          {
+            "Área/Patologia": "Cirurgia da próstata em patologia neoplásica (b)",
+            "Produção Acrescida Contratada (nº episódios)": null,
+            "Preço médio*": "1955.25",
+            "Valor contratado": null
+          },
+          {
+            "Área/Patologia": "Cirurgia da hérnia discal (c)",
+            "Produção Acrescida Contratada (nº episódios)": "20",
+            "Preço médio*": "2500.76",
+            "Valor contratado": "50015.2"
+          },
+          {
+            "Área/Patologia": "Cirurgia da Artroplastia da Anca (d)",
+            "Produção Acrescida Contratada (nº episódios)": "165",
+            "Preço médio*": "5094.65",
+            "Valor contratado": "840617.25"
+          },
+          {
+            "Área/Patologia": "Cirurgia da Catarata (e)",
+            "Produção Acrescida Contratada (nº episódios)": null,
+            "Preço médio*": "708.84",
+            "Valor contratado": null
+          },
+          {
+            "Área/Patologia": "TOTAL",
+            "Produção Acrescida Contratada (nº episódios)": "185",
+            "Preço médio*": null,
+            "Valor contratado": "890632.45"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 4,
+        "table_data": [
+          {
+            "Serviços/Unidades Funcionais": "CHSe-ORTOPEDIA",
+            "Nº episódios cirúrgicos (internamento e ambulatório)": "2290",
+            "Média do Peso Relativo dos episódios cirúrgicos": "1.0725",
+            "Nº 1ª consultas": "7800",
+            "Nº consultas subsequentes": "14000"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 5,
+        "table_data": [
+          {
+            "Serviços/Unidades Funcionais": "CHSe-ORTOPEDIA",
+            "Área/Patologia": "Cirurgia da hérnia discal",
+            "Produção Acrescida Contratada (nº episódios)": "20",
+            "Preço médio": "2500.76",
+            "Valor contratado": "50015.2"
+          },
+          {
+            "Serviços/Unidades Funcionais": "CHSe-ORTOPEDIA",
+            "Área/Patologia": "Cirurgia da Artroplastia da Anca",
+            "Produção Acrescida Contratada (nº episódios)": "165",
+            "Preço médio": "5094.65",
+            "Valor contratado": "840617.25"
+          }
+        ]
+      }
+    ]
+  }
+}

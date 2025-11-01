@@ -1,0 +1,576 @@
+{
+  "contract_id": "29721b9c-1780-bb56-364c-eefaf7d3fecb",
+  "hospital_name": "Hospital Distrital Figueira da Foz, EPE",
+  "year": 2013,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/Adenda-ao-CP2013-HDFF.pdf",
+  "extraction_timestamp": "20251101_161311",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 2,
+        "table_data": [
+          {
+            "Atividade Hospitalar": "1. Consultas Externas: Nº de 1ªs consultas médicas (s/majoração)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "40.80",
+            "Quantidade": "17785",
+            "Valor (Euros)": "725628.00"
+          },
+          {
+            "Atividade Hospitalar": "1. Consultas Externas: N° de 1ªs consultas referenciadas (CTH)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "44.88",
+            "Quantidade": "7706",
+            "Valor (Euros)": "345845.28"
+          },
+          {
+            "Atividade Hospitalar": "1. Consultas Externas: N° de 1ªs consultas (Telemedicina)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "44.88",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "1. Consultas Externas: N° de 1ªs consultas na comunidade (Saúde mental)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "44.88",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "1. Consultas Externas: N° de consultas subsequentes médicas",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "40.80",
+            "Quantidade": "57799",
+            "Valor (Euros)": "2358199.20"
+          },
+          {
+            "Atividade Hospitalar": "1. Consultas Externas: Nº de consultas subsequentes (Telemedicina)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "44.88",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "1. Consultas Externas: N° de consultas subsequentes na comunidade",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "44.88",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "Valor Total das Consultas",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": null,
+            "Quantidade": null,
+            "Valor (Euros)": "3429672.48"
+          },
+          {
+            "Atividade Hospitalar": "2. Internamento: Doentes Saídos: GDH Médicos",
+            "ICM": "1.0846",
+            "N.°": "3448",
+            "%": "91.86%",
+            "Preço Unitário (Euros)": "2141.70",
+            "Quantidade": "3754",
+            "Valor (Euros)": "8009317.20"
+          },
+          {
+            "Atividade Hospitalar": "2. Internamento: Doentes Saídos: GDH Cirúrgicos",
+            "ICM": "0.8685",
+            "N.°": "1535",
+            "%": "99.66%",
+            "Preço Unitário (Euros)": "2141.70",
+            "Quantidade": "1540",
+            "Valor (Euros)": "2855202.00"
+          },
+          {
+            "Atividade Hospitalar": "2. Internamento: Doentes Saídos: GDH Cirúrgicos Urgentes",
+            "ICM": "0.8685",
+            "N.°": "615",
+            "%": "99.66%",
+            "Preço Unitário (Euros)": "2034.62",
+            "Quantidade": "617",
+            "Valor (Euros)": "1086746.49"
+          },
+          {
+            "Atividade Hospitalar": "2. Internamento: Dias de Internamento de Doentes Crónicos",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": null,
+            "Quantidade": null,
+            "Valor (Euros)": null
+          },
+          {
+            "Atividade Hospitalar": "2. Internamento: Doentes Medicina Fisica e Reabilitação",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "0.00",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "2. Internamento: Doentes de Psiquiatria Crónicos no Hospital",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "0.00",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "2. Internamento: Doentes de Reabilitação Psicossocial",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "0.00",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "2. Internamento: Doentes Crónicos Ventilados",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "0.00",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "2. Internamento: Doentes Crónicos de Hansen",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "0.00",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "2. Internamento: Doentes Crónicos da Pneumologia",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "0.00",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "Valor Total do Internamento",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": null,
+            "Quantidade": null,
+            "Valor (Euros)": "11951265.69"
+          },
+          {
+            "Atividade Hospitalar": "3. Episódios de GDH de Ambulatório: GDH Cirúrgicos",
+            "ICM": "0.4318",
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "2141.70",
+            "Quantidade": "2174",
+            "Valor (Euros)": "2010484.89"
+          },
+          {
+            "Atividade Hospitalar": "3. Episódios de GDH de Ambulatório: GDH Médicos",
+            "ICM": "0.1981",
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "2141.70",
+            "Quantidade": "1684",
+            "Valor (Euros)": "714471.98"
+          },
+          {
+            "Atividade Hospitalar": "Valor Total dos GDH de Ambulatório",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": null,
+            "Quantidade": null,
+            "Valor (Euros)": "2724956.87"
+          },
+          {
+            "Atividade Hospitalar": "4. Urgências: Atendimentos (SU - Polivalente)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "0.00",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "4. Urgências: Atendimentos (SU - Médico-Cirúrgica)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "56.16",
+            "Quantidade": "65026",
+            "Valor (Euros)": "3651860.16"
+          },
+          {
+            "Atividade Hospitalar": "4. Urgências: Atendimentos (SU - Básica)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "0.00",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "Valor Total dos Atendimentos Urgentes",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": null,
+            "Quantidade": null,
+            "Valor (Euros)": "3651860.16"
+          },
+          {
+            "Atividade Hospitalar": "5. Sessões em Hospital de Dia: Base",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "20.98",
+            "Quantidade": "4320",
+            "Valor (Euros)": "90633.60"
+          },
+          {
+            "Atividade Hospitalar": "5. Sessões em Hospital de Dia: Hematologia",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "305.75",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "5. Sessões em Hospital de Dia: Imuno-Hemoterapia",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "305.75",
+            "Quantidade": "350",
+            "Valor (Euros)": "107012.50"
+          },
+          {
+            "Atividade Hospitalar": "5. Sessões em Hospital de Dia: Psiquiatria",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "31.76",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "5. Sessões em Hospital de Dia: Psiquiatria - Unidades Socio-Ocupacionais",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "31.76",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "Valor Total do Hospital de Dia",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": null,
+            "Quantidade": null,
+            "Valor (Euros)": "197646.10"
+          },
+          {
+            "Atividade Hospitalar": "6. Programas de Gestão da Doença Crónica: VIH/Sida (doentes em TARC)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "9547.44",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "6. Programas de Gestão da Doença Crónica: Hipertensão Arterial Pulmonar - doentes em Pré-tratamento/seguimento 1º ano",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "8758.56",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "6. Programas de Gestão da Doença Crónica: Seguimento após 1º ano CF S",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "23495.40",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "6. Programas de Gestão da Doença Crónica: Seguimento após 1º ano CF M",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "169336.92",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "6. Programas de Gestão da Doença Crónica: Esclerose múltipla - doentes em terapêutica",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "12895.68",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "6. Programas de Gestão da Doença Crónica: VHC - novos doentes",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "9442.00",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "6. Programas de Gestão da Doença Crónica: Tratamento de doentes c/ patologia: Cancro da mama (1º ano)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "9107.52",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "6. Programas de Gestão da Doença Crónica: Tratamento de doentes c/ patologia: Cancro do colon e reto (1º ano)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "13639.20",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "6. Programas de Gestão da Doença Crónica: Tratamento de doentes c/ patologia: Cancro do colo do útero (1º ano)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "13409.76",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "7. Saúde Sexual e Reprodutiva: IVG até 10 semanas: Medicamentosa (n.º I.V.G.)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "294.90",
+            "Quantidade": "85",
+            "Valor (Euros)": "25066.50"
+          },
+          {
+            "Atividade Hospitalar": "7. Saúde Sexual e Reprodutiva: IVG até 10 semanas: Cirúrgica (n.º I.V.G.)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "383.97",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "7. Saúde Sexual e Reprodutiva: Diagnóstico Pré-Natal: Protocolo I",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "39.29",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "7. Saúde Sexual e Reprodutiva: Diagnóstico Pré-Natal: Protocolo II",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "67.30",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "8. Sessões de Radioterapia: Tratamentos simples",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "108.89",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "8. Sessões de Radioterapia: Tratamentos complexos",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "261.37",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "9. Serviços Domiciliários",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "34.48",
+            "Quantidade": "1505",
+            "Valor (Euros)": "51892.40"
+          },
+          {
+            "Atividade Hospitalar": "10. Lar (IPO)",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "65.57",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "11. Outros: Próteses: Implante coclear",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "20715.08",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "11. Outros: Próteses: Banda gástrica",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "1476.51",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "11. Outros: Próteses: Desfibrilhador cardíaco",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "17135.40",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "11. Outros: Próteses: Prótese da anca",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "1246.04",
+            "Quantidade": "60",
+            "Valor (Euros)": "74762.40"
+          },
+          {
+            "Atividade Hospitalar": "11. Outros: Próteses: Neuro estimulador intracraniano",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "18856.18",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "11. Outros: Próteses: Neuro estimulador medular",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "19883.69",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "11. Outros: Próteses: Neuro estimulador periférico",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": "1359.53",
+            "Quantidade": "0",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "Medicamentos de cedência hospitalar em ambulatório",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": null,
+            "Quantidade": null,
+            "Valor (Euros)": "274668.85"
+          },
+          {
+            "Atividade Hospitalar": "Medicamentos de cedência hospitalar em Internos",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": null,
+            "Quantidade": null,
+            "Valor (Euros)": "520072.80"
+          },
+          {
+            "Atividade Hospitalar": "Valor da Produção Contratada",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": null,
+            "Quantidade": null,
+            "Valor (Euros)": "22901864.25"
+          },
+          {
+            "Atividade Hospitalar": "Incentivos institucionais",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": null,
+            "Quantidade": null,
+            "Valor (Euros)": "1205361.28"
+          },
+          {
+            "Atividade Hospitalar": "Convergência",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": null,
+            "Quantidade": null,
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "Valor Total do Contrato",
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (Euros)": null,
+            "Quantidade": null,
+            "Valor (Euros)": "24107225.53"
+          }
+        ]
+      }
+    ]
+  }
+}

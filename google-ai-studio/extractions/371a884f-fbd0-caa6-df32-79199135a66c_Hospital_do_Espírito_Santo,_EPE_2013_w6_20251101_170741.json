@@ -1,0 +1,3405 @@
+{
+  "contract_id": "371a884f-fbd0-caa6-df32-79199135a66c",
+  "hospital_name": "Hospital do Espírito Santo, EPE",
+  "year": 2013,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/CP-2013-HESE.pdf",
+  "extraction_timestamp": "20251101_170741",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 27,
+        "table_data": [
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "69.75",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "3386362.50",
+            "Quantidade": "48550",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Nº de 1ªs consultas médicas (s/ majoração)"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "76.73",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "970941.42",
+            "Quantidade": "12654",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Nº de 1ªs consultas referenciadas (CTH)"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "76.73",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "117550.36",
+            "Quantidade": "1532",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Nº de 1ªs consultas (Telemedicina)"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "69.75",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "9492626.25",
+            "Quantidade": "136095",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Nº de consultas subsequentes médicas (s/ majoração)"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "76.73",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "52253.13",
+            "Quantidade": "681",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Nº de consultas subsequentes (Telemedicina)"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "14019733.66",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Valor total das consultas"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": null,
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "2. Internamento"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": null,
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Doentes Saídos"
+          },
+          {
+            "ICM": "0.8464",
+            "Preço Unitário (Euros)": "2205.95",
+            "Doentes Equivalentes (%)": "95.99%",
+            "Valor (Euros)": "14317046.10",
+            "Quantidade": "7988",
+            "Doentes Equivalentes (Nº)": "7.668",
+            "": "GDH Médicos"
+          },
+          {
+            "ICM": "0.9607",
+            "Preço Unitário (Euros)": "2205.95",
+            "Doentes Equivalentes (%)": "99.88%",
+            "Valor (Euros)": "7745881.28",
+            "Quantidade": "3659",
+            "Doentes Equivalentes (Nº)": "3.655",
+            "": "GDH Cirúrgicos Programados"
+          },
+          {
+            "ICM": "0.9607",
+            "Preço Unitário (Euros)": "2095.66",
+            "Doentes Equivalentes (%)": "99.88%",
+            "Valor (Euros)": "3529315.89",
+            "Quantidade": "1755",
+            "Doentes Equivalentes (Nº)": "1.753",
+            "": "GDH Cirúrgicos Urgentes"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": null,
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Dias de Internamento de Doentes"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "73.70",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "107602.00",
+            "Quantidade": "1460",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Doentes Psiquiatria Crónicos"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "25699845.27",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Valor Total do Internamento"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": null,
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "3. Episódios de GDH de Ambulatório"
+          },
+          {
+            "ICM": "0.4078",
+            "Preço Unitário (Euros)": "2205.95",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "4137197.90",
+            "Quantidade": "4599",
+            "Doentes Equivalentes (Nº)": null,
+            "": "GDH Cirúrgicos"
+          },
+          {
+            "ICM": "0.2353",
+            "Preço Unitário (Euros)": "2205.95",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "2269849.53",
+            "Quantidade": "4373",
+            "Doentes Equivalentes (Nº)": null,
+            "": "GDH Médicos"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "6407047.43",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Valor dos GDH de Ambulatório"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": null,
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "4. Urgências"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "112.07",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "6647544.12",
+            "Quantidade": "59316",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Atendimentos SU Polivalente"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "6647544.12",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Valor total dos atendimentos urgentes"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": null,
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "5. Sessões em Hospital de Dia"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "20.98",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "41603.34",
+            "Quantidade": "1983",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Base"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "305.75",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "72462.75",
+            "Quantidade": "237",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Hematologia"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "305.75",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "107624.00",
+            "Quantidade": "352",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Imuno-Hemoterapia"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "31.76",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "72762.16",
+            "Quantidade": "2291",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Psiquiatria"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "294452.25",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Valor Total do Hospital de Dia"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": null,
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "6. Programas de gestão da doença crónica"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "9547.44",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "859269.60",
+            "Quantidade": "90",
+            "Doentes Equivalentes (Nº)": null,
+            "": "VIH/Sida (doentes em TARV)"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": null,
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Tratamento de doentes c/ patologia oncológica - novos doentes"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "9107.52",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "564666.24",
+            "Quantidade": "62",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Cancro da mama (1º ano)"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "13639.20",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "818352.00",
+            "Quantidade": "60",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Cancro do cólon e reto (1º ano)"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "13409.76",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "40229.28",
+            "Quantidade": "3",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Cancro do colo do útero (1º ano)"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": null,
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "7. Saúde sexual e reprodutiva"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "383.97",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "49916.10",
+            "Quantidade": "130",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Cirúrgica (n.º I.V.G.)"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": null,
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "8. Sessões de radioterapia"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "108.89",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "1711206.35",
+            "Quantidade": "15715",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Tratamentos simples"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "261.37",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "1568220.00",
+            "Quantidade": "6000",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Tratamentos complexos"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "0.00",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "9. Serviço domiciliário (consultas)"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "0.00",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "10. Lar (IPO)"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": null,
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "11. Outros"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": null,
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Próteses"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "1476.51",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "7382.55",
+            "Quantidade": "5",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Banda gástrica"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "17135.40",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "171354.00",
+            "Quantidade": "10",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Desfibrilhador cardíaco"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": "1246.04",
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "80992.60",
+            "Quantidade": "65",
+            "Doentes Equivalentes (Nº)": null,
+            "": "Prótese da anca"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "1845548.43",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Medicamentos de cedência ambulatória em farmácia hospitalar"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "476463.00",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Internos"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "61262222.88",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Valor da produção contratada"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "3580224.70",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Incentivos Institucionais"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "6762046.42",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Valor de convergência"
+          },
+          {
+            "ICM": null,
+            "Preço Unitário (Euros)": null,
+            "Doentes Equivalentes (%)": null,
+            "Valor (Euros)": "71604494.00",
+            "Quantidade": null,
+            "Doentes Equivalentes (Nº)": null,
+            "": "Valor Total do Contrato"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 28,
+        "table_data": [
+          {
+            "Objectivos": "Objectivos Nacionais",
+            "2013": null
+          },
+          {
+            "Objectivos": "A. Acesso",
+            "2013": null
+          },
+          {
+            "Objectivos": "% de primeiras consultas médicas no total de consultas médicas",
+            "2013": "32.00%"
+          },
+          {
+            "Objectivos": "% de Utentes referenciados para consulta externa atendidos em tempo adequado",
+            "2013": "65.00%"
+          },
+          {
+            "Objectivos": "Peso das consultas externas com registo de alta no total de consultas externas",
+            "2013": "2.50%"
+          },
+          {
+            "Objectivos": "% de doentes cirúrgicos tratados em tempo adequado",
+            "2013": "93.00%"
+          },
+          {
+            "Objectivos": "%% de doentes sinalizados para a RNCCI, em tempo adequado, no total de doentes saídos",
+            "2013": "30.00%%"
+          },
+          {
+            "Objectivos": "B. Desempenho Assistencial",
+            "2013": null
+          },
+          {
+            "Objectivos": "Demora Média",
+            "2013": "7.10"
+          },
+          {
+            "Objectivos": "% de reinternamentos em 30 dias",
+            "2013": "5.80%"
+          },
+          {
+            "Objectivos": "% de doentes saídos com duração de internamento acima do limiar máximo",
+            "2013": "1.40%"
+          },
+          {
+            "Objectivos": "% de partos por cesariana",
+            "2013": "35.00%"
+          },
+          {
+            "Objectivos": "% de cirurgias realizadas em ambulatório no total de cirurgias programadas (GDH) - para procedimentos ambulatorizáveis",
+            "2013": "72.00%"
+          },
+          {
+            "Objectivos": "% de consumo de embalagens de medicamentos genéricos, no total de embalagens de medicamentos",
+            "2013": "40.00%"
+          },
+          {
+            "Objectivos": "Taxa de registo de utilização da \"Lista de Verificação de Atividade Cirúrgica\" – Indicador referente à cirurgia segura",
+            "2013": "92.50%"
+          },
+          {
+            "Objectivos": "C. Desempenho Económico-Financeiro",
+            "2013": null
+          },
+          {
+            "Objectivos": "% dos custos com horas extraordinárias, suplementos e fornecimentos de serviços externos III, no total de custos com pessoal",
+            "2013": "22.95%"
+          },
+          {
+            "Objectivos": "EBITDA",
+            "2013": "-878993.00"
+          },
+          {
+            "Objectivos": "Acréscimo de dívida vencida",
+            "2013": "0.00"
+          },
+          {
+            "Objectivos": "% de proveitos operacionais extra contrato-programa, no total de proveitos operacionais",
+            "2013": "9.20%"
+          },
+          {
+            "Objectivos": "Objectivos Regionais",
+            "2013": null
+          },
+          {
+            "Objectivos": "E. Objectivos Regionais",
+            "2013": null
+          },
+          {
+            "Objectivos": "Controlo de Infecção",
+            "2013": "3"
+          },
+          {
+            "Objectivos": "Registo Oncológico Regional",
+            "2013": "Todos os casos"
+          },
+          {
+            "Objectivos": "Avaliação de desempenho dos Cuidados Continuados",
+            "2013": "85.00%"
+          },
+          {
+            "Objectivos": "Taxa de Crescimento dos custos com medicamentos facturados em farmácia de oficina",
+            "2013": "-15.00%"
+          },
+          {
+            "Objectivos": "% de Teleconsultas realizadas no total das solicitadas",
+            "2013": "95.00%"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 29,
+        "table_data": [
+          {
+            "PROGRAMAS ESPECÍFICOS": "Ajudas Técnicas"
+          },
+          {
+            "PROGRAMAS ESPECÍFICOS": "Assistência Médica no Estrangeiro"
+          },
+          {
+            "PROGRAMAS ESPECÍFICOS": "Assistência na área da Saúde Mental prestada por Ordens Religiosas"
+          },
+          {
+            "PROGRAMAS ESPECÍFICOS": "Convenções Internacionais"
+          },
+          {
+            "PROGRAMAS ESPECÍFICOS": "Incentivos aos Transplantes"
+          },
+          {
+            "PROGRAMAS ESPECÍFICOS": "Programa para a melhoria do acesso ao diagnóstico e tratamento da infertilidade"
+          },
+          {
+            "PROGRAMAS ESPECÍFICOS": "Programa para tratamento de doentes com Polineuropatia Amiloidótica Familiar em estádio 1"
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "page": 30,
+        "table_data": [
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "a) Percentagem de infeções cirúrgicas;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "b) Percentagem de mortalidade no internamento;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "c) Mortalidade neonatal;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "d) Mortalidade peri-operatória;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "e) Reintervenções cirúrgicas não programados no mesmo episódio;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "f) Quedas;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "g) Readmissões no serviço de Urgência nas 24 horas, com a mesma causa de admissão;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "h) Tempo de permanência no serviço de Urgência;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "i) Percentagem de utentes que abandonam o serviço de Urgência;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "j) Percentagem de utentes internados pela urgência relativamente ao número de urgências;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "k) N.º de utentes em lista de espera acima do tempo clinicamente aceitável;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "l) Mediana do tempo de espera para a primeira consulta;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "m) Percentagem de consultas não realizadas da responsabilidade do utente;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "n) Percentagem de consultas não realizadas da responsabilidade da instituição;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "o) Percentagem de resposta a reclamações em menos de 30 dias;"
+          },
+          {
+            "INDICADORES DE DESEMPENHO A QUE SE REFERE O N.º 3 DA CLÁUSULA 16ª": "p) Mediana do tempo de resposta às reclamações."
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "page": 31,
+        "table_data": [
+          {
+            "Obrigações": "Avaliação de desempenho",
+            "Ano": "2013"
+          },
+          {
+            "Obrigações": "Carta de direitos e deveres dos utentes",
+            "Ano": "2013"
+          },
+          {
+            "Obrigações": "Inquéritos de satisfação aos utentes e profissionais",
+            "Ano": "2013"
+          },
+          {
+            "Obrigações": "Políticas de melhoria",
+            "Ano": "2015"
+          },
+          {
+            "Obrigações": "Programa de monitorização e avaliação de resultados",
+            "Ano": "2013"
+          },
+          {
+            "Obrigações": "Sistema de acreditação/certificação total da instituição",
+            "Ano": "2015"
+          },
+          {
+            "Obrigações": "Sistema de informação",
+            "Ano": "2013"
+          },
+          {
+            "Obrigações": "Equipamentos e sistemas médicos",
+            "Ano": "2015"
+          },
+          {
+            "Obrigações": "Contratualização Interna",
+            "Ano": "2013"
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "page": 32,
+        "table_data": [
+          {
+            "Áreas": "A. Programas de promoção do acesso (25%)",
+            "Obrigação": "A.1 SIGIC - Cumprir as regras definidas no Manual de Gestão de Inscritos para Cirurgia (MGIC), de acordo com a metodologia da determinação e contestação das não conformidades publicada pela ACSS, I.P. (25%) (alínea a) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalização (P)": "Não haverá lugar a penalização quando % NC ≤ 5% A penalização é aplicada pela seguinte fórmula, até ao limite de Valor Contrato x 1% x 25%: P= Valor NC simples +Valor NC grave + Valor NC materiais Valor NC simples = 1/20 x PBR x N° NC simples Valor NC graves = 3 x 1/20 x PBR x N° NC graves Valor NC materiais = 1/200 x 3 x 1/20 x PBR x N° entradas x Nº falhas x N° NC materiais"
+          },
+          {
+            "Áreas": "B. Reporte de informação (35%)",
+            "Obrigação": "B.1 Reporte mensal de informação assistencial através do SICA até ao dia 10 (15%) (alínea b) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalização (P)": "Reporte em data posterior ao dia 10 em cada mês de incumprimento P = valor contrato x 1% x 15% x (1/12)"
+          },
+          {
+            "Áreas": "B. Reporte de informação (35%)",
+            "Obrigação": "B.2 Reporte de informação financeira no SIEF mensalmente até ao dia 10 (20%) (alínea b) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalização (P)": "Reporte em data posterior ao dia 10 em cada mês de incumprimento P = valor contrato x 1% x 20% x (1/12)"
+          },
+          {
+            "Áreas": "C. Faturação eletrónica (20%)",
+            "Obrigação": "C.1 Encerramento do processo de faturação da atividade assistencial em 90 dias (10%) (alínea c) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalização (P)": "Faturação posterior a 90 dias P = valor contrato x 1% x 10%"
+          },
+          {
+            "Áreas": "C. Faturação eletrónica (20%)",
+            "Obrigação": "C.2 Encerramento do processo de faturação referente aos objetivos em 180 dias (10%) (alínea d) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalização (P)": "Faturação posterior a 180 dias P = valor contrato x 1% x 10%"
+          },
+          {
+            "Áreas": "D. Plataforma de dados da Saúde (10%)",
+            "Obrigação": "D.1 Disponibilização das notas de altas médicas dos doentes saídos no período (4%) (alínea e) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalização (P)": "Disponibilização <75% P = valor contrato x 1% x 4%"
+          },
+          {
+            "Áreas": "D. Plataforma de dados da Saúde (10%)",
+            "Obrigação": "D.2 Disponibilização das notas de altas de enfermagem dos doentes saídos no período (4%) (alínea e) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalização (P)": "Disponibilização <75% P = valor contrato x 1% x 4%"
+          },
+          {
+            "Áreas": "D. Plataforma de dados da Saúde (10%)",
+            "Obrigação": "D.3 Disponibilização das notas das notas de transferências dos doentes saídos das UCI (2%) (alínea e) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalização (P)": "Disponibilização <75% P = valor contrato x 1% x 2%"
+          },
+          {
+            "Áreas": "E. Cobrança de receita (10%)",
+            "Obrigação": "E.1. Cobrança efetiva da receita (10%) (alínea f) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalização (P)": "Cobrança < 90% P = valor contrato x 1% x 10%"
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "page": 33,
+        "table_data": [
+          {
+            "": "612-Mercadorias",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "616-Matérias de consumo",
+            "% Var\n2013/2012": "-1.25%",
+            "Valor Contratualizado\n2013": "21168992.00",
+            "Valor Estimado\n2012": "21435978.09"
+          },
+          {
+            "": "6161-Produtos Farmacêuticos",
+            "% Var\n2013/2012": "-1.87%",
+            "Valor Contratualizado\n2013": "14186725.00",
+            "Valor Estimado\n2012": "14456963.18"
+          },
+          {
+            "": "61611-Medicamentos",
+            "% Var\n2013/2012": "-4.74%",
+            "Valor Contratualizado\n2013": "13051210.00",
+            "Valor Estimado\n2012": "13700448.05"
+          },
+          {
+            "": "61612/9-Outros produtos farmacêuticos",
+            "% Var\n2013/2012": "50.10%",
+            "Valor Contratualizado\n2013": "1135515.00",
+            "Valor Estimado\n2012": "756515.13"
+          },
+          {
+            "": "6162-Material consumo clínico",
+            "% Var\n2013/2012": "0.10%",
+            "Valor Contratualizado\n2013": "6432267.00",
+            "Valor Estimado\n2012": "6425965.39"
+          },
+          {
+            "": "6163-Produtos alimentares",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "6164-Material consumo hoteleiro",
+            "% Var\n2013/2012": "-1.53%",
+            "Valor Contratualizado\n2013": "75000.00",
+            "Valor Estimado\n2012": "76168.44"
+          },
+          {
+            "": "6165-Material consumo administrativo",
+            "% Var\n2013/2012": "-8.11%",
+            "Valor Contratualizado\n2013": "145000.00",
+            "Valor Estimado\n2012": "157803.31"
+          },
+          {
+            "": "6166-Material manutenção e conservação",
+            "% Var\n2013/2012": "3.81%",
+            "Valor Contratualizado\n2013": "325000.00",
+            "Valor Estimado\n2012": "313085.66"
+          },
+          {
+            "": "6169-Outro material de consumo",
+            "% Var\n2013/2012": "-16.56%",
+            "Valor Contratualizado\n2013": "5000.00",
+            "Valor Estimado\n2012": "5992.11"
+          },
+          {
+            "": "Sub-total",
+            "% Var\n2013/2012": "-1.25%",
+            "Valor Contratualizado\n2013": "21168992.00",
+            "Valor Estimado\n2012": "21435978.09"
+          },
+          {
+            "": "% s/total geral",
+            "% Var\n2013/2012": "-4.39%",
+            "Valor Contratualizado\n2013": "25.12%",
+            "Valor Estimado\n2012": "26.28%"
+          },
+          {
+            "": "6211-Assistência ambulatória",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "6212-Meios complementares diagnóstico",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62121-Patologia clínica",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62122-Anatomia patológica",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62123-Imagiologia",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62124-Cardiologia",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62125-Electroencefalografia",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62126-Medicina nuclear",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62127-Gastrenterologia",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62128-Pneumologia Imunoalergologia",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62129-Outros",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "6213-Meios complementares terapêutica",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62131-Hemodiálise",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62132-Medicina física e reabilitação",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62133-Litotricia",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62139-Outros",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "6214-Prescrição medicam. e cuid. farmac.",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "6215-Internamentos",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "6216-Transporte de doentes",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "6217-Aparelhos complementares de terapêutica",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "6218-Trabalhos executados no exterior",
+            "% Var\n2013/2012": "-4.43%",
+            "Valor Contratualizado\n2013": "8770389.00",
+            "Valor Estimado\n2012": "9176514.02"
+          },
+          {
+            "": "62181-Em entidades do M. Saúde",
+            "% Var\n2013/2012": "-8.02%",
+            "Valor Contratualizado\n2013": "234401.00",
+            "Valor Estimado\n2012": "254832.90"
+          },
+          {
+            "": "621811-Assistência ambulatória",
+            "% Var\n2013/2012": "0.00%",
+            "Valor Contratualizado\n2013": "200.00",
+            "Valor Estimado\n2012": "200.00"
+          },
+          {
+            "": "621812-Meios complementares de diagnóstico",
+            "% Var\n2013/2012": "-8.47%",
+            "Valor Contratualizado\n2013": "223159.00",
+            "Valor Estimado\n2012": "243797.08"
+          },
+          {
+            "": "621813-Meios complementares de terapêutica",
+            "% Var\n2013/2012": "1.90%",
+            "Valor Contratualizado\n2013": "11042.00",
+            "Valor Estimado\n2012": "10835.82"
+          },
+          {
+            "": "621814-Prescrição medicam. e cuid. farmac.",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "621815-Internamentos e transporte de doentes",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "621819-Outros trabalhos executados no exterior",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62189-Em outras entidades",
+            "% Var\n2013/2012": "-4.32%",
+            "Valor Contratualizado\n2013": "8535988.00",
+            "Valor Estimado\n2012": "8921681.12"
+          },
+          {
+            "": "621891-Assistência ambulatória",
+            "% Var\n2013/2012": "-10.46%",
+            "Valor Contratualizado\n2013": "85616.00",
+            "Valor Estimado\n2012": "95615.82"
+          },
+          {
+            "": "621892-Meios complementares diagnóstico",
+            "% Var\n2013/2012": "-12.00%",
+            "Valor Contratualizado\n2013": "2237936.00",
+            "Valor Estimado\n2012": "2543170.96"
+          },
+          {
+            "": "621893-Meios complementares terapêutica",
+            "% Var\n2013/2012": "1.20%",
+            "Valor Contratualizado\n2013": "4889716.00",
+            "Valor Estimado\n2012": "4831515.76"
+          },
+          {
+            "": "621894-Prescrição medicam. e cuid. farmac.",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "621895-Internamentos e transporte de doentes",
+            "% Var\n2013/2012": "-8.86%",
+            "Valor Contratualizado\n2013": "1322720.00",
+            "Valor Estimado\n2012": "1451378.58"
+          },
+          {
+            "": "621896-Aparelhos complementares de terapêutica",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "621897-Assistência no estrangeiro",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "621898-Termalismo social",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "621899-Outros trabalhos executados no exterior",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "6219-Outros subcontratos",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "Sub-total",
+            "% Var\n2013/2012": "-4.43%",
+            "Valor Contratualizado\n2013": "8770389.00",
+            "Valor Estimado\n2012": "9176514.02"
+          },
+          {
+            "": "% s/total geral",
+            "% Var\n2013/2012": "-7.47%",
+            "Valor Contratualizado\n2013": "10.41%",
+            "Valor Estimado\n2012": "11.25%"
+          }
+        ]
+      },
+      {
+        "table_index": 7,
+        "page": 34,
+        "table_data": [
+          {
+            "": "6221-Fornecimentos e serviços I",
+            "% Var\n2013/2012": "-0.89%",
+            "Valor Contratualizado\n2013": "1589297.20",
+            "Valor Estimado\n2012": "1603491.81"
+          },
+          {
+            "": "6222-Fornecimentos e serviços II",
+            "% Var\n2013/2012": "-8.62%",
+            "Valor Contratualizado\n2013": "452786.00",
+            "Valor Estimado\n2012": "495482.34"
+          },
+          {
+            "": "62229-Honorários",
+            "% Var\n2013/2012": "-14.51%",
+            "Valor Contratualizado\n2013": "270960.00",
+            "Valor Estimado\n2012": "316960.49"
+          },
+          {
+            "": "6223-Fornecimentos e serviços III",
+            "% Var\n2013/2012": "-2.73%",
+            "Valor Contratualizado\n2013": "6919242.00",
+            "Valor Estimado\n2012": "7113268.80"
+          },
+          {
+            "": "62236-Trabalhos Especializados",
+            "% Var\n2013/2012": "-6.90%",
+            "Valor Contratualizado\n2013": "3939390.00",
+            "Valor Estimado\n2012": "4231510.45"
+          },
+          {
+            "": "622364-Serviços Técnicos Recursos Humanos",
+            "% Var\n2013/2012": "-10.86%",
+            "Valor Contratualizado\n2013": "1638208.00",
+            "Valor Estimado\n2012": "1837727.39"
+          },
+          {
+            "": "6223641-Serviços Técnicos Rec. Humanos prestados por Inst. do Min. Saúde",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "62236411-Serv. Téc. RH prestados por Inst. Min. Saúde - De cuidados de saúde",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "6229-Outros fornecimentos e serviços",
+            "% Var\n2013/2012": "-0.45%",
+            "Valor Contratualizado\n2013": "35725.00",
+            "Valor Estimado\n2012": "35886.01"
+          },
+          {
+            "": "Sub-total",
+            "% Var\n2013/2012": "-2.71%",
+            "Valor Contratualizado\n2013": "8997050.20",
+            "Valor Estimado\n2012": "9248128.96"
+          },
+          {
+            "": "% s/total geral",
+            "% Var\n2013/2012": "-5.82%",
+            "Valor Contratualizado\n2013": "10.68%",
+            "Valor Estimado\n2012": "11.34%"
+          },
+          {
+            "": "63-Transf. correntes conced. e prest. sociais",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "% s/total geral",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": "0.00%",
+            "Valor Estimado\n2012": "0.00%"
+          },
+          {
+            "": "641-Remunerações dos orgãos directivos",
+            "% Var\n2013/2012": "22.38%",
+            "Valor Contratualizado\n2013": "292465.00",
+            "Valor Estimado\n2012": "238982.31"
+          },
+          {
+            "": "642-Remunerações de pessoal",
+            "% Var\n2013/2012": "5.01%",
+            "Valor Contratualizado\n2013": "34046100.00",
+            "Valor Estimado\n2012": "32422447.79"
+          },
+          {
+            "": "6421-Remunerações base do pessoal",
+            "% Var\n2013/2012": "4.83%",
+            "Valor Contratualizado\n2013": "22883358.00",
+            "Valor Estimado\n2012": "21828408.79"
+          },
+          {
+            "": "64211-RCTFP por tempo indeterminado",
+            "% Var\n2013/2012": "-3.12%",
+            "Valor Contratualizado\n2013": "12226222.00",
+            "Valor Estimado\n2012": "12620103.69"
+          },
+          {
+            "": "64212-Pessoal c/ contrato a termo resolutivo",
+            "% Var\n2013/2012": "2.97%",
+            "Valor Contratualizado\n2013": "2246133.00",
+            "Valor Estimado\n2012": "2181355.72"
+          },
+          {
+            "": "64213-Pessoal em regime Contrato Individual",
+            "% Var\n2013/2012": "20.87%",
+            "Valor Contratualizado\n2013": "8158453.00",
+            "Valor Estimado\n2012": "6749940.21"
+          },
+          {
+            "": "64214-Pessoal em qualquer outra situação",
+            "% Var\n2013/2012": "-8.83%",
+            "Valor Contratualizado\n2013": "252550.00",
+            "Valor Estimado\n2012": "277009.17"
+          },
+          {
+            "": "6422-Suplementos de remunerações",
+            "% Var\n2013/2012": "-11.55%",
+            "Valor Contratualizado\n2013": "8866591.00",
+            "Valor Estimado\n2012": "10024295.29"
+          },
+          {
+            "": "642211-Horas extraordinárias",
+            "% Var\n2013/2012": "-22.04%",
+            "Valor Contratualizado\n2013": "2613004.00",
+            "Valor Estimado\n2012": "3351707.83"
+          },
+          {
+            "": "642212-Prevenções",
+            "% Var\n2013/2012": "-16.50%",
+            "Valor Contratualizado\n2013": "826061.00",
+            "Valor Estimado\n2012": "989294.31"
+          },
+          {
+            "": "642221-Noites e suplementos",
+            "% Var\n2013/2012": "-15.80%",
+            "Valor Contratualizado\n2013": "1621146.00",
+            "Valor Estimado\n2012": "1925350.41"
+          },
+          {
+            "": "642222-Subsídio de turno",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "64223-Abono para falhas",
+            "% Var\n2013/2012": "0.04%",
+            "Valor Contratualizado\n2013": "996.00",
+            "Valor Estimado\n2012": "995.65"
+          },
+          {
+            "": "64224-Subsídio de refeição",
+            "% Var\n2013/2012": "3.64%",
+            "Valor Contratualizado\n2013": "1379136.00",
+            "Valor Estimado\n2012": "1330698.53"
+          },
+          {
+            "": "64225-Ajudas de custo",
+            "% Var\n2013/2012": "0.00%",
+            "Valor Contratualizado\n2013": "64180.00",
+            "Valor Estimado\n2012": "64179.90"
+          },
+          {
+            "": "64226/7-Vestuário e Art. Pess. Alim. e Alojam.",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "642281-PECLEC/SIGIC",
+            "% Var\n2013/2012": "0.00%",
+            "Valor Contratualizado\n2013": "1552098.00",
+            "Valor Estimado\n2012": "1552098.14"
+          },
+          {
+            "": "642282/9-Outros Suplementos",
+            "% Var\n2013/2012": "0.00%",
+            "Valor Contratualizado\n2013": "809970.00",
+            "Valor Estimado\n2012": "809970.52"
+          },
+          {
+            "": "6423-Prestações sociais directas",
+            "% Var\n2013/2012": "0.00%",
+            "Valor Contratualizado\n2013": "44852.00",
+            "Valor Estimado\n2012": "44851.97"
+          },
+          {
+            "": "6424-Subsídios de férias e de natal",
+            "% Var\n2013/2012": "328.91%",
+            "Valor Contratualizado\n2013": "2251299.00",
+            "Valor Estimado\n2012": "524891.74"
+          },
+          {
+            "": "6425-Prémios de desempenho",
+            "% Var\n2013/2012": null,
+            "Valor Contratualizado\n2013": null,
+            "Valor Estimado\n2012": null
+          },
+          {
+            "": "643-Pensões",
+            "% Var\n2013/2012": "0.00%",
+            "Valor Contratualizado\n2013": "56081.00",
+            "Valor Estimado\n2012": "56081.24"
+          },
+          {
+            "": "645-Encargos sobre remunerações",
+            "% Var\n2013/2012": "35.47%",
+            "Valor Contratualizado\n2013": "5995826.00",
+            "Valor Estimado\n2012": "4425900.20"
+          },
+          {
+            "": "646-Seguros de acid. trab. e doenças profissionais",
+            "% Var\n2013/2012": "0.00%",
+            "Valor Contratualizado\n2013": "34090.00",
+            "Valor Estimado\n2012": "34090.46"
+          },
+          {
+            "": "647-Encargos sociais voluntários",
+            "% Var\n2013/2012": "0.00%",
+            "Valor Contratualizado\n2013": "122131.00",
+            "Valor Estimado\n2012": "122131.05"
+          },
+          {
+            "": "648-Outros custos com pessoal",
+            "% Var\n2013/2012": "0.00%",
+            "Valor Contratualizado\n2013": "110297.00",
+            "Valor Estimado\n2012": "110296.05"
+          },
+          {
+            "": "Sub-total",
+            "% Var\n2013/2012": "8.68%",
+            "Valor Contratualizado\n2013": "40656990.00",
+            "Valor Estimado\n2012": "37409929.10"
+          },
+          {
+            "": "% s/total geral",
+            "% Var\n2013/2012": "5.21%",
+            "Valor Contratualizado\n2013": "48.25%",
+            "Valor Estimado\n2012": "45.86%"
+          },
+          {
+            "": "65-Outros custos e perdas operacionais",
+            "% Var\n2013/2012": "0.90%",
+            "Valor Contratualizado\n2013": "146228.00",
+            "Valor Estimado\n2012": "144923.44"
+          },
+          {
+            "": "% s/total geral",
+            "% Var\n2013/2012": "-2.32%",
+            "Valor Contratualizado\n2013": "0.17%",
+            "Valor Estimado\n2012": "0.18%"
+          },
+          {
+            "": "66-Amortizações do exercício",
+            "% Var\n2013/2012": "5.00%",
+            "Valor Contratualizado\n2013": "3584585.00",
+            "Valor Estimado\n2012": "3413890.33"
+          },
+          {
+            "": "% s/total geral",
+            "% Var\n2013/2012": "1.65%",
+            "Valor Contratualizado\n2013": "4.25%",
+            "Valor Estimado\n2012": "4.18%"
+          },
+          {
+            "": "67-Provisões do exercício",
+            "% Var\n2013/2012": "0.00%",
+            "Valor Contratualizado\n2013": "10269.00",
+            "Valor Estimado\n2012": "10268.60"
+          },
+          {
+            "": "% s/total geral",
+            "% Var\n2013/2012": "-3.18%",
+            "Valor Contratualizado\n2013": "0.01%",
+            "Valor Estimado\n2012": "0.01%"
+          },
+          {
+            "": "68-Custos e perdas financeiras",
+            "% Var\n2013/2012": "0.00%",
+            "Valor Contratualizado\n2013": "159438.00",
+            "Valor Estimado\n2012": "159438.11"
+          },
+          {
+            "": "% s/total geral",
+            "% Var\n2013/2012": "-3.19%",
+            "Valor Contratualizado\n2013": "0.19%",
+            "Valor Estimado\n2012": "0.20%"
+          },
+          {
+            "": "69-Custos e perdas extraordinários",
+            "% Var\n2013/2012": "33.00%",
+            "Valor Contratualizado\n2013": "772464.00",
+            "Valor Estimado\n2012": "580799.75"
+          },
+          {
+            "": "% s/total geral",
+            "% Var\n2013/2012": "28.76%",
+            "Valor Contratualizado\n2013": "0.92%",
+            "Valor Estimado\n2012": "0.71%"
+          },
+          {
+            "": "TOTAL GERAL",
+            "% Var\n2013/2012": "3.29%",
+            "Valor Contratualizado\n2013": "84266405.20",
+            "Valor Estimado\n2012": "81579870.40"
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "page": 35,
+        "table_data": [
+          {
+            "": "711-Vendas",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "712-Prestações de serviços",
+            "Valor Contratualizado 2013": "78501904.00",
+            "Valor Estimado 2012": "77065962.71",
+            "% Var 2013/2012": "1.86%"
+          },
+          {
+            "": "7121-Internamento",
+            "Valor Contratualizado 2013": "25285191.00",
+            "Valor Estimado 2012": "27877953.81",
+            "% Var 2013/2012": "-9.30%"
+          },
+          {
+            "": "7122-Consulta",
+            "Valor Contratualizado 2013": "13816896.00",
+            "Valor Estimado 2012": "14259599.98",
+            "% Var 2013/2012": "-3.10%"
+          },
+          {
+            "": "7123-Urgência/SAP",
+            "Valor Contratualizado 2013": "6924081.00",
+            "Valor Estimado 2012": "7622545.08",
+            "% Var 2013/2012": "-9.16%"
+          },
+          {
+            "": "7124-Quartos particulares",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "7125-Hospital de dia",
+            "Valor Contratualizado 2013": "2327588.00",
+            "Valor Estimado 2012": "2347055.13",
+            "% Var 2013/2012": "-0.83%"
+          },
+          {
+            "": "7126-Meios comp. de diagnóstico e terapêutica",
+            "Valor Contratualizado 2013": "1901438.00",
+            "Valor Estimado 2012": "1801438.09",
+            "% Var 2013/2012": "5.55%"
+          },
+          {
+            "": "71261-De diagnóstico",
+            "Valor Contratualizado 2013": "1791388.00",
+            "Valor Estimado 2012": "1691388.19",
+            "% Var 2013/2012": "5.91%"
+          },
+          {
+            "": "71262-De terapêutica",
+            "Valor Contratualizado 2013": "110050.00",
+            "Valor Estimado 2012": "110049.90",
+            "% Var 2013/2012": "0.00%"
+          },
+          {
+            "": "7127-Taxas moderadoras",
+            "Valor Contratualizado 2013": "1181732.00",
+            "Valor Estimado 2012": "1125458.65",
+            "% Var 2013/2012": "5.00%"
+          },
+          {
+            "": "7128-Outras Prestações de Serviços de Saúde",
+            "Valor Contratualizado 2013": "24884660.00",
+            "Valor Estimado 2012": "19851593.74",
+            "% Var 2013/2012": "25.35%"
+          },
+          {
+            "": "71281-Serviço domiciliário",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "71282-GDH de ambulatório",
+            "Valor Contratualizado 2013": "11755857.00",
+            "Valor Estimado 2012": "14149360.40",
+            "% Var 2013/2012": "-16.92%"
+          },
+          {
+            "": "71283-Programas verticais",
+            "Valor Contratualizado 2013": "2236443.00",
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "71284-Plano de convergência",
+            "Valor Contratualizado 2013": "8698465.00",
+            "Valor Estimado 2012": "2417301.44",
+            "% Var 2013/2012": "259.84%"
+          },
+          {
+            "": "71285-Valor Capitacional (valor a facturar pelas ULS)",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "71289-Outras prestações serviços de saúde",
+            "Valor Contratualizado 2013": "2193895.00",
+            "Valor Estimado 2012": "3284931.90",
+            "% Var 2013/2012": "-33.21%"
+          },
+          {
+            "": "7129-Outras prestações de serviços",
+            "Valor Contratualizado 2013": "2180318.00",
+            "Valor Estimado 2012": "2180318.23",
+            "% Var 2013/2012": "0.00%"
+          },
+          {
+            "": "Sub-total",
+            "Valor Contratualizado 2013": "78501904.00",
+            "Valor Estimado 2012": "77065962.71",
+            "% Var 2013/2012": "1.86%"
+          },
+          {
+            "": "% s/ total geral",
+            "Valor Contratualizado 2013": "95.81%",
+            "Valor Estimado 2012": "94.61%",
+            "% Var 2013/2012": "1.27%"
+          },
+          {
+            "": "72-Impostos e taxas",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "% s/ total geral",
+            "Valor Contratualizado 2013": "0.00%",
+            "Valor Estimado 2012": "0.00%",
+            "% Var 2013/2012": null
+          },
+          {
+            "": "73-Proveitos suplementares",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "% s/ total geral",
+            "Valor Contratualizado 2013": "0.00%",
+            "Valor Estimado 2012": "0.00%",
+            "% Var 2013/2012": null
+          },
+          {
+            "": "74-Transf. e subsídios correntes obtidos",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "741-Transferências-Tesouro",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "742-Transferências correntes obtidas",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "7421-Da ACSS",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "7422-Do PIDDAC",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "7423-Do FSE",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "7429-Outras Transferências Correntes Obtidas",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "743-Sub. correntes obtidos-Outros entes públicos",
+            "Valor Contratualizado 2013": "0.00",
+            "Valor Estimado 2012": "5384.98",
+            "% Var 2013/2012": "-100.00%"
+          },
+          {
+            "": "749-Sub. correntes obtidos-De outras entidades",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "Sub-total",
+            "Valor Contratualizado 2013": "0.00",
+            "Valor Estimado 2012": "5384.98",
+            "% Var 2013/2012": "-100.00%"
+          },
+          {
+            "": "% s/ total geral",
+            "Valor Contratualizado 2013": "0.00%",
+            "Valor Estimado 2012": "0.01%",
+            "% Var 2013/2012": "-100.00%"
+          },
+          {
+            "": "75-Trabalhos para a própria entidade",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "% s/ total geral",
+            "Valor Contratualizado 2013": "0.00%",
+            "Valor Estimado 2012": "0.00%",
+            "% Var 2013/2012": "#DIV/0!"
+          },
+          {
+            "": "76-Outros proveitos e ganhos operacionais",
+            "Valor Contratualizado 2013": null,
+            "Valor Estimado 2012": null,
+            "% Var 2013/2012": null
+          },
+          {
+            "": "762-Reembolsos",
+            "Valor Contratualizado 2013": "50000.47",
+            "Valor Estimado 2012": "234027.21",
+            "% Var 2013/2012": "-78.63%"
+          },
+          {
+            "": "763-Produtos de fabricação interna",
+            "Valor Contratualizado 2013": "8868.00",
+            "Valor Estimado 2012": "8868.00",
+            "% Var 2013/2012": "0.00%"
+          },
+          {
+            "": "768-Outros não espec. alheios valor acrescentado",
+            "Valor Contratualizado 2013": "115718.90",
+            "Valor Estimado 2012": "115718.90",
+            "% Var 2013/2012": "0.00%"
+          },
+          {
+            "": "769-Outros",
+            "Valor Contratualizado 2013": "184164.63",
+            "Valor Estimado 2012": "184164.63",
+            "% Var 2013/2012": "0.00%"
+          },
+          {
+            "": "Sub-total",
+            "Valor Contratualizado 2013": "358752.00",
+            "Valor Estimado 2012": "542778.74",
+            "% Var 2013/2012": "-33.90%"
+          },
+          {
+            "": "% s/ total geral",
+            "Valor Contratualizado 2013": "0.44%",
+            "Valor Estimado 2012": "0.67%",
+            "% Var 2013/2012": "-34.29%"
+          },
+          {
+            "": "78-Proveitos e ganhos financeiros",
+            "Valor Contratualizado 2013": "342377.00",
+            "Valor Estimado 2012": "427970.79",
+            "% Var 2013/2012": "-20.00%"
+          },
+          {
+            "": "% s/ total geral",
+            "Valor Contratualizado 2013": "0.42%",
+            "Valor Estimado 2012": "0.53%",
+            "% Var 2013/2012": "-20.47%"
+          },
+          {
+            "": "79-Proveitos e ganhos extraordinários",
+            "Valor Contratualizado 2013": "2733853.00",
+            "Valor Estimado 2012": "3417316.46",
+            "% Var 2013/2012": "-20.00%"
+          },
+          {
+            "": "% s/ total geral",
+            "Valor Contratualizado 2013": "3.34%",
+            "Valor Estimado 2012": "4.20%",
+            "% Var 2013/2012": "-20.47%"
+          },
+          {
+            "": "TOTAL GERAL",
+            "Valor Contratualizado 2013": "81936886.00",
+            "Valor Estimado 2012": "81459413.68",
+            "% Var 2013/2012": "0.59%"
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "page": 36,
+        "table_data": [
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Fluxos de Actividades Operacionais"
+          },
+          {
+            "Acumulado\n2013": "79904652.59",
+            "Estimado\n2012": "98157543.31",
+            "Método Directo": "Recebimentos (+):"
+          },
+          {
+            "Acumulado\n2013": "59925340.79",
+            "Estimado\n2012": "83444945.90",
+            "Método Directo": "Contrato-programa (produção)"
+          },
+          {
+            "Acumulado\n2013": "7557942.00",
+            "Estimado\n2012": "9405036.56",
+            "Método Directo": "Dívidas de Terceiros (outras entidades)"
+          },
+          {
+            "Acumulado\n2013": "8698465.00",
+            "Estimado\n2012": "2417301.44",
+            "Método Directo": "Contrato-Programa (convergência)"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Incentivos"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": "5384.98",
+            "Método Directo": "Subsídios à Exploração"
+          },
+          {
+            "Acumulado\n2013": "1181732.00",
+            "Estimado\n2012": "1125458.65",
+            "Método Directo": "Taxas Moderadoras (R)"
+          },
+          {
+            "Acumulado\n2013": "2541172.80",
+            "Estimado\n2012": "1759415.78",
+            "Método Directo": "Outros (inclui outros operacionais e extraordinários)"
+          },
+          {
+            "Acumulado\n2013": "-78580745.57",
+            "Estimado\n2012": "-95313931.50",
+            "Método Directo": "Pagamentos (-):"
+          },
+          {
+            "Acumulado\n2013": "-37041440.37",
+            "Estimado\n2012": "-57232981.79",
+            "Método Directo": "Fornecedores e outros c/c"
+          },
+          {
+            "Acumulado\n2013": "-40656990.00",
+            "Estimado\n2012": "-37409929.10",
+            "Método Directo": "Custos com Pessoal"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Transf. Correntes conced. e Prest. Sociais"
+          },
+          {
+            "Acumulado\n2013": "-882315.20",
+            "Estimado\n2012": "-671020.62",
+            "Método Directo": "Outros (inclui outros operac. e extraord.)"
+          },
+          {
+            "Acumulado\n2013": "1323907.02",
+            "Estimado\n2012": "2843611.81",
+            "Método Directo": "Fluxos de Actividades Operacionais"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Fluxos de Actividades de Investimento"
+          },
+          {
+            "Acumulado\n2013": "1568518.16",
+            "Estimado\n2012": "467276.07",
+            "Método Directo": "Recebimentos provenientes de (+):"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Investimentos Financeiros"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Imobilizações Corpóreas"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Imobilizações Incorpóreas"
+          },
+          {
+            "Acumulado\n2013": "1517161.61",
+            "Estimado\n2012": "445877.53",
+            "Método Directo": "Subsídios ao Investimento"
+          },
+          {
+            "Acumulado\n2013": "51356.55",
+            "Estimado\n2012": "21398.54",
+            "Método Directo": "Juros e Proveitos Similares"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Dividendos"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Outros"
+          },
+          {
+            "Acumulado\n2013": "-3348041.32",
+            "Estimado\n2012": "-2299542.04",
+            "Método Directo": "Pagamentos respeitantes a (-):"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Investimentos Financeiros"
+          },
+          {
+            "Acumulado\n2013": "-3348041.32",
+            "Estimado\n2012": "-2299542.04",
+            "Método Directo": "Imobilizações Corpóreas"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Imobilizações Incorpóreas"
+          },
+          {
+            "Acumulado\n2013": "-1779523.16",
+            "Estimado\n2012": "-1832265.97",
+            "Método Directo": "Fluxos de Actividades de Investimento"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Fluxos de Actividades de Financiamento"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Recebimentos provenientes de (+):"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Empréstimos Obtidos"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Aumentos de Capital e P. Suplementares"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Subsídios e Doações"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Vendas de Acções Próprias"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Cobertura de Prejuízos"
+          },
+          {
+            "Acumulado\n2013": "-159438.00",
+            "Estimado\n2012": "-143494.30",
+            "Método Directo": "Pagamentos respeitantes a (-):"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Empréstimos Obtidos"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Amortizações de Contratos de Leasing"
+          },
+          {
+            "Acumulado\n2013": "-159438.00",
+            "Estimado\n2012": "-143494.30",
+            "Método Directo": "Juros e Custos Similares"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Dividendos"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Reduções de Capital e P. Suplementares"
+          },
+          {
+            "Acumulado\n2013": null,
+            "Estimado\n2012": null,
+            "Método Directo": "Aquisição de Acções Próprias"
+          },
+          {
+            "Acumulado\n2013": "-159438.00",
+            "Estimado\n2012": "-143494.30",
+            "Método Directo": "Fluxos de Actividades de Financiamento"
+          },
+          {
+            "Acumulado\n2013": "-615054.14",
+            "Estimado\n2012": "867851.54",
+            "Método Directo": "Variação de Caixa e seus equivalentes"
+          },
+          {
+            "Acumulado\n2013": "1182902.77",
+            "Estimado\n2012": "315051.23",
+            "Método Directo": "Caixa no início do período"
+          },
+          {
+            "Acumulado\n2013": "567848.63",
+            "Estimado\n2012": "1182902.77",
+            "Método Directo": "Caixa no fim do período"
+          },
+          {
+            "Acumulado\n2013": "0.00",
+            "Estimado\n2012": "0.00",
+            "Método Directo": "TOTAL"
+          }
+        ]
+      },
+      {
+        "table_index": 10,
+        "page": 37,
+        "table_data": [
+          {
+            "": "Imobilizado",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "Bens de domínio público",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "451 - Terrenos e recursos naturais",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "452 - Edificios",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "453 - Outras construções e infra-estruturas",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "455 - Bens do património hist., artíst. e cultural",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "459 - Outros bens de domínio público",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "445 - Imobilizações em Curso de Bens de Domínio Público",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "446 - Adiantamento por Conta de Bens do Domínio Público",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "Bens de domínio público",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "Imobilizados Incorpóreos",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "431 - Despesas de Instalação",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": "125632.39",
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": "125632.39"
+          },
+          {
+            "": "432 - Despesas de Investigação e Desenvolvimento",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "443 - Imobilizações em Curso de Imobilizações Incorpóreas",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "449 - Adiantamentos por Conta de Imobilizações Incorpóreas",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "Imobilizados Incorpóreos",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": "125632.39",
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": "125632.39"
+          },
+          {
+            "": "Imobilizações Corpóreas",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "421-Terrenos e Recursos Naturais",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "422 - Edifícios e Outras Construções",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "423 - Equipamento Básico",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "424 - Equipamento de Transporte",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "425 - Ferramentas e Utensílios",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "426 - Equipamento administrativo e Informático",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "427 - Taras e Vasilhame",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "429 - Outras Imobilizações Corpóreas",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "442 - Imobilizações em Curso de Imobilizações Corpóreas",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "448 - Adiantamentos por Conta de Imobilizações Corpóreas",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "Imobilizações Corpóreas",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "Investimentos Financeiros",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "411 - Partes de Capital",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "412 - Obrigações e Títulos de Participação",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "414 - Investimentos em Imóveis",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "415 - Outras Aplicações Financeiras",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "441 - Imobilizações em Curso de Investimentos Financeiros",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "447 - Adiantamentos por Conta de Investimentos Financeiros",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "Investimentos Financeiros",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "Circulante",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "Existências",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "36 - Matérias-primas, Subsidiárias e de Consumo",
+            "AL- Activo Líquido 2013": "2165817.11",
+            "AP- Amortizações ou Provisões 2013": "1249.64",
+            "AL- Activo Líquido 2012": "2171258.45",
+            "AB-Activo Bruto 2013": "2167066.75"
+          },
+          {
+            "": "34 - Sub-produtos, Desperdícios, Resíduos e Refugo",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "33 - Produtos Acabados e Intermédios",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "32 - Mercadorias",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "37 - Adiantamento por Conta de Compras",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          },
+          {
+            "": "Existências",
+            "AL- Activo Líquido 2013": "2165817.11",
+            "AP- Amortizações ou Provisões 2013": "1249.64",
+            "AL- Activo Líquido 2012": "2171258.45",
+            "AB-Activo Bruto 2013": "2167066.75"
+          },
+          {
+            "": "Dívidas de Terceiros - Médio e Longo Prazo",
+            "AL- Activo Líquido 2013": null,
+            "AP- Amortizações ou Provisões 2013": null,
+            "AL- Activo Líquido 2012": null,
+            "AB-Activo Bruto 2013": null
+          }
+        ]
+      },
+      {
+        "table_index": 11,
+        "page": 38,
+        "table_data": [
+          {
+            "": "Dívidas de Terceiros - Curto prazo",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "28 - Empréstimos Concedidos",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "211 - Clientes c/c",
+            "AL - Activo Líquido 2013": "2020139.35",
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": "2244599.28",
+            "AB - Activo Bruto 2013": "2020139.35"
+          },
+          {
+            "": "213 - Utentes c/c",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "215 - Instituições do MS",
+            "AL - Activo Líquido 2013": "14666108.39",
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": "13527684.18",
+            "AB - Activo Bruto 2013": "14666108.39"
+          },
+          {
+            "": "218 - Clientes e Utentes de Cobrança Duvidosa",
+            "AL - Activo Líquido 2013": "255965.51",
+            "AP - Amortizações ou Provisões 2013": "343888.68",
+            "AL - Activo Líquido 2012": "211702.31",
+            "AB - Activo Bruto 2013": "599854.19"
+          },
+          {
+            "": "251 - Devedores pela Execução do Orçamento",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "229 - Adiantamentos a Fornecedores",
+            "AL - Activo Líquido 2013": "10228.20",
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": "10228.20",
+            "AB - Activo Bruto 2013": "10228.20"
+          },
+          {
+            "": "2619 - Adiantamentos a Fornecedores de Imobilizado",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "24 - Estado e Outros Entes Públicos",
+            "AL - Activo Líquido 2013": "226142.46",
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": "221491.15",
+            "AB - Activo Bruto 2013": "226142.46"
+          },
+          {
+            "": "263/3/4+267+268 - Outros devedores",
+            "AL - Activo Líquido 2013": "2465775.20",
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": "2312498.78",
+            "AB - Activo Bruto 2013": "2465775.20"
+          },
+          {
+            "": "Dívidas de Terceiros - Curto prazo",
+            "AL - Activo Líquido 2013": "19644359.11",
+            "AP - Amortizações ou Provisões 2013": "343888.68",
+            "AL - Activo Líquido 2012": "18528203.90",
+            "AB - Activo Bruto 2013": "19988247.79"
+          },
+          {
+            "": "Títulos Negociáveis",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "151 - Acções",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "152 - Obrigações e Títulos de Participação",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "153 - Títulos da Dívida Pública",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "159 - Outros Títulos",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "18 - Outras Aplicações de Tesouraria",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "Títulos Negociáveis",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "Depósitos em Inst. Financ. e Caixa",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "13 - Contas no Tesouro",
+            "AL - Activo Líquido 2013": "554019.18",
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": "1166513.74",
+            "AB - Activo Bruto 2013": "554019.18"
+          },
+          {
+            "": "12 - Depósitos em Instituições Financeiras",
+            "AL - Activo Líquido 2013": "9280.69",
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": "11600.86",
+            "AB - Activo Bruto 2013": "9280.69"
+          },
+          {
+            "": "11 - Caixa",
+            "AL - Activo Líquido 2013": "4548.76",
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": "4788.17",
+            "AB - Activo Bruto 2013": "4548.76"
+          },
+          {
+            "": "Depósitos em Inst. Financ. e Caixa",
+            "AL - Activo Líquido 2013": "567848.63",
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": "1182902.77",
+            "AB - Activo Bruto 2013": "567848.63"
+          },
+          {
+            "": "Acréscimos e Diferimentos",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "271 - Acréscimos de Proveitos",
+            "AL - Activo Líquido 2013": "579446.96",
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": "567446.96",
+            "AB - Activo Bruto 2013": "579446.96"
+          },
+          {
+            "": "272 - Custos Diferidos",
+            "AL - Activo Líquido 2013": "88325.78",
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": "49702.58",
+            "AB - Activo Bruto 2013": "88325.78"
+          },
+          {
+            "": "Acréscimos e Diferimentos",
+            "AL - Activo Líquido 2013": "667772.74",
+            "AP - Amortizações ou Provisões 2013": null,
+            "AL - Activo Líquido 2012": "617149.54",
+            "AB - Activo Bruto 2013": "667772.74"
+          },
+          {
+            "": "Total de Amortizações",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": "36543409.38",
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "Total de Provisões",
+            "AL - Activo Líquido 2013": null,
+            "AP - Amortizações ou Provisões 2013": "345138.32",
+            "AL - Activo Líquido 2012": null,
+            "AB - Activo Bruto 2013": null
+          },
+          {
+            "": "TOTAL do ACTIVO",
+            "AL - Activo Líquido 2013": "49283719.04",
+            "AP - Amortizações ou Provisões 2013": "36888547.70",
+            "AL - Activo Líquido 2012": "48601975.19",
+            "AB - Activo Bruto 2013": "86172266.74"
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "page": 39,
+        "table_data": [
+          {
+            "": "Fundos Próprios",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "51 - Património",
+            "Fundos Próprios e Passivo 2013": "24102535.00",
+            "Fundos Próprios e Passivo 2012": "24102535.00"
+          },
+          {
+            "": "56 - Reservas de Reavaliação",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "Sub-total",
+            "Fundos Próprios e Passivo 2013": "24102535.00",
+            "Fundos Próprios e Passivo 2012": "24102535.00"
+          },
+          {
+            "": "Reservas",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": "3097403.85"
+          },
+          {
+            "": "571 - Reservas Legais",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "572 - Reservas Estatutárias",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "574 - Reservas Livres",
+            "Fundos Próprios e Passivo 2013": "2354522.05",
+            "Fundos Próprios e Passivo 2012": "2354522.05"
+          },
+          {
+            "": "575 - Subsídios",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "576 - Doações",
+            "Fundos Próprios e Passivo 2013": "742881.80",
+            "Fundos Próprios e Passivo 2012": "742881.80"
+          },
+          {
+            "": "577-Reservas Decorrentes da Transferência de Activos",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "Sub-total",
+            "Fundos Próprios e Passivo 2013": "3097403.85",
+            "Fundos Próprios e Passivo 2012": "3097403.85"
+          },
+          {
+            "": "Resultados Transitados",
+            "Fundos Próprios e Passivo 2013": "-10566292.15",
+            "Fundos Próprios e Passivo 2012": "-10420835.43"
+          },
+          {
+            "": "Resultado Líquido do Exercício",
+            "Fundos Próprios e Passivo 2013": "-2354519.20",
+            "Fundos Próprios e Passivo 2012": "-145456.72"
+          },
+          {
+            "": "Fundo Patrimonial",
+            "Fundos Próprios e Passivo 2013": "14279127.50",
+            "Fundos Próprios e Passivo 2012": "16633646.70"
+          },
+          {
+            "": "Passivo",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "Provisões",
+            "Fundos Próprios e Passivo 2013": "10637.70",
+            "Fundos Próprios e Passivo 2012": "10637.70"
+          },
+          {
+            "": "291 Provisões para Cobranças Duvidosas",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "292 - Provisões para Riscos",
+            "Fundos Próprios e Passivo 2013": "10637.70",
+            "Fundos Próprios e Passivo 2012": "10637.70"
+          },
+          {
+            "": "Provisões",
+            "Fundos Próprios e Passivo 2013": "10637.70",
+            "Fundos Próprios e Passivo 2012": "10637.70"
+          },
+          {
+            "": "Dívidas a Terceiros - Médio e Longo Prazo",
+            "Fundos Próprios e Passivo 2013": "6836978.52",
+            "Fundos Próprios e Passivo 2012": "6836978.52"
+          },
+          {
+            "": "Terceiros",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "213 - Utentes c/c",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "219 - Adiantamentos de Clientes, Utentes e Instit. MS",
+            "Fundos Próprios e Passivo 2013": "3689.66",
+            "Fundos Próprios e Passivo 2012": "3689.66"
+          },
+          {
+            "": "221 - Fornecedores c/c",
+            "Fundos Próprios e Passivo 2013": "8580044.27",
+            "Fundos Próprios e Passivo 2012": "6885549.44"
+          },
+          {
+            "": "228 - Fornecedores - Facturas recep. e conf.",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "23 - Empréstimos obtidos",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "252-Credores pela Execução do Orçamento",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": null
+          },
+          {
+            "": "2611 - Fornecedores de imobilizado c/c",
+            "Fundos Próprios e Passivo 2013": "764311.30",
+            "Fundos Próprios e Passivo 2012": "392306.71"
+          },
+          {
+            "": "24 - Estado e Outros Entes Públicos",
+            "Fundos Próprios e Passivo 2013": "1108589.86",
+            "Fundos Próprios e Passivo 2012": "1086852.80"
+          },
+          {
+            "": "261/3/4 - Outros Credores",
+            "Fundos Próprios e Passivo 2013": "1096354.18",
+            "Fundos Próprios e Passivo 2012": "1154057.03"
+          },
+          {
+            "": "Terceiros",
+            "Fundos Próprios e Passivo 2013": "11552989.27",
+            "Fundos Próprios e Passivo 2012": "9522455.64"
+          },
+          {
+            "": "Acréscimos e Diferimentos",
+            "Fundos Próprios e Passivo 2013": null,
+            "Fundos Próprios e Passivo 2012": "15598256.64"
+          },
+          {
+            "": "273 - Acréscimos de Custos",
+            "Fundos Próprios e Passivo 2013": "4288908.48",
+            "Fundos Próprios e Passivo 2012": "4288908.48"
+          },
+          {
+            "": "274 - Proveitos Diferidos",
+            "Fundos Próprios e Passivo 2013": "12315077.57",
+            "Fundos Próprios e Passivo 2012": "11309348.16"
+          },
+          {
+            "": "Acréscimos e Diferimentos",
+            "Fundos Próprios e Passivo 2013": "16603986.05",
+            "Fundos Próprios e Passivo 2012": "15598256.64"
+          },
+          {
+            "": "Passivo",
+            "Fundos Próprios e Passivo 2013": "35004591.54",
+            "Fundos Próprios e Passivo 2012": "31968328.50"
+          },
+          {
+            "": "Fundos Próprios e Passivo",
+            "Fundos Próprios e Passivo 2013": "49283719.04",
+            "Fundos Próprios e Passivo 2012": "48601975.20"
+          }
+        ]
+      },
+      {
+        "table_index": 13,
+        "page": 40,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013",
+            "Tipo de falha": "Acesso",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Aferir o acesso a Consulta Externa (1ªs consultas) de especialidade.",
+            "Descrição do Indicador": "Indicador que exprime a percentagem de 1ªs consultas médicas”, no total de consultas médicas”, ocorridas no período em análise.",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais/Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II) Contrato-programa 2013-ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (uma casa décimal)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "SI da Instituição",
+            "Responsável pela monitorização": "Instituição/ ARS",
+            "Fórmula": "(Nº de 1ªs consultas médicas/Total de consultas médicas) X 100",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013 Hospitais/Centros Hospitalares: Cláusula 6ª (Apêndice II) ULS: Cláusula 4ª do Anexo (Apêndice II) (estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": "Valor acumulado. * Consideram-se também consultas de telemedicina, quer para 1ªs consultas quer para total de consultas. Não são consideradas as consultas de Medicina do Trabalho."
+          }
+        ]
+      },
+      {
+        "table_index": 14,
+        "page": 40,
+        "table_data": [
+          {
+            "Variáveis": "1ªs consultas médicas",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Definição": "Nº de 1ªs consultas” realizadas por profissionais médicos, presenciais e consulas de telemedicina.",
+            "Unidade de medida": "nº 1ªs consultas"
+          },
+          {
+            "Variáveis": "Total consultas médicas",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Definição": "Total de consultas” (incluindo 1ªs) realizadas por profissionais médicos, presenciais ou sem a presença do doente e consultas de telemedicina.",
+            "Unidade de medida": "nº total de consultas"
+          }
+        ]
+      },
+      {
+        "table_index": 15,
+        "page": 41,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo Contrato-programa 2013",
+            "Tipo de falha": "Acesso",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Promover as boas práticas da referenciação para acesso a 1ª CE.",
+            "Descrição do Indicador": "Indicador que exprime em valor percentual a proporção de utentes referenciados (CTH) para 1ª Consulta Externa, com CE prestada dentro do Tempo Máximo de Resposta Garantido (TMRG), no total de 1ªs CE prestadas (CTH), no período em análise.",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais/ Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II) Contrato-programa 2013-ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (uma casa décimal)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "ADW-CTH",
+            "Responsável pela monitorização": "Instituição / ARS",
+            "Fórmula": "(Nº de 1ªs CE (CTH) dentro do TMRG / Nº de 1ªs CE (CTH)) X 100",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013 Hospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II). ULS: Cláusula 4ª do Anexo (Apêndice II) (estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": "CE - Consulta Externa (só são consideradas CE registadas no CTH). variável com fonte de integração ADW-CTH. TMRG - estipulado na Portaria nº 1529/2008, de 28 de Dezembro. Não são consideradas no total de CE as consultas de especialidade de medicina do trabalho."
+          }
+        ]
+      },
+      {
+        "table_index": 16,
+        "page": 41,
+        "table_data": [
+          {
+            "Variáveis": "1ªs CE (CTH)TMRG",
+            "Unidade de medida": "nº 1ªs consultas externas",
+            "Definição": "Valor acumulado de CE, com registo no SI CTH, realizadas dentro do tempo máximo de resposta garantido, no período.",
+            "Fonte Informação/ SI": "ADW-CTH"
+          },
+          {
+            "Variáveis": "1ªs CE (CTH)",
+            "Unidade de medida": "nº 1ªs consultas externas",
+            "Definição": "Valor acumulado de CE, com registo no SI CTH, realizadas no período.",
+            "Fonte Informação/ SI": "ADW-CTH"
+          }
+        ]
+      },
+      {
+        "table_index": 17,
+        "page": 42,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013",
+            "Tipo de falha": "Acesso",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Incentivar a referenciação de doentes dos cuidados hospitalares para os cuidados de saúde primários.",
+            "Descrição do Indicador": "Indicador que exprime em valor percentual a proporção de consultas externas médicas com registo de alta clínica no total de consultas externas.",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais/ Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II)\nContrato-programa 2013 - ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (uma casa décimal)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "SI da Instituição",
+            "Responsável pela monitorização": "Instituição / ARS",
+            "Fórmula": "(Nº de consultas externas médicas com registo de alta / Total consultas externas médicas) X 100",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013\nHospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II). ULS: Cláusula 4ª do Anexo (Apêndice II)\n(estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da instituição (opcional)",
+            "Observações": "Valor acumulado. * Consideram-se consultas presenciais e de telemedicina, quer para consultas com registo de alta quer para total de consultas.\n*Não são consideradas as consultas de Medicina do Trabalho."
+          }
+        ]
+      },
+      {
+        "table_index": 18,
+        "page": 42,
+        "table_data": [
+          {
+            "Variáveis": "Nº de consultas externas médicas com registo de alta",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº de consultas com registo de alta clínica",
+            "Definição": "Consultas externas realizadas por profissionais médicos, para as quais existe registo de alta clínica."
+          },
+          {
+            "Variáveis": "Total consultas externas médicas",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº total de consultas",
+            "Definição": "Total de consultas externas realizadas por profissionais médicos, presenciais ou sem a presença do doente e consultas de telemedicina."
+          }
+        ]
+      },
+      {
+        "table_index": 19,
+        "page": 43,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013",
+            "Tipo de falha": "Acesso",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Garantir o acesso atempado ao tratamento cirúrgico (intervenção cirúrgica).",
+            "Descrição do Indicador": "Indicador que exprime em valor percentual a proporção de nº de doentes inscritos para cirurgia e que se encontram a aguardar pela intervenção, dentro dos tempos máximos de resposta garantida, no total de doentes inscritos, no fim do período em análise.",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais/ Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II)\nContrato-programa 2013-ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (uma casa décimal)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "SIGIC",
+            "Responsável pela monitorização": "Instituição / ARS",
+            "Fórmula": "(Nº Insc. LIC com tempo de espera <= TMRG/ Nº Insc. LIC) X 100",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013\nHospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II).\nULS: Cláusula 4ª do Anexo (Apêndice II)\n(estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da instituição (opcional)",
+            "Observações": "LIC - Nº de Inscritos em Cirurgia\nAvaliação do valor médio anual"
+          }
+        ]
+      },
+      {
+        "table_index": 20,
+        "page": 43,
+        "table_data": [
+          {
+            "Variáveis": "LIC <=TMRG",
+            "Fonte Informação/ SI": "SI SIGIC",
+            "Unidade de medida": "nº inscritos",
+            "Definição": "Valor da LIC considerando apenas os doentes que se encontram a aguardar cirurgia dentro do TMRG que lhes for atribuído, no fim do período."
+          },
+          {
+            "Variáveis": "LIC",
+            "Fonte Informação/ SI": "SI SIGIC",
+            "Unidade de medida": "nº inscritos",
+            "Definição": "Valor da LIC considerando todos doentes que se encontram a aguardar cirurgia, no fim do período."
+          }
+        ]
+      },
+      {
+        "table_index": 21,
+        "page": 44,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013",
+            "Tipo de falha": "Acesso",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Promover as boas práticas de referenciação, incentivando a sinalização atempada de doentes, para posterior referenciação para a RNCCI.",
+            "Descrição do Indicador": "Indicador que exprime, a proporção de doentes sinalizados atempadamente*, para referenciação para a RNCCI, no total de doentes tratados das especialidades (serviços) identificadas.",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais/ Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II) Contrato-programa 2013-ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (duas casas décimais)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "SI GESTCARE",
+            "Responsável pela monitorização": "Instituição / ARS",
+            "Fórmula": "(Nº de doentes sinalizados atempadamentedas especialidades selecionadas/Total de doentes tratados das especialidades selecionadas)*100",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013 Hospitais/Centros Hospitalares: Cláusula 6ª (Apêndice II). ULS: Cláusula 4ª do Anexo (Apêndice II) (estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": "Sinalização atempada, sempre que esta ocorre antes do prazo limite estabelecido (estabelecido ao que vier a ser negociado por cada ARS): Em termos de boas práticas a UMCCI aponta para que os doentes sejam sinalizados até 4 dias após o internamento no serviço que faz a sinalização. * Sinalização, corresponde ao registo no SI GESTCARE, da existência de um doente susceptível de referenciação para a RNCCI. Tempo de sinalização corresponde ao nº de dias entre a data de internamento do episódio ou a data de internamento do Serviço que identifica a necessidade e o registo da sinalização no SI GESTCARE. Exemplo: Data de internamento 20/01/2013. Data de sinalização 29/01/2013. Tempo entre a data de internamento do episódio e a data de sinalização = 29-20=9. 9 dias é o tempo de sinalização."
+          }
+        ]
+      },
+      {
+        "table_index": 22,
+        "page": 44,
+        "table_data": [
+          {
+            "Variáveis": "Nº de doentes sinalizados atempadamente",
+            "Fonte Informação/ SI": "SI GESTCARE",
+            "Unidade de medida": "nº de doentes",
+            "Definição": "Nº de doentes com registo no SI GESTCARE para eventual referenciação para a RNCCI, por parte da EGA, com registo efectuado até ao prazo limite estabelecido."
+          },
+          {
+            "Variáveis": "Nº de doentes tratados",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº de doentes",
+            "Definição": "Doentes que deixaram de permanecer internados num estabelecimento de saúde num determinado período e ainda os que transitaram para o período seguinte."
+          }
+        ]
+      },
+      {
+        "table_index": 23,
+        "page": 45,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013",
+            "Tipo de falha": "Desempenho Assistencial",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Incentivar a eficiência",
+            "Descrição do Indicador": "Indicador que exprime o número médio de dias de internamento por doente saído de um estabelecimento de saúde num período. Fonte: INE",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais / Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II) Contrato-programa 2013 - ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "dias (duas casas décimais)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "SI da Instituição",
+            "Responsável pela monitorização": "Instituição / ARS",
+            "Fórmula": "Nº de dias de internamento do período em análise / Nº de doentes saídos desse período",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013 Hospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II). ULS: Cláusula 4ª do Anexo (Apêndice II) (estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": ""
+          }
+        ]
+      },
+      {
+        "table_index": 24,
+        "page": 45,
+        "table_data": [
+          {
+            "Variáveis": "Dias de internamento",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº dias",
+            "Definição": "Total de dias de internamento de todos os doentes com excepção dos dias de alta (não são considerados os dias de berçário, de quartos particulares e SO < 24h.)"
+          },
+          {
+            "Variáveis": "Doentes saídos",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº doentes saídos",
+            "Definição": "Total de doentes saídos do hospital no período em análise"
+          }
+        ]
+      },
+      {
+        "table_index": 25,
+        "page": 46,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013",
+            "Tipo de falha": "Qualidade de Serviço",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Monitorização de altas.",
+            "Descrição do Indicador": "Indicador que exprime, em valor percentual, o nº de episódios de internamento ocorridos nos 30 dias posteriores à alta no total de episódios internamento.",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais/Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II)\nContrato-programa 2013-ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (uma casa décimal)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "Base dados nacional de GDH",
+            "Responsável pela monitorização": "Instituição / ARS",
+            "Fórmula": "(Total de reinternamentos ocorridos até 30 dias após a alta do doente / Total de episódios de internamento, no período em análise) X 100",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013\nHospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II).\nULS: Cláusula 4ª do Anexo (Apêndice II)\n(estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS/ACSS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": "Este indicador é fornecido pela ACSS e calculado a partir dos episódios codificados e agrupados em GDH, enviados pelos hospitais e que constam na base de dados nacional de GDH da ACSS (UOFC).\nSão considerados os valores acumulados.\nSão retirados os episódios com menos de 24 horas considerados inválidos para facturação (episódios com menos de 24 horas, sem preço de ambulatório e com destino após alta diferente de morto ou alta contra parecer médico).\nSão excluídos do segundo episódio os seguintes GDH:\n249 Disfunção, reacção ou complicação de dispositivo ou procedimento ortopédico\n317 Internamento para diálise renal\n409 Radioterapia\n410 Quimioterapia\n465 Continuação de cuidados, com história de doença maligna como diagnóstico adicional\n466 Continuação de cuidados, sem história de doença maligna como diagnóstico adicional\n635 Continuação de cuidados com recém-nascidos para aumento de peso\n636 Continuação de cuidados no lactente para aumento de peso, idade >28 dias e <1 ano\n754 Cuidados terciários, idade superior ou igual a 1 ano\n876 Quimioterapia com leucemia aguda como diagnóstico adicional ou com uso de alta dose de agente quimioterápico"
+          }
+        ]
+      },
+      {
+        "table_index": 26,
+        "page": 46,
+        "table_data": [
+          {
+            "Variáveis": "Nº reinternamentos nos em 30 dias",
+            "Unidade de medida": "Nº de episódios",
+            "Definição": "Total de reinternamentos nos 30 dias posteriores à alta do doente (independentemente da data de internamento ocorrer no período em análise)",
+            "Fonte Informação / SI": "ACSS: Base dados GDH"
+          },
+          {
+            "Variáveis": "Total de episódios de internamento",
+            "Unidade de medida": "Nº de episódios",
+            "Definição": "Total de internamentos com alta no período em análise.",
+            "Fonte Informação / SI": "ACSS: Base dados GDH"
+          }
+        ]
+      },
+      {
+        "table_index": 27,
+        "page": 47,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013",
+            "Tipo de falha": "Qualidade de Serviço",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Monitorização do tempo de internamento.",
+            "Descrição do Indicador": "Indicador que exprime, em valor percentual, o nº de episódios de internamento com período de internamento superior ao limiar máximo do GDH do episódio, no total de episódios internamento.",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais / Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II)\nContrato-programa 2013 - ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (duas casas décimais)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "Base dados nacional de GDH",
+            "Responsável pela monitorização": "Instituição/ ARS",
+            "Fórmula": "(Total de DS c/ At > L max. / Total de DS, no período em análise) X 100",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no Contrato-programa 2013\nHospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II).\nULS: Cláusula 4ª do Anexo (Apêndice II)\n(estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS/ACSS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": "Este indicador é fornecido pela ACSS e calculado a partir dos episódios codificados e agrupados em GDH, enviados pelos hospitais e que constam na base de dados nacional de GDH da ACSS (DPS).\nSão considerados os valores acumulados.\nSão retirados os episódios com menos de 24 horas considerados inválidos para facturação (episódios com menos de 24 horas, sem preço de ambulatório e com destino após alta diferente de morto ou alta contra parecer médico).\nNão são considerados os GDH das seguintes Grandes Categorias de Diagnósticos (GCD):\nGCD 0 (GDH 103, 302, 460, 482, 483, 795, 803, 804, 805 e 829)\nGCD 2\nGCD 3\nGCD 12\nGCD 13\nGCD 14\nGCD 15\nGCD 18\nGCD 22\nGCD 23\nGCD 24\nOs episódios de internamento considerados correspondem a doentes saídos."
+          }
+        ]
+      },
+      {
+        "table_index": 28,
+        "page": 47,
+        "table_data": [
+          {
+            "Variáveis": "Episódios de internamento (At > L max.)",
+            "Unidade de medida": "nº de episódios",
+            "Definição": "Episódios de internamento com período de internamento superior ao limite máximo estabelecido para o GDH do episódio.",
+            "Fonte Informação / SI": "ACSS: Base dados GDH"
+          },
+          {
+            "Variáveis": "Total de episódios de internamento",
+            "Unidade de medida": "nº de episódios",
+            "Definição": "Total de épisódios de internamento com alta no período em análise.",
+            "Fonte Informação / SI": "ACSS: Base dados GDH"
+          }
+        ]
+      },
+      {
+        "table_index": 29,
+        "page": 48,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013",
+            "Tipo de falha": "Qualidade de Serviço",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Incentivar a qualidade da prestação de cuidados.",
+            "Descrição do Indicador": "Indicador que expressa a percentagem de Partos por Cesariana, no total de Partos ocorridos no período em análise.",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais / Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II) Contrato-programa 2013 - ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (duas casas décimais)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "SI da Instituição",
+            "Responsável pela monitorização": "Instituição / ARS",
+            "Fórmula": "(Nº Cesarianas / Nº Total de Partos) X 100",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013 Hospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II). ULS: Cláusula 4ª do Anexo (Apêndice II) (estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": "Valores acumulados."
+          }
+        ]
+      },
+      {
+        "table_index": 30,
+        "page": 48,
+        "table_data": [
+          {
+            "Variáveis": "Cesarianas",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº cesarianas",
+            "Definição": "Nº de Partos realizados por Cesariana, no período em análise."
+          },
+          {
+            "Variáveis": "Partos",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº partos",
+            "Definição": "Nº total de Partos, no período em análise."
+          }
+        ]
+      },
+      {
+        "table_index": 31,
+        "page": 49,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013",
+            "Tipo de falha": "Qualidade de serviço",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Incentivar a actividade cirúrgica de ambulatório.",
+            "Descrição do Indicador": "Indicador que expressa a percentagem de episódios de ambulatório no total de episódios de ambulatório e internamento programados, para procedimentos cirúrgicos identificados pela CNDCA como mais frequentemente realizados em ambulatório, ocorridos no período em análise.",
+            "Cláusula CP": "Contrato programa 2013 - Hospitais / Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II)\nContrato Programa 2013 - ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (uma casa décimal)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "Base de Dados Nacional de GDH",
+            "Responsável pela monitorização": "Instituição/ARS",
+            "Fórmula": "(Total de episódios cirúrgicos de ambulatório, com procedimentos ambulatorizáveis / Total de episódios cirúrgicos de internamento e de ambulatório, com procedimentos ambulatorizáveis) X 100",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no Contrato-programa 2013\nHospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II).\nULS: Cláusula 4ª do Anexo (Apêndice II)\n(estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": "Este indicador é fornecido pela ACSS e calculado a partir dos episódios codificados e agrupados em GDH, enviados pelos hospitais e que constam na base de dados nacional de GDH da ACSS (DPS).\nSão considerados os valores acumulados.\nSão retirados os episódios com menos de 24 horas considerados inválidos para facturação (episódios com menos de 24 horas, sem preço de ambulatório e com destino após alta diferente de morto ou alta contra parecer médico).\nSão considerados os episódios com os procedimentos cirúrgicos presentes na tabela de procedimentos elegíveis em anexo."
+          }
+        ]
+      },
+      {
+        "table_index": 32,
+        "page": 49,
+        "table_data": [
+          {
+            "Variáveis": "Episódios de cirurgia de ambulatório",
+            "Unidade de medida": "nº de episódios cir. de ambulatório",
+            "Definição": "Total de episódios de ambulatório com qualquer um dos procedimentos elegíveis, agrupados em qualquer GDH cirúrgico com preço de ambulatório, com admissão programada.",
+            "Fonte Informação/ SI": "Base de Dados Nacional de GDH"
+          },
+          {
+            "Variáveis": "Episódios de cirurgias programadas",
+            "Unidade de medida": "nº de episódios cir. de ambulatório e internamento",
+            "Definição": "Total de episódios de ambulatório e internamento com qualquer um dos procedimentos elegíveis, agrupados em qualquer GDH cirúrgico com preço de ambulatório, com admissão programada.",
+            "Fonte Informação/ SI": "Base de Dados Nacional de GDH"
+          }
+        ]
+      },
+      {
+        "table_index": 33,
+        "page": 50,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013",
+            "Tipo de falha": "Desempenho Assistencial",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Monitorizar o consumo, induzido pela instituição, de embalagens de medicamentos genéricos distribuídos em farmácia de oficina.",
+            "Descrição do Indicador": "Indicador que exprime a percentagem de embalagens de medicamentos genéricos facturados no total de embalagens facturadas (em ambulatório).",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais / Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II)\nContrato-programa 2013 - ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (duas casas décimais)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "SIARS",
+            "Responsável pela monitorização": "Instituição/ARS",
+            "Fórmula": "Nº de embalagens de medicamentos genéricos facturadas / Nº total de embalagens de medicamentos facturadas",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013\nHospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II).\nULS: Cláusula 4ª do Anexo (Apêndice II)\n(estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": "Aplica-se aos cuidados ambulatórios da instituição, no caso das ULS inclui CSP."
+          }
+        ]
+      },
+      {
+        "table_index": 34,
+        "page": 50,
+        "table_data": [
+          {
+            "Variáveis": "Nº de embalagens de medicamentos genéricos facturadas",
+            "Unidade de medida": "nº de embalagens",
+            "Definição": "Nº de embalagens de medicamentos genéricos faturadas",
+            "Fonte Informação/ SI": "SIARS"
+          },
+          {
+            "Variáveis": "Nº total de embalagens de medicamentos facturadas",
+            "Unidade de medida": "nº de embalagens",
+            "Definição": "N.º total de embalagens de medicamentos faturadas",
+            "Fonte Informação/ SI": "SIARS"
+          }
+        ]
+      },
+      {
+        "table_index": 35,
+        "page": 51,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013",
+            "Tipo de falha": "Qualidade de serviço",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Garantir a utilização da “Lista de Verificação de Segurança Cirúrgica”.",
+            "Descrição do Indicador": "Indicador que expressa a percentagem de episódios (GDH) cirúrgicos com registo de “Lista de Verificação de Segurança Cirúrgica”, no total episódios cirúrgicos (GDH).",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais / Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II) Contrato-programa 2013 - ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (uma casa décimal)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "SI da Instituição (durante o 1º trimestre de 2013) BD nacional de GDH (a partir do 2º Trimestre 2013)",
+            "Responsável pela monitorização": "Instituição/ARS",
+            "Fórmula": "(Nº de cirurgias programadas com registo de “Lista de Verificação de Segurança Cirúrgica” / Total de cirurgias) X 100 (Nº de GDH Cirúrgicos com registo de “Lista de Verificação de Segurança Cirúrgica” / Total GDH Cirúrgicos) X 100",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013 Hospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II). ULS: Cláusula 4ª do Anexo (Apêndice II) (estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": "Considera-se registo de “Lista de Verificação de Segurança Cirúrgica”, o preenchimento de todos os campos da lista de verificação de segurança cirúrgica. Considera-se GDH cirúrgico com registo de “Lista de Verificação de Atividade Cirúrgica Segura”, os episódios de GDH que tenham registo de “Lista de Verificação de Segurança Cirúrgica” para todas as cirurgias realizadas naquele episódio."
+          }
+        ]
+      },
+      {
+        "table_index": 36,
+        "page": 51,
+        "table_data": [
+          {
+            "Variáveis": "Cirurgias com registo de “Lista de Verificação de Segurança Cirúrgica”",
+            "Unidade de medida": "nº de cirurgias",
+            "Definição": "Cirurgias cuja “Lista de Verificação de Segurança Cirúrgica” tenha sido registada no SI da instituição ou PDS (Plataforma de Dados da Saúde)",
+            "Fonte Informação/ SI": "SI da Instituição (durante o 1º trimestre de 2013)"
+          },
+          {
+            "Variáveis": "GDH cirúrgicos com registo de “Lista de Verificação de Segurança Cirúrgica”",
+            "Unidade de medida": "nº de episódios classificados em GDH cirúrgicos",
+            "Definição": "GDH Cirúrgicos cuja “Lista de Verificação de Segurança Cirúrgica” tenha sido registada para todas as cirurgias realizadas naquele episódio.",
+            "Fonte Informação/ SI": "BD nacional de GDH (a partir do 2º trimestre de 2013)"
+          },
+          {
+            "Variáveis": "Cirurgias",
+            "Unidade de medida": "nº de cirurgias",
+            "Definição": "Um ou mais atos operatórios com o mesmo objetivo terapêutico e ou diagnóstico, realizado(s) por cirurgião(ões) em sala operatória na mesma sessão, sob anestesia geral, locorregional ou local, com ou sem presença de anestesista.",
+            "Fonte Informação/ SI": "SI da Instituição (durante o 1º trimestre de 2013)"
+          },
+          {
+            "Variáveis": "GDH Cirúrgicos",
+            "Unidade de medida": "nº de episódios classificados em GDH cirúrgicos",
+            "Definição": "Nº de episódios de GDH Cirúrgicos.",
+            "Fonte Informação/ SI": "BD nacional de GDH (a partir do 2º trimestre de 2013)"
+          }
+        ]
+      },
+      {
+        "table_index": 37,
+        "page": 52,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013-2015",
+            "Tipo de falha": "Eficiência",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Monitorizar o desempenho Económico - Financeiro",
+            "Descrição do Indicador": "Indicador que expressa a proporção de custos “extraordinários” no total dos custos com pessoal.",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais / Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II)\nContrato-programa 2013 - ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (uma casa décimal)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "SIEF",
+            "Responsável pela monitorização": "Instituição/ARS",
+            "Fórmula": "(Σ (#642211 + #642212 + #642221 + #642281 + #642282/9 + #62229 + #622364) / Σ #64",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013\nHospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II).\nULS: Cláusula 4ª do Anexo (Apêndice II)\n(estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": null
+          }
+        ]
+      },
+      {
+        "table_index": 38,
+        "page": 52,
+        "table_data": [
+          {
+            "Variáveis": "Horas Extraordinárias",
+            "Fonte Informação/ SI": "SIEF",
+            "Unidade de medida": "€ (euros)",
+            "Definição": "(Σ) #642211 (Horas Ext.)"
+          },
+          {
+            "Variáveis": "Suplementos",
+            "Fonte Informação/ SI": "SIEF",
+            "Unidade de medida": "€ (euros)",
+            "Definição": "(Σ) (#642212 prevenções + #642221 noites e suplementos + #642281 SIGIC + #642282/9 outros supl.)"
+          },
+          {
+            "Variáveis": "FSE (selecionado)",
+            "Fonte Informação/ SI": "SIEF",
+            "Unidade de medida": "€ (euros)",
+            "Definição": "Σ (#622364 + #62229)"
+          },
+          {
+            "Variáveis": "Custos com pessoal",
+            "Fonte Informação/ SI": "SIEF",
+            "Unidade de medida": "€ (euros)",
+            "Definição": "#64"
+          }
+        ]
+      },
+      {
+        "table_index": 39,
+        "page": 53,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013-2015",
+            "Tipo de falha": "Eficiência",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Monitorizar o desempenho Económico - Financeiro",
+            "Descrição do Indicador": "Indicador que expressa resultados da instituição antes de juros, impostos, depreciação e amortização.",
+            "Cláusula CP": "Contrato programa 2013 - Hospitais / Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II)\nContrato Programa 2013-ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "€ (euros)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "SIEF",
+            "Responsável pela monitorização": "Instituição/ARS",
+            "Fórmula": "Σ #7 POCMS (71 a 76) - Σ #6 POCMS (61 a 65)",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no Contrato-programa 2013\nHospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II).\nULS: Cláusula 4ª do Anexo (Apêndice II)\n(estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": null
+          }
+        ]
+      },
+      {
+        "table_index": 40,
+        "page": 53,
+        "table_data": [
+          {
+            "Variáveis": "EBITDA",
+            "Fonte Informação/ SI": "SIEF",
+            "Unidade de medida": "€ (euros)",
+            "Definição": "Σ #7 POCMS (71 a 76) - Σ #6 POCMS (61 a 65)"
+          }
+        ]
+      },
+      {
+        "table_index": 41,
+        "page": 54,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013-2015",
+            "Tipo de falha": "Eficiência",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Monitorizar o desempenho Económico - Financeiro",
+            "Descrição do Indicador": "Indicador que expressa a variação da dívida vencida da instituição.",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais / Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II)\nContrato-programa 2013-ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "€ (euros)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "SIEF",
+            "Responsável pela monitorização": "Instituição/ARS",
+            "Fórmula": "Dívida vencida a 31 dez. 2013 - Dívida vencida a 31 dez. 2012",
+            "Prazo Entrega Reporting": "Dia 21 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013\nHospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II).\nULS: Cláusula 4ª do Anexo (Apêndice II)\n(estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": "*dívida vencida - valor a apurar pelo SIEF, mensalmente, para cada uma das instituições.\nA variação da dívida será calculada em cada mês, tendo como referência o valor observado em 31 Dezembro 2012."
+          }
+        ]
+      },
+      {
+        "table_index": 42,
+        "page": 54,
+        "table_data": [
+          {
+            "Variáveis": "Acréscimo de Dívida Vencida",
+            "Fonte Informação/ SI": "SIEF",
+            "Unidade de medida": "€ (euros)",
+            "Definição": "Variação, entre o período n e o período n-1, do valor da dívida que ultrapassou o prazo de pagamento."
+          }
+        ]
+      },
+      {
+        "table_index": 43,
+        "page": 55,
+        "table_data": [
+          {
+            "Entidade Gestora": "Hospital, Centro Hospitalar, Unidade Local de Saúde",
+            "Tipo de Indicador": "Objectivo contrato-programa 2013-2015",
+            "Tipo de falha": "Eficiência",
+            "Período aplicável": "Ano 2013",
+            "Objectivo": "Monitorizar o desempenho Económico - Financeiro",
+            "Descrição do Indicador": "Indicador que expressa a proporção de Proveitos Operacionais não decorrentes do contrato-programa.",
+            "Cláusula CP": "Contrato-programa 2013 - Hospitais / Centros Hospitalares: Cláusula 6ª do Anexo (Apêndice II)\nContrato-programa 2013 - ULS: Cláusula 4ª do Anexo (Apêndice II)",
+            "Unidade de medida": "% (uma casa décimal)",
+            "Frequência de monitorização": "Mensal",
+            "Fonte dos dados/ Base da monitorização": "SIEF",
+            "Responsável pela monitorização": "Instituição/ARS",
+            "Fórmula": "(Σ #7 POCMS (71 a 76) - Σ Estimativa proveitos CP) / Σ #7 POCMS (71 a 76) * 100",
+            "Prazo Entrega Reporting": "Dia 20 do mês n+1",
+            "Valor de Referência (Meta)": "Definido no contrato-programa 2013\nHospitais / Centros Hospitalares: Cláusula 6ª (Apêndice II).\nULS: Cláusula 4ª do Anexo (Apêndice II)\n(estabelecido em negociação com as ARS)",
+            "Orgão fiscalizador": "ARS",
+            "Valor de base": "valor histórico da Instituição (opcional)",
+            "Observações": "Nota: os proveitos operacionais CP estimados, só se apuram para as instituições EPE.\nNo caso das instituições SPA é considerada a mensualização do valor do orçamento financeiro."
+          }
+        ]
+      },
+      {
+        "table_index": 44,
+        "page": 55,
+        "table_data": [
+          {
+            "Variáveis": "Proveitos Operacionais extra CP",
+            "Fonte Informação/ SI": "SIEF",
+            "Unidade de medida": "€ (euros)",
+            "Definição": "Σ #7 POCMS (71 a 76) totais - Estimativa proveitos CP. Proveitos Operacionais totais - Proveitos Operacionais do Contrato-programa (estimados)."
+          },
+          {
+            "Variáveis": "Proveitos Operacionais",
+            "Fonte Informação/ SI": "SIEF",
+            "Unidade de medida": "€ (euros)",
+            "Definição": "Σ #7 POCMS (71 a 76)"
+          }
+        ]
+      }
+    ]
+  }
+}

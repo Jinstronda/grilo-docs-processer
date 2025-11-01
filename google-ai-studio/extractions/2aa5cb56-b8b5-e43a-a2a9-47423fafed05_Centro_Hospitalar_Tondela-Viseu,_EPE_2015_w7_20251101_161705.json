@@ -1,0 +1,3751 @@
+{
+  "contract_id": "2aa5cb56-b8b5-e43a-a2a9-47423fafed05",
+  "hospital_name": "Centro Hospitalar Tondela-Viseu, EPE",
+  "year": 2015,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/Acordo-Modificativo-do-CP-2015-CHTV.pdf",
+  "extraction_timestamp": "20251101_161705",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 7,
+        "table_data": [
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "1. Consultas Externas:",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "N° de 1ªs consultas médicas (s/ majoração)",
+            "Preço Unitário (€)": "66.96",
+            "Quantidade": "50000",
+            "Valor (€)": "3348000.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "N° de 1ªs consultas referenciadas (CTH)",
+            "Preço Unitário (€)": "73.66",
+            "Quantidade": "34600",
+            "Valor (€)": "2548636.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "N° de 1ªs consultas (Telemedicina)",
+            "Preço Unitário (€)": "73.66",
+            "Quantidade": "400",
+            "Valor (€)": "29464.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "N° de 1ªs consultas na comunidade (Saúde mental)",
+            "Preço Unitário (€)": "73.66",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Nº de consultas subsequentes médicas (s/majoração)",
+            "Preço Unitário (€)": "66.96",
+            "Quantidade": "174800",
+            "Valor (€)": "11704608.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "N° de consultas subsequentes (Telemedicina)",
+            "Preço Unitário (€)": "73.66",
+            "Quantidade": "200",
+            "Valor (€)": "14732.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Nº de consultas subsequentes na comunidade (Saúde mental)",
+            "Preço Unitário (€)": "73.66",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Valor Total das Consultas",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "17645440.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "2. Internamento:",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": "Doentes Saídos",
+            "ICM": "",
+            "Item": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": {
+              "N.°": "15490",
+              "%": "96.81%"
+            },
+            "ICM": "0.8402",
+            "Item": "GDH Médicos",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "16000",
+            "Valor (€)": "29738584.93"
+          },
+          {
+            "Doentes Equivalentes": {
+              "N.°": "3582",
+              "%": "96.81%"
+            },
+            "ICM": "0.8402",
+            "Item": "GDH Cirúrgicos",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "3700",
+            "Valor (€)": "6876927.77"
+          },
+          {
+            "Doentes Equivalentes": {
+              "N.°": "2711",
+              "%": "96.81%"
+            },
+            "ICM": "0.8402",
+            "Item": "GDH Cirúrgicos Urgentes",
+            "Preço Unitário (€)": "2170.75",
+            "Quantidade": "2800",
+            "Valor (€)": "4944495.71"
+          },
+          {
+            "Doentes Equivalentes": "Dias de Internamento de Doentes Crónicos",
+            "ICM": "",
+            "Item": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doentes Medicina Física e Reabilitação",
+            "Preço Unitário (€)": "205.10",
+            "Quantidade": "2450",
+            "Valor (€)": "502495.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doentes de Psiquiatria Crónicos no Hospital",
+            "Preço Unitário (€)": "38.89",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doentes de Psiquiatria no Exterior (Ordens Religiosas)",
+            "Preço Unitário (€)": "38.89",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doentes de Psiquiatria no Exterior (Outras Inst.)",
+            "Preço Unitário (€)": "38.89",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Instituições",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doentes Crónicos Ventilados",
+            "Preço Unitário (€)": "244.01",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doentes de Reabilitação Psicossocial",
+            "Preço Unitário (€)": "38.89",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doentes Crónicos de Hansen",
+            "Preço Unitário (€)": "70.75",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Valor Total do Internamento",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "42062503.41"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "0.6412",
+            "Item": "3. Episódios de GDH de Ambulatório: GDH Cirúrgicos",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "8500",
+            "Valor (€)": "12453707.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "0.2392",
+            "Item": "GDH Médicos",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "4000",
+            "Valor (€)": "2186288.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Valor Total dos GDH de Ambulatório",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "14639995.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "4. Urgências:",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Atendimentos (SU - Polivalente)",
+            "Preço Unitário (€)": "107.59",
+            "Quantidade": "120000",
+            "Valor (€)": "12910800.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Atendimentos (SU - Médico-Cirúrgica)",
+            "Preço Unitário (€)": "53.91",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Atendimentos (SU - Básica)",
+            "Preço Unitário (€)": "10.00",
+            "Quantidade": "30000",
+            "Valor (€)": "300000.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Disponibilidade Serviço",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "1000000.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Valor Total dos Atendimentos Urgentes",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "14210800.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "5. Sessões em Hospital de Dia:",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Base",
+            "Preço Unitário (€)": "20.14",
+            "Quantidade": "45000",
+            "Valor (€)": "906300.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Hematologia",
+            "Preço Unitário (€)": "293.52",
+            "Quantidade": "2500",
+            "Valor (€)": "733800.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Imuno-Hemoterapia",
+            "Preço Unitário (€)": "293.52",
+            "Quantidade": "400",
+            "Valor (€)": "117408.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Psiquiatria",
+            "Preço Unitário (€)": "30.49",
+            "Quantidade": "1400",
+            "Valor (€)": "42686.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Psiquiatria - Unidades Socio-Ocupacionais",
+            "Preço Unitário (€)": "30.49",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Valor Total do Hospital de Dia",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "1800194.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "6. Programas de Gestão da Doença Crónica",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "VIH/Sida (doentes em TARC)",
+            "Preço Unitário (€)": "9165.60",
+            "Quantidade": "172",
+            "Valor (€)": "1576483.20"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Hipertensão Arterial Pulmonar - doentes em terapêutica",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Pré-tratamento/seguimento 1º ano",
+            "Preço Unitário (€)": "8408.28",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Seguimento após 1º ano CF≤ III",
+            "Preço Unitário (€)": "22555.56",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Seguimento após 1º ano CF IV",
+            "Preço Unitário (€)": "162563.40",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Esclerose múltipla - doentes em terapêutica modificadora",
+            "Preço Unitário (€)": "12379.80",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Tratamento de doentes c/ patologia oncológica - novos doentes",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Cancro da mama (1º ano)",
+            "Preço Unitário (€)": "11148.96",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Cancro da mama (2º ano)",
+            "Preço Unitário (€)": "4821.84",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Cancro do colon e reto (1º ano)",
+            "Preço Unitário (€)": "13236.72",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Cancro do colon e reto (2º ano)",
+            "Preço Unitário (€)": "4957.08",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Cancro do colo do útero (1º ano)",
+            "Preço Unitário (€)": "10630.80",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Cancro do colo do útero (2º ano)",
+            "Preço Unitário (€)": "2530.68",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Telemonotorização DPOC",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Elementos de Telemonitorização",
+            "Preço Unitário (€)": "1125.30",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Nº de doentes em tratamento (doente tratado/ano)",
+            "Preço Unitário (€)": "2053.09",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Programa Terapêutico PAF1",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "PAF1 Doentes em tratamento (equivalente/ano)",
+            "Preço Unitário (€)": "58358.74",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doenças Lisossomais de Sobre Carga (doentes em tratamento/equivalente ano)",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doença de Gaucher",
+            "Preço Unitário (€)": "190617.10",
+            "Quantidade": "2",
+            "Valor (€)": "381234.20"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doença de Fabry",
+            "Preço Unitário (€)": "158684.84",
+            "Quantidade": "3",
+            "Valor (€)": "476054.52"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doença de Hurler",
+            "Preço Unitário (€)": "193797.41",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doença de Hunter",
+            "Preço Unitário (€)": "313750.26",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doença de Maroteaux-Lamy",
+            "Preço Unitário (€)": "348668.83",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doença de Niemann-Pick",
+            "Preço Unitário (€)": "39652.21",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Doença de Pompe",
+            "Preço Unitário (€)": "244106.20",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "7. PMA - Diagnóstico e Tratamento da Infertilidade",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Consultas de Apoio à Fertilidade",
+            "Preço Unitário (€)": "88.32",
+            "Quantidade": "150",
+            "Valor (€)": "13248.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Induções da Ovulação (IO)",
+            "Preço Unitário (€)": "132.48",
+            "Quantidade": "150",
+            "Valor (€)": "19872.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Inseminações Intra-Uterinas (IIU)",
+            "Preço Unitário (€)": "335.04",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Fertilizações In Vitro (FIV)",
+            "Preço Unitário (€)": "2097.60",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Injecções Intra-Citoplasmáticas de Espermatozoides (ICSI)",
+            "Preço Unitário (€)": "2307.84",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Injeções Intra-Citoplasmáticas de Espermatozoides recolhidos cirurgicamente (ICSI c/ recolha cirúrgica)",
+            "Preço Unitário (€)": "2936.64",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "8. Saúde Sexual e Reprodutiva",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "IVG até 10 semanas",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Medicamentosa (n.° I.V.G.)",
+            "Preço Unitário (€)": "283.10",
+            "Quantidade": "340",
+            "Valor (€)": "96254.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Cirúrgica (n.º I.V.G.)",
+            "Preço Unitário (€)": "368.61",
+            "Quantidade": "1",
+            "Valor (€)": "368.61"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Diagnóstico Pré-Natal",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Protocolo I",
+            "Preço Unitário (€)": "37.72",
+            "Quantidade": "1500",
+            "Valor (€)": "56580.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Protocolo II",
+            "Preço Unitário (€)": "64.61",
+            "Quantidade": "750",
+            "Valor (€)": "48457.50"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "9. Sessões de Radioterapia",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Tratamentos simples",
+            "Preço Unitário (€)": "104.53",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Tratamentos complexos",
+            "Preço Unitário (€)": "250.92",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "10. Serviços Domiciliários",
+            "Preço Unitário (€)": "33.10",
+            "Quantidade": "6000",
+            "Valor (€)": "198600.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "11. Lar (IPO)",
+            "Preço Unitário (€)": "62.95",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "12. Outros:",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Medicamentos de cedência hospitalar em ambulatório",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "1763839.00"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Internos",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "1154121.12"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Valor da Produção Contratada",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "96144044.56"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Incentivos institucionais",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "5060212.87"
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Convergência",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Doentes Equivalentes": null,
+            "ICM": "",
+            "Item": "Valor Total do Contrato",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "101204257.43"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 9,
+        "table_data": [
+          {
+            "Meta": "60.00",
+            "Objetivos Nacionais": "",
+            "Pesos Relativos (%)": ""
+          },
+          {
+            "Meta": "15.00",
+            "Objetivos Nacionais": "A. Acesso",
+            "Pesos Relativos (%)": ""
+          },
+          {
+            "Meta": "32.5",
+            "Objetivos Nacionais": "A.1 Percentagem das primeiras consultas no total de consultas médicas (%)",
+            "Pesos Relativos (%)": "3.00"
+          },
+          {
+            "Meta": "75.0",
+            "Objetivos Nacionais": "A.2 Percentagem de utentes referenciados para consulta externa atendidos em tempo adequado (%)",
+            "Pesos Relativos (%)": "3.00"
+          },
+          {
+            "Meta": "13.0",
+            "Objetivos Nacionais": "A.3 Peso das consultas externas médicas com registo de alta no total de consultas externas médicas (%)",
+            "Pesos Relativos (%)": "3.00"
+          },
+          {
+            "Meta": "65.0",
+            "Objetivos Nacionais": "A.4 Percentagem de inscritos em LIC (neoplasias malignas) com tempo de espera ≤ TMRG (%)",
+            "Pesos Relativos (%)": "3.00"
+          },
+          {
+            "Meta": "25.00",
+            "Objetivos Nacionais": "A.5 Permilagem de doentes sinalizados para a RNCCI, em tempo adequado (até 5 dias), no total de doentes tratados (Cirurgia Geral, Medicina Interna, Neurologia e Ortopedia) (‰)",
+            "Pesos Relativos (%)": "3.00"
+          },
+          {
+            "Meta": "25.00",
+            "Objetivos Nacionais": "B. Desempenho Assistencial",
+            "Pesos Relativos (%)": ""
+          },
+          {
+            "Meta": "8.00",
+            "Objetivos Nacionais": "B.1 Demora média (dias)",
+            "Pesos Relativos (%)": "4.00"
+          },
+          {
+            "Meta": "7.4",
+            "Objetivos Nacionais": "B.2 Percentagem de reinternamentos em 30 dias (%)",
+            "Pesos Relativos (%)": "4.00"
+          },
+          {
+            "Meta": "1.10",
+            "Objetivos Nacionais": "B.3 Percentagem de doentes saídos com duração de internamento acima do limiar máximo (%)",
+            "Pesos Relativos (%)": "4.00"
+          },
+          {
+            "Meta": "75.00",
+            "Objetivos Nacionais": "B.4 Percentagem de cirurgias da anca efetuadas nas primeiras 48 horas (%)",
+            "Pesos Relativos (%)": "4.00"
+          },
+          {
+            "Meta": "90.0",
+            "Objetivos Nacionais": "B.5 Percentagem de cirurgias realizadas em ambulatório no total de cirurgias programadas (GDH) - para procedimentos ambulatorizáveis (%)",
+            "Pesos Relativos (%)": "3.00"
+          },
+          {
+            "Meta": "42.00",
+            "Objetivos Nacionais": "B.6 Percentagem de consumo de embalagens de medicamentos genéricos, no total de embalagens de medicamentos (%)",
+            "Pesos Relativos (%)": "3.00"
+          },
+          {
+            "Meta": "85.0",
+            "Objetivos Nacionais": "B.7 Taxa de registo de utilização da “Lista de Verificação de Segurança Cirúrgica” - cirurgia segura (%)",
+            "Pesos Relativos (%)": "3.00"
+          },
+          {
+            "Meta": "20.00",
+            "Objetivos Nacionais": "C. Desempenho Económico/Financeiro",
+            "Pesos Relativos (%)": ""
+          },
+          {
+            "Meta": "13.4",
+            "Objetivos Nacionais": "C.1 Percentagem dos gastos com Horas Extraordinárias, Suplementos e Fornecimentos de Serviços Externos (selecionados) no total de gastos com Pessoal (€)",
+            "Pesos Relativos (%)": "5.00"
+          },
+          {
+            "Meta": "0.00",
+            "Objetivos Nacionais": "C.2 Resultado antes de depreciações, gastos de financiamento e impostos (EBITDA) (€)",
+            "Pesos Relativos (%)": "5.00"
+          },
+          {
+            "Meta": "0.00",
+            "Objetivos Nacionais": "C.3 Acréscimo de Dívida Vencida (fornecedores externos) (€)",
+            "Pesos Relativos (%)": "5.00"
+          },
+          {
+            "Meta": "12.5",
+            "Objetivos Nacionais": "C.4 Percentagem de rendimentos extra contrato-programa no total de rendimentos (%)",
+            "Pesos Relativos (%)": "5.00"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 9,
+        "table_data": [
+          {
+            "Meta": "40.00",
+            "Objetivos Regionais": "",
+            "Pesos Relativos (%)": ""
+          },
+          {
+            "Meta": "85.00",
+            "Objetivos Regionais": "Percentagem de Partos Vaginais realizados com Analgesia Epidural (%)",
+            "Pesos Relativos (%)": "5.00"
+          },
+          {
+            "Meta": "5.00",
+            "Objetivos Regionais": "Percentagem de episódios de internamento com complicações de atos médicos e/ou cirúrgicos (causas externas) (%)",
+            "Pesos Relativos (%)": "5.00"
+          },
+          {
+            "Meta": "4.50",
+            "Objetivos Regionais": "TME da Lista de Espera Cirúrgica (meses)",
+            "Pesos Relativos (%)": "5.00"
+          },
+          {
+            "Meta": "10.00",
+            "Objetivos Regionais": "Percentagem de doentes muito prioritários atendidos acima do tempo máximo de espera (%)",
+            "Pesos Relativos (%)": "5.00"
+          },
+          {
+            "Meta": "4704042.68",
+            "Objetivos Regionais": "Faturação de medicamentos cedidos em farmácia de oficina (€)",
+            "Pesos Relativos (%)": "5.00"
+          },
+          {
+            "Meta": "1.80",
+            "Objetivos Regionais": "Variação de Gastos com pessoal (%)",
+            "Pesos Relativos (%)": "5.00"
+          },
+          {
+            "Meta": "60.00",
+            "Objetivos Regionais": "Tempo médio de codificação e agrupamento em GDH (internamento)",
+            "Pesos Relativos (%)": "5.00"
+          },
+          {
+            "Meta": "150.00",
+            "Objetivos Regionais": "Doentes em Espera para Cirurgia há mais de 12 meses",
+            "Pesos Relativos (%)": "5.00"
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "page": 11,
+        "table_data": [
+          {
+            "Áreas": "A. Programas de promoção do acesso (25%)",
+            "Obrigação": "A.1 SIGIC - Cumprir as regras definidas no Manual de Gestão de Inscritos para Cirurgia (MGIC), de acordo com a metodologia da determinação e contestação das não conformidades publicada pela ACSS, I.P. (25%) (alínea a) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalidades (P)": "Não haverá lugar a penalidades quando % NC ≤ 5%\nA penalidade é aplicada pela seguinte fórmula, até ao limite de Valor Contrato x 1% x 25%:\nP= Valor NC simples +Valor NC grave + Valor NC materiais\nValor NC simples = 1/20 x PBR x N° NC simples\nValor NC graves = 3 x 1/20 x PBR x N° NC graves\nValor NC materiais = 1/200 x 3 x 1/20 x PBR x N° entradas x Nº falhas x N° NC materiais"
+          },
+          {
+            "Áreas": "B. Reporte de informação (35%)",
+            "Obrigação": "B.1 Reporte mensal de informação assistencial através do SICA até ao dia 8 (15%) (alinea b) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalidades (P)": "Reporte em data posterior ao dia 8 em cada mês de incumprimento\nP = valor contrato x 1%x 15% x (1/12)"
+          },
+          {
+            "Áreas": "B. Reporte de informação (35%)",
+            "Obrigação": "B.2 Reporte de informação financeira no SIGEF mensalmente até ao dia 10 (20%) (alínea b) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalidades (P)": "Reporte em data posterior ao dia 10 em cada mês de incumprimento\nP = valor contrato x 1%x 20% x (1/12)"
+          },
+          {
+            "Áreas": "C. Faturação eletrónica (20%)",
+            "Obrigação": "C.1 Encerramento do processo de faturação da atividade assistencial em 90 dias (10%) (alínea c) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalidades (P)": "Faturação posterior a 90 dias\nP = valor contrato x 1%x 10%"
+          },
+          {
+            "Áreas": "C. Faturação eletrónica (20%)",
+            "Obrigação": "C.2 Encerramento do processo de faturação referente aos objetivos em 180 dias (10%) (alinea d) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalidades (P)": "Faturação posterior a 180 dias\nP= valor contrato x 1%x 10%"
+          },
+          {
+            "Áreas": "D. Plataforma de dados da Saúde (10%)",
+            "Obrigação": "D.1 Disponibilização das notas de altas médicas dos doentes saídos no período (4%) (alínea e) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalidades (P)": "Disponibilização <75%\nP = valor contrato x 1%x 4%"
+          },
+          {
+            "Áreas": "D. Plataforma de dados da Saúde (10%)",
+            "Obrigação": "D.2 Disponibilização das notas de altas de enfermagem dos doentes saídos no período (4%) (alínea e) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalidades (P)": "Disponibilização <75%\nP = valor contrato x 1%x 4%"
+          },
+          {
+            "Áreas": "D. Plataforma de dados da Saúde (10%)",
+            "Obrigação": "D.3 Disponibilização das notas de transferências dos doentes saídos das UCI (2%) (alinea e) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalidades (P)": "Disponibilização <75%\nP = valor contrato x 1%x 2%"
+          },
+          {
+            "Áreas": "E. Cobrança de receita (10%)",
+            "Obrigação": "E.1. Cobrança efetiva da receita (10%) (alínea f) do n.º 1 da Cláusula 6ª do Anexo)",
+            "Penalidades (P)": "Cobrança < 90%\nP = valor contrato x 1%x 10%"
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "page": 12,
+        "table_data": [
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "611-Mercadorias",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "1.43%",
+            "SNC": "612-Matérias-primas, subsidiárias e de consumo",
+            "Valor Contratualizado 2015": "28390545.26",
+            "Valor Estimado 2014": "27990545.26"
+          },
+          {
+            "% Var 2015 / 2014": "1.43%",
+            "SNC": "6121-Matérias de consumo",
+            "Valor Contratualizado 2015": "28390545.26",
+            "Valor Estimado 2014": "27990545.26"
+          },
+          {
+            "% Var 2015 / 2014": "2.17%",
+            "SNC": "61211-Produtos Farmacêuticos",
+            "Valor Contratualizado 2015": "18870824.81",
+            "Valor Estimado 2014": "18470824.81"
+          },
+          {
+            "% Var 2015 / 2014": "2.60%",
+            "SNC": "612111-Medicamentos",
+            "Valor Contratualizado 2015": "15756239.47",
+            "Valor Estimado 2014": "15356239.47"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "612112-Reagentes e produtos de diagnóstico rápido",
+            "Valor Contratualizado 2015": "2714585.34",
+            "Valor Estimado 2014": "2714585.34"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "612118-Outros produtos Farmacêuticos",
+            "Valor Contratualizado 2015": "400000.00",
+            "Valor Estimado 2014": "400000.00"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "61212-Material consumo clínico",
+            "Valor Contratualizado 2015": "8715042.87",
+            "Valor Estimado 2014": "8715042.87"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "61213-Produtos alimentares",
+            "Valor Contratualizado 2015": "0.00",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "61214-Material consumo hoteleiro",
+            "Valor Contratualizado 2015": "351657.79",
+            "Valor Estimado 2014": "351657.79"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "61215-Material consumo administrativo",
+            "Valor Contratualizado 2015": "182043.21",
+            "Valor Estimado 2014": "182043.21"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "61216-Material manutenção e conservação",
+            "Valor Contratualizado 2015": "270976.58",
+            "Valor Estimado 2014": "270976.58"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "61217-Outro material de consumo",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "613-Ativos biológicos (compras)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "1.43%",
+            "SNC": "Sub-Total 61",
+            "Valor Contratualizado 2015": "28390545.26",
+            "Valor Estimado 2014": "27990545.26"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "% S.Total Geral 61",
+            "Valor Contratualizado 2015": "25.21%",
+            "Valor Estimado 2014": "25.21%"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "621-Subcontratos",
+            "Valor Contratualizado 2015": "2755688.29",
+            "Valor Estimado 2014": "2755688.29"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6211-Assistência ambulatória",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6212-Meios complementares diagnóstico",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62121-Patologia clínica",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62122-Anatomia patológica",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62123-Imagiologia",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62124-Cardiologia",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62125-Electroencefalografia",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62126-Medicina nuclear",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62127-Gastrenterologia",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62128-Pneumologia/Imunoalergologia",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62129-Outros",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6213-Meios complementares terapêutica",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62131-Hemodiálise",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62132-Medicina fisica e reabilitação",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62133-Litotricia",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "62138-Outros",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6214-Produtos vendidos por farmácias",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6215-Internamentos",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6216-Transporte de doentes",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6217-Aparelhos complementares de terapêutica",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6218-Trabalhos executados no exterior",
+            "Valor Contratualizado 2015": "2755688.29",
+            "Valor Estimado 2014": "2755688.29"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "62181-Em entidades do M. Saúde",
+            "Valor Contratualizado 2015": "1430249.23",
+            "Valor Estimado 2014": "1430249.23"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "621811-Assistência ambulatória",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "621812-Meios complementares de diagnóstico",
+            "Valor Contratualizado 2015": "262794.77",
+            "Valor Estimado 2014": "262794.77"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "621813-Meios complementares de terapêutica",
+            "Valor Contratualizado 2015": "1167454.46",
+            "Valor Estimado 2014": "1167454.46"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "621814-Produtos vendidos por farmácias",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "621815-Internamentos e transporte de doentes",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "621819-Outros trabalhos executados no exterior",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "62189-Em outras entidades",
+            "Valor Contratualizado 2015": "1325439.06",
+            "Valor Estimado 2014": "1325439.06"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "621891-Assistência ambulatória",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "621892-Meios complementares diagnóstico",
+            "Valor Contratualizado 2015": "630983.30",
+            "Valor Estimado 2014": "630983.30"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "621893-Meios complementares terapêutica",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "621894-Produtos vendidos por farmácias",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "621895-Internamentos e transporte de doentes",
+            "Valor Contratualizado 2015": "694455.76",
+            "Valor Estimado 2014": "694455.76"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "621896-Aparelhos complementares de terapêutica",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "621897-Assistência no estrangeiro",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "621898-Termalismo social",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "621899-Outros trabalhos executados no exterior",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6219-Outros subcontratos",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "1.38%",
+            "SNC": "622-Serviços Especializados",
+            "Valor Contratualizado 2015": "9719720.67",
+            "Valor Estimado 2014": "9587029.67"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6221-Trabalhos especializados",
+            "Valor Contratualizado 2015": "6543024.75",
+            "Valor Estimado 2014": "6543024.75"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6222-Publicidade e propaganda",
+            "Valor Contratualizado 2015": "6892.53",
+            "Valor Estimado 2014": "6892.53"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6223-Vigilância e segurança",
+            "Valor Contratualizado 2015": "492261.99",
+            "Valor Estimado 2014": "492261.99"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6224-Honorários",
+            "Valor Contratualizado 2015": "313120.96",
+            "Valor Estimado 2014": "313120.96"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6225-Comissões",
+            "Valor Contratualizado 2015": "0.00",
+            "Valor Estimado 2014": "0.00"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6226-Conservação e reparação",
+            "Valor Contratualizado 2015": "2211729.44",
+            "Valor Estimado 2014": "2211729.44"
+          },
+          {
+            "% Var 2015 / 2014": "663.46%",
+            "SNC": "6227-Serviços Bancários",
+            "Valor Contratualizado 2015": "152691.00",
+            "Valor Estimado 2014": "20000.00"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6228-Outros",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "623-Materiais",
+            "Valor Contratualizado 2015": "1795.80",
+            "Valor Estimado 2014": "1795.80"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6231-Ferramentas e utensílios de desgaste rápido",
+            "Valor Contratualizado 2015": "0.00",
+            "Valor Estimado 2014": "0.00"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6232-Livros de documentação técnica",
+            "Valor Contratualizado 2015": "1665.77",
+            "Valor Estimado 2014": "1665.77"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6233-Material de escritório",
+            "Valor Contratualizado 2015": "46.46",
+            "Valor Estimado 2014": "46.46"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6234-Artigos de oferta",
+            "Valor Contratualizado 2015": "83.57",
+            "Valor Estimado 2014": "83.57"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6238-Outros",
+            "Valor Contratualizado 2015": "0.00",
+            "Valor Estimado 2014": "0.00"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "624-Energia e Fluídos",
+            "Valor Contratualizado 2015": "1519975.63",
+            "Valor Estimado 2014": "1519975.63"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6241-Eletricidade",
+            "Valor Contratualizado 2015": "1382508.11",
+            "Valor Estimado 2014": "1382508.11"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6242-Combustíveis",
+            "Valor Contratualizado 2015": "59844.53",
+            "Valor Estimado 2014": "59844.53"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6243-Água",
+            "Valor Contratualizado 2015": "53374.76",
+            "Valor Estimado 2014": "53374.76"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6248-Outros",
+            "Valor Contratualizado 2015": "24248.23",
+            "Valor Estimado 2014": "24248.23"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "625-Deslocações, estadas e transportes",
+            "Valor Contratualizado 2015": "22467.14",
+            "Valor Estimado 2014": "22467.14"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6251-Deslocações e estadas",
+            "Valor Contratualizado 2015": "18220.83",
+            "Valor Estimado 2014": "18220.83"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6252-Transporte de pessoal",
+            "Valor Contratualizado 2015": "3951.69",
+            "Valor Estimado 2014": "3951.69"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6253-Transportes de mercadorias",
+            "Valor Contratualizado 2015": "294.62",
+            "Valor Estimado 2014": "294.62"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6258-Outros",
+            "Valor Contratualizado 2015": "0.00",
+            "Valor Estimado 2014": "0.00"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "626-Serviços Diversos",
+            "Valor Contratualizado 2015": "838559.38",
+            "Valor Estimado 2014": "838559.38"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6261-Rendas e alugueres",
+            "Valor Contratualizado 2015": "183800.76",
+            "Valor Estimado 2014": "183800.76"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6262-Comunicação",
+            "Valor Contratualizado 2015": "205517.82",
+            "Valor Estimado 2014": "205517.82"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6263-Seguros",
+            "Valor Contratualizado 2015": "7040.41",
+            "Valor Estimado 2014": "7040.41"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6264-Royalties",
+            "Valor Contratualizado 2015": "0.00",
+            "Valor Estimado 2014": "0.00"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6265-Contencioso e notariado",
+            "Valor Contratualizado 2015": "125852.59",
+            "Valor Estimado 2014": "125852.59"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6266-Despesas de representação",
+            "Valor Contratualizado 2015": "3754.22",
+            "Valor Estimado 2014": "3754.22"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6267-Limpeza, higiene e conforto",
+            "Valor Contratualizado 2015": "291594.30",
+            "Valor Estimado 2014": "291594.30"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "6268-Outros Serviços",
+            "Valor Contratualizado 2015": "20999.28",
+            "Valor Estimado 2014": "20999.28"
+          },
+          {
+            "% Var 2015 / 2014": "0.90%",
+            "SNC": "Sub-Total 62",
+            "Valor Contratualizado 2015": "14858206.91",
+            "Valor Estimado 2014": "14725515.91"
+          },
+          {
+            "% Var 2015 / 2014": "-0.53%",
+            "SNC": "% S.Total Geral 62",
+            "Valor Contratualizado 2015": "13.19%",
+            "Valor Estimado 2014": "13.26%"
+          },
+          {
+            "% Var 2015 / 2014": "43.18%",
+            "SNC": "631-Remunerações dos orgãos directivos",
+            "Valor Contratualizado 2015": "374932.00",
+            "Valor Estimado 2014": "261852.66"
+          },
+          {
+            "% Var 2015 / 2014": "2.44%",
+            "SNC": "632-Remunerações de pessoal",
+            "Valor Contratualizado 2015": "51957234.00",
+            "Valor Estimado 2014": "50720832.96"
+          },
+          {
+            "% Var 2015 / 2014": "3.90%",
+            "SNC": "6321-Remunerações base do pessoal",
+            "Valor Contratualizado 2015": "36307628.00",
+            "Valor Estimado 2014": "34945744.97"
+          },
+          {
+            "% Var 2015 / 2014": "4.13%",
+            "SNC": "63211-RCTFP por tempo indeterminado",
+            "Valor Contratualizado 2015": "19014207.00",
+            "Valor Estimado 2014": "18260745.07"
+          },
+          {
+            "% Var 2015 / 2014": "6.49%",
+            "SNC": "63212-Pessoal c/ contrato a termo resolutivo",
+            "Valor Contratualizado 2015": "3820291.00",
+            "Valor Estimado 2014": "3587553.30"
+          },
+          {
+            "% Var 2015 / 2014": "2.98%",
+            "SNC": "63213-Pessoal em regime Contrato Individual",
+            "Valor Contratualizado 2015": "13455830.00",
+            "Valor Estimado 2014": "13066069.14"
+          },
+          {
+            "% Var 2015 / 2014": "-44.86%",
+            "SNC": "63214-Pessoal em qualquer outra situação",
+            "Valor Contratualizado 2015": "17300.00",
+            "Valor Estimado 2014": "31377.46"
+          },
+          {
+            "% Var 2015 / 2014": "8.08%",
+            "SNC": "6322-Subsídio de Férias",
+            "Valor Contratualizado 2015": "3284103.81",
+            "Valor Estimado 2014": "3038605.91"
+          },
+          {
+            "% Var 2015 / 2014": "8.08%",
+            "SNC": "6323-Subsídio de Natal",
+            "Valor Contratualizado 2015": "3190880.19",
+            "Valor Estimado 2014": "2952351.09"
+          },
+          {
+            "% Var 2015 / 2014": "-6.31%",
+            "SNC": "6324-Suplementos de remunerações",
+            "Valor Contratualizado 2015": "9105749.00",
+            "Valor Estimado 2014": "9719130.99"
+          },
+          {
+            "% Var 2015 / 2014": "9.27%",
+            "SNC": "63241-Trabalho Extraordinário",
+            "Valor Contratualizado 2015": "3581268.00",
+            "Valor Estimado 2014": "3277577.79"
+          },
+          {
+            "% Var 2015 / 2014": "9.46%",
+            "SNC": "632411-Horas extraordinárias",
+            "Valor Contratualizado 2015": "2657048.00",
+            "Valor Estimado 2014": "2427405.33"
+          },
+          {
+            "% Var 2015 / 2014": "8.71%",
+            "SNC": "632412-Prevenções",
+            "Valor Contratualizado 2015": "924220.00",
+            "Valor Estimado 2014": "850172.46"
+          },
+          {
+            "% Var 2015 / 2014": "7.74%",
+            "SNC": "63242-Trabalho Em regime de turnos",
+            "Valor Contratualizado 2015": "1819705.00",
+            "Valor Estimado 2014": "1689031.88"
+          },
+          {
+            "% Var 2015 / 2014": "7.74%",
+            "SNC": "632421-Noites e suplementos",
+            "Valor Contratualizado 2015": "1819705.00",
+            "Valor Estimado 2014": "1689031.88"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "632422-Subsídio de turno",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "8.17%",
+            "SNC": "63243-Abono para falhas",
+            "Valor Contratualizado 2015": "1893.00",
+            "Valor Estimado 2014": "1750.00"
+          },
+          {
+            "% Var 2015 / 2014": "-14.36%",
+            "SNC": "63244-Subsídio de refeição",
+            "Valor Contratualizado 2015": "1790614.00",
+            "Valor Estimado 2014": "2090771.32"
+          },
+          {
+            "% Var 2015 / 2014": "-9.83%",
+            "SNC": "63245-Ajudas de custo",
+            "Valor Contratualizado 2015": "13525.00",
+            "Valor Estimado 2014": "15000.00"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "63246-Vestuário e Art. Pessoais",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "63247-Alim. e Alojamento",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "-28.21%",
+            "SNC": "63248-Outros Suplementos",
+            "Valor Contratualizado 2015": "1898744.00",
+            "Valor Estimado 2014": "2645000.00"
+          },
+          {
+            "% Var 2015 / 2014": "5.96%",
+            "SNC": "6325-Prestações sociais directas",
+            "Valor Contratualizado 2015": "68873.00",
+            "Valor Estimado 2014": "65000.00"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6326-Prémios de desempenho",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6328-Outras remunerações",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "185.48%",
+            "SNC": "633-Benefícios Pós Emprego",
+            "Valor Contratualizado 2015": "563824.00",
+            "Valor Estimado 2014": "197500.00"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "634-Indemnizações",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "-6.38%",
+            "SNC": "635-Encargos sobre remunerações",
+            "Valor Contratualizado 2015": "10619188.00",
+            "Valor Estimado 2014": "11343239.29"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6351-Encargos s/ remunerações - Doença",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "-6.38%",
+            "SNC": "6352-Encargos s/ remunerações - CGA",
+            "Valor Contratualizado 2015": "5526899.00",
+            "Valor Estimado 2014": "5903741.22"
+          },
+          {
+            "% Var 2015 / 2014": "-6.38%",
+            "SNC": "6353-Segurança Social",
+            "Valor Contratualizado 2015": "5092289.00",
+            "Valor Estimado 2014": "5439498.07"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "6358-Outros Encargos sobre remunerações",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "0.61%",
+            "SNC": "636-Seguros de acid. trab. e doenças profissionais",
+            "Valor Contratualizado 2015": "142151.00",
+            "Valor Estimado 2014": "141285.05"
+          },
+          {
+            "% Var 2015 / 2014": "33.79%",
+            "SNC": "637-Gastos de Ação Social",
+            "Valor Contratualizado 2015": "93653.00",
+            "Valor Estimado 2014": "70000.00"
+          },
+          {
+            "% Var 2015 / 2014": "23.82%",
+            "SNC": "638-Outros gastos com pessoal",
+            "Valor Contratualizado 2015": "643859.00",
+            "Valor Estimado 2014": "520000.00"
+          },
+          {
+            "% Var 2015 / 2014": "1.80%",
+            "SNC": "Sub-Total 63",
+            "Valor Contratualizado 2015": "64394841.00",
+            "Valor Estimado 2014": "63254709.96"
+          },
+          {
+            "% Var 2015 / 2014": "0.39%",
+            "SNC": "% S.Total Geral 63",
+            "Valor Contratualizado 2015": "57.18%",
+            "Valor Estimado 2014": "56.96%"
+          },
+          {
+            "% Var 2015 / 2014": "-3.25%",
+            "SNC": "Sub-Total 64",
+            "Valor Contratualizado 2015": "3126483.72",
+            "Valor Estimado 2014": "3231646.32"
+          },
+          {
+            "% Var 2015 / 2014": "-4.60%",
+            "SNC": "% S.Total Geral 64",
+            "Valor Contratualizado 2015": "2.78%",
+            "Valor Estimado 2014": "2.91%"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "Sub-Total 65",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": "0.00"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "% S.Total Geral 65",
+            "Valor Contratualizado 2015": "0.00%",
+            "Valor Estimado 2014": "0.00%"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "Sub-Total 66",
+            "Valor Contratualizado 2015": "0.00",
+            "Valor Estimado 2014": "0.00"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "% S.Total Geral 66",
+            "Valor Contratualizado 2015": "0.00%",
+            "Valor Estimado 2014": "0.00%"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "Sub-Total 67",
+            "Valor Contratualizado 2015": "600000.00",
+            "Valor Estimado 2014": "600000.00"
+          },
+          {
+            "% Var 2015 / 2014": "-1.85%",
+            "SNC": "% S.Total Geral 67",
+            "Valor Contratualizado 2015": "0.53%",
+            "Valor Estimado 2014": "0.54%"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "Sub-Total 68",
+            "Valor Contratualizado 2015": "1240000.00",
+            "Valor Estimado 2014": "1240000.00"
+          },
+          {
+            "% Var 2015 / 2014": "-1.79%",
+            "SNC": "% S.Total Geral 68",
+            "Valor Contratualizado 2015": "1.10%",
+            "Valor Estimado 2014": "1.12%"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "Sub-Total 69",
+            "Valor Contratualizado 2015": "0.00",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "% S.Total Geral 69",
+            "Valor Contratualizado 2015": "0.00%",
+            "Valor Estimado 2014": "0.00%"
+          },
+          {
+            "% Var 2015 / 2014": "1.41%",
+            "SNC": "Total de Gastos e Perdas",
+            "Valor Contratualizado 2015": "112610076.89",
+            "Valor Estimado 2014": "111042417.45"
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "page": 15,
+        "table_data": [
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "Sub-Total 71",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "% S.Total Geral 71",
+            "Valor Contratualizado 2015": "0.00%",
+            "Valor Estimado 2014": "0.00%"
+          },
+          {
+            "% Var 2015 / 2014": "1.99%",
+            "SNC": "721-SNS - Serviço nacional de Saúde (contrato-programa)",
+            "Valor Contratualizado 2015": "96004329.99",
+            "Valor Estimado 2014": "94127651.63"
+          },
+          {
+            "% Var 2015 / 2014": "-12.84%",
+            "SNC": "7211-Internamento SNS CP",
+            "Valor Contratualizado 2015": "42062503.41",
+            "Valor Estimado 2014": "48256329.29"
+          },
+          {
+            "% Var 2015 / 2014": "8.34%",
+            "SNC": "7212-Consulta SNS CP",
+            "Valor Contratualizado 2015": "17790151.50",
+            "Valor Estimado 2014": "16420016.00"
+          },
+          {
+            "% Var 2015 / 2014": "8.61%",
+            "SNC": "7213-Urgência /SAP SNS CP",
+            "Valor Contratualizado 2015": "14210800.00",
+            "Valor Estimado 2014": "13084218.60"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "7214-Quartos particulares SNS CP",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "12.74%",
+            "SNC": "7215-Hospital de dia SNS CP",
+            "Valor Contratualizado 2015": "1800194.00",
+            "Valor Estimado 2014": "1596762.00"
+          },
+          {
+            "% Var 2015 / 2014": "-11.76%",
+            "SNC": "7216-Meios complementares de diagnóstico e terapêutica SNS CP",
+            "Valor Contratualizado 2015": "56580.00",
+            "Valor Estimado 2014": "64124.00"
+          },
+          {
+            "% Var 2015 / 2014": "-11.76%",
+            "SNC": "72161-De diagnóstico SNS CP",
+            "Valor Contratualizado 2015": "56580.00",
+            "Valor Estimado 2014": "64124.00"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "72162-De terapêutica SNS CP",
+            "Valor Contratualizado 2015": "0.00",
+            "Valor Estimado 2014": "0.00"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "7217-Taxas Moderadoras SNS CP",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "36.57%",
+            "SNC": "7218-Outras prestações de serviços de saúde SNS CP",
+            "Valor Contratualizado 2015": "20084101.08",
+            "Valor Estimado 2014": "14706201.74"
+          },
+          {
+            "% Var 2015 / 2014": "3.45%",
+            "SNC": "72181-Serviço domiciliário SNS CP",
+            "Valor Contratualizado 2015": "198600.00",
+            "Valor Estimado 2014": "191980.00"
+          },
+          {
+            "% Var 2015 / 2014": "81.92%",
+            "SNC": "72182-GDH - ambulatório SNS CP",
+            "Valor Contratualizado 2015": "14640363.61",
+            "Valor Estimado 2014": "8047785.34"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "72183-Programas Verticais SNS CP",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "72184-Plano de convergência SNS CP",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "72185-Valor capitacional (ULS) SNS CP",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "-18.89%",
+            "SNC": "72186-Outras prestações de serviços de saúde SNS CP",
+            "Valor Contratualizado 2015": "5245137.47",
+            "Valor Estimado 2014": "6466436.40"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "7219-Outras prestações de serviços SNS CP",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "10.13%",
+            "SNC": "722-Outras entidades responsáveis",
+            "Valor Contratualizado 2015": "6598666.89",
+            "Valor Estimado 2014": "5991864.47"
+          },
+          {
+            "% Var 2015 / 2014": "-12.15%",
+            "SNC": "7221-Internamento Outras Ent Resp",
+            "Valor Contratualizado 2015": "1754460.37",
+            "Valor Estimado 2014": "1997141.38"
+          },
+          {
+            "% Var 2015 / 2014": "-1.48%",
+            "SNC": "7222-Consulta Outras Ent Resp",
+            "Valor Contratualizado 2015": "87329.00",
+            "Valor Estimado 2014": "88637.00"
+          },
+          {
+            "% Var 2015 / 2014": "-17.75%",
+            "SNC": "7223-Urgência /SAP Outras Ent Resp",
+            "Valor Contratualizado 2015": "543216.64",
+            "Valor Estimado 2014": "660483.85"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "7224-Quartos particulares Outras Ent Resp",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "7225-Hospital de dia Outras Ent Resp",
+            "Valor Contratualizado 2015": "0.00",
+            "Valor Estimado 2014": "0.00"
+          },
+          {
+            "% Var 2015 / 2014": "70.14%",
+            "SNC": "7226-Meios complementares de diagnóstico e terapêutica Outras Ent Resp",
+            "Valor Contratualizado 2015": "1957731.78",
+            "Valor Estimado 2014": "1150679.09"
+          },
+          {
+            "% Var 2015 / 2014": "20.00%",
+            "SNC": "72261-De diagnóstico Outras Ent Resp",
+            "Valor Contratualizado 2015": "120000.00",
+            "Valor Estimado 2014": "100000.00"
+          },
+          {
+            "% Var 2015 / 2014": "74.91%",
+            "SNC": "72262-De terapêutica Outras Ent Resp",
+            "Valor Contratualizado 2015": "1837731.78",
+            "Valor Estimado 2014": "1050679.09"
+          },
+          {
+            "% Var 2015 / 2014": "5.00%",
+            "SNC": "7227-Taxas moderadoras Outras Ent Resp",
+            "Valor Contratualizado 2015": "2069759.04",
+            "Valor Estimado 2014": "1971199.08"
+          },
+          {
+            "% Var 2015 / 2014": "50.47%",
+            "SNC": "7228-Outras prestações de serviços de saúde Outras Ent Resp",
+            "Valor Contratualizado 2015": "186170.06",
+            "Valor Estimado 2014": "123724.07"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "7229-Outras prestações de serviços Outras Ent Resp",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "2.48%",
+            "SNC": "Sub-Total 72",
+            "Valor Contratualizado 2015": "102602996.88",
+            "Valor Estimado 2014": "100119516.10"
+          },
+          {
+            "% Var 2015 / 2014": "0.99%",
+            "SNC": "% S.Total Geral 72",
+            "Valor Contratualizado 2015": "93.50%",
+            "Valor Estimado 2014": "92.58%"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "Sub-Total 73",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "% S.Total Geral 73",
+            "Valor Contratualizado 2015": "0.00%",
+            "Valor Estimado 2014": "0.00%"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "Sub-Total 74",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "% S.Total Geral 74",
+            "Valor Contratualizado 2015": "0.00%",
+            "Valor Estimado 2014": "0.00%"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "751-Subsidios do Estado e outros entes públicos",
+            "Valor Contratualizado 2015": "20000.00",
+            "Valor Estimado 2014": "20000.00"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "752-Subsídio de outras entidades",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "Sub-Total 75",
+            "Valor Contratualizado 2015": "20000.00",
+            "Valor Estimado 2014": "20000.00"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "% S.Total Geral 75",
+            "Valor Contratualizado 2015": "0.02%",
+            "Valor Estimado 2014": "0.02%"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "Sub-Total 76",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "% S.Total Geral 76",
+            "Valor Contratualizado 2015": "0.00%",
+            "Valor Estimado 2014": "0.00%"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "Sub-Total 77",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "% S.Total Geral 77",
+            "Valor Contratualizado 2015": "0.00%",
+            "Valor Estimado 2014": "0.00%"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "781-Rendimentos Suplementares",
+            "Valor Contratualizado 2015": "150000.00",
+            "Valor Estimado 2014": "150000.00"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "782-Descontos de Pronto Pagamento Obtidos",
+            "Valor Contratualizado 2015": "506000.00",
+            "Valor Estimado 2014": "506000.00"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "783-Recuperação de dívidas a receber",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "784-Ganhos em Inventários",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "785-Rendimen. ganhos em subsidiárias,assoc. e empreendi. conj.",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "786-Rendimentos e ganhos nos restantes investimentos financeiros",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "787-Rendimentos e ganhos em investimentos não financeiros",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "-12.19%",
+            "SNC": "788-Outros",
+            "Valor Contratualizado 2015": "6412233.39",
+            "Valor Estimado 2014": "7302035.89"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "SNC": "789-Outros rendimentos de participações de capital",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "-11.18%",
+            "SNC": "Sub-Total 78",
+            "Valor Contratualizado 2015": "7068233.39",
+            "Valor Estimado 2014": "7958035.89"
+          },
+          {
+            "% Var 2015 / 2014": "-12.50%",
+            "SNC": "% S.Total Geral 78",
+            "Valor Contratualizado 2015": "6.44%",
+            "Valor Estimado 2014": "7.36%"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "Sub-Total 79",
+            "Valor Contratualizado 2015": "44000.00",
+            "Valor Estimado 2014": "44000.00"
+          },
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "SNC": "% S.Total Geral 79",
+            "Valor Contratualizado 2015": "0.04%",
+            "Valor Estimado 2014": "0.04%"
+          },
+          {
+            "% Var 2015 / 2014": "1.47%",
+            "SNC": "Total de Rendimentos e Ganhos",
+            "Valor Contratualizado 2015": "109735230.27",
+            "Valor Estimado 2014": "108141551.99"
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "page": 17,
+        "table_data": [
+          {
+            "% Var 2015 / 2014": "-10.13%",
+            "Fluxo de caixa": "Recebimentos de clientes (AO): Clientes - externos",
+            "Valor Contratualizado 2015": "3833472.80",
+            "Valor Estimado 2014": "4265742.78"
+          },
+          {
+            "% Var 2015 / 2014": "-10.00%",
+            "Fluxo de caixa": "Recebimentos de clientes (AO): Clientes - setor público",
+            "Valor Contratualizado 2015": "96077924.00",
+            "Valor Estimado 2014": "106752325.45"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos de clientes (AO): Contribuintes",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "5.00%",
+            "Fluxo de caixa": "Recebimentos de clientes (AO): Utentes",
+            "Valor Contratualizado 2015": "2069759.04",
+            "Valor Estimado 2014": "1971199.08"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos de clientes (AO): Imposto sobre o rendimento e contribuições sociais (Recebimentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos de clientes (AO): Transferências e subsídios (Recebimentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "9.81%",
+            "Fluxo de caixa": "Pagamentos a fornecedores (AO): Fornecedores - externos",
+            "Valor Contratualizado 2015": "-46487399.59",
+            "Valor Estimado 2014": "-42333723.13"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Pagamentos a fornecedores (AO): Fornecedores - setor público",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "1.80%",
+            "Fluxo de caixa": "Pagamentos ao pessoal",
+            "Valor Contratualizado 2015": "-64394841.00",
+            "Valor Estimado 2014": "-63254709.96"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Outros recebimentos/pagamentos",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Transferências e subsídios (Pagamentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Juros a receber",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Juros a pagar",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Imposto sobre o rendimento e contribuições sociais (Pagamentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "-18.41%",
+            "Fluxo de caixa": "Outros recebimentos",
+            "Valor Contratualizado 2015": "2923864.55",
+            "Valor Estimado 2014": "3583795.49"
+          },
+          {
+            "% Var 2015 / 2014": "10.53%",
+            "Fluxo de caixa": "Outros pagamentos",
+            "Valor Contratualizado 2015": "-1392691.00",
+            "Valor Estimado 2014": "-1260000.00"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Fluxo de caixa (AO)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Fluxos de caixa das atividades operacionais",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "41.96%",
+            "Fluxo de caixa": "Pagamentos (Al): Ativos fixos tangíveis (Pagamentos)",
+            "Valor Contratualizado 2015": "-1920858.58",
+            "Valor Estimado 2014": "-1353127.14"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Pagamentos (Al): Bens de domínio público (Pagamentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Pagamentos (Al): Ativos intangíveis (Pagamentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Pagamentos (Al): Investimentos financeiros (Pagamentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Pagamentos (Al): Outros ativos (Pagamentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (Al): Ativos fixos tangiveis (Recebimentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (Al): Bens de domínio público (Recebimentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (Al): Ativos intangíveis (Recebimentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (Al): Investimentos financeiros (Recebimentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (Al): Outros ativos (Recebimentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (Al): Subsídios ao investimento",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (Al): Obrigações e outros títulos (Recebimentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (Al): Juros e rendimentos similares",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (Al): Dividendos (AI) (Recebimentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Fluxo de caixa (Al)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Fluxos de caixa das atividades de investimento",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (AF): Financiamentos obtidos (Recebimentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (AF): Realizações de fundos",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (AF): Cobertura de prejuízos",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (AF): Doações",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Recebimentos (AF): Outras operações de financiamento (Recebimentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Pagamentos (AF)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Pagamentos (AF): Financiamentos obtidos (Pagamentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Pagamentos (AF): Obrigações e outros títulos (Pagamentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Pagamentos (AF): Juros e gastos similares",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Pagamentos (AF): Dividendos (AF) (Pagamentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Pagamentos (AF): Redução de fundos",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Pagamentos (AF): Outras operações de financiamento (Pagamentos)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Fluxo de caixa (AF)",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Fluxos de caixa das atividades de financiamento",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Variação de caixa e seus equivalentes",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Fluxo de caixa": "Efeito das diferenças de câmbio",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "554.41%",
+            "Fluxo de caixa": "Caixa e equivalentes no início do período",
+            "Valor Contratualizado 2015": "9881493.67",
+            "Valor Estimado 2014": "1509991.10"
+          },
+          {
+            "% Var 2015 / 2014": "-94.02%",
+            "Fluxo de caixa": "Caixa e equivalentes no fim do período",
+            "Valor Contratualizado 2015": "590723.89",
+            "Valor Estimado 2014": "9881493.67"
+          }
+        ]
+      },
+      {
+        "table_index": 7,
+        "page": 18,
+        "table_data": [
+          {
+            "% Var 2015 / 2014": "0.00%",
+            "Caixa e equivalentes": "Numerário",
+            "Valor Contratualizado 2015": "5150.00",
+            "Valor Estimado 2014": "5150.00"
+          },
+          {
+            "% Var 2015 / 2014": "-98.54%",
+            "Caixa e equivalentes": "Conta no Tesouro",
+            "Valor Contratualizado 2015": "85573.89",
+            "Valor Estimado 2014": "5876343.67"
+          },
+          {
+            "% Var 2015 / 2014": "-87.50%",
+            "Caixa e equivalentes": "Depósitos à ordem",
+            "Valor Contratualizado 2015": "500000.00",
+            "Valor Estimado 2014": "4000000.00"
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Caixa e equivalentes": "Outros depósitos bancários",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "",
+            "Caixa e equivalentes": "Outros activos financeiros",
+            "Valor Contratualizado 2015": "",
+            "Valor Estimado 2014": ""
+          },
+          {
+            "% Var 2015 / 2014": "-94.02%",
+            "Caixa e equivalentes": "Totais de Caixa e equivalentes",
+            "Valor Contratualizado 2015": "590723.89",
+            "Valor Estimado 2014": "9881493.67"
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "page": 19,
+        "table_data": [
+          {
+            "AL - Activo Líquido (2014)": "40915956.08",
+            "AL - Activo Líquido (2015)": "39219051.36",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Não Corrente: Ativos fixos tangíveis"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Não Corrente: Bens de domínio público"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Não Corrente: Propriedades de investimento"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Não Corrente: Goodwill"
+          },
+          {
+            "AL - Activo Líquido (2014)": "0.00",
+            "AL - Activo Líquido (2015)": "0.00",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Não Corrente: Ativos intangíveis"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Não Corrente: Ativos biológicos (Ativo Não Corrente)"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Não Corrente: Participações financeiras - método da equivalência patrimonial"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Não Corrente: Participações financeiras - outros métodos"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Não Corrente: Tutela /acionistas /sócios (Ativo Não Corrente)"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Não Corrente: Outros ativos financeiros (Ativo Não Corrente)"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Não Corrente: Ativos por impostos diferidos"
+          },
+          {
+            "AL - Activo Líquido (2014)": "3328800.28",
+            "AL - Activo Líquido (2015)": "3328800.28",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Corrente: Inventários"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Corrente: Ativos biológicos (Ativo Corrente)"
+          },
+          {
+            "AL - Activo Líquido (2014)": "40629903.99",
+            "AL - Activo Líquido (2015)": "44460113.87",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Corrente: Clientes"
+          },
+          {
+            "AL - Activo Líquido (2014)": "2184.41",
+            "AL - Activo Líquido (2015)": "2184.41",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Corrente: Adiantamentos a fornecedores"
+          },
+          {
+            "AL - Activo Líquido (2014)": "444882.27",
+            "AL - Activo Líquido (2015)": "444882.27",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Corrente: Estado e outros entes públicos"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Corrente: Tutela /acionistas /sócios (Ativo Corrente)"
+          },
+          {
+            "AL - Activo Líquido (2014)": "18890175.11",
+            "AL - Activo Líquido (2015)": "18890175.11",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Corrente: Outras contas a receber"
+          },
+          {
+            "AL - Activo Líquido (2014)": "61610.49",
+            "AL - Activo Líquido (2015)": "61610.49",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Corrente: Diferimentos"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Corrente: Ativos financeiros detidos para negociação"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Corrente: Outros ativos financeiros (Ativo Corrente)"
+          },
+          {
+            "AL - Activo Líquido (2014)": "",
+            "AL - Activo Líquido (2015)": "",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Corrente: Ativos não correntes detidos para venda"
+          },
+          {
+            "AL - Activo Líquido (2014)": "9881493.67",
+            "AL - Activo Líquido (2015)": "590723.89",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Ativo Corrente: Caixa e depósitos bancários"
+          },
+          {
+            "AL - Activo Líquido (2014)": "114155006.30",
+            "AL - Activo Líquido (2015)": "106997541.68",
+            "AL - Activo Líquido (2016)": "",
+            "Ativo": "Total do Ativo"
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "page": 20,
+        "table_data": [
+          {
+            "Fundos Próprios e Passivo (2014)": "39900000.00",
+            "Fundos Próprios e Passivo (2015)": "39900000.00",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Capital Próprio SNC (título): Capital"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "",
+            "Fundos Próprios e Passivo (2015)": "",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Capital Próprio SNC (título): Outros fundos patrimoniais"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "266261.07",
+            "Fundos Próprios e Passivo (2015)": "266261.07",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Capital Próprio SNC (título): Reservas legais"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "39582513.24",
+            "Fundos Próprios e Passivo (2015)": "39582513.24",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Capital Próprio SNC (título): Reservas decorrentes da transferência de ativos"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "3414346.18",
+            "Fundos Próprios e Passivo (2015)": "3414346.18",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Capital Próprio SNC (título): Outras reservas"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "-38317600.13",
+            "Fundos Próprios e Passivo (2015)": "-41218465.59",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Capital Próprio SNC (título): Resultados transitados"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "",
+            "Fundos Próprios e Passivo (2015)": "",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Capital Próprio SNC (título): Ajustamentos em ativos financeiros"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "",
+            "Fundos Próprios e Passivo (2015)": "",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Capital Próprio SNC (título): Excedentes de revalorização"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "25763053.62",
+            "Fundos Próprios e Passivo (2015)": "25763053.62",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Capital Próprio SNC (título): Outras variações nos fundos patrimoniais"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "-2900865.46",
+            "Fundos Próprios e Passivo (2015)": "-2874846.62",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Capital Próprio SNC (título): Resultado líquido do período"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "67707708.52",
+            "Fundos Próprios e Passivo (2015)": "64832861.90",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Total do Capital Próprio"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "2111334.45",
+            "Fundos Próprios e Passivo (2015)": "2111334.45",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Não Corrente SNC (título): Provisões"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "",
+            "Fundos Próprios e Passivo (2015)": "",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Não Corrente SNC (título): Financiamentos obtidos (Passivo Não Corrente)"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "",
+            "Fundos Próprios e Passivo (2015)": "",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Não Corrente SNC (título): Responsabilidades por beneficios pós-emprego"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "",
+            "Fundos Próprios e Passivo (2015)": "",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Não Corrente SNC (título): Passivos por impostos diferidos"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "",
+            "Fundos Próprios e Passivo (2015)": "",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Não Corrente SNC (título): Outras contas a pagar (Passivo Não Corrente)"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "21525972.80",
+            "Fundos Próprios e Passivo (2015)": "18134634.38",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Corrente SNC (título): Fornecedores"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "71710.76",
+            "Fundos Próprios e Passivo (2015)": "71710.76",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Corrente SNC (título): Adiantamentos de clientes"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "2407073.37",
+            "Fundos Próprios e Passivo (2015)": "2407073.37",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Corrente SNC (título): Estado e outros entes públicos (Passivo Corrente)"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "",
+            "Fundos Próprios e Passivo (2015)": "",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Corrente SNC (título): Tutela /acionistas /sócios (Passivo Corrente)"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "",
+            "Fundos Próprios e Passivo (2015)": "",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Corrente SNC (título): Financiamentos obtidos (Passivo Corrente)"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "19739106.42",
+            "Fundos Próprios e Passivo (2015)": "19247826.84",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Corrente SNC (título): Outras contas a pagar (Passivo Corrente)"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "592099.98",
+            "Fundos Próprios e Passivo (2015)": "192099.98",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Corrente SNC (título): Diferimentos (Passivo Corrente)"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "",
+            "Fundos Próprios e Passivo (2015)": "",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Corrente SNC (título): Passivos financeiros detidos para negociação"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "",
+            "Fundos Próprios e Passivo (2015)": "",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Corrente SNC (título): Outros passivos financeiros"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "",
+            "Fundos Próprios e Passivo (2015)": "",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Passivo Corrente SNC (título): Passivos não correntes detidos para venda"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "46447297.78",
+            "Fundos Próprios e Passivo (2015)": "42164679.78",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Total do Passivo"
+          },
+          {
+            "Fundos Próprios e Passivo (2014)": "114155006.30",
+            "Fundos Próprios e Passivo (2015)": "106997541.68",
+            "Fundos Próprios e Passivo (2016)": "",
+            "Item": "Total do Capital Próprio e do Passivo"
+          }
+        ]
+      },
+      {
+        "table_index": 10,
+        "page": 22,
+        "table_data": [
+          {
+            "Field": "Indicador A.1",
+            "Value": "Percentagem de 1ªs consultas médicas no total de consultas médicas"
+          },
+          {
+            "Field": "Tipo de Indicador",
+            "Value": "Objectivo contrato-programa 2015"
+          },
+          {
+            "Field": "Entidade Gestora",
+            "Value": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+          },
+          {
+            "Field": "Tipo de falha",
+            "Value": "Acesso"
+          },
+          {
+            "Field": "Período aplicável",
+            "Value": "Ano 2015"
+          },
+          {
+            "Field": "Objectivo",
+            "Value": "Aferir o acesso a Consulta Externa (1ºs consultas) de especialidade."
+          },
+          {
+            "Field": "Descrição do Indicador",
+            "Value": "Indicador que exprime a percentagem de 1ºs consultas médicas, no total de consultas médicas, ocorridas no período em análise."
+          },
+          {
+            "Field": "Cláusula CP",
+            "Value": "Acordo Modificativo 2015 - Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2015 - ULS: Cláusula 4ª do Anexo (Apendice II)"
+          },
+          {
+            "Field": "Unidade de medida",
+            "Value": "% (uma casa décimal)"
+          },
+          {
+            "Field": "Frequência de monitorização",
+            "Value": "Mensal"
+          },
+          {
+            "Field": "Fonte dos dados/ Base da monitorização",
+            "Value": "SI da Instituição"
+          },
+          {
+            "Field": "Responsável pela monitorização",
+            "Value": "Instituição / ARS"
+          },
+          {
+            "Field": "Fórmula",
+            "Value": "(Nº de 1ºs consultas médicas/Total de consultas médicas) X 100"
+          },
+          {
+            "Field": "Prazo Entrega Reporting",
+            "Value": "Dia 20 do mês n+1"
+          },
+          {
+            "Field": "Valor de Referência (Meta)",
+            "Value": "Definido no Acordo Modificativo 2015 Hospitais / Centros Hospitalares: Cláusula 5ª (Apendice II). ULS: Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+          },
+          {
+            "Field": "Orgão fiscalizador",
+            "Value": "ARS"
+          },
+          {
+            "Field": "Valor de base",
+            "Value": "valor histórico da Instituição (opcional)"
+          },
+          {
+            "Field": "Observações",
+            "Value": "Valor acumulado. Consideram-se consultas com ou sem a presença do utente e consultas de telemedicina, quer para 1ºs consultas quer para total de consultas. Não são consideradas as consultas de Medicina do Trabalho."
+          }
+        ]
+      },
+      {
+        "table_index": 11,
+        "page": 22,
+        "table_data": [
+          {
+            "Definição": "Nº de 1ºs consultas realizadas por profissionais médicos",
+            "Fonte informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº 1's consultas",
+            "Variáveis": "1's consultas médicas"
+          },
+          {
+            "Definição": "Total de consultas (incluindo 1ºs) realizadas por profissionais médicos",
+            "Fonte informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº total de consultas",
+            "Variáveis": "Total consultas médicas"
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "page": 23,
+        "table_data": [
+          {
+            "Field": "Indicador A.2",
+            "Value": "Percentagem de utentes referenciados para consulta externa (CTH) atendidos em tempo adequado"
+          },
+          {
+            "Field": "Tipo de Indicador",
+            "Value": "Objectivo contrato-programa 2015"
+          },
+          {
+            "Field": "Entidade Gestora",
+            "Value": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+          },
+          {
+            "Field": "Tipo de falha",
+            "Value": "Acesso"
+          },
+          {
+            "Field": "Período aplicável",
+            "Value": "Ano 2015"
+          },
+          {
+            "Field": "Objectivo",
+            "Value": "Promover as boas práticas da referenciação para acesso a 1ª CE."
+          },
+          {
+            "Field": "Descrição do Indicador",
+            "Value": "Indicador que exprime em valor percentual a proporção de utentes referenciados (CTH) para 1ª Consulta Externa, com CE prestada dentro do Tempo Máximo de Resposta Garantido (TMRG), no total de 1ªs CE prestadas (CTH), no periodo em análise."
+          },
+          {
+            "Field": "Cláusula CP",
+            "Value": "Acordo Modificativo 2015- Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2015 - ULS: Cláusula 4ª do Anexo (Apendice II)"
+          },
+          {
+            "Field": "Unidade de medida",
+            "Value": "% (uma casa décimal)"
+          },
+          {
+            "Field": "Frequência de monitorização",
+            "Value": "Mensal"
+          },
+          {
+            "Field": "Fonte dos dados/ Base da monitorização",
+            "Value": "ADW-CTH"
+          },
+          {
+            "Field": "Responsável pela monitorização",
+            "Value": "Instituição / ARS"
+          },
+          {
+            "Field": "Fórmula",
+            "Value": "(Nº de 1ºs CE (CTH) dentro do TMRG / Nº de 1ºs CE (CTH)) X 100"
+          },
+          {
+            "Field": "Prazo Entrega Reporting",
+            "Value": "Dia 20 do mês n+1"
+          },
+          {
+            "Field": "Valor de Referência (Meta)",
+            "Value": "Definido no Acordo Modificativo 2015 Hospitais / Centros Hospitalares: Cláusula 5ª (Apendice II). ULS: Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+          },
+          {
+            "Field": "Orgão fiscalizador",
+            "Value": "ARS"
+          },
+          {
+            "Field": "Valor de base",
+            "Value": "valor histórico da Instituição (opcional)"
+          },
+          {
+            "Field": "Observações",
+            "Value": "CE - Consulta Externa (só são consideradas CE registadas no CTH), variaável com fonte de integraçao ADW-CTH\nTMRG - estipulado na Portaria nº 1529/2008, de 26 de Dezembro\nNão são consideradas no total de CE as consultas de especialidade de medicina do trabalho."
+          }
+        ]
+      },
+      {
+        "table_index": 13,
+        "page": 23,
+        "table_data": [
+          {
+            "Definição": "Valor acumulado de CE, com registo no SI CTH, realizadas dentro do tempo máximo de resposta garantido, no período.",
+            "Fonte Informação/ SI": "ADW-CTH",
+            "Unidade de medida": "nº 1ºs consultas externas",
+            "Variáveis": "1ªs CE (CTH)TMRG"
+          },
+          {
+            "Definição": "Valor acumulado de CE. com registo no SI CTH, realizadas no período.",
+            "Fonte Informação/ SI": "ADW-CTH",
+            "Unidade de medida": "nº 1ºs consultas externas",
+            "Variáveis": "1ºs CE (CTH)"
+          }
+        ]
+      },
+      {
+        "table_index": 14,
+        "page": 24,
+        "table_data": [
+          {
+            "Field": "Indicador A.3",
+            "Value": "Peso das consultas externas médicas com registo de alta no total de consultas externas"
+          },
+          {
+            "Field": "Tipo de Indicador",
+            "Value": "Objectivo contrato-programa 2015"
+          },
+          {
+            "Field": "Entidade Gestora",
+            "Value": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+          },
+          {
+            "Field": "Tipo de falha",
+            "Value": "Acesso"
+          },
+          {
+            "Field": "Período aplicável",
+            "Value": "Ano 2015"
+          },
+          {
+            "Field": "Objectivo",
+            "Value": "Incentivar a referenciação de doentes dos cuidados hospitalares para os cuidados de saúde primários."
+          },
+          {
+            "Field": "Descrição do Indicador",
+            "Value": "Indicador que exprime em valor percentual a proporção de consultas externas médicas com registo de alta clínica no total de consultas externas."
+          },
+          {
+            "Field": "Cláusula CP",
+            "Value": "Acordo Modificativo 2015- Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2015 - ULS: Cláusula 4ª do Anexo (Apendice II)"
+          },
+          {
+            "Field": "Unidade de medida",
+            "Value": "% (uma casa décimal)"
+          },
+          {
+            "Field": "Frequência de monitorização",
+            "Value": "Mensal"
+          },
+          {
+            "Field": "Fonte dos dados/ Base da monitorização",
+            "Value": "SI da Instituição"
+          },
+          {
+            "Field": "Responsável pela monitorização",
+            "Value": "Instituição / ARS"
+          },
+          {
+            "Field": "Fórmula",
+            "Value": "(Nº de consultas externas médicas com registo de alta / Total consultas externas médicas) X 100"
+          },
+          {
+            "Field": "Prazo Entrega Reporting",
+            "Value": "Dia 20 do mês n+1"
+          },
+          {
+            "Field": "Valor de Referência (Meta)",
+            "Value": "Definido no Acordo Modificativo 2015 Hospitais / Centros Hospitalares: Cláusula 5ª (Apendice II), ULS: Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+          },
+          {
+            "Field": "Orgão fiscalizador",
+            "Value": "ARS"
+          },
+          {
+            "Field": "Valor de base",
+            "Value": "valor histórico da Instituição (opcional)"
+          },
+          {
+            "Field": "Observações",
+            "Value": "Valor acumulado. Consideram-se consultas com ou sem a presença do utente e consultas de telemedicina. Não são consideradas as consultas de Medicina do Trabalho."
+          }
+        ]
+      },
+      {
+        "table_index": 15,
+        "page": 24,
+        "table_data": [
+          {
+            "Definição": "Consultas externas realizadas por profissionais médicos, para as quais existe registo de alta clínica",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº de consultas com registo de alta clínica",
+            "Variáveis": "Nº de consultas externas médicas com registo de alta"
+          },
+          {
+            "Definição": "Total de consultas externas realizadas por profissionais médicos.",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº total de consultas",
+            "Variáveis": "Total consultas externas médicas"
+          }
+        ]
+      },
+      {
+        "table_index": 16,
+        "page": 25,
+        "table_data": [
+          {
+            "Field": "Indicador A.4",
+            "Value": "Percentagem de incritos em Lic (neoplasias malignas) com tempo de espera inferior ou igual ao TMRG"
+          },
+          {
+            "Field": "Tipo de Indicador",
+            "Value": "Objectivo contrato-programa 2015"
+          },
+          {
+            "Field": "Entidade Gestora",
+            "Value": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+          },
+          {
+            "Field": "Tipo de falha",
+            "Value": "Acesso"
+          },
+          {
+            "Field": "Período aplicável",
+            "Value": "Ano 2015"
+          },
+          {
+            "Field": "Objectivo",
+            "Value": "Garantir o acesso atempado ao tratamento cirúrgico para situações de neoplasia maligna (intervenção cirurgica)"
+          },
+          {
+            "Field": "Descrição do Indicador",
+            "Value": "Indicador que exprime em valor percentual a proporção de nº de doentes inscritos para cirurgia classificada como neoplasia maligna e que se encontram a aguardar pela intervenção, dentro dos tempos máximos de resposta garantida, no total de doentes inscritos com neoplasia maligna, no fim do período em análise."
+          },
+          {
+            "Field": "Cláusula CP",
+            "Value": "Acordo Modificativo 2015 Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2015 - ULS: Cláusula 4ª do Anexo (Apendice II)"
+          },
+          {
+            "Field": "Unidade de medida",
+            "Value": "% (uma casa décimal)"
+          },
+          {
+            "Field": "Frequência de monitorização",
+            "Value": "Mensal"
+          },
+          {
+            "Field": "Fonte dos dados/ Base da monitorização",
+            "Value": "SIGIC"
+          },
+          {
+            "Field": "Responsável pela monitorização",
+            "Value": "Instituição / ARS"
+          },
+          {
+            "Field": "Fórmula",
+            "Value": "(Nº Insc. LIC NM com tempo de espera <= TMRG / Nº Insc. LIC NM) X 100"
+          },
+          {
+            "Field": "Prazo Entrega Reporting",
+            "Value": "Dia 20 do mês n+1"
+          },
+          {
+            "Field": "Valor de Referência (Meta)",
+            "Value": "Definido no Acordo Modificativo 2015 Hospitais / Centros Hospitalares: Cláusula 5ª (Apendice II), ULS: Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+          },
+          {
+            "Field": "Orgão fiscalizador",
+            "Value": "ARS"
+          },
+          {
+            "Field": "Valor de base",
+            "Value": "valor histórico da Instituição (opcional)"
+          },
+          {
+            "Field": "Observações",
+            "Value": "LIC - Nº de Inscritos em Cirurgia\nNM - Neoplasia Maligna"
+          }
+        ]
+      },
+      {
+        "table_index": 17,
+        "page": 25,
+        "table_data": [
+          {
+            "Definição": "Valor da LIC classificada como neoplasia maligna considerando apenas os doentes que se encontram a aguardar cirurgia dentro do TMRG que lhes foi atribuído, no fim do período.",
+            "Fonte Informação/ SI": "SI SIGIC",
+            "Unidade de medida": "nº inscritos",
+            "Variáveis": "LIC <=TMRG"
+          },
+          {
+            "Definição": "Valor da LIC classificada como neoplasia maligna considerando todos doentes que se encontram a aguardar cirurgia, no fim do período.",
+            "Fonte Informação/ SI": "SI SIGIC",
+            "Unidade de medida": "nº inscritos",
+            "Variáveis": "LIC"
+          }
+        ]
+      },
+      {
+        "table_index": 18,
+        "page": 26,
+        "table_data": [
+          {
+            "Field": "Indicador A.5",
+            "Value": "Permilagem de doentes sinalizados para a RNCCI, em tempo adequado, no total de doentes tratados (especialidades seleccionadas)"
+          },
+          {
+            "Field": "Tipo de indicador",
+            "Value": "Objectivo contrato-programa 2015"
+          },
+          {
+            "Field": "Entidade Gestora",
+            "Value": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+          },
+          {
+            "Field": "Tipo de falha",
+            "Value": "Acesso"
+          },
+          {
+            "Field": "Período aplicável",
+            "Value": "Ano 2015"
+          },
+          {
+            "Field": "Objectivo",
+            "Value": "Promover as boas práticas de referenciação, incentivando a sinalização atempada de doentes, para posterior referenciação para a RNCCI."
+          },
+          {
+            "Field": "Descrição do Indicador",
+            "Value": "Indicador que exprime, a proporção de doentes sinalizados atempadamente, para referenciaçao para a RNCCI, no total de doentes tratados das especialidades (serviços) identificadas."
+          },
+          {
+            "Field": "Cláusula CP",
+            "Value": "Acordo Modificativo 2015 Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2015-ULS: Cláusula 4ª do Anexo (Apendice II)"
+          },
+          {
+            "Field": "Unidade de medida",
+            "Value": "‰ (duas casas décimais)"
+          },
+          {
+            "Field": "Frequencia de monitorização",
+            "Value": "Mensal"
+          },
+          {
+            "Field": "Fonte dos dados/ Base da monitorização",
+            "Value": "SI GESTCARE"
+          },
+          {
+            "Field": "Responsável pela monitorização",
+            "Value": "Instituição/ARS"
+          },
+          {
+            "Field": "Fórmula",
+            "Value": "(N° de doentes sinalizados atempadamente das especialidades selecionadas / Total de doentes tratados das especialidades selecionadas)*1000"
+          },
+          {
+            "Field": "Prazo Entrega Reporting",
+            "Value": "Dia 20 do mês n+1"
+          },
+          {
+            "Field": "Valor de Referência (Meta)",
+            "Value": "Definido no Acordo Modificativo 2015 Hospitais / Centros Hospitalares: Cláusula 5ª (Apendice II). ULS: Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+          },
+          {
+            "Field": "Orgão fiscalizador",
+            "Value": "ARS"
+          },
+          {
+            "Field": "Valor de base",
+            "Value": "valor histórico da Instituição (opcional)"
+          },
+          {
+            "Field": "Observações",
+            "Value": "Sinalização atempada, sempre que esta ocorre antes do prazo limite estabelecido (estabelecido - ao que vier a ser negociado por cada ARS); Em termos de boas práticas a UMCCI aponta para que os doentes sejam sinalizados até 4 dias após o internamento no serviço que faz a sinalização. Sınalização, corresponde ao registo no SI GESTCARE, da existência de um doente susceptível de referenciação para a RNCCI. Tempo de sinalização corresponde ao nº de dias entre a data de internamento do episodio ou a data de internamento do Serviço que identifica a necessidade e o registo da sinalização no SI GEST CARE. Exemplo: Data de internamento 20/01/2014. Data de sinalização 29/01/2014 Tempo entre a data de internamento do episódio e a data de sinalização = 29-20=9 9 dias é o tempo de sinalização."
+          }
+        ]
+      },
+      {
+        "table_index": 19,
+        "page": 26,
+        "table_data": [
+          {
+            "Definição": "Nº de doentes com registo no SI GESTCARE para eventual referenciação para a RNCCI, por parte da EGA, com registo efectuado até ao prazo limite estabelecido.",
+            "Fonte Informação/ SI": "SI GESTCARE",
+            "Unidade de medida": "nº de doentes",
+            "Variáveis": "Nº de doentes sinalizados atempadamente"
+          },
+          {
+            "Definição": "Doentes que deixaram de permanecer internados num estabelecimento de saúde num determinado período e ainda os que transitaram para o período seguinte",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº de doentes",
+            "Variáveis": "N° de doentes tratados"
+          }
+        ]
+      },
+      {
+        "table_index": 20,
+        "page": 27,
+        "table_data": [
+          {
+            "Field": "Indicador B.1",
+            "Value": "Demora Média"
+          },
+          {
+            "Field": "Tipo de Indicador",
+            "Value": "Objectivo contrato-programa 2015"
+          },
+          {
+            "Field": "Entidade Gestora",
+            "Value": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+          },
+          {
+            "Field": "Tipo de falha",
+            "Value": "Desempenho Assistencial"
+          },
+          {
+            "Field": "Período aplicável",
+            "Value": "Ano 2015"
+          },
+          {
+            "Field": "Objectivo",
+            "Value": "Incentivar a eficiência"
+          },
+          {
+            "Field": "Descrição do Indicador",
+            "Value": "Indicador que exprime o número médio de dias de internamento por doente saído de um estabelecimento de saúde num período. Fonte: INE"
+          },
+          {
+            "Field": "Cláusula CP",
+            "Value": "Acordo Modificativo 2015- Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2015 - ULS: Cláusula 4ª do Anexo (Apendice II)"
+          },
+          {
+            "Field": "Unidade de medida",
+            "Value": "dias (duas casas décimais)"
+          },
+          {
+            "Field": "Frequência de monitorização",
+            "Value": "Mensal"
+          },
+          {
+            "Field": "Fonte dos dados/ Base da monitorização",
+            "Value": "SI da Instituição"
+          },
+          {
+            "Field": "Responsável pela monitorização",
+            "Value": "Instituição / ARS"
+          },
+          {
+            "Field": "Fórmula",
+            "Value": "Nº de dias de internamento do período em análise / Nº de doentes saídos desse período"
+          },
+          {
+            "Field": "Prazo Entrega Reporting",
+            "Value": "Dia 20 do mês n+1"
+          },
+          {
+            "Field": "Valor de Referência (Meta)",
+            "Value": "Definido no Acordo Modificativo 2015 Hospitais / Centros Hospitalares: Cláusula 5ª (Apendice II), ULS: Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+          },
+          {
+            "Field": "Orgão fiscalizador",
+            "Value": "ARS"
+          },
+          {
+            "Field": "Valor de base",
+            "Value": "valor histórico da Instituição (opcional)"
+          },
+          {
+            "Field": "Observações",
+            "Value": ""
+          }
+        ]
+      },
+      {
+        "table_index": 21,
+        "page": 27,
+        "table_data": [
+          {
+            "Definição": "Total de dias de internamento de todos os doentes com excepção dos dias de alta (não são considerados os dias de berçário, de quartos particulares e SO < 24h.)",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº dias",
+            "Variáveis": "Dias de internamento"
+          },
+          {
+            "Definição": "Total de doentes saidos do hospital no período em análise",
+            "Fonte Informação/ SI": "SI da Instituição",
+            "Unidade de medida": "nº doentes saídos",
+            "Variáveis": "Doentes saidos"
+          }
+        ]
+      },
+      {
+        "table_index": 22,
+        "page": 28,
+        "table_data": [
+          {
+            "Field": "Indicador B.2",
+            "Value": "Percentagem de reinternamentos em 30 dias"
+          },
+          {
+            "Field": "Tipo de Indicador",
+            "Value": "Objectivo contrato-programa 2015"
+          },
+          {
+            "Field": "Entidade Gestora",
+            "Value": "Hospital, Centro Hospitalar. Unidade Local de Saúde"
+          },
+          {
+            "Field": "Tipo de falha",
+            "Value": "Qualidade de Serviço"
+          },
+          {
+            "Field": "Período aplicável",
+            "Value": "Ano 2015"
+          },
+          {
+            "Field": "Objectivo",
+            "Value": "Monitorização de altas."
+          },
+          {
+            "Field": "Descrição do Indicador",
+            "Value": "Indicador que exprime, em valor percentual, o nº de episódios de internamento ocorridos nos 30 dias posteriores à alta no total de episódios internamento do periodo. São considerados apenas os reinternamentos cujo 1º internamento ocorreu no periodo em análise."
+          },
+          {
+            "Field": "Cláusula CP",
+            "Value": "Acordo Modificativo 2015 Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apêndice II) Acordo Modificativo 2015 - ULS: Cláusula 4º do Anexo (Apendice II)"
+          },
+          {
+            "Field": "Unidade de medida",
+            "Value": "% (uma casa décimal)"
+          },
+          {
+            "Field": "Frequência de monitorização",
+            "Value": "Mensal"
+          },
+          {
+            "Field": "Fonte dos dados/ Base da monitorização",
+            "Value": "Base dados nacional de GDH"
+          },
+          {
+            "Field": "Responsável pela monitorização",
+            "Value": "Instituição / ARS"
+          },
+          {
+            "Field": "Fórmula",
+            "Value": "(Total de reinternamentos ocorridos até 30 dias após a alta do doente / Total de episódios de internamento, no período em análise) X 100"
+          },
+          {
+            "Field": "Prazo Entrega Reporting",
+            "Value": "Dia 20 do mês n+1"
+          },
+          {
+            "Field": "Valor de Referência (Meta)",
+            "Value": "Definido no Acordo Modificativo 2015 Hospitais / Centros Hospitalares: Cláusula 5ª (Apendice II). ULS: Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+          },
+          {
+            "Field": "Orgão fiscalizador",
+            "Value": "ARS/ACSS"
+          },
+          {
+            "Field": "Valor de base",
+            "Value": "valor histórico da Instituição (opcional)"
+          },
+          {
+            "Field": "Observações",
+            "Value": "Este indicador é fornecido pela ACSS e calculado a partir dos episódios codificados e agrupados em GDH, enviados pelos hospitais e que constam na base de dados nacional de GDH da ACSS (UOFC). São considerados os valores acumulados. São retirados os episódios com menos de 24 horas considerados inválidos para facturação (episódios com menos de 24 horas, sem preço de ambulatório e com destino após alta diferente de morto ou alta contra parecer médico). São excluidos do segundo episódio os seguintes GDH: 249 Disfunção, reacção ou complicação de dispositivo ou procedimento ortopédico 317 Internamento para diálise renal 409 Radioterapia 410 Quimioterapia 465 Continuação de cuidados, com história de doença maligna como diagnóstico adicional 466 Continuação de cuidados, sem história de doença maligna como diagnóstico adicional 635 Continuação de cuidados com recém-nascidos para aumento de peso 636 Continuação de cuidados no lactente para aumento de peso, idade >28 dias e <1 ano 754 Cuidados terciários. idade superior ou igual a 1 ano 876 Quimioterapia com leucemia aguda como diagnóstico adicional ou com uso de alta dose de agente quimioterápico"
+          }
+        ]
+      },
+      {
+        "table_index": 23,
+        "page": 28,
+        "table_data": [
+          {
+            "Definição": "Total de reinternamentos nos 30 dias posteriores à alta do doente. Sao considerados apenas os reinternamentos cujo 1º internamento também ocorreu no periodo em análise.",
+            "Fonte Informação / SI": "ACSS: Base dados GDH",
+            "Unidade de medida": "Nº de episódios",
+            "Variáveis": "Nº reinternamentos nos em 30 dias"
+          },
+          {
+            "Definição": "Total de internamentos com alta no periodo em análise",
+            "Fonte Informação / SI": "ACSS: Base dados GDH",
+            "Unidade de medida": "Nº de episódios",
+            "Variáveis": "Total de episódios de internamento"
+          }
+        ]
+      },
+      {
+        "table_index": 24,
+        "page": 29,
+        "table_data": [
+          {
+            "Field": "Indicador B.3",
+            "Value": "Percentagem de doentes saídos (DS) com duração de internamento acima do limiar máximo"
+          },
+          {
+            "Field": "Tipo de Indicador",
+            "Value": "Objectivo contrato-programa 2015"
+          },
+          {
+            "Field": "Entidade Gestora",
+            "Value": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+          },
+          {
+            "Field": "Tipo de falha",
+            "Value": "Qualidade de Serviço"
+          },
+          {
+            "Field": "Período aplicável",
+            "Value": "Ano 2015"
+          },
+          {
+            "Field": "Objectivo",
+            "Value": "Monitorização do tempo de internamento."
+          },
+          {
+            "Field": "Descrição do Indicador",
+            "Value": "Indicador que exprime, em valor percentual, o nº de episódios de internamento com periodo de internamento superior ao limiar máximo do GDH do episódio, no total de episódios internamento."
+          },
+          {
+            "Field": "Cláusula CP",
+            "Value": "Acordo Modificativo 2015 Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apéndice II) Acordo Modificativo 2015 - ULS: Cláusula 4ª do Anexo (Apendice II)"
+          },
+          {
+            "Field": "Unidade de medida",
+            "Value": "% (duas casas décimais)"
+          },
+          {
+            "Field": "Frequência de monitorização",
+            "Value": "Mensal"
+          },
+          {
+            "Field": "Fonte dos dados/ Base da monitorização",
+            "Value": "Base dados nacional de GDH"
+          },
+          {
+            "Field": "Responsável pela monitorização",
+            "Value": "Instituição / ARS"
+          },
+          {
+            "Field": "Fórmula",
+            "Value": "(Total de DS At > L max. / Total de DS, no período em análise) X 100"
+          },
+          {
+            "Field": "Prazo Entrega Reporting",
+            "Value": "Dia 20 do mês n+1"
+          },
+          {
+            "Field": "Valor de Referencia (Meta)",
+            "Value": "Definido no Acordo Modificativo 2015 Hospitais / Centros Hospitalares: Cláusula 5ª (Apendice II), ULS: Cláusula 4º do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+          },
+          {
+            "Field": "Orgão fiscalizador",
+            "Value": "ARS/ACSS"
+          },
+          {
+            "Field": "Valor de base",
+            "Value": "valor histórico da Instituição (opcional)"
+          },
+          {
+            "Field": "Observações",
+            "Value": "Este indicador é fornecido pela ACSS e calculado a partir dos episódios codificados e agrupados em GDH, enviados pelos hospitais e que constam na base de dados nacional de GDH da ACSS (DPS). São considerados os valores acumulados. Sao retirados os episódios com menos de 24 horas considerados inválidos para facturação (episódios com menos de 24 horas, sem preço de ambulatório e com destino após alta diferente de morto ou alta contra parecer médico). Não são considerados os GDH das seguintes Grandes Categorias de Diagnósticos (GCD): GCD 0 (GDH 103. 302, 480, 482, 483, 795, 803, 804, 805 e 829) GCD 2 GCD 3 GCD 12 GCD 13 GCD 14 GCD 15 GCD 18 GCD 22 GCD 23 GCD 24 Os episódios de internamento considerados correspondem a doentes saídos."
+          }
+        ]
+      },
+      {
+        "table_index": 25,
+        "page": 29,
+        "table_data": [
+          {
+            "Definição": "Episódios de internamento com periodo de internamento superior ao limite máximo estabelecido para o GDH do episódio.",
+            "Fonte Informação / SI": "ACSS: Base dados GDH",
+            "Unidade de medida": "nº de episódios",
+            "Variáveis": "Episódios de internamento (At > L max)"
+          },
+          {
+            "Definição": "Total de épisódios de internamento com alta no período em análise",
+            "Fonte Informação / SI": "ACSS: Base dados GDH",
+            "Unidade de medida": "nº de episódios",
+            "Variáveis": "Total de episódios de internamento"
+          }
+        ]
+      },
+      {
+        "table_index": 26,
+        "page": 30,
+        "table_data": [
+          {
+            "Field": "Indicador B.4",
+            "Value": "Percentagem de Fraturas da Anca com Cirurgia efectuada nas primeiras 48h"
+          },
+          {
+            "Field": "Tipo de Indicador",
+            "Value": "Objectivo contrato-programa 2015"
+          },
+          {
+            "Field": "Entidade Gestora",
+            "Value": "Hospital, Centro Hospitalar, Unidade Local de Saúde"
+          },
+          {
+            "Field": "Tipo de falha",
+            "Value": "Qualidade de ServiçO"
+          },
+          {
+            "Field": "Período aplicável",
+            "Value": "Ano 2015"
+          },
+          {
+            "Field": "Objectivo",
+            "Value": "Incentivar a qualidade da prestação de cuidados."
+          },
+          {
+            "Field": "Descrição do Indicador:",
+            "Value": "Indicador que expressa a percentagem de fraturas da Anca com cirurgia realizada a utentes com idade superior ou igual a 65 anos nas primeiras 48 horas após admissão, no total de faturas com cirurgia realizada a utentes com idade superior ou igual a 65 anos."
+          },
+          {
+            "Field": "Cláusula CP",
+            "Value": "Acordo Modificativo 2015 Hospitais/ Centros Hospitalares: Cláusula 5ª do Anexo (Apéndice II) Acordo Modificativo 2015 - ULS: Cláusula 4ª do Anexo (Apendice II)"
+          },
+          {
+            "Field": "Unidade de medida",
+            "Value": "% (duas casas décimais)"
+          },
+          {
+            "Field": "Frequência de monitorização",
+            "Value": "Mensal"
+          },
+          {
+            "Field": "Fonte dos dados/ Base da monitorização",
+            "Value": "SI da Instituição"
+          },
+          {
+            "Field": "Responsável pela monitorização",
+            "Value": "Instituição/ARS"
+          },
+          {
+            "Field": "Fórmula",
+            "Value": "(Total de episódios utentes com idade >= 65 anos, com diagnóstico principal 820, com cirurgia realizada nas primeiras 48 horas após admissão) / (Total de episódios utentes com idade >= 65 anos, com diagnóstico principal 820, com cirurgia realizada)"
+          },
+          {
+            "Field": "Prazo Entrega Reporting",
+            "Value": "Dia 20 do mês n+1"
+          },
+          {
+            "Field": "Valor de Referência (Meta)",
+            "Value": "Definido no Acordo Modificativo 2015 Hospitais / Centros Hospitalares: Cláusula 5ª (Apendice II). ULS: Cláusula 4ª do Anexo (Apendice II) (estabelecido em negociação com as ARS)"
+          },
+          {
+            "Field": "Orgão fiscalizador",
+            "Value": "ARS"
+          },
+          {
+            "Field": "Valor de base",
+            "Value": "valor histórico da Instituição (opcional)"
+          },
+          {
+            "Field": "Observações",
+            "Value": "Valores acumulados."
+          }
+        ]
+      },
+      {
+        "table_index": 27,
+        "page": 30,
+        "table_data": [
+          {
+            "Definição": "Total de episódios utentes com idade superior ou igual a 65 anos, com diagnóstico principal 820, com cirurgia nas primeiras 48 horas após admissão no periodo em analise",
+            "Fonte Informação/ SI": "Base de Dados de GDH",
+            "Unidade de medida": "nº de episódios",
+            "Variáveis": "Total de episódios utentes com idade >= a 65 anos, com diagnóstico principal 820, com cirurgia nas primeiras 48 horas após admissão"
+          },
+          {
+            "Definição": "Total de episódios utentes com idade superior ou igual a 65 anos, com diagnóstico principal 820, com cirurgia realizada no periodo em analise",
+            "Fonte Informação/ SI": "Base de Dados de GDH",
+            "Unidade de medida": "nº de eposódios",
+            "Variáveis": "Total de episódios utentes com idade >= a 65 anos, com diagnóstico principal 820, com cirurgia realizada"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,3537 @@
+{
+  "contract_id": "1ecf39d7-a00c-d49d-4a26-aaf16b15d76d",
+  "hospital_name": "Unidade Local de Saúde do Norte Alentejano, EPE",
+  "year": 2020,
+  "pdf_url": "https://www.acss.min-saude.pt/wp-content/uploads/2021/02/Acordo-Modificativo-2020-ULSNA.pdf",
+  "extraction_timestamp": "20251101_044300",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 6,
+        "table_data": [
+          {
+            "Atividade Hospitalar": "1. Consultas Externas:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "N° de 1ªs consultas médicas (s/ majoração)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": "16595",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "N° de 1ªs consultas referenciadas (CTH)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "8500",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Nº de 1ªs consultas (Telemedicina)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "460",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Nº de 1ªs consultas na comunidade (Saúde mental)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Nº de 1ªs consultas descentralizadas",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Nº de 1ªs consultas Cuidados Paliativos",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "125",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Nº de 1ªs consultas CRe",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Nº de 1ªs consultas CRI",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Nº de consultas subsequentes médicas (s/majoração)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": "58500",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "N° de consultas subsequentes (Telemedicina)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "200",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Nº de consultas subsequentes na comunidade (Saúde mental)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Nº de consultas subsequentes descentralizadas",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Nº de consultas subsequentes Cuidados Paliativos",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "700",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "N° de consultas subsequentes CRe",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Nº de consultas subsequentes CRI",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "51.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "2. Internamento:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes Saídos",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Médicos",
+            "ICM": "0.8226",
+            "N.º": "4773",
+            "%": "95.45%",
+            "Preço Unitário (€)": "2759.00",
+            "Quantidade": "5000",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Médicos Cuidados Paliativos",
+            "ICM": "0.8226",
+            "N.º": "143",
+            "%": "95.45%",
+            "Preço Unitário (€)": "2897.00",
+            "Quantidade": "150",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Médicos CRe",
+            "ICM": "0.8226",
+            "N.º": "",
+            "%": "95.45%",
+            "Preço Unitário (€)": "2897.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Médicos CRI",
+            "ICM": "0.8226",
+            "N.º": "",
+            "%": "95.45%",
+            "Preço Unitário (€)": "2897.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Cirúrgicos",
+            "ICM": "0.8226",
+            "N.º": "1050",
+            "%": "95.45%",
+            "Preço Unitário (€)": "2759.00",
+            "Quantidade": "1100",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Cirúrgicos CRe",
+            "ICM": "0.8226",
+            "N.º": "",
+            "%": "95.45%",
+            "Preço Unitário (€)": "2897.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Cirúrgicos CRI",
+            "ICM": "0.8226",
+            "N.º": "",
+            "%": "95.45%",
+            "Preço Unitário (€)": "2897.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Cirúrgicos Urgentes",
+            "ICM": "0.8226",
+            "N.º": "764",
+            "%": "95.45%",
+            "Preço Unitário (€)": "2621.00",
+            "Quantidade": "800",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Cirúrgicos Urgentes CRe",
+            "ICM": "0.8226",
+            "N.º": "",
+            "%": "95.45%",
+            "Preço Unitário (€)": "2752.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Cirúrgicos Urgentes CRI",
+            "ICM": "0.8226",
+            "N.º": "",
+            "%": "95.45%",
+            "Preço Unitário (€)": "2752.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Dias de Internamento de Doentes Crónicos",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes Medicina Física e Reabilitação",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "215.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes de Psiquiatria Crónicos no Hospital",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "43.00",
+            "Quantidade": "3650",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes de Psiquiatria no Exterior (Ordens Religiosas)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "43.00",
+            "Quantidade": "42340",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes de Psiquiatria no Exterior (Outras Inst.)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "43.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes Crónicos Ventilados",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "256.00",
+            "Quantidade": "366",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes de Reabilitação Psicossocial",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "43.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes Crónicos de Hansen",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "0.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "3. Episódios de GDH de Ambulatório:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Cirúrgicos",
+            "ICM": "0.5892",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "2759.00",
+            "Quantidade": "1850",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Cirúrgicos CRe",
+            "ICM": "0.5892",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "2897.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Cirúrgicos CRI",
+            "ICM": "0.5892",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "2897.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Médicos",
+            "ICM": "0.2146",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "2759.00",
+            "Quantidade": "2000",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Médicos CRe",
+            "ICM": "0.2146",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "2897.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Médicos CRI",
+            "ICM": "0.2146",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "2897.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "4. Urgências:",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Atendimentos (SU - Polivalente)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "17.750M/170.000",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Atendimentos (SU - Médico-Cirúrgica)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "5.220M/100.000",
+            "Quantidade": "25000",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Atendimentos (SU - Básica)",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "1.470M/35.000",
+            "Quantidade": "35000",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "4.1 Urgências (CRI):",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 7,
+        "table_data": [
+          {
+            "Item": "Atendimentos (SU - Polivalente) (CRI)",
+            "Valor": "19.525M/170.000 ep."
+          },
+          {
+            "Item": "Atendimentos (SU - Médico-Cirúrgica) (CRI)",
+            "Valor": "5.742M/100.000 ep."
+          },
+          {
+            "Item": "Atendimentos (SU - Básica) (CRI)",
+            "Valor": "1.617M/35.000 ep."
+          },
+          {
+            "Item": "5. Sessões em Hospital de Dia:",
+            "Valor": ""
+          },
+          {
+            "Item": "Base",
+            "Valor": "21.00"
+          },
+          {
+            "Item": "Hematologia",
+            "Valor": "309.00"
+          },
+          {
+            "Item": "Imuno-Hemoterapia",
+            "Valor": "309.00"
+          },
+          {
+            "Item": "Psiquiatria",
+            "Valor": "32.00"
+          },
+          {
+            "Item": "Psiquiatria - Unidades Socio-Ocupacionais",
+            "Valor": "32.00"
+          },
+          {
+            "Item": "Valor Total do Hospital de Dia",
+            "Valor": ""
+          },
+          {
+            "Item": "6. Programas de Gestão da Doença Crónica",
+            "Valor": ""
+          },
+          {
+            "Item": "VIH/Sida (doentes em TARC equivalente./ano)",
+            "Valor": "5997.00"
+          },
+          {
+            "Item": "Hepatite C (doentes tratados)",
+            "Valor": "6922.00"
+          },
+          {
+            "Item": "Hipertensão Arterial Pulmonar - doentes em terapêutica",
+            "Valor": ""
+          },
+          {
+            "Item": "Pré-tratamento/seguimento 1º ano",
+            "Valor": "8408.00"
+          },
+          {
+            "Item": "Seguimento após 1º ano CF≤ III",
+            "Valor": "22555.00"
+          },
+          {
+            "Item": "Seguimento após 1º ano CF IV",
+            "Valor": "162563.00"
+          },
+          {
+            "Item": "Esclerose múltipla - doentes em terapêutica modificadora",
+            "Valor": "12380.00"
+          },
+          {
+            "Item": "Tratamento de doentes c/ patologia oncológica - Doentes equivalente/ano",
+            "Valor": ""
+          },
+          {
+            "Item": "Cancro da mama (1º ano)",
+            "Valor": "10318.00"
+          },
+          {
+            "Item": "Cancro da mama (2º ano)",
+            "Valor": "4141.00"
+          },
+          {
+            "Item": "Cancro do cólon e reto (1º ano)",
+            "Valor": "11867.00"
+          },
+          {
+            "Item": "Cancro do cólon e reto (2º ano)",
+            "Valor": "5245.00"
+          },
+          {
+            "Item": "Cancro do colo do útero (1º ano)",
+            "Valor": "12624.00"
+          },
+          {
+            "Item": "Cancro do colo do útero (2º ano)",
+            "Valor": "3729.00"
+          },
+          {
+            "Item": "Cancro da Próstata (1º ano)",
+            "Valor": "6630.00"
+          },
+          {
+            "Item": "Cancro da Próstata (2º ano)",
+            "Valor": "1812.00"
+          },
+          {
+            "Item": "Cancro do Pulmão (1º ano)",
+            "Valor": "17746.00"
+          },
+          {
+            "Item": "Cancro da Pulmão (2º ano)",
+            "Valor": "4617.00"
+          },
+          {
+            "Item": "Mieloma (1º ano)",
+            "Valor": "26123.00"
+          },
+          {
+            "Item": "Mieloma (2°ano)",
+            "Valor": "11221.00"
+          },
+          {
+            "Item": "Rastreios - N° de Rastreios",
+            "Valor": ""
+          },
+          {
+            "Item": "Rastreio do Cancro do Colo do Útero",
+            "Valor": "71.00"
+          },
+          {
+            "Item": "Rastreio do Cancro do Cólon e Reto",
+            "Valor": "397.00"
+          },
+          {
+            "Item": "Telemonotorização DPOC",
+            "Valor": ""
+          },
+          {
+            "Item": "Elementos de Telemonitorização",
+            "Valor": "1361.00"
+          },
+          {
+            "Item": "Nº de doentes em tratamento (doente tratado/ano)",
+            "Valor": "2156.00"
+          },
+          {
+            "Item": "Telemonotorização EAM",
+            "Valor": ""
+          },
+          {
+            "Item": "Elementos de Telemonitorização",
+            "Valor": "3561.00"
+          },
+          {
+            "Item": "N° de doentes em tratamento (doente tratado/ano)",
+            "Valor": "1409.00"
+          },
+          {
+            "Item": "Telemonotorização ICC",
+            "Valor": ""
+          },
+          {
+            "Item": "Elementos de Telemonitorização",
+            "Valor": "1702.00"
+          },
+          {
+            "Item": "Nº de doentes em tratamento (doente tratado/ano)",
+            "Valor": "1409.00"
+          },
+          {
+            "Item": "PSCI (Centros de Tratamento autorizados pela DGS)",
+            "Valor": ""
+          },
+          {
+            "Item": "Doentes Novos (Cuidados 1º ano) Eq./ano",
+            "Valor": "1547.00"
+          },
+          {
+            "Item": "Doentes em seguimento (Cuidados 2º ano e seguintes) Eq./ano",
+            "Valor": "1092.00"
+          },
+          {
+            "Item": "Programa Terapêutico PAF1",
+            "Valor": ""
+          },
+          {
+            "Item": "PAF1 Doentes em tratamento (equivalente/ano)",
+            "Valor": "58359.00"
+          },
+          {
+            "Item": "Doenças Lisossomais de Sobrecarga (doentes em tratamento Eq./ano) - CRe",
+            "Valor": ""
+          },
+          {
+            "Item": "Doença de Gaucher",
+            "Valor": "181373.00"
+          },
+          {
+            "Item": "Doença de Fabry",
+            "Valor": "119485.00"
+          },
+          {
+            "Item": "Doença de Hurler",
+            "Valor": "171037.00"
+          },
+          {
+            "Item": "Doença de Hunter",
+            "Valor": "411356.00"
+          },
+          {
+            "Item": "Doença de Maroteaux-Lamy",
+            "Valor": "385325.00"
+          },
+          {
+            "Item": "Doença de Niemann-Pick",
+            "Valor": "74086.00"
+          },
+          {
+            "Item": "Doença de Pompe",
+            "Valor": "196668.00"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 8,
+        "table_data": [
+          {
+            "Categoria": "Doenças Lisossomais de Sobre Carga CTP-CRe (doentes em tratamento Eq./ano)",
+            "Valor (€)": ""
+          },
+          {
+            "Categoria": "Doença de Gaucher (CRe)",
+            "Valor (€)": "179281.00"
+          },
+          {
+            "Categoria": "Doença de Fabry (CRe)",
+            "Valor (€)": "117915.00"
+          },
+          {
+            "Categoria": "Doença de Hurler (CRe)",
+            "Valor (€)": "168147.00"
+          },
+          {
+            "Categoria": "Doença de Hunter (CRe)",
+            "Valor (€)": "408466.00"
+          },
+          {
+            "Categoria": "Doença de Maroteaux-Lamy (CRe)",
+            "Valor (€)": "382435.00"
+          },
+          {
+            "Categoria": "Doença de Niemann-Pick (CRE)",
+            "Valor (€)": "72567.00"
+          },
+          {
+            "Categoria": "Doença de Pompe (CRe)",
+            "Valor (€)": "195067.00"
+          },
+          {
+            "Categoria": "Doenças Lisossomais de Sobrecarga CTP (doentes em tratamento Eq./ano)",
+            "Valor (€)": ""
+          },
+          {
+            "Categoria": "Doença de Gaucher CTP",
+            "Valor (€)": "2123.00"
+          },
+          {
+            "Categoria": "Doença de Fabry CTP",
+            "Valor (€)": "1601.00"
+          },
+          {
+            "Categoria": "Doença de Hurler CTP",
+            "Valor (€)": "2921.00"
+          },
+          {
+            "Categoria": "Doença de Hunter CTP",
+            "Valor (€)": "2921.00"
+          },
+          {
+            "Categoria": "Doença de Maroteaux-Lamy CTP",
+            "Valor (€)": "2921.00"
+          },
+          {
+            "Categoria": "Doença de Niemann-Pick CTP",
+            "Valor (€)": "1550.00"
+          },
+          {
+            "Categoria": "Doença de Pompe CTP",
+            "Valor (€)": "1632.00"
+          },
+          {
+            "Categoria": "Perturbações Mentais Graves",
+            "Valor (€)": ""
+          },
+          {
+            "Categoria": "Psicoses Esquizofrénicas (doente equivalente/ano)",
+            "Valor (€)": "1595.00"
+          },
+          {
+            "Categoria": "Psicoses Afetivas (doente equivalente/ano)",
+            "Valor (€)": "1087.00"
+          },
+          {
+            "Categoria": "Psicoses não Orgânicas (doente equivalente/ano)",
+            "Valor (€)": "839.00"
+          },
+          {
+            "Categoria": "7. Programa de Tratamento Cirúrgico da Obesidade (PTCO)",
+            "Valor (€)": ""
+          },
+          {
+            "Categoria": "Pré-avaliação + Cirurgia Bariátrica Banda Gástrica",
+            "Valor (€)": "3377.00"
+          },
+          {
+            "Categoria": "Cirurgia Bariátrica - Banda Gástrica - 1º Ano Follow Up",
+            "Valor (€)": "563.00"
+          },
+          {
+            "Categoria": "Cirurgia Bariátrica - Banda Gástrica - 2º Ano Follow Up",
+            "Valor (€)": "563.00"
+          },
+          {
+            "Categoria": "Cirurgia Bariátrica - Banda Gástrica - 3º Ano Follow Up",
+            "Valor (€)": "1126.00"
+          },
+          {
+            "Categoria": "Pré-avaliação + Cirurgia Bariátrica Bypass Gástrico",
+            "Valor (€)": "4295.00"
+          },
+          {
+            "Categoria": "Cirurgia Bariátrica - Bypass Gástrico - 1º Ano Follow Up",
+            "Valor (€)": "716.00"
+          },
+          {
+            "Categoria": "Cirurgia Bariátrica - Bypass Gástrico - 2º Ano Follow Up",
+            "Valor (€)": "716.00"
+          },
+          {
+            "Categoria": "Cirurgia Bariátrica - Bypass Gástrico - 3º Ano Follow Up",
+            "Valor (€)": "1432.00"
+          },
+          {
+            "Categoria": "PTCO - Outras Técnicas",
+            "Valor (€)": ""
+          },
+          {
+            "Categoria": "PTCO - Outras Técnicas Modelo 1",
+            "Valor (€)": "3377.00"
+          },
+          {
+            "Categoria": "PTCO-Outras Técnicas Modelo 2",
+            "Valor (€)": "4295.00"
+          },
+          {
+            "Categoria": "PTCO - Outras Técnicas - 1º ano de follow-up",
+            "Valor (€)": ""
+          },
+          {
+            "Categoria": "PTCO - Outras Técnicas Modelo 1 - 1º ano de follow-up",
+            "Valor (€)": "563.00"
+          },
+          {
+            "Categoria": "PTCO - Outras Técnicas Modelo 1 - 2º ano de follow-up",
+            "Valor (€)": "563.00"
+          },
+          {
+            "Categoria": "PTCO - Outras Técnicas Modelo 2 - 1º ano de follow-up",
+            "Valor (€)": "716.00"
+          },
+          {
+            "Categoria": "PTCO - Outras Técnicas Modelo 2 - 2º ano de follow-up",
+            "Valor (€)": "716.00"
+          },
+          {
+            "Categoria": "8. PMA - Diagnóstico e Tratamento da Infertilidade",
+            "Valor (€)": ""
+          },
+          {
+            "Categoria": "Consultas de Apoio à Fertilidade",
+            "Valor (€)": "92.00"
+          },
+          {
+            "Categoria": "Induções da Ovulação (IO)",
+            "Valor (€)": "140.00"
+          },
+          {
+            "Categoria": "Inseminações Intra-Uterinas (IIU)",
+            "Valor (€)": "352.00"
+          },
+          {
+            "Categoria": "Fertilizações In Vitro (FIV)",
+            "Valor (€)": "2203.00"
+          },
+          {
+            "Categoria": "Injecções Intra-Citoplasmáticas de Espermatozoides (ICSI)",
+            "Valor (€)": "2423.00"
+          },
+          {
+            "Categoria": "Injeções Intra-Citoplasmáticas de Espermatozoides recolhidos cirurgicamente (ICSI c/ recolha cirúrgica)",
+            "Valor (€)": "3084.00"
+          },
+          {
+            "Categoria": "Banco de Gâmetas",
+            "Valor (€)": ""
+          },
+          {
+            "Categoria": "Gâmetas Masculinos (packs)",
+            "Valor (€)": "1475.00"
+          },
+          {
+            "Categoria": "Gâmetas Femininos (packs)",
+            "Valor (€)": "2966.00"
+          },
+          {
+            "Categoria": "9. Saúde Sexual e Reprodutiva",
+            "Valor (€)": ""
+          },
+          {
+            "Categoria": "IVG até 10 semanas",
+            "Valor (€)": ""
+          },
+          {
+            "Categoria": "Medicamentosa (n.° I.V.G.)",
+            "Valor (€)": "297.00"
+          },
+          {
+            "Categoria": "Cirúrgica (n.º I.V.G.)",
+            "Valor (€)": "387.00"
+          },
+          {
+            "Categoria": "Diagnóstico Pré-Natal",
+            "Valor (€)": ""
+          },
+          {
+            "Categoria": "Protocolo 1",
+            "Valor (€)": "40.00"
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "page": 9,
+        "table_data": [
+          {
+            "Descrição": "Protocolo II",
+            "Preço Unitário (€)": "104.00"
+          },
+          {
+            "Descrição": "10. Sessões de Radioncologia",
+            "Preço Unitário (€)": ""
+          },
+          {
+            "Descrição": "Tratamentos simples",
+            "Preço Unitário (€)": "110.00"
+          },
+          {
+            "Descrição": "Tratamentos complexos",
+            "Preço Unitário (€)": "264.00"
+          },
+          {
+            "Descrição": "11. Colocação de Implantes Cocleares",
+            "Preço Unitário (€)": ""
+          },
+          {
+            "Descrição": "Implante coclear unilateral",
+            "Preço Unitário (€)": "19688.00"
+          },
+          {
+            "Descrição": "Implante coclear bilateral",
+            "Preço Unitário (€)": "34125.00"
+          },
+          {
+            "Descrição": "12. Serviços Domiciliários",
+            "Preço Unitário (€)": ""
+          },
+          {
+            "Descrição": "Consultas Domiciliárias",
+            "Preço Unitário (€)": "40.00"
+          },
+          {
+            "Descrição": "Hospitalização domiciliária",
+            "Preço Unitário (€)": "2759.00"
+          },
+          {
+            "Descrição": "14. Outros:",
+            "Preço Unitário (€)": ""
+          },
+          {
+            "Descrição": "Sistema de Atribuição de Produtos de Apoio (SAPA)",
+            "Preço Unitário (€)": ""
+          },
+          {
+            "Descrição": "Programa de Incentivo à Integração de Cuidados",
+            "Preço Unitário (€)": ""
+          },
+          {
+            "Descrição": "Valor Capitação (sem Incentivos nem Internos)",
+            "Preço Unitário (€)": "77270808.00"
+          },
+          {
+            "Descrição": "Incentivos institucionais",
+            "Preço Unitário (€)": "8658707.00"
+          },
+          {
+            "Descrição": "Qualidade",
+            "Preço Unitário (€)": "5195224.00"
+          },
+          {
+            "Descrição": "Eficiência/Sustentabilidade",
+            "Preço Unitário (€)": "3463483.00"
+          },
+          {
+            "Descrição": "Valor Internos",
+            "Preço Unitário (€)": "657548.00"
+          },
+          {
+            "Descrição": "Valor Capitação",
+            "Preço Unitário (€)": "86587063.00"
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "page": 10,
+        "table_data": [
+          {
+            "Indicador": "1. Cuidados de Saúde Primários",
+            "Peso Relativo (%)": "40.00",
+            "Meta": "77.1"
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "page": 10,
+        "table_data": [
+          {
+            "Objectivos Nacionais": "2. Cuidados Hospitalares",
+            "Pesos Relativos (%)": "60.00",
+            "Meta": ""
+          },
+          {
+            "Objectivos Nacionais": "Acesso e Desempenho Assistencial",
+            "Pesos Relativos (%)": "60.00",
+            "Meta": ""
+          },
+          {
+            "Objectivos Nacionais": "A. Acesso",
+            "Pesos Relativos (%)": "21.00",
+            "Meta": ""
+          },
+          {
+            "Objectivos Nacionais": "A.1. Percentagem de pedidos em Lista de Espera para Consulta (LEC) dentro do TMRG",
+            "Pesos Relativos (%)": "3.60",
+            "Meta": "53.5"
+          },
+          {
+            "Objectivos Nacionais": "A.2. Percentagem de consultas realizadas dentro dos tempos máximos de resposta garantidos (TMRG)",
+            "Pesos Relativos (%)": "3.60",
+            "Meta": "72.0"
+          },
+          {
+            "Objectivos Nacionais": "A.3. Percentagem de utentes em Lista de Inscritos para Cirurgia (LIC) dentro do TMRG",
+            "Pesos Relativos (%)": "3.60",
+            "Meta": "85.0"
+          },
+          {
+            "Objectivos Nacionais": "A.4 Percentagem de doentes operados dentro do TMRG",
+            "Pesos Relativos (%)": "3.60",
+            "Meta": "91.0"
+          },
+          {
+            "Objectivos Nacionais": "A.5 Percentagem de episódios de urgência atendidos dentro do tempo de espera previsto no protocolo de triagem",
+            "Pesos Relativos (%)": "3.60",
+            "Meta": "94.0"
+          },
+          {
+            "Objectivos Nacionais": "A.6 Percentagem de doentes referenciados para a RNCCI, avaliados/confirmados pela EGA em tempo adequado (até 2 dias úteis), no total de doentes referenciados para a RNCCI",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "33.0"
+          },
+          {
+            "Objectivos Nacionais": "B. Desempenho Assistencial",
+            "Pesos Relativos (%)": "9.00",
+            "Meta": ""
+          },
+          {
+            "Objectivos Nacionais": "B.1. Percentagem de reinternamentos em 30 dias, na mesma grande categoria de diagnóstico",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "3.70"
+          },
+          {
+            "Objectivos Nacionais": "B.2 Percentagem de cirurgias realizadas em ambulatório (GDH), para procedimentos tendencialmente ambulatorizáveis",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "17.3"
+          },
+          {
+            "Objectivos Nacionais": "B.3 Percentagem de cirurgias da anca efetuadas nas primeiras 48 horas",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "45.0"
+          },
+          {
+            "Objectivos Nacionais": "B.4. Índice de Mortalidade Ajustada",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "1.2500"
+          },
+          {
+            "Objectivos Nacionais": "B.5. Índice de Demora Média Ajustada",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "1.1500"
+          },
+          {
+            "Objectivos Nacionais": "B.6. Demora média antes da cirurgia",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "1.00"
+          },
+          {
+            "Objectivos Nacionais": "C. Eficiência",
+            "Pesos Relativos (%)": "10.00",
+            "Meta": ""
+          },
+          {
+            "Objectivos Nacionais": "C.1. Gastos operacionais por residente, ajustados pela utilização",
+            "Pesos Relativos (%)": "2.50",
+            "Meta": "Valor do melhor do grupo"
+          },
+          {
+            "Objectivos Nacionais": "C.2. Doente padrão por médico ETC",
+            "Pesos Relativos (%)": "2.50",
+            "Meta": "89.0"
+          },
+          {
+            "Objectivos Nacionais": "C.3. Doente padrão por enfermeiro ETC",
+            "Pesos Relativos (%)": "2.50",
+            "Meta": "37.6"
+          },
+          {
+            "Objectivos Nacionais": "C.4. Percentagem de Gastos com Trabalho Extraordinário, Suplementos e FSE (Selecionados) no total de gastos com pessoal",
+            "Pesos Relativos (%)": "2.50",
+            "Meta": "21.2"
+          },
+          {
+            "Objectivos Nacionais": "D. Resultados em internamentos, consultas hospitalares e urgências evitáveis",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": ""
+          },
+          {
+            "Objectivos Nacionais": "D.1 Taxa de internamento por complicações agudas da diabetes",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "18.0"
+          },
+          {
+            "Objectivos Nacionais": "D.2 Taxa de internamento por diabetes não controlada",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "16.0"
+          },
+          {
+            "Objectivos Nacionais": "D.3 Taxa de internamento por asma ou DPOC em adultos",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "118.8"
+          },
+          {
+            "Objectivos Nacionais": "D.4 Taxa de internamento por asma em jovens adultos",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "3.4"
+          },
+          {
+            "Objectivos Nacionais": "D.5 Taxa de internamento por hipertensão arterial",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "5.0"
+          },
+          {
+            "Objectivos Nacionais": "D.6 Taxa de internamento por insuficiência cardíaca congestiva",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "199.9"
+          },
+          {
+            "Objectivos Nacionais": "D.7 Taxa de internamento por pneumonia",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "419.9"
+          },
+          {
+            "Objectivos Nacionais": "D.8 Taxa de internamento por complicações crónicas da diabetes",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "34.0"
+          },
+          {
+            "Objectivos Nacionais": "D.9% de especialidades (categorias) com protocolos clínicos de referenciação ascendente e descendente elaborados",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "16.7"
+          },
+          {
+            "Objectivos Nacionais": "D.10% de utilizadores frequentes do serviço de urgência (>4 episódios no ultimo ano) com plano de cuidados estabelecido entre os cuidados primários e os hospitais",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "8.0"
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "page": 10,
+        "table_data": [
+          {
+            "Objetivos de Desempenho do Serviço de Urgência": "U.1 Peso dos episódios de urgência com prioridade atribuída Verde/Azul/Branca",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": "46.2"
+          },
+          {
+            "Objetivos de Desempenho do Serviço de Urgência": "U.2 Peso dos episódios de urgência com internamento",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": "6.4"
+          },
+          {
+            "Objetivos de Desempenho do Serviço de Urgência": "U.3. Percentagem de episódios de urgência dentro do tempo de espera previsto no protocolo de triagem",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": "94.0"
+          },
+          {
+            "Objetivos de Desempenho do Serviço de Urgência": "U.4 Peso dos utilizadores frequentes (> 4 episódios), no total de utilizadores do Serviço Urgência",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": "5.1"
+          },
+          {
+            "Objetivos de Desempenho do Serviço de Urgência": "U.5 Rácio Consultas Externas/ episódios de urgência",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": "1.2"
+          }
+        ]
+      },
+      {
+        "table_index": 7,
+        "page": 12,
+        "table_data": [
+          {
+            "Áreas": "A.Programas de promoção e adequação do acesso (70%)",
+            "Obrigação": "A.1 SIGA - Redução da % da LIC > TMRG face a 31 de dezembro de 2019, em pelo menos 10% (7%)",
+            "Penalidades (P)": "Variação da % da LIC > TMRG > -10% P = valor contrato x 3% x 7%"
+          },
+          {
+            "Áreas": "A.Programas de promoção e adequação do acesso (70%)",
+            "Obrigação": "A.2 SIGA - Redução do nº de inscritos em LIC, face a 31 de dezembro de 2019, em pelo menos 5% (7%)",
+            "Penalidades (P)": "Variação da LIC > -5% P = valor contrato x 3% x 7%"
+          },
+          {
+            "Áreas": "A.Programas de promoção e adequação do acesso (70%)",
+            "Obrigação": "A.3 SIGA - Redução do nº de cancelamentos de inscritos para cirurgia, face a 2019, em pelo menos 10% (7%)",
+            "Penalidades (P)": "Variação do nº de cancelamentos > -10% P = valor contrato x 3% x 7%"
+          },
+          {
+            "Áreas": "A.Programas de promoção e adequação do acesso (70%)",
+            "Obrigação": "A.4 SIGA - Redução de 25% no número de cirurgias agendadas que são canceladas, face a 2019 (7%)",
+            "Penalidades (P)": "Variação do nº de cirurgias agendadas que são canceladas > -25% P = valor contrato x 3% x 7%"
+          },
+          {
+            "Áreas": "A.Programas de promoção e adequação do acesso (70%)",
+            "Obrigação": "A.5 SIGA - Redução de 25% no número de consultas externas canceladas, face a 2019 (7%)",
+            "Penalidades (P)": "Variação do nº de consultas canceladas > -25% P = valor contrato x 3% x 7%"
+          },
+          {
+            "Áreas": "A.Programas de promoção e adequação do acesso (70%)",
+            "Obrigação": "A. 6 SIGA-Cumprimento do prazo de 5 dias para a triagem dos pedidos de 1ª consulta (7%)",
+            "Penalidades (P)": "Tempo médio de triagem > 5 dias P = valor contrato x 3% x 7%"
+          },
+          {
+            "Áreas": "A.Programas de promoção e adequação do acesso (70%)",
+            "Obrigação": "A.7 SIGA-Redução de 25% no número de pedidos de 1ª consulta recusados (7%)",
+            "Penalidades (P)": "Variação, face a 2019, do nº de pedidos recusados > -25% P= valor contrato x 3% x 7%"
+          },
+          {
+            "Áreas": "A.Programas de promoção e adequação do acesso (70%)",
+            "Obrigação": "A.8 RNCCI-Tempo médio de avaliação das EGA =< 2 dias úteis (7%)",
+            "Penalidades (P)": "Tempo médio de avaliação das EGA > 2 dias úteis P = valor contrato x 3% x 7%"
+          },
+          {
+            "Áreas": "A.Programas de promoção e adequação do acesso (70%)",
+            "Obrigação": "A.9 Paliativos - Tempo médio de resposta da EIHSCP =< 48 horas dias úteis (ou 72 h fds) (7%)",
+            "Penalidades (P)": "Tempo médio de resposta da EIHSCP > 48h P = valor contrato x 3% x 7%"
+          },
+          {
+            "Áreas": "A.Programas de promoção e adequação do acesso (70%)",
+            "Obrigação": "A.10 Variação dos encargos SNS com medicamentos biológicos, face a 2019 (7%)",
+            "Penalidades (P)": "Variação dos encargos > Variação média nacional P = valor contrato x 3%x7%"
+          },
+          {
+            "Áreas": "B. Registo, consulta e partilha de informação (30%)",
+            "Obrigação": "B.1 RON - Percentagem de registos oncológicos completos no RON (10%)",
+            "Penalidades (P)": "% de registos oncológicos completos <95% P = valor contrato x 3% x 10%"
+          },
+          {
+            "Áreas": "B. Registo, consulta e partilha de informação (30%)",
+            "Obrigação": "B.2 Percentagem de episódios de urgência com consulta à PDS (4%)",
+            "Penalidades (P)": "Consultas < 75% P = valor contrato x 3% x 4%"
+          },
+          {
+            "Áreas": "B. Registo, consulta e partilha de informação (30%)",
+            "Obrigação": "B.3. Percentagem de episódios de consulta extema com consulta à PDS (4%)",
+            "Penalidades (P)": "Consultas < 75% P = valor contrato x 3% x 4%"
+          },
+          {
+            "Áreas": "B. Registo, consulta e partilha de informação (30%)",
+            "Obrigação": "B.4% Notícias de Nascimento, no total partos (6%)",
+            "Penalidades (P)": "Notícias < 85% P = valor contrato x 3% x 6%"
+          },
+          {
+            "Áreas": "B. Registo, consulta e partilha de informação (30%)",
+            "Obrigação": "B.5 Taxa de registo de utilização da \"Lista de Verificação Segurança Cirúrgica\" (6%)",
+            "Penalidades (P)": "Taxa de registo < 95% P = valor contrato x 3% x 6%"
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "page": 15,
+        "table_data": [
+          {
+            "Descrição": "60-Transferências e subsídios concedidos",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "61- Custo das mercadorias vendidas e das matérias consumidas",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "11910879.40",
+            "Valor Contratualizado 2020": "13364917.49",
+            "% Var 2020 / 2019": "12.2%"
+          },
+          {
+            "Descrição": "61.1 Mercadorias",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "61.2-Matérias-primas, subsidiárias e de consumo",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "11910879.40",
+            "Valor Contratualizado 2020": "13364917.49",
+            "% Var 2020 / 2019": "12.2%"
+          },
+          {
+            "Descrição": "61.2.4 - Matérias de consumo específico dos serviços de saúde",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "11910153.22",
+            "Valor Contratualizado 2020": "13363917.49",
+            "% Var 2020 / 2019": "12.2%"
+          },
+          {
+            "Descrição": "61.2.4.1-Produtos farmacêuticos",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "8832069.70",
+            "Valor Contratualizado 2020": "9459000.00",
+            "% Var 2020 / 2019": "7.1%"
+          },
+          {
+            "Descrição": "61.2.4.1.1- Medicamentos",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "6762214.13",
+            "Valor Contratualizado 2020": "7109000.00",
+            "% Var 2020 / 2019": "5.1%"
+          },
+          {
+            "Descrição": "61.2.4.1.2-Reagentes e produtos de diagnóstico rápido",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "1680384.27",
+            "Valor Contratualizado 2020": "1850000.00",
+            "% Var 2020 / 2019": "10.1%"
+          },
+          {
+            "Descrição": "61.2.4.1.9-Outros produtos farmacêuticos",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "389471.30",
+            "Valor Contratualizado 2020": "500000.00",
+            "% Var 2020 / 2019": "28.4%"
+          },
+          {
+            "Descrição": "61.2.4.2-Material de consumo clínico",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "2756606.17",
+            "Valor Contratualizado 2020": "3552417.49",
+            "% Var 2020 / 2019": "28.9%"
+          },
+          {
+            "Descrição": "61.2.4.3-Material de consumo hoteleiro",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "163188.07",
+            "Valor Contratualizado 2020": "180000.00",
+            "% Var 2020 / 2019": "10.3%"
+          },
+          {
+            "Descrição": "61.2.4.4-Material de consumo administrativo",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "84702.70",
+            "Valor Contratualizado 2020": "88000.00",
+            "% Var 2020 / 2019": "3.9%"
+          },
+          {
+            "Descrição": "61.2.4.5 - Material de Manutenção e Conservação",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "72603.70",
+            "Valor Contratualizado 2020": "82500.00",
+            "% Var 2020 / 2019": "13.6%"
+          },
+          {
+            "Descrição": "61.2.4.9-Outro material de consumo",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "982.88",
+            "Valor Contratualizado 2020": "2000.00",
+            "% Var 2020 / 2019": "103.5%"
+          },
+          {
+            "Descrição": "61.2.6-Alimentação - géneros para confecionar",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "726.18",
+            "Valor Contratualizado 2020": "1000.00",
+            "% Var 2020 / 2019": "37.7%"
+          },
+          {
+            "Descrição": "61.3- Ativos biológicos",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Sub-Total",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "11910879.40",
+            "Valor Contratualizado 2020": "13364917.49",
+            "% Var 2020 / 2019": "12.2%"
+          },
+          {
+            "Descrição": "",
+            "% S/ Total Geral": "12.8%",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "14.0%",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "62.1-Subcontratos e concessões de serviços",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "11465739.60",
+            "Valor Contratualizado 2020": "11482126.00",
+            "% Var 2020 / 2019": "0.1%"
+          },
+          {
+            "Descrição": "62.1.1- Serviços de saúde",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "11465739.60",
+            "Valor Contratualizado 2020": "11482126.00",
+            "% Var 2020 / 2019": "0.1%"
+          },
+          {
+            "Descrição": "62.1.1.1 - Meios complementares de diagnóstico",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "2814010.19",
+            "Valor Contratualizado 2020": "3349000.00",
+            "% Var 2020 / 2019": "19.0%"
+          },
+          {
+            "Descrição": "62.1.1.1.1-Patologia clínica",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "790489.06",
+            "Valor Contratualizado 2020": "1500000.00",
+            "% Var 2020 / 2019": "89.8%"
+          },
+          {
+            "Descrição": "62.1.1.1.2-Anatomia patológica",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "312220.00",
+            "Valor Contratualizado 2020": "350000.00",
+            "% Var 2020 / 2019": "12.1%"
+          },
+          {
+            "Descrição": "62.1.1.1.3-Imagiologia",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "728157.30",
+            "Valor Contratualizado 2020": "545000.00",
+            "% Var 2020 / 2019": "-25.2%"
+          },
+          {
+            "Descrição": "62.1.1.1.4-Cardiologia",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "149948.90",
+            "Valor Contratualizado 2020": "70000.00",
+            "% Var 2020 / 2019": "-53.3%"
+          },
+          {
+            "Descrição": "62.1.1.1.5-Eletroencefalografia",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "17588.64",
+            "Valor Contratualizado 2020": "12000.00",
+            "% Var 2020 / 2019": "-31.8%"
+          },
+          {
+            "Descrição": "62.1.1.1.6- Medicina nuclear",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "251298.86",
+            "Valor Contratualizado 2020": "210000.00",
+            "% Var 2020 / 2019": "-16.4%"
+          },
+          {
+            "Descrição": "62.1.1.1.7-Gastroenterologia",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "455703.34",
+            "Valor Contratualizado 2020": "450000.00",
+            "% Var 2020 / 2019": "-1.3%"
+          },
+          {
+            "Descrição": "62.1.1.1.8-Pneumologia / Imunoalergologia",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "6071.53",
+            "Valor Contratualizado 2020": "5000.00",
+            "% Var 2020 / 2019": "-17.6%"
+          },
+          {
+            "Descrição": "62.1.1.1.9-Outros Meios de Diagnóstico",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "102532.56",
+            "Valor Contratualizado 2020": "207000.00",
+            "% Var 2020 / 2019": "101.9%"
+          },
+          {
+            "Descrição": "62.1.1.2 - Meios complementares de terapêutica",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "5554674.90",
+            "Valor Contratualizado 2020": "5550126.00",
+            "% Var 2020 / 2019": "-0.1%"
+          },
+          {
+            "Descrição": "62.1.1.2.1- Hemodiálise",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "3625126.25",
+            "Valor Contratualizado 2020": "3625126.00",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "62.1.1.2.2-Medicina física e de reabilitação",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "361115.20",
+            "Valor Contratualizado 2020": "310000.00",
+            "% Var 2020 / 2019": "-14.2%"
+          },
+          {
+            "Descrição": "62.1.1.2.3-Litotricia",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "14406.98",
+            "Valor Contratualizado 2020": "20000.00",
+            "% Var 2020 / 2019": "38.8%"
+          },
+          {
+            "Descrição": "62.1.1.2.9 - Outros Meios Comp. de terapêutica",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "16184.80",
+            "Valor Contratualizado 2020": "10000.00",
+            "% Var 2020 / 2019": "-38.2%"
+          },
+          {
+            "Descrição": "62.1.1.4 - Produtos Fornecidos por Farmácias Hospitalares",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "126984.68",
+            "Valor Contratualizado 2020": "88000.00",
+            "% Var 2020 / 2019": "-30.7%"
+          },
+          {
+            "Descrição": "62.1.1.5-Internamentos",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "2573969.40",
+            "Valor Contratualizado 2020": "2210000.00",
+            "% Var 2020 / 2019": "-14.1%"
+          },
+          {
+            "Descrição": "62.1.1.9-Outros subcontratos",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "252800.05",
+            "Valor Contratualizado 2020": "110000.00",
+            "% Var 2020 / 2019": "-56.5%"
+          },
+          {
+            "Descrição": "62.1.1.9.1-Assistência ambulatória",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "230472.26",
+            "Valor Contratualizado 2020": "95000.00",
+            "% Var 2020 / 2019": "-58.8%"
+          },
+          {
+            "Descrição": "62.1.1.9.2- Aparelhos complementares de terapêutica",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "62.1.1.9.3-Assistência no estrangeiro",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "22327.79",
+            "Valor Contratualizado 2020": "15000.00",
+            "% Var 2020 / 2019": "-32.8%"
+          },
+          {
+            "Descrição": "62.1.2- Infraestruturas de transportes e parques de estacionamento",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "62.1.3 - Serviços de transporte",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "62.1.4 - Serviços de alojamento e de restauração",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "62.1.5 - Espaços de desporto, cultura e lazer",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "62.1.6 - Serviços de formecimento de água",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "62.1.7 - Serviços de recolha e tratamento de resíduos sólidos e urbanos",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "62.1.8-Tecnologias de informação e comunicação",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "62.1.9-Outros subcontratos ou concessões",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "62.2 - Serviços especializados",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "9532028.31",
+            "Valor Contratualizado 2020": "8722798.76",
+            "% Var 2020 / 2019": "-8.5%"
+          },
+          {
+            "Descrição": "62.3- Materiais de consumo",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "2124.79",
+            "Valor Contratualizado 2020": "2500.00",
+            "% Var 2020 / 2019": "17.7%"
+          },
+          {
+            "Descrição": "62.4 - Energia e fluidos",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "1626397.39",
+            "Valor Contratualizado 2020": "1450000.00",
+            "% Var 2020 / 2019": "-10.8%"
+          },
+          {
+            "Descrição": "62.5 - Deslocações, estadas e transportes",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "2791127.11",
+            "Valor Contratualizado 2020": "2512900.00",
+            "% Var 2020 / 2019": "-10.0%"
+          },
+          {
+            "Descrição": "62.5.5-Transporte de doentes",
+            "% S/ Total Geral": "",
+            "Valor Estimado 2019": "2783627.53",
+            "Valor Contratualizado 2020": "2500000.00",
+            "% Var 2020 / 2019": "-10.2%"
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "page": 16,
+        "table_data": [
+          {
+            "Descrição": "62.6-Serviços diversos",
+            "Valor Estimado 2019": "1931503.00",
+            "Valor Contratualizado 2020": "2038000.00",
+            "% Var 2020 / 2019": "5.5%"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2019": "27348920.20",
+            "Valor Contratualizado 2020": "26208324.76",
+            "% Var 2020 / 2019": "-4.2%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "12.4%",
+            "Valor Contratualizado 2020": "12.0%",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "63-Gastos com o pessoal",
+            "Valor Estimado 2019": "52061694.13",
+            "Valor Contratualizado 2020": "54280053.16",
+            "% Var 2020 / 2019": "4.3%"
+          },
+          {
+            "Descrição": "63.0 - Remunerações dos titulares de orgãos de soberania e membros de orgãos autárquicos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "63.1 - Remunerações dos orgãos sociais e de gestão",
+            "Valor Estimado 2019": "330818.94",
+            "Valor Contratualizado 2020": "330818.94",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.2 - Remunerações do pessoal",
+            "Valor Estimado 2019": "41844724.27",
+            "Valor Contratualizado 2020": "43705877.32",
+            "% Var 2020 / 2019": "4.4%"
+          },
+          {
+            "Descrição": "63.2.1.1- Remuneração base",
+            "Valor Estimado 2019": "27150027.73",
+            "Valor Contratualizado 2020": "28609631.37",
+            "% Var 2020 / 2019": "5.4%"
+          },
+          {
+            "Descrição": "63.2.1.1.1-Pessoal em regime de nomeação definitiva e contrato de trabalho em funções públicas por tempo indeterminado",
+            "Valor Estimado 2019": "16840582.56",
+            "Valor Contratualizado 2020": "17011021.76",
+            "% Var 2020 / 2019": "1.0%"
+          },
+          {
+            "Descrição": "63.2.1.1.2 - Pessoal em regime de nomeação transitória e contrato de trabalho em funções públicas a termo resolutivo",
+            "Valor Estimado 2019": "1357300.06",
+            "Valor Contratualizado 2020": "1413691.18",
+            "% Var 2020 / 2019": "4.2%"
+          },
+          {
+            "Descrição": "63.2.1.1.3-Pessoal em regime de contrato individual de trabalho a termo resolutivo incerto",
+            "Valor Estimado 2019": "240643.73",
+            "Valor Contratualizado 2020": "240643.73",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.2.1.1.4- Pessoal em regime de contrato individual de trabalho a termo resolutivo certo",
+            "Valor Estimado 2019": "52915.52",
+            "Valor Contratualizado 2020": "52915.52",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.2.1.1.5- Pessoal em regime de contrato individual de trabalho sem termo",
+            "Valor Estimado 2019": "7752038.39",
+            "Valor Contratualizado 2020": "8962550.39",
+            "% Var 2020 / 2019": "15.6%"
+          },
+          {
+            "Descrição": "63.2.1.1.6 - Pessoal em cedência de interesse público e em comissão de serviço",
+            "Valor Estimado 2019": "243600.04",
+            "Valor Contratualizado 2020": "243600.04",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.2.1.1.7 - Pessoal em comissão de Serviço Dirigentes",
+            "Valor Estimado 2019": "482078.62",
+            "Valor Contratualizado 2020": "482078.62",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.2.1.1.8-Pessoal em mobilidade especial (Pessoal em valorização profissional)",
+            "Valor Estimado 2019": "0.00",
+            "Valor Contratualizado 2020": "0.00",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "63.2.1.1.9- Pessoal em qualquer outra situação",
+            "Valor Estimado 2019": "180868.81",
+            "Valor Contratualizado 2020": "203130.13",
+            "% Var 2020 / 2019": "12.3%"
+          },
+          {
+            "Descrição": "63.2.1.2-Subsídio de férias",
+            "Valor Estimado 2019": "2319488.19",
+            "Valor Contratualizado 2020": "2426917.50",
+            "% Var 2020 / 2019": "4.6%"
+          },
+          {
+            "Descrição": "63.2.1.3-Subsídio de Natal",
+            "Valor Estimado 2019": "2267870.24",
+            "Valor Contratualizado 2020": "2375300.61",
+            "% Var 2020 / 2019": "4.7%"
+          },
+          {
+            "Descrição": "63.2.1.5 - Subsídio de refeição",
+            "Valor Estimado 2019": "1586346.72",
+            "Valor Contratualizado 2020": "1669917.12",
+            "% Var 2020 / 2019": "5.3%"
+          },
+          {
+            "Descrição": "63.2.2-Abonos variáveis ou eventuais",
+            "Valor Estimado 2019": "7998420.30",
+            "Valor Contratualizado 2020": "8100394.83",
+            "% Var 2020 / 2019": "1.3%"
+          },
+          {
+            "Descrição": "63.2.2.02-Alimentação e alojamento",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "63.2.2.03-Ajudas de custo",
+            "Valor Estimado 2019": "81714.76",
+            "Valor Contratualizado 2020": "81714.76",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.2.2.04-Trabalho extraordinário",
+            "Valor Estimado 2019": "5149924.15",
+            "Valor Contratualizado 2020": "4812992.98",
+            "% Var 2020 / 2019": "-6.5%"
+          },
+          {
+            "Descrição": "63.2.2.04.1- Horas Extraordinárias",
+            "Valor Estimado 2019": "3733787.95",
+            "Valor Contratualizado 2020": "3396856.78",
+            "% Var 2020 / 2019": "-9.0%"
+          },
+          {
+            "Descrição": "63.2.2.04.2 - Prevenções",
+            "Valor Estimado 2019": "1416136.20",
+            "Valor Contratualizado 2020": "1416136.20",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.2.2.05.1-Prémios de desempenho",
+            "Valor Estimado 2019": "94731.17",
+            "Valor Contratualizado 2020": "192813.32",
+            "% Var 2020 / 2019": "103.5%"
+          },
+          {
+            "Descrição": "63.2.2.06-Abono para falhas",
+            "Valor Estimado 2019": "16850.47",
+            "Valor Contratualizado 2020": "16850.47",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.2.2.07 - Subsídio de prevenção, trabalho noturno e de turno",
+            "Valor Estimado 2019": "1786167.65",
+            "Valor Contratualizado 2020": "1786168.08",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.2.2.07.1 - Noites e Suplementos",
+            "Valor Estimado 2019": "1786167.65",
+            "Valor Contratualizado 2020": "1786168.08",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.2.2.07.2- Subsídio de turno",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "63.2.2.99.1 - SIGIC",
+            "Valor Estimado 2019": "344476.85",
+            "Valor Contratualizado 2020": "685299.97",
+            "% Var 2020 / 2019": "98.9%"
+          },
+          {
+            "Descrição": "63.2.2.99.9 - Outros",
+            "Valor Estimado 2019": "331108.08",
+            "Valor Contratualizado 2020": "331108.08",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.3- Benefícios pós-emprego",
+            "Valor Estimado 2019": "4013.33",
+            "Valor Contratualizado 2020": "4013.33",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.3.2-Outros benefícios",
+            "Valor Estimado 2019": "4013.33",
+            "Valor Contratualizado 2020": "4013.33",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.4-Indeminizações",
+            "Valor Estimado 2019": "0.00",
+            "Valor Contratualizado 2020": "0.00",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "63.5 - Encargos sobre remunerações",
+            "Valor Estimado 2019": "9529429.51",
+            "Valor Contratualizado 2020": "9886635.49",
+            "% Var 2020 / 2019": "3.7%"
+          },
+          {
+            "Descrição": "63.5.1.2.2-Segurança Social - Prestações Sociais Diretas",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "63.6-Acidentes no trabalho e doenças profissionais",
+            "Valor Estimado 2019": "0.00",
+            "Valor Contratualizado 2020": "0.00",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "63.7- Gastos de ação social",
+            "Valor Estimado 2019": "0.00",
+            "Valor Contratualizado 2020": "0.00",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "63.7.2-Encargos sociais voluntários",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "63.8-Outros gastos com o pessoal",
+            "Valor Estimado 2019": "88191.26",
+            "Valor Contratualizado 2020": "88191.26",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.8.9-Outros",
+            "Valor Estimado 2019": "88191.26",
+            "Valor Contratualizado 2020": "88191.26",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "63.9- Outros encargos sociais",
+            "Valor Estimado 2019": "264516.82",
+            "Valor Contratualizado 2020": "264516.82",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2019": "52061694.13",
+            "Valor Contratualizado 2020": "54280053.16",
+            "% Var 2020 / 2019": "4.3%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "56.1%",
+            "Valor Contratualizado 2020": "56.8%",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "64-Gastos de depreciação e de amortização",
+            "Valor Estimado 2019": "1281724.92",
+            "Valor Contratualizado 2020": "1281725.32",
+            "% Var 2020 / 2019": "0.0%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "1.4%",
+            "Valor Contratualizado 2020": "1.3%",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "65- Perdas por imparidade",
+            "Valor Estimado 2019": "0.00",
+            "Valor Contratualizado 2020": "1000.00",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "0.0%",
+            "Valor Contratualizado 2020": "0.0%",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "66-Perdas por reduções de justo valor",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "0.0%",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "67-Provisões do período",
+            "Valor Estimado 2019": "0.00",
+            "Valor Contratualizado 2020": "50000.00",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "0.0%",
+            "Valor Contratualizado 2020": "0.1%",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "68-Outros gastos e perdas",
+            "Valor Estimado 2019": "141414.17",
+            "Valor Contratualizado 2020": "317500.00",
+            "% Var 2020 / 2019": "124.5%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "0.2%",
+            "Valor Contratualizado 2020": "0.3%",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "69- Gastos e perdas por juros e outros encargos",
+            "Valor Estimado 2019": "1958.47",
+            "Valor Contratualizado 2020": "5500.00",
+            "% Var 2020 / 2019": "180.8%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "0.0%",
+            "Valor Contratualizado 2020": "0.0%",
+            "% Var 2020 / 2019": ""
+          }
+        ]
+      },
+      {
+        "table_index": 10,
+        "page": 17,
+        "table_data": [
+          {
+            "Descrição": "TOTAL GERAL",
+            "Valor Estimado 2019": "92746591.29",
+            "Valor Contratualizado 2020": "95509020.73",
+            "% Var 2020 / 2019": "3.0%"
+          }
+        ]
+      },
+      {
+        "table_index": 11,
+        "page": 18,
+        "table_data": [
+          {
+            "Descrição": "70-Impostos, contribuições e taxas",
+            "Valor Estimado 2019": "1925022.50",
+            "Valor Contratualizado 2020": "2009000.00",
+            "% Var 2020 / 2019": "4.4%"
+          },
+          {
+            "Descrição": "70.1- Impostos diretos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "70.2- Impostos indiretos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "70.3- Contribuições para sistemas de proteção social e subsistemas de saúde",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "70.4 - Taxas, multas e outras penalidades",
+            "Valor Estimado 2019": "1925022.50",
+            "Valor Contratualizado 2020": "2009000.00",
+            "% Var 2020 / 2019": "4.4%"
+          },
+          {
+            "Descrição": "70.4.1.08-Taxas moderadoras",
+            "Valor Estimado 2019": "1925022.50",
+            "Valor Contratualizado 2020": "2009000.00",
+            "% Var 2020 / 2019": "4.4%"
+          },
+          {
+            "Descrição": "70.4.1.08.1 - Consultas",
+            "Valor Estimado 2019": "880841.42",
+            "Valor Contratualizado 2020": "875000.00",
+            "% Var 2020 / 2019": "-0.7%"
+          },
+          {
+            "Descrição": "70.4.1.08.2-Urgência/SAP",
+            "Valor Estimado 2019": "401149.98",
+            "Valor Contratualizado 2020": "400000.00",
+            "% Var 2020 / 2019": "-0.3%"
+          },
+          {
+            "Descrição": "70.4.1.08.3 - Meios complementares diagnóst. e terapêutica",
+            "Valor Estimado 2019": "626280.24",
+            "Valor Contratualizado 2020": "725000.00",
+            "% Var 2020 / 2019": "15.8%"
+          },
+          {
+            "Descrição": "70.4.1.08.9 - Outros",
+            "Valor Estimado 2019": "16750.86",
+            "Valor Contratualizado 2020": "9000.00",
+            "% Var 2020 / 2019": "-46.3%"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2019": "1925022.50",
+            "Valor Contratualizado 2020": "2009000.00",
+            "% Var 2020 / 2019": "4.4%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "2.2%",
+            "Valor Contratualizado 2020": "2.2%",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "71 - Vendas",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "71.1- Mercadorias",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "71.2-Produtos acabados e intermédios",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "71.3-Subprodutos, desperdícios, resíduos e refugos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "71.4 - Ativos biológicos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "71.7 - Devoluções de vendas",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "71.8- Descontos e abatimentos em vendas",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72- Prestações de serviços e concessões",
+            "Valor Estimado 2019": "84273016.60",
+            "Valor Contratualizado 2020": "87897916.00",
+            "% Var 2020 / 2019": "4.3%"
+          },
+          {
+            "Descrição": "72.01 - Serviços específicos do setor da saúde",
+            "Valor Estimado 2019": "84273016.60",
+            "Valor Contratualizado 2020": "87897916.00",
+            "% Var 2020 / 2019": "4.3%"
+          },
+          {
+            "Descrição": "72.01.1-SNS- Serviço Nac. Saúde (Contrato Programa EPE)",
+            "Valor Estimado 2019": "83568402.00",
+            "Valor Contratualizado 2020": "87244611.00",
+            "% Var 2020 / 2019": "4.4%"
+          },
+          {
+            "Descrição": "72.01.1.1-Internamento",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.1.1 - GDH Médicos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.1.2-GDH Cirúrgicos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.1.3-GDH Cirúrgicos Urgentes",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.1.4- Dias Internamento Doentes Crónicos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.2-Consulta",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.2.1 - Primeiras Consultas",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.2.2 - Consultas Subsequentes",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.3 - Urgência",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.3.1 - Atendimentos (SU-Polivalente)",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.3.2- Atendimentos (SU-Médico Cirúrgica)",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.3.3-ECMO (Centros de Oxigenação por Membrana Extracorporal)",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.3.4 - Atendimentos (SU-Básica)",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.4-GDH Ambulatório",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.4.1-GDH Cirúrgicos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.4.2 - GDH Médicos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.5 - Hospital de dia",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6- Outras Prestações Serviços Saúde",
+            "Valor Estimado 2019": "83568402.00",
+            "Valor Contratualizado 2020": "87244611.00",
+            "% Var 2020 / 2019": "4.4%"
+          },
+          {
+            "Descrição": "72.01.1.6.1 - Serviço Domiciliário",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2 - Programas de gestão da doença crónica",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.1 - VIH/Sida",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.2 - Esclerose Multipla",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.3 - Hipertensao Pulmonar",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.4 - Cancro",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.4.1 - Cancro da Mama",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.4.2 - Cancro do Colo do Útero",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.4.3 - Cancro do Cólon e Reto",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.4.9 - Outros",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.5 - Telemonitorização",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.5.1 - Telemonitorização DPOC",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "page": 19,
+        "table_data": [
+          {
+            "Descrição": "72.01.1.6.2.5.2 - Telemonitorização EAM",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.5.3 - Telemonitorização ICC",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.5.9 - Outros",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.6 - PSCI",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.7 - Doenças Lisossomais",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.8 - PAF1 - Paramiloidose",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.2.9 - Outros Programas de Gestão da Doença Crónica",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.3 - Saúde Sexual e Reprodutiva",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.3.1 - IVG até às 10 semanas",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.3.2 - PMA - Diagnóstico e Tratamento da Infertilidade",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.3.3 - Diagnóstico Pré-Natal",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.3.4 - Banco de Gâmetas",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.5 - Valor capitacional (ULS)",
+            "Valor Estimado 2019": "76362422.00",
+            "Valor Contratualizado 2020": "77928357.00",
+            "% Var 2020/2019": "2.1%"
+          },
+          {
+            "Descrição": "72.01.1.6.6 - Sessões de Radioterapia",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.7 - Medicamentos de Cedência em Ambulatório",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.8 - Intemos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "657548.00",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.1.6.9 - Outras prestações de serviços",
+            "Valor Estimado 2019": "7205980.00",
+            "Valor Contratualizado 2020": "8658706.00",
+            "% Var 2020/2019": "20.2%"
+          },
+          {
+            "Descrição": "72.01.2 - Prestações de Saúde de Financiamento Vertical (ACSS)",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3 - Outras entidades responsáveis",
+            "Valor Estimado 2019": "704614.60",
+            "Valor Contratualizado 2020": "653305.00",
+            "% Var 2020/2019": "-7.3%"
+          },
+          {
+            "Descrição": "72.01.3.1 - Internamento",
+            "Valor Estimado 2019": "338034.90",
+            "Valor Contratualizado 2020": "250000.00",
+            "% Var 2020/2019": "-26.0%"
+          },
+          {
+            "Descrição": "72.01.3.2 - Consulta",
+            "Valor Estimado 2019": "6702.85",
+            "Valor Contratualizado 2020": "10000.00",
+            "% Var 2020/2019": "49.2%"
+          },
+          {
+            "Descrição": "72.01.3.3 - Urgência/SAP",
+            "Valor Estimado 2019": "179133.98",
+            "Valor Contratualizado 2020": "280000.00",
+            "% Var 2020/2019": "56.3%"
+          },
+          {
+            "Descrição": "72.01.3.3.1 - Urgência",
+            "Valor Estimado 2019": "179133.98",
+            "Valor Contratualizado 2020": "280000.00",
+            "% Var 2020/2019": "56.3%"
+          },
+          {
+            "Descrição": "72.01.3.3.2 - Serviço de atendimento permanente",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.3.9 - Outros",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.4 - Quartos particulares",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.5 - Hospital de dia",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.6 - Meio Complementares de Diagnóstico e Terapêutica",
+            "Valor Estimado 2019": "173952.71",
+            "Valor Contratualizado 2020": "110805.00",
+            "% Var 2020/2019": "-36.3%"
+          },
+          {
+            "Descrição": "72.01.3.6.1 - Meios de Diagnóstico",
+            "Valor Estimado 2019": "166319.14",
+            "Valor Contratualizado 2020": "95605.00",
+            "% Var 2020/2019": "-42.5%"
+          },
+          {
+            "Descrição": "72.01.3.6.1.1 - Patologia clínica",
+            "Valor Estimado 2019": "34717.94",
+            "Valor Contratualizado 2020": "20000.00",
+            "% Var 2020/2019": "-42.4%"
+          },
+          {
+            "Descrição": "72.01.3.6.1.2 - Anatomia patológica",
+            "Valor Estimado 2019": "328.86",
+            "Valor Contratualizado 2020": "50.00",
+            "% Var 2020/2019": "-84.8%"
+          },
+          {
+            "Descrição": "72.01.3.6.1.3 - Imagiologia",
+            "Valor Estimado 2019": "94929.67",
+            "Valor Contratualizado 2020": "50000.00",
+            "% Var 2020/2019": "-47.3%"
+          },
+          {
+            "Descrição": "72.01.3.6.1.4 - Cardiologia",
+            "Valor Estimado 2019": "1442.16",
+            "Valor Contratualizado 2020": "400.00",
+            "% Var 2020/2019": "-72.3%"
+          },
+          {
+            "Descrição": "72.01.3.6.1.5 - Medicina nuclear",
+            "Valor Estimado 2019": "13.68",
+            "Valor Contratualizado 2020": "30.00",
+            "% Var 2020/2019": "119.3%"
+          },
+          {
+            "Descrição": "72.01.3.6.1.6 - Gastrenterologia",
+            "Valor Estimado 2019": "212.40",
+            "Valor Contratualizado 2020": "125.00",
+            "% Var 2020/2019": "-41.1%"
+          },
+          {
+            "Descrição": "72.01.3.6.1.9 - Outros",
+            "Valor Estimado 2019": "34674.43",
+            "Valor Contratualizado 2020": "25000.00",
+            "% Var 2020/2019": "-27.9%"
+          },
+          {
+            "Descrição": "72.01.3.6.2 - Meios de Terapêutica",
+            "Valor Estimado 2019": "7633.57",
+            "Valor Contratualizado 2020": "15200.00",
+            "% Var 2020/2019": "99.1%"
+          },
+          {
+            "Descrição": "72.01.3.6.2.1 - Hemodiálise",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.6.2.2 - Medicina física e de reabilitação",
+            "Valor Estimado 2019": "7531.92",
+            "Valor Contratualizado 2020": "15000.00",
+            "% Var 2020/2019": "99.2%"
+          },
+          {
+            "Descrição": "72.01.3.6.2.3 - Litotricia",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.6.2.4 - Quimioterapia",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.6.2.5 - Radioterapia",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.6.2.9 - Outros",
+            "Valor Estimado 2019": "101.65",
+            "Valor Contratualizado 2020": "200.00",
+            "% Var 2020/2019": "96.8%"
+          },
+          {
+            "Descrição": "72.01.3.7 - Serviços domiciliário",
+            "Valor Estimado 2019": "3164.00",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.8 - GDH Ambulatório",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.8.1 - GDH Cirúrgicos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.8.2 - GDH Médicos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.9 - Outras prestações de serviços",
+            "Valor Estimado 2019": "3626.16",
+            "Valor Contratualizado 2020": "2500.00",
+            "% Var 2020/2019": "-31.1%"
+          },
+          {
+            "Descrição": "72.01.3.9.1 - Análises sanitárias",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.9.2 - Convenções internacionais",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.01.3.9.3 - Unidades terapêuticas de Sangue",
+            "Valor Estimado 2019": "3626.16",
+            "Valor Contratualizado 2020": "2500.00",
+            "% Var 2020/2019": "-31.1%"
+          },
+          {
+            "Descrição": "72.01.3.9.9 - Outras",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.05 - Concessões",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.06 - Vistorias e ensaios",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.07 - Estudos, pareceres, projetos e consultadoria",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.08 - Serviços sociais, recreativos, culturais e desporto",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.09 - Transporte de doentes",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.10 - Serviços laboratoriais",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.11 - Aluguer de equipamentos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.12 - Arrendamento",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.13 - Reparações",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.14 - Subsistemas de saúde facultativos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "72.99 - Outros serviços",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020/2019": ""
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2019": "84273016.60",
+            "Valor Contratualizado 2020": "87897916.00",
+            "% Var 2020/2019": "4.3%"
+          }
+        ]
+      },
+      {
+        "table_index": 13,
+        "page": 20,
+        "table_data": [
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "97.2%",
+            "Valor Contratualizado 2020": "96.8%",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "73 - Variações nos inventários da produção",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "74 - Trabalhos para a própria entidade",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "75 - Transferências e subsídios correntes obtidos",
+            "Valor Estimado 2019": "85540.52",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "0.1%",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "76 - Reversões",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "100000.00",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "0.1%",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "77 - Ganhos por aumentos de justo valor",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "78 - Outros rendimentos e ganhos",
+            "Valor Estimado 2019": "440680.46",
+            "Valor Contratualizado 2020": "765000.00",
+            "% Var 2020 / 2019": "73.6%"
+          },
+          {
+            "Descrição": "78.1 - Rendimentos suplementares",
+            "Valor Estimado 2019": "402312.07",
+            "Valor Contratualizado 2020": "655000.00",
+            "% Var 2020 / 2019": "62.8%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "0.5%",
+            "Valor Contratualizado 2020": "0.8%",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "79 - Juros, dividendos e outros rendimentos similares",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "2000.00",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "0.0%",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "TOTAL GERAL",
+            "Valor Estimado 2019": "86724260.08",
+            "Valor Contratualizado 2020": "90773916.00",
+            "% Var 2020 / 2019": "4.7%"
+          }
+        ]
+      },
+      {
+        "table_index": 14,
+        "page": 21,
+        "table_data": [
+          {
+            "Descrição": "Fluxos de Actividades Operacionais",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Recebimento de Clientes",
+            "Valor Estimado 2019": "81412304.45",
+            "Valor Contratualizado 2020": "84000000.00",
+            "% Var 2020 / 2019": "3.18%"
+          },
+          {
+            "Descrição": "Recebimento de Contribuintes",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": "3.18%"
+          },
+          {
+            "Descrição": "Recebimento de Utentes",
+            "Valor Estimado 2019": "1550456.18",
+            "Valor Contratualizado 2020": "2009000.00",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Pagamento a Fomecedores",
+            "Valor Estimado 2019": "-32816542.71",
+            "Valor Contratualizado 2020": "-34500000.00",
+            "% Var 2020 / 2019": "5.13%"
+          },
+          {
+            "Descrição": "Pagamentos ao Pessoal",
+            "Valor Estimado 2019": "-51172577.13",
+            "Valor Contratualizado 2020": "-54280053.00",
+            "% Var 2020 / 2019": "6.07%"
+          },
+          {
+            "Descrição": "Caixa gerada pelas operações",
+            "Valor Estimado 2019": "-1026359.21",
+            "Valor Contratualizado 2020": "-2771053.00",
+            "% Var 2020 / 2019": "169.99%"
+          },
+          {
+            "Descrição": "Outros recebimentos/pagamentos",
+            "Valor Estimado 2019": "-852697.44",
+            "Valor Contratualizado 2020": "3000000.00",
+            "% Var 2020 / 2019": "-451.82%"
+          },
+          {
+            "Descrição": "Fluxos de caixa das atividades operacionais",
+            "Valor Estimado 2019": "-1879056.65",
+            "Valor Contratualizado 2020": "228947.00",
+            "% Var 2020 / 2019": "-112.18%"
+          },
+          {
+            "Descrição": "Fluxos de Actividades de Investimento",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Pagamentos Respeitantes a (-):",
+            "Valor Estimado 2019": "-1959579.12",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Activos Fixos Tangíveis",
+            "Valor Estimado 2019": "-909395.93",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Activos Intangíveis",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Propriedades de Investimento",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Investimentos Financeiros",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Outros Activos",
+            "Valor Estimado 2019": "-1050183.19",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Recebimentos Provenientes de (+):",
+            "Valor Estimado 2019": "628870.05",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Activos Fixos Tangíveis",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Activos Intangíveis",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Propriedades de Investimento",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Investimentos Financeiros",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Outros Activos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Subsídios ao Investimento",
+            "Valor Estimado 2019": "628870.05",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Transferências de Capital",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Juros e Rendimentos Similares",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Dividendos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Fluxos de caixa das atividades de investimento",
+            "Valor Estimado 2019": "-1330709.07",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Fluxos de Actividades de Financiamento",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Recebimentos Provenientes de (+):",
+            "Valor Estimado 2019": "967433.44",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Financiamentos Obtidos",
+            "Valor Estimado 2019": "967433.44",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Realizações de capital e de outros instrumentos de capital",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Cobertura de prejuízos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Doações",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Outras operações de financiamento",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Pagamentos Respeitantes a (-):",
+            "Valor Estimado 2019": "-2082.49",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Financiamentos obtidos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Juros e gastos similares",
+            "Valor Estimado 2019": "-2082.49",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Dividendos",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Reduções de capital e de outros intrumentos de capital",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Outras operações de financiamento",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Fluxos de caixa das atividades de financiamento",
+            "Valor Estimado 2019": "965350.95",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Variação de caixa e seus equivalentes",
+            "Valor Estimado 2019": "-2244414.77",
+            "Valor Contratualizado 2020": "228947.00",
+            "% Var 2020 / 2019": "-110.20%"
+          },
+          {
+            "Descrição": "Efeito das diferenças de câmbio",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Caixa e seus equivalentes no inicio do período",
+            "Valor Estimado 2019": "12140108.00",
+            "Valor Contratualizado 2020": "9895693.23",
+            "% Var 2020 / 2019": "-18.49%"
+          },
+          {
+            "Descrição": "Caixa e seus equivalentes no fim do período",
+            "Valor Estimado 2019": "9895693.23",
+            "Valor Contratualizado 2020": "10837728.61",
+            "% Var 2020 / 2019": "9.52%"
+          },
+          {
+            "Descrição": "Conciliação entre caixa e seus equivalentes e saldo de gerência",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Caixa e seus equivalentes no inicio do período",
+            "Valor Estimado 2019": "12140108.00",
+            "Valor Contratualizado 2020": "9895693.23",
+            "% Var 2020 / 2019": "-18.49%"
+          },
+          {
+            "Descrição": "Equivalentes a caixa no inicio do período",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Variações cambiais de caixa no ínicio do período",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Saldo da gerência anterior",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Da execução orçamental",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Das operações de tesouraria",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Caixa e seus equivalentes no fim do período",
+            "Valor Estimado 2019": "9895693.23",
+            "Valor Contratualizado 2020": "10837728.61",
+            "% Var 2020 / 2019": "9.52%"
+          },
+          {
+            "Descrição": "Equivalentes a caixa no fim do período",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Variações cambiais de caixa no fim do período",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Saldo para a gerência seguinte",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Da execução orçamental",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          },
+          {
+            "Descrição": "Das operações de tesouraria",
+            "Valor Estimado 2019": "",
+            "Valor Contratualizado 2020": "",
+            "% Var 2020 / 2019": ""
+          }
+        ]
+      },
+      {
+        "table_index": 15,
+        "page": 22,
+        "table_data": [
+          {
+            "Descrição": "Ativo não corrente",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Ativos Fixos Tangíveis",
+            "AL - Activo Liquido 2019": "44921694.00",
+            "AL - Activo Liquido 2020": "51347781.00"
+          },
+          {
+            "Descrição": "Propriedades de Investimento",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Ativos Intangíveis",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Ativos Biológicos",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Investimentos Financeiros",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Devedores por empréstimos bonificados e subsídios reembolsáveis",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Acionistas/sócios/associados",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Diferimentos",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Outros Ativos Financeiros",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Ativos por Impostos Diferidos",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Sub-Total",
+            "AL - Activo Liquido 2019": "44921694.00",
+            "AL - Activo Liquido 2020": "51347781.00"
+          },
+          {
+            "Descrição": "Ativo corrente",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Inventários",
+            "AL - Activo Liquido 2019": "302353.00",
+            "AL - Activo Liquido 2020": "302353.00"
+          },
+          {
+            "Descrição": "Ativos Biológicos",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Devedores por transferências e subsídios não reembolsáveis",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Devedores por empréstimos bonificados e subsidios reembolsáveis",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Clientes, Contribuintes e Utentes",
+            "AL - Activo Liquido 2019": "13377757.00",
+            "AL - Activo Liquido 2020": "11877757.00"
+          },
+          {
+            "Descrição": "Estado e Outros Entes Públicos",
+            "AL - Activo Liquido 2019": "375795.00",
+            "AL - Activo Liquido 2020": "375795.00"
+          },
+          {
+            "Descrição": "Acionistas/sócios/associados",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Outras contas a receber",
+            "AL - Activo Liquido 2019": "27415560.00",
+            "AL - Activo Liquido 2020": "24815560.00"
+          },
+          {
+            "Descrição": "Diferimentos",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Ativos Financeiros Detidos para Negociação",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Outros Ativos Financeiros",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Ativos não correntes detidos para venda",
+            "AL - Activo Liquido 2019": "",
+            "AL - Activo Liquido 2020": ""
+          },
+          {
+            "Descrição": "Caixa e depósitos",
+            "AL - Activo Liquido 2019": "9895693.23",
+            "AL - Activo Liquido 2020": "10837728.61"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "AL - Activo Liquido 2019": "51367158.23",
+            "AL - Activo Liquido 2020": "48209193.61"
+          },
+          {
+            "Descrição": "Total do Ativo",
+            "AL - Activo Liquido 2019": "96288852.23",
+            "AL - Activo Liquido 2020": "99556974.61"
+          }
+        ]
+      },
+      {
+        "table_index": 16,
+        "page": 23,
+        "table_data": [
+          {
+            "Descrição": "Património Liquido",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Património/Capital",
+            "Património Líquido e Passivo 2019": "35920000.00",
+            "Património Líquido e Passivo 2020": "35920000.00"
+          },
+          {
+            "Descrição": "Ações (quotas) próprias",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Outros instrumentos de capital próprio",
+            "Património Líquido e Passivo 2019": "10844489.10",
+            "Património Líquido e Passivo 2020": "10844489.10"
+          },
+          {
+            "Descrição": "Prémios de emissão",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Reservas",
+            "Património Líquido e Passivo 2019": "27940081.90",
+            "Património Líquido e Passivo 2020": "27940081.90"
+          },
+          {
+            "Descrição": "Resultados transitados",
+            "Património Líquido e Passivo 2019": "-19028592.00",
+            "Património Líquido e Passivo 2020": "-25050923.21"
+          },
+          {
+            "Descrição": "Ajustamentos em ativos financeiros",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Excedentes de revalorização",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Outras variações no património líquido",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Resultado líquido do período",
+            "Património Líquido e Passivo 2019": "-6022331.21",
+            "Património Líquido e Passivo 2020": "-4737104.73"
+          },
+          {
+            "Descrição": "Dividendos antecipados",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Interesses que não controlam",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Total do Património Líquido",
+            "Património Líquido e Passivo 2019": "49653647.79",
+            "Património Líquido e Passivo 2020": "44916543.06"
+          },
+          {
+            "Descrição": "Passivo",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Passivo não corrente",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Provisões",
+            "Património Líquido e Passivo 2019": "654658.00",
+            "Património Líquido e Passivo 2020": "654658.00"
+          },
+          {
+            "Descrição": "Financiamentos Obtidos",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Fomecedores de Investimentos",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Responsabilidades por beneficios pós-emprego",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Diferimentos",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Passivos por impostos diferidos",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Outras contas a pagar",
+            "Património Líquido e Passivo 2019": "29675.00",
+            "Património Líquido e Passivo 2020": "29675.00"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Património Líquido e Passivo 2019": "684333.00",
+            "Património Líquido e Passivo 2020": "684333.00"
+          },
+          {
+            "Descrição": "Passivo corrente",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Credores por transferências e subsídios não reembolsáveis concedidos",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Fornecedores",
+            "Património Líquido e Passivo 2019": "7695798.44",
+            "Património Líquido e Passivo 2020": "11388936.55"
+          },
+          {
+            "Descrição": "Adiantamento de clientes, contribuintes e utentes",
+            "Património Líquido e Passivo 2019": "15708478.00",
+            "Património Líquido e Passivo 2020": "16108478.00"
+          },
+          {
+            "Descrição": "Estado e outros entes públicos",
+            "Património Líquido e Passivo 2019": "950859.00",
+            "Património Líquido e Passivo 2020": "950859.00"
+          },
+          {
+            "Descrição": "Acionistas/sócios/associados",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Financiamentos Obtidos",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Fomecedores de Investimento",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Outras contas a pagar",
+            "Património Líquido e Passivo 2019": "21552173.00",
+            "Património Líquido e Passivo 2020": "25466262.00"
+          },
+          {
+            "Descrição": "Diferimentos",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Passivos financeiros detidos para negociação",
+            "Património Líquido e Passivo 2019": "",
+            "Património Líquido e Passivo 2020": ""
+          },
+          {
+            "Descrição": "Outros passivos financeiros",
+            "Património Líquido e Passivo 2019": "43563.00",
+            "Património Líquido e Passivo 2020": "43563.00"
+          },
+          {
+            "Descrição": "Total do Passivo",
+            "Património Líquido e Passivo 2019": "46635204.44",
+            "Património Líquido e Passivo 2020": "54642431.55"
+          },
+          {
+            "Descrição": "Total do Património Líquido e Passivo",
+            "Património Líquido e Passivo 2019": "96288852.23",
+            "Património Líquido e Passivo 2020": "99558974.61"
+          }
+        ]
+      }
+    ]
+  }
+}

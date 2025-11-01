@@ -1,0 +1,3757 @@
+{
+  "contract_id": "2699e9a8-ac6e-2e86-1691-c82edfbcd0a8",
+  "hospital_name": "Unidade Local de Saúde do Norte Alentejano, EPE.",
+  "year": 2019,
+  "pdf_url": "https://www.acss.min-saude.pt/wp-content/uploads/2016/10/Adenda-Acordo-Modificativo-2019-ULS-Norte-Alentejano-EPE_vf.pdf",
+  "extraction_timestamp": "20251101_161252",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 2,
+        "table_data": [
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "1. Consultas Externas:"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "42.00",
+            "Quantidade": "19690",
+            "Valor (€)": null,
+            "Descrição": "Nº de 1ªs consultas médicas (s/ majoração)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": "10100",
+            "Valor (€)": null,
+            "Descrição": "Nº de 1ªs consultas referenciadas (CTH)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": "650",
+            "Valor (€)": null,
+            "Descrição": "Nº de 1ªs consultas (Telemedicina)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Nº de 1ªs consultas na comunidade (Saúde mental)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Nº de 1ªs consultas descentralizadas nos CSP"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": "170",
+            "Valor (€)": null,
+            "Descrição": "N° de 1ªs consultas Cuidados Paliativos"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Nº de 1ªs consultas CRe"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Nº de 1ªs consultas CRI"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "42.00",
+            "Quantidade": "69944",
+            "Valor (€)": null,
+            "Descrição": "Nº de consultas subsequentes médicas (s/majoração)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": "500",
+            "Valor (€)": null,
+            "Descrição": "Nº de consultas subsequentes (Telemedicina)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Nº de consultas subsequentes na comunidade (Saúde mental)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Nº de consultas subsequentes descentralizadas nos CSP"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": "600",
+            "Valor (€)": null,
+            "Descrição": "Nº de consultas subsequentes Cuidados Paliativos"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Nº de consultas subsequentes CRe"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "46.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Nº de consultas subsequentes CRI"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "2. Internamento:"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Doentes Saídos"
+          },
+          {
+            "ICM": "0.8226",
+            "N.°": "5293",
+            "%": "95.45",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "5545",
+            "Valor (€)": null,
+            "Descrição": "GDH Médicos"
+          },
+          {
+            "ICM": "0.8226",
+            "N.°": "191",
+            "%": "95.45",
+            "Preço Unitário (€)": "2399.00",
+            "Quantidade": "200",
+            "Valor (€)": null,
+            "Descrição": "GDH Médicos Cuidados Paliativos"
+          },
+          {
+            "ICM": "0.8226",
+            "N.°": null,
+            "%": "95.45",
+            "Preço Unitário (€)": "2399.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "GDH Médicos CRe"
+          },
+          {
+            "ICM": "0.8226",
+            "N.°": null,
+            "%": "95.45",
+            "Preço Unitário (€)": "2399.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "GDH Médicos CRI"
+          },
+          {
+            "ICM": "0.8226",
+            "N.°": "1191",
+            "%": "95.45",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "1248",
+            "Valor (€)": null,
+            "Descrição": "GDH Cirúrgicos"
+          },
+          {
+            "ICM": "0.8226",
+            "N.°": null,
+            "%": "95.45",
+            "Preço Unitário (€)": "2399.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "GDH Cirúrgicos CRe"
+          },
+          {
+            "ICM": "0.8226",
+            "N.°": null,
+            "%": "95.45",
+            "Preço Unitário (€)": "2399.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "GDH Cirúrgicos CRI"
+          },
+          {
+            "ICM": "0.8226",
+            "N.°": "731",
+            "%": "95.45",
+            "Preço Unitário (€)": "2171.00",
+            "Quantidade": "766",
+            "Valor (€)": null,
+            "Descrição": "GDH Cirúrgicos Urgentes"
+          },
+          {
+            "ICM": "0.8226",
+            "N.°": null,
+            "%": "95.45",
+            "Preço Unitário (€)": "2280.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "GDH Cirúrgicos Urgentes CRe"
+          },
+          {
+            "ICM": "0.8226",
+            "N.°": null,
+            "%": "95.45",
+            "Preço Unitário (€)": "2280.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "GDH Cirúrgicos Urgentes CRI"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Dias de Internamento de Doentes Crónicos"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "205.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Doentes Medicina Física e Reabilitação"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "42.00",
+            "Quantidade": "4015",
+            "Valor (€)": null,
+            "Descrição": "Doentes de Psiquiatria Crónicos no Hospital"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "42.00",
+            "Quantidade": "42705",
+            "Valor (€)": null,
+            "Descrição": "Doentes de Psiquiatria no Exterior (Ordens Religiosas)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "42.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Doentes de Psiquiatria no Exterior (Outras Inst.)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "244.00",
+            "Quantidade": "365",
+            "Valor (€)": null,
+            "Descrição": "Doentes Crónicos Ventilados"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "42.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Doentes de Reabilitação Psicossocial"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "0.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Doentes Crónicos de Hansen"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "3. Episódios de GDH de Ambulatório:"
+          },
+          {
+            "ICM": "0.5892",
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "2800",
+            "Valor (€)": null,
+            "Descrição": "GDH Cirúrgicos"
+          },
+          {
+            "ICM": "0.5892",
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2399.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "GDH Cirúrgicos CRe"
+          },
+          {
+            "ICM": "0.5892",
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2399.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "GDH Cirúrgicos CRI"
+          },
+          {
+            "ICM": "0.2146",
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "1700",
+            "Valor (€)": null,
+            "Descrição": "GDH Médicos"
+          },
+          {
+            "ICM": "0.2146",
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2399.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "GDH Médicos CRe"
+          },
+          {
+            "ICM": "0.2146",
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2399.00",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "GDH Médicos CRI"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "4. Urgências:"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "17M€/170.000 ep.",
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "Atendimentos (SU - Polivalente)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "5M€/100.000 ep.",
+            "Quantidade": "31366",
+            "Valor (€)": null,
+            "Descrição": "Atendimentos (SU - Médico-Cirúrgica)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "1.4M€/35.000 ep.",
+            "Quantidade": "49317",
+            "Valor (€)": null,
+            "Descrição": "Atendimentos (SU - Básica)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null,
+            "Descrição": "5. Sessões em Hospital de Dia:"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 3,
+        "table_data": [
+          {
+            "Descrição": "Base",
+            "Preço Unitário (€)": "20.00",
+            "Quantidade": "8750"
+          },
+          {
+            "Descrição": "Hematologia",
+            "Preço Unitário (€)": "294.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Imuno-Hemoterapia",
+            "Preço Unitário (€)": "294.00",
+            "Quantidade": "400"
+          },
+          {
+            "Descrição": "Psiquiatria",
+            "Preço Unitário (€)": "30.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Psiquiatria - Unidades Socio-Ocupacionais",
+            "Preço Unitário (€)": "30.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Cuidados Paliativos",
+            "Preço Unitário (€)": "24.00",
+            "Quantidade": "150"
+          },
+          {
+            "Descrição": "Valor Total do Hospital de Dia",
+            "Preço Unitário (€)": null,
+            "Quantidade": null
+          },
+          {
+            "Descrição": "6. Programas de Gestão da Doença Crónica",
+            "Preço Unitário (€)": null,
+            "Quantidade": null
+          },
+          {
+            "Descrição": "VIH/Sida (doentes em TARC equivalente./ano)",
+            "Preço Unitário (€)": "5997.00",
+            "Quantidade": "140"
+          },
+          {
+            "Descrição": "Hepatite C (doentes tratados)",
+            "Preço Unitário (€)": "6922.00",
+            "Quantidade": "200"
+          },
+          {
+            "Descrição": "Hipertensão Arterial Pulmonar - doentes em terapêutica",
+            "Preço Unitário (€)": null,
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Pré-tratamento/seguimento 1º ano",
+            "Preço Unitário (€)": "8408.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Seguimento após 1º ano CF≤ III",
+            "Preço Unitário (€)": "22555.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Seguimento após 1º ano CF IV",
+            "Preço Unitário (€)": "162563.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Esclerose múltipla - doentes em terapêutica modificadora",
+            "Preço Unitário (€)": "12380.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Tratamento de doentes c/ patologia oncológica - Doentes equivalente/ano",
+            "Preço Unitário (€)": null,
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Cancro da mama (1º ano)",
+            "Preço Unitário (€)": "9827.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Cancro da mama (2º ano)",
+            "Preço Unitário (€)": "3944.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Cancro do cólon e reto (1º ano)",
+            "Preço Unitário (€)": "11302.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Cancro do cólon e reto (2º ano)",
+            "Preço Unitário (€)": "4995.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Cancro do colo do útero (1º ano)",
+            "Preço Unitário (€)": "12023.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Cancro do colo do útero (2º ano)",
+            "Preço Unitário (€)": "3551.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Cancro da Próstata (1º ano)",
+            "Preço Unitário (€)": "6314.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Cancro da Próstata (2º ano)",
+            "Preço Unitário (€)": "1726.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Cancro do Pulmão (1º ano)",
+            "Preço Unitário (€)": "16901.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Cancro da Pulmão (2º ano)",
+            "Preço Unitário (€)": "4397.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Mieloma (1º ano)",
+            "Preço Unitário (€)": "24879.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Mieloma (2°ano)",
+            "Preço Unitário (€)": "10687.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Rastreios - N° de Rastreios",
+            "Preço Unitário (€)": null,
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Rastreio do Cancro do Colo do Útero",
+            "Preço Unitário (€)": "68.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Rastreio do Cancro do Cólon e Reto",
+            "Preço Unitário (€)": "378.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Telemonotorização DPOC",
+            "Preço Unitário (€)": null,
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Elementos de Telemonitorização",
+            "Preço Unitário (€)": "1296.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Nº de doentes em tratamento (doente tratado/ano)",
+            "Preço Unitário (€)": "2053.00",
+            "Quantidade": "11"
+          },
+          {
+            "Descrição": "Telemonotorização EAM",
+            "Preço Unitário (€)": null,
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Elementos de Telemonitorização",
+            "Preço Unitário (€)": "3391.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Nº de doentes em tratamento (doente tratado/ano)",
+            "Preço Unitário (€)": "1342.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Telemonotorização ICC",
+            "Preço Unitário (€)": null,
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Elementos de Telemonitorização",
+            "Preço Unitário (€)": "1621.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Nº de doentes em tratamento (doente tratado/ano)",
+            "Preço Unitário (€)": "1342.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "PSCI (Centros de Tratamento autorizados pela DGS)",
+            "Preço Unitário (€)": null,
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doentes Novos (Cuidados 1º ano) Eq./ano",
+            "Preço Unitário (€)": "2700.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doentes em seguimento (Cuidados 2º ano e seguintes) Eq./ano",
+            "Preço Unitário (€)": "1200.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Programa Terapêutico PAF1",
+            "Preço Unitário (€)": null,
+            "Quantidade": null
+          },
+          {
+            "Descrição": "PAF1 Doentes em tratamento (equivalente/ano)",
+            "Preço Unitário (€)": "58359.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doenças Lisossomais de Sobrecarga (doentes em tratamento Eq./ano) - CRe",
+            "Preço Unitário (€)": null,
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doença de Gaucher",
+            "Preço Unitário (€)": "181373.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doença de Fabry",
+            "Preço Unitário (€)": "119485.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doença de Hurler",
+            "Preço Unitário (€)": "171037.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doença de Hunter",
+            "Preço Unitário (€)": "411356.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doença de Maroteaux-Lamy",
+            "Preço Unitário (€)": "385325.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doença de Niemann-Pick",
+            "Preço Unitário (€)": "74086.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doença de Pompe",
+            "Preço Unitário (€)": "196668.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doenças Lisossomais de Sobre Carga CTP -CRe (doentes em tratamento Eq./ano)",
+            "Preço Unitário (€)": null,
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doença de Gaucher (CRe)",
+            "Preço Unitário (€)": "179281.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doença de Fabry (CRe)",
+            "Preço Unitário (€)": "117915.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doença de Hurler (CRe)",
+            "Preço Unitário (€)": "168147.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doença de Hunter (CRe)",
+            "Preço Unitário (€)": "408466.00",
+            "Quantidade": null
+          },
+          {
+            "Descrição": "Doença de Maroteaux-Lamy (CRe)",
+            "Preço Unitário (€)": "382435.00",
+            "Quantidade": null
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 4,
+        "table_data": [
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "72567.00",
+            "Quantidade": null,
+            "Descrição": "Doença de Niemann-Pick (CRe)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "195067.00",
+            "Quantidade": null,
+            "Descrição": "Doença de Pompe (CRe)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "Doenças Lisossomais de Sobrecarga CTP (doentes em tratamento Eq./ano)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2123.00",
+            "Quantidade": null,
+            "Descrição": "Doença de Gaucher CTP"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "1601.00",
+            "Quantidade": null,
+            "Descrição": "Doença de Fabry CTP"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2921.00",
+            "Quantidade": null,
+            "Descrição": "Doença de Hurler CTP"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2921.00",
+            "Quantidade": null,
+            "Descrição": "Doença de Hunter CTP"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2921.00",
+            "Quantidade": null,
+            "Descrição": "Doença de Maroteaux-Lamy CTP"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "1550.00",
+            "Quantidade": null,
+            "Descrição": "Doença de Niemann-Pick CTP"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "1632.00",
+            "Quantidade": null,
+            "Descrição": "Doença de Pompe CTP"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "Perturbações Mentais Graves"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "1519.00",
+            "Quantidade": null,
+            "Descrição": "Psicoses Esquizofrénicas (doente equivalente/ano)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "1035.00",
+            "Quantidade": null,
+            "Descrição": "Psicoses Afetivas (doente equivalente/ano)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "799.00",
+            "Quantidade": null,
+            "Descrição": "Psicoses não Orgânicas (doente equivalente/ano)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "7. Programa de Tratamento Cirúrgico da Obesidade (PTCO)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "3377.00",
+            "Quantidade": null,
+            "Descrição": "Pré-avaliação + Cirurgia Bariátrica Banda Gástrica"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "563.00",
+            "Quantidade": null,
+            "Descrição": "Cirurgia Bariátrica - Banda Gástrica - 1º Ano Follow Up"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "563.00",
+            "Quantidade": null,
+            "Descrição": "Cirurgia Bariátrica - Banda Gástrica - 2º Ano Follow Up"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "4295.00",
+            "Quantidade": null,
+            "Descrição": "Pré-avaliação + Cirurgia Bariátrica Bypass Gástrico"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "716.00",
+            "Quantidade": null,
+            "Descrição": "Cirurgia Bariátrica - Bypass Gástrico - 1º Ano Follow Up"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "716.00",
+            "Quantidade": null,
+            "Descrição": "Cirurgia Bariátrica - Bypass Gástrico - 2º Ano Follow Up"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "PTCO - Outras Técnicas"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "3377.00",
+            "Quantidade": null,
+            "Descrição": "PTCO - Outras Técnicas Modelo 1"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "4295.00",
+            "Quantidade": null,
+            "Descrição": "PTCO-Outras Técnicas Modelo 2"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "PTCO - Outras Técnicas - 1º ano de follow-up"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "563.00",
+            "Quantidade": null,
+            "Descrição": "PTCO-Outras Técnicas Modelo 1 - 1º ano de follow-up"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "716.00",
+            "Quantidade": null,
+            "Descrição": "PTCO-Outras Técnicas Modelo 2 - 1º ano de follow-up"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "8. PMA - Diagnóstico e Tratamento da Infertilidade"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "88.00",
+            "Quantidade": null,
+            "Descrição": "Consultas de Apoio à Fertilidade"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "133.00",
+            "Quantidade": null,
+            "Descrição": "Induções da Ovulação (IO)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "335.00",
+            "Quantidade": null,
+            "Descrição": "Inseminações Intra-Uterinas (IIU)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2098.00",
+            "Quantidade": null,
+            "Descrição": "Fertilizações In Vitro (FIV)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2308.00",
+            "Quantidade": null,
+            "Descrição": "Injecções Intra-Citoplasmáticas de Espermatozoides (ICSI)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2937.00",
+            "Quantidade": null,
+            "Descrição": "Injeções Intra-Citoplasmáticas de Espermatozoides recolhidos cirurgicamente (ICSI c/ recolha cirúrgica)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "Banco de Gâmetas"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "1405.00",
+            "Quantidade": null,
+            "Descrição": "Gâmetas Masculinos (packs)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "2825.00",
+            "Quantidade": null,
+            "Descrição": "Gâmetas Femininos (packs)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "9. Saúde Sexual e Reprodutiva"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "IVG até 10 semanas"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "283.00",
+            "Quantidade": null,
+            "Descrição": "Medicamentosa (n.° I.V.G.)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "369.00",
+            "Quantidade": null,
+            "Descrição": "Cirúrgica (n.º I.V.G.)"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "Diagnóstico Pré-Natal"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "38.00",
+            "Quantidade": null,
+            "Descrição": "Protocolo I"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "65.00",
+            "Quantidade": null,
+            "Descrição": "Protocolo II"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "10. Sessões de Radioncologia"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "105.00",
+            "Quantidade": null,
+            "Descrição": "Tratamentos simples"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "251.00",
+            "Quantidade": null,
+            "Descrição": "Tratamentos complexos"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "11. Colocação de Implantes Cocleares"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "18750.00",
+            "Quantidade": null,
+            "Descrição": "Implante coclear unilateral"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "32500.00",
+            "Quantidade": null,
+            "Descrição": "Implante coclear bilateral"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "12. Serviços Domiciliários"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": "38.00",
+            "Quantidade": "40",
+            "Descrição": "Consultas Domiciliárias"
+          },
+          {
+            "ICM": "0.8226",
+            "N.°": "10",
+            "%": "95.45",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "10",
+            "Descrição": "Hospitalização domiciliária"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Descrição": "14. Outros:"
+          },
+          {
+            "ICM": null,
+            "N.°": null,
+            "%": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": "100000.00",
+            "Descrição": "Sistema de Atribuição de Produtos de Apoio (SAPA)"
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "page": 5,
+        "table_data": [
+          {
+            "Descrição": "Programa de Incentivo à Integração de Cuidados",
+            "Valor": null
+          },
+          {
+            "Descrição": "Valor Capitação (sem Incentivos)",
+            "Valor": "72202803.00"
+          },
+          {
+            "Descrição": "Incentivos institucionais",
+            "Valor": "8022533.00"
+          },
+          {
+            "Descrição": "Qualidade",
+            "Valor": "4813520.00"
+          },
+          {
+            "Descrição": "Eficiência/Sustentabilidade",
+            "Valor": "3209013.00"
+          },
+          {
+            "Descrição": "Valor Capitação",
+            "Valor": "80225336.00"
+          },
+          {
+            "Descrição": "Valor Internos",
+            "Valor": "819752.00"
+          },
+          {
+            "Descrição": "Valor Total do Contrato",
+            "Valor": "81045088.00"
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "page": 6,
+        "table_data": [
+          {
+            "Descrição": "1. Cuidados de Saúde Primários",
+            "Pesos Relativos (%)": "40.00",
+            "Meta": "65.2"
+          },
+          {
+            "Descrição": "Componente avaliada através do resultado do Índice de Desempenho Global (%) apurado para a matriz multidimensional dos ACES no âmbito da contratualização dos cuidados primários.",
+            "Pesos Relativos (%)": null,
+            "Meta": null
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "page": 6,
+        "table_data": [
+          {
+            "Objetivo": "2. Cuidados Hospitalares",
+            "Pesos Relativos (%)": "60.00",
+            "Meta": null
+          },
+          {
+            "Objetivo": "Objectivos Nacionais",
+            "Pesos Relativos (%)": null,
+            "Meta": null
+          },
+          {
+            "Objetivo": "Acesso e Desempenho Assistencial",
+            "Pesos Relativos (%)": "48.00",
+            "Meta": null
+          },
+          {
+            "Objetivo": "A. Acesso",
+            "Pesos Relativos (%)": "9.00",
+            "Meta": null
+          },
+          {
+            "Objetivo": "A.1. Percentagem de utentes em Lista de Espera para Consulta (LEC) dentro do TMRG",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "46.0"
+          },
+          {
+            "Objetivo": "A.2. Percentagem de consultas realizadas dentro dos tempos máximos de resposta garantidos (TMRG)",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "80.0"
+          },
+          {
+            "Objetivo": "A.3. Percentagem de utentes em Lista de Inscritos para Cirurgia (LIC) dentro do TMRG",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "80.0"
+          },
+          {
+            "Objetivo": "A.4 Percentagem de doentes operados dentro do TMRG",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "87.0"
+          },
+          {
+            "Objetivo": "A.5 Percentagem de episódios de urgência atendidos dentro do tempo de espera previsto no protocolo de triagem",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "95.0"
+          },
+          {
+            "Objetivo": "A.6 Percentagem de doentes referenciados para a RNCCI, avaliados/confirmados pela EGA até 2 dias úteis após a referenciação, no total de doentes referenciados para a RNCCI",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "80.0"
+          },
+          {
+            "Objetivo": "B. Desempenho Assistencial",
+            "Pesos Relativos (%)": "9.00",
+            "Meta": null
+          },
+          {
+            "Objetivo": "B.1. Percentagem de reinternamentos em 30 dias, na mesma grande categoria de diagnóstico",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "3.50"
+          },
+          {
+            "Objetivo": "B.2 Percentagem de cirurgias realizadas em ambulatório, para procedimentos tendencialmente ambulatorizáveis",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "15.5"
+          },
+          {
+            "Objetivo": "B.3 Percentagem de cirurgias da anca efetuadas nas primeiras 48 horas",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "30.0"
+          },
+          {
+            "Objetivo": "B.4. Indice de Mortalidade Ajustada",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "1.0000"
+          },
+          {
+            "Objetivo": "B.5. Índice de Demora Média Ajustada",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "1.1000"
+          },
+          {
+            "Objetivo": "B.6. Demora média antes da cirurgia",
+            "Pesos Relativos (%)": "1.50",
+            "Meta": "1.02"
+          },
+          {
+            "Objetivo": "C. Eficiência",
+            "Pesos Relativos (%)": "10.00",
+            "Meta": null
+          },
+          {
+            "Objetivo": "C.1. Gastos operacionais por residente, ajustados pela utilização",
+            "Pesos Relativos (%)": "2.50",
+            "Meta": "809"
+          },
+          {
+            "Objetivo": "C.2. Doente padrão por médico ETC",
+            "Pesos Relativos (%)": "2.50",
+            "Meta": "94.1"
+          },
+          {
+            "Objetivo": "C.3. Doente padrão por enfermeiro ETC",
+            "Pesos Relativos (%)": "2.50",
+            "Meta": "37.4"
+          },
+          {
+            "Objetivo": "C.4. Percentagem de Gastos com Trabalho Extraordinário, Suplementos e FSE (Selecionados) no total de gastos com pessoal",
+            "Pesos Relativos (%)": "2.50",
+            "Meta": null
+          },
+          {
+            "Objetivo": "D. Resultados em internamentos, consultas hospitalares e urgências evitáveis",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": null
+          },
+          {
+            "Objetivo": "D.1 Taxa de internamento por complicações agudas da diabetes",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "4.0"
+          },
+          {
+            "Objetivo": "D.2 Taxa de internamento por diabetes não controlada",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "3.0"
+          },
+          {
+            "Objetivo": "D.3 Taxa de internamento por asma ou DPOC em adultos",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "63.7"
+          },
+          {
+            "Objetivo": "D.4 Taxa de internamento por asma em jovens adultos",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "3.4"
+          },
+          {
+            "Objetivo": "D.5 Taxa de internamento por hipertensão arterial",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "5.0"
+          },
+          {
+            "Objetivo": "D.6 Taxa de internamento por insuficiência cardíaca congestiva",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "130.0"
+          },
+          {
+            "Objetivo": "D.7 Taxa de internamento por pneumonia",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "252.9"
+          },
+          {
+            "Objetivo": "D.8 Taxa de internamento por complicações crónicas da diabetes",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "30.0"
+          },
+          {
+            "Objetivo": "D.9 % de especialidades (categorias) com protocolos clínicos de referenciação ascendente e descendente elaborados",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "27.4"
+          },
+          {
+            "Objetivo": "D.10 % de utilizadores frequentes do serviço de urgência (>4 episódios no ultimo ano) com plano de cuidados estabelecido entre os cuidados primários e os hospitais",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "10.0"
+          },
+          {
+            "Objetivo": "Objetivos Regionais",
+            "Pesos Relativos (%)": "12.00",
+            "Meta": null
+          },
+          {
+            "Objetivo": "Percentagem de consultas referenciadas pelos CSP no total de consultas externas",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "10.1"
+          },
+          {
+            "Objetivo": "Percentagem de atendimentos com prioridade verde/azul/branca",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "45.0"
+          },
+          {
+            "Objetivo": "Percentagem de Cesarianas",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "30.0"
+          },
+          {
+            "Objetivo": "Taxa de crescimento dos custos com medicamentos facturados em farmácia de oficina",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "0.0"
+          },
+          {
+            "Objetivo": "Percentagem de doentes cirúrgicos (neoplasias malignas) inscritos em LIC com tempo de espera <= TMRG",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "95.0"
+          },
+          {
+            "Objetivo": "Taxa de redução do nº de utilizadores frequentes da urgência",
+            "Pesos Relativos (%)": "2.00",
+            "Meta": "-5.0"
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "page": 7,
+        "table_data": [
+          {
+            "Objetivo": "U.1 Peso dos episódios de urgência com prioridade atribuída Verde/Azul/Branca",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": "45.0"
+          },
+          {
+            "Objetivo": "U.2 Peso dos episódios de urgência com internamento",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": "7.2"
+          },
+          {
+            "Objetivo": "U.3. Percentagem de episódios de urgência dentro do tempo de espera previsto no protocolo de triagem",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": "95.0"
+          },
+          {
+            "Objetivo": "U.4 Peso dos utilizadores frequentes (> 4 episódios), no total de utilizadores do Serviço Urgência",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": "6.4"
+          },
+          {
+            "Objetivo": "U.5 Rácio Consultas Externas/ episódios de urgência",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": "1.2"
+          }
+        ]
+      },
+      {
+        "table_index": 7,
+        "page": 8,
+        "table_data": [
+          {
+            "Conta": "60-Transferências e subsídios concedidos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61- Custo das mercadorias vendidas e das matérias consumidas",
+            "Valor Estimado 2018": "11225038.21",
+            "Valor Contratualizado 2019": "11495639.00",
+            "% Var 2019/2018": "2.4",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.1 Mercadorias",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.2- Matérias-primas, subsidiárias e de consumo",
+            "Valor Estimado 2018": "11225038.21",
+            "Valor Contratualizado 2019": "11495639.00",
+            "% Var 2019/2018": "2.4",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.2.4 - Matérias de consumo específico dos serviços de saúde",
+            "Valor Estimado 2018": "11224063.78",
+            "Valor Contratualizado 2019": "11494139.00",
+            "% Var 2019/2018": "2.4",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.2.4.1 Produtos farmacêuticos",
+            "Valor Estimado 2018": "8875659.09",
+            "Valor Contratualizado 2019": "8862639.00",
+            "% Var 2019/2018": "-0.1",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.2.4.1.1-Medicamentos",
+            "Valor Estimado 2018": "7406663.99",
+            "Valor Contratualizado 2019": "6962639.00",
+            "% Var 2019/2018": "-6.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.2.4.1.2 Reagentes e produtos de diagnóstico rápido",
+            "Valor Estimado 2018": "907605.71",
+            "Valor Contratualizado 2019": "1300000.00",
+            "% Var 2019/2018": "43.2",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.2.4.1.9-Outros produtos farmacêuticos",
+            "Valor Estimado 2018": "561389.39",
+            "Valor Contratualizado 2019": "600000.00",
+            "% Var 2019/2018": "6.9",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.2.4.2- Material de consumo clínico",
+            "Valor Estimado 2018": "2010053.79",
+            "Valor Contratualizado 2019": "2250000.00",
+            "% Var 2019/2018": "11.9",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.2.4.3 Material de consumo hoteleiro",
+            "Valor Estimado 2018": "161347.53",
+            "Valor Contratualizado 2019": "180000.00",
+            "% Var 2019/2018": "11.6",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.2.4.4- Material de consumo administrativo",
+            "Valor Estimado 2018": "85017.85",
+            "Valor Contratualizado 2019": "109000.00",
+            "% Var 2019/2018": "28.2",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.2.4.5 - Material de Manutenção e Conservação",
+            "Valor Estimado 2018": "90741.52",
+            "Valor Contratualizado 2019": "90000.00",
+            "% Var 2019/2018": "-0.8",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.2.4.9 Outro material de consumo",
+            "Valor Estimado 2018": "1244.00",
+            "Valor Contratualizado 2019": "2500.00",
+            "% Var 2019/2018": "101.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.2.6-Alimentação - géneros para confecionar",
+            "Valor Estimado 2018": "974.43",
+            "Valor Contratualizado 2019": "1500.00",
+            "% Var 2019/2018": "53.9",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "61.3-Ativos biológicos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2018": "11225038.21",
+            "Valor Contratualizado 2019": "11495639.00",
+            "% Var 2019/2018": "2.4",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": null,
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": "12.7",
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": "12.7"
+          },
+          {
+            "Conta": "62.1 Subcontratos e concessões de serviços",
+            "Valor Estimado 2018": "11128277.43",
+            "Valor Contratualizado 2019": "10806040.00",
+            "% Var 2019/2018": "-2.9",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1 - Serviços de saúde",
+            "Valor Estimado 2018": "11128277.43",
+            "Valor Contratualizado 2019": "10806040.00",
+            "% Var 2019/2018": "-2.9",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.1 - Meios complementares de diagnóstico",
+            "Valor Estimado 2018": "2944673.37",
+            "Valor Contratualizado 2019": "3001000.00",
+            "% Var 2019/2018": "1.9",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.1.1-Patologia clínica",
+            "Valor Estimado 2018": "928152.39",
+            "Valor Contratualizado 2019": "900000.00",
+            "% Var 2019/2018": "-3.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.1.2- Anatomia patológica",
+            "Valor Estimado 2018": "423985.30",
+            "Valor Contratualizado 2019": "430000.00",
+            "% Var 2019/2018": "1.4",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.1.3- Imagiologia",
+            "Valor Estimado 2018": "578203.25",
+            "Valor Contratualizado 2019": "605000.00",
+            "% Var 2019/2018": "4.6",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.1.4 Cardiologia",
+            "Valor Estimado 2018": "73990.10",
+            "Valor Contratualizado 2019": "70000.00",
+            "% Var 2019/2018": "-5.4",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.1.5-Eletroencefalografia",
+            "Valor Estimado 2018": "22366.88",
+            "Valor Contratualizado 2019": "22000.00",
+            "% Var 2019/2018": "-1.6",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.1.6-Medicina nuclear",
+            "Valor Estimado 2018": "205496.26",
+            "Valor Contratualizado 2019": "210000.00",
+            "% Var 2019/2018": "2.2",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.1.7-Gastroenterologia",
+            "Valor Estimado 2018": "500786.69",
+            "Valor Contratualizado 2019": "550000.00",
+            "% Var 2019/2018": "9.8",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.1.8 - Pneumologia / Imunoalergologia",
+            "Valor Estimado 2018": "2874.06",
+            "Valor Contratualizado 2019": "3000.00",
+            "% Var 2019/2018": "4.4",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.1.9-Outros Meios de Diagnóstico",
+            "Valor Estimado 2018": "208818.44",
+            "Valor Contratualizado 2019": "211000.00",
+            "% Var 2019/2018": "1.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.2- Meios complementares de terapêutica",
+            "Valor Estimado 2018": "5339084.66",
+            "Valor Contratualizado 2019": "5238000.00",
+            "% Var 2019/2018": "-1.9",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.2.1-Hemodiálise",
+            "Valor Estimado 2018": "3471678.33",
+            "Valor Contratualizado 2019": "3350000.00",
+            "% Var 2019/2018": "-3.5",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.2.2 - Medicina física e de reabilitação",
+            "Valor Estimado 2018": "280350.80",
+            "Valor Contratualizado 2019": "310000.00",
+            "% Var 2019/2018": "10.6",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.2.3- Litotricia",
+            "Valor Estimado 2018": "23168.67",
+            "Valor Contratualizado 2019": "24000.00",
+            "% Var 2019/2018": "3.6",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.2.9 Outros Meios Comp. de terapêutica",
+            "Valor Estimado 2018": "13238.40",
+            "Valor Contratualizado 2019": "14000.00",
+            "% Var 2019/2018": "5.8",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.4 Produtos Fornecidos por Farmácias Hospitalares",
+            "Valor Estimado 2018": "117623.14",
+            "Valor Contratualizado 2019": "88000.00",
+            "% Var 2019/2018": "-25.2",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.5 Internamentos",
+            "Valor Estimado 2018": "2393365.11",
+            "Valor Contratualizado 2019": "2194040.00",
+            "% Var 2019/2018": "-8.3",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.9- Outros subcontratos",
+            "Valor Estimado 2018": "141479.21",
+            "Valor Contratualizado 2019": "110000.00",
+            "% Var 2019/2018": "-22.3",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.9.1-Assistência ambulatória",
+            "Valor Estimado 2018": "78719.04",
+            "Valor Contratualizado 2019": "95000.00",
+            "% Var 2019/2018": "20.7",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.9.2-Aparelhos complementares de terapêutica",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.1.9.3-Assistência no estrangeiro",
+            "Valor Estimado 2018": "62760.17",
+            "Valor Contratualizado 2019": "15000.00",
+            "% Var 2019/2018": "-76.1",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.2 - Infraestruturas de transportes e parques de estacionamento",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.3 - Serviços de transporte",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.4 - Serviços de alojamento e de restauração",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.5 Espaços de desporto, cultura e lazer",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.6 - Serviços de fornecimento de água",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.7 - Serviços de recolha e tratamento de resíduos sólidos e urbanos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.8-Tecnologias de informação e comunicação",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.1.9 Outros subcontratos ou concessões",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null,
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.2- Serviços especializados",
+            "Valor Estimado 2018": "8194357.95",
+            "Valor Contratualizado 2019": "9898780.00",
+            "% Var 2019/2018": "20.8",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.3- Materiais de consumo",
+            "Valor Estimado 2018": "1586.09",
+            "Valor Contratualizado 2019": "5000.00",
+            "% Var 2019/2018": "215.2",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.4- Energia e fluidos",
+            "Valor Estimado 2018": "1533450.88",
+            "Valor Contratualizado 2019": "1560000.00",
+            "% Var 2019/2018": "1.7",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.5 Deslocações, estadas e transportes",
+            "Valor Estimado 2018": "2817021.08",
+            "Valor Contratualizado 2019": "2563000.00",
+            "% Var 2019/2018": "-9.0",
+            "% S/ Total Geral": null
+          },
+          {
+            "Conta": "62.5.5-Transporte de doentes",
+            "Valor Estimado 2018": "2804552.61",
+            "Valor Contratualizado 2019": "2550000.00",
+            "% Var 2019/2018": "-9.1",
+            "% S/ Total Geral": null
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "page": 9,
+        "table_data": [
+          {
+            "Conta": "62.6 - Serviços diversos",
+            "Valor Estimado 2018": "2186266.89",
+            "Valor Contratualizado 2019": "1972500.00",
+            "% Var 2019/2018": "-9.8"
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2018": "25860960.32",
+            "Valor Contratualizado 2019": "26805320.00",
+            "% Var 2019/2018": "3.7"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "12.6",
+            "Valor Contratualizado 2019": "11.9",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "63-Gastos com o pessoal",
+            "Valor Estimado 2018": "49260469.31",
+            "Valor Contratualizado 2019": "50678181.31",
+            "% Var 2019/2018": "2.9"
+          },
+          {
+            "Conta": "63.0- Remunerações dos titulares de orgãos de soberania e membros de orgãos autárquicos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "63.1- Remunerações dos orgãos sociais e de gestão",
+            "Valor Estimado 2018": "329457.30",
+            "Valor Contratualizado 2019": "294039.30",
+            "% Var 2019/2018": "-10.8"
+          },
+          {
+            "Conta": "63.2 - Remunerações do pessoal",
+            "Valor Estimado 2018": "39756564.43",
+            "Valor Contratualizado 2019": "41108208.43",
+            "% Var 2019/2018": "3.4"
+          },
+          {
+            "Conta": "63.2.1.1 Remuneração base",
+            "Valor Estimado 2018": "26223353.88",
+            "Valor Contratualizado 2019": "27721532.88",
+            "% Var 2019/2018": "5.7"
+          },
+          {
+            "Conta": "63.2.1.1.1-Pessoal em regime de nomeação definitiva e contrato de trabalho em funções públicas por tempo indeterminado",
+            "Valor Estimado 2018": "16508099.52",
+            "Valor Contratualizado 2019": "17435998.52",
+            "% Var 2019/2018": "5.6"
+          },
+          {
+            "Conta": "63.2.1.1.2 - Pessoal em regime de nomeação transitória e contrato de trabalho em funções públicas a termo resolutivo",
+            "Valor Estimado 2018": "1365329.33",
+            "Valor Contratualizado 2019": "1525104.33",
+            "% Var 2019/2018": "11.7"
+          },
+          {
+            "Conta": "63.2.1.1.3-Pessoal em regime de contrato individual de trabalho a termo resolutivo incerto",
+            "Valor Estimado 2018": "185027.34",
+            "Valor Contratualizado 2019": "185027.34",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.2.1.1.4-Pessoal em regime de contrato individual de trabalho a termo resolutivo certo",
+            "Valor Estimado 2018": "26696.65",
+            "Valor Contratualizado 2019": "26696.65",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.2.1.1.5-Pessoal em regime de contrato individual de trabalho sem termo",
+            "Valor Estimado 2018": "7267914.00",
+            "Valor Contratualizado 2019": "7676948.00",
+            "% Var 2019/2018": "5.6"
+          },
+          {
+            "Conta": "63.2.1.1.6-Pessoal em cedência de interesse público e em comissão de serviço",
+            "Valor Estimado 2018": "250854.29",
+            "Valor Contratualizado 2019": "252325.29",
+            "% Var 2019/2018": "0.6"
+          },
+          {
+            "Conta": "63.2.1.1.7-Pessoal em comissão de Serviço Dirigentes",
+            "Valor Estimado 2018": "470743.18",
+            "Valor Contratualizado 2019": "470743.18",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.2.1.1.8-Pessoal em mobilidade especial (Pessoal em valorização profissional)",
+            "Valor Estimado 2018": "0.00",
+            "Valor Contratualizado 2019": "0.00",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "63.2.1.1.9-Pessoal em qualquer outra situação",
+            "Valor Estimado 2018": "148689.57",
+            "Valor Contratualizado 2019": "148689.57",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.2.1.2-Subsídio de férias",
+            "Valor Estimado 2018": "2259299.03",
+            "Valor Contratualizado 2019": "2294961.03",
+            "% Var 2019/2018": "1.6"
+          },
+          {
+            "Conta": "63.2.1.3-Subsidio de Natal",
+            "Valor Estimado 2018": "2193102.54",
+            "Valor Contratualizado 2019": "2235153.54",
+            "% Var 2019/2018": "1.9"
+          },
+          {
+            "Conta": "63.2.1.5 Subsídio de refeição",
+            "Valor Estimado 2018": "1574572.61",
+            "Valor Contratualizado 2019": "1587451.61",
+            "% Var 2019/2018": "0.8"
+          },
+          {
+            "Conta": "63.2.2- Abonos variáveis ou eventuais",
+            "Valor Estimado 2018": "7135879.71",
+            "Valor Contratualizado 2019": "6898752.71",
+            "% Var 2019/2018": "-3.3"
+          },
+          {
+            "Conta": "63.2.2.02-Alimentação e alojamento",
+            "Valor Estimado 2018": "0.00",
+            "Valor Contratualizado 2019": "0.00",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "63.2.2.03-Ajudas de custo",
+            "Valor Estimado 2018": "55109.66",
+            "Valor Contratualizado 2019": "55109.66",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.2.2.04-Trabalho extraordinário",
+            "Valor Estimado 2018": "5220558.17",
+            "Valor Contratualizado 2019": "4983431.17",
+            "% Var 2019/2018": "-4.5"
+          },
+          {
+            "Conta": "63.2.2.04.1-Horas Extraordinárias",
+            "Valor Estimado 2018": "3771292.05",
+            "Valor Contratualizado 2019": "3534165.05",
+            "% Var 2019/2018": "-6.3"
+          },
+          {
+            "Conta": "63.2.2.04.2-Prevenções",
+            "Valor Estimado 2018": "1449266.12",
+            "Valor Contratualizado 2019": "1449266.12",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.2.2.05.1-Prémios de desempenho",
+            "Valor Estimado 2018": "100766.96",
+            "Valor Contratualizado 2019": "100766.96",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.2.2.06-Abono para falhas",
+            "Valor Estimado 2018": "16813.05",
+            "Valor Contratualizado 2019": "16813.05",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.2.2.07- Subsídio de prevenção, trabalho noturno e de turno",
+            "Valor Estimado 2018": "1200720.11",
+            "Valor Contratualizado 2019": "1200720.11",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.2.2.07.1 - Noites e Suplementos",
+            "Valor Estimado 2018": "1200720.11",
+            "Valor Contratualizado 2019": "1200720.11",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.2.2.07.2 - Subsidio de turno",
+            "Valor Estimado 2018": "0.00",
+            "Valor Contratualizado 2019": "0.00",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "63.2.2.99.1 SIGIC",
+            "Valor Estimado 2018": "155766.82",
+            "Valor Contratualizado 2019": "155766.82",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.2.2.99.9 - Outros",
+            "Valor Estimado 2018": "353147.38",
+            "Valor Contratualizado 2019": "353147.38",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.3- Beneficios pós-emprego",
+            "Valor Estimado 2018": "29863.64",
+            "Valor Contratualizado 2019": "29863.64",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.3.2 Outros benefícios",
+            "Valor Estimado 2018": "29863.64",
+            "Valor Contratualizado 2019": "29863.64",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.4-Indeminizações",
+            "Valor Estimado 2018": "11423.83",
+            "Valor Contratualizado 2019": "11423.83",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.5-Encargos sobre remunerações",
+            "Valor Estimado 2018": "8940698.86",
+            "Valor Contratualizado 2019": "9042184.86",
+            "% Var 2019/2018": "1.1"
+          },
+          {
+            "Conta": "63.5.1.2.2 Segurança Social - Prestações Sociais Diretas",
+            "Valor Estimado 2018": "0.00",
+            "Valor Contratualizado 2019": "0.00",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "63.6-Acidentes no trabalho e doenças profissionais",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "63.7-Gastos de ação social",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "63.7.2- Encargos sociais voluntários",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "63.8-Outros gastos com o pessoal",
+            "Valor Estimado 2018": "32623.35",
+            "Valor Contratualizado 2019": "32623.35",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.8.9-Outros",
+            "Valor Estimado 2018": "32623.35",
+            "Valor Contratualizado 2019": "32623.35",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "63.9-Outros encargos sociais",
+            "Valor Estimado 2018": "159837.90",
+            "Valor Contratualizado 2019": "159837.90",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2018": "49260469.31",
+            "Valor Contratualizado 2019": "50678181.31",
+            "% Var 2019/2018": "2.9"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "55.6",
+            "Valor Contratualizado 2019": "55.9",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "64-Gastos de depreciação e de amortização",
+            "Valor Estimado 2018": "1281724.94",
+            "Valor Contratualizado 2019": "1281725.32",
+            "% Var 2019/2018": "0.0"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "1.4",
+            "Valor Contratualizado 2019": "1.4",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "65-Perdas por imparidade",
+            "Valor Estimado 2018": "104.68",
+            "Valor Contratualizado 2019": "1000.00",
+            "% Var 2019/2018": "855.3"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "0.0",
+            "Valor Contratualizado 2019": "0.0",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "66-Perdas por reduções de justo valor",
+            "Valor Estimado 2018": "0.00",
+            "Valor Contratualizado 2019": "0.00",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "0.0",
+            "Valor Contratualizado 2019": "0.0",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "67-Provisões do período",
+            "Valor Estimado 2018": "0.00",
+            "Valor Contratualizado 2019": "50000.00",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "0.0",
+            "Valor Contratualizado 2019": "0.1",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "68-Outros gastos e perdas",
+            "Valor Estimado 2018": "825507.91",
+            "Valor Contratualizado 2019": "317500.00",
+            "% Var 2019/2018": "-61.5"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "0.9",
+            "Valor Contratualizado 2019": "0.4",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "69- Gastos e perdas por juros e outros encargos",
+            "Valor Estimado 2018": "85815.54",
+            "Valor Contratualizado 2019": "5500.00",
+            "% Var 2019/2018": "-93.6"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "0.1",
+            "Valor Contratualizado 2019": "0.0",
+            "% Var 2019/2018": null
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "page": 10,
+        "table_data": [
+          {
+            "Descrição": "TOTAL GERAL",
+            "Valor Estimado 2018": "88539620.91",
+            "Valor Contratualizado 2019": "90634865.63",
+            "% Var 2019/2018": "2.4"
+          }
+        ]
+      },
+      {
+        "table_index": 10,
+        "page": 11,
+        "table_data": [
+          {
+            "Conta": "70-Impostos, contribuições e taxas",
+            "Valor Estimado 2018": "2032401.92",
+            "Valor Contratualizado 2019": "2009000.00",
+            "% Var 2019/2018": "-1.2"
+          },
+          {
+            "Conta": "70.1- Impostos diretos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "70.2-Impostos indiretos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "70.3- Contribuições para sistemas de proteção social e subsistemas de saúde",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "70.4-Taxas, multas e outras penalidades",
+            "Valor Estimado 2018": "2032401.92",
+            "Valor Contratualizado 2019": "2009000.00",
+            "% Var 2019/2018": "-1.2"
+          },
+          {
+            "Conta": "70.4.1.08-Taxas moderadoras",
+            "Valor Estimado 2018": "2032401.92",
+            "Valor Contratualizado 2019": "2009000.00",
+            "% Var 2019/2018": "-1.2"
+          },
+          {
+            "Conta": "70.4.1.08.1- Consultas",
+            "Valor Estimado 2018": "944004.51",
+            "Valor Contratualizado 2019": "875000.00",
+            "% Var 2019/2018": "-7.3"
+          },
+          {
+            "Conta": "70.4.1.08.2-Urgência/SAP",
+            "Valor Estimado 2018": "392589.35",
+            "Valor Contratualizado 2019": "400000.00",
+            "% Var 2019/2018": "1.9"
+          },
+          {
+            "Conta": "70.4.1.08.3 - Meios complementares diagnóst. e terapêutica",
+            "Valor Estimado 2018": "682301.01",
+            "Valor Contratualizado 2019": "725000.00",
+            "% Var 2019/2018": "6.3"
+          },
+          {
+            "Conta": "70.4.1.08.9- Outros",
+            "Valor Estimado 2018": "13507.05",
+            "Valor Contratualizado 2019": "9000.00",
+            "% Var 2019/2018": "-33.4"
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2018": "2032401.92",
+            "Valor Contratualizado 2019": "2009000.00",
+            "% Var 2019/2018": "-1.2"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "2.4",
+            "Valor Contratualizado 2019": "2.4",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "71 - Vendas",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "71.1 Mercadorias",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "71.2-Produtos acabados e intermédios",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "71.3- Subprodutos, desperdícios, resíduos e refugos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "71.4- Ativos biológicos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "71.7 - Devoluções de vendas",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "71.8 Descontos e abatimentos em vendas",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72-Prestações de serviços e concessões",
+            "Valor Estimado 2018": "79646778.07",
+            "Valor Contratualizado 2019": "81702845.00",
+            "% Var 2019/2018": "2.6"
+          },
+          {
+            "Conta": "72.01 - Serviços específicos do setor da saúde",
+            "Valor Estimado 2018": "79646778.07",
+            "Valor Contratualizado 2019": "81702845.00",
+            "% Var 2019/2018": "2.6"
+          },
+          {
+            "Conta": "72.01.1-SNS- Serviço Nac. Saúde (Contrato Programa EPE)",
+            "Valor Estimado 2018": "79025532.00",
+            "Valor Contratualizado 2019": "81045088.00",
+            "% Var 2019/2018": "2.6"
+          },
+          {
+            "Conta": "72.01.1.1 Internamento",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.1.1-GDH Médicos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.1.2-GDH Cirúrgicos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.1.3-GDH Cirúrgicos Urgentes",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.1.4- Dias Internamento Doentes Crónicos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.2 Consulta",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.2.1 Primeiras Consultas",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.2.2 Consultas Subsequentes",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.3 - Urgência",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.3.1 Atendimentos (SU-Polivalente)",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.3.2- Atendimentos (SU-Médico Cirúrgica)",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.3.3-ECMO (Centros de Oxigenação por Membrana Extracorporal)",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.3.4 - Atendimentos (SU-Básica)",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.4-GDH Ambulatório",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.4.1-GDH Cirúrgicos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.4.2- GDH Médicos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.5-Hospital de dia",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6-Outras Prestações Serviços Saúde",
+            "Valor Estimado 2018": "79025532.00",
+            "Valor Contratualizado 2019": "81045088.00",
+            "% Var 2019/2018": "2.6"
+          },
+          {
+            "Conta": "72.01.1.6.1- Serviço Domiciliário",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2- Programas de gestão da doença crónica",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.1 - VIH/Sida",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.2- Esclerose Multipla",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.3- Hipertensao Pulmonar",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.4 - Cancro",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.4.1 - Cancro da Mama",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.4.2 - Cancro do Colo do Útero",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.4.3 - Cancro do Cólon e Reto",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.4.9 - Outros",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.5 - Telemonitorização",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.5.1 - Telemonitorização DPOC",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          }
+        ]
+      },
+      {
+        "table_index": 11,
+        "page": 12,
+        "table_data": [
+          {
+            "Conta": "72.01.1.6.2.5.2 - Telemonitorização EAM",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.5.3 - Telemonitorização ICC",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.5.9 - Outros",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.6 - PSCI",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.7- Doenças Lisossomais",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.8-PAF1 Paramiloidose",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.2.9 - Outros Programas de Gestão da Doença Crónica",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.3 - Saúde Sexual e Reprodutiva",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.3.1 - IVG até às 10 semanas",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.3.2- PMA - Diagnóstico e Tratamento da Infertilidade",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.3.3- Diagnóstico Pré-Natal",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.3.4- Banco de Gâmetas",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.5 - Valor capitacional (ULS)",
+            "Valor Estimado 2018": "71551625.00",
+            "Valor Contratualizado 2019": "72202802.40",
+            "% Var 2019/2018": "0.9"
+          },
+          {
+            "Conta": "72.01.1.6.6-Sessões de Radioterapia",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.7 - Medicamentos de Cedência em Ambulatório",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.1.6.8 - Internos",
+            "Valor Estimado 2018": "143673.12",
+            "Valor Contratualizado 2019": "819752.00",
+            "% Var 2019/2018": "470.6"
+          },
+          {
+            "Conta": "72.01.1.6.9-Outras prestações de serviços",
+            "Valor Estimado 2018": "7330233.88",
+            "Valor Contratualizado 2019": "8022533.60",
+            "% Var 2019/2018": "9.4"
+          },
+          {
+            "Conta": "72.01.2- Prestações de Saúde de Financiamento Vertical (ACSS)",
+            "Valor Estimado 2018": "0.00",
+            "Valor Contratualizado 2019": "4452.00",
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3- Outras entidades responsáveis",
+            "Valor Estimado 2018": "621246.07",
+            "Valor Contratualizado 2019": "653305.00",
+            "% Var 2019/2018": "5.2"
+          },
+          {
+            "Conta": "72.01.3.1 Internamento",
+            "Valor Estimado 2018": "279793.03",
+            "Valor Contratualizado 2019": "250000.00",
+            "% Var 2019/2018": "-10.6"
+          },
+          {
+            "Conta": "72.01.3.2-Consulta",
+            "Valor Estimado 2018": "9291.07",
+            "Valor Contratualizado 2019": "10000.00",
+            "% Var 2019/2018": "7.6"
+          },
+          {
+            "Conta": "72.01.3.3 - Urgência/SAP",
+            "Valor Estimado 2018": "227708.55",
+            "Valor Contratualizado 2019": "280000.00",
+            "% Var 2019/2018": "23.0"
+          },
+          {
+            "Conta": "72.01.3.3.1 - Urgência",
+            "Valor Estimado 2018": "227708.55",
+            "Valor Contratualizado 2019": "280000.00",
+            "% Var 2019/2018": "23.0"
+          },
+          {
+            "Conta": "72.01.3.3.2-Serviço de atendimento permanente",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.3.9 - Outros",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.4 Quartos particulares",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.5-Hospital de dia",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.6 - Meio Complementares de Diagnóstico e Terapêutica",
+            "Valor Estimado 2018": "99955.28",
+            "Valor Contratualizado 2019": "110805.00",
+            "% Var 2019/2018": "10.9"
+          },
+          {
+            "Conta": "72.01.3.6.1- Meios de Diagnóstico",
+            "Valor Estimado 2018": "91217.38",
+            "Valor Contratualizado 2019": "95605.00",
+            "% Var 2019/2018": "4.8"
+          },
+          {
+            "Conta": "72.01.3.6.1.1- Patologia clínica",
+            "Valor Estimado 2018": "19014.29",
+            "Valor Contratualizado 2019": "20000.00",
+            "% Var 2019/2018": "5.2"
+          },
+          {
+            "Conta": "72.01.3.6.1.2 - Anatomia patológica",
+            "Valor Estimado 2018": "44.49",
+            "Valor Contratualizado 2019": "50.00",
+            "% Var 2019/2018": "12.4"
+          },
+          {
+            "Conta": "72.01.3.6.1.3- Imagiologia",
+            "Valor Estimado 2018": "49089.84",
+            "Valor Contratualizado 2019": "50000.00",
+            "% Var 2019/2018": "1.9"
+          },
+          {
+            "Conta": "72.01.3.6.1.4 - Cardiologia",
+            "Valor Estimado 2018": "650.40",
+            "Valor Contratualizado 2019": "400.00",
+            "% Var 2019/2018": "-38.5"
+          },
+          {
+            "Conta": "72.01.3.6.1.5 - Medicina nuclear",
+            "Valor Estimado 2018": "45.48",
+            "Valor Contratualizado 2019": "30.00",
+            "% Var 2019/2018": "-34.0"
+          },
+          {
+            "Conta": "72.01.3.6.1.6 Gastrenterologia",
+            "Valor Estimado 2018": "1401.38",
+            "Valor Contratualizado 2019": "125.00",
+            "% Var 2019/2018": "-91.1"
+          },
+          {
+            "Conta": "72.01.3.6.1.9 - Outros",
+            "Valor Estimado 2018": "20971.50",
+            "Valor Contratualizado 2019": "25000.00",
+            "% Var 2019/2018": "19.2"
+          },
+          {
+            "Conta": "72.01.3.6.2- Meios de Terapêutica",
+            "Valor Estimado 2018": "8737.90",
+            "Valor Contratualizado 2019": "15200.00",
+            "% Var 2019/2018": "74.0"
+          },
+          {
+            "Conta": "72,01,3,6,2,1 - Hemodiálise",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.6.2.2- Medicina física e de reabilitação",
+            "Valor Estimado 2018": "8434.70",
+            "Valor Contratualizado 2019": "15000.00",
+            "% Var 2019/2018": "77.8"
+          },
+          {
+            "Conta": "72.01.3.6.2.3 - Litotrícia",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.6.2.4 - Quimioterapia",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.6.2.5- Radioterapia",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.6.2.9 - Outros",
+            "Valor Estimado 2018": "303.20",
+            "Valor Contratualizado 2019": "200.00",
+            "% Var 2019/2018": "-34.0"
+          },
+          {
+            "Conta": "72.01.3.7 - Serviços domiciliário",
+            "Valor Estimado 2018": "1199.40",
+            "Valor Contratualizado 2019": "0.00",
+            "% Var 2019/2018": "-100.0"
+          },
+          {
+            "Conta": "72.01.3.8-GDH Ambulatório",
+            "Valor Estimado 2018": "1379.34",
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.8.1-GDH Cirúrgicos",
+            "Valor Estimado 2018": "1379.34",
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.8.2 - GDH Médicos",
+            "Valor Estimado 2018": "0.00",
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.9-Outras prestações de serviços",
+            "Valor Estimado 2018": "1919.40",
+            "Valor Contratualizado 2019": "2500.00",
+            "% Var 2019/2018": "30.2"
+          },
+          {
+            "Conta": "72.01.3.9.1- Análises sanitárias",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.9.2- Convenções internacionais",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.01.3.9.3 - Unidades terapêuticas de Sangue",
+            "Valor Estimado 2018": "1919.40",
+            "Valor Contratualizado 2019": "2500.00",
+            "% Var 2019/2018": "30.2"
+          },
+          {
+            "Conta": "72.01.3.9.9 - Outras",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.05 Concessões",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.06 Vistorias e ensaios",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.07 - Estudos, pareceres, projetos e consultadoria",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.08 - Serviços sociais, recreativos, culturais e desporto",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.09-Transporte de doentes",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.10 - Serviços laboratoriais",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.11-Aluguer de equipamentos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.12-Arrendamento",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.13 Reparações",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.14 Subsistemas de saúde facultativos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "72.99- Outros serviços",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019/2018": null
+          },
+          {
+            "Conta": "Sub-Total",
+            "Valor Estimado 2018": "79646778.07",
+            "Valor Contratualizado 2019": "81702845.00",
+            "% Var 2019/2018": "2.6"
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "page": 13,
+        "table_data": [
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "95.0",
+            "Valor Contratualizado 2019": "96.6"
+          },
+          {
+            "Conta": "73- Variações nos inventários da produção",
+            "Valor Estimado 2018": "0.00",
+            "Valor Contratualizado 2019": "0.00"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "0.0",
+            "Valor Contratualizado 2019": "0.0"
+          },
+          {
+            "Conta": "74-Trabalhos para a própria entidade",
+            "Valor Estimado 2018": "0.00",
+            "Valor Contratualizado 2019": "0.00"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "0.0",
+            "Valor Contratualizado 2019": "0.0"
+          },
+          {
+            "Conta": "75-Transferências e subsídios correntes obtidos",
+            "Valor Estimado 2018": "11406.64",
+            "Valor Contratualizado 2019": "0.00",
+            "Var %": "-100.0"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "0.0",
+            "Valor Contratualizado 2019": "0.0"
+          },
+          {
+            "Conta": "76-Reversões",
+            "Valor Estimado 2018": "775002.35",
+            "Valor Contratualizado 2019": "100000.00",
+            "Var %": "-87.1"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "0.9",
+            "Valor Contratualizado 2019": "0.1"
+          },
+          {
+            "Conta": "77-Ganhos por aumentos de justo valor",
+            "Valor Estimado 2018": "0.00",
+            "Valor Contratualizado 2019": "0.00"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "0.0",
+            "Valor Contratualizado 2019": "0.0"
+          },
+          {
+            "Conta": "78- Outros rendimentos e ganhos",
+            "Valor Estimado 2018": "1373353.47",
+            "Valor Contratualizado 2019": "765000.00",
+            "Var %": "-44.3"
+          },
+          {
+            "Conta": "78.1-Rendimentos suplementares",
+            "Valor Estimado 2018": "833227.81",
+            "Valor Contratualizado 2019": "655000.00",
+            "Var %": "-21.4"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "1.6",
+            "Valor Contratualizado 2019": "0.9"
+          },
+          {
+            "Conta": "79-Juros, dividendos e outros rendimentos similares",
+            "Valor Estimado 2018": "1369.55",
+            "Valor Contratualizado 2019": "2000.00",
+            "Var %": "46.0"
+          },
+          {
+            "Conta": "% S/ Total Geral",
+            "Valor Estimado 2018": "0.0",
+            "Valor Contratualizado 2019": "0.0"
+          },
+          {
+            "Conta": "TOTAL GERAL",
+            "Valor Estimado 2018": "83840312.00",
+            "Valor Contratualizado 2019": "84578845.00",
+            "Var %": "0.9"
+          }
+        ]
+      },
+      {
+        "table_index": 13,
+        "page": 14,
+        "table_data": [
+          {
+            "Descrição": "Fluxos de Actividades Operacionais",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Recebimento de Clientes",
+            "Valor Estimado 2018": "79591171.00",
+            "Valor Contratualizado 2019": "80000000.00",
+            "% Var 2019 / 2018": "0.51"
+          },
+          {
+            "Descrição": "Recebimento de Contribuintes",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": "0.51"
+          },
+          {
+            "Descrição": "Recebimento de Utentes",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Pagamento a Fornecedores",
+            "Valor Estimado 2018": "-40491209.74",
+            "Valor Contratualizado 2019": "-30429143.14",
+            "% Var 2019 / 2018": "-24.85"
+          },
+          {
+            "Descrição": "Pagamentos ao Pessoal",
+            "Valor Estimado 2018": "-49260469.31",
+            "Valor Contratualizado 2019": "-50678181.31",
+            "% Var 2019 / 2018": "2.88"
+          },
+          {
+            "Descrição": "Caixa gerada pelas operações",
+            "Valor Estimado 2018": "-10160508.05",
+            "Valor Contratualizado 2019": "-1107324.45",
+            "% Var 2019 / 2018": "-89.10"
+          },
+          {
+            "Descrição": "Outros recebimentos/pagamentos",
+            "Valor Estimado 2018": "3300974.00",
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Fluxos de caixa das atividades operacionais",
+            "Valor Estimado 2018": "-6859534.05",
+            "Valor Contratualizado 2019": "-1107324.45",
+            "% Var 2019 / 2018": "-83.86"
+          },
+          {
+            "Descrição": "Fluxos de Actividades de Investimento",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Pagamentos Respeitantes a (-):",
+            "Valor Estimado 2018": "-626363.00",
+            "Valor Contratualizado 2019": "-500000.00",
+            "% Var 2019 / 2018": "-20.17"
+          },
+          {
+            "Descrição": "Activos Fixos Tangiveis",
+            "Valor Estimado 2018": "-626363.00",
+            "Valor Contratualizado 2019": "-500000.00",
+            "% Var 2019 / 2018": "-20.17"
+          },
+          {
+            "Descrição": "Activos Intangíveis",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Propriedades de Investimento",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Investimentos Financeiros",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Outros Activos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Recebimentos Provenientes de (+):",
+            "Valor Estimado 2018": "1678.00",
+            "Valor Contratualizado 2019": "2000.00",
+            "% Var 2019 / 2018": "19.19"
+          },
+          {
+            "Descrição": "Activos Fixos Tangíveis",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Activos Intangíveis",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Propriedades de Investimento",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Investimentos Financeiros",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Outros Activos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Subsídios ao Investimento",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Transferências de Capital",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Juros e Rendimentos Similares",
+            "Valor Estimado 2018": "1678.00",
+            "Valor Contratualizado 2019": "2000.00",
+            "% Var 2019 / 2018": "19.19"
+          },
+          {
+            "Descrição": "Dividendos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Fluxos de caixa das atividades de investimento",
+            "Valor Estimado 2018": "-624685.00",
+            "Valor Contratualizado 2019": "-498000.00",
+            "% Var 2019 / 2018": "-20.28"
+          },
+          {
+            "Descrição": "Fluxos de Actividades de Financiamento",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Recebimentos Provenientes de (+):",
+            "Valor Estimado 2018": "6938621.00",
+            "Valor Contratualizado 2019": "500000.00",
+            "% Var 2019 / 2018": "-92.79"
+          },
+          {
+            "Descrição": "Financiamentos Obtidos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Realizações de capital e de outros instrumentos de capital",
+            "Valor Estimado 2018": "6520093.00",
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Cobertura de prejuízos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Cobertura de prejuízos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Doações",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Outras operações de financiamento",
+            "Valor Estimado 2018": "418528.00",
+            "Valor Contratualizado 2019": "500000.00",
+            "% Var 2019 / 2018": "19.47"
+          },
+          {
+            "Descrição": "Pagamentos Respeitantes a (-):",
+            "Valor Estimado 2018": "-1945.00",
+            "Valor Contratualizado 2019": "-5500.00",
+            "% Var 2019 / 2018": "182.78"
+          },
+          {
+            "Descrição": "Financiamentos obtidos",
+            "Valor Estimado 2018": "-1945.00",
+            "Valor Contratualizado 2019": "-5500.00",
+            "% Var 2019 / 2018": "182.78"
+          },
+          {
+            "Descrição": "Juros e gastos similares",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Dividendos",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Reduções de capital e de outros intrumentos de capital",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Outras operações de financiamento",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Fluxos de caixa das atividades de financiamento",
+            "Valor Estimado 2018": "6936676.00",
+            "Valor Contratualizado 2019": "494500.00",
+            "% Var 2019 / 2018": "-92.87"
+          },
+          {
+            "Descrição": "Variação de caixa e seus equivalentes",
+            "Valor Estimado 2018": "-547543.05",
+            "Valor Contratualizado 2019": "-1110824.45",
+            "% Var 2019 / 2018": "102.87"
+          },
+          {
+            "Descrição": "Efeito das diferenças de câmbio",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Caixa e seus equivalentes no inicio do periodo",
+            "Valor Estimado 2018": "11272566.00",
+            "Valor Contratualizado 2019": "10725022.95",
+            "% Var 2019 / 2018": "-4.86"
+          },
+          {
+            "Descrição": "Caixa e seus equivalentes no fim do período",
+            "Valor Estimado 2018": "10725022.95",
+            "Valor Contratualizado 2019": "9614198.50",
+            "% Var 2019 / 2018": "-10.36"
+          },
+          {
+            "Descrição": "Conciliação entre caixa e seus equivalentes e saldo de gerência",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Caixa e seus equivalentes no inicio do período",
+            "Valor Estimado 2018": "11272566.00",
+            "Valor Contratualizado 2019": "10725022.95",
+            "% Var 2019 / 2018": "-4.86"
+          },
+          {
+            "Descrição": "Equivalentes a caixa no inicio do periodo",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Variações cambiais de caixa no inicio do período",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Saldo da gerência anterior",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Da execução orçamental",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Das operações de tesouraria",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Caixa e seus equivalentes no fim do período",
+            "Valor Estimado 2018": "10725022.95",
+            "Valor Contratualizado 2019": "9614198.50",
+            "% Var 2019 / 2018": "-10.36"
+          },
+          {
+            "Descrição": "Equivalentes a caixa no fim do período",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Variações cambiais de caixa no fim do período",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Saldo para a gerência seguinte",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          },
+          {
+            "Descrição": "Da execução orçamental",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          }
+        ]
+      },
+      {
+        "table_index": 14,
+        "page": 15,
+        "table_data": [
+          {
+            "Descrição": "Das operações de tesouraria",
+            "Valor Estimado 2018": null,
+            "Valor Contratualizado 2019": null,
+            "% Var 2019 / 2018": null
+          }
+        ]
+      },
+      {
+        "table_index": 15,
+        "page": 16,
+        "table_data": [
+          {
+            "Conta": "Ativo não corrente",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Ativos Fixos Tangíveis",
+            "AL - Activo Liquido 2018": "44274648.66",
+            "AL - Activo Liquido 2019": "48700665.66"
+          },
+          {
+            "Conta": "Propriedades de Investimento",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Ativos Intangíveis",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Ativos Biológicos",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Investimentos Financeiros",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Devedores por empréstimos bonificados e subsídios reembolsáveis",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Acionistas/sócios/associados",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Diferimentos",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Outros Ativos Financeiros",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Ativos por Impostos Diferidos",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Sub-Total",
+            "AL - Activo Liquido 2018": "44274648.66",
+            "AL - Activo Liquido 2019": "48700665.66"
+          },
+          {
+            "Conta": "Ativo corrente",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Inventários",
+            "AL - Activo Liquido 2018": "2120015.17",
+            "AL - Activo Liquido 2019": "2300000.00"
+          },
+          {
+            "Conta": "Ativos Biológicos",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Devedores por transferências e subsídios não reembolsáveis",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Devedores por empréstimos bonificados e subsídios reembolsáveis",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Clientes, Contribuintes e Utentes",
+            "AL - Activo Liquido 2018": "12402450.00",
+            "AL - Activo Liquido 2019": "11592000.00"
+          },
+          {
+            "Conta": "Estado e Outros Entes Públicos",
+            "AL - Activo Liquido 2018": "341162.50",
+            "AL - Activo Liquido 2019": "590000.00"
+          },
+          {
+            "Conta": "Acionistas/sócios/associados",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Outras contas a receber",
+            "AL - Activo Liquido 2018": "21230704.59",
+            "AL - Activo Liquido 2019": "19250158.49"
+          },
+          {
+            "Conta": "Diferimentos",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Ativos Financeiros Detidos para Negociação",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Outros Ativos Financeiros",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Ativos não correntes detidos para venda",
+            "AL - Activo Liquido 2018": null,
+            "AL - Activo Liquido 2019": null
+          },
+          {
+            "Conta": "Caixa e depósitos",
+            "AL - Activo Liquido 2018": "10725022.95",
+            "AL - Activo Liquido 2019": "9614198.50"
+          },
+          {
+            "Conta": "Sub-Total",
+            "AL - Activo Liquido 2018": "46819355.21",
+            "AL - Activo Liquido 2019": "43346356.99"
+          },
+          {
+            "Conta": "Total do Ativo",
+            "AL - Activo Liquido 2018": "91094003.87",
+            "AL - Activo Liquido 2019": "92047022.65"
+          }
+        ]
+      },
+      {
+        "table_index": 16,
+        "page": 17,
+        "table_data": [
+          {
+            "Conta": "Património Liquido",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Património/Capital",
+            "Património Líquido e Passivo 2018": "35920000.00",
+            "Património Líquido e Passivo 2019": "35920000.00"
+          },
+          {
+            "Conta": "Ações (quotas) próprias",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Outros instrumentos de capital próprio",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Prémios de emissão",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Reservas",
+            "Património Líquido e Passivo 2018": "27940081.88",
+            "Património Líquido e Passivo 2019": "27940081.88"
+          },
+          {
+            "Conta": "Resultados transitados",
+            "Património Líquido e Passivo 2018": "-10268775.17",
+            "Património Líquido e Passivo 2019": "-14968084.24"
+          },
+          {
+            "Conta": "Ajustamentos em ativos financeiros",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Excedentes de revalorização",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Outras variações no património líquido",
+            "Património Líquido e Passivo 2018": "10828575.45",
+            "Património Líquido e Passivo 2019": "10828575.45"
+          },
+          {
+            "Conta": "Resultado líquido do período",
+            "Património Líquido e Passivo 2018": "-4699309.07",
+            "Património Líquido e Passivo 2019": "-6056020.63"
+          },
+          {
+            "Conta": "Dividendos antecipados",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Interesses que não controlam",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Total do Património Líquido",
+            "Património Líquido e Passivo 2018": "59720573.09",
+            "Património Líquido e Passivo 2019": "53664552.46"
+          },
+          {
+            "Conta": "Passivo",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Passivo não corrente",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Provisões",
+            "Património Líquido e Passivo 2018": "572240.18",
+            "Património Líquido e Passivo 2019": "622240.18"
+          },
+          {
+            "Conta": "Financiamentos Obtidos",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Fornecedores de Investimentos",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Responsabilidades por beneficios pós-emprego",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Diferimentos",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Passivos por impostos diferidos",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Outras contas a pagar",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Sub-Total",
+            "Património Líquido e Passivo 2018": "572240.18",
+            "Património Líquido e Passivo 2019": "622240.18"
+          },
+          {
+            "Conta": "Passivo corrente",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Credores por transferências e subsídios não reembolsáveis concedidos",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Fornecedores",
+            "Património Líquido e Passivo 2018": "3327962.43",
+            "Património Líquido e Passivo 2019": "16090807.29"
+          },
+          {
+            "Conta": "Adiantamento de clientes, contribuintes e utentes",
+            "Património Líquido e Passivo 2018": "8118694.42",
+            "Património Líquido e Passivo 2019": "9212689.74"
+          },
+          {
+            "Conta": "Estado e outros entes públicos",
+            "Património Líquido e Passivo 2018": "2810757.91",
+            "Património Líquido e Passivo 2019": "1800000.00"
+          },
+          {
+            "Conta": "Acionistas/sócios/associados",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Financiamentos Obtidos",
+            "Património Líquido e Passivo 2018": "106181.43",
+            "Património Líquido e Passivo 2019": "30000.00"
+          },
+          {
+            "Conta": "Fornecedores de Investimento",
+            "Património Líquido e Passivo 2018": "16301382.21",
+            "Património Líquido e Passivo 2019": "10473347.55"
+          },
+          {
+            "Conta": "Outras contas a pagar",
+            "Património Líquido e Passivo 2018": "43563.05",
+            "Património Líquido e Passivo 2019": "50000.00"
+          },
+          {
+            "Conta": "Diferimentos",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          },
+          {
+            "Conta": "Passivos financeiros detidos para negociação",
+            "Património Líquido e Passivo 2018": "92649.15",
+            "Património Líquido e Passivo 2019": "103385.43"
+          },
+          {
+            "Conta": "Outros passivos financeiros",
+            "Património Líquido e Passivo 2018": "31373430.78",
+            "Património Líquido e Passivo 2019": "38382470.19"
+          },
+          {
+            "Conta": "Total do Passivo",
+            "Património Líquido e Passivo 2018": "91094003.87",
+            "Património Líquido e Passivo 2019": "92047022.65"
+          },
+          {
+            "Conta": "Total do Património Líquido e Passivo",
+            "Património Líquido e Passivo 2018": null,
+            "Património Líquido e Passivo 2019": null
+          }
+        ]
+      }
+    ]
+  }
+}

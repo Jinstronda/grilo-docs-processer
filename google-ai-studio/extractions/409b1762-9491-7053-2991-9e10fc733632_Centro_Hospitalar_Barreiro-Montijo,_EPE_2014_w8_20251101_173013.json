@@ -1,0 +1,2759 @@
+{
+  "contract_id": "409b1762-9491-7053-2991-9e10fc733632",
+  "hospital_name": "Centro Hospitalar Barreiro-Montijo, EPE",
+  "year": 2014,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/Aditamento-G.Pessoal-2014-CHBM.pdf",
+  "extraction_timestamp": "20251101_173013",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 3,
+        "table_data": [
+          {
+            "Doentes Equivalentes": "1. Consultas Externas:",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Nº de 1ªs consultas médicas (s/ majoração)",
+            "Preço Unitário (Euros)": "44.89",
+            "Quantidade": "23357",
+            "Valor (Euros)": "1048495.73"
+          },
+          {
+            "Doentes Equivalentes": "Nº de 1ªs consultas referenciadas (p/ TtH)",
+            "Preço Unitário (Euros)": "49.38",
+            "Quantidade": "15689",
+            "Valor (Euros)": "774722.82"
+          },
+          {
+            "Doentes Equivalentes": "Nº de 1ªs consultas (Telemedicina)",
+            "Preço Unitário (Euros)": "49.38",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Nº de 1ªs consultas na comunidade (Saúde mental)",
+            "Preço Unitário (Euros)": "49.38",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Nº de consultas subsequentes médicas (s/ majoração)",
+            "Preço Unitário (Euros)": "43.58",
+            "Quantidade": "116526",
+            "Valor (Euros)": "5078203.08"
+          },
+          {
+            "Doentes Equivalentes": "Nº de consultas subsequentes (Telemedicina)",
+            "Preço Unitário (Euros)": "47.94",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Nº de consultas subsequentes na comunidade (Saúde mental)",
+            "Preço Unitário (Euros)": "47.94",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Valor Total das Consultas",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "6901421.63"
+          },
+          {
+            "Doentes Equivalentes": "2. Internamento:",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Doentes Saídos",
+            "ICM": "",
+            "N.º": "",
+            "%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "GDH Médicos",
+            "ICM": "0.8859",
+            "N.º": "8465",
+            "%": "96.11%",
+            "Preço Unitário (Euros)": "2056.67",
+            "Quantidade": "8808",
+            "Valor (Euros)": "15423263.46"
+          },
+          {
+            "Doentes Equivalentes": "GDH Cirúrgicos",
+            "ICM": "0.8859",
+            "N.º": "2499",
+            "%": "96.11%",
+            "Preço Unitário (Euros)": "2120.28",
+            "Quantidade": "2600",
+            "Valor (Euros)": "4694011.77"
+          },
+          {
+            "Doentes Equivalentes": "GDH Cirúrgicos Urgentes",
+            "ICM": "0.8859",
+            "N.º": "1640",
+            "%": "96.11%",
+            "Preço Unitário (Euros)": "2014.27",
+            "Quantidade": "1706",
+            "Valor (Euros)": "2926484.54"
+          },
+          {
+            "Doentes Equivalentes": "Dias de Internamento de Doentes Crónicos",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Doentes Medicina Física e Reabilitação",
+            "Preço Unitário (Euros)": "205.10",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Doentes de Psiquiatria Crónicos no Hospital",
+            "Preço Unitário (Euros)": "37.33",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Doentes de Psiquiatria no Exterior (Ordens Religiosas)",
+            "Preço Unitário (Euros)": "38.80",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Doentes de Psiquiatria no Exterior (Outras inst.)",
+            "Preço Unitário (Euros)": "38.89",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Doentes Crónicos Ventilados",
+            "Preço Unitário (Euros)": "244.01",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Doentes de Reabilitação Psicossocial",
+            "Preço Unitário (Euros)": "37.33",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Doentes Crónicos de Hansen",
+            "Preço Unitário (Euros)": "70.75",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Valor Total do Internamento",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "23043759.77"
+          },
+          {
+            "Doentes Equivalentes": "3. Episódios de GDH de Ambulatório:",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "GDH Cirúrgicos",
+            "ICM": "0.3821",
+            "Preço Unitário (Euros)": "2183.89",
+            "Quantidade": "2865",
+            "Valor (Euros)": "2390740.42"
+          },
+          {
+            "Doentes Equivalentes": "GDH Médicos",
+            "ICM": "0.2417",
+            "Preço Unitário (Euros)": "2120.28",
+            "Quantidade": "5320",
+            "Valor (Euros)": "2726349.32"
+          },
+          {
+            "Doentes Equivalentes": "Valor Total dos GDH de Ambulatório",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "5117089.74"
+          },
+          {
+            "Doentes Equivalentes": "4. Urgências:",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Atendimentos (SU - Polivalente)",
+            "Preço Unitário (Euros)": "107.50",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Atendimentos (SU - Médico-Cirúrgica)",
+            "Preço Unitário (Euros)": "53.01",
+            "Quantidade": "105770",
+            "Valor (Euros)": "5702060.70"
+          },
+          {
+            "Doentes Equivalentes": "Atendimentos (SU - Básica)",
+            "Preço Unitário (Euros)": "30.70",
+            "Quantidade": "25871",
+            "Valor (Euros)": "794239.70"
+          },
+          {
+            "Doentes Equivalentes": "Valor Total dos Atendimentos Urgentes",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "6496300.40"
+          },
+          {
+            "Doentes Equivalentes": "5. Sessões em Hospital de Dia:",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Base",
+            "Preço Unitário (Euros)": "20.14",
+            "Quantidade": "17718",
+            "Valor (Euros)": "356840.52"
+          },
+          {
+            "Doentes Equivalentes": "Hematologia",
+            "Preço Unitário (Euros)": "293.52",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Imuno-Hemoterapia",
+            "Preço Unitário (Euros)": "293.52",
+            "Quantidade": "790",
+            "Valor (Euros)": "233641.92"
+          },
+          {
+            "Doentes Equivalentes": "Psiquiatria",
+            "Preço Unitário (Euros)": "30.49",
+            "Quantidade": "3527",
+            "Valor (Euros)": "107538.23"
+          },
+          {
+            "Doentes Equivalentes": "Psiquiatria - Unidades Sócio-Ocupacionais",
+            "Preço Unitário (Euros)": "30.49",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Valor Total do Hospital de Dia",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "698020.67"
+          },
+          {
+            "Doentes Equivalentes": "6. Programas de Gestão da Doença Crónica",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "VIH/Sida (doentes em TARC)",
+            "Preço Unitário (Euros)": "9165.54",
+            "Quantidade": "470",
+            "Valor (Euros)": "4307803.80"
+          },
+          {
+            "Doentes Equivalentes": "Hipertensão Arterial Pulmonar - doentes em terapêutica",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Pré-tratamento, seguimento 1º ano",
+            "Preço Unitário (Euros)": "8408.22",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Doentes Equivalentes": "Seguimento após 1º ano (CF III)",
+            "Preço Unitário (Euros)": "22555.58",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 4,
+        "table_data": [
+          {
+            "Categoria": "Seguimento após 1º ano (CF IV)",
+            "Valor": "162563.44"
+          },
+          {
+            "Categoria": "Esclerose múltipla - doentes em terapêutica modificadora",
+            "Valor": "12379.85"
+          },
+          {
+            "Categoria": "Tratamento de doentes c/ patologia oncológica - novos doentes",
+            "Valor": ""
+          },
+          {
+            "Categoria": "Cancro da mama (1º ano)",
+            "Valor": "11148.96"
+          },
+          {
+            "Categoria": "Cancro da mama (2º ano)",
+            "Valor": "4821.86"
+          },
+          {
+            "Categoria": "Cancro do cólon e reto (1º ano)",
+            "Valor": "13236.71"
+          },
+          {
+            "Categoria": "Cancro do cólon e reto (2º ano)",
+            "Valor": "4957.02"
+          },
+          {
+            "Categoria": "Cancro do colo do útero (1º ano)",
+            "Valor": "10630.82"
+          },
+          {
+            "Categoria": "Cancro do colo do útero (2º ano)",
+            "Valor": "2530.62"
+          },
+          {
+            "Categoria": "Telemonitorização DPOC",
+            "Valor": ""
+          },
+          {
+            "Categoria": "Elementos de Telemonitorização",
+            "Valor": "1125.29"
+          },
+          {
+            "Categoria": "Nº de doentes em tratamento (doente/tratado/ano)",
+            "Valor": "2053.09"
+          },
+          {
+            "Categoria": "Programa Terapêutico PAF1",
+            "Valor": ""
+          },
+          {
+            "Categoria": "PAF1 - Doentes em tratamento (equivalente ano)",
+            "Valor": "58358.74"
+          },
+          {
+            "Categoria": "Doenças Lisossomais de Sobre Carga (doentes em tratamento/equivalente ano)",
+            "Valor": ""
+          },
+          {
+            "Categoria": "Doença de Gaucher",
+            "Valor": "190617.10"
+          },
+          {
+            "Categoria": "Doença de Fabry",
+            "Valor": "158684.84"
+          },
+          {
+            "Categoria": "Doença de Hurler",
+            "Valor": "193797.41"
+          },
+          {
+            "Categoria": "Doença de Hunter",
+            "Valor": "313750.26"
+          },
+          {
+            "Categoria": "Doença de Maroteaux-Lamy",
+            "Valor": "348668.83"
+          },
+          {
+            "Categoria": "Doença de Niemann-Pick",
+            "Valor": "39652.21"
+          },
+          {
+            "Categoria": "Doença de Pompe",
+            "Valor": "244100.20"
+          },
+          {
+            "Categoria": "7. PMA - Diagnóstico e Tratamento da Infertilidade",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Categoria": "Consultas de Apoio à Fertilidade",
+            "Preço Unitário (Euros)": "89.32",
+            "Quantidade": "85",
+            "Valor (Euros)": "7507.20"
+          },
+          {
+            "Categoria": "Induções da Ovulação (IO)",
+            "Preço Unitário (Euros)": "132.48",
+            "Quantidade": "5",
+            "Valor (Euros)": "662.40"
+          },
+          {
+            "Categoria": "Inseminações Intra-Uterinas (IIU)",
+            "Preço Unitário (Euros)": "335.04",
+            "Quantidade": "4",
+            "Valor (Euros)": "1340.16"
+          },
+          {
+            "Categoria": "Fertilizações In Vitro (FIV)",
+            "Preço Unitário (Euros)": "2097.60",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Categoria": "Injecções Intra-Citoplasmáticas de Espermatozóides (ICSI)",
+            "Preço Unitário (Euros)": "2307.84",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Categoria": "Injeções Intra-Citoplasmáticas de Espermatozóides recolhidos cirurgicamente (ICSI c/ recolha cirúrgica)",
+            "Preço Unitário (Euros)": "2936.64",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Categoria": "8. Saúde Sexual e Reprodutiva",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Categoria": "IVG até 10 semanas",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Categoria": "Medicamentosa (n.º IVG)",
+            "Preço Unitário (Euros)": "283.10",
+            "Quantidade": "460",
+            "Valor (Euros)": "130220.00"
+          },
+          {
+            "Categoria": "Cirúrgica (n.º IVG)",
+            "Preço Unitário (Euros)": "368.61",
+            "Quantidade": "26",
+            "Valor (Euros)": "9583.86"
+          },
+          {
+            "Categoria": "Diagnóstico Pré-Natal",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Categoria": "Protocolo I",
+            "Preço Unitário (Euros)": "37.72",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Categoria": "Protocolo II",
+            "Preço Unitário (Euros)": "64.61",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Categoria": "9. Sessões de Radioterapia",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Categoria": "Tratamentos simples",
+            "Preço Unitário (Euros)": "104.53",
+            "Quantidade": "25460",
+            "Valor (Euros)": "2661333.80"
+          },
+          {
+            "Categoria": "Tratamentos complexos",
+            "Preço Unitário (Euros)": "250.92",
+            "Quantidade": "2663",
+            "Valor (Euros)": "668190.06"
+          },
+          {
+            "Categoria": "10. Serviços Domiciliários",
+            "Preço Unitário (Euros)": "33.10",
+            "Quantidade": "300",
+            "Valor (Euros)": "9930.00"
+          },
+          {
+            "Categoria": "11. Lar (IPO)",
+            "Preço Unitário (Euros)": "62.95",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Categoria": "12. Outros:",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Categoria": "Medicamentos de cedência hospitalar em ambulatório",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "748436.87"
+          },
+          {
+            "Categoria": "Internos",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "833870.16"
+          },
+          {
+            "Categoria": "Valor da Produção Contratada",
+            "Valor": "51635486.42"
+          },
+          {
+            "Categoria": "Incentivos institucionais",
+            "Valor": "2764496.00"
+          },
+          {
+            "Categoria": "Convergência",
+            "Valor": "890413.16"
+          },
+          {
+            "Categoria": "Valor Total do Contrato",
+            "Valor": "55290395.58"
+          },
+          {
+            "Categoria": "Verba de convergência medidas extraordinárias para reequilíbrio financeiro",
+            "Valor": "7000000.00"
+          },
+          {
+            "Categoria": "Verba de convergência para compensação por acréscimo de gastos com pessoal",
+            "Valor": "3397594.00"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 5,
+        "table_data": [
+          {
+            "Objetivo": "Objetivos Nacionais",
+            "Pesos Relativos (%)": "60.00",
+            "Meta": ""
+          },
+          {
+            "Objetivo": "A. Acesso",
+            "Pesos Relativos (%)": "15.00",
+            "Meta": ""
+          },
+          {
+            "Objetivo": "A.1 Percentagem das primeiras consultas no total de consultas médicas (%)",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "25.0"
+          },
+          {
+            "Objetivo": "A.2 Percentagem de utentes referenciados para consulta externa atendidos em tempo adequado",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "70.0"
+          },
+          {
+            "Objetivo": "A.3 Peso das consultas externas com registo de alta no total de consultas externas (%)",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "15.0"
+          },
+          {
+            "Objetivo": "A.4 Percentagem utentes inscritos em LIC com tempo de espera <= TMRG (%)",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "82.0"
+          },
+          {
+            "Objetivo": "A.5 Percentagem de doentes sinalizados para a RNCCI em tempo adequado, no total de doentes tratados (%)",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "24.00"
+          },
+          {
+            "Objetivo": "B. Desempenho Assistencial",
+            "Pesos Relativos (%)": "25.00",
+            "Meta": ""
+          },
+          {
+            "Objetivo": "B.1 Demora média (dias)",
+            "Pesos Relativos (%)": "4.00",
+            "Meta": "8.40"
+          },
+          {
+            "Objetivo": "B.2 Percentagem de reinternamentos em 30 dias (%)",
+            "Pesos Relativos (%)": "4.00",
+            "Meta": "6.9"
+          },
+          {
+            "Objetivo": "B.3 Percentagem de doentes saídos com duração de internamento acima do limiar máximo (%)",
+            "Pesos Relativos (%)": "4.00",
+            "Meta": "1.89"
+          },
+          {
+            "Objetivo": "B.4 Percentagem de cirurgias da anca efetuadas nas primeiras 48 horas (%)",
+            "Pesos Relativos (%)": "4.00",
+            "Meta": "60.00"
+          },
+          {
+            "Objetivo": "B.5 Percentagem de cirurgias realizadas em ambulatório no total de cirurgias programadas (GDH) - para procedimentos 'ambulatorizáveis' (%)",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "70.0"
+          },
+          {
+            "Objetivo": "B.6 Percentagem de consumo de embalagens de medicamentos genéricos, no total de embalagens de medicamentos (%)",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "45.00"
+          },
+          {
+            "Objetivo": "B.7 Taxa de registo de utilização da 'Lista de Verificação de Atividade Cirúrgica' — Indicador referente a cirurgia segura (%)",
+            "Pesos Relativos (%)": "3.00",
+            "Meta": "97.0"
+          },
+          {
+            "Objetivo": "C. Desempenho Económico-Financeiro",
+            "Pesos Relativos (%)": "20.00",
+            "Meta": ""
+          },
+          {
+            "Objetivo": "C.1 Percentagem dos custos com horas extraordinárias, suplementos e FSE (selecionados), no total de custos com pessoal (%)",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "11.7"
+          },
+          {
+            "Objetivo": "C.2 EBITDA (€)",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "-5492441.42"
+          },
+          {
+            "Objetivo": "C.3 Acréscimo de Dívida vencida (fornecedores externos) (€)",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "0.00"
+          },
+          {
+            "Objetivo": "C.4 Percentagem de proveitos operacionais extra contrato-programa, no total de proveitos operacionais (%)",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "7.4"
+          },
+          {
+            "Objetivo": "Objetivos Regionais",
+            "Pesos Relativos (%)": "",
+            "Meta": ""
+          },
+          {
+            "Objetivo": "LVT",
+            "Pesos Relativos (%)": "",
+            "Meta": ""
+          },
+          {
+            "Objetivo": "Tempo médio de espera para cirurgia no Hospital X Dias",
+            "Pesos Relativos (%)": "15.00",
+            "Meta": "140.00"
+          },
+          {
+            "Objetivo": "% de Utentes em Espera para Cirurgia com Tempo Superior a 12 meses",
+            "Pesos Relativos (%)": "15.00",
+            "Meta": "6.00"
+          },
+          {
+            "Objetivo": "Nº de consultas externas por médico ETC - Oftalmologia",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "1920.00"
+          },
+          {
+            "Objetivo": "Nº de consultas externas por médico ETC - Urologia",
+            "Pesos Relativos (%)": "5.00",
+            "Meta": "2160.00"
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "page": 6,
+        "table_data": [
+          {
+            "Descrição": "612-Mercadorias",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "616-Matérias de consumo",
+            "Valor Estimado 2013": "17136811.42",
+            "Valor Contratualizado 2014": "17622117.00",
+            "% Var 2014 / 2013": "2.8%"
+          },
+          {
+            "Descrição": "6161-Produtos Farmacêuticos",
+            "Valor Estimado 2013": "14075603.14",
+            "Valor Contratualizado 2014": "14486184.00",
+            "% Var 2014 / 2013": "2.9%"
+          },
+          {
+            "Descrição": "61611-Medicamentos",
+            "Valor Estimado 2013": "12451165.96",
+            "Valor Contratualizado 2014": "12864010.00",
+            "% Var 2014 / 2013": "3.3%"
+          },
+          {
+            "Descrição": "61612/9-Reagentes/ Outros produtos farmacêuticos",
+            "Valor Estimado 2013": "1624527.18",
+            "Valor Contratualizado 2014": "1622174.00",
+            "% Var 2014 / 2013": "-0.1%"
+          },
+          {
+            "Descrição": "6162-Material consumo clínico",
+            "Valor Estimado 2013": "2744587.62",
+            "Valor Contratualizado 2014": "2854308.00",
+            "% Var 2014 / 2013": "4.0%"
+          },
+          {
+            "Descrição": "6163-Produtos alimentares",
+            "Valor Estimado 2013": "2288.40",
+            "Valor Contratualizado 2014": "2000.00",
+            "% Var 2014 / 2013": "-12.6%"
+          },
+          {
+            "Descrição": "6164-Material consumo hoteleiro",
+            "Valor Estimado 2013": "110119.79",
+            "Valor Contratualizado 2014": "103795.00",
+            "% Var 2014 / 2013": "-5.7%"
+          },
+          {
+            "Descrição": "6166-Material consumo administrativo",
+            "Valor Estimado 2013": "90793.00",
+            "Valor Contratualizado 2014": "91550.00",
+            "% Var 2014 / 2013": "0.8%"
+          },
+          {
+            "Descrição": "6168-Material manutenção e conservação",
+            "Valor Estimado 2013": "111672.93",
+            "Valor Contratualizado 2014": "82780.00",
+            "% Var 2014 / 2013": "-25.9%"
+          },
+          {
+            "Descrição": "6169-Outro material de consumo",
+            "Valor Estimado 2013": "1655.85",
+            "Valor Contratualizado 2014": "1500.00",
+            "% Var 2014 / 2013": "-9.4%"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2013": "17136811.42",
+            "Valor Contratualizado 2014": "17622117.00",
+            "% Var 2014 / 2013": "2.8%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "22.6%",
+            "Valor Contratualizado 2014": "23.0%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "6211-Assistência ambulatória",
+            "Valor Estimado 2013": "1241488.28",
+            "Valor Contratualizado 2014": "1484252.00",
+            "% Var 2014 / 2013": "19.6%"
+          },
+          {
+            "Descrição": "6212-Meios complementares diagnóstico",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62121-Patologia clínica",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62122-Anatomia patológica",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62123-Imagiologia",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62124-Cardiologia",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62125-Electroencefalografia",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62126-Medicina nuclear",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62127-Gastrenterologia",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62128-Pneumologia/Imunoalergologia",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62129-Outros",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "6213-Meios complementares terapêutica",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62131-Hemodiálise",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62132-Medicina física e reabilitação",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62133-Litotrícia",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62139-Outros",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "6214-Prescrição medicam. e cuid. farmac.",
+            "Valor Estimado 2013": "22080.90",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "6215-Internamentos",
+            "Valor Estimado 2013": "517169.61",
+            "Valor Contratualizado 2014": "196950.00",
+            "% Var 2014 / 2013": "-61.9%"
+          },
+          {
+            "Descrição": "6216-Transporte de doentes",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "6217-Aparelhos complementares de terapêutica",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "6218-Trabalhos executados no exterior",
+            "Valor Estimado 2013": "2509386.60",
+            "Valor Contratualizado 2014": "2554963.00",
+            "% Var 2014 / 2013": "1.7%"
+          },
+          {
+            "Descrição": "62181-Em entidades do M. Saúde",
+            "Valor Estimado 2013": "1052920.12",
+            "Valor Contratualizado 2014": "1044044.00",
+            "% Var 2014 / 2013": "-0.8%"
+          },
+          {
+            "Descrição": "621811-Assistência ambulatória",
+            "Valor Estimado 2013": "1220.70",
+            "Valor Contratualizado 2014": "2500.00",
+            "% Var 2014 / 2013": "104.8%"
+          },
+          {
+            "Descrição": "621812-Meios complementares de diagnóstico",
+            "Valor Estimado 2013": "412396.64",
+            "Valor Contratualizado 2014": "420574.00",
+            "% Var 2014 / 2013": "2.0%"
+          },
+          {
+            "Descrição": "621813-Meios complementares de terapêutica",
+            "Valor Estimado 2013": "520248.41",
+            "Valor Contratualizado 2014": "510280.00",
+            "% Var 2014 / 2013": "-1.9%"
+          },
+          {
+            "Descrição": "621814-Prescrição medicam. e cuid. farmac.",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "621815-Internamentos e transporte de doentes",
+            "Valor Estimado 2013": "119054.37",
+            "Valor Contratualizado 2014": "110090.00",
+            "% Var 2014 / 2013": "-7.5%"
+          },
+          {
+            "Descrição": "621819-Outros trabalhos executados no exterior",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "62189-Em outras entidades",
+            "Valor Estimado 2013": "1646466.48",
+            "Valor Contratualizado 2014": "1510919.00",
+            "% Var 2014 / 2013": "-8.2%"
+          },
+          {
+            "Descrição": "621891-Assistência ambulatória",
+            "Valor Estimado 2013": "338.00",
+            "Valor Contratualizado 2014": "1000.00",
+            "% Var 2014 / 2013": "195.9%"
+          },
+          {
+            "Descrição": "621892-Meios complementares diagnóstico",
+            "Valor Estimado 2013": "1096824.77",
+            "Valor Contratualizado 2014": "1024089.00",
+            "% Var 2014 / 2013": "-6.6%"
+          },
+          {
+            "Descrição": "621893-Meios complementares terapêutica",
+            "Valor Estimado 2013": "1940.00",
+            "Valor Contratualizado 2014": "2520.00",
+            "% Var 2014 / 2013": "29.9%"
+          },
+          {
+            "Descrição": "621894-Prescrição medicam. e cuid. farmac.",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "621895-Internamentos e transporte de doentes",
+            "Valor Estimado 2013": "376364.98",
+            "Valor Contratualizado 2014": "418310.00",
+            "% Var 2014 / 2013": "11.1%"
+          },
+          {
+            "Descrição": "621896-Aparelhos complementares de terapêutica",
+            "Valor Estimado 2013": "70998.73",
+            "Valor Contratualizado 2014": "65000.00",
+            "% Var 2014 / 2013": "-8.4%"
+          },
+          {
+            "Descrição": "621897-Assistência no estrangeiro",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "621898-Termalismo social",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "621899-Outros trabalhos executados no exterior",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "page": 7,
+        "table_data": [
+          {
+            "Descrição": "6219-Outros subcontratos",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2013": "4380134.39",
+            "Valor Contratualizado 2014": "4236165.00",
+            "% Var 2014 / 2013": "-3.3%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "5.8%",
+            "Valor Contratualizado 2014": "5.5%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "6221-Fornecimentos e serviços I",
+            "Valor Estimado 2013": "1483120.17",
+            "Valor Contratualizado 2014": "1504390.00",
+            "% Var 2014 / 2013": "1.4%"
+          },
+          {
+            "Descrição": "6222-Fornecimentos e serviços II",
+            "Valor Estimado 2013": "1208681.11",
+            "Valor Contratualizado 2014": "1028817.00",
+            "% Var 2014 / 2013": "-14.9%"
+          },
+          {
+            "Descrição": "6223-Fornecimentos e serviços III",
+            "Valor Estimado 2013": "4526061.47",
+            "Valor Contratualizado 2014": "4573585.00",
+            "% Var 2014 / 2013": "1.0%"
+          },
+          {
+            "Descrição": "6229-Outros fornecimentos e serviços",
+            "Valor Estimado 2013": "48198.83",
+            "Valor Contratualizado 2014": "50163.00",
+            "% Var 2014 / 2013": "4.1%"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2013": "7266061.58",
+            "Valor Contratualizado 2014": "7156955.00",
+            "% Var 2014 / 2013": "-1.5%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "9.6%",
+            "Valor Contratualizado 2014": "9.3%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "63-Transf. correntes conced. e prest. sociais",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "641-Remunerações dos órgãos directivos",
+            "Valor Estimado 2013": "256137.00",
+            "Valor Contratualizado 2014": "254155.00",
+            "% Var 2014 / 2013": "-0.8%"
+          },
+          {
+            "Descrição": "642-Remunerações de pessoal",
+            "Valor Estimado 2013": "35311682.61",
+            "Valor Contratualizado 2014": "34083564.00",
+            "% Var 2014 / 2013": "-3.5%"
+          },
+          {
+            "Descrição": "6421-Remunerações base do pessoal",
+            "Valor Estimado 2013": "25017842.08",
+            "Valor Contratualizado 2014": "24068570.00",
+            "% Var 2014 / 2013": "-3.8%"
+          },
+          {
+            "Descrição": "64211-RCTFP por tempo indeterminado",
+            "Valor Estimado 2013": "14400267.55",
+            "Valor Contratualizado 2014": "13662056.00",
+            "% Var 2014 / 2013": "-5.1%"
+          },
+          {
+            "Descrição": "64212-Pessoal c/ contrato a termo resolutivo",
+            "Valor Estimado 2013": "1714589.09",
+            "Valor Contratualizado 2014": "1806702.00",
+            "% Var 2014 / 2013": "5.4%"
+          },
+          {
+            "Descrição": "64213-Pessoal em regime Contrato Individual",
+            "Valor Estimado 2013": "8662085.01",
+            "Valor Contratualizado 2014": "8418696.00",
+            "% Var 2014 / 2013": "-2.8%"
+          },
+          {
+            "Descrição": "64214-Pessoal em qualquer outra situação",
+            "Valor Estimado 2013": "240900.43",
+            "Valor Contratualizado 2014": "181116.00",
+            "% Var 2014 / 2013": "-24.8%"
+          },
+          {
+            "Descrição": "6422-Suplementos de remunerações",
+            "Valor Estimado 2013": "5961833.58",
+            "Valor Contratualizado 2014": "5824578.00",
+            "% Var 2014 / 2013": "-2.3%"
+          },
+          {
+            "Descrição": "64221-Trabalho extraordinário",
+            "Valor Estimado 2013": "2897757.61",
+            "Valor Contratualizado 2014": "2684002.00",
+            "% Var 2014 / 2013": "-7.4%"
+          },
+          {
+            "Descrição": "642211-Horas extraordinárias",
+            "Valor Estimado 2013": "2814605.19",
+            "Valor Contratualizado 2014": "2605420.00",
+            "% Var 2014 / 2013": "-7.4%"
+          },
+          {
+            "Descrição": "642212-Prevenções",
+            "Valor Estimado 2013": "83152.42",
+            "Valor Contratualizado 2014": "78582.00",
+            "% Var 2014 / 2013": "-5.5%"
+          },
+          {
+            "Descrição": "64222-Trabalho em regime de turnos",
+            "Valor Estimado 2013": "1400574.49",
+            "Valor Contratualizado 2014": "1375400.00",
+            "% Var 2014 / 2013": "-1.8%"
+          },
+          {
+            "Descrição": "642221-Noites e suplementos",
+            "Valor Estimado 2013": "1400574.49",
+            "Valor Contratualizado 2014": "1375400.00",
+            "% Var 2014 / 2013": "-1.8%"
+          },
+          {
+            "Descrição": "642222-Subsídio de turno",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "64223-Abono para falhas",
+            "Valor Estimado 2013": "844.24",
+            "Valor Contratualizado 2014": "850.00",
+            "% Var 2014 / 2013": "0.7%"
+          },
+          {
+            "Descrição": "64224-Subsídio de refeição",
+            "Valor Estimado 2013": "1459932.22",
+            "Valor Contratualizado 2014": "1448672.00",
+            "% Var 2014 / 2013": "-0.8%"
+          },
+          {
+            "Descrição": "64225-Ajudas de custo",
+            "Valor Estimado 2013": "2989.03",
+            "Valor Contratualizado 2014": "2500.00",
+            "% Var 2014 / 2013": "-16.4%"
+          },
+          {
+            "Descrição": "64226/7-Vestuário e Art. Pess. Alim. e Alojam.",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "642281-PEC/LEC e SIGIC",
+            "Valor Estimado 2013": "94252.98",
+            "Valor Contratualizado 2014": "210250.00",
+            "% Var 2014 / 2013": "123.1%"
+          },
+          {
+            "Descrição": "642282-9-Outros Suplementos",
+            "Valor Estimado 2013": "105483.01",
+            "Valor Contratualizado 2014": "102904.00",
+            "% Var 2014 / 2013": "-2.4%"
+          },
+          {
+            "Descrição": "6423-Prestações sociais directas",
+            "Valor Estimado 2013": "40138.00",
+            "Valor Contratualizado 2014": "38704.00",
+            "% Var 2014 / 2013": "-3.6%"
+          },
+          {
+            "Descrição": "6424-Subsídios de férias e de Natal",
+            "Valor Estimado 2013": "4291868.86",
+            "Valor Contratualizado 2014": "4151652.00",
+            "% Var 2014 / 2013": "-3.3%"
+          },
+          {
+            "Descrição": "6425-Prémios de desempenho",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "643-Pensões",
+            "Valor Estimado 2013": "167863.66",
+            "Valor Contratualizado 2014": "169720.00",
+            "% Var 2014 / 2013": "1.1%"
+          },
+          {
+            "Descrição": "645-Encargos sobre remunerações",
+            "Valor Estimado 2013": "7537703.42",
+            "Valor Contratualizado 2014": "8259193.00",
+            "% Var 2014 / 2013": "9.6%"
+          },
+          {
+            "Descrição": "646-Seguros de acid. trab. e doenças profissionais",
+            "Valor Estimado 2013": "1212.82",
+            "Valor Contratualizado 2014": "1000.00",
+            "% Var 2014 / 2013": "-17.5%"
+          },
+          {
+            "Descrição": "647-Encargos sociais voluntários",
+            "Valor Estimado 2013": "89886.36",
+            "Valor Contratualizado 2014": "98746.00",
+            "% Var 2014 / 2013": "9.9%"
+          },
+          {
+            "Descrição": "648-Outros custos com pessoal",
+            "Valor Estimado 2013": "102848.92",
+            "Valor Contratualizado 2014": "318918.00",
+            "% Var 2014 / 2013": "210.1%"
+          },
+          {
+            "Descrição": "649-Estágios Profissionais",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2013": "43467334.79",
+            "Valor Contratualizado 2014": "43185236.00",
+            "% Var 2014 / 2013": "-0.6%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "57.4%",
+            "Valor Contratualizado 2014": "56.4%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "65-Outros custos e perdas operacionais",
+            "Valor Estimado 2013": "19173.44",
+            "Valor Contratualizado 2014": "22450.00",
+            "% Var 2014 / 2013": "17.1%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "0.0%",
+            "Valor Contratualizado 2014": "0.0%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "66-Amortizações do exercício",
+            "Valor Estimado 2013": "3082850.81",
+            "Valor Contratualizado 2014": "4352732.00",
+            "% Var 2014 / 2013": "41.2%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "4.1%",
+            "Valor Contratualizado 2014": "5.7%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "67-Provisões do exercício",
+            "Valor Estimado 2013": "0.00",
+            "Valor Contratualizado 2014": "25000.00",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "0.0%",
+            "Valor Contratualizado 2014": "0.0%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "68-Custos e perdas financeiras",
+            "Valor Estimado 2013": "272432.76",
+            "Valor Contratualizado 2014": "12260.00",
+            "% Var 2014 / 2013": "-95.5%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "0.4%",
+            "Valor Contratualizado 2014": "0.0%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "69-Custos e perdas extraordinários",
+            "Valor Estimado 2013": "105239.70",
+            "Valor Contratualizado 2014": "24235.00",
+            "% Var 2014 / 2013": "-77.0%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "0.1%",
+            "Valor Contratualizado 2014": "0.0%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "TOTAL GERAL",
+            "Valor Estimado 2013": "75730038.89",
+            "Valor Contratualizado 2014": "76637150.00",
+            "% Var 2014 / 2013": "1.2%"
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "page": 8,
+        "table_data": [
+          {
+            "Descrição": "71-Vendas e prestações de serviços",
+            "Valor Estimado 2013": "70352031.48",
+            "Valor Contratualizado 2014": "69350607.58",
+            "% Var 2014 / 2013": "-1.4%"
+          },
+          {
+            "Descrição": "711-Vendas",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "712-Prestações de serviços",
+            "Valor Estimado 2013": "70352031.48",
+            "Valor Contratualizado 2014": "69350607.58",
+            "% Var 2014 / 2013": "-1.4%"
+          },
+          {
+            "Descrição": "7121-Instituições SNS",
+            "Valor Estimado 2013": "67164457.61",
+            "Valor Contratualizado 2014": "65687989.58",
+            "% Var 2014 / 2013": "-2.2%"
+          },
+          {
+            "Descrição": "71211-Internamento - SNS CP",
+            "Valor Estimado 2013": "22223461.58",
+            "Valor Contratualizado 2014": "23043759.78",
+            "% Var 2014 / 2013": "3.7%"
+          },
+          {
+            "Descrição": "71212-Consulta - SNS CP",
+            "Valor Estimado 2013": "7264439.48",
+            "Valor Contratualizado 2014": "6901421.63",
+            "% Var 2014 / 2013": "-5.0%"
+          },
+          {
+            "Descrição": "71213-Urgência SAP - SNS CP",
+            "Valor Estimado 2013": "6316900.14",
+            "Valor Contratualizado 2014": "6496300.40",
+            "% Var 2014 / 2013": "2.8%"
+          },
+          {
+            "Descrição": "71214-Quartos particulares - SNS CP",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "71215-Hospital de dia - SNS CP",
+            "Valor Estimado 2013": "684900.32",
+            "Valor Contratualizado 2014": "698020.67",
+            "% Var 2014 / 2013": "1.9%"
+          },
+          {
+            "Descrição": "71216-Meios compl. de diagnóstico e terapêutica - SNS CP",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "712161-Meios complementares diagnóstico - SNS CP",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "712162-Meios complementares terapêutica - SNS CP",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "71218-Outras Prestações de Serviços de Saúde - SNS CP",
+            "Valor Estimado 2013": "26019227.54",
+            "Valor Contratualizado 2014": "24235748.71",
+            "% Var 2014 / 2013": "-6.9%"
+          },
+          {
+            "Descrição": "712181-Serviço domiciliário - SNS CP",
+            "Valor Estimado 2013": "6447.76",
+            "Valor Contratualizado 2014": "9930.00",
+            "% Var 2014 / 2013": "54.0%"
+          },
+          {
+            "Descrição": "712182-GDH de Ambulatório - SNS CP",
+            "Valor Estimado 2013": "7178827.10",
+            "Valor Contratualizado 2014": "8446623.49",
+            "% Var 2014 / 2013": "17.7%"
+          },
+          {
+            "Descrição": "712184-Plano de convergência - SNS CP",
+            "Valor Estimado 2013": "16355534.41",
+            "Valor Contratualizado 2014": "11288007.16",
+            "% Var 2014 / 2013": "-31.0%"
+          },
+          {
+            "Descrição": "712185-Valor Capitacional (valor a facturar pelas ULS) - SNS CP",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "712189-Outras prestações serviços de saúde - SNS CP",
+            "Valor Estimado 2013": "2478418.27",
+            "Valor Contratualizado 2014": "4491188.06",
+            "% Var 2014 / 2013": "81.2%"
+          },
+          {
+            "Descrição": "71219-Outras prestações de serviços - SNS CP",
+            "Valor Estimado 2013": "4655342.55",
+            "Valor Contratualizado 2014": "4312738.39",
+            "% Var 2014 / 2013": "-7.4%"
+          },
+          {
+            "Descrição": "7122-Outras Entidades Responsáveis",
+            "Valor Estimado 2013": "3187573.87",
+            "Valor Contratualizado 2014": "3662618.00",
+            "% Var 2014 / 2013": "14.9%"
+          },
+          {
+            "Descrição": "71221-Internamento",
+            "Valor Estimado 2013": "567431.38",
+            "Valor Contratualizado 2014": "818328.00",
+            "% Var 2014 / 2013": "44.2%"
+          },
+          {
+            "Descrição": "71222-Consulta",
+            "Valor Estimado 2013": "23699.80",
+            "Valor Contratualizado 2014": "35020.00",
+            "% Var 2014 / 2013": "47.8%"
+          },
+          {
+            "Descrição": "71223-Urgência SAP",
+            "Valor Estimado 2013": "168849.27",
+            "Valor Contratualizado 2014": "383290.00",
+            "% Var 2014 / 2013": "127.0%"
+          },
+          {
+            "Descrição": "71224-Quartos particulares",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "71225-Hospital de dia",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "71226-Meios compl. de diagnóstico e terapêutica",
+            "Valor Estimado 2013": "158294.21",
+            "Valor Contratualizado 2014": "187800.00",
+            "% Var 2014 / 2013": "18.6%"
+          },
+          {
+            "Descrição": "712261-Meios complementares diagnóstico - Outras Ent. Resp.",
+            "Valor Estimado 2013": "158294.21",
+            "Valor Contratualizado 2014": "187800.00",
+            "% Var 2014 / 2013": "18.6%"
+          },
+          {
+            "Descrição": "712262-Meios complementares terapêutica - Outras Ent. Resp.",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "71227-Taxas moderadoras - Outras Ent. Resp.",
+            "Valor Estimado 2013": "1685679.92",
+            "Valor Contratualizado 2014": "1655860.00",
+            "% Var 2014 / 2013": "-1.8%"
+          },
+          {
+            "Descrição": "71228-Outras Prestações de Serviços de Saúde",
+            "Valor Estimado 2013": "5785.93",
+            "Valor Contratualizado 2014": "6310.00",
+            "% Var 2014 / 2013": "9.1%"
+          },
+          {
+            "Descrição": "712281-Serviço domiciliário",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "712282-GDH de Ambulatório - Outras Ent. Resp.",
+            "Valor Estimado 2013": "5785.93",
+            "Valor Contratualizado 2014": "6310.00",
+            "% Var 2014 / 2013": "9.1%"
+          },
+          {
+            "Descrição": "712289-Outras prestações serviços de saúde - Outras Ent. Resp.",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "71229-Outras prestações de serviços - Outras Ent. Resp.",
+            "Valor Estimado 2013": "577833.27",
+            "Valor Contratualizado 2014": "576010.00",
+            "% Var 2014 / 2013": "-0.3%"
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2013": "70352031.48",
+            "Valor Contratualizado 2014": "69350607.58",
+            "% Var 2014 / 2013": "-1.4%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "98.0%",
+            "Valor Contratualizado 2014": "96.8%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "72-Impostos e taxas",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "73-Proveitos suplementares",
+            "Valor Estimado 2013": "345341.87",
+            "Valor Contratualizado 2014": "342750.00",
+            "% Var 2014 / 2013": "-0.8%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "0.5%",
+            "Valor Contratualizado 2014": "0.5%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "74-Transf. e subsídios correntes obtidos",
+            "Valor Estimado 2013": "3328.73",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "741-Transferências-Tesouro",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "742-Transferências correntes obtidas",
+            "Valor Estimado 2013": "3328.73",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "7421-Da ACSS",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "page": 9,
+        "table_data": [
+          {
+            "Descrição": "7422-Do PIDDAC",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "7423-Do FSE",
+            "Valor Estimado 2013": "3328.73",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "7429-Outras Transferências Correntes Obtidas",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "743-Sub. correntes obtidos-Outros entes públicos",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "749-Sub. correntes obtidos-De outras entidades",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2013": "3328.73",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "0.0%",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "75-Trabalhos para a própria entidade",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "76-Outros proveitos e ganhos operacionais",
+            "Valor Estimado 2013": "121099.83",
+            "Valor Contratualizado 2014": "434718.00",
+            "% Var 2014 / 2013": "259.0%"
+          },
+          {
+            "Descrição": "7611-ACSS, I.P.",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "762-Reembolsos",
+            "Valor Estimado 2013": "121099.83",
+            "Valor Contratualizado 2014": "434718.00",
+            "% Var 2014 / 2013": "259.0%"
+          },
+          {
+            "Descrição": "763-Produtos de fabricação interna",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": ""
+          },
+          {
+            "Descrição": "768-Outros não espec. alheios valor acrescentado",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "769-Outros",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "Sub-Total",
+            "Valor Estimado 2013": "121099.83",
+            "Valor Contratualizado 2014": "434718.00",
+            "% Var 2014 / 2013": "259.0%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "0.2%",
+            "Valor Contratualizado 2014": "0.6%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "78-Proveitos e ganhos financeiros",
+            "Valor Estimado 2013": "27375.35",
+            "Valor Contratualizado 2014": "1170289.00",
+            "% Var 2014 / 2013": "4175.0%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "0.0%",
+            "Valor Contratualizado 2014": "1.6%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "79-Proveitos e ganhos extraordinários",
+            "Valor Estimado 2013": "955619.24",
+            "Valor Contratualizado 2014": "335365.00",
+            "% Var 2014 / 2013": "-64.9%"
+          },
+          {
+            "Descrição": "% S/ Total Geral",
+            "Valor Estimado 2013": "1.3%",
+            "Valor Contratualizado 2014": "0.5%",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Descrição": "TOTAL GERAL",
+            "Valor Estimado 2013": "71804796.50",
+            "Valor Contratualizado 2014": "71633729.58",
+            "% Var 2014 / 2013": "-0.2%"
+          }
+        ]
+      },
+      {
+        "table_index": 7,
+        "page": 10,
+        "table_data": [
+          {
+            "Método Directo": "Fluxos de Actividades Operacionais",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Recebimentos (+):",
+            "Valor Estimado 2013": "81753356.00",
+            "Valor Contratualizado 2014": "75140378.74",
+            "% Var 2014 / 2013": "-8.09%"
+          },
+          {
+            "Método Directo": "Contrato-programa (produção)",
+            "Valor Estimado 2013": "49896615.00",
+            "Valor Contratualizado 2014": "62619640.00",
+            "% Var 2014 / 2013": "25.50%"
+          },
+          {
+            "Método Directo": "Dívidas de Terceiros (outras entidades)",
+            "Valor Estimado 2013": "1505015.00",
+            "Valor Contratualizado 2014": "2006758.00",
+            "% Var 2014 / 2013": "33.34%"
+          },
+          {
+            "Método Directo": "Contrato-Programa (convergência)",
+            "Valor Estimado 2013": "5307584.00",
+            "Valor Contratualizado 2014": "1556752.00",
+            "% Var 2014 / 2013": "-70.67%"
+          },
+          {
+            "Método Directo": "Incentivos",
+            "Valor Estimado 2013": "1738925.00",
+            "Valor Contratualizado 2014": "2898207.00",
+            "% Var 2014 / 2013": "66.67%"
+          },
+          {
+            "Método Directo": "Subsídios à Exploração",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Taxas Moderadoras (R.)",
+            "Valor Estimado 2013": "1562133.00",
+            "Valor Contratualizado 2014": "1655860.00",
+            "% Var 2014 / 2013": "6.00%"
+          },
+          {
+            "Método Directo": "Outros (inclui outros operacionais e extraordinários)",
+            "Valor Estimado 2013": "21743084.00",
+            "Valor Contratualizado 2014": "4403161.74",
+            "% Var 2014 / 2013": "-79.75%"
+          },
+          {
+            "Método Directo": "Pagamentos (-):",
+            "Valor Estimado 2013": "-83079553.74",
+            "Valor Contratualizado 2014": "-75523019.00",
+            "% Var 2014 / 2013": "-9.10%"
+          },
+          {
+            "Método Directo": "Fornecedores e outros c/c",
+            "Valor Estimado 2013": "-38432905.74",
+            "Valor Contratualizado 2014": "-32472676.00",
+            "% Var 2014 / 2013": "-15.51%"
+          },
+          {
+            "Método Directo": "Custos com Pessoal",
+            "Valor Estimado 2013": "-44646648.00",
+            "Valor Contratualizado 2014": "-43050343.00",
+            "% Var 2014 / 2013": "-3.58%"
+          },
+          {
+            "Método Directo": "Transf. Correntes conced. e Prest. Sociais",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Outros (inclus. outros operac. e extraord.)",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Fluxos de Actividades Operacionais",
+            "Valor Estimado 2013": "-1326197.74",
+            "Valor Contratualizado 2014": "-382640.26",
+            "% Var 2014 / 2013": "-71.15%"
+          },
+          {
+            "Método Directo": "Fluxos de Actividades de Investimento",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Recebimentos provenientes de (+):",
+            "Valor Estimado 2013": "31279.00",
+            "Valor Contratualizado 2014": "93960.00",
+            "% Var 2014 / 2013": "200.39%"
+          },
+          {
+            "Método Directo": "Investimentos Financeiros",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Imobilizações Corpóreas",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Imobilizações Incorpóreas",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Subsídios ao Investimento",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Juros e Proveitos Similares",
+            "Valor Estimado 2013": "31279.00",
+            "Valor Contratualizado 2014": "93960.00",
+            "% Var 2014 / 2013": "200.39%"
+          },
+          {
+            "Método Directo": "Dividendos",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Outros",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Pagamentos respeitantes a (-):",
+            "Valor Estimado 2013": "-189260.00",
+            "Valor Contratualizado 2014": "-86325.00",
+            "% Var 2014 / 2013": "-54.39%"
+          },
+          {
+            "Método Directo": "Investimentos Financeiros",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Imobilizações Corpóreas",
+            "Valor Estimado 2013": "-189260.00",
+            "Valor Contratualizado 2014": "-86325.00",
+            "% Var 2014 / 2013": "-54.39%"
+          },
+          {
+            "Método Directo": "Imobilizações Incorpóreas",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Fluxos de Actividades de Investimento",
+            "Valor Estimado 2013": "-157981.00",
+            "Valor Contratualizado 2014": "7635.00",
+            "% Var 2014 / 2013": "-104.83%"
+          },
+          {
+            "Método Directo": "Fluxos de Actividades de Financiamento",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Recebimentos provenientes de (+):",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Empréstimos Obtidos",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Aumentos de Capital e P. Suplementares",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Subsídios e Doações",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Vendas de Acções Próprias",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Cobertura de Prejuízos",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Pagamentos respeitantes a (-):",
+            "Valor Estimado 2013": "0.00",
+            "Valor Contratualizado 2014": "0.00",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Empréstimos Obtidos",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Amortizações de Contratos de Leasing",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Juros e Custos Similares",
+            "Valor Estimado 2013": "0.00",
+            "Valor Contratualizado 2014": "0.00",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Dividendos",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Reduções de Capital e P. Suplementares",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Aquisição de Acções Próprias",
+            "Valor Estimado 2013": "",
+            "Valor Contratualizado 2014": "",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Fluxos de Actividades de Financiamento",
+            "Valor Estimado 2013": "0.00",
+            "Valor Contratualizado 2014": "0.00",
+            "% Var 2014 / 2013": ""
+          },
+          {
+            "Método Directo": "Variação de Caixa e seus equivalentes",
+            "Valor Estimado 2013": "-1484178.74",
+            "Valor Contratualizado 2014": "-375005.26",
+            "% Var 2014 / 2013": "-74.73%"
+          },
+          {
+            "Método Directo": "Caixa no início do período",
+            "Valor Estimado 2013": "4240896.00",
+            "Valor Contratualizado 2014": "2756717.26",
+            "% Var 2014 / 2013": "-35.00%"
+          },
+          {
+            "Método Directo": "Caixa no fim do período",
+            "Valor Estimado 2013": "2756717.26",
+            "Valor Contratualizado 2014": "2381712.00",
+            "% Var 2014 / 2013": "-13.60%"
+          },
+          {
+            "Método Directo": "TOTAL",
+            "Valor Estimado 2013": "0.00",
+            "Valor Contratualizado 2014": "0.00",
+            "% Var 2014 / 2013": ""
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "page": 11,
+        "table_data": [
+          {
+            "Descrição": "Imobilizado",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "Bens de domínio público",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "451 - Terrenos e recursos naturais",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "452 - Edifícios",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "453 - Outras construções e infra-estruturas",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "455 - Bens do património hist., artíst. e cultural",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "459 - Outros bens de domínio público",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "445 - Imobilizações em Curso de Bens de Domínio Público",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "446 - Adiantamento por Conta de Bens do Domínio Público",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "Bens de domínio público",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "Imobilizados Incorpóreos",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "431 - Despesas de Instalação",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "432 - Despesas de Investigação e Desenvolvimento",
+            "AL - Activo Liquido 2013": "2502.30",
+            "AB - Activo Bruto 2014": "442785.94",
+            "AP - Amortizações ou Provisões 2014": "442785.94",
+            "AL - Activo Liquido 2014": "0.00"
+          },
+          {
+            "Descrição": "443 - Imobilizações em Curso de Imobilizações Incorpóreas",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "449 - Adiantamentos por Conta de Imobilizações Incorpóreas",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "Imobilizados Incorpóreos",
+            "AL - Activo Liquido 2013": "2502.30",
+            "AB - Activo Bruto 2014": "442785.94",
+            "AP - Amortizações ou Provisões 2014": "442785.94",
+            "AL - Activo Liquido 2014": "0.00"
+          },
+          {
+            "Descrição": "Imobilizações Corpóreas",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "421 - Terrenos e Recursos Naturais",
+            "AL - Activo Liquido 2013": "230544.43",
+            "AB - Activo Bruto 2014": "3845151.97",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": "3845151.97"
+          },
+          {
+            "Descrição": "422 - Edifícios e Outras Construções",
+            "AL - Activo Liquido 2013": "10844702.64",
+            "AB - Activo Bruto 2014": "53407079.47",
+            "AP - Amortizações ou Provisões 2014": "11773312.42",
+            "AL - Activo Liquido 2014": "41633767.05"
+          },
+          {
+            "Descrição": "423 - Equipamento Básico",
+            "AL - Activo Liquido 2013": "3211385.07",
+            "AB - Activo Bruto 2014": "24747517.85",
+            "AP - Amortizações ou Provisões 2014": "22263983.47",
+            "AL - Activo Liquido 2014": "2483534.38"
+          },
+          {
+            "Descrição": "424 - Equipamento de Transporte",
+            "AL - Activo Liquido 2013": "31503.52",
+            "AB - Activo Bruto 2014": "406099.36",
+            "AP - Amortizações ou Provisões 2014": "402292.68",
+            "AL - Activo Liquido 2014": "3806.68"
+          },
+          {
+            "Descrição": "425 - Ferramentas e Utensílios",
+            "AL - Activo Liquido 2013": "6770.07",
+            "AB - Activo Bruto 2014": "60194.59",
+            "AP - Amortizações ou Provisões 2014": "52450.94",
+            "AL - Activo Liquido 2014": "7743.65"
+          },
+          {
+            "Descrição": "426 - Equipamento administrativo e informático",
+            "AL - Activo Liquido 2013": "260853.25",
+            "AB - Activo Bruto 2014": "6283290.15",
+            "AP - Amortizações ou Provisões 2014": "6283290.15",
+            "AL - Activo Liquido 2014": "0.00"
+          },
+          {
+            "Descrição": "427 - Taras e Vasilhame",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "11463.50",
+            "AP - Amortizações ou Provisões 2014": "11463.50",
+            "AL - Activo Liquido 2014": "0.00"
+          },
+          {
+            "Descrição": "429 - Outras imobilizações Corpóreas",
+            "AL - Activo Liquido 2013": "2441.59",
+            "AB - Activo Bruto 2014": "7581.57",
+            "AP - Amortizações ou Provisões 2014": "7581.57",
+            "AL - Activo Liquido 2014": "0.00"
+          },
+          {
+            "Descrição": "442 - Imobilizações em Curso de Imobilizações Corpóreas",
+            "AL - Activo Liquido 2013": "130289.66",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "448 - Adiantamentos por Conta de Imobilizações Corpóreas",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "Imobilizações Corpóreas",
+            "AL - Activo Liquido 2013": "14733580.23",
+            "AB - Activo Bruto 2014": "88768378.56",
+            "AP - Amortizações ou Provisões 2014": "40794374.83",
+            "AL - Activo Liquido 2014": "47974003.73"
+          },
+          {
+            "Descrição": "Investimentos Financeiros",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "411 - Partes de Capital",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "412 - Obrigações e Títulos de Participação",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "414 - Investimentos em imóveis",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "415 - Outras Aplicações Financeiras",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "441 - Imobilizações em Curso de Investimentos Financeiros",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "447 - Adiantamentos por Conta de Investimentos Financeiros",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "Investimentos Financeiros",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "Circulante",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "Existências",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          },
+          {
+            "Descrição": "36 - Matérias-primas, Subsidiárias e de Consumo",
+            "AL - Activo Liquido 2013": "1234447.73",
+            "AB - Activo Bruto 2014": "1235600.00",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": "1235600.00"
+          },
+          {
+            "Descrição": "34 - Sub-produtos, Desperdícios, Resíduos e Refugos",
+            "AL - Activo Liquido 2013": "",
+            "AB - Activo Bruto 2014": "",
+            "AP - Amortizações ou Provisões 2014": "",
+            "AL - Activo Liquido 2014": ""
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "page": 12,
+        "table_data": [
+          {
+            "Descrição": "33 - Produtos Acabados e Intermédios",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "32 - Mercadorias",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "37 - Adiantamento por Conta de Compras",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "Existências",
+            "AL - Activo Liquido 2013": "1234447.73",
+            "AB - Activo Bruto 2014": "1235600.00",
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": "1235600.00"
+          },
+          {
+            "Descrição": "Dívidas de Terceiros - Médio e Longo Prazo",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "Dívidas de Terceiros - Curto prazo",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "28 - Empréstimos Concedidos",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "211 - Clientes c/c",
+            "AL - Activo Liquido 2013": "3924786.50",
+            "AB - Activo Bruto 2014": "3883260.00",
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": "3883260.00"
+          },
+          {
+            "Descrição": "213 - Utentes c/c",
+            "AL - Activo Liquido 2013": "70805.23",
+            "AB - Activo Bruto 2014": "60860.00",
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": "60860.00"
+          },
+          {
+            "Descrição": "215 - Instituições do MS",
+            "AL - Activo Liquido 2013": "5847023.50",
+            "AB - Activo Bruto 2014": "8178091.00",
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": "8178091.00"
+          },
+          {
+            "Descrição": "218 - Clientes e Utentes de Cobrança Duvidosa",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": "322233.00",
+            "AP - Amortizações ou Provisões 2014": "322233.00",
+            "AL - Activo Liquido 2014": "0.00"
+          },
+          {
+            "Descrição": "251 - Devedores pela Execução do Orçamento",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "229 - Adiantamentos a Fornecedores",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "2618 - Adiantamentos a Fornecedores de imobilizado",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "24 - Estado e Outros Entes Públicos",
+            "AL - Activo Liquido 2013": "211000.00",
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "263/3/4+267+268 - Outros devedores",
+            "AL - Activo Liquido 2013": "11912.15",
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "Dívidas de Terceiros - Curto prazo",
+            "AL - Activo Liquido 2013": "10065527.38",
+            "AB - Activo Bruto 2014": "12444444.00",
+            "AP - Amortizações ou Provisões 2014": "322233.00",
+            "AL - Activo Liquido 2014": "12122211.00"
+          },
+          {
+            "Descrição": "Títulos Negociáveis",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "151 - Acções",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "152 - Obrigações e Títulos de Participação",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "153 - Títulos da Dívida Pública",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "159 - Outros Títulos",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "18 - Outras Aplicações de Tesouraria",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "Títulos Negociáveis",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "Depósitos em Inst. Financ. e Caixa",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "13 - Contas no Tesouro",
+            "AL - Activo Liquido 2013": "2315670.24",
+            "AB - Activo Bruto 2014": "1856254.00",
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": "1856254.00"
+          },
+          {
+            "Descrição": "12 - Depósitos em Instituições Financeiras",
+            "AL - Activo Liquido 2013": "441047.02",
+            "AB - Activo Bruto 2014": "525458.00",
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": "525458.00"
+          },
+          {
+            "Descrição": "11 - Caixa",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "Depósitos em Inst. Financ. e Caixa",
+            "AL - Activo Liquido 2013": "2756717.26",
+            "AB - Activo Bruto 2014": "2381712.00",
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": "2381712.00"
+          },
+          {
+            "Descrição": "Acréscimos e Diferimentos",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "271 - Acréscimos de Proveitos",
+            "AL - Activo Liquido 2013": "25481205.00",
+            "AB - Activo Bruto 2014": "6852654.00",
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": "6852654.00"
+          },
+          {
+            "Descrição": "272 - Custos Diferidos",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "Acréscimos e Diferimentos",
+            "AL - Activo Liquido 2013": "25481205.00",
+            "AB - Activo Bruto 2014": "6852654.00",
+            "AP - Amortizações ou Provisões 2014": null,
+            "AL - Activo Liquido 2014": "6852654.00"
+          },
+          {
+            "Descrição": "Total de Amortizações",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": "41237160.77",
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "Total de Provisões",
+            "AL - Activo Liquido 2013": null,
+            "AB - Activo Bruto 2014": null,
+            "AP - Amortizações ou Provisões 2014": "322233.00",
+            "AL - Activo Liquido 2014": null
+          },
+          {
+            "Descrição": "TOTAL do ACTIVO",
+            "AL - Activo Liquido 2013": "54273979.90",
+            "AB - Activo Bruto 2014": "112125574.50",
+            "AP - Amortizações ou Provisões 2014": "41559393.77",
+            "AL - Activo Liquido 2014": "70566180.73"
+          }
+        ]
+      },
+      {
+        "table_index": 10,
+        "page": 13,
+        "table_data": [
+          {
+            "Descrição": "Fundos Próprios",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "51 - Património",
+            "Fundos Próprios e Passivo 2013": "40930000.00",
+            "Fundos Próprios e Passivo 2014": "53730000.00"
+          },
+          {
+            "Descrição": "56 - Reservas de Reavaliação",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "Sub-total",
+            "Fundos Próprios e Passivo 2013": "40930000.00",
+            "Fundos Próprios e Passivo 2014": "53730000.00"
+          },
+          {
+            "Descrição": "Reservas",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "571 - Reservas Legais",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "572 - Reservas Estatutárias",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "574 - Reservas Livres",
+            "Fundos Próprios e Passivo 2013": "3628282.91",
+            "Fundos Próprios e Passivo 2014": "3628282.91"
+          },
+          {
+            "Descrição": "575 - Subsídios",
+            "Fundos Próprios e Passivo 2013": "2484940.78",
+            "Fundos Próprios e Passivo 2014": "2484940.78"
+          },
+          {
+            "Descrição": "576 - Doações",
+            "Fundos Próprios e Passivo 2013": "715825.80",
+            "Fundos Próprios e Passivo 2014": "701154.00"
+          },
+          {
+            "Descrição": "577 - Reservas Decorrentes da Transferência de Activos",
+            "Fundos Próprios e Passivo 2013": "35417000.00",
+            "Fundos Próprios e Passivo 2014": "35417000.00"
+          },
+          {
+            "Descrição": "Sub-total",
+            "Fundos Próprios e Passivo 2013": "42246049.49",
+            "Fundos Próprios e Passivo 2014": "42231377.69"
+          },
+          {
+            "Descrição": "Resultados Transitados",
+            "Fundos Próprios e Passivo 2013": "-113197299.04",
+            "Fundos Próprios e Passivo 2014": "-131079385.04"
+          },
+          {
+            "Descrição": "Resultado Líquido do Exercício",
+            "Fundos Próprios e Passivo 2013": "-17882086.00",
+            "Fundos Próprios e Passivo 2014": "-5003420.42"
+          },
+          {
+            "Descrição": "Fundo Patrimonial",
+            "Fundos Próprios e Passivo 2013": "-47903335.55",
+            "Fundos Próprios e Passivo 2014": "-40121427.77"
+          },
+          {
+            "Descrição": "Passivo",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "Provisões",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "291 - Provisões para Cobranças Duvidosas",
+            "Fundos Próprios e Passivo 2013": "698921.70",
+            "Fundos Próprios e Passivo 2014": "698921.70"
+          },
+          {
+            "Descrição": "292 - Provisões para Riscos",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "Provisões",
+            "Fundos Próprios e Passivo 2013": "698921.70",
+            "Fundos Próprios e Passivo 2014": "698921.70"
+          },
+          {
+            "Descrição": "Dívidas a Terceiros - Médio e Longo Prazo",
+            "Fundos Próprios e Passivo 2013": "12767548.97",
+            "Fundos Próprios e Passivo 2014": "0.00"
+          },
+          {
+            "Descrição": "Terceiros",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "213 - Utentes c/c",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "219 - Adiantamentos de Clientes, Utentes e Instit. MS",
+            "Fundos Próprios e Passivo 2013": "44446322.74",
+            "Fundos Próprios e Passivo 2014": "60333565.73"
+          },
+          {
+            "Descrição": "221 - Fornecedores c/c",
+            "Fundos Próprios e Passivo 2013": "28096413.00",
+            "Fundos Próprios e Passivo 2014": "32856632.07"
+          },
+          {
+            "Descrição": "228 - Fornecedores - Facturas recep. e conf.",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "23 - Empréstimos obtidos",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "252 - Credores pela Execução do Orçamento",
+            "Fundos Próprios e Passivo 2013": "913056.37",
+            "Fundos Próprios e Passivo 2014": "987562.00"
+          },
+          {
+            "Descrição": "2611 - Fornecedores de imobilizado c/c",
+            "Fundos Próprios e Passivo 2013": "1118612.00",
+            "Fundos Próprios e Passivo 2014": "1325541.00"
+          },
+          {
+            "Descrição": "24 - Estado e Outros Entes Públicos",
+            "Fundos Próprios e Passivo 2013": "6546448.52",
+            "Fundos Próprios e Passivo 2014": "6542325.00"
+          },
+          {
+            "Descrição": "261/3/4 - Outros Credores",
+            "Fundos Próprios e Passivo 2013": "81119852.63",
+            "Fundos Próprios e Passivo 2014": "102045625.80"
+          },
+          {
+            "Descrição": "Terceiros",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "Acréscimos e Diferimentos",
+            "Fundos Próprios e Passivo 2013": "",
+            "Fundos Próprios e Passivo 2014": ""
+          },
+          {
+            "Descrição": "273 - Acréscimos de Custos",
+            "Fundos Próprios e Passivo 2013": "5900692.15",
+            "Fundos Próprios e Passivo 2014": "6284541.00"
+          },
+          {
+            "Descrição": "274 - Proveitos Diferidos",
+            "Fundos Próprios e Passivo 2013": "1690300.00",
+            "Fundos Próprios e Passivo 2014": "1658520.00"
+          },
+          {
+            "Descrição": "Acréscimos e Diferimentos",
+            "Fundos Próprios e Passivo 2013": "7590992.15",
+            "Fundos Próprios e Passivo 2014": "7943061.00"
+          },
+          {
+            "Descrição": "Passivo",
+            "Fundos Próprios e Passivo 2013": "102177315.45",
+            "Fundos Próprios e Passivo 2014": "110687608.50"
+          },
+          {
+            "Descrição": "Fundos Próprios e Passivo",
+            "Fundos Próprios e Passivo 2013": "54273979.90",
+            "Fundos Próprios e Passivo 2014": "70566180.73"
+          }
+        ]
+      }
+    ]
+  }
+}

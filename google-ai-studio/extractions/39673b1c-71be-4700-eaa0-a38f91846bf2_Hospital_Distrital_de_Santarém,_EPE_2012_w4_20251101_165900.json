@@ -1,0 +1,546 @@
+{
+  "contract_id": "39673b1c-71be-4700-eaa0-a38f91846bf2",
+  "hospital_name": "Hospital Distrital de Santarém, EPE",
+  "year": 2012,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/Aditamento-ao-A.-Modificativo-2012-HDS.pdf",
+  "extraction_timestamp": "20251101_165900",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 3,
+        "table_data": [
+          {
+            "Instituição": "Hospital Distrital de Santarém, EPE",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "1. Consultas Externas:",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "Nº Primeiras Consultas Médicas",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "53.08",
+            "Quantidade": "44232.00",
+            "Valor (Euros)": "2347834.56"
+          },
+          {
+            "Instituição": "Nº Consultas Médicas Subsequentes",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "48.25",
+            "Quantidade": "103728.00",
+            "Valor (Euros)": "5004876.00"
+          },
+          {
+            "Instituição": "2. Internamento:",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "Doentes Saídos",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "GDH Médicos",
+            "Doentes Equivalentes_ICM": "0.7629",
+            "Doentes Equivalentes_N°": "11633.00",
+            "Doentes Equivalentes_%": "94.16%",
+            "Preço Unitário (Euros)": "1710.68",
+            "Quantidade": "12354.00",
+            "Valor (Euros)": "15181969.72"
+          },
+          {
+            "Instituição": "GDH Cirúrgicos - Actividade Base",
+            "Doentes Equivalentes_ICM": "1.3564",
+            "Doentes Equivalentes_N°": "1688.00",
+            "Doentes Equivalentes_%": "99.65%",
+            "Preço Unitário (Euros)": "1710.68",
+            "Quantidade": "1694.00",
+            "Valor (Euros)": "3916778.40"
+          },
+          {
+            "Instituição": "GDH Cirúrgicos - Actividade Adicional",
+            "Doentes Equivalentes_ICM": "1.3564",
+            "Doentes Equivalentes_N°": "400.00",
+            "Doentes Equivalentes_%": "99.65%",
+            "Preço Unitário (Euros)": "1404.04",
+            "Quantidade": "401.00",
+            "Valor (Euros)": "761775.94"
+          },
+          {
+            "Instituição": "GDH Cirúrgicos Urgentes",
+            "Doentes Equivalentes_ICM": "1.3564",
+            "Doentes Equivalentes_N°": "1722.00",
+            "Doentes Equivalentes_%": "99.65%",
+            "Preço Unitário (Euros)": "1710.68",
+            "Quantidade": "1728.00",
+            "Valor (Euros)": "3995670.86"
+          },
+          {
+            "Instituição": "Dias de Internamento de Doentes Crónicos",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "Doentes Medicina Física e Reabilitação",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "227.29",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "Doentes de Psiquiatria Crónicos no Hospital",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "78.40",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "Reabilitação Psicossocial (Psiquiatria)",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "78.40",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "Doentes Crónicos Ventilados",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "270.40",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "Doentes Crónicos de Hansen",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "78.40",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "Doentes Crónicos da Pneumologia",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "78.40",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "Valor Total do Internamento",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "23856194.92"
+          },
+          {
+            "Instituição": "3. Episódios de GDH de Ambulatório:",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "GDH Cirúrgicos - Actividade Base",
+            "Doentes Equivalentes_ICM": "0.6699",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "1710.68",
+            "Quantidade": "3496.00",
+            "Valor (Euros)": "4006361.92"
+          },
+          {
+            "Instituição": "GDH Cirúrgicos - Actividade Adicional",
+            "Doentes Equivalentes_ICM": "0.6699",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "1404.04",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "GDH Médicos",
+            "Doentes Equivalentes_ICM": "0.2148",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "1710.68",
+            "Quantidade": "14980.00",
+            "Valor (Euros)": "5504461.88"
+          },
+          {
+            "Instituição": "Valor dos GDH de Ambulatório",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "9510823.80"
+          },
+          {
+            "Instituição": "4. Urgências:",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "Atendimentos (SU-Polivalente)",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "121.81",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "Atendimentos (SU- Médico-Cirúrgica)",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "61.04",
+            "Quantidade": "100331.00",
+            "Valor (Euros)": "6124204.24"
+          },
+          {
+            "Instituição": "Atendimentos (SU - Básica)",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "34.76",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "5. Sessões em Hospital de Dia:",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "Hematologia",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "325.27",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "Imuno-Hemoterapia",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "325.27",
+            "Quantidade": "2086.00",
+            "Valor (Euros)": "678513.22"
+          },
+          {
+            "Instituição": "Psiquiatria",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "33.79",
+            "Quantidade": "3300.00",
+            "Valor (Euros)": "111507.00"
+          },
+          {
+            "Instituição": "Psiquiatria (Unidades Sócio-Ocupacionais)",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "33.79",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "Outros",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "22.32",
+            "Quantidade": "5880.00",
+            "Valor (Euros)": "131241.60"
+          },
+          {
+            "Instituição": "Valor Total do Hospital de Dia",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "921261.82"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 4,
+        "table_data": [
+          {
+            "Instituição": "Hospital Distrital de Santarém, EPE",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "6. IG até 10 semanas:",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "Medicamentosa",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "N.º IG",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "313.72",
+            "Quantidade": "5.00",
+            "Valor (Euros)": "1568.60"
+          },
+          {
+            "Instituição": "Cirúrgica",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "N.º IG",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "408.48",
+            "Quantidade": "310.00",
+            "Valor (Euros)": "126628.80"
+          },
+          {
+            "Instituição": "7. Planos de Saúde:",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "VIH/Sida",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "Doentes em tratamentos ambulatório TARV",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "10156.80",
+            "Quantidade": "597.00",
+            "Valor (Euros)": "6063609.60"
+          },
+          {
+            "Instituição": "Diagnóstico Pré-Natal",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "Protocolo I",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "41.80",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "Protocolo II",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "71.60",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "8. Serviços Domiciliários:",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "N.º de Visitas",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "36.68",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "9. Lar (IPO):",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "Dias de Estadia",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "69.75",
+            "Quantidade": "0.00",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "10. Outros:",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": ""
+          },
+          {
+            "Instituição": "Medicamentos de cedência hospitalar em ambulatório",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "911196.02"
+          },
+          {
+            "Instituição": "Internos",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "672158.14"
+          },
+          {
+            "Instituição": "Valor da Produção Contratada",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "55540356.50"
+          },
+          {
+            "Instituição": "11. Incentivos institucionais",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "2314181.52"
+          },
+          {
+            "Instituição": "12. Convergência",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "0.00"
+          },
+          {
+            "Instituição": "Valor Total do Contrato",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "57854538.02"
+          },
+          {
+            "Instituição": "Verba de convergência para regularização de dívidas",
+            "Doentes Equivalentes_ICM": "",
+            "Doentes Equivalentes_N.°": "",
+            "Doentes Equivalentes_%": "",
+            "Preço Unitário (Euros)": "",
+            "Quantidade": "",
+            "Valor (Euros)": "11174921.00"
+          }
+        ]
+      }
+    ]
+  }
+}

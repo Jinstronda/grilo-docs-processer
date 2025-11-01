@@ -1,0 +1,80 @@
+{
+  "contract_id": "17df37cc-7376-8c7b-c24f-d657145a49c7",
+  "hospital_name": "Centro Hospitalar do Médio Tejo, EPE",
+  "year": 2015,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/Adenda-ao-Acordo-Modificativo-2015-PIC-Centro-Hospitalar-do-Medio-Tejo-E.P.E..pdf",
+  "extraction_timestamp": "20251101_160012",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 4,
+        "table_data": [
+          {
+            "Área/Patologia": "Cirurgia da mama em patologia neoplásica (a)",
+            "Produção Acrescida Contratada (nº episódios)": "",
+            "Preço médio*": "1827.45",
+            "Valor contratado": ""
+          },
+          {
+            "Área/Patologia": "Cirurgia da próstata em patologia neoplásica (b)",
+            "Produção Acrescida Contratada (nº episódios)": "",
+            "Preço médio*": "1955.25",
+            "Valor contratado": ""
+          },
+          {
+            "Área/Patologia": "Cirurgia da hérnia discal (c)",
+            "Produção Acrescida Contratada (nº episódios)": "",
+            "Preço médio*": "2500.76",
+            "Valor contratado": ""
+          },
+          {
+            "Área/Patologia": "Cirurgia da Artroplastia da Anca (d)",
+            "Produção Acrescida Contratada (nº episódios)": "",
+            "Preço médio*": "5094.65",
+            "Valor contratado": ""
+          },
+          {
+            "Área/Patologia": "Cirurgia da Catarata (e)",
+            "Produção Acrescida Contratada (nº episódios)": "100",
+            "Preço médio*": "708.84",
+            "Valor contratado": "70884.00"
+          },
+          {
+            "Área/Patologia": "TOTAL",
+            "Produção Acrescida Contratada (nº episódios)": "100",
+            "Preço médio*": "",
+            "Valor contratado": "70884.00"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 5,
+        "table_data": [
+          {
+            "Serviços/Unidades Funcionais": "Oftalmologia",
+            "Contratualização interna_Nº episódios cirúrgicos (internamento e ambulatório)": "2444",
+            "Contratualização interna_Média do Peso Relativo dos episódios cirúrgicos": "0.70",
+            "Contratualização interna_Nº 1ª consultas": "8964",
+            "Contratualização interna_Nº consultas subsequentes": "8536"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 6,
+        "table_data": [
+          {
+            "Serviços/Unidades Funcionais": "Oftalmologia",
+            "Área/Patologia": "Cirurgia da Catarata",
+            "Produção Acrescida Contratada (nº episódios)": "100",
+            "Preço médio": "708.84",
+            "Valor contratado": "70884.00"
+          }
+        ]
+      }
+    ]
+  }
+}
