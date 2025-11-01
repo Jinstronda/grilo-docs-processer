@@ -980,10 +980,20 @@ async def main():
             try:
                 with open(COOKIES_FILE, 'r') as f:
                     cookies = json.load(f)
+                
+                # Fix sameSite values - Playwright needs Strict/Lax/None, not "unspecified"
+                for cookie in cookies:
+                    if cookie.get('sameSite') == 'unspecified':
+                        cookie['sameSite'] = 'Lax'
+                    # Convert expiration to expires
+                    if 'expirationDate' in cookie:
+                        cookie['expires'] = cookie.pop('expirationDate')
+                
                 await context.add_cookies(cookies)
                 print("[OK] Cookies loaded!")
             except Exception as e:
                 print(f"[WARNING] Could not load cookies: {e}")
+                print("[INFO] You may need to sign in manually")
         
         # Shared counter for total processed (thread-safe list)
         total_processed = [0]
