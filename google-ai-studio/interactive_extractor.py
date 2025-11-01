@@ -749,13 +749,16 @@ async def worker_process_pdfs(context, worker_id, total_processed):
                         continue
             
             # Process the PDF with retry logic
-            max_retries = 2
+            max_retries = 4  # Increased to 4 attempts
             result = None
             
             for attempt in range(max_retries):
                 try:
                     if attempt > 0:
-                        print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1} - Starting fresh chat...")
+                        print(f"[Worker {worker_id}] Retry {attempt}/{max_retries-1} - Waiting 10 seconds before retry...")
+                        await page.wait_for_timeout(10000)  # 10 second delay between retries
+                        
+                        print(f"[Worker {worker_id}] Starting fresh chat for retry...")
                         
                         # Start fresh chat for retry with retries
                         for chat_attempt in range(4):
@@ -781,16 +784,15 @@ async def worker_process_pdfs(context, worker_id, total_processed):
                     result = await process_single_pdf(page, str(pdf_path), contract)
                     
                     if result and result['success']:
+                        print(f"[Worker {worker_id}] ✓ Extraction successful on attempt {attempt + 1}")
                         break  # Success - exit retry loop
                     elif attempt < max_retries - 1:
-                        print(f"[Worker {worker_id}] Extraction failed - will retry...")
-                        await page.wait_for_timeout(5000)
+                        print(f"[Worker {worker_id}] Extraction failed on attempt {attempt + 1} - will retry in 10 seconds...")
                 
                 except Exception as e:
-                    print(f"[Worker {worker_id}] Error on attempt {attempt + 1}: {e}")
+                    print(f"[Worker {worker_id}] Error on attempt {attempt + 1}/{max_retries}: {e}")
                     if attempt < max_retries - 1:
-                        print(f"[Worker {worker_id}] Retrying in 5 seconds...")
-                        await page.wait_for_timeout(5000)
+                        print(f"[Worker {worker_id}] Will retry in 10 seconds...")
             
             # Save final result after retries
             if result and result['success']:
