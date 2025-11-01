@@ -386,7 +386,7 @@ async def process_single_pdf(page, pdf_path, contract_info, worker_id=0):
                         acknowledge_btn = await page.query_selector('button:has-text("Acknowledge")')
                         if acknowledge_btn and await acknowledge_btn.is_visible():
                             await acknowledge_btn.click()
-                            print("[OK] Dismissed media creation popup")
+                            print(f"[Worker {worker_id}] [OK] Dismissed media creation popup")
                             await page.wait_for_timeout(500)
                     except:
                         pass
@@ -800,27 +800,8 @@ async def worker_process_pdfs(context, worker_id, assigned_pdfs):
         print(f"[Worker {worker_id}] Failed to start: {e}")
         return []
     
-    # Dismiss popups (auto-save, media creation, cookies, etc.)
-    try:
-        popup_selectors = [
-            'button:has-text("Got it")',           # Auto-save popup
-            'button:has-text("OK, got it")',       # Cookie banner
-            'button:has-text("Acknowledge")',      # Media creation popup
-            'button:has-text("Dismiss")',          # Generic dismiss
-        ]
-        
-        for selector in popup_selectors:
-            try:
-                buttons = await page.query_selector_all(selector)
-                for button in buttons:
-                    if await button.is_visible():
-                        await button.click()
-                        print(f"[Worker {worker_id}] Dismissed popup")
-                        await page.wait_for_timeout(500)
-            except:
-                pass
-    except:
-        pass
+    # Don't dismiss initial popups - let them show
+    # Only dismiss media creation popup after PDF upload (see process_single_pdf)
     
     # Click Gemini 2.5 Pro with retries
     print(f"[Worker {worker_id}] Attempting to click Gemini 2.5 Pro...")
