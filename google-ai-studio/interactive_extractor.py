@@ -340,9 +340,9 @@ async def process_single_pdf(page, pdf_path, contract_info):
                     pass
                 
                 uploaded = True
-                    
-                except Exception as e:
-                    print(f"[ERROR] Upload process failed: {e}")
+                
+            except Exception as e:
+                print(f"[ERROR] Upload process failed: {e}")
                     
                     # Fallback: try direct file input
                     try:
