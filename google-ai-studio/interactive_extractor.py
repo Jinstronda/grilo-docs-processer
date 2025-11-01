@@ -111,118 +111,127 @@ async def wait_for_user_action(page, message, timeout=300):
     await page.wait_for_timeout(1000)
 
 async def extract_json_from_page(page):
-    """Extract JSON from code blocks in the AI response"""
+    """Extract JSON from the page - either code blocks OR body text"""
     try:
         print("[INFO] Extracting JSON from AI response...")
         
-        # Use JavaScript to find JSON code blocks more reliably
-        # Get the full innerHTML/textContent of the code region
+        # SIMPLE APPROACH: Just get the entire body text and extract JSON from it
+        body_text = await page.evaluate('() => document.body.innerText')
+        
+        print(f"[DEBUG] Body text length: {len(body_text)} characters")
+        
+        # Method 1: Try code blocks first (faster if available)
         result = await page.evaluate('''() => {
             const results = [];
             
-            console.log('[EXTRACT] Starting JSON extraction...');
+            // Try all code elements
+            const allCodes = document.querySelectorAll('code');
             
-            // Find all regions labeled "JSON"
-            const regions = document.querySelectorAll('region[aria-label="JSON"], [role="region"]');
-            console.log('[EXTRACT] Found', regions.length, 'regions');
-            
-            for (const region of regions) {
-                const code = region.querySelector('code');
-                if (code) {
-                    // Try multiple ways to get the full text
-                    let text = code.textContent || code.innerText || code.innerHTML;
-                    
-                    console.log('[EXTRACT] Found code in region, length:', text ? text.length : 0);
-                    
-                    // Clean up HTML entities if innerHTML was used
-                    if (text.includes('&quot;')) {
-                        text = text.replace(/&quot;/g, '"')
-                                   .replace(/&lt;/g, '<')
-                                   .replace(/&gt;/g, '>')
-                                   .replace(/&amp;/g, '&');
-                    }
-                    
-                    if (text && text.trim().length > 50) {
-                        results.push(text.trim());
-                    }
+            for (const code of allCodes) {
+                let text = code.textContent || code.innerText;
+                if (text && text.includes('extracted_tables') && text.trim().length > 50) {
+                    results.push(text.trim());
                 }
             }
             
-            // Fallback: try all code elements
-            if (results.length === 0) {
-                console.log('[EXTRACT] No regions found, trying all code elements...');
-                const allCodes = document.querySelectorAll('code');
-                console.log('[EXTRACT] Found', allCodes.length, 'total code elements');
-                
-                for (const code of allCodes) {
-                    let text = code.textContent || code.innerText;
-                    if (text && text.includes('extracted_tables') && text.trim().length > 50) {
-                        console.log('[EXTRACT] Found extracted_tables in code, length:', text.length);
-                        results.push(text.trim());
-                    }
-                }
-            }
-            
-            console.log('[EXTRACT] Returning', results.length, 'code blocks');
             return results;
         }''')
         
-        if not result or len(result) == 0:
-            print("[WARNING] No code blocks found in response")
-            return None
+        if result and len(result) > 0:
+            print(f"[INFO] Found {len(result)} code block(s) with JSON")
+            # Use code block extraction (original logic)
+            json_text = result[0]
+        else:
+            print("[INFO] No code blocks - extracting directly from body text...")
+            
+            # Method 2: Extract from body text directly
+            # Find the JSON object in the text
+            import re
+            
+            # Look for the pattern starting with { and containing extracted_tables
+            # Find start of JSON (opening brace before extracted_tables)
+            if 'extracted_tables' not in body_text:
+                print("[ERROR] 'extracted_tables' not found in body text!")
+                return None
+            
+            # Find position of extracted_tables
+            et_pos = body_text.find('"extracted_tables"')
+            if et_pos == -1:
+                et_pos = body_text.find("'extracted_tables'")
+            
+            # Scan backwards to find the opening {
+            start_pos = body_text.rfind('{', 0, et_pos)
+            if start_pos == -1:
+                print("[ERROR] Could not find opening brace before extracted_tables")
+                return None
+            
+            # Now count braces forward to find the matching closing }
+            brace_count = 0
+            end_pos = start_pos
+            
+            for i in range(start_pos, len(body_text)):
+                if body_text[i] == '{':
+                    brace_count += 1
+                elif body_text[i] == '}':
+                    brace_count -= 1
+                    if brace_count == 0:
+                        end_pos = i + 1
+                        break
+            
+            if brace_count != 0:
+                print(f"[ERROR] Unmatched braces - brace_count: {brace_count}")
+                return None
+            
+            json_text = body_text[start_pos:end_pos]
+            print(f"[INFO] Extracted JSON from body text ({len(json_text)} characters)")
         
-        print(f"[INFO] Found {len(result)} code block(s) in response")
-        
-        # Try to parse each code block
-        for i, json_text in enumerate(result):
-            try:
-                # Remove any markdown code fences
-                cleaned = json_text.strip()
-                if cleaned.startswith('```'):
-                    lines = cleaned.split('\n')
-                    cleaned = '\n'.join(lines[1:-1]) if len(lines) > 2 else cleaned
-                
-                # Remove "JSON EXTRACTED SUCCESSFULLY" marker(s) if present
+        # Clean and parse the JSON
+        try:
+            # Remove any markdown code fences
+            cleaned = json_text.strip()
+            if cleaned.startswith('```'):
+                lines = cleaned.split('\n')
+                cleaned = '\n'.join(lines[1:-1]) if len(lines) > 2 else cleaned
+            
+            # Remove "JSON EXTRACTED SUCCESSFULLY" marker(s) if present
+            cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').strip()
+            
+            # Sometimes there are multiple markers, remove all
+            while 'JSON EXTRACTED SUCCESSFULLY' in cleaned:
                 cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').strip()
+            
+            # Remove any trailing text after the closing brace
+            last_brace = cleaned.rfind('}')
+            if last_brace != -1:
+                cleaned = cleaned[:last_brace + 1]
+            
+            print(f"[DEBUG] Attempting to parse JSON ({len(cleaned)} characters)...")
+            
+            # Parse as JSON
+            data = json.loads(cleaned)
+            
+            # Check if this is our extraction result
+            if 'extracted_tables' in data:
+                num_tables = len(data.get('extracted_tables', []))
+                total_rows = sum(len(t.get('table_data', [])) for t in data.get('extracted_tables', []))
+                print(f"[OK] Successfully extracted {num_tables} tables ({total_rows} total rows)!")
+                return data
+            else:
+                print(f"[WARNING] Parsed JSON but no 'extracted_tables' key found")
+                return None
                 
-                # Sometimes there are multiple markers, remove all
-                while 'JSON EXTRACTED SUCCESSFULLY' in cleaned:
-                    cleaned = cleaned.replace('JSON EXTRACTED SUCCESSFULLY', '').strip()
-                
-                # Remove any trailing text after the closing brace
-                # Find the last } which should be the end of our JSON
-                last_brace = cleaned.rfind('}')
-                if last_brace != -1:
-                    cleaned = cleaned[:last_brace + 1]
-                
-                print(f"[DEBUG] Attempting to parse JSON ({len(cleaned)} characters)...")
-                
-                # Try to parse as JSON
-                data = json.loads(cleaned)
-                
-                # Check if this is our extraction result
-                if 'extracted_tables' in data:
-                    num_tables = len(data.get('extracted_tables', []))
-                    total_rows = sum(len(t.get('table_data', [])) for t in data.get('extracted_tables', []))
-                    print(f"[OK] Successfully extracted {num_tables} tables ({total_rows} total rows) from code block {i+1}!")
-                    return data
-                else:
-                    print(f"[DEBUG] Code block {i+1} is JSON but not extraction result")
-                    
-            except json.JSONDecodeError as e:
-                print(f"[DEBUG] Code block {i+1} JSON parse error: {e}")
-                # Save the problematic JSON for debugging
-                debug_file = OUTPUT_DIR / f"debug_json_block_{i+1}.txt"
-                with open(debug_file, 'w', encoding='utf-8') as f:
-                    f.write(json_text[:5000])  # Save first 5000 chars
-                print(f"[DEBUG] Saved problematic JSON to: {debug_file}")
-                continue
-            except Exception as e:
-                print(f"[DEBUG] Unexpected error with block {i+1}: {e}")
-                continue
-        
-        print("[WARNING] Found code blocks but couldn't parse any as valid extraction JSON")
-        return None
+        except json.JSONDecodeError as e:
+            print(f"[ERROR] JSON parse error: {e}")
+            # Save the problematic JSON for debugging
+            debug_file = OUTPUT_DIR / f"debug_json_parse_error.txt"
+            with open(debug_file, 'w', encoding='utf-8') as f:
+                f.write(f"Error: {e}\n\n")
+                f.write(f"JSON text (first 10000 chars):\n{json_text[:10000]}")
+            print(f"[ERROR] Saved problematic JSON to: {debug_file}")
+            return None
+        except Exception as e:
+            print(f"[ERROR] Unexpected error: {e}")
+            return None
         
     except Exception as e:
         print(f"[ERROR] Failed to extract JSON from page: {e}")
