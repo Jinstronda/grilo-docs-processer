@@ -262,10 +262,9 @@ async def process_single_pdf(page, pdf_path, contract_info):
     await page.wait_for_timeout(1000)
     await page.evaluate('window.scrollTo(0, 0)')
     
-    # Take initial screenshot (worker-specific to avoid conflicts)
-    worker_prefix = f"w{contract_info.get('worker_id', 0)}_"
-    await page.screenshot(path=str(OUTPUT_DIR / f'{worker_prefix}step1_initial.png'))
-    print(f"[OK] Screenshot saved: {worker_prefix}step1_initial.png")
+    # Screenshots disabled for performance
+    # worker_prefix = f"w{contract_info.get('worker_id', 0)}_"
+    # await page.screenshot(path=str(OUTPUT_DIR / f'{worker_prefix}step1_initial.png'))
     
     # The model should already be selected from the initial navigation
     # Just verify we're on a chat page
@@ -349,10 +348,9 @@ async def process_single_pdf(page, pdf_path, contract_info):
                 f"Please manually upload the PDF file:\n  {pdf_path}\n\nPress Enter when uploaded"
             )
         
-        # Take screenshot after upload
-        worker_prefix = f"w{contract_info.get('worker_id', 0)}_"
-        await page.screenshot(path=str(OUTPUT_DIR / f'{worker_prefix}step2_uploaded.png'))
-        print(f"[OK] Screenshot saved: {worker_prefix}step2_uploaded.png")
+        # Screenshots disabled for performance
+        # worker_prefix = f"w{contract_info.get('worker_id', 0)}_"
+        # await page.screenshot(path=str(OUTPUT_DIR / f'{worker_prefix}step2_uploaded.png'))
     
     # Try to find and fill prompt
     if TEST_MODE:
@@ -396,10 +394,9 @@ async def process_single_pdf(page, pdf_path, contract_info):
         else:
             print("[OK] Entered extraction prompt")
         
-        # Take screenshot
-        worker_prefix = f"w{contract_info.get('worker_id', 0)}_"
-        await page.screenshot(path=str(OUTPUT_DIR / f'{worker_prefix}step3_prompt_entered.png'))
-        print(f"[OK] Screenshot saved: {worker_prefix}step3_prompt_entered.png")
+        # Screenshots disabled for performance
+        # worker_prefix = f"w{contract_info.get('worker_id', 0)}_"
+        # await page.screenshot(path=str(OUTPUT_DIR / f'{worker_prefix}step3_prompt_entered.png'))
         
         # Click the Run button or press Ctrl+Enter automatically
         print("[INFO] Submitting prompt (trying Run button and Ctrl+Enter)...")
@@ -531,10 +528,9 @@ async def process_single_pdf(page, pdf_path, contract_info):
             "Wait for the AI to generate the response, then press Enter"
         )
     
-    # Take screenshot of response (AFTER waiting for streaming to complete)
-    worker_prefix = f"w{contract_info.get('worker_id', 0)}_"
-    await page.screenshot(path=str(OUTPUT_DIR / f'{worker_prefix}step4_response.png'))
-    print(f"[OK] Screenshot saved: {worker_prefix}step4_response.png")
+    # Screenshots disabled for performance
+    # worker_prefix = f"w{contract_info.get('worker_id', 0)}_"
+    # await page.screenshot(path=str(OUTPUT_DIR / f'{worker_prefix}step4_response.png'))
     
     # Extra wait to ensure page is fully stable after streaming
     await page.wait_for_timeout(3000)
