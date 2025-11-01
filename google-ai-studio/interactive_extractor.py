@@ -120,6 +120,12 @@ async def extract_json_from_page(page):
         
         print(f"[DEBUG] Body text length: {len(body_text)} characters")
         
+        # Check if body text is too small (only contains our prompt, not AI response)
+        if len(body_text) < 5000:
+            print("[WARNING] Body text too small - AI response not loaded into DOM yet")
+            print("[WARNING] This is normal during streaming - retry will wait longer")
+            return None
+        
         # Method 1: Try code blocks first (faster if available)
         result = await page.evaluate('''() => {
             const results = [];
