@@ -1,0 +1,137 @@
+{
+  "contract_id": "4e6dba4d-0a2f-ee29-419f-fc0efb804208",
+  "hospital_name": "Centro Hospitalar de Lisboa Central, EPE",
+  "year": 2013,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/Adenda-PMA-2013-CHLC.pdf",
+  "extraction_timestamp": "20251101_180616",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 2,
+        "table_data": [
+          {
+            "Tratamentos de infertilidade": "Consulta Apoio à Fertilidade (estudo inicial)",
+            "Quantidade": "576",
+            "Preço (€)": "92.00",
+            "Valor Total (€)": "52992.00"
+          },
+          {
+            "Tratamentos de infertilidade": "Indução da Ovulação (IO)",
+            "Quantidade": "100",
+            "Preço (€)": "138.00",
+            "Valor Total (€)": "13800.00"
+          },
+          {
+            "Tratamentos de infertilidade": "Inseminação Intra-Uterina (IIU)",
+            "Quantidade": "102",
+            "Preço (€)": "349.00",
+            "Valor Total (€)": "35598.00"
+          },
+          {
+            "Tratamentos de infertilidade": "Fertilização in vitro (FIV)",
+            "Quantidade": "137",
+            "Preço (€)": "2185.00",
+            "Valor Total (€)": "299345.00"
+          },
+          {
+            "Tratamentos de infertilidade": "Injecção intra-citoplasmática de espermatozóides (ICSI)",
+            "Quantidade": "288",
+            "Preço (€)": "2404.00",
+            "Valor Total (€)": "692352.00"
+          },
+          {
+            "Tratamentos de infertilidade": "Injecção intra-citoplasmática de espermatozóides recolhidos cirurgicamente (ICSI)",
+            "Quantidade": "14",
+            "Preço (€)": "3059.00",
+            "Valor Total (€)": "42826.00"
+          },
+          {
+            "Tratamentos de infertilidade": "Total",
+            "Quantidade": "",
+            "Preço (€)": "",
+            "Valor Total (€)": "1136913.00"
+          }
+        ]
+      },
+      {
+        "table_index": 1,
+        "page": 4,
+        "table_data": [
+          {
+            "Indicador": "1. (1ªs consultas de apoio à fertilidade / Consultas de apoio à fertilidade) X 100",
+            "Meta": "≥ 20%",
+            "Recolha": "Mensal"
+          },
+          {
+            "Indicador": "2. (Casais referenciados para FIV/ICSI / Novos casais entrados (aferidos pelo nº de primeiras consultas de apoio à fertilidade) ) X 100",
+            "Meta": "-",
+            "Recolha": "Mensal"
+          },
+          {
+            "Indicador": "3. Total de gravidezes / Total de ciclos de IO",
+            "Meta": "-",
+            "Recolha": "Mensal"
+          },
+          {
+            "Indicador": "4. Total de gravidezes / Total de IIU",
+            "Meta": "-",
+            "Recolha": "Mensal"
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "page": 4,
+        "table_data": [
+          {
+            "Indicador": "1. (1ªs consultas de apoio à fertilidade / Consultas de apoio à fertilidade) X 100",
+            "Meta": "≥ 20%",
+            "Recolha": "Mensal"
+          },
+          {
+            "Indicador": "2. (Casais referenciados para FIV/ICSI / Novos casais entrados (aferidos pelo nº de primeiras consultas de apoio à fertilidade) X 100",
+            "Meta": "-",
+            "Recolha": "Mensal"
+          },
+          {
+            "Indicador": "3. Total de gravidezes / Total de ciclos de IO",
+            "Meta": "-",
+            "Recolha": "Mensal"
+          },
+          {
+            "Indicador": "4. Total de gravidezes / Total de IIU",
+            "Meta": "-",
+            "Recolha": "Mensal"
+          },
+          {
+            "Indicador": "5. (Ciclos FIV/ICSI realizados ≤ 2 embriões transferidos / Ciclos FIV/ICSI que deram origem a transferência de embriões) X 100**",
+            "Meta": "95 a 100%",
+            "Recolha": "Mensal"
+          },
+          {
+            "Indicador": "6. (Partos resultantes de técnicas de FIV/ICSI / Ciclos realizados FIV/ICSI) X 100 **",
+            "Meta": "≥ 20% para mulheres < 35 anos",
+            "Recolha": "Trimestral"
+          },
+          {
+            "Indicador": "7. (Partos resultantes de técnicas de FIV/ICSI / Ciclos realizados FIV/ICSI) X 100 **",
+            "Meta": "≥ 15% para mulheres ≥ 35 anos",
+            "Recolha": "Trimestral"
+          },
+          {
+            "Indicador": "8. (Partos duplos resultantes de técnicas de FIV/ICSI / Partos resultado de técnicas de FIV/ICSI) X 100 **",
+            "Meta": "≤ 20%",
+            "Recolha": "Trimestral"
+          },
+          {
+            "Indicador": "9. (Partos triplos resultantes de técnicas de FIV/ICSI / Partos resultado de técnicas de FIV/ICSI) X 100 **",
+            "Meta": "≤ 1%",
+            "Recolha": "Trimestral"
+          }
+        ]
+      }
+    ]
+  }
+}

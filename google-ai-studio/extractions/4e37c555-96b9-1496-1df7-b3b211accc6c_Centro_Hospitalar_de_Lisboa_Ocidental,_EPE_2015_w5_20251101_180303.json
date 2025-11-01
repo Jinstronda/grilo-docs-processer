@@ -1,0 +1,855 @@
+{
+  "contract_id": "4e37c555-96b9-1496-1df7-b3b211accc6c",
+  "hospital_name": "Centro Hospitalar de Lisboa Ocidental, EPE",
+  "year": 2015,
+  "pdf_url": "https://www.acss.min-saude.pt//wp-content/uploads/2016/10/Adenda-ao-Acordo-Modificativo-2015-CHLO.pdf",
+  "extraction_timestamp": "20251101_180303",
+  "extraction_status": "success",
+  "data": {
+    "extracted_tables": [
+      {
+        "table_index": 0,
+        "page": 2,
+        "table_data": [
+          {
+            "Atividade Hospitalar": "1. Consultas Externas:",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Nº de 1ªs consultas médicas (s/ majoração)",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "72.22",
+            "Quantidade": "77929",
+            "Valor (€)": "5628032.38"
+          },
+          {
+            "Atividade Hospitalar": "Nº de 1ªs consultas referenciadas (CTH)",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "79.44",
+            "Quantidade": "31117",
+            "Valor (€)": "2471934.48"
+          },
+          {
+            "Atividade Hospitalar": "Nº de 1ªs consultas (Telemedicina)",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "79.44",
+            "Quantidade": "0",
+            "Valor (€)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "Nº de 1ªs consultas na comunidade (Saúde mental)",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "79.44",
+            "Quantidade": "1006",
+            "Valor (€)": "79916.64"
+          },
+          {
+            "Atividade Hospitalar": "N° de consultas subsequentes médicas (s/majoração)",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "70.12",
+            "Quantidade": "343860",
+            "Valor (€)": "24111463.20"
+          },
+          {
+            "Atividade Hospitalar": "Nº de consultas subsequentes (Telemedicina)",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "77.13",
+            "Quantidade": "0",
+            "Valor (€)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "N° de consultas subsequentes na comunidade (Saúde mental)",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "77.13",
+            "Quantidade": "14604",
+            "Valor (€)": "1126406.52"
+          },
+          {
+            "Atividade Hospitalar": "Valor Total das Consultas",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "33417753.22"
+          },
+          {
+            "Atividade Hospitalar": "2. Internamento:",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes Saídos",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Médicos",
+            "ICM": "1.1201",
+            "Doentes Equivalentes N.º": "15777",
+            "Doentes Equivalentes %": "97.02%",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "16262",
+            "Valor (€)": "40380103.44"
+          },
+          {
+            "Atividade Hospitalar": "GDH Cirúrgicos",
+            "ICM": "1.1201",
+            "Doentes Equivalentes N.º": "7223",
+            "Doentes Equivalentes %": "97.02%",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "7445",
+            "Valor (€)": "18486752.06"
+          },
+          {
+            "Atividade Hospitalar": "GDH Cirúrgicos Urgentes",
+            "ICM": "1.1201",
+            "Doentes Equivalentes N.º": "3469",
+            "Doentes Equivalentes %": "97.02%",
+            "Preço Unitário (€)": "2170.75",
+            "Quantidade": "3576",
+            "Valor (€)": "8434724.59"
+          },
+          {
+            "Atividade Hospitalar": "Dias de Internamento de Doentes Crónicos",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes Medicina Física e Reabilitação",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "205.10",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes de Psiquiatria Crónicos no Hospital",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "38.89",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes de Psiquiatria no Exterior (Ordens Religiosas)",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "39.17",
+            "Quantidade": "2210",
+            "Valor (€)": "86565.70"
+          },
+          {
+            "Atividade Hospitalar": "Doentes de Psiquiatria no Exterior (Outras Inst.) Instituições",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "39.17",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes Crónicos Ventilados",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "244.01",
+            "Quantidade": "365",
+            "Valor (€)": "89063.65"
+          },
+          {
+            "Atividade Hospitalar": "Doentes de Reabilitação Psicossocial",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "38.89",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Doentes Crónicos de Hansen",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "70.75",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Valor Total do Internamento",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "67477209.44"
+          },
+          {
+            "Atividade Hospitalar": "3. Episódios de GDH de Ambulatório:",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "GDH Cirúrgicos",
+            "ICM": "0.7005",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "2353.55",
+            "Quantidade": "7630",
+            "Valor (€)": "12579289.34"
+          },
+          {
+            "Atividade Hospitalar": "GDH Médicos",
+            "ICM": "0.2469",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "2285.00",
+            "Quantidade": "9469",
+            "Valor (€)": "5342092.59"
+          },
+          {
+            "Atividade Hospitalar": "Valor Total dos GDH de Ambulatório",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "17921381.93"
+          },
+          {
+            "Atividade Hospitalar": "4. Urgências:",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Atendimentos (SU - Polivalente)",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "107.59",
+            "Quantidade": "134666",
+            "Valor (€)": "14488714.94"
+          },
+          {
+            "Atividade Hospitalar": "Atendimentos (SU - Médico-Cirúrgica)",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "53.91",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Atendimentos (SU - Básica)",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "10.00",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Disponibilidade Serviço",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Valor Total dos Atendimentos Urgentes",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "14488714.94"
+          },
+          {
+            "Atividade Hospitalar": "5. Sessões em Hospital de Dia:",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Base",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "20.14",
+            "Quantidade": "11799",
+            "Valor (€)": "237631.86"
+          },
+          {
+            "Atividade Hospitalar": "Hematologia",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "293.52",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Imuno-Hemoterapia",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "293.52",
+            "Quantidade": "2506",
+            "Valor (€)": "735561.12"
+          },
+          {
+            "Atividade Hospitalar": "Psiquiatria",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "30.49",
+            "Quantidade": "7702",
+            "Valor (€)": "234833.98"
+          },
+          {
+            "Atividade Hospitalar": "Psiquiatria - Unidades Socio-Ocupacionais",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "30.49",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Valor Total do Hospital de Dia",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": "1208026.96"
+          },
+          {
+            "Atividade Hospitalar": "6. Programas de Gestão da Doença Crónica",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "VIH/Sida (doentes em TARC)",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "9165.60",
+            "Quantidade": "2125",
+            "Valor (€)": "19476900.00"
+          },
+          {
+            "Atividade Hospitalar": "Hipertensão Arterial Pulmonar - doentes em terapêutica",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Pré-tratamento/seguimento 1º ano",
+            "ICM": "",
+            "Doentes Equivalentes N.º": "",
+            "Doentes Equivalentes %": "",
+            "Preço Unitário (€)": "8408.28",
+            "Quantidade": "",
+            "Valor (€)": ""
+          },
+          {
+            "Atividade Hospitalar": "Seguimento após 1º ano CF≤ III",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "22555.56",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Seguimento após 1º ano CF IV",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "162563.40",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Esclerose múltipla - doentes em terapêutica modificadora",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "12379.80",
+            "Quantidade": "224",
+            "Valor (€)": "2773075.20"
+          },
+          {
+            "Atividade Hospitalar": "Tratamento de doentes c/ patologia oncológica - novos doentes",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Cancro da mama (1º ano)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "11148.96",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Cancro da mama (2º ano)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "4821.84",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Cancro do colon e reto (1º ano)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "13236.72",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Cancro do colon e reto (2º ano)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "4957.08",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Cancro do colo do útero (1º ano)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "10630.80",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Cancro do colo do útero (2º ano)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "2530.68",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Telemonotorização DPOC",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Elementos de Telemonitorização",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "1125.30",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Nº de doentes em tratamento (doente tratado/ano)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "2053.09",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Programa Terapêutico PAF1",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "PAF1 Doentes em tratamento (equivalente/ano)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "58358.74",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Doenças Lisossomais de Sobre Carga (doentes em tratamento/equivalente a no)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Doença de Gaucher",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "190617.10",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Doença de Fabry",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "158684.84",
+            "Quantidade": "1",
+            "Valor (€)": "158684.84"
+          },
+          {
+            "Atividade Hospitalar": "Doença de Hurler",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "193797.41",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Doença de Hunter",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "313750.26",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Doença de Maroteaux-Lamy",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "348668.83",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Doença de Niemann-Pick",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "39652.21",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Doença de Pompe",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "244106.20",
+            "Quantidade": "1",
+            "Valor (€)": "244106.20"
+          },
+          {
+            "Atividade Hospitalar": "7. PMA - Diagnóstico e Tratamento da Infertilidade",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Consultas de Apoio à Fertilidade",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "88.32",
+            "Quantidade": "0",
+            "Valor (€)": "0.00"
+          },
+          {
+            "Atividade Hospitalar": "Induções da Ovulação (IO)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "132.48",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Inseminações Intra-Uterinas (IIU)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "335.04",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Fertilizações In Vitro (FIV)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "2097.60",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Injecções Intra-Citoplasmáticas de Espermatozoides (ICSI)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "2307.84",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Injeções Intra-Citoplasmáticas de Espermatozoides recolhidos cirurgicamente (ICSI c/ recolha cirúrgica)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "2936.64",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "8. Saúde Sexual e Reprodutiva",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "IVG até 10 semanas",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Medicamentosa (n.º I.V.G.)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "283.10",
+            "Quantidade": "10",
+            "Valor (€)": "2831.00"
+          },
+          {
+            "Atividade Hospitalar": "Cirúrgica (n.º I.V.G.)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "368.61",
+            "Quantidade": "540",
+            "Valor (€)": "199049.40"
+          },
+          {
+            "Atividade Hospitalar": "Diagnóstico Pré-Natal",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Protocolo I",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "37.72",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Protocolo II",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "64.61",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "9. Sessões de Radioterapia",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Tratamentos simples",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "104.53",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Tratamentos complexos",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "250.92",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "10. Serviços Domiciliários",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "33.10",
+            "Quantidade": "341",
+            "Valor (€)": "11287.10"
+          },
+          {
+            "Atividade Hospitalar": "11. Lar (IPO)",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": "62.95",
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "12. Outros:",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": null
+          },
+          {
+            "Atividade Hospitalar": "Medicamentos de cedência hospitalar em ambulatório",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "4734199.83"
+          },
+          {
+            "Atividade Hospitalar": "Internos",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "1911570.12"
+          },
+          {
+            "Atividade Hospitalar": "Valor da Produção Contratada",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "164024790.18"
+          },
+          {
+            "Atividade Hospitalar": "Incentivos institucionais",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "8961470.19"
+          },
+          {
+            "Atividade Hospitalar": "Convergência",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "6243143.43"
+          },
+          {
+            "Atividade Hospitalar": "Valor Total do Contrato",
+            "ICM": null,
+            "Doentes Equivalentes N.º": null,
+            "Doentes Equivalentes %": null,
+            "Preço Unitário (€)": null,
+            "Quantidade": null,
+            "Valor (€)": "179229403.80"
+          }
+        ]
+      }
+    ]
+  }
+}

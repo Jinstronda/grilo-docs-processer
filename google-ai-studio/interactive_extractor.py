@@ -110,10 +110,10 @@ async def wait_for_user_action(page, message, timeout=300):
     print("[OK] Continuing...")
     await page.wait_for_timeout(1000)
 
-async def extract_json_from_page(page):
+async def extract_json_from_page(page, worker_id=0):
     """Extract JSON from the page - either code blocks OR body text"""
     try:
-        print("[INFO] Extracting JSON from AI response...")
+        print(f"[Worker {worker_id}] [INFO] Extracting JSON from AI response...")
         
         # FIRST: Check if AI has responded at all
         has_response = await page.evaluate('''() => {
@@ -128,11 +128,11 @@ async def extract_json_from_page(page):
         }''')
         
         if not has_response:
-            print("[WARNING] AI hasn't responded yet - Model section is empty or too small")
-            print("[WARNING] This means the message wasn't sent or AI is still thinking")
+            print(f"[Worker {worker_id}] [WARNING] AI hasn't responded yet - Model section is empty or too small")
+            print(f"[Worker {worker_id}] [WARNING] This means the message wasn't sent or AI is still thinking")
             return None
         
-        print("[INFO] AI response detected - extracting JSON...")
+        print(f"[Worker {worker_id}] [INFO] AI response detected - extracting JSON...")
         
         # Try to extract from Model's response section FIRST (most reliable)
         result = await page.evaluate('''() => {
@@ -169,11 +169,11 @@ async def extract_json_from_page(page):
         }''')
         
         if result and len(result) > 0:
-            print(f"[INFO] Found JSON in Model's response section")
+            print(f"[Worker {worker_id}] [INFO] Found JSON in Model's response section")
             json_text = result[0]
         else:
             # FALLBACK: Try clicking the Copy button
-            print("[INFO] DOM extraction failed - trying Copy button fallback...")
+            print(f"[Worker {worker_id}] [INFO] DOM extraction failed - trying Copy button fallback...")
             try:
                 # Find and click the copy button in the last Model section
                 copy_clicked = await page.evaluate('''() => {
@@ -195,16 +195,16 @@ async def extract_json_from_page(page):
                     # Get from clipboard
                     clipboard_text = await page.evaluate('() => navigator.clipboard.readText()')
                     if clipboard_text and 'extracted_tables' in clipboard_text:
-                        print("[OK] Got JSON from clipboard via Copy button!")
+                        print(f"[Worker {worker_id}] [OK] Got JSON from clipboard via Copy button!")
                         json_text = clipboard_text
                     else:
-                        print("[WARNING] Copy button clicked but no valid JSON in clipboard")
+                        print(f"[Worker {worker_id}] [WARNING] Copy button clicked but no valid JSON in clipboard")
                         return None
                 else:
-                    print("[WARNING] No Copy button found")
+                    print(f"[Worker {worker_id}] [WARNING] No Copy button found")
                     return None
             except Exception as e:
-                print(f"[WARNING] Copy button fallback failed: {e}")
+                print(f"[Worker {worker_id}] [WARNING] Copy button fallback failed: {e}")
                 return None
         
         # Clean and parse the JSON
@@ -227,97 +227,98 @@ async def extract_json_from_page(page):
             if last_brace != -1:
                 cleaned = cleaned[:last_brace + 1]
             
-            print(f"[DEBUG] Attempting to parse JSON ({len(cleaned)} characters)...")
+            print(f"[Worker {worker_id}] [DEBUG] Attempting to parse JSON ({len(cleaned)} characters)...")
             
             # Parse as JSON
             data = json.loads(cleaned)
             
             # VALIDATE TABLE STRUCTURE (not length!)
-            print("[INFO] Validating table structure...")
+            print(f"[Worker {worker_id}] [INFO] Validating table structure...")
             
             # Check 1: Has extracted_tables key
             if 'extracted_tables' not in data:
-                print("  ✗ No 'extracted_tables' key found")
+                print(f"[Worker {worker_id}]   ✗ No 'extracted_tables' key found")
                 return None
-            print("  ✓ Has 'extracted_tables' key")
+            print(f"[Worker {worker_id}]   ✓ Has 'extracted_tables' key")
             
             # Check 2: extracted_tables is a list
             tables = data.get('extracted_tables', [])
             if not isinstance(tables, list):
-                print("  ✗ 'extracted_tables' is not a list")
+                print(f"[Worker {worker_id}]   ✗ 'extracted_tables' is not a list")
                 return None
-            print(f"  ✓ 'extracted_tables' is a list ({len(tables)} tables)")
+            print(f"[Worker {worker_id}]   ✓ 'extracted_tables' is a list ({len(tables)} tables)")
             
             # Check 3: Not the prompt template
             json_str = json.dumps(data)
             is_template = '<page_number>' in json_str or '"column1"' in json_str or '"value1"' in json_str
             if is_template:
-                print("  ✗ This is the prompt template, not AI response!")
+                print(f"[Worker {worker_id}]   ✗ This is the prompt template, not AI response!")
                 return None
-            print("  ✓ Not a template")
+            print(f"[Worker {worker_id}]   ✓ Not a template")
             
             # Check 4: Validate each table has correct structure
             valid_tables = 0
             total_rows = 0
             for i, table in enumerate(tables):
                 if not isinstance(table, dict):
-                    print(f"  ⚠ Table {i} is not a dict - skipping")
+                    print(f"[Worker {worker_id}]   ⚠ Table {i} is not a dict - skipping")
                     continue
                 
                 # Each table should have table_data
                 if 'table_data' not in table:
-                    print(f"  ⚠ Table {i} missing 'table_data' - skipping")
+                    print(f"[Worker {worker_id}]   ⚠ Table {i} missing 'table_data' - skipping")
                     continue
                 
                 table_data = table.get('table_data', [])
                 if not isinstance(table_data, list):
-                    print(f"  ⚠ Table {i} 'table_data' is not a list - skipping")
+                    print(f"[Worker {worker_id}]   ⚠ Table {i} 'table_data' is not a list - skipping")
                     continue
                 
                 valid_tables += 1
                 total_rows += len(table_data)
             
-            print(f"  ✓ Valid structure: {valid_tables} valid tables, {total_rows} total rows")
+            print(f"[Worker {worker_id}]   ✓ Valid structure: {valid_tables} valid tables, {total_rows} total rows")
             
             # Even if no data rows, it's valid if structure is correct
             if len(tables) == 0:
-                print("  ℹ No tables found (may be legitimate - no tables in PDF)")
+                print(f"[Worker {worker_id}]   ℹ No tables found (may be legitimate - no tables in PDF)")
             
-            print(f"[OK] Structure validation passed! Extracted {valid_tables} tables ({total_rows} total rows)")
+            print(f"[Worker {worker_id}] [OK] Structure validation passed! Extracted {valid_tables} tables ({total_rows} total rows)")
             return data
                 
         except json.JSONDecodeError as e:
-            print(f"[ERROR] JSON parse error: {e}")
+            print(f"[Worker {worker_id}] [ERROR] JSON parse error: {e}")
             # Save the problematic JSON for debugging
-            debug_file = OUTPUT_DIR / f"debug_json_parse_error.txt"
+            debug_file = OUTPUT_DIR / f"debug_json_parse_error_w{worker_id}.txt"
             with open(debug_file, 'w', encoding='utf-8') as f:
+                f.write(f"Worker: {worker_id}\n")
                 f.write(f"Error: {e}\n\n")
                 f.write(f"JSON text (first 10000 chars):\n{json_text[:10000]}")
-            print(f"[ERROR] Saved problematic JSON to: {debug_file}")
+            print(f"[Worker {worker_id}] [ERROR] Saved problematic JSON to: {debug_file}")
             return None
         except Exception as e:
-            print(f"[ERROR] Unexpected error: {e}")
+            print(f"[Worker {worker_id}] [ERROR] Unexpected error: {e}")
             return None
         
     except Exception as e:
-        print(f"[ERROR] Failed to extract JSON from page: {e}")
+        print(f"[Worker {worker_id}] [ERROR] Failed to extract JSON from page: {e}")
         import traceback
         traceback.print_exc()
         return None
 
-async def process_single_pdf(page, pdf_path, contract_info):
+async def process_single_pdf(page, pdf_path, contract_info, worker_id=0):
     """Process a single PDF through Google AI Studio"""
-    print(f"\n{'='*80}")
+    print(f"\n[Worker {worker_id}] {'='*80}")
     
     if TEST_MODE:
-        print(f"TEST MODE: Testing JSON extraction")
-        print(f"Contract ID: {contract_info['id']} (for reference)")
+        print(f"[Worker {worker_id}] TEST MODE: Testing JSON extraction")
+        print(f"[Worker {worker_id}] Contract ID: {contract_info['id']} (for reference)")
     else:
-        print(f"Processing: {contract_info['hospital_name']} ({contract_info['year']})")
-        print(f"Contract ID: {contract_info['id']}")
-        print(f"PDF: {pdf_path}")
+        print(f"[Worker {worker_id}] Processing: {contract_info['hospital_name']} ({contract_info['year']})")
+        print(f"[Worker {worker_id}] Contract ID: {contract_info['id']}")
+        print(f"[Worker {worker_id}] PDF: {pdf_path}")
     
-    print(f"{'='*80}\n")
+    print(f"[Worker {worker_id}] {'='*80}\n")
     
     # Wait for page to load fully
     await page.wait_for_load_state('networkidle')
@@ -334,14 +335,14 @@ async def process_single_pdf(page, pdf_path, contract_info):
     
     # The model should already be selected from the initial navigation
     # Just verify we're on a chat page
-    print("[INFO] Verifying chat page loaded...")
+    print(f"[Worker {worker_id}] [INFO] Verifying chat page loaded...")
     await page.wait_for_timeout(2000)
     
     # Upload PDF (skip in test mode)
     if TEST_MODE:
-        print("[INFO] TEST MODE - Skipping PDF upload")
+        print(f"[Worker {worker_id}] [INFO] TEST MODE - Skipping PDF upload")
     else:
-        print(f"[INFO] Uploading PDF: {pdf_path}")
+        print(f"[Worker {worker_id}] [INFO] Uploading PDF: {pdf_path}")
     
     if not TEST_MODE:
         try:
@@ -351,21 +352,21 @@ async def process_single_pdf(page, pdf_path, contract_info):
             uploaded = False
             
             # Step 1: Click the "Insert assets" button at the bottom (the plus button)
-            print("[INFO] Step 1: Clicking 'Insert assets' button...")
+            print(f"[Worker {worker_id}] [INFO] Step 1: Clicking 'Insert assets' button...")
             try:
                 # Use the correct selector found via Chrome DevTools inspection
                 insert_button = page.get_by_role('button', name='Insert assets such as images')
                 await insert_button.click()
-                print("[OK] Clicked 'Insert assets' button")
+                print(f"[Worker {worker_id}] [OK] Clicked 'Insert assets' button")
                 await page.wait_for_timeout(1000)
                 plus_clicked = True
             except Exception as e:
-                print(f"[ERROR] Could not click Insert assets button: {e}")
+                print(f"[Worker {worker_id}] [ERROR] Could not click Insert assets button: {e}")
                 plus_clicked = False
             
             # Step 2 & 3: Click "Upload File" and handle file chooser
             if plus_clicked:
-                print("[INFO] Step 2: Clicking 'Upload File' and uploading...")
+                print(f"[Worker {worker_id}] [INFO] Step 2: Clicking 'Upload File' and uploading...")
                 try:
                     # Set up file chooser handler BEFORE clicking
                     async with page.expect_file_chooser() as fc_info:
@@ -572,8 +573,12 @@ async def process_single_pdf(page, pdf_path, contract_info):
                     
                     # Don't accept 0 size as "stable"
                     if current_size == 0:
-                        print(f"[INFO] JSON size: {current_size} chars - AI still generating response...")
+                        # Size 0 means AI hasn't generated JSON yet - don't count this check
+                        if check % 3 == 0:
+                            print(f"[INFO] JSON size: 0 chars - AI still generating, waiting...")
                         stable_count = 0
+                        # Don't increment check counter - keep waiting
+                        continue
                     elif current_size == last_size and current_size > 1000:
                         stable_count += 1
                         if stable_count >= 2:  # Stable for 2 checks (6 seconds)
@@ -583,18 +588,21 @@ async def process_single_pdf(page, pdf_path, contract_info):
                         stable_count = 0
                     
                     last_size = current_size
-                    if check % 3 == 0 and current_size > 0:  # Every 9 seconds (only if has content)
+                    if check % 3 == 0:  # Every 9 seconds
                         print(f"[INFO] JSON size: {current_size} chars (checking for stability...)")
                 
-                # Check if we actually got content
+                # Check if we actually got content after the loop
                 if last_size > 0:
                     # Final wait to be absolutely sure
                     await page.wait_for_timeout(5000)
                     response_detected = True
                     break
                 else:
-                    print("[WARNING] JSON size is 0 - AI hasn't responded yet, continuing to wait...")
-                    # Don't break, keep waiting
+                    # Loop ended but still size 0 - means AI hasn't responded in 30 seconds
+                    # Don't try extraction, just continue main waiting loop
+                    print("[WARNING] Streaming check complete but JSON size still 0")
+                    print("[WARNING] AI may not have responded yet - will check again in next poll")
+                    # Fall through to next iteration of main wait loop
                 
         except Exception as e:
             print(f"[DEBUG] Page check error (will retry): {e}")
@@ -688,8 +696,9 @@ async def process_single_pdf(page, pdf_path, contract_info):
     print("[DEBUG] ========== EXTRACTION DEBUG END ==========\n")
     
     # Try to extract JSON automatically
-    print("[INFO] Attempting to extract JSON from response...")
-    extracted_data = await extract_json_from_page(page)
+    worker_id = contract_info.get('worker_id', 0)
+    print(f"[Worker {worker_id}] [INFO] Attempting to extract JSON from response...")
+    extracted_data = await extract_json_from_page(page, worker_id)
     
     if extracted_data:
         print("[OK] Successfully extracted JSON automatically!")
@@ -911,11 +920,11 @@ async def worker_process_pdfs(context, worker_id, assigned_pdfs):
                     # Process or re-extract (depending on retry type)
                     if attempt == 0 or not result or not result.get('retry_same_page'):
                         # First attempt or fresh chat - full process
-                        result = await process_single_pdf(page, str(pdf_path), contract)
+                        result = await process_single_pdf(page, str(pdf_path), contract, worker_id)
                     else:
                         # Same page retry - just re-extract from existing response
                         print(f"[Worker {worker_id}] Re-extracting from existing response...")
-                        extracted_data = await extract_json_from_page(page)
+                        extracted_data = await extract_json_from_page(page, worker_id)
                         if extracted_data:
                             result = {'data': extracted_data, 'success': True}
                         else:
