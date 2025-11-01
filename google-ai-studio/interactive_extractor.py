@@ -530,6 +530,72 @@ async def process_single_pdf(page, pdf_path, contract_info):
     # Extra wait to ensure page is fully stable after streaming
     await page.wait_for_timeout(3000)
     
+    # DETAILED DEBUGGING - Check what's actually on the page
+    print("[DEBUG] ========== EXTRACTION DEBUG START ==========")
+    
+    debug_info = await page.evaluate('''() => {
+        const info = {
+            totalElements: {
+                regions: document.querySelectorAll('region[aria-label="JSON"]').length,
+                allRegions: document.querySelectorAll('[role="region"]').length,
+                codeTags: document.querySelectorAll('code').length,
+                buttons: document.querySelectorAll('button').length
+            },
+            jsonButtons: [],
+            codeBlocks: [],
+            bodyTextIncludes: {
+                extracted_tables: document.body.innerText.includes('extracted_tables'),
+                responseReady: document.body.innerText.includes('Response ready'),
+                jsonExtracted: document.body.innerText.includes('JSON EXTRACTED')
+            }
+        };
+        
+        // Find JSON buttons
+        const buttons = document.querySelectorAll('button');
+        buttons.forEach(btn => {
+            const text = btn.textContent || '';
+            if (text.includes('JSON')) {
+                info.jsonButtons.push({
+                    text: text.trim().substring(0, 50),
+                    ariaExpanded: btn.getAttribute('aria-expanded'),
+                    visible: btn.offsetParent !== null
+                });
+            }
+        });
+        
+        // Find code blocks with content
+        const codes = document.querySelectorAll('code');
+        codes.forEach((code, idx) => {
+            const text = code.textContent || code.innerText || '';
+            if (text.length > 50) {
+                info.codeBlocks.push({
+                    index: idx,
+                    length: text.length,
+                    hasExtractedTables: text.includes('extracted_tables'),
+                    preview: text.substring(0, 100)
+                });
+            }
+        });
+        
+        return info;
+    }''')
+    
+    print(f"[DEBUG] Page elements:")
+    print(f"  - Regions with aria-label='JSON': {debug_info['totalElements']['regions']}")
+    print(f"  - All regions: {debug_info['totalElements']['allRegions']}")
+    print(f"  - Code tags: {debug_info['totalElements']['codeTags']}")
+    print(f"[DEBUG] Body text contains:")
+    print(f"  - 'extracted_tables': {debug_info['bodyTextIncludes']['extracted_tables']}")
+    print(f"  - 'Response ready': {debug_info['bodyTextIncludes']['responseReady']}")
+    print(f"[DEBUG] JSON buttons found: {len(debug_info['jsonButtons'])}")
+    for btn in debug_info['jsonButtons']:
+        print(f"  - Text: '{btn['text']}', Expanded: {btn['ariaExpanded']}, Visible: {btn['visible']}")
+    print(f"[DEBUG] Code blocks with content: {len(debug_info['codeBlocks'])}")
+    for block in debug_info['codeBlocks'][:3]:  # Show first 3
+        print(f"  - Block {block['index']}: {block['length']} chars, has extracted_tables: {block['hasExtractedTables']}")
+        print(f"    Preview: {block['preview']}")
+    print("[DEBUG] ========== EXTRACTION DEBUG END ==========\n")
+    
     # Try to extract JSON automatically
     print("[INFO] Attempting to extract JSON from response...")
     extracted_data = await extract_json_from_page(page)
@@ -538,17 +604,25 @@ async def process_single_pdf(page, pdf_path, contract_info):
         print("[OK] Successfully extracted JSON automatically!")
         return {'data': extracted_data, 'success': True}
     else:
-        print("[WARNING] Could not extract JSON automatically")
+        print("[ERROR] EXTRACTION FAILED - But JSON should be on page!")
+        print("[ERROR] Check debug output above to see what was found")
         
         # Save page content for manual extraction
         content = await page.content()
         manual_file = OUTPUT_DIR / f"manual_extract_{contract_info['id']}.html"
         with open(manual_file, 'w', encoding='utf-8') as f:
             f.write(content)
-        print(f"[INFO] Page content saved to: {manual_file}")
+        print(f"[ERROR] Page content saved to: {manual_file}")
+        
+        # Save debug info too
+        debug_file = OUTPUT_DIR / f"debug_extract_{contract_info['id']}.txt"
+        with open(debug_file, 'w', encoding='utf-8') as f:
+            import json as json_mod
+            f.write(json_mod.dumps(debug_info, indent=2))
+        print(f"[ERROR] Debug info saved to: {debug_file}")
         
         # Mark as failed in database
-        print("[INFO] Marking extraction as failed in database...")
+        print("[ERROR] Marking extraction as failed - THIS SHOULD NOT HAPPEN!")
         
         return {'data': None, 'success': False}
 
