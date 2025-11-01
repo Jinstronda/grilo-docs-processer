@@ -126,17 +126,34 @@ async def extract_json_from_page(page):
             print("[WARNING] This is normal during streaming - retry will wait longer")
             return None
         
-        # Method 1: Try code blocks first (faster if available)
+        # Method 1: Extract from Model's response section ONLY (not User's prompt!)
         result = await page.evaluate('''() => {
             const results = [];
             
-            // Try all code elements
-            const allCodes = document.querySelectorAll('code');
+            // Find ONLY Model's response sections (not User's prompt)
+            const modelSections = document.querySelectorAll('[data-turn-role="Model"]');
             
-            for (const code of allCodes) {
+            if (modelSections.length === 0) {
+                return results;
+            }
+            
+            // Get the LAST model section (most recent AI response)
+            const lastModelSection = modelSections[modelSections.length - 1];
+            
+            // Try code blocks in this Model section
+            const codes = lastModelSection.querySelectorAll('code');
+            for (const code of codes) {
                 let text = code.textContent || code.innerText;
                 if (text && text.includes('extracted_tables') && text.trim().length > 50) {
                     results.push(text.trim());
+                }
+            }
+            
+            // If no code blocks, get all text from this Model section
+            if (results.length === 0) {
+                const modelText = lastModelSection.innerText || lastModelSection.textContent;
+                if (modelText && modelText.includes('extracted_tables')) {
+                    results.push(modelText);
                 }
             }
             
@@ -144,58 +161,13 @@ async def extract_json_from_page(page):
         }''')
         
         if result and len(result) > 0:
-            print(f"[INFO] Found {len(result)} code block(s) with JSON")
-            # Use code block extraction (original logic)
+            print(f"[INFO] Found JSON in Model's response section")
+            # Use extracted JSON from Model section
             json_text = result[0]
         else:
-            print("[INFO] No code blocks - extracting directly from body text...")
-            
-            # Method 2: Extract from body text directly
-            # Find the JSON object in the text
-            import re
-            
-            # Look for the pattern starting with { and containing extracted_tables
-            # Find start of JSON (opening brace before extracted_tables)
-            if 'extracted_tables' not in body_text:
-                print("[ERROR] 'extracted_tables' not found in body text!")
-                return None
-            
-            # Find LAST position of extracted_tables (AI response, not our prompt!)
-            et_pos = body_text.rfind('"extracted_tables"')  # Find LAST occurrence
-            if et_pos == -1:
-                et_pos = body_text.rfind("'extracted_tables'")
-            
-            # Scan backwards to find the opening {
-            start_pos = body_text.rfind('{', 0, et_pos)
-            if start_pos == -1:
-                print("[ERROR] Could not find opening brace before extracted_tables")
-                return None
-            
-            # Now count braces forward to find the matching closing }
-            brace_count = 0
-            end_pos = start_pos
-            
-            for i in range(start_pos, len(body_text)):
-                if body_text[i] == '{':
-                    brace_count += 1
-                elif body_text[i] == '}':
-                    brace_count -= 1
-                    if brace_count == 0:
-                        end_pos = i + 1
-                        break
-            
-            if brace_count != 0:
-                print(f"[ERROR] Unmatched braces - brace_count: {brace_count}")
-                return None
-            
-            json_text = body_text[start_pos:end_pos]
-            print(f"[INFO] Extracted JSON from body text ({len(json_text)} characters)")
-            
-            # CRITICAL CHECK: Make sure this isn't the prompt template!
-            if '<page_number>' in json_text or '"column1"' in json_text:
-                print("[ERROR] Extracted the PROMPT template, not the AI response!")
-                print("[ERROR] AI hasn't responded yet - body text too small")
-                return None
+            print("[WARNING] No JSON found in Model's response section")
+            print("[WARNING] AI may not have responded yet")
+            return None
         
         # Clean and parse the JSON
         try:
