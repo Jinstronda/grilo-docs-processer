@@ -701,33 +701,33 @@ async def process_single_pdf(page, pdf_path, contract_info, worker_id=0):
     extracted_data = await extract_json_from_page(page, worker_id)
     
     if extracted_data:
-        print("[OK] Successfully extracted JSON automatically!")
+        print(f"[Worker {worker_id}] [OK] Successfully extracted JSON automatically!")
         return {'data': extracted_data, 'success': True}
     else:
         # Check if JSON is in body text but not in code blocks yet
         if debug_info['bodyTextIncludes']['extracted_tables']:
-            print("[WARNING] JSON is in body text but not in code blocks - may still be rendering")
-            print("[INFO] This should be retried on the SAME page, not a new chat")
+            print(f"[Worker {worker_id}] [WARNING] JSON is in body text but not in code blocks - may still be rendering")
+            print(f"[Worker {worker_id}] [INFO] This should be retried on the SAME page, not a new chat")
             
             # Return a special status indicating we should retry WITHOUT starting new chat
             return {'data': None, 'success': False, 'retry_same_page': True}
         else:
-            print("[ERROR] EXTRACTION FAILED - JSON not even in body text!")
-            print("[ERROR] Check debug output above to see what was found")
+            print(f"[Worker {worker_id}] [ERROR] EXTRACTION FAILED - JSON not even in body text!")
+            print(f"[Worker {worker_id}] [ERROR] Check debug output above to see what was found")
             
             # Save page content for manual extraction
             content = await page.content()
             manual_file = OUTPUT_DIR / f"manual_extract_{contract_info['id']}.html"
             with open(manual_file, 'w', encoding='utf-8') as f:
                 f.write(content)
-            print(f"[ERROR] Page content saved to: {manual_file}")
+            print(f"[Worker {worker_id}] [ERROR] Page content saved to: {manual_file}")
             
             # Save debug info too
             debug_file = OUTPUT_DIR / f"debug_extract_{contract_info['id']}.txt"
             with open(debug_file, 'w', encoding='utf-8') as f:
                 import json as json_mod
                 f.write(json_mod.dumps(debug_info, indent=2))
-            print(f"[ERROR] Debug info saved to: {debug_file}")
+            print(f"[Worker {worker_id}] [ERROR] Debug info saved to: {debug_file}")
             
             return {'data': None, 'success': False, 'retry_same_page': False}
 
