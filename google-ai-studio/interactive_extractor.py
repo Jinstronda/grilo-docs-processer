@@ -451,9 +451,22 @@ async def process_single_pdf(page, pdf_path, contract_info):
             }''')
             
             if json_block_exists:
-                print("[OK] JSON code block detected - response is ready!")
+                print("[OK] JSON code block detected - waiting for streaming to complete...")
+                # Wait longer for JSON to finish streaming
+                await page.wait_for_timeout(15000)  # 15 seconds for large JSON to finish
+                
+                # Double-check it's stable by waiting for "Response ready"
+                try:
+                    page_text = await page.evaluate('() => document.body.innerText')
+                    if 'Response ready' in page_text:
+                        print("[OK] Response ready - extraction complete!")
+                    else:
+                        print("[INFO] Waiting additional time for streaming to finish...")
+                        await page.wait_for_timeout(10000)  # Additional 10 seconds
+                except:
+                    pass
+                
                 response_detected = True
-                await page.wait_for_timeout(2000)  # Give it a moment to finish rendering
                 break
                 
         except Exception as e:
