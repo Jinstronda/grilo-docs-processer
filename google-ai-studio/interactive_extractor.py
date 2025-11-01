@@ -164,6 +164,37 @@ async def extract_json_from_page(page):
             print(f"[INFO] Found JSON in Model's response section")
             # Use extracted JSON from Model section
             json_text = result[0]
+            
+            # VALIDATION CHECKS - Ensure we have complete, correct data
+            print("[INFO] Running validation checks...")
+            
+            # Check 1: Contains completion marker
+            has_marker = 'JSON EXTRACTED SUCCESSFULLY' in json_text or 'EXTRACTION DONE' in json_text
+            print(f"  ✓ Completion marker present: {has_marker}")
+            
+            # Check 2: Not the prompt template
+            is_template = '<page_number>' in json_text or '"column1"' in json_text or '"value1"' in json_text
+            if is_template:
+                print("  ✗ ERROR: This is the prompt template, not AI response!")
+                return None
+            print(f"  ✓ Not template: True")
+            
+            # Check 3: Has real data (actual hospital names, amounts, etc.)
+            # Template has simple examples like "value1", real data has complex text
+            has_real_data = any(indicator in json_text for indicator in ['€', 'Consultas', 'Hospital', 'GDH', 'Internamento', 'Urgência'])
+            print(f"  ✓ Has real data indicators: {has_real_data}")
+            
+            # Check 4: Minimum size (real extractions are usually 5k+ chars)
+            min_size = len(json_text) > 1000
+            print(f"  ✓ Size check ({len(json_text)} chars): {min_size}")
+            
+            # If critical checks fail, reject
+            if is_template or not min_size:
+                print("[ERROR] Validation failed - not accepting this extraction")
+                return None
+            
+            print("[OK] All validation checks passed!")
+            
         else:
             print("[WARNING] No JSON found in Model's response section")
             print("[WARNING] AI may not have responded yet")
