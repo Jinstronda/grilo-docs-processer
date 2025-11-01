@@ -154,10 +154,10 @@ async def extract_json_from_page(page):
                 print("[ERROR] 'extracted_tables' not found in body text!")
                 return None
             
-            # Find position of extracted_tables
-            et_pos = body_text.find('"extracted_tables"')
+            # Find LAST position of extracted_tables (AI response, not our prompt!)
+            et_pos = body_text.rfind('"extracted_tables"')  # Find LAST occurrence
             if et_pos == -1:
-                et_pos = body_text.find("'extracted_tables'")
+                et_pos = body_text.rfind("'extracted_tables'")
             
             # Scan backwards to find the opening {
             start_pos = body_text.rfind('{', 0, et_pos)
